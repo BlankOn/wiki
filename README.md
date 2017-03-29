@@ -1,6 +1,6 @@
 # Selamat Datang di Wiki Pengembangan BlankOn
 
-Silakan lihat halaman [Misi BlankOn] untuk memahami tujuan proyek ini.
+Silakan lihat halaman [Misi BlankOn](/MISI.md) untuk memahami tujuan proyek ini.
 
 BlankOn Linux merupakan salah satu distro Linux yang berisikan perangkat lunak (software) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distro ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
 
