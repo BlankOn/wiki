@@ -16,7 +16,7 @@ BlankOn Linux merupakan salah satu distro Linux yang berisikan perangkat lunak (
 <br>J: Tidak, BlankOn adalah distro turunan Debian, bukan remastering, karena punya paket dan repositori sendiri.
 1. T: Apakah BlankOn gratis?
 <br>J: Ya. BlankOn bisa Anda unduh dan gunakan secara gratis, tetapi tidak tertutup kemungkinan bagi Anda jika ingin memberikan donasi pada pengembangan BlankOn.
-1, T: Di mana saya bisa mendapatkan BlankOn?
+1. T: Di mana saya bisa mendapatkan BlankOn?
 <br>J: Anda bisa mengunduhnya di www.blankonlinux.or.id
 1. T: Apakah lisensi BlankOn?
 <br>J: BlankOn di bawah lisensi GPL.
