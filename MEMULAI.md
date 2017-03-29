@@ -88,8 +88,6 @@ Mailing List digunakan untuk berkoordinasi dan tanya jawab seputar pengembangan 
 
 Wiki digunakan untuk berkoordinasi dan mencatat pekerjaan - pekerjaan seputar pengembangan BlankOn, dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn.
 
-Wiki Pengembang BlankOn ada pada tautan Wiki Pengembang BlankOn , Untuk dapat menyunting wiki pengembang BlankOn Anda harus masuk sebagai pengguna dan mulai menyunting wiki.
-
 ### Trello
 
 ?
