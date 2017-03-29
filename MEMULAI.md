@@ -16,65 +16,65 @@ Jika ingin berpartisipasi dalam pengembangan BlankOn, anda dapat memilih satu at
 
 ### Tim Infrastruktur
 
-Tugas : Bertanggung jawab atas infrastruktur BlankOn Jika Anda suka dengan administrasi sistem, sedikit mempunyai kemampuan pemrograman tim ini cocok untuk Anda. Jika tertarik baca halaman tim Infrastruktur untuk memperoleh informasi lebih jauh tentang tim ini.
+Bertanggung jawab atas infrastruktur BlankOn Jika Anda suka dengan administrasi sistem, sedikit mempunyai kemampuan pemrograman tim ini cocok untuk Anda. Jika tertarik baca halaman tim Infrastruktur untuk memperoleh informasi lebih jauh tentang tim ini.
 
-Tautan : Tim Tim Infrastruktur
+Tautan : [Tim Infrastruktur](/tim_pengembang/INFRASTRUKTUR.md)
 
-## Tim Riset dan Aplikasi
+### Tim Riset dan Aplikasi
 
-Tugas : Bertanggung jawab atas aplikasi khas BlankOn, serta melakukan riset yang dibutuhkan fitur
+Bertanggung jawab atas aplikasi khas BlankOn, serta melakukan riset yang dibutuhkan fitur
 
 Tim ini melakukan penelitian dan pengembangan aplikasi - aplikasi terkait dengan pengembangan BlankOn atau aplikasi yang ingin diciptakan pada distribusi BlankOn. Jika anda menyukai pemrograman, tim ini sangat cocok untuk Anda. Untuk informasi lebih lanjut silakan membaca halaman tim Riset dan Aplikasi untuk memperoleh informasi lebih jauh.
 
-Tautan : Tim Riset dan Aplikasi
+Tautan : [Tim Riset dan Aplikasi](/tim_pengembang/RISET.md)
 
 ### Tim Pemaket
 
-Tugas : Bertanggung jawab memaketkan paket khas, impor, dan mentah
+Bertanggung jawab memaketkan paket khas, impor, dan mentah
 
 Tim Pemaket bertugas membuat dan merawat paket - paket yang ada pada distribusi BlankOn, baik paket impor, khas, maupun paket mentah. penjelasan dari paket - paket tersebut ada pada halaman pemaket, Anda dapat mempelajari lebih lanjut tentang tim pemaket ini pada halaman tim Pemaket.
 
 Jika anda menyukai pemrograman, dan tertarik dengan pemrograman, tim ini sangat cocok untuk anda.
 
-Tautan : Tim Pemaket
+Tautan : [Tim Pemaket](/tim_pengembang/PEMAKET.md)
 
 ### Tim Kesenian
 
-Tugas : Bertanggung jawab atas karya seni yang digunakan BlankOn.
+Bertanggung jawab atas karya seni yang digunakan BlankOn.
 
 Tim ini yang membuat gambar latar, tema BlankOn dan karya seni lainya yang ada pada proyek BlankOn. Jika anda suka menggambar, tertarik dengan dunia desain, tim ini sangat cocok untuk Anda.
 
 Apa - apa saja karya seni yang dapat dieksplorasi pada dunia pengembangan distribusi Linux dan dunia pengembangan perangkat lunak dapat anda temukan pada halaman tim Karya Seni.
 
-Tautan : Tim Kesenian
+Tautan : [Tim Kesenian](/tim_pengembang/KESENIAN.md)
 
 ### Tim Jaminan Kualitas
 
-Tugas : Bertanggung jawab memantau tiket berisi bug dan memastikan tiket ditutup serta melakukan pengetesan terhadap setiap aspek dari blankon agar hasil akhirnya dapat dijamin kualitasnya.
+Bertanggung jawab memantau tiket berisi bug dan memastikan tiket ditutup serta melakukan pengetesan terhadap setiap aspek dari blankon agar hasil akhirnya dapat dijamin kualitasnya.
 
 Tim ini merupakan Kontrol Kualitas dari distribusi BlankOn, setiap jahitan harus dilakukan pengetesan oleh tim Jaminan Kualitas. Tidak ada keahlian khusus untuk dapat bergabung dengan tim ini. Cukup mengerti dasar-dasar penggunaan komputer.
 
 Koneksi internet yang cukup memadai sangat membantu tugas tim Jaminan Kualitas. Bagaimana cara melakukan pengujian dapat anda pelajari selengkapnya pada halaman Tim Bug dan Tester.
 
-Tautan : Tim Jaminan Kualitas
+Tautan : [Tim Jaminan Kualitas](/tim_pengembang/JAMINANKUALITAS.md)
 
 ### Tim Dokumentasi
 
-Tugas : Bertanggung jawab atas dokumentasi rilis.
+Bertanggung jawab atas dokumentasi rilis.
 
 Jika Anda suka menulis, dan mempunyai minat pada bidang jurnalistik, tim ini sangat cocok untuk Anda, tugas tim Dokumentasi ini adalah membuat dan merawat dokumentasi untuk setiap rilis BlankOn. tata cara membuat Dokumentasi selanjutnya akan dijelaskan pada halaman tim Dokumentasi.
 
-Tautan : Tim Dokumentasi
+Tautan : [Tim Dokumentasi](/tim_pengembang/DOKUMENTASI.md)
 
 ### Tim Humas
 
-Tugas : Melakukan sosialisasi penggunaan dan pengembangan BlankOn
+Melakukan sosialisasi penggunaan dan pengembangan BlankOn
 
 Tidak ada keahlian khusus yang dibutuhkan untuk berpartisipasi dalam tim Humas, Tugas tim Humas adalah melakukan sosialisasi tidak hanya penggunaan tetapi juga pengembangan BlankOn itu sendiri.
 
 Detail tata cara berkoordinasi dalam tim Humas dapat anda temukan pada halaman Tim Humas.
 
-Tautan : Tim Humas
+Tautan : [Tim HUMAS](/tim_pengembang/HUMAS.md)
 
 ## Komunikasi dan Koordinasi Pengembang
 
