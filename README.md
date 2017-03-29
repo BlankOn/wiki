@@ -23,4 +23,4 @@ BlankOn Linux merupakan salah satu distro Linux yang berisikan perangkat lunak (
 
 # Bagaimana Berkontribusi
 
-BlankOn selalu terbuka menerima kontribusi dari Anda. Silakan lihat Tim Pengembang yang Anda minati. Jika Anda berminat menjadi Tim Pengembang BlankOn, silakan daftarkan diri Anda ke milis Pengembang BlankOn untuk memperkenalkan diri. Setelah itu Anda dapat meregistrasikan diri Anda ke situs ini. Untuk panduan memulai berkontribusi di proyek BlankOn Anda dapat membaca panduan berikut ini Memulai
+BlankOn selalu terbuka menerima kontribusi dari Anda. Silakan lihat Tim Pengembang yang Anda minati. Jika Anda berminat menjadi Tim Pengembang BlankOn, silakan daftarkan diri Anda ke milis Pengembang BlankOn untuk memperkenalkan diri. Setelah itu Anda dapat meregistrasikan diri Anda ke situs ini. Untuk panduan memulai berkontribusi di proyek BlankOn Anda dapat membaca panduan berikut ini [Memulai Berpartisipasi](/MEMULAI.md).
