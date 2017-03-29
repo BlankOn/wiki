@@ -28,7 +28,7 @@ Tim ini melakukan penelitian dan pengembangan aplikasi - aplikasi terkait dengan
 
 Tautan : Tim Riset dan Aplikasi
 
-## Tim Pemaket
+### Tim Pemaket
 
 Tugas : Bertanggung jawab memaketkan paket khas, impor, dan mentah
 
@@ -38,7 +38,7 @@ Jika anda menyukai pemrograman, dan tertarik dengan pemrograman, tim ini sangat 
 
 Tautan : Tim Pemaket
 
-## Tim Kesenian
+### Tim Kesenian
 
 Tugas : Bertanggung jawab atas karya seni yang digunakan BlankOn.
 
@@ -48,7 +48,7 @@ Apa - apa saja karya seni yang dapat dieksplorasi pada dunia pengembangan distri
 
 Tautan : Tim Kesenian
 
-## Tim Jaminan Kualitas
+### Tim Jaminan Kualitas
 
 Tugas : Bertanggung jawab memantau tiket berisi bug dan memastikan tiket ditutup serta melakukan pengetesan terhadap setiap aspek dari blankon agar hasil akhirnya dapat dijamin kualitasnya.
 
@@ -58,7 +58,7 @@ Koneksi internet yang cukup memadai sangat membantu tugas tim Jaminan Kualitas. 
 
 Tautan : Tim Jaminan Kualitas
 
-## Tim Dokumentasi
+### Tim Dokumentasi
 
 Tugas : Bertanggung jawab atas dokumentasi rilis.
 
@@ -66,7 +66,7 @@ Jika Anda suka menulis, dan mempunyai minat pada bidang jurnalistik, tim ini san
 
 Tautan : Tim Dokumentasi
 
-## Tim Humas
+### Tim Humas
 
 Tugas : Melakukan sosialisasi penggunaan dan pengembangan BlankOn
 
@@ -76,24 +76,28 @@ Detail tata cara berkoordinasi dalam tim Humas dapat anda temukan pada halaman T
 
 Tautan : Tim Humas
 
-# Komunikasi dan Koordinasi Pengembang
+## Komunikasi dan Koordinasi Pengembang
 
 Komunikasi pengembang dilakukan secara daring (dalam jaringan / online), media yang digunakan adalah :
 
-## Mailing List
+### Mailing List
 
 Mailing List digunakan untuk berkoordinasi dan tanya jawab seputar pengembangan BlankOn, Mailing list BlankOn ada pada ​Google Groups, untuk berlangganan mailing list pengembang BlankOn silakan menuju ke ​milis pengembang BlankOn
 
-## Wiki
+### Wiki
 
 Wiki digunakan untuk berkoordinasi dan mencatat pekerjaan - pekerjaan seputar pengembangan BlankOn, dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn.
 
 Wiki Pengembang BlankOn ada pada tautan Wiki Pengembang BlankOn , Untuk dapat menyunting wiki pengembang BlankOn Anda harus masuk sebagai pengguna dan mulai menyunting wiki.
 
-## Trello
+### Trello
 
 ?
 
-## Grup Telegram
+### IRC
+
+Kanal #blankon di Freenode. Catatan percakapan terekam oleh [http://irclog.blankon.in/](http://irclog.blankon.in/).
+
+### Grup Telegram
 
 ?
