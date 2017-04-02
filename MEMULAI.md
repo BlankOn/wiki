@@ -1,101 +1,96 @@
 # Memulai Berpartisipasi Pada Proyek BlankOn
 
-Pada halaman ini akan dijelaskan beberapa panduan untuk mengantarkan Anda memulai berpartisipasi pada proyek pengembangan BlankOn
+Pada halaman ini akan dijelaskan beberapa panduan untuk mengantarkan Anda memulai berpartisipasi pada proyek pengembangan BlankOn.
 
-## Tentang Pengembangan BlankOn
+## Pengembangan BlankOn
 
-Proyek BlankOn tidak hanya sekedar pembuatan distro, proyek ini merupakan sebuah gerakan Open Source yang muncul karena kepedulian dan keinginan untuk menjadi bangsa yang mandiri dan bisa menghasilkan produk - produk dalam negri dalam hal perangkat lunak. Dan juga kepedulian terhadap konten lokal dan pelestarian budaya yang dapat disentuh melalui perangkat lunak.
+Proyek BlankOn tidak hanya terbatas pada pembuatan distro, proyek ini merupakan sebuah gerakan *Open Source* yang muncul karena kepedulian dan keinginan untuk menjadi bangsa yang mandiri dan bisa menghasilkan produk-produk perangkat lunak dalam negeri. Proyek BlankOn juga merupakan kepedulian terhadap konten lokal dan pelestarian budaya yang dapat disentuh melalui perangkat lunak.
 
-Salah satu tujuan proyek BlankOn adalah meningkatkan kapasitas sumber daya lokal yang mampu dan kompeten didalam pengembangan perangkat lunak, selain pengembangan aplikasi juga mampu membungkus kedalam sebuah produk yang sudah dikemas menjadi sebuah distribusi Linux yang siap digunakan yang merupakan perangkat lunak bebas dan Open Source.
+Salah satu tujuan proyek BlankOn adalah meningkatkan kapasitas sumber daya lokal yang mampu dan kompeten didalam pengembangan perangkat lunak dan   aplikasi bebas dan *Open Source*, serta mampu membungkusnya ke dalam sebuah produk yang sudah dikemas menjadi sebuah distribusi Linux yang siap digunakan.
 
 ## Bagaimana Berpartisipasi
 
-Proyek BlankOn ini mempunyai beberapa tim yang saling terkait satu sama lain, setiap tim mempunyai wewenang dan tanggung jawab yang berbeda - beda, keahlian yang diperlukan untuk masing - masing tim juga berbeda - beda.
+Proyek BlankOn ini mempunyai beberapa tim yang saling terkait satu sama lain. Setiap tim mempunyai wewenang dan tanggung jawab yang berbeda-beda. Keahlian yang diperlukan untuk masing-masing tim juga berbeda-beda.
 
-Jika ingin berpartisipasi dalam pengembangan BlankOn, anda dapat memilih satu atau lebih dari tim yang ada, disesuaikan dengan minat dan bakat anda. Dibawah ini daftar tim yang ada disertai penjelasan singkat serta tautan menuju halaman tim masing - masing :
+Jika ingin berpartisipasi dalam pengembangan BlankOn, Anda dapat memilih satu atau lebih dari tim yang ada, disesuaikan dengan minat dan bakat Anda. Di bawah ini merupakan daftar tim-tim yang beserta penjelasan singkat serta tautan menuju halaman tim masing-masing;
 
 ### Tim Infrastruktur
 
-Bertanggung jawab atas infrastruktur BlankOn Jika Anda suka dengan administrasi sistem, sedikit mempunyai kemampuan pemrograman tim ini cocok untuk Anda. Jika tertarik baca halaman tim Infrastruktur untuk memperoleh informasi lebih jauh tentang tim ini.
+Tim Infrastruktur bertanggung jawab atas infrastruktur BlankOn.
+Jika Anda suka dengan administrasi sistem, sedikit mempunyai kemampuan pemrograman, tim ini cocok untuk Anda. Jika Anda tertarik, silakan baca [halaman tim Infrastruktur](/tim_pengembang/INFRASTRUKTUR.md) untuk memperoleh informasi lebih jauh tentang tim ini.
 
-Tautan : [Tim Infrastruktur](/tim_pengembang/INFRASTRUKTUR.md)
 
 ### Tim Riset dan Aplikasi
 
-Bertanggung jawab atas aplikasi khas BlankOn, serta melakukan riset yang dibutuhkan fitur
+Tim Riset dan Aplikasi bertanggung jawab atas aplikasi khas BlankOn, serta melakukan riset yang dibutuhkan fitur.
 
-Tim ini melakukan penelitian dan pengembangan aplikasi - aplikasi terkait dengan pengembangan BlankOn atau aplikasi yang ingin diciptakan pada distribusi BlankOn. Jika anda menyukai pemrograman, tim ini sangat cocok untuk Anda. Untuk informasi lebih lanjut silakan membaca halaman tim Riset dan Aplikasi untuk memperoleh informasi lebih jauh.
+Tim ini melakukan penelitian dan pengembangan aplikasi-aplikasi terkait dengan pengembangan BlankOn atau aplikasi yang ingin diciptakan pada distribusi BlankOn. Jika Anda menyukai pemrograman, tim ini sangat cocok untuk Anda. Untuk informasi lebih lanjut silakan membaca [halaman tim Riset dan Aplikasi](/tim_pengembang/RISET.md) untuk memperoleh informasi lebih jauh.
 
-Tautan : [Tim Riset dan Aplikasi](/tim_pengembang/RISET.md)
 
 ### Tim Pemaket
 
-Bertanggung jawab memaketkan paket khas, impor, dan mentah
+Tim Pemaket bertanggung jawab memaketkan paket khas, impor dan mentah.
 
-Tim Pemaket bertugas membuat dan merawat paket - paket yang ada pada distribusi BlankOn, baik paket impor, khas, maupun paket mentah. penjelasan dari paket - paket tersebut ada pada halaman pemaket, Anda dapat mempelajari lebih lanjut tentang tim pemaket ini pada halaman tim Pemaket.
+Tim Pemaket bertugas membuat dan merawat paket-paket yang ada pada distribusi BlankOn, baik paket impor, khas, maupun paket mentah. Penjelasan dari paket-paket tersebut ada pada halaman pemaket, Anda dapat mempelajari lebih lanjut tentang tim pemaket ini pada [halaman tim Pemaket](/tim_pengembang/PEMAKET.md).
 
-Jika anda menyukai pemrograman, dan tertarik dengan pemrograman, tim ini sangat cocok untuk anda.
+Jika Anda menyukai pemrograman, dan tertarik dengan pemrograman, tim ini sangat cocok untuk Anda.
 
-Tautan : [Tim Pemaket](/tim_pengembang/PEMAKET.md)
 
 ### Tim Kesenian
 
-Bertanggung jawab atas karya seni yang digunakan BlankOn.
+Tim Kesenian bertanggung jawab atas karya seni yang digunakan BlankOn.
 
-Tim ini yang membuat gambar latar, tema BlankOn dan karya seni lainya yang ada pada proyek BlankOn. Jika anda suka menggambar, tertarik dengan dunia desain, tim ini sangat cocok untuk Anda.
+Tim ini bertugas membuat gambar latar, tema BlankOn dan karya seni lainya yang ada pada proyek BlankOn. Jika Anda suka menggambar, tertarik dengan dunia desain, tim ini sangat cocok untuk Anda.
 
-Apa - apa saja karya seni yang dapat dieksplorasi pada dunia pengembangan distribusi Linux dan dunia pengembangan perangkat lunak dapat anda temukan pada halaman tim Karya Seni.
+Apa-apa saja karya seni yang dapat dieksplorasi pada dunia pengembangan distribusi Linux dan dunia pengembangan perangkat lunak dapat Anda temukan pada [halaman tim Kesenian](/tim_pengembang/KESENIAN.md).
 
-Tautan : [Tim Kesenian](/tim_pengembang/KESENIAN.md)
 
 ### Tim Jaminan Kualitas
 
-Bertanggung jawab memantau tiket berisi bug dan memastikan tiket ditutup serta melakukan pengetesan terhadap setiap aspek dari blankon agar hasil akhirnya dapat dijamin kualitasnya.
+Tim Jaminan Kualitas bertanggung jawab memantau tiket berisi *bug* dan memastikan tiket ditutup serta melakukan pengetesan terhadap setiap aspek dari BlankOn agar hasil akhirnya dapat dijamin kualitasnya.
 
-Tim ini merupakan Kontrol Kualitas dari distribusi BlankOn, setiap jahitan harus dilakukan pengetesan oleh tim Jaminan Kualitas. Tidak ada keahlian khusus untuk dapat bergabung dengan tim ini. Cukup mengerti dasar-dasar penggunaan komputer.
+Tim ini merupakan Kontrol Kualitas dari distribusi BlankOn. Setiap jahitan harus dites oleh tim Jaminan Kualitas. Tidak ada keahlian khusus untuk dapat bergabung dengan tim ini selain mengerti dasar-dasar penggunaan komputer.
 
-Koneksi internet yang cukup memadai sangat membantu tugas tim Jaminan Kualitas. Bagaimana cara melakukan pengujian dapat anda pelajari selengkapnya pada halaman Tim Bug dan Tester.
+Koneksi internet yang cukup memadai sangat membantu tugas tim Jaminan Kualitas. Bagaimana cara melakukan pengujian dapat Anda pelajari selengkapnya pada halaman [Tim Jaminan Kualitas](/tim_pengembang/JAMINANKUALITAS.md).
 
-Tautan : [Tim Jaminan Kualitas](/tim_pengembang/JAMINANKUALITAS.md)
 
 ### Tim Dokumentasi
 
-Bertanggung jawab atas dokumentasi rilis.
+Tim Dokumentasi bertanggung jawab atas dokumentasi rilis.
 
-Jika Anda suka menulis, dan mempunyai minat pada bidang jurnalistik, tim ini sangat cocok untuk Anda, tugas tim Dokumentasi ini adalah membuat dan merawat dokumentasi untuk setiap rilis BlankOn. tata cara membuat Dokumentasi selanjutnya akan dijelaskan pada halaman tim Dokumentasi.
+Jika Anda suka menulis dan mempunyai minat pada bidang jurnalistik, tim ini sangat cocok untuk Anda. Tugas tim Dokumentasi adalah membuat dan merawat dokumentasi untuk setiap rilis BlankOn. Tata cara membuat dokumentasi selanjutnya akan dijelaskan pada [halaman tim Dokumentasi](/tim_pengembang/DOKUMENTASI.md).
 
-Tautan : [Tim Dokumentasi](/tim_pengembang/DOKUMENTASI.md)
 
 ### Tim Humas
 
-Melakukan sosialisasi penggunaan dan pengembangan BlankOn
+Tim Humas bertugas melakukan sosialisasi penggunaan dan pengembangan BlankOn.
 
-Tidak ada keahlian khusus yang dibutuhkan untuk berpartisipasi dalam tim Humas, Tugas tim Humas adalah melakukan sosialisasi tidak hanya penggunaan tetapi juga pengembangan BlankOn itu sendiri.
+Tidak ada keahlian khusus yang dibutuhkan untuk berpartisipasi dalam tim Humas. Tugas tim Humas adalah melakukan sosialisasi penggunaan dan pengembangan BlankOn.
 
-Detail tata cara berkoordinasi dalam tim Humas dapat anda temukan pada halaman Tim Humas.
+Detail tata cara berkoordinasi dalam tim Humas dapat anda temukan pada [halaman Tim Humas](/tim_pengembang/HUMAS.md).
 
-Tautan : [Tim HUMAS](/tim_pengembang/HUMAS.md)
 
 ## Komunikasi dan Koordinasi Pengembang
 
-Komunikasi pengembang dilakukan secara daring (dalam jaringan / online), media yang digunakan adalah :
+Komunikasi pengembang BlankOn dilakukan secara daring (dalam jaringan / *online*), media yang digunakan adalah:
 
-### Mailing List
+### *Mailing List*
 
-Mailing List digunakan untuk berkoordinasi dan tanya jawab seputar pengembangan BlankOn, Mailing list BlankOn ada pada ​Google Groups, untuk berlangganan mailing list pengembang BlankOn silakan menuju ke ​milis pengembang BlankOn
+Mailing List digunakan untuk berkoordinasi dan tanya-jawab seputar pengembangan BlankOn, *Mailing list* BlankOn ada pada ​Google Groups, untuk berlangganan mailing list pengembang BlankOn silakan menuju ke ​[milis pengembang BlankOn](https://groups.google.com/forum/#!forum/blankon-dev)
 
 ### Wiki
 
-Wiki digunakan untuk berkoordinasi dan mencatat pekerjaan - pekerjaan seputar pengembangan BlankOn, dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn.
+Wiki digunakan untuk berkoordinasi dan mencatat pekerjaan-pekerjaan seputar pengembangan BlankOn, dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn.
 
 ### Trello
+Trello digunakan untuk berkoordinasi, membagi serta memantau daftar pekerjaan pengembangan BlankOn.
 
-?
+[Trello Pengembang BlankOn Uluwatu](https://trello.com/b/eKRi40cX/blankon-dev-uluwatu)
 
 ### IRC
-
-Kanal #blankon di Freenode. Catatan percakapan terekam oleh [http://irclog.blankon.in/](http://irclog.blankon.in/).
+Untuk komunikasi obrolan pada IRC dapat Anda temukan pada kanal #blankon di Freenode. Catatan percakapan terekam oleh [http://irclog.blankon.in/](http://irclog.blankon.in/).
 
 ### Grup Telegram
 
-?
+[Grup Telegram pengguna BlankOn](https://telegram.me/BlankOnLinux)
+
