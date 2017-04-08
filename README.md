@@ -2,7 +2,7 @@
 
 Silakan lihat halaman [Misi BlankOn](/MISI.md) untuk memahami tujuan proyek ini.
 
-BlankOn Linux merupakan salah satu distro Linux yang berisikan perangkat lunak (software) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distro ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
+BlankOn Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat lunak (software) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distribusi ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
 
 ## Pertanyaan Umum
 
@@ -17,14 +17,20 @@ BlankOn Linux merupakan salah satu distro Linux yang berisikan perangkat lunak (
 1. T: Apakah BlankOn gratis?
 <br>J: Ya. BlankOn bisa Anda unduh dan gunakan secara gratis, tetapi tidak tertutup kemungkinan bagi Anda jika ingin memberikan donasi pada pengembangan BlankOn.
 1. T: Di mana saya bisa mendapatkan BlankOn?
-<br>J: Anda bisa mengunduhnya di www.blankonlinux.or.id
+<br>J: Anda bisa mengunduhnya di [blankonlinux.or.id](http://blankonlinux.or.id)
 1. T: Apakah lisensi BlankOn?
 <br>J: BlankOn di bawah lisensi GPL.
 
 # Bagaimana Berkontribusi
 
-BlankOn selalu terbuka menerima kontribusi dari Anda. Silakan lihat Tim Pengembang yang Anda minati. Jika Anda berminat menjadi Tim Pengembang BlankOn, silakan daftarkan diri Anda ke milis Pengembang BlankOn untuk memperkenalkan diri. Setelah itu Anda dapat meregistrasikan diri Anda ke situs ini. Untuk panduan memulai berkontribusi di proyek BlankOn Anda dapat membaca panduan berikut ini [Memulai Berpartisipasi](/MEMULAI.md).
+BlankOn selalu terbuka menerima kontribusi dari Anda. Hanya 3 syarat yang diperlukan untuk menjadi pengembang BlankOn :
+
+1. Akses internet
+2. Kemauan yang kuat
+3. Kekonsistenan yang mantap
+
+Jika Anda berminat menjadi Tim Pengembang BlankOn, silakan daftarkan diri Anda ke milis Pengembang BlankOn untuk memperkenalkan diri. Setelah itu Anda dapat meregistrasikan diri Anda ke situs ini. Untuk panduan memulai berkontribusi di proyek BlankOn, Anda dapat membaca panduan berikut ini [Memulai Berpartisipasi](/MEMULAI.md).
 
 # Tentang Wiki ini
 
-Wiki ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/tim_pengembang/DOKUMENTASI.md). Jika ingin menyunting halaman Wiki, silakan mem-forking dan mengirim Pull Request.
+Wiki ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/tim_pengembang/DOKUMENTASI.md). Jika ingin menyunting halaman Wiki, silakan mem-forking dan mengirim *Pull Request*.
