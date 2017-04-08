@@ -16,5 +16,14 @@ Tim Dokumentasi BlankOn bertugas;
       - Panduan Kostumisasi
       - Dokumentasi Komunitas
       - Panduan-panduan Lainnya yang berhubungan dengan BlankOn.
-    
-Alur Kerja Dokumentasi
+      
+  2. Membuat presentasi
+  3. Membuat catatan rilis BlankOn
+  4. Menyediakan konten yang dibutuhkan oleh tim yang lain
+  5. Mengelola [wiki BlankOn][wikiblankon]
+  6. Mengelola [web panduan blankOn linux][webpanduanboi]
+  
+[Alur Kerja Dokumentasi](/alur_kerja_dokumentasi.md)
+
+[webpanduanboi](http://panduan.blankonlinux.or.id/)
+[wikiblankon](https://blankon.github.io/wiki/)
