@@ -1,7 +1,7 @@
-Panduan Menulis Wiki
+Panduan Migrasi Wiki
 =======================
 
-Sebelum menulis Wiki, Anda perlu [meneken Kontrak Darah][KontrakDarah] terlebih dahulu.
+Sebelum menulis Wiki, Anda perlu memiliki akun Github terlebih dahulu terlebih dahulu.
 
 1. Migrasi Wiki
 ---------------
