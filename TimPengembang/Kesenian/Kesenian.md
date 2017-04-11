@@ -20,12 +20,20 @@ Alur kerja tim Kesenian untuk setiap versi rilis BlankOn secara garis besar adal
 - Muhammad Irfan aka irfanpule
 - Ramadoni aka invaleed 
 
+#### Rilis Uluwatu
+-    Aris Winardi (Koordinator)
+-    Muhammad Irfan
+-    Ahmad Romadhon Hidayatullah
+-    Bayu Aji
+-    Ary Aldatama
+-    Vikko Okviandho
+ 
 ### Rapat Tim Kesenian
 
 Di channel IRC #blankon server irc.freenode.net , biasanya diumumkan via milis 
 
 ### Peraturan Tim Kesenian
-- Membuat akun di dev.blankonlinux.or.id dan menuliskan nama di halaman in dan halaman Tim Pengembang.
+- Membuat akun di dev.blankonlinux.or.id dan menuliskan nama di halaman ini dan halaman [Tim Pengembang](https://github.com/BlankOn/Uluwatu/blob/master/TEAM.md).
 - Rutin memantau wiki ini, berkoordinasi via #blankon at irc.freenode.net atau milis blankon-dev@…
 - Masuk ke Tim ini berarti menyetujui hasil karya yang disumbangkan untuk proyek ini dilisensikan di bawah GPL atau CC by SA (Silakan pilih salah satu)
 - Selalu sertakan source dari karya.

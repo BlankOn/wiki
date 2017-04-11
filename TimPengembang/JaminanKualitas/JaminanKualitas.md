@@ -24,7 +24,7 @@ Secara garis besar seperti berikut:
 - IRC log di irc.blankon.in 
 
 ### Peraturan Tim
-- Membaca aturan bergabung di JaminanKualitas/Bergabung.
+- Membaca [aturan bergabung di Jaminan Kualitas](/TimPengembang/JaminanKualitas/Bergabung.md).
 - Membuat akun di dev.blankonlinux.or.id dan mencantumkan nama di daftar anggota baik di halaman ini maupun halaman tim pengembang.
 - Memantau wiki ini secara rutin, berkoordinasi via #blankon at irc.freenode.net atau milis blankon-dev @ googlegroups.com
 - Mau belajar, bekerjasama dan saling mengisi dengan anggota tim lainnya.
@@ -42,3 +42,4 @@ Secara garis besar seperti berikut:
 - Perangkat Keras
 - Perangkat Virtual
 - Penguji paket otomatis 
+

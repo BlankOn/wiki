@@ -51,7 +51,7 @@ Tim ini cukup memiliki akses sudo.
 [Pbuilder Howto](https://wiki.ubuntu.com/PbuilderHowto) 
 
 #### Pohon Tim Infrastruktur
-![](/assets/images/infrastruktur.png)
+![](/Assets/Images/Infrastruktur.png)
 
 #### Diskusi
 

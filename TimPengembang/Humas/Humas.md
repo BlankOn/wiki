@@ -24,3 +24,4 @@ TODO : Deskripsi tugas
 ### Pesta Rilis
 
 Bertujuan memperkenalkan versi terbaru BlankOn yang bisa dikemas dalam berbagai bentuk kegiatan antara lain workshop, lokakarya, bimtek, seminar dan lomba-lomba. Materi utama dalam Pesta Rilis adalah presentasi filosifi tema dan tinjauan fitur baru.
+
