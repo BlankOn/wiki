@@ -52,6 +52,8 @@ Tim ini cukup memiliki akses sudo.
 
 #### Pohon Tim Infrastruktur
 ![](/assets/images/infrastruktur.png)
+
 #### Diskusi
 
 Ada pertanyaan? komentar? Tulis di sini.
+
