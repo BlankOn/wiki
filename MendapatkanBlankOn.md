@@ -23,3 +23,4 @@
   - Surabaya http://buaya.klas.or.id/blankon 
 
 Anda juga dapat mengunduh berkas iso blankon melalui torrent atau Jigdo 
+
