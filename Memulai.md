@@ -59,7 +59,7 @@ Koneksi internet yang cukup memadai sangat membantu tugas tim Jaminan Kualitas. 
 
 Tim Dokumentasi bertanggung jawab atas dokumentasi rilis.
 
-Jika Anda suka menulis dan mempunyai minat pada bidang jurnalistik, tim ini sangat cocok untuk Anda. Tugas tim Dokumentasi adalah membuat dan merawat dokumentasi untuk proyek maupun untuk rilis distribusi GNU/Linux. Tata cara membuat dokumentasi selanjutnya akan dijelaskan pada [halaman tim Dokumentasi](/TimPengembang/Dokumentasi/Dokumentasi.md).
+Jika Anda suka menulis dan mempunyai minat pada bidang jurnalistik, tim ini sangat cocok untuk Anda. Tugas tim Dokumentasi adalah membuat dan merawat dokumentasi untuk proyek maupun untuk rilis distribusi GNU/Linux. Tata cara membuat dokumentasi selanjutnya akan dijelaskan pada [halaman tim Dokumentasi](/wiki/TimPengembang/Dokumentasi/)
 
 ### Tim Humas
 
