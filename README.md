@@ -33,5 +33,5 @@ Jika Anda berminat menjadi Tim Pengembang BlankOn, silakan daftarkan diri Anda k
 
 # Tentang Wiki ini
 
-Wiki ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi.md). Jika ingin menyunting halaman Wiki, silakan mem-forking dan mengirim *Pull Request*.
+Wiki ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentsi/Dokumentasi.md). Jika ingin menyunting halaman Wiki, silakan mem-forking dan mengirim *Pull Request*.
 
