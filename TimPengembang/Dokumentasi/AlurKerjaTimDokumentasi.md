@@ -11,3 +11,4 @@ Tim Dokumentasi BlankOn diharapkan mempelajari dan dapat bekerja dengan;
  
 Adapun untuk rujukan bahasa, tim Dokumentasi BlankOn dimohon menggunakan KBBI (Kamus Besar Bahasa Indonesia). KBBI dapat dipasang pada BlankOn dengan cara mengetik perintah berikut ini pada Terminal
   > sudo apt-get install stardict-kbbi
+

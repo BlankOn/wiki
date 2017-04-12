@@ -31,24 +31,24 @@ Untuk melihat tampilan wiki, klik tab **Preview changes**
   3. Klik tombol **Create pull reques**
   4. Gulung layar sampai ke bagian bawah dan Klik tombol **Create pull reques** lagi.
 
-![](/assets/images/MigrasiWiki1.png) 1.Buka wiki lama yang akan dipindah.
+![](/Assets/Images/MigrasiWiki1.png) 1.Buka wiki lama yang akan dipindah.
   
-![](/assets/images/MigrasiWiki2.png) 2. Pilih isi halaman wiki tersebut.
+![](/Assets/Images/MigrasiWiki2.png) 2. Pilih isi halaman wiki tersebut.
 
-![](/assets/images/MigrasiWiki3.png) 3. Klik menu **File** > **Copy**.
+![](/Assets/Images/MigrasiWiki3.png) 3. Klik menu **File** > **Copy**.
 
-![](/assets/images/MigrasiWiki4.png) Klik ikon pensil untuk menyunting berkas.
+![](/Assets/Images/MigrasiWiki4.png) Klik ikon pensil untuk menyunting berkas.
 
-![](/assets/images/MigrasiWiki5.png) Klik pada kotak lembar kerja.
+![](/Assets/Images/MigrasiWiki5.png) Klik pada kotak lembar kerja.
 
-![](/assets/images/MigrasiWiki6.png) Tekan tombol Ctrl+V pada papak ketik untuk menempel isi salinan dari wiki lama.
+![](/Assets/Images/MigrasiWiki6.png) Tekan tombol Ctrl+V pada papak ketik untuk menempel isi salinan dari wiki lama.
 
-![](/assets/images/PreviewWiki.png) Pratinjau Wiki
+![](/Assets/Images/PreviewWiki.png) Pratinjau Wiki
 
-![](/assets/images/SimpanWiki.png) Ketik keterangan pada kotak lalu klik tombol **Propose file change**
+![](/Assets/Images/SimpanWiki.png) Ketik keterangan pada kotak lalu klik tombol **Propose file change**
 
-![](/assets/images/SimpanWiki2.png) Ketik tombol **Create pull request**
+![](/Assets/Images/SimpanWiki2.png) Ketik tombol **Create pull request**
 
-![](/assets/images/SimpanWiki3.png) Selesai
+![](/Assets/Images/SimpanWiki3.png) Selesai
 
 [KontrakDarah]:(assets/images/MenekenKontrakDarah.md)

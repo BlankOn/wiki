@@ -11,7 +11,7 @@
   - Semarang http://jaran.undip.ac.id/blankon/isoblankon/blankon-minimalist/
   - Solo http://mugos.ums.ac.id/pub/iso/Blankon/
   - Solo2 http://bos.fkip.uns.ac.id/pub/distro/blankon/
-  -  ... 
+  -  ...
 ## Repositori
 
   - Jakarta http://kambing.ui.edu/blankon/
@@ -22,4 +22,5 @@
   - Solo http://mugos.ums.ac.id/blankon/
   - Surabaya http://buaya.klas.or.id/blankon 
 
-Anda juga dapat mengunduh berkas iso blankon melalui torrent atau Jigdo 
+Anda juga dapat mengunduh berkas iso blankOn melalui Torrent atau Jigdo 
+
