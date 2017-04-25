@@ -23,7 +23,7 @@ Tim Dokumentasi BlankOn bertugas;
   7. Membuat dokumentasi Komunitas
 
   
-[Alur Kerja Dokumentasi](/TimPemaket/Dokumentasi/AlurKerjaTimDokumentasi.md)
+[Alur Kerja Dokumentasi](/TimPengembang/Dokumentasi/AlurKerjaTimDokumentasi.md)
 
 [webpanduanboi]:(http://panduan.blankonlinux.or.id/)
 [wikiblankon]:(https://blankon.github.io/wiki/)
