@@ -12,28 +12,35 @@
   - [Misi BlankOn](/Misi.md)
   - [Proyek](/Proyek.md)
   - [FAQ](/FAQ.md)
-  - Tim Pengembang
-	+ [Cara Bergabung](Memulai.md)
-	+ Dokumentasi
+  - **Tim Pengembang**
+	+ [**Cara Bergabung**](Memulai.md)
+
+	+ **Dokumentasi**
 	  - [Alur Kerja Tim Dokumentasi](/TimPengembang/Dokumentasi/AlurKerjaTimDokumentasi.md)
 	  - Catatan Rapat
 	    - [Rapat#1](/TimPengembang/Dokumentasi/CatatanRapat1.md)
 	    - [Rapat#2](/TimPengembang/Dokumentasi/CatatanRapat2.md)
 
-	+ [Humas](/TimPengembang/Dokumentasi/Humas.md)
+
+	+ [**Humas**](/TimPengembang/Humas/Humas.md)
+	
     	  - [Donasi](/TimPengembang/Dokumentasi/Humas/Donasi.md)
   	  - [Halaman-halaman Pemasaran](/TimPengembang/Dokumentasi/Humas/HalamanPemasaran.md)
       	  - [Presentasi-presentasi BlankOn](/TimPengembang/Dokumentasi/Humas/PresentasiBlankon.md)
        	  - [Berkas-berkas Proposal](/TimPengembang/Dokumentasi/Humas/Proposal.md)
        	  - [Sertifikasi](/TimPengembang/Dokumentasi/Humas/Sertifikasi.md)
       
-	+ [Infrastruktur](/TimPengembang/Infrastruktur/Infrastruktur.md)
-          	- [Halaman Infra](/TimPengembang/Infrastruktur/Infrastruktur.md)
-     		- [Daftar mesin](/TimPengembang/Infrastruktur/Infrastruktur.md)
-	+ [Jaminan Kualitas](/TimPengembang/JaminanKualitas/JaminanKualitas.md)
-	+ [Kesenian](/TimPengembang/Kesenian/Kesenian.md)
-	+ [Pemaket](/TimPengembang/Pemaket/Pemaket.md)
-	+ [Riset](/TimPengembang/Riset/Riset.md)
+	+ [**Infrastruktur**](/TimPengembang/Infrastruktur/Infrastruktur.md)
+           - [Halaman Infra](/TimPengembang/Infrastruktur/Infrastruktur.md)
+     	   - [Daftar mesin](/TimPengembang/Infrastruktur/Infrastruktur.md)
+		
+	+ [**Jaminan Kualitas**](/TimPengembang/JaminanKualitas/JaminanKualitas.md)
+	
+	+ [**Kesenian**](/TimPengembang/Kesenian/Kesenian.md)
+	
+	+ [**Pemaket**](/TimPengembang/Pemaket/Pemaket.md)
+	
+	+ [**Riset**](/TimPengembang/Riset/Riset.md)
 	
 - [**Produk BlankOn**](/README.md)
   - Distribusi BlankOn Linux ke-1
@@ -59,7 +66,7 @@
        
        Halaman2 wiki terkait distro
             Saya ngebayangin di bawah sini ada kelompok dokumentasi teknis ala archlinux, catatan oprekan, workaround dst
-        + BlankBanana (dir)
+        + BlankBanana
             README.md
         + BlankBerry
         + Data.boi
