@@ -15,7 +15,15 @@
 	    - catatan rapat y
 
 	+ Humas
+     - Donasi
+     - Halaman-halaman Pemasaran
+     - Presentasi-presentasi BlankOn
+     - Berkas2 proposal
+     - Sertifikasi
+      
 	+ Infrastruktur
+     - Halaman Infra
+     - Daftar mesin
 	+ JaminanKualitas
 	+ Kesenian
 	+ Pemaket
@@ -57,19 +65,3 @@
    - tantangan2 lama yang ada di wiki
    - Sayembara2
    
-        Infrastruktur (dir)
-            Halaman2 infra (banyak banget ini)
-            Daftar mesin
-            dst
-        Riset (dir)
-            xyz
-            dst
-        Humas (dir)
-            Donasi
-            Halaman2 Pemasaran
-            Presentasi2 BlankOn (dir)
-                items di bawah http://dev.blankonlinux.or.id/wiki/Konferensi
-                Pemasaran/PresentasiBlankon
-            Berkas2 proposal
-            Sertifikasi
-            dst
