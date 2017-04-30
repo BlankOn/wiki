@@ -22,8 +22,14 @@ Tim Dokumentasi BlankOn bertugas;
   6. Mengelola [web panduan blankOn linux][webpanduanboi]
   7. Membuat dokumentasi Komunitas
 
-  
+
 [Alur Kerja Dokumentasi](/TimPengembang/Dokumentasi/AlurKerjaTimDokumentasi.md)
+------------------------
+
+
+[Tim Pengembang BlankOn XI Uluwatu](https://github.com/BlankOn/Uluwatu/blob/master/TEAM.md)
+----------------------------------
+
 
 [webpanduanboi]:(http://panduan.blankonlinux.or.id/)
 [wikiblankon]:(https://blankon.github.io/wiki/)
