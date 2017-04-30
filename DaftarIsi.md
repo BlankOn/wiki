@@ -15,19 +15,15 @@
 	    - catatan rapat y
 
 	+ Humas
-          - Donasi
-          -  Halaman2 Pemasaran
-           - Presentasi2 BlankOn (dir)
-            -    items di bawah http://dev.blankonlinux.or.id/wiki/Konferensi
-             -   Pemasaran/PresentasiBlankon
-            - Berkas2 proposal
-            -Sertifikasi
-            - dst
-
+     - Donasi
+     - Halaman-halaman Pemasaran
+     - Presentasi-presentasi BlankOn
+     - Berkas2 proposal
+     - Sertifikasi
+      
 	+ Infrastruktur
-          - Halaman Infra
-          - Daftar mesin
-
+     - Halaman Infra
+     - Daftar mesin
 	+ JaminanKualitas
 	+ Kesenian
 	+ Pemaket
