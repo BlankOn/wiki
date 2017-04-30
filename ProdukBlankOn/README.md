@@ -9,7 +9,7 @@
   5. Nanggar
   6. Ombilin
   7. Pattimura
-  8. 
+  8. Rote
   9. Suroboyo
   10. Tambora
   11. Uluwatu (dalam proses pengembangan)
