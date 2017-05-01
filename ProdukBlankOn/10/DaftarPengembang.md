@@ -1,8 +1,10 @@
-#Tim Pengembang BlankOn X Tambora
+# Tim Pengembang BlankOn X Tambora
 ## Menejer Proyek
 • Mohammad Anwari (MDAMT)
+
 ## Menejer Rilis
 • Ahmad Haris
+
 ## Tim Pemaket
 • Mahyuddin (Koordinator)
 • Rahman Yusri Aftian (MahaDEV)
