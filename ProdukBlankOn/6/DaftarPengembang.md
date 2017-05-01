@@ -1,4 +1,5 @@
 # Tim Pengembang BlankOn 6 Ombilin
+Sumber: http://dev.blankonlinux.or.id/wiki/6/TimPengembang
 
 ## Tim Infrastruktur
 
