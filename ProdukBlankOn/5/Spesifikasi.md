@@ -23,12 +23,40 @@ Untuk target awal adalah membuat AddOnCd? untuk memenuhi kebutuhan warnet dan ko
   + Menambah materi pemasaran bagi tim pemasaran
   + memperluas alasan menggunakan blankon 
 
-**kurangan (masalah)**
+**Kekurangan (masalah)**
   + Tugas tim pemaket bertambah
   + Kebingungan pengguna karena banyaknya AddOnCD yang seharusnya menjadi nilai tambah 
   
 ## Spesifikasi BlankOnTweak
-    
+    Tiket spesifikasi: belum ada
+    Penanggung jawab: Mahyuddin Susanto (udienz) 
+
+**Ringkasan**
+
+BlankOn Tweak adalah turunan dari Ubuntu - Tweak yang di sesuaikan dengan BlankOn
+
+**Latar Belakang**
+
+Penggunaan ubuntu tweak sangat membantu pengguna dalam memodifikasi sistemnya, sehingga sistem tersebut easy to use untuk dirinya sendiri
+
+**Studi Kasus**
+
+Pengguna belum banyak yang tahu bagaimana men-*tweak* sistem mereka 
+
+**Rancangan & Implementasi**
+
+Mengubah parameter-parameter di sourcecode yang mengacu ke pada ubuntu agar di belokkan ke blankon. sehingga fitur yang sebelumnya di hilangkan karena di anggap bukan dari distro ubuntu di tampilkan lagi 
+
+**Permasalahan**
+
+  + SVG untuk program ini belum ada 
+  + Secara default BlankOn Tweak akan mendisable sourceeditor apabila isi dari /etc/issue bukan bernilai Ubuntu (Solved) 
+
+**Berkas Contoh**
+
++ http://dolanan.udienz.net/paket/blankon-tweak/ 
+
+
 ## Spesifikasi Cakram-pengaya
 
 ## Spesifikasi Cakram-pengaya Bisnis
