@@ -17,22 +17,21 @@
 
 	+ **Dokumentasi**
 	  - [Alur Kerja Tim Dokumentasi](/TimPengembang/Dokumentasi/AlurKerjaTimDokumentasi.md)
+	  - [Dokumentasi/Buku Panduan](/TimPengembang/Dokumentasi/PanduanBlankOn.md)
 	  - Catatan Rapat
 	    - [Rapat#1](/TimPengembang/Dokumentasi/CatatanRapat1.md)
 	    - [Rapat#2](/TimPengembang/Dokumentasi/CatatanRapat2.md)
 
-
-	+ [**Humas**](/TimPengembang/Humas/Humas.md)
-	
-    	  - [Donasi](/TimPengembang/Dokumentasi/Humas/Donasi.md)
-  	  - [Halaman-halaman Pemasaran](/TimPengembang/Dokumentasi/Humas/HalamanPemasaran.md)
-      	  - [Presentasi-presentasi BlankOn](/TimPengembang/Dokumentasi/Humas/PresentasiBlankon.md)
-       	  - [Berkas-berkas Proposal](/TimPengembang/Dokumentasi/Humas/Proposal.md)
-       	  - [Sertifikasi](/TimPengembang/Dokumentasi/Humas/Sertifikasi.md)
+    + [**Humas**](/TimPengembang/Humas/Humas.md)
+      - [Donasi](/TimPengembang/Dokumentasi/Humas/Donasi.md)
+      - [Halaman-halaman Pemasaran](/TimPengembang/Dokumentasi/Humas/HalamanPemasaran.md)
+      - [Presentasi-presentasi BlankOn](/TimPengembang/Dokumentasi/Humas/PresentasiBlankon.md)
+      - [Berkas-berkas Proposal](/TimPengembang/Dokumentasi/Humas/Proposal.md)
+      - [Sertifikasi](/TimPengembang/Dokumentasi/Humas/Sertifikasi.md)
       
 	+ [**Infrastruktur**](/TimPengembang/Infrastruktur/Infrastruktur.md)
-           - [Halaman Infra](/TimPengembang/Infrastruktur/Infrastruktur.md)
-     	   - [Daftar mesin](/TimPengembang/Infrastruktur/Infrastruktur.md)
+      - [Halaman Infra](/TimPengembang/Infrastruktur/Infrastruktur.md)
+      - [Daftar mesin](/TimPengembang/Infrastruktur/Infrastruktur.md)
 		
 	+ [**Jaminan Kualitas**](/TimPengembang/JaminanKualitas/JaminanKualitas.md)
 	
@@ -50,31 +49,26 @@
        + [Spesifikasi](/ProdukBlankOn/1/Spesifiksi.md)
        + [Artwork](/ProdukBlankOn/1/Arwork.md) 
 
-   - BlanKoding
+ - BlanKoding
        +  BlanKoding 01-01-2005 (md)
        +  BlanKoding 01-01-2006 (md)
-       +    dst
-       
-   - BlanKopdar
-       +     BlanKopdar 01-01-2007 (md)
-        +    dst
-  - BlanKonf
-       +     BlanKonf #1 (md)
-        +    BlanKonf #2 (md)
-	
-   -  BlankOn Racikan
-       
-       Halaman2 wiki terkait distro
-            Saya ngebayangin di bawah sini ada kelompok dokumentasi teknis ala archlinux, catatan oprekan, workaround dst
-        + BlankBanana
-            README.md
-        + BlankBerry
-        + Data.boi
-        + Ridon
-        + dst
 
+ - BlanKopdar
+       +     BlanKopdar 01-01-2007 (md)
+
+ - BlanKonf
+       +     BlanKonf #1 (md)
+       +    BlanKonf #2 (md)
+
+ -  BlankOn Racikan
+   - [Srimubil](/Srimubil.md)
+   - [BlankBanana](/README.md)
+   - BlankBerry
+   - Data.boi
+   - Ridon
+   - Halaman wiki terkait distro
 
 - [**Tantangan BlankOn**](/README.md)
-   - tantangan2 lama yang ada di wiki
-   - Sayembara2
-   
+   - Tantangan lama yang ada di wiki
+   - Sayembara
+
