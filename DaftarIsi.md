@@ -20,9 +20,9 @@
 	+ **Dokumentasi**
 	  - [Alur Kerja Tim Dokumentasi](/TimPengembang/Dokumentasi/AlurKerjaTimDokumentasi.md)
 	  - [Dokumentasi/Buku Panduan](/TimPengembang/Dokumentasi/PanduanBlankOn.md)
-	  - Catatan Rapat
-	    - [Rapat#1](/TimPengembang/Dokumentasi/CatatanRapat1.md)
-	    - [Rapat#2](/TimPengembang/Dokumentasi/CatatanRapat2.md)
+	  - Rapat
+	    - [DaftarRapat](/TimPengembang/Dokumentasi/DaftarRapat.md)
+	    - [CatatanRapat](/TimPengembang/Dokumentasi/CatatanRapat.md)
 
     + [**Humas**](/TimPengembang/Humas/Humas.md)
       - [Donasi](/TimPengembang/Dokumentasi/Humas/Donasi.md)
@@ -44,7 +44,7 @@
 	+ [**Riset**](/TimPengembang/Riset/Riset.md)
 	
 - [**Produk BlankOn**](/README.md)
-  - Distribusi BlankOn Linux ke-1
+  - Distribusi BlankOn Linux 1 Bianglala
        + [Catatan Rilis](/ProdukBlankOn/1/CatatanRilis.md)
        + [Daftar Pengembang](/ProdukBlankOn/1/DaftarPengembang.md)
        + [Daftar paket](/ProdukBlankOn/1/DaftarPaket.md)
