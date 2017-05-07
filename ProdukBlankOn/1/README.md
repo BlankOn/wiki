@@ -12,15 +12,17 @@ Isi persis sama dengan Gutsy, kecuali pada paket-paket berikut:
     * pidgin
     * firefox
 Paket-paket di atas diimpor dari Gutsy dan dikelola oleh pemaket BlankOn.
+
 **Hambatan**
-   1. Paket-paket berikut ini belum tersedia di repositori:
+Paket-paket berikut ini belum tersedia di repositori:
           o gnome-panel
           o pidgin
           o firefox
 
-**Lokasi unduh**
-
 Last_modified on 06/13/2008 05:03:03 PM
 
+
+## Rilis
+  * [Catatan Rilis](/ProdukBlankOn/1/CatatanRilis.md)
 
 
