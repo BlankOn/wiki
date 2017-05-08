@@ -1,4 +1,4 @@
-# Kesenian BlankOn Pattimura
+# Kesenian BlankOn 7 Pattimura
 
 [Rancangan Desktop](​http://dev.blankonlinux.or.id/wiki/Kesenian/MenujuPattimura/RancanganDesktop)
 [Plymouth](​http://dev.blankonlinux.or.id/wiki/Kesenian/MenujuPattimura/Plymouth)
