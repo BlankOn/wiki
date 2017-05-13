@@ -2,13 +2,13 @@
 
 Sesuai dengan hasil rapat tim Artis maka unsur warna yang digunakan pada _artwork_ Meuligoe adalah Hijau, dengan variasi hitam. Daftar hal-hal yang berbau tim kesenian dan siap dipasang (_fixed_) di distro dapat ditemukan di http://dev.blankonlinux.or.id/wiki/Artwork/Meuligoe .
 
-**Logo Baru**
+##Logo Baru
 ![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/logo-flat.png)
 ![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/logo-glassy.png)
 [​logo-blankon-flat.svg](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/logo-blankon-flat.svg)
 [logo-blankon-glassy.svg](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/logo-blankon-glassy.svg)
 
-**Boot Menu Logo**
+## Boot Menu Logo
 
 Ditangani Oleh : Ahmad Haris
 
@@ -21,7 +21,7 @@ Ukuran 640 x 320. Format .png dan .pcx.
 [.pcx donwload](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/boot-menu-logo.pcx)
 ​[.svg donwload](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/boot-menu-logo.svg)
 
-**Ubiquity Logo**
+## Ubiquity Logo
 
 Ditangani Oleh : Ahmad Haris
 
@@ -29,302 +29,214 @@ Ditangani Oleh : Ahmad Haris
 
 [​.svg download](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/logo-ubiquity.svg)
 
-**Usplash**
+## Usplash
 Ditangani Oleh : Ahmad Haris
 
 Background Hijau oleh Ali Kusnadi dengan lisensi CC
 
 Usplash atau user splash atau boot screen adalah tampilan grafis yang ditampilkan saat sistem operasi diload setelah grub.
 
-Langkah-langkah _ngetengin_ usplash :
-    1. Buatlah folder usplash di home Anda, terus unduh file ini disana, kemudian unzip :
+**Langkah-langkah _ngetengin_ usplash :**
+  1. Buatlah folder usplash di home Anda, terus unduh file ini disana, kemudian unzip :
        [Download](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/usplash.zip)
 
-    2. Buatlah berbagai gambar dengan menggunakan Gimp. Buatlah dengan berbagai resolusi (640x480, 1024x768, 1200x900, dan lain-lain), kemudian jadikan maksimal 256 warna indexed. 16-64 adalah batas yang normal dengan kemungkinan berhasil yang tinggi. Bagaimana untuk membuatnya _indexed_? Buka dengan Gimp, klik **Image** > **Mode** >**Indexed**, kemudaian atur warna.
+  2. Buatlah berbagai gambar dengan menggunakan Gimp. Buatlah dengan berbagai resolusi (640x480, 1024x768, 1200x900, dan lain-lain), kemudian jadikan maksimal 256 warna indexed. 16-64 adalah batas yang normal dengan kemungkinan berhasil yang tinggi. Bagaimana untuk membuatnya _indexed_? Buka dengan Gimp, klik **Image** > **Mode** >**Indexed**, kemudaian atur warna.
 
-    3. Simpan gambar kedalam folder usplash, beri nama usplash.png.
+  3. Simpan gambar kedalam folder usplash, beri nama usplash.png.
 
-    4. Buka Terminal, ketik:
+  4. Buka Terminal, ketik:
 >cd usplash/
 pngtousplash usplash.png > usplash.c
 pngtousplash throbber_back.png > throbber_back.c
 pngtousplash throbber_fore.png > throbber_fore.c
 
-    5. Kompail dari .c jadi .o
-gcc -g -Wall -fPIC -o usplash.o -c usplash.c
+  5. Kompail dari .c jadi .o
+> gcc -g -Wall -fPIC -o usplash.o -c usplash.c
 gcc -g -Wall -fPIC -o throbber_back.o -c throbber_back.c
 gcc -g -Wall -fPIC -o throbber_fore.o -c throbber_fore.c
 gcc -g -Wall -fPIC -o usplash-theme.o -c usplash-theme.c
 
-    6. Kompail dia jadi sered librari
-gcc -g -Wall -fPIC -shared -o usplash.so *.o
+  6. Kompail dia jadi sered librari
+> gcc -g -Wall -fPIC -shared -o usplash.so *.o
 
-    7. Kalau sudah selesai, saatnya dites. Anda bisa memilih, menggunakan cara laki-laki sejati atau cara enak. Cara enak, pasang startup
+  7. Kalau sudah selesai, saatnya dites. Anda bisa memilih, menggunakan cara laki-laki sejati atau cara enak. Cara enak, pasang startup
        manager di box anda. Cara laki-laki sejati, timpa saja file root-live/usr/lib/usplash/usplash-artwork.so dan initrd/usr/lib/usplash/usplash-artwork.so
 
    (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/usplash.png][usplash.png]
 
    (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/usplash.svg)[.svg donwload]
 
-**GDM**
+## GDM
 
    Diambil Alih oleh Blek
 
-   GDM atau juga dikenal dengan login window. Untuk hasil yang maksimal
-   pada login window, harap perhatikan :
-    1. Usahakan menggunakan gambar yang abstrak sebagai background.
-       Misalnya motif batik. Jangan menggunakan gambar rangka (ex : orang,
-       binatang), karna fokus user akan pecah antara gambar tersebut dan
-       loginbox.
+   GDM juga dikenal dengan _login window_. Untuk hasil yang maksimal pada _login window_, ada beberapa hal yang perlu diperhatikan :
+   1. Usahakan menggunakan gambar yang abstrak sebagai background.
+       Misalnya motif batik. Jangan menggunakan gambar rangka (misalnya: orang, binatang). Hal ini dapat membuat fokus user akan pecah antara gambar tersebut dan _loginbox_.
 
-    2. Hindari menaruh logo pada background image karna jika resolusi
-       monitor beda dengan gambar, maka gambar akan ketarik. ALternatif,
-       masukkan logo pada loginbox.
+   2. Hindari menaruh logo pada _background image_ karena jika resolusi monitor beda dengan gambar, maka gambar akan _ketarik_. ALternatif, masukkanlah logo pada _loginbox_.
 
-GDM Biasa
+### GDM Biasa
 
-     * Kinca
+**Kinca**
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/kincaprev.p
-     ng][kincaprev.png]
+![kincaprev.png](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/kincaprev.png)
+[Unduh](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/kinca.tar.gz)
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/kinca.tar.gz]​donglot
+#### GDM Minimalis
 
-GDM Minimalis
+**Sangadi**
+![gdm minimalis screen shoot](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sangadi-gdm-minimalis.png)
 
-     * Sangadi
+[Unduh](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sangadi.tar.gz)
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sangadi-gdm
-     -minimalis.png]gdm minimalis screen shoot
+## Session Splash
+Ditangani Oleh : Ahmad Haris
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/sangadi.tar.gz]​donglot
+Session Splach adalah splash screen kecil yang ditampilkan setelah user login untuk menunjukkan kegiatan loading aplikasi yang ikut diload saat sesi. Ukurannya adalah diatas 580 x 172 dengan maksimal batas 640x480. Sampel dapat Anda lihat di /usr/share/pixmaps/splash
 
-Session Splash
-
-   Ditangani Oleh : Ahmad Haris
-
-   Adalah splash screen kecil yang ditampilkan setelah user login untuk
-   menunjukkan kegiatan loading aplikasi yang ikut diload saat sesi.
-   Ukurannya adalah diatas 580 x 172 dengan maksimal batas 640x480. Sampel
-   bisa anda lihat di /usr/share/pixmaps/splash
-
-   (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/gnome-splash-h
+ (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/gnome-splash-h
    aris.png][gnome-splash-haris.png]
 
    (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/g
    nome-splash.svg]​Donlot tema ini
 
-Tema (gtk)
+## Tema (gtk)
 
    Ditangani Oleh : Blek
 
-Tema Biasa
+  + **Tema Biasa**
+    **Jao**
+![jao-preview.png](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/jao-preview.png)
 
-     * Jao:
+[Unduh](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/jao-theme.tar.gz)
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/jao-preview
-     .png][jao-preview.png]
+  + **Tema Minimalis**
+    **Menggunakan Tema Gulali**
+  [http://dev.blankonlinux.or.id/ticket/28](http://dev.blankonlinux.or.id/ticket/28) yang disempurnakan.
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/jao-theme.tar.gz]​Donlot tema ini
+![gulali-skrinsut.png](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/gulali-skrinsut.png)
 
-Tema Minimalis
+ Tester bisa ngunduh langsung lewat :
+ http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/Gulali-Hitam1.0.tar.gz
 
-     Menggunakan Tema Gulali
-     ((http://dev.blankonlinux.or.id/ticket/28]​http://dev.blankonlinux.o
-     r.id/ticket/28) yang disempurnakan.
+## Ikon
+Diambil alih oleh Blek
+**Rae**
+[](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/raeprev.jpg)[Rae Prev]
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/gulali-skri
-     nsut.png][gulali-skrinsut.png]
+[Unduh](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/rae.tar.gz)
 
-     Tester bisa ngunduh langsung lewat :
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/Gulali-Hitam1.0.tar.gz]​Donlot tema ini
+## Wallpaper
+Ditangani Oleh : Setan_666
 
-Ikon
+Untuk wallpaper, harap memperhatikan hal-hal berikut :
+  1. Hindari menggunakan gradiasi yang berlebihan atau berat. Untuk minimalis, tanpa_gradiasi adalah wajib.
 
-   Diambil alih oleh Blek
-     * Rae
+  2. Hindari garis-garis yang jelas. Samakan warna garis dengan tone atau gambar latar atau gambar di sebelahnya.
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/raeprev.jpg
-     ][raeprev.jpg]
+  3. Hindari perbedaan 2 warna bersisian yang signifikan
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/rae.tar.gz]​Download
+  4. Jika anda terpaksa atau harus melanggar poin 1 sampai 3, lakukan pada sisi kanan dari gambar menurut sudut pandang anda agar tidak mengganggu ikon di sebelah kiri.
 
-Wallpaper
+  5. Usahakan wallpaper dalam bentuk vektor, minimal ada bentuk vektornya.
 
-   Ditangani Oleh : Setan_666
+  6. Tiap-tiap wallpaper dibuat dalam 2 ukuran, yaitu normal dan widescreen. Jangan ada stretch.
 
-   Untuk wallpaper, harap memperhatikan hal-hal berikut :
-    1. Hindari menggunakan gradiasi yang berlebihan. Berat. Untuk
-       minimalis, tanpa_gradiasi adalah wajib.
+### **Wallpaper Biasa**
 
-    2. Hindari garis-garis yang jelas. Samakan warna garis dengan tone
-       atau gambar latar atau gambar di sebelahnya.
+  Source:http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/BlankOn-grafis-setan_666.svg
 
-    3. Hindari perbedaan 2 warna bersisian yang signifikan
+  * **Rumah (beta)**
+    ![download wallpaper rumah-normal size](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo     e/WallPaper_rumah_setan666_normal.png)
+     ![Download wallpaper rumah-widescreen](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/WallPaper_rumah_setan666_wide.png)
 
-    4. Jika anda terpaksa_atau_harus melanggar poin 1 sampai 3, lakukan
-       pada sisi kanan dari gambar menurut sudut pandang anda agar tidak
-       mengganggu ikon di sebelah kiri.
+     ![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/wall_rumah_prev.png)[Wallpaper rumah-upgrade]
 
-    5. Usahakan wallpaper dalam bentuk vektor, minimal ada bentuk
-       vektornya.
+  * **Rumah (usulan - Blek)**
 
-    6. Tiap tiap wallpaper dibuat dalam 2 ukuran, yaitu normal dan
-       widescreen. Jangan ada stretch.
+     Source: http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
+     e/rumah.svg
 
-Wallpaper Biasa
+     ![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/rumah_1280x1024.png)[Normal]
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/BlankOn-grafis-setan_666.svg]​source
+     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/rumah_1600x1000.png]​Widescreen
 
-     * Rumah (beta)
+### Wallpaper Minimalis
+Source wallpaper TariSaman: http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/WallpaperSaman-setan_666.svg 
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/WallPaper_rumah_setan666_normal.png]​download wallpaper
-     rumah-normal size
+  * Tari Saman (normal)
+     ![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/WallSaman_setan666-normal.png)[download wallpaper-normal size]
+![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/WallSaman_setan666-wide.png)[download wallpaper-wide screen]
+    ![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/WallSaman_setan666_.png)[WallSaman_setan666_.png]
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/WallPaper_rumah_setan666_wide.png]​download wallpaper rumah-wide
-     screen
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/wall_rumah_
-     prev.png]wallpaper rumah-upgrade
-
-     * Rumah (usulan - Blek)
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/rumah.svg]​sors
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/rumah_1280x1024.png]​Normal
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/rumah_1600x1000.png]​Widescreen
-
-Wallpaper Minimalis
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/WallpaperSaman-setan_666.svg]​source wallpaper TariSaman
-
-     * Tari Saman (normal)
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/WallSaman_setan666-normal.png]​download wallpaper-normal size
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/WallSaman_setan666-wide.png]​download wallpaper-wide screen
-
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/WallSaman_s
-     etan666_.png][WallSaman_setan666_.png]
-
-OO Splash
+## OO Splash
 
    Ditangani Oleh : Ahmad Haris
 
    Open Office splash screen
 
-   (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/openintro_meul
-   igoe.png][openintro_meuligoe.png]
+   (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/openintro_meuligoe.png][openintro_meuligoe.png]
 
-   (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/openabout_meul
-   igoe.png][openabout_meuligoe.png]
+   (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/openabout_meuligoe.png][openabout_meuligoe.png]
 
-Gimp Splash
+## Gimp Splash
+Ditangani Oleh : Setan_666
 
-   Ditangani Oleh : Setan_666
+Gimp Splash Screen Ukuran optimal untuk BlankOn adalah 300x350 pixel. Sampel bisa dilihat pada /usr/share/gimp/2.0/images
 
-   Gimp Splash Screen Ukuran optimal untuk
-   (http://dev.blankonlinux.or.id/wiki/BlankOn]BlankOn adalah 300x350 pixel. Sampel
-   bisa dilihat pada /usr/share/gimp/2.0/images
+(http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/gimpSplash.svg]​source Gimp-splash
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/gimpSplash.svg]​source Gimp-splash
+![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/gimp-splash.png)[GIMP-Splash Meuligoe]
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/gimp-splash
-     .png]GIMP-Splash Meuligoe
+## Sound
 
-Sound
+Suara untuk login dan logout, dan lain-lain. Format suara adalah wav. Usahakan stereo dan stereonya _maen_, bukan sekedar nyala dua spiker, tapi berlari antara spiker kanan dan kiri. Ngefek, gitu...
 
-   Suara untuk login dan logout, dan lain-lain. Format suara adalah wav.
-   Usahakan stereo dan stereonya maen, bukan sekedar nyala dua spiker,
-   tapi berlari antara spiker kanan dan kiri. Ngefek, gitu...
+## Konten Sampel
 
-Konten Sampel
+Berupa konten yang disertakan pada folder sampel. Terdiri dari :
+  * Template Presentasi, yaitu template yang berisi presentasi default tentang BlankOn. Isi bisa diambil dari situs resmi; http://dev.blankonlinux.or.id/wiki/BlankOn]BlankOn .
 
-   Berupa konten yang disertakan pada folder sampel. Terdiri dari :
+## Sampul CD
+Diambil alih blek dari hasil kerja hampir sempurna Setan_666
 
-Template Presentasi
+Sampul CD adalah desain dari sampul yang digunakan untuk membungkus CD/DVD BlankOn.
 
-   Adalah template berisi presentasi default apa itu
-   (http://dev.blankonlinux.or.id/wiki/BlankOn]BlankOn. Isi bisa diambil dari situs
-   resmi (http://dev.blankonlinux.or.id/wiki/BlankOn]BlankOn.
+Source: http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sampul-stiker-cd-dvd-meulioge.tar.gz
 
-Sampul CD
+![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sampulCD_tb.png)[sampul CD Meuligoe]
 
-   Diambil alih blek dari hasil kerja hampir sempurna Setan_666
+[Unduh](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/oo-sampul-dan-stiker-cd-dvd.odg)
 
-   Sampul CD adalah desain dari sampul yang digunakan untuk membungkus CD
-   / DVD (http://dev.blankonlinux.or.id/wiki/BlankOn]BlankOn.
+## Stiker CD
+Diambil alih blek dari hasil kerja hampir sempurna Setan_666
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/sampul-stiker-cd-dvd-meulioge.tar.gz]​source
+Stiker CD adalah stiker yang ditempel di media CD. Harap diperhatikan, sampul CD tidak sama dengan stiker CD.
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sampulCD_tb
-     .png]sampul CD Meuligoe
+![](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sticker_CD_tb.png)[sticker CD meuligoe]
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/oo-sampul-dan-stiker-cd-dvd.odg]​download
+[Unduh](http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sampul_cd_meuligoe.svg.tar.gz)
 
-Stiker CD
+## Musik atau sampel suara
+Saat ini kita masi berkutat di Laluna, kecuali ada diantara tim kesenian yang mau sumbang suara.
 
-   Diambil alih blek dari hasil kerja hampir sempurna Setan_666
+## File-file OO lainnya
+Ditangani oleh blek
 
-   Stiker CD adalah stiker yang ditempel di media CD. Harap diperhatikan,
-   sampul CD tidak sama dengan stiker CD.
+Misalnya persamaan matematik, dll.
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/sticker_CD_
-     tb.png]sticker CD meuligoe
+Ambil, lihat, upload, dlsb di sini:
 
-     (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligo
-     e/sampul_cd_meuligoe.svg.tar.gz]​download
+[Konten sample](http://dev.blankonlinux.or.id/wiki/Artwork/SampelKontent)
 
-Musik atau sampel suara
 
-   Saat ini kita masi berkutat di laluna, kecuali ada diantara tim
-   kesenian yang mau sumbang suara.
+## Attachments (81)
 
-File-file OO lainnya
-
-   Ditangani oleh blek
-
-   Misalnya persamaan matematik, dll.
-
-   Ambil, liat, aplot, dll dsbg di sini:
-
-   (http://dev.blankonlinux.or.id/wiki/Artwork/SampelKontent]​Konten_sampe
-   l
-   (http://dev.blankonlinux.or.id/wiki/Artwork/MenujuMeuligoe?action=diff&version=65]La
-   st modified 8 years ago Last modified on 12/04/2008 08:23:42 PM
-
-Attachments (81)
-
-     * (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/rumah.jpg]
-       rumah.jpg(http://dev.blankonlinux.or.id/raw-attachment/wiki/Artwork/MenujuMeulig
-       oe/rumah.jpg]​ (51.7 KB) - added by blaxnux 9 years ago.
-     * (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/jao-previe
-       w.png]jao-preview.png(http://dev.blankonlinux.or.id/raw-attachment/wiki/Artwork/
-       MenujuMeuligoe/jao-preview.png]​ (345.0 KB) - added by blaxnux 9
-       years ago.
-     * (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/rajah-prev
-       iew.png]rajah-preview.png(http://dev.blankonlinux.or.id/raw-attachment/wiki/Artw
-       ork/MenujuMeuligoe/rajah-preview.png]​ (326.2 KB) - added by
-       ahmadharis 9 years ago. "mohon dibantu buat preview yang lebih
-       bagus. :)"
+* http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/rumah.jpg
+* rumah.jpg: http://dev.blankonlinux.or.id/raw-attachment/wiki/Artwork/MenujuMeulig oe/rumah.jpg (51.7 KB) - added by blaxnux 9 years ago.
+* (http://dev.blankonlinux.or.id/raw-attachment/wiki/Artwork/MenujuMeuligoe/jao-preview.png (345.0 KB) - added by blaxnux 9 years ago.
+* (http://dev.blankonlinux.or.id/raw-attachment/wiki/Artwork/MenujuMeuligoe/rajah-preview.png] (326.2 KB) - added by ahmadharis 9 years ago.
      * (http://dev.blankonlinux.or.id/attachment/wiki/Artwork/MenujuMeuligoe/rajah-prev
        iew.jpg]rajah-preview.jpg(http://dev.blankonlinux.or.id/raw-attachment/wiki/Artw
        ork/MenujuMeuligoe/rajah-preview.jpg]​ (60.9 KB) - added by
@@ -638,15 +550,4 @@ Attachments (81)
        iki/Artwork/MenujuMeuligoe/logo-blankon-flat.svg]​ (63.9 KB) -
        added by ahmadharis 8 years ago.
 
-Download in other formats:
 
-     * (http://dev.blankonlinux.or.id/wiki/Artwork/MenujuMeuligoe?format=txt]Plain Text
-     __________________________________________________________________
-
-   (http://trac.edgewall.org/]Trac Powered
-
-   Powered by (http://dev.blankonlinux.or.id/about]Trac 1.0.1
-   By (http://www.edgewall.org/]Edgewall Software.
-
-   Fajar baru perangkat lunak legal dan kreatif, untuk, dan oleh anak
-   negeri
