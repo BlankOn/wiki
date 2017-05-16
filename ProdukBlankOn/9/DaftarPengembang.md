@@ -1,14 +1,14 @@
 # Tim Pengembang BlankOn X Tambora
 ## Menejer Proyek
-• Mohammad Anwari (MDAMT)
+• Mohammad Anwari
 
 ## Menejer Rilis
 • Ahmad Haris
 
 ## Tim Pemaket
 • Mahyuddin (Koordinator)
-• Rahman Yusri Aftian (MahaDEV)
-• Azis W Katamsi (Bayan Desa)
+• Rahman Yusri Aftian
+• Azis W Katamsi
 • Anto Samalona
 • Muhammad Miftakhul Syaikhuddin
 
@@ -32,7 +32,7 @@
 • Budi Wijaya
 • Darian Rizalludin
 • Kamas Muhammad
-• Rahman Yusri Aftian (mahadev)
+• Rahman Yusri Aftian
 
 ### Tim Jaminan Kualitas
 • Rahman Yusri Aftian
