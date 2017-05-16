@@ -18,15 +18,12 @@
 
 ## Tim Riset dan Aplikasi
    * Rabitya (​http://fitraditya.wordpress.com/) (Koordinator)
-   * prianthon ( Blog: ​http://blankonbanyumas.web.id/, Twitter: @prianthon,
-      Facebook: /TyuVicz? )
+   * prianthon ( Blog: ​http://blankonbanyumas.web.id/, Twitter: @prianthon, Facebook: /TyuVicz? )
    * wirama (Twitter: @wiramaswara, Blog: ​http://wiramaswara.blogspot.com)
    * adzymaniac (Twitter: @adzymaniac, Blog: ​http://adzymaniac.web.id)
-   * somat ( Blog: ​http://blog.somat.web.id, Twitter: @somatomat, Facebook: /
-      somatomat )
+   * somat ( Blog: ​http://blog.somat.web.id, Twitter: @somatomat, Facebook: /somatomat )
    * setiaji ( blog : ​http://setiaji.wordpress.com )
-   * Muhamad Novan Aulia Zam Zami ( Blog: ​http://novanauliazami.wordpress.com
-      Twitter: @novanauliazami )
+   * Muhamad Novan Aulia Zam Zami ( Blog: ​http://novanauliazami.wordpress.com, Twitter: @novanauliazami )
 
 ## Tim Pemaket
    * Mahyuddin Ramli (Koordinator) - twitter @DotoVR
@@ -47,13 +44,9 @@
    * AinulHakim
    * Agil Bayu Sagita (SMKN 1 Banyuwangi)
    * Arif Syamsudin | fb:buitenzorg812 | buitenzorg812
-   * EkoSuhartono ( Blog: ​http://www.ekosuhartono.com, Twitter: ​http://
-      tw.ekosuhartono.com, Facebook: ​http://fb.ekosuhartono.com, IRC: ecoz
-      kanal:#blankon-malang Paguyuban_Pengguna_BlankOn_Malang )
-   * Darian Rizaludin (Twitter: @darian_rizal | Facebook: Rijaluddin Darian |
-      YM: darianganteng@… | GT: Darian Rizaludin )
+   * EkoSuhartono ( Blog: ​http://www.ekosuhartono.com, Twitter: ​http://tw.ekosuhartono.com, Facebook: ​http://fb.ekosuhartono.com, IRC: ecoz  kanal:#blankon-malang Paguyuban_Pengguna_BlankOn_Malang )
+   * Darian Rizaludin (Twitter: @darian_rizal | Facebook: Rijaluddin Darian |  YM: darianganteng@… | GT: Darian Rizaludin )
    * mrclimis (M Andik Rahmawan | @mrclimis | Fb:andikrahmawan | Gt: mrclimis)
-
    * M.Nasrul Alawy (MAN Selong | @AlawyAnon? | Fb:Alawy Capoeira)
    * Rizaldy Ahmad | Lephex +_+ ( FB : Rizaldyvip )
    * Sasongko Bawono (Fb: Sasongko Bawono)
@@ -61,24 +54,18 @@
    * Muhammad Soleh | matthelosh[at]gmail.com
 
 ## Tim Dokumentasi
-   * Sokhibi aka Istana, (Koordinator) Blog: ​http://imgos-
-      belajarlinux.blogspot.com/ Twitter: ​https://twitter.com/sokhibi_imgos,
-   * Estu Fardani aka tuanpembual (Blog: ​http://
-      www.tuanpembual.wordpress.com)
+   * Sokhibi aka Istana, (Koordinator) Blog: ​http://imgos-belajarlinux.blogspot.com/ Twitter: ​https://twitter.com/sokhibi_imgos,
+   * Estu Fardani aka tuanpembual (Blog: ​http://www.tuanpembual.wordpress.com)
    * Pandu32
-   * Edi Sujono (Blog: ​http://www.abideni.blogspot.com | Twitter: @ediss2000
-      | Facebook: Edi Sujono)
-   * AdnanMaulana (Blog: ​http://www.adnanminisolution.blogspot.com/ |
-      Twitter: @adnanmaulana77 | Facebook: Adnan Maulana
+   * Edi Sujono (Blog: ​http://www.abideni.blogspot.com | Twitter: @ediss2000| Facebook: Edi Sujono)
+   * AdnanMaulana (Blog: ​http://www.adnanminisolution.blogspot.com/ |Twitter: @adnanmaulana77 | Facebook: Adnan Maulana
 
 ## Tim Humas
    * AinulHakim (Koordinator)(Twitter: mikahlunia | FB: AinulHakim ) | Bisnis
    * ArmanSatari (Twitter: ArmanStr? | FB: Arman.Satari)
-   * Randy Mandala aka Akai (Twitter: @akhrandy | Facebook :
-      mrandymandalaputra | Blog : ​http://randymandala.net )
+   * Randy Mandala aka Akai (Twitter: @akhrandy | Facebook : mrandymandalaputra | Blog : ​http://randymandala.net )
    * Cahyo Darujati (Twitter: @cahyod | Facebook: cahyo.darujati)
-   * Dinar Dirta Sulthoni (Twitter: Ttshirt7 | Facebook: nadinarhimaya |
-      Paguyuban: Sahabat BlankOn Semarang
+   * Dinar Dirta Sulthoni (Twitter: Ttshirt7 | Facebook: nadinarhimaya |Paguyuban: Sahabat BlankOn Semarang
    * xunilresu
    * Utian Ayuba (Twitter: utianayuba | Facebook: utianayuba)
    * Dicky B. Widhyatmoko (Twitter: medic_id | YM : d1cky2005)
@@ -86,3 +73,4 @@
    * Fanny
    * Ranindrastia a.k.a Neenu
    * YudhaSatya | Twitter: @blu3f4lc0n (Paguyuban_Pengguna_BlankOn_Malang)
+
