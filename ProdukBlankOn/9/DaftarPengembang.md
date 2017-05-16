@@ -8,7 +8,7 @@
    * yht
    * Kamas M (T: @bebekwaru | FB: kamas.muhammad)
    * Benediktus Anindito (benben159)
-   * Prakasa (T: @kkprakasa | FB: kaka.e.prakasa | blog: ​http:// pr4ka5a.wordpress.com )
+   * Prakasa (T: @kkprakasa | FB: kaka.e.prakasa | blog: http:// pr4ka5a.wordpress.com )
    * Njung ( Twitter: @ahn_njung | FB: URL-FB/njunjung)
    * Adem
    * Kurniadi (engkur_17)
