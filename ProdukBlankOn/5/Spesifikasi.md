@@ -1,4 +1,29 @@
-# Spesifikasi Nanggar
+# Spesifikasi BlankOn 5 Nanggar
+
+  + [Spesifikasi AddOnCD](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/AddOnCD)
+  + [Spesifikasi BlankOnTweak](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/BlankOnTweak)
+  + [Spesifikasi Cakram-pengaya](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Cakram-pengaya)
+  + [Spesifikasi Cakram-pengaya Bisnis](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Cakram-pengaya/Bisnis)
+  + [Spesifikasi Cakram-pengaya Keluarga](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Cakram-pengaya/Keluarga)
+  + [Spesifikasi Cakram-pengaya Pendidikan](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Cakram-pengaya/Pendidikan)
+  + [Spesifikasi Cakram-pengaya Pengembang](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Cakram-pengaya/Pengembang)
+  + [Spesifikasi Cakram-pengaya request](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Cakram-pengaya/request)
+  + [Spesifikasi Control Panel](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/ControlPanel)
+  + [Spesifikasi Ekiga](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Ekiga)
+  + [Spesifikasi Karya Seni](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/KaryaSeni)
+  + [Spesifikasi LXDE](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/LXDE)
+  + [Spesifikasi Rotasi Latar](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/RotasiLatar)
+  + [Spesifikasi Tema-Berdasarkan-Konteks](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/Tema-Berdasarkan-Konteks)
+  + [Spesifikasi VirtualBox](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/VirtualBox)
+  + [Spesifikasi WUBI](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/WUBI)
+  + [Spesifikasi ecofont](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/ecofont)
+  + [Spesifikasi gnome-minimalist](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/gnome-minimalist)
+  + [Spesifikasi kamus_offline](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/kamus_offline)
+  + [Spesifikasi nfs](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/nfs)
+  + [Spesifikasi openssh-server](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/openssh-server)
+  + [Spesifikasi sshfs](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/sshfs)
+  + [Spesifikasi usbstartup](http://dev.blankonlinux.or.id/wiki/5/Spesifikasi/usbstartup)
+
 
 ## Spesifikasi AddOnCD
 AddOnCD adalah cd repositori yang bersifat tematis. Contohnya akan ada AddOnCD Koperasi, AddOnCD Game, AddOnCD Studio dan sebagainya. Yang berisi berbagai paket yang memenuhi kebutuhan sesuai tema yang disandang oleh cd tersebut.
@@ -57,44 +82,3 @@ Mengubah parameter-parameter di sourcecode yang mengacu ke pada ubuntu agar di b
 + http://dolanan.udienz.net/paket/blankon-tweak/ 
 
 
-## Spesifikasi Cakram-pengaya
-
-## Spesifikasi Cakram-pengaya Bisnis
-
-## Spesifikasi Cakram-pengaya Keluarga
-
-## Spesifikasi Cakram-pengaya Pendidikan
-
-## Spesifikasi Cakram-pengaya Pengembang
-
-## Spesifikasi Cakram-pengaya request
-
-## Spesifikasi ControlPanel
-
-## Spesifikasi Ekiga
-
-## Spesifikasi KaryaSeni
-
-## Spesifikasi LXDE
-
-## Spesifikasi RotasiLatar
-
-## Spesifikasi Tema-Berdasarkan-Konteks
-
-## Spesifikasi VirtualBox
-
-## Spesifikasi WUBI
-
-## Spesifikasi ecofont
-
-## Spesifikasi gnome-minimalist
-
-## Spesifikasi kamus_offline
-
-## Spesifikasi nfs
-
-## Spesifikasi openssh-server
-
-## Spesifikasi sshfs
-
-## Spesifikasi usbstartup
