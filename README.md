@@ -37,3 +37,7 @@ Wiki ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan menca
 
 # [Daftar Isi](/DaftarIsi.md)
 
+# [Indeks](/Indeks.md)
+
+
+
