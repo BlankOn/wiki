@@ -9,7 +9,7 @@ Arsitektur dasar mengadopsi Debian dan Ubuntu
 
 **Paket tambahan**
 
-+ Desktop mobile
+ * Desktop mobile
  * Meego UX
 
 **Adaptasi**
