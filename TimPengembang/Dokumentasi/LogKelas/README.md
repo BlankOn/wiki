@@ -7,7 +7,7 @@
 
 [](/wiki/TimPengembang/Dokumentasi/LogKelas/)
 
-## Kelas Dokumentasi
+## Kelas Dokumentasi Uluwatu
 [Kelas Pembuatan Template Buku Panduan1](/wiki/TimPengembang/Dokumentasi/LogKelas/KelasPembuatanTemplateBukuPanduan1.md)
 
 [Kelas Pembuatan Template Buku Panduan2](/wiki/TimPengembang/Dokumentasi/LogKelas/KelasPembuatanTemplateBukuPanduan1.md)
@@ -19,3 +19,6 @@
 [Kelas Git Dan Github2](/wiki/TimPengembang/Dokumentasi/LogKelas/KelasGitDanGithub2.md)
 
 [Kelas?](/wiki/TimPengembang/Dokumentasi/LogKelas/Kelas?.md)
+
+## Arsip Kelas Dokumentasi
+[Lokakarya Cara Membuat Wiki](/wiki/TimPengembang/Dokumentasi/LogKelas/LokakaryaMembuatWiki.md)
