@@ -1,51 +1,27 @@
 # Panduan Menulis Wiki
-## WikiFormatting
-   1. WikiFormatting
-         1. Panduan_Dasar
-         2. Gaya_Huruf
-         3. Judul
-         4. Paragraf
-         5. Daftar
-         6. Daftar_Definisi
-         7. Teks_Terformat
-         8. Blok_Kutipan
-         9. Kutipan_Diskusi_/_Obrolan
-        10. Tabel
-               1. Tabel_Sederhana
-               2. Tabel_Rumit
-        11. Pranala
-        12. Trac_Links
-        13. Setting_Anchors
-        14. Escaping_Links_and_WikiPageNames
-        15. Gambar
-        16. Macros
-        17. Pemroses
-        18. Komentar
-        19. Lainnya
+
+Format Wiki Lama
+===============
+[TOC]
 
 Markup Wiki merupakan fitur utama pada Trac, metode ini sangat tepat untuk memadukan semua bagian dari Trac menjadi suatu kesatuan sehingga lebih baik dan
 fleksibel.
 
-Trac has a built in small and powerful wiki rendering engine. Mesin wiki ini
-yang mengimplementasikan perkembangan perintah dari wiki populer lainnya,
+Trac has a built in small and powerful wiki rendering engine. Mesin wiki ini yang mengimplementasikan perkembangan perintah dari wiki populer lainnya,
 terutama ​MoinMoin and ​WikiCreole.
-Halaman ini mencoba memberikan penjelasan secara mendalam tentang markup maupun
-format wiki yang diperbolehkan pada berbagai halaman wiki secara umum.
-Panduan Dasar di bawah ini memberi Anda gambaran singkat pada sintaks yang
-paling umum, setiap tautan pada kolom Kategori akan membawa Anda ke penjelasan
-yang lebih detail pada halaman ini.
-Beberapa halaman wiki lainnya menyajikan fitur yang canggih dan lebih mendalam
-dari markup wiki Trac:
-    * TracLinks mencakup semua cara yang mungkin untuk merujuk ke sumber daya
-      Trac atau bagiannya,
-    * WikiPageNames berisi berbagai nama halaman wiki dapat dipergunakan,
-      CamelCase atau tidak
-    * WikiMacros adalah daftar macro yang tersedia untuk menghasilkan konten
-      dinamis,
-    * WikiProcessors dan WikiHtml rincian bagaimana bagian-bagian dari teks
-      wiki dapat diproses dengan cara khusus
 
-***** Panduan Dasar *****
+Halaman ini mencoba memberikan penjelasan secara mendalam tentang markup maupun format wiki yang diperbolehkan pada berbagai halaman wiki secara umum.
+
+Panduan Dasar di bawah ini memberi Anda gambaran singkat pada sintaks yang paling umum, setiap tautan pada kolom Kategori akan membawa Anda ke penjelasan
+yang lebih detail pada halaman ini.
+
+Beberapa halaman wiki lainnya menyajikan fitur yang canggih dan lebih mendalam dari markup wiki Trac:
+    * TracLinks mencakup semua cara yang mungkin untuk merujuk ke sumber daya Trac atau bagiannya,
+    * WikiPageNames berisi berbagai nama halaman wiki dapat dipergunakan,CamelCase atau tidak
+    * WikiMacros adalah daftar macro yang tersedia untuk menghasilkan konten dinamis,
+    * WikiProcessors dan WikiHtml rincian bagaimana bagian-bagian dari teks wiki dapat diproses dengan cara khusus
+
+## Panduan Dasar
 Kategori        Markup Wiki                     Tampilan
                 '''tebal''', ''miring'',        tebal, miring, gaya Wikipedia
                 '''''gaya Wikipedia'''''
@@ -113,7 +89,7 @@ Komentar        Catatan untuk Editor: ...
 Lainnya         Garis \\ pisah                  pisah Garis
                 ----                            pisah
                                                 ===============================
-***** Gaya Huruf *****
+## Gaya Huruf
 The Trac wiki mendukung beberapa format gaya teks:
 Wiki Markup                             Tampilan
  * '''tebal''',
@@ -133,34 +109,34 @@ and                                           tebal
  * **tebal**, //miring//,                     (since 0.12)
    dan **'' tebal miring **'' //(sejak
 versi 0.12)//
+
 Catatan:
-    * {{{...}}} and `...` perintah tersebut tidak hanya berlaku untuk jenis
-      font monospace, tetapi juga berlaku untuk teks demi teks lainnya.
-    * ! menandai wiki untuk tidak mengambil karakter tersebut ("!") sebagai
-      format wiki, jangan lupa untuk menempatkan spasi setelah tanda seru
+    * {{{...}}} and `...` perintah tersebut tidak hanya berlaku untuk jenis font monospace, tetapi juga berlaku untuk teks demi teks lainnya.
+    * ! menandai wiki untuk tidak mengambil karakter tersebut ("!") sebagai format wiki, jangan lupa untuk menempatkan spasi setelah tanda seru
       ("!"), misalnya saat mengakhiri huruf tebal.
-    * Semua gaya format teks yang digunakan harus mempunyai tanda yang sama
-      sebagai pembuka dan penutup (misalnya, tanda '' huruf miring tidak dapat
-      dipasangkan dengan tanda //, dan tanda ''' tidak dapat dipasangkan dengan
-      tanda **). contoh yang salah : miringsedangkan contoh yang benar adalah :
+    * Semua gaya format teks yang digunakan harus mempunyai tanda yang sama sebagai pembuka dan penutup (misalnya, tanda '' huruf miring tidak dapat
+      dipasangkan dengan tanda //, dan tanda ''' tidak dapat dipasangkan dengan tanda **). contoh yang salah : miring sedangkan contoh yang benar adalah :
       miringatau
       miring
-***** Judul *****
-Kita dapat membuat sebuah judul dengan menggunakan satu hingga 6 simbol sama
-dengan ("=") dengan diikuti oleh sebuah spasi tunggal sebelum dan sesudah teks
+
+## Judul
+Kita dapat membuat sebuah judul dengan menggunakan satu hingga 6 simbol sama dengan ("=") dengan diikuti oleh sebuah spasi tunggal sebelum dan sesudah teks
 judul.
- Teks judul harus diikuti oleh jumlah simbol sama dengan ("=") didapan dan
-diakhir teks judul
+
+Teks judul harus diikuti oleh jumlah simbol sama dengan ("=") di depan dan di akhir teks judul
+
 Teks judul juga bisa diikuti dengan ID explicit.
+
 Wiki Markup                                       Tampilan
 = Judul =                                         ***** Subjudul *****
 == subjudul                                       **** Tentang pembuat ****
 === Tentang ''pembuat'' ===                       **** ID Explicit ****
 === ID Explicit === #using-explicit-id-in-heading ***** Subjudul *****
 == Subjudul #sub2
-***** Paragraf *****
-Kita dapat membuat sebuah teks paragraf baru dari dua buah blok teks yang
-dipisahkan oleh sebuah spasi berupa baris kosong.
+
+## Paragraf
+Kita dapat membuat sebuah teks paragraf baru dari dua buah blok teks yang dipisahkan oleh sebuah spasi berupa baris kosong.
+
 Sebuah spasi baris kosong dapat dimasukkan dengan cara :
 Wiki Markup          Tampilan
 Baris 1[[BR]]Baris 2      Baris 1
@@ -169,8 +145,10 @@ satu                      Paragraf
                           satu
 Paragraf                  Paragraf
 dua                       dua
-***** Daftar *****
+
+## Daftar
 Wiki mendukung gaya daftar penomoran dan daftar berbulir.
+
 Contoh:
 Wiki Markup                             Tampilan
  * Daftar 1                                 * Daftar 1
@@ -201,7 +179,7 @@ penomoran awal dengan membuat nomor     Daftar bernomor akan dimulai lagi dari
 eksplisit:                              penomoran awal dengan membuat nomor
  3. Daftar 3                            eksplisit:
                                            1. Daftar 3
-***** Daftar Definisi *****
+## Daftar Definisi
 Wiki mendukung daftar definisi.
 Wiki Markup                             Tampilan
  llama::                                  llama
@@ -210,13 +188,13 @@ berambut                                  ppython
  ppython::                                    some kind of reptile, without
    salah satu jenis hewan reptil, tidak       hair (can you spot the typo?)
 memiliki rambut
-Catatan bahwa dibutuhkan sebuah spasi kosong didepan teks yang akan
-didefinisikan.
-***** Teks Terformat *****
-Blok yang berisi teks terformat cocok untuk penulisan source code snippets,
-catatan dan contoh. Menggunakan tiga tanda kurung kurawal ("...") yang mengapit
-teks untuk menentukan sebuah teks kutipan. Kurung kurawal harus pada baris
-terpisah.
+
+Catatan bahwa dibutuhkan sebuah spasi kosong di depan teks yang akan didefinisikan.
+
+## Teks Terformat
+Blok yang berisi teks terformat cocok untuk penulisan source code snippets, catatan dan contoh. Menggunakan tiga tanda kurung kurawal ("...") yang mengapit
+teks untuk menentukan sebuah teks kutipan. Kurung kurawal harus pada baris terpisah.
+
 Wiki Markup                 Tampilan
 {{{
 def HelloWorld():           def HelloWorld():
@@ -224,17 +202,18 @@ def HelloWorld():           def HelloWorld():
 }}}
 Catatan : Blok jenis ini juga digunakan untuk menyeleksi beberapa baris yang
 juga akan di proses WikiProcessors.
-***** Blok Kutipan *****
-Untuk menandai sebuah paragraf menjadi sebuah blok kutipan digunakan 2 buah
-spasi diawal teks kutipan tersebut.
+
+## Blok Kutipan
+Untuk menandai sebuah paragraf menjadi sebuah blok kutipan digunakan 2 buah spasi diawal teks kutipan tersebut.
+
 Wiki Markup                       Tampilan
 Paragraf                          Paragraf
   Ini adalah contoh teks kutipan.      Ini adalah contoh teks
                                        kutipan.
-***** Kutipan Diskusi / Obrolan *****
-Wiki mendukung kutipan diskusi atau kutipan dalam sebuah obrolan, seperti dalam
-sebuah tiket yang dikirim kepada para pengembang, area komentar dalam sebuah
+##  Kutipan Diskusi / Obrolan
+Wiki mendukung kutipan diskusi atau kutipan dalam sebuah obrolan, seperti dalam sebuah tiket yang dikirim kepada para pengembang, area komentar dalam sebuah
 post atau artikel dan seperti obrolan dalam email (">", ">>", dll.)
+
 Wiki Markup                              Tampilan
                                                    Ini adalah contoh
                                                    teks asli atau
@@ -245,14 +224,18 @@ berupa sebuah pertanyaan                           sebuah pertanyaan
 gaya penulisan dalam wiki.                        * Dapat menggunakan
                                                     beberapa jenis gaya
                                                     penulisan dalam wiki.
-***** Tabel *****
-**** Tabel Sederhana ****
+## Tabel
+
+### Tabel Sederhana
+
 tabel sederhana dapat dibuat dengan cara :
+
 Wiki Markup                Tampilan
 ||Cell 1||Cell 2||Cell 3|| Cell 1 Cell 2 Cell 3
 ||Cell 4||Cell 5||Cell 6|| Cell 4 Cell 5 Cell 6
-Judul Cell dapat menggunakan simbol '=' Catatan : simbol '=' harus menempel
-pada simbol pemisah sisi kanan dan kiri table, perhatikan contoh :
+
+Judul Cell dapat menggunakan simbol '=' Catatan : simbol '=' harus menempel pada simbol pemisah sisi kanan dan kiri table, perhatikan contoh :
+
 Wiki Markup                            Tampilan
 ||        ||= judul 1 =||= judul 2 =||      judul 1 judul 2
 ||= 0.10 =||  0.10.5   || 0.10.6dev || 0.10 0.10.5  0.10.6dev
@@ -292,12 +275,13 @@ Tampilan
      ini adalah kolom 1 ​tiket ini adalah kolom 2 ​Roadmap_Linux kolom 3
      baru                        BlankOn                             dan
                                                                      seterusnya
-**** Tabel Rumit ****
+### Tabel Rumit
 Jika kemungkinan yang ditawarkan oleh pembuatan tabel sederhana yang dijelaskan
 di atas tidak cukup untuk kebutuhan Anda, Anda dapat membuat tabel yang lebih
 rumit lagi seperti yang dijelaskan dengan menggunakanWikiProcessor_based
 tables.
-***** Pranala *****
+
+## Pranala
 Hyperlink secara otomatis dibuat untuk WikiPageNames dan URL. ! WikiPageLinks?
 dapat dinonaktifkan dengan mengawali tanda seru "!", seperti !WikiPageLink.
 Wiki Markup                            Tampilan
@@ -330,7 +314,8 @@ kasus yang jarang terjadi ketika Anda perlu untuk merujuk ke halaman yang
 dinamai makro (contoh tipikal TitleIndex, InterTrac dan interwiki), dengan
 menulis [[TitleIndex]] Anda benar-benar akan memanggil makro bukan
 menghubungkan ke halaman....
-***** Trac Links *****
+
+### Trac Links
 Halaman Wiki dapat merujuk kepada bagian lain dari Trac system. Halaman -
 halaman tersebut dapat merujuk kepada halaman tickets, reports, changesets,
 milestones, source files dan halaman wiki lainnya dengan format sebagai berikut
@@ -348,7 +333,8 @@ changeset:1                                     o Changesets: [Trac1] or Trac:
                                                   changeset:1
 Ada banyak cara Trac link, lihat TracLinks untuk informasi yang lebih mendalam
 dan referensi bagi semua resolvers standar link.
-***** Setting Anchors *****
+
+### Setting Anchors
 Anchors, atau lebih tepatnya berbicara, nama anchor dapat ditambahkan secara
 eksplisit di setiap tempat di halaman Wiki, dalam rangka untuk secara unik
 mengidentifikasi posisi dalam dokumen.
@@ -369,13 +355,15 @@ Wiki Markup                        Tampilan
 Point2:  [=#point2] Jump here
 For more complex anchors (e.g. when a custom title is wanted), one can use the
 Span macro, e.g. [[span(id=point2, class=wikianchor, title=Point 2, ^(2)^)]].
-***** Escaping Links and WikiPageNames *****
+
+### Escaping Links and WikiPageNames
 You may avoid making hyperlinks out of TracLinks by preceding an expression
 with a single "!" (exclamation mark).
 Wiki Markup         Tampilan
  !NoHyperLink            NoHyperLink #42 is not a
  !#42 is not a link      link
-***** Gambar *****
+
+## Gambar
 Tautan dengan akhiran .png, .gif or .jpg tidak lagi otomatis diterjemahkan
 sebagai link gambar dan dikonversi ke marka <img>.
 Anda diharuskan menggunakan makro [[Image]]. Ini adalah cara sederhana
@@ -395,7 +383,8 @@ Wiki Markup                                    Tampilan
 [[Image(htdocs:../common/trac_logo_mini.png)]] [trac_logo_mini.png]
 Baca WikiMacros untuk dokumentasi lebih detail mengenai makro [[Image()]], yang
 mememiliki beberapa opsi berguna lain seperti (title=, link=, etc.)
-***** Macros *****
+
+## Macros
 Macros adalah custom functions untuk memasukkan konten dinamis kedalam sebuah
 halaman.
 Wiki Markup               Tampilan
@@ -416,7 +405,8 @@ Wiki Markup    Tampilan
                Note that this macro will not be able to display the
                documentation of macros if the PythonOptimize option is enabled
                for mod_python!
-***** Pemroses *****
+
+## Pemroses
 Trac mendukung alternatif format markup menggunakan WikiProsessors?. Sebagai
 contoh, pemroses yang digunakan untuk menulis halaman pada reStructuredText
 atau HTML.
@@ -472,7 +462,8 @@ untuk menulis konten dalam beberapa
 baris.
 }}}
 Baca WikiProcessors untuk info lebih detail.
-***** Komentar *****
+
+## Komentar
 Komentar dapat ditambahkan ke dalam teks biasa. Komentar tidak akan diproses
 dan ditampilkan jika format selain teks biasa.
 Wiki Markup           Tampilan
@@ -482,7 +473,8 @@ Tidak ada apapun
 Tulis komentar disini      senyum ;-)
 }}}
 senyum ;-)
-***** Lainnya *****
+
+## Lainnya
 Sebuah garis mendatar bisa digunakan untuk membatasi bagian yang berbeda pada
 halaman anda:
 Wiki Markup                             Tampilan
