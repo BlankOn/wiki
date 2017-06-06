@@ -4,7 +4,12 @@ Silakan lihat halaman [Misi BlankOn](/Misi.md) untuk memahami tujuan proyek ini.
 
 BlankOn Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat lunak (software) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distribusi ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
 
-[TOC]
+**Daftar isi**
+ * [Pertanyaan Umum](#Pertanyaan-Umum)
+ * [Bagaimana Berkontribusi](#Bagaimana-Berkontribusi)
+ * [Tentang Wiki ini](#Tentang-Wiki-ini)
+ * [Daftar Isi](#Daftar-Isi)
+ * [Indeks](#Indeks)
 
 ## Pertanyaan Umum
 
