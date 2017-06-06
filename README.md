@@ -4,6 +4,8 @@ Silakan lihat halaman [Misi BlankOn](/Misi.md) untuk memahami tujuan proyek ini.
 
 BlankOn Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat lunak (software) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distribusi ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
 
+[TOC]
+
 ## Pertanyaan Umum
 
 1. T: Mengapa diberi nama BlankOn?
@@ -21,7 +23,7 @@ BlankOn Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat
 1. T: Apakah lisensi BlankOn?
 <br>J: BlankOn di bawah lisensi GPL.
 
-# Bagaimana Berkontribusi
+## Bagaimana Berkontribusi
 
 BlankOn selalu terbuka menerima kontribusi dari Anda. Hanya 3 syarat yang diperlukan untuk menjadi pengembang BlankOn :
 
@@ -31,13 +33,11 @@ BlankOn selalu terbuka menerima kontribusi dari Anda. Hanya 3 syarat yang diperl
 
 Jika Anda berminat menjadi Tim Pengembang BlankOn, silakan daftarkan diri Anda ke milis Pengembang BlankOn untuk memperkenalkan diri. Setelah itu Anda dapat meregistrasikan diri Anda ke situs ini. Untuk panduan memulai berkontribusi di proyek BlankOn, Anda dapat membaca panduan berikut ini [Memulai Berpartisipasi](/Memulai.md).
 
-# Tentang Wiki ini
+## Tentang Wiki ini
 
 Wiki ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md). Jika ingin menyunting halaman Wiki, silakan mem-forking dan mengirim *Pull Request*.
 
-# [Daftar Isi](/DaftarIsi.md)
+## [Daftar Isi](/DaftarIsi.md)
 
-# [Indeks](/Indeks.md)
-
-
+## [Indeks](/Indeks.md)
 
