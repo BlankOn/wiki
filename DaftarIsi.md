@@ -6,7 +6,7 @@
      + [](/Assets/Others/)
 
 - **Panduan Menulis Wiki**
-   - [Panduan Menulis Wiki](/TimPengembang/Dokumentasi/PanduanMenulisWiki.md)
+   - [Panduan Menulis Wiki](/TimPengembang/Panduan/Dokumentasi/PanduanMenulisWiki.md)
    - [Panduan Migrasi Wiki ke Github](/TimPengembang/Dokumentasi/PanduanMigrasiWiki.md)
 
 
