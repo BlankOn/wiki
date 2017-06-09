@@ -26,8 +26,8 @@
 
 ## Daftar Panduan Menulis Wiki
 ##### Panduan Menulis Bahasa Indonesia yang Baik dan Benar
-##### [Panduan Menulis dengan Format Markdown](/Dokumentasi/Panduan/FormatMarkdown.md)
-##### [Panduan Menulis Wiki Pada Github](/Dokumentasi/Panduan/PanduanMigrasiWiki.md)
+##### [Panduan Menulis dengan Format Markdown](wiki/TimPengembang/Dokumentasi/Panduan/FormatMarkdown.md)
+##### [Panduan Menulis Wiki Pada Github](wiki/TimPengembang/Dokumentasi/Panduan/PanduanMigrasiWiki.md)
 ##### Panduan Menulis Wiki dengan Git
 
 
