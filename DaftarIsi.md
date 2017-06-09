@@ -6,8 +6,9 @@
      + [](/Assets/Others/)
 
 - **Panduan Menulis Wiki**
-   - [Panduan Menulis Wiki](/TimPengembang/Panduan/Dokumentasi/PanduanMenulisWiki.md)
-   - [Panduan Migrasi Wiki ke Github](/TimPengembang/Dokumentasi/PanduanMigrasiWiki.md)
+   - [Panduan Menulis Wiki](/TimPengembang/Panduan/Dokumentasi/Panduan/PanduanMenulisWiki.md)
+   - [Panduan Migrasi Wiki ke Github](/TimPengembang/Dokumentasi/Panduan/PanduanMigrasiWiki.md)
+
 
 
 - [**Tentang BlankOn**](/README.md)
