@@ -51,4 +51,3 @@ Untuk melihat tampilan wiki, klik tab **Preview changes**
 
 ![](/Assets/Images/SimpanWiki3.png) Selesai
 
-[KontrakDarah]:(assets/images/MenekenKontrakDarah.md)

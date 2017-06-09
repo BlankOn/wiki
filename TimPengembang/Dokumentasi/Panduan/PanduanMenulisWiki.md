@@ -1,20 +1,33 @@
-# Membuat Halaman Wiki
+# Panduan Menulis Wiki
++ [Gunakanlah Bahasa Indonesia yang baik dan benar](#panduan-menulis-bahasa-indonesia-yang-baik-dan-benar). 
++ [Gunakanlah format Markdown](#panduan-menulis-dengan-format-markdown). 
++ [Kirim tulisan Anda ke wiki BlankOn di Github](#panduan-menulis-wiki-pada-github)
++ Bagi pengembang, disarankan untuk [menggunakan git](#panduan-menulis-wiki-dengan-git) sehingga lebih efektif dalam penulisan.
++ Berikut panduan singkat dalam menulis wiki
+  + **Penulisan Judul**
+    + Judul ditulis dengan format tajuk 1 / Heading 1 (# Judul)
+    + Setiap awal kata pada judul ditulis dengan huruf kapital
 
-Nama halaman Wiki biasanya menggunakan konvensi CamelCase. Dalam teks wiki, setiap kata dalam CamelCase otomatis menjadi hiperlink ke halaman wiki dengan
-nama itu.
+  + **Penulisan Isi**
+    + Tulisan yang cukup panjang perlu dilengkapi dengan [daftar isi](wiki/TimPengembang/Dokumentasi/Panduan/FormatMarkdown.md#format-daftar-isi).
+    + Beberapa kesalahan kecil yang perlu dihindari;
+      * Awalan 'di' ditulis menyatu dengan kata kerja.
+        Contoh **ditulis** bukan dipisah menjadi ~~di tulis~~
+      * Kata 'di' yang berarti tempat, ditulis terpisah dengan kata berikutnya.
+        Contoh **di rumah** bukan digabung menjadi ~~dirumah~~
+    + Setiap tulisan diakhiri dengan dua baris kosong.
 
-Nama halaman CamelCase harus mengikuti aturan-aturan ini:
-   1. Nama harus terdiri atas karakter abjad saja. Tidak boleh ada angka, spasi, tanda baca, atau garis bawah.
-   2. Sebuah nama harus memiliki minimal dua huruf.
-   3. Karakter pertama harus dikapitalisasi.
-   4. Setiap huruf kapital harus diikuti satu atau lebih huruf kecil.
-   5. Penggunaan garis miring (/) diperbolehkan dalam nama halaman (mungkin mewakili hierarki).
+  + **Pengelolaan Berkas / File**
+    + Berkas disimpan dengan format .md
+    + Berkas dinamai sesuai dengan judul tulisan
+    + Nama berkas ditulis tanpa spasi dengan huruf kapital pada setiap awal kata. Contoh: TimPengembang.md, PanduanMenuliswiki.md
+    + Berkas disimpan pada direktori yang sesuai dengan kategorinya
+    + Khusus berkas gambar disimpan pada di direktori wiki/Assets/Images. Bila diperlukan, dapat membuat direktori/folder baru
 
-Jika ingin membuat halaman wiki yang tidak mengikuti aturan CamelCase, Anda dapat menggunakan sintaks berikut:
- * [Wiki: Halaman_wiki], [wiki: ISO9000], dan dengan label: [wiki: ISO9000 ISO 9000]
- * [Wiki: "Nama Berspasi"] dan dengan label: [wiki: "Nama Berspasi" semua nama berspasi]
- * Atau hanya: ["WikiPageName"]
- * Bahkan lebih baik, yang baru [[WikiCreole link gaya]] dan dengan label: [[WikiCreole link gaya | WikiCreole gaya link]]
-
+## Daftar Panduan Menulis Wiki
+##### Panduan Menulis Bahasa Indonesia yang Baik dan Benar
+##### [Panduan Menulis dengan Format Markdown](wiki/TimPengembang/Dokumentasi/Panduan/FormatMarkdown.md)
+##### [Panduan Menulis Wiki Pada Github](wiki/TimPengembang/Dokumentasi/Panduan/PanduanMigrasiWiki.md)
+##### Panduan Menulis Wiki dengan Git
 
 
