@@ -24,6 +24,13 @@ Tim Dokumentasi BlankOn bertugas;
 
   
 [Alur Kerja Dokumentasi](/TimPengembang/Dokumentasi/AlurKerjaTimDokumentasi.md)
+------------
+
+**Halaman terkait:**
+  + [Sistem Help pada BlankOn 7][/Yeld.md]
 
 [webpanduanboi]:(http://panduan.blankonlinux.or.id/)
 [wikiblankon]:(https://blankon.github.io/wiki/)
+
+
+
