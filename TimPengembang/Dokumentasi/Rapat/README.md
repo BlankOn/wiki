@@ -9,12 +9,12 @@ Adapun notulen dan kesimpulan rapat biasanya dipublikasikan di milis pengembang.
 [Catatan Rapat  9 Oktober 2008](/Rapat/CatatanRapat09102008.md)
 
 ## 2017   
-+ [Catatan Rapat  15 Maret 2017](/Rapat/CatatanRapat15032017.md)
-+ [Catatan Rapat  1 Maret 2017](/Rapat/CatatanRapat01032017.md)
-+ [Catatan Rapat  3 Mei 2017](/Rapat/CatatanRapat03052017.md)
-+ [Catatan Rapat  5 April 2017](/Rapat/CatatanRapat05042017.md)
 + [Catatan Rapat  15 Januari 2017](/Rapat/CatatanRapat15012017.md)
++ [Catatan Rapat  1 Maret 2017](/Rapat/CatatanRapat01032017.md)
 + [Catatan Rapat  15 Maret 2017](/Rapat/CatatanRapat15032017.md)
++ [Catatan Rapat  15 Maret 2017](/Rapat/CatatanRapat15032017.md)
++ [Catatan Rapat  5 April 2017](/Rapat/CatatanRapat05042017.md)
++ [Catatan Rapat  3 Mei 2017](/Rapat/CatatanRapat03052017.md)
 + [Catatan Rapat  15 Mei 2017](/Rapat/CatatanRapat15052017.md)
 + [Catatan Rapat Humas 15 Mei 2017](/Rapat/CatatanRapatHumas15052017.md)
 

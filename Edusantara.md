@@ -4,5 +4,5 @@ Edusantara adalah sebuah distro berbasis Linux yang dikembangkan oleh Pusat Tekn
 
 Tautan Unduhan :
 
-[32 bit](http://edusantara.kemdikbud.go.id/cdimage/edusantara-1.0-desktop-i386.iso)
-[64 bit](http://edusantara.kemdikbud.go.id/…/edusantara-1.0-desktop-…)
+[Unduh 32 bit](http://edusantara.kemdikbud.go.id/cdimage/edusantara-1.0-desktop-i386.iso)
+[Unduh 64 bit](http://edusantara.kemdikbud.go.id/cdimage/edusantara-1.0-desktop-amd64.iso)
