@@ -1,4 +1,5 @@
-# Tim Proyek Pengembang BlankOn ******
+# Tim Proyek Pengembang BlankOn
+
 **Panduan Pendaftaran**
     * Koordinator tim ditandai dengan tulisan "(koordinator)" di samping nama wiki pengembang,
     * Tanggung jawab khusus ditulis di samping nama wiki, diawali dengan tanda titik dua,
@@ -9,10 +10,11 @@
       yang bersangkutan, jangan biarkan tugas Anda berjalan setengah-setengah dan teman-teman yang lain hanya bisa menunggu dan menunggu sedang Anda
       tidak kunjung merampungkan tugas, karena ini berkaitan erat dengan jadwal Rilis nanti.
 
-Deskripsi setiap tim bisa dibaca di TimBlankOn
-***** Manajer Proyek *****
+Deskripsi setiap tim bisa dibaca pada [halaman Tim BlankOn](/TimBlankOn.md)
+**Manajer Proyek**
     * Mohammad Anwari (MDAMT)
-***** Tim Infrastruktur *****
+
+**Tim Infrastruktur**
      Tentang Tim Infrastruktur: Wiki_Tim_Infrastruktur
     * Budiwijaya (Koordinator) (T: @budiwijaya | FB: budiwijaya)
     * Abdillah Wicaksana Basri (FB: abdillahwb)
@@ -21,12 +23,14 @@ Deskripsi setiap tim bisa dibaca di TimBlankOn
     * Adang Hidayat (timut) @adanghidayat
     * Ade Muhammad (adem) (T: @adeaze | FB: Ademuhamad)
     * Yudha HT (T: @ryht | FB: )
-***** Tim Riset dan Aplikasi *****
+
+**Tim Riset dan Aplikasi**
      Tentang Tim Riset dan Aplikasi: Wiki_Tim_Riset_dan_Aplikasi
     * Herpiko Dwi Aguno
     * Sofiul Fuad
     * Ismail Sudirman
-***** Tim Humas *****
+
+**Tim Humas**
      Tentang Tim Humas: Wiki_Tim_Humas
     * Ahmad Haris a.k.a @princeofgiri (Koordinator)
 

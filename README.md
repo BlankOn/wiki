@@ -8,8 +8,8 @@ BlankOn Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat
  * [Pertanyaan Umum](#pertanyaan-umum)
  * [Bagaimana Berkontribusi](#bagaimana-berkontribusi)
  * [Tentang Wiki BlankOn](#tentang-wiki-blankon)
- * [Daftar Isi](#daftar-isi)
- * [Indeks](#indeks)
+ * [Daftar Isi](/DaftarIsi.md)
+ * [Indeks](/Indeks.md)
 
 ## Pertanyaan Umum
 
@@ -22,7 +22,7 @@ BlankOn Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat
 1. T: Apakah BlankOn hanya distro remaster dari Debian?
 <br>J: Tidak, BlankOn adalah distro turunan Debian, bukan remastering, karena punya paket dan repositori sendiri.
 1. T: Apakah BlankOn gratis?
-<br>J: Ya. BlankOn bisa Anda unduh dan gunakan secara gratis, tetapi tidak tertutup kemungkinan bagi Anda jika ingin memberikan donasi pada pengembangan BlankOn.
+<br>J: Ya. BlankOn bisa Anda unduh dan gunakan secara gratis, tetapi tidak tertutup kemungkinan bagi Anda jika ingin memberikan donasi pada pengemb            angan BlankOn.
 1. T: Di mana saya bisa mendapatkan BlankOn?
 <br>J: Anda bisa mengunduhnya di [blankonlinux.or.id](http://blankonlinux.or.id)
 1. T: Apakah lisensi BlankOn?

@@ -97,3 +97,5 @@ Untuk komunikasi obrolan pada IRC dapat Anda temukan pada kanal #blankon di Free
 ### Komunikasi, koordinasi dan kolaborasi secara luring (luar jaringan)
 
 Komunikasi dan koordinasi luring dapat ditemui di BlanKonf, BlanKopdar maupun BlanKoding maupun dengan pertemuan langsung dengan pengembang lain yang domisilinya berdekatan.
+
+### [Komposisi Tim Pada Awal Pengembangan BlankOn](/TimBlankOn.md)
