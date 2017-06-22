@@ -81,4 +81,69 @@ Mengubah parameter-parameter di sourcecode yang mengacu ke pada ubuntu agar di b
 
 + http://dolanan.udienz.net/paket/blankon-tweak/ 
 
+## Cakram Pengaya Pengembang
+Racikan ini ditujukan untuk pengguna rumahan untuk kebutuhan perkantoran sederhana sampai home entertainment.
 
+Daftar aplikasi cakram pengaya keluarga menurut kategori aplikasinya:
+
+**Alat**
+  + bicyclerepair
+  + gij
+  + intel2gas
+  + javahelper
+  + mmake
+  + tijmp
+  + visualvm
+
+**Alat VCS**
+  + bzr
+  + bzr-builddeb
+  + bzr-dbus
+  + bzr-email
+  + bzr-gtk
+  + bzr-cvsps-import
+  + bzr-search
+  + bzr-stats
+  + bzr-svn
+  + bzr-upload
+  + bzr-xmloutput
+  + bzrtools
+
+**Compiler**
+  + ant
+  + ant-gcj
+  + bin86
+  + doxygen
+  + doxygen-gui
+  + gcj
+  + nasm
+  + yasm
+
+**Dokumen**
+  + ant-doc
+
+**Ide/text editor**
+  + eclipse
+  + eclipse-cdt
+  + eclipse-efj
+  + eclipse-gcj
+  + eclipse-jdt
+  + eclipse-jdt-gcj
+  + eclipse-pde
+  + eclipse-pde-gcj
+  + eclipse-pydev
+  + eclipse-pydev-gcj
+  + boa-constructor
+  + drpython
+  + netbeans
+  + pida
+
+**Pustaka**
+  + lightning
+
+**SDK sun-java6-jdk**
+  + openjdk-6-jdk
+  + default-jdk-builddep
+
+**Shell**
+  + bsh
