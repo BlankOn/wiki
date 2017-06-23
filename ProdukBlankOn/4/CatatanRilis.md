@@ -1,5 +1,10 @@
 # Catatan Rilis BlankOn 4.0 (Meuligoe)
+Daftar Isi
+ + [Jadwal Rilis](#jadwal-rilis)
+ + [Perkembangan Rilis](#Perkembangan-rilis)
+ + [Catatan Rilis](#catatan-rilis)
 
+## Catatan Rilis
 BlankOn Linux adalah distribusi Linux yang dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Komunitas Ubuntu Indonesia demi menghasilkan distro
 Linux yang sesuai dengan kebutuhan pengguna komputer umum di Indonesia. Dengan menghadirkan filosofi, kemudahan, dan kehandalan yang ditawarkan Ubuntu Linux sebagai distribusi aslinya, BlankOn Linux dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux khas Indonesia, khususnya untuk
 dunia pendidikan, perkantoran dan pemerintahan.
@@ -96,4 +101,78 @@ Linux adalah merek dagang terdaftar milik Linus Torvalds. Ubuntu and Canonical a
 lain yang dirujuk catatan ini adalah kepunyaan masing-masing pemiliknya.
 
 ## Sponsor
+
+
+## Jadwal Rilis
+
+Roadmap kerja pengembangan Blankon 4 (Meuligoe).
+   * Harap diskusikan terlebih dulu Tim_Steering apabila ingin mengubah jadwal
+     yang ada di halaman ini
+   * Untuk jadwal rilis Ubuntu Intrepid Ibex silakan lihat halaman ​https://wiki.ubuntu.com/IntrepidReleaseScheduleTimestamp?
+
+Minggu         Tanggal      Status                    Catatan
+Mei 2008
+1              22 Mei       Pengerjaan BlankOn 4      Memulai pembuatan konsep
+                            dimulai
+2              29 Mei
+Juni 2008
+3              5 Juni
+4              12 Juni
+5              19 Juni      Usulan_Fitur              Penutupan usulan fitur
+6              26 Juni
+Juli 2008
+7              3 Juli
+8              10 Juli
+9              17 Juli      Jahitan 1                 Rilis pertama untuk
+                                                      testing internal
+10             24 Juli
+11             31 Juli
+Agustus 2008
+12             7 Agustus
+13             14 Agustus
+14             21 Agustus
+15             28 Agustus
+September 2008
+16             4 September
+17             10 September Jahitan 2                 Rilis kedua untuk testing
+                                                      internal
+18             18 September
+                                                      Batas akhir penyelesaian
+19             25 September Tenggat fitur Meuligoe    fitur untuk rilis
+                                                      Meuligoe
+Oktober 2008
+                                                      Rilis ketiga untuk
+20             2 Oktober    Jahitan 3                 testing internal <<
+                                                      realisasi 7_Oktober_2008
+                                                      Batas akhir pekerjaan
+                                                      pengumpulan tugas seluruh
+21             9 Oktober    Tenggat waktu pengumpulan tim BlankOn, seperti
+                            tugas                     tenggat penyelesaian
+                                                      artwork, dokumentasi,
+                                                      paket-paket dsb
+22             16 Oktober
+23             23 Oktober   Rilis Beta                Rilis ini juga ditujukan
+                                                      untuk publik
+24             30 Oktober                             Rilis Ubuntu 8.10
+                                                      Intrepid Ibex
+November 2008
+25             6 November   Kandidat Rilis
+26             13 November  Rilis Akhir BlankOn       BlankOn siap dihidangkan!
+27             20 November
+28             27 November
+Desember 2008
+29             5 Desember
+30             11 Desember
+
+Last modified on 11/10/2008 07:39:56 AM
+
+## Perkembangan Rilis
+BlankOn 4.0 Meuligoe dijadwalkan akan rilis pada tanggal 13 November 2008.
+
+Berikut ini adalah catatan rilis Jahitan yang sudah pernah dikeluarkan:
+   * Jahitan_1 - 25 Agustus 2008
+   * Jahitan_2 - 10 September 2008
+   * Jahitan_3 - 7 Oktober 2008
+
+Last modified on 10/07/2008 10:36:20 PM
 
