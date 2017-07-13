@@ -1,17 +1,19 @@
-Direktori debian merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata
-dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, 
-copyright dan rules. 
+# Mengenal Berkas-berkas Pada Direktori Debian
 
-Persiapan
+Direktori debian merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, copyright dan rules. 
+
+#### Persiapan
 1. Buat identitas pemaket 
-$ vim .bashrc
+		$ vim .bashrc
+
 (tambahkan pada akhir baris:)
 export DEBFULLNAME="Joe Hacker" (sesuaikan dengan nama Anda)
 export DEBEMAIL="joe.hacker@isp.com" (sesuaikan dengan e-mail Anda)
-$ source .bashrc
 
-2.Install paket-paket yang dibutuhkan 
-$ sudo apt-get install build-essential devscripts debhelper dh-make fakeroot lintian gnupg
+		$ source .bashrc
+
+2. Install paket-paket yang dibutuhkan 
+		$ sudo apt-get install build-essential devscripts debhelper dh-make fakeroot lintian gnupg
 
 build-essensial: paket meta yang akan menginstall paket-paket dasar yang dibutuhkan untuk development kaya gcc, make, libc6-dev, dpkg-dev, dll.
 devscripts: kumpulan tools yang membuat hidup pemaket jadi lebih menyenangkan, seperti dch (tool edit changelog), debuild (bangun paket) dsb.
@@ -22,7 +24,8 @@ gnupg: dibutuhkan untuk menandatangi paket debian
 fakeroot: biar bisa ngompail tanpa akses root sebenernya
 
 3. Buat gpg key 
-$ gpg --gen-key
+> $ gpg --gen-key
+
 Real name: Joe Hacker
 E-mail address: joe.hacker@isp.com
 Passphrase: paswordpercobaanjanganditiru
@@ -30,7 +33,7 @@ Passphrase: paswordpercobaanjanganditiru
 FYI di debian dan ubuntu setiap paket yang akan dikirim ke pabrik paket perlu ditandatangani oleh pemaket, nanti robot pabrik akan ngecek apakah tandatanganya benar2 milik anda. klo sudah beres HARAP BACKUP direktori .gnupg ke tempat yg aman karena kunci gpg adalah satu-satunya identitas Anda agar dapat dikenal oleh irgsh
 
 4. Download paket yang akan dijadikan contoh pada lokakarya ini. letakkan pada direktori tertentu 
-$ mkdir -p lokakarya
+> $ mkdir -p lokakarya
 $ cd lokakarya
 $ wget http://cecunguk.blankonlinux.or.id/~imtheface/lokakarya/jao-theme-1.8.tar.gz
 $ tar xzf jao-theme-1.8.tar.gz
