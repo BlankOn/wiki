@@ -99,8 +99,216 @@ klo di debian policy section itu terdiri dari beberapa: admin, comm, devel, doc,
 **Build-Depends:** Paket yg dibutuhkan untuk membuat paket tersebut.
  Bagaimana cari tahu isinya build-depends?
 
- *liat README 
- *tanya pengelola/pembuat 
- *liat Makefile.am 
+ •liat README 
+ •tanya pengelola/pembuat 
+ •liat Makefile.am 
 
 **Standars-Version:** Versi dari dh-make yang digunakan 
+
+ 2.Bagian binary 
+Bagian binary bisa menghasilkan 1 macam paket atau lebih tergantung kebutuhan, kadang-kadang paket sumber kita perlu pecah jadi beberapa paket binary. contohnya seperti OpenOfficeorg?, kenapa harus dipecah OOo? agar kita bisa pilih paket2 mana saja yg ingin kita install sesuai kebutuhan. klo cuman butuh OOo writer aja buat apa harus install seluruh paket OOo, makanya lebih baik dipecah saja. klo jao-theme sih gak perlu dipecah2.
+
+**Package: nama paket**
+
+**Architecture: menunjukkan arsitektur yang akan dipakai**
+
+bisa menggunakan:
+
+i386 = kalau ingin hanya arsitektur i386 saja
+
+amd64 = kalau ingin hanya arsitektur i386 saja
+
+i386, amd64 = kalau ingin kedua-duanya
+
+any = semua arsitektur yang tersedia akan dibuat paketnya (i386, amd64, powerpc, sparc, dll)
+
+all = untuk paket yg bisa diinstall di semua arsitektur (arsitektur independen).
+
+**Depends:** paket-paket yg dibutuhkan agar paket kita dapat berjalan dengan baik. bagaimana menentukan "Depends" sebuah paket? hal ini dapat diketahui hanya dengan mengisinya dengan ${shlibs:Depends}, ${misc:Depends} nanti klo pas kita bangun paket parameter2 itu akan diganti sendiri oleh script debhelper menjadi paket-paket Dependencies paket tersebut. tapi kadang2 kita juga perlu tambah manual "Depends" itu. untuk jao-theme selain yg udah ada sekarang, silakan tambah Depends: rae-icon-theme
+
+**Description:** berisi deskripsi singkat tentang paket (max 60 karakter). Baris selanjutya berisi deskkripsi panjang tentang paket (harus diawali dengan spasi dan tiap baris max 80 karakter)
+
+Sehingga file control akan seperti: 
+```
+Source: jao-theme
+Section: x11
+Priority: extra
+Maintainer: Joe Hacker <joe.hacker@isp.com>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+
+Package: jao-theme
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, rae-icon-theme
+Description: jao theme, tema khusus untuk blankon
+ quick brown fox jumps over the lazy dog
+ quick brown fox jumps over the lazy dog
+ .quick brown fox jumps over the lazy dog
+ quick brown fox jumps over the lazy dog
+```
+
+##File changelog
+
+file changelog sangat penting bagi pemaket. file ini berisi versi paket, catatan sejarah perubahan paket, siapa yang merubah dan informasi penting lainya.
+file ini sudah digenerate otomatis pas kita jalankan dh_make tadi. atau jika ingin yang baru dapat menggunakan tools dch.
+hapus changelog lama, lalu generate yang baru 
+```
+$ pwd
+jao-theme-1.8
+$ rm -rf debian/changelog
+$ dch --create
+```
+
+akan dibuatkan file changelog baru dengan format:
+
+```
+PACKAGE (VERSION) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Joe Hacker <joe.hacker@isp.com>  Thu, 13 Nov 2008 06:32:18 +0700
+```
+
+Secara umum file changelog terdiri dari 3 bagian:
+
+ 1.Bagian atas 
+
+**PACKAGE:** isi dengan nama paket kode sumber (jao-theme)
+
+VERSION: versi yang akan digunakan (1.8-1)
+
+1.8-1 itu artinya 1.8 versi upstream -1 itu versi revisi debian
+
+**UNREALEASED:** berisi distribusi yang akan digunakan
+
+kalau di debian bisa diisi dengan: stable, unstable, testing, etch dll kalau di ubuntu bisa diisi dengan: gutsy, hardy, intrepid dll kalau di blankon bisa diisi dengan: konde, lontara, meulogoe dll
+
+**urgency:** menunjukkan seberapa penting kan update yg kita lakukan
+
+bisa diisi dengan: urgency: pilihannya low, medium, high, emergency, critical
+
+ 2.Bagian tengah
+  isinya ini deskripsi perubahan yg kita lakukan di paket tsb, isi deskripsi yg baik itu harus dapat menjelaskan apa-apa saja yg kita ubah dan alasannya kenapa? contoh yang baik lihat di: ​(http://dev.blankonlinux.or.id/browser/meuligoe/gdm/debian/changelog.ubuntu)
+
+contoh: sekarang coba edit file AUTHORS lalu tambah authors di situ Tim Artis BlankOn <BlankOn@googlegroup.com>
+
+karena kita mengubah sesuatu di berkas debian, maka perubahan itu harus ditulis di changelog bagian tengah
+
+• AUTHORS: Tambah author Tim Artis BlankOn <BlankOn@googlegroup.com> 
+
+ 3.Bagian terakhir 
+bagian bawah isinya itu info tentang siapa yg mengubah paket ini, dan tanggal berapa diubahnya. nama (alamat email) itu diambil dari parameter DEBFULLNAME dan DEBEMAIL yg kita set tadi.
+
+sehingga changelog menjadi:
+```
+jao-theme (1.8-1) meuligoe; urgency=low
+
+  * Initial release. 
+  * AUTHORS: Tambah author Tim Artis BlankOn <BlankOn@googlegroup.com>
+
+ -- Joe Hacker <joe.hacker@isp.com>  Wed, 13 Nov 2008 22:45:09 +0700
+```
+
+##File copyright
+
+File copyright itu salah satu file terpenting di dir debian, isinya yah tentu saja yg berhubungan dengan hak cipta. di debian setiap paket yg masuk ke dalam pabrik paket akan di cek terlebih dahulu apakan lisensi yg digunakan sesuai tidak dengan Debian Free Software Guideline
+
+File ini berisi keterangan tentang author, sumbernya didonwload dari mana, lisensinya apa dll. lisensi yang dituliskan dalam file ini cuma sebagian saja, selengkapnya bisa dibaca di file lain (biasanya di /usr/share/common-licenses/).
+
+Untuk mengetahui lisensi suatu paket dapat di lihat file COPYING atau juga kode sumbernya, karena kadang-kadang satu paket terdiri dari beberapa lisensi.
+
+Contoh: paket blankon-sounds menggunakan 2 lisensi, 1 GPL untuk karya om blex dan 1 lagi CC untuk karya2 dari pengembang ubuntu. Yang CC karena gak ada di /usr/share/common-licenses/ maka perlu ditulis lengkap isi lisensinya. ​http://dev.blankonlinux.or.id/browser/meuligoe/blankon-sounds/debian/copyright 
+
+```
+his package was debianized by Joe Hacker <joe.hacker@isp.com> on
+Wed, 12 Nov 2008 13:24:36 +0700.
+
+It was downloaded from http://dev.blankonlinux.or.id/
+
+Upstream Author(s):
+
+    Farhan Perdana
+
+Copyright:
+
+		(C) 2008 Farhan Perdana <blackdramon@gmail.com>
+		License: GPL Version 3
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+The Debian packaging is (C) 2008, Joe Hacker <joe.hacker@isp.com> and
+is licensed under the GPL, see above.
+
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.
+
+
+```
+
+##File Rules
+File rules itu file Makefile untuk paket debian kira2 fungsinya sama dengan file Makefile nya autoconf. Perintah-perintah untuk membangun paket kita tulis di sini, di debian sih cukup enak dah banyak tool & script untuk mempermudah membangun paket salah satunya debhelper. Kita tinggal tulis aja di rules script-script debhelper itu yg berawalan dh_*, ini otomatis dibuatkan saat kita menjalankan dh_make diawal.
+
+Selain menggunakan debhelper, ada juga script lain untuk membuat rules. namanya cdbs (common debian build system). 
+
+##Membangun paket
+
+1. Hapus file-file di direktori debian selain control, changelog, rules, copyright (tidak dihapus juga tidak apa-apa) 
+```
+$ pwd
+debian
+$ rm *.ex *.EX
+```
+
+2.Kembali ke direktori jao-theme, lalu jalankan: 
+```
+$ pwd
+jao-theme-1.8
+$ dpkg-buildpackage -rfakeroot
+...
+... (dipotong)
+...
+dpkg-genchanges
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: full upload (original source is included)
+(WARNING: Failed to sign .dsc and .changes file)
+```
+
+3.Abaikan saja WARNING diatas. maka akan terbentuk file-file: 
+```
+jao-theme_1.8-1_all.deb
+jao-theme_1.8-1_amd64.changes
+jao-theme_1.8-1.diff.gz
+jao-theme_1.8-1.dsc
+```
+
+**NOTE:** berdasarkan lokakarya tanggal 12-11-08 di #blankon by imtheface
+
+oiya...ada PRnya juga:
+
+​http://www.debian.org/doc/debian-policy/
+
+​http://www.debian.org/doc/maint-guide/
+
+​http://www.debian.org/doc/developers-reference/ 
+
+
+
+
