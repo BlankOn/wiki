@@ -1,7 +1,7 @@
-#Mengenal Berkas-berkas di direktori debian
-Direktori debian merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, copyright dan rules. 
+# Mengenal Berkas-berkas di direktori debian
+Direktori **debian** merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, copyright dan rules. 
 
-##Persiapan
+## Persiapan
 
   1. Buat identitas pemaket 
   
@@ -11,4 +11,5 @@ export DEBFULLNAME="Joe Hacker" (sesuaikan dengan nama Anda)
 export DEBEMAIL="joe.hacker@isp.com" (sesuaikan dengan e-mail Anda)
 
 $ source .bashrc
+
 ```
