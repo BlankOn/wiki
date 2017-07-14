@@ -80,17 +80,17 @@ Secara umum file ini berisi:
 Isi control itu terdiri dari 2 bagian: 
  1.Bagian source 
 
-Source: nama-paket
+**Source:** nama-paket
 
-Section: itu entri dimana paket debian mau ditaro
+**Section:** itu entri dimana paket debian mau ditaro
 
 klo di debian policy section itu terdiri dari beberapa: admin, comm, devel, doc, editors, electronics, embedded, games, gnome, graphics, hamradio, interpreters, kde, libs, libdevel, mail, math, misc, net, news, oldlibs, otherosfs, perl, python, science, shells, sound, tex, text, utils, web, x11. (​http://www.debian.org/doc/debian-policy/ch-archive.html#s-subsections)
 
-Priority: menunjukkan tingkat pentingnya paket. Dapat berisi: required, important, standard, optional, extra. Paket-paket biasanya sih menggunakan priority "optional" saja, di atas priority "optional" hanya digunakan paket-paket penting. Kalau di debian perlu mendapatkan persetujuan dari para bos untuk bisa menggunakan priority di atas "optional". (​http://www.debian.org/doc/debian-policy/ch-archive.html#s-priorities)
+**Priority:** menunjukkan tingkat pentingnya paket. Dapat berisi: required, important, standard, optional, extra. Paket-paket biasanya sih menggunakan priority "optional" saja, di atas priority "optional" hanya digunakan paket-paket penting. Kalau di debian perlu mendapatkan persetujuan dari para bos untuk bisa menggunakan priority di atas "optional". (​http://www.debian.org/doc/debian-policy/ch-archive.html#s-priorities)
 
-Maintainer: nama orang yang memaketkan.
+**Maintainer:** nama orang yang memaketkan.
 
-Build-Depends: Paket yg dibutuhkan untuk membuat paket tersebut.
+**Build-Depends:** Paket yg dibutuhkan untuk membuat paket tersebut.
 
 Bagaimana cari tahu isinya build-depends?
 
