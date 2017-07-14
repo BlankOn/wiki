@@ -66,7 +66,7 @@ FYI di debian dan ubuntu setiap paket yang akan dikirim ke pabrik paket perlu di
 Proses ini akan membuat direktori debian beserta isinya dari template yang telah disediakan. Serta membuat file jao-theme_1.8.orig.tar.gz sejajar dengan direktori jao-theme-1.8.tar.gz
 Di debian ada policy bahwa kode sumber dari upstream tidak boleh kita boleh kita ubah secara langsung, setiap perubahan yg kita lakukan akan dilakukan di dalam direktori debian. Nantinya isi dari direktori debian itu kalau paket sudah dibangun akan di kompres menjadi nama-paket.diff.gz 
 
-##File Control
+## File Control
 Secara umum file ini berisi:
   ```
   Source: jao-theme
