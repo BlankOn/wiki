@@ -4,6 +4,8 @@ Direktori **debian** merupakan direktori khas distro debian/turunannya yang dita
 ##Persiapan
 
  1. Buat identitas pemaket  
+ 
+   ```
   $ vim .bashrc
   (tambahkan pada akhir baris:)
   export DEBFULLNAME="Joe Hacker" (sesuaikan dengan nama Anda)
@@ -12,6 +14,7 @@ Direktori **debian** merupakan direktori khas distro debian/turunannya yang dita
   ```
   
  2.Install paket yang di butuhkan
+ ```
   $ sudo apt-get install build-essential devscripts debhelper dh-make fakeroot lintian gnupg
   ```
      
@@ -25,6 +28,7 @@ gnupg: dibutuhkan untuk menandatangi paket debian
 fakeroot: biar bisa ngompail tanpa akses root sebenernya 
 
  3.Buat gpg key
+  ```
   $ gpg --gen-key
   Real name: Joe Hacker
   E-mail address: joe.hacker@isp.com
@@ -33,6 +37,7 @@ fakeroot: biar bisa ngompail tanpa akses root sebenernya
 FYI di debian dan ubuntu setiap paket yang akan dikirim ke pabrik paket perlu ditandatangani oleh pemaket, nanti robot pabrik akan ngecek apakah tandatanganya benar2 milik anda. klo sudah beres HARAP BACKUP direktori .gnupg ke tempat yg aman karena kunci gpg adalah satu-satunya identitas Anda agar dapat dikenal oleh irgsh
 
  4.Download paket yang akan dijadikan contoh pada lokakarya ini. letakkan pada direktori tertentu 
+  ```
   $ mkdir -p lokakarya
   $ cd lokakarya
   $ wget http://cecunguk.blankonlinux.or.id/~imtheface/lokakarya/jao-theme-1.8.tar.gz
@@ -42,6 +47,7 @@ FYI di debian dan ubuntu setiap paket yang akan dikirim ke pabrik paket perlu di
   ```
   
  5.Buat direktori debian dengan menggunakan dh_make 
+  ```
   $ dh_make -c gpl -f ../jao-theme-1.8.tar.gz
   Type of package: single binary, multiple binary, library, kernel module or cdbs?
    [s/m/l/k/b] s
@@ -62,7 +68,7 @@ Di debian ada policy bahwa kode sumber dari upstream tidak boleh kita boleh kita
 
 ##File Control
 Secara umum file ini berisi:
-
+  ```
   Source: jao-theme
   Section: unknown
   Priority: extra
@@ -91,13 +97,10 @@ klo di debian policy section itu terdiri dari beberapa: admin, comm, devel, doc,
 **Maintainer:** nama orang yang memaketkan.
 
 **Build-Depends:** Paket yg dibutuhkan untuk membuat paket tersebut.
+ Bagaimana cari tahu isinya build-depends?
 
-Bagaimana cari tahu isinya build-depends?
+ *liat README 
+ *tanya pengelola/pembuat 
+ *liat Makefile.am 
 
-    liat README 
-
-    tanya pengelola/pembuat 
-
-    liat Makefile.am 
-
-
+**Standars-Version:** Versi dari dh-make yang digunakan 
