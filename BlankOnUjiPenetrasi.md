@@ -12,5 +12,7 @@ Nah, sekarang [Blankon](http://dev.blankonlinux.or.id/wiki/BlankOn) Uji Penetras
 Nah, nanti [BlankOn](http://dev.blankonlinux.or.id/wiki/BlankOn) Upen harus punya "Panduan" sendiri mengenai detail pentest. Setuju? Sekarang, kita mulai dari mana? Siapa yang akan mengerjakan? Bapak-bapak siap? Kalau tidak, kita batal. Kalau Bapak-bapak siap, akan kita buat Tim Racikan Upen, dengan seizin Manajer Rilis, untuk mengurusi Panduan dan Paket Upen seperti Sajadah. Oke, silakan Bapak-bapak yang siap mendaftar di milis blankon-dev sebagai pemaket, dan bilang akan ikut memaketkan [BlankOn](http://dev.blankonlinux.or.id/wiki/BlankOn) Upen.
 
 Catatan:
-1.Hadir pada saat kuliah Zaki Akhmad, Ketua OWASP Indonesia ​OWASP 
-2.Terjemahan Prosedur Testing OWASP ​OWASP-Top-10 
+
+ 1.Hadir pada saat kuliah Zaki Akhmad, Ketua OWASP Indonesia [OWASP](https://www.owasp.org/index.php/Indonesia) 
+ 
+ 2.Terjemahan Prosedur Testing OWASP [OWASP-Top-10](https://www.owasp.org/index.php/File:OWASP_Top_10_-_2010_FINAL_Indonesia_v1.0.1.pdf) 
