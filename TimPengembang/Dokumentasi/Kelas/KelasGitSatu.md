@@ -1,4 +1,4 @@
-#Latihan Menggunakan Git untuk Mengelola Tulisan
+# Latihan Menggunakan Git untuk Mengelola Tulisan
 
 Baru saja Tim Dokumentasi BlankOn XI Uluwatu mengadakan kelas daring dengan materi pengenalan Git bersama Pak Piko.
 
@@ -13,7 +13,7 @@ Sedangkan bila menggunakan _version control_ seperti Git, maka kita cukup mengel
 
 Berikut adalah dokumentasi ketika saya mencoba menggunakan Git untuk mengelola tulisan. Semoga bermanfaat.
 
-##1. Memasang Git pada BlankOn
+## 1. Memasang Git pada BlankOn
 - Klik menu **BlankOn > Perkakas Sistem > Terminal**
 - Ketik:
 
@@ -21,7 +21,7 @@ Berikut adalah dokumentasi ketika saya mencoba menggunakan Git untuk mengelola t
 - Masukkan sandi
 
 
-##2. Mengatur Informasi Pengguna
+## 2. Mengatur Informasi Pengguna
 Untuk mengatur informasi pengguna kita dapat menggunakan perintah git config;
 
   	git config --global user.name "[nama]"
@@ -32,7 +32,7 @@ Contoh:
       git config --global user.name "zaid"
   	git config --global user.email "zaid@blankonmail.or.id"
 
-##3. Menyiapkan Tempat
+## 3. Menyiapkan Tempat
 - **Membuat folder**
 
   Contoh: Kita akan membuat folder dengan nama LatihanGit
@@ -44,7 +44,7 @@ Contoh:
 - **Inisiasi Git**
   	git init
 
-##4.	Mulai Menulis
+## 4.	Mulai Menulis
 - Menulis Bab 1
   	touch panduan.md
   	echo "#Bab 1" > panduan.md
@@ -77,7 +77,7 @@ Catatan: perintah **echo >** (dengan satu >) digunakan untuk mengisi suatu berka
     
 Dengan serangkaian perintah di atas, sekarang kita mempunyai berkas dengan nama **panduan.md** yang tersimpan di dalam folder **LatihanGit**.
 
-##5.	Melihat log Git dengan perintah **git log**
+## 5.	Melihat log Git dengan perintah **git log**
   	
     git log
 Dengan perintah **git  log** kita dapat melihat catatan tentang commit-commit yang telah kita simpan. Berikut contoh dari hasil **git log**;
@@ -100,8 +100,8 @@ Dengan perintah **git  log** kita dapat melihat catatan tentang commit-commit ya
 
     tulis bab 1
 
-##6.	Mengelola Tulisan dengan Git
-- ###Kembali ke versi awal dengan perintah **git checkout [hashcommit]**
+## 6.	Mengelola Tulisan dengan Git
+- ### Kembali ke versi awal dengan perintah **git checkout [hashcommit]**
 
 	Misalnya kita ingin kembali ke tulisan versi kedua yang berisi Bab 1 dan Bab 2 saja, kita tidak perlu menghapus Bab 3. Dengan perintah
       	git checkout 7404
@@ -111,4 +111,7 @@ kita dapat kembali ke tulisan versi kedua yang baru berisi Bab 1 dan Bab 2 tanpa
 
 Bila kita memeriksa isi berkas **panduan.md** maka kita akan melihat bahwa isi dari berkas tersebut hanya Bab 1 dan Bab 2
 
-- ###Menggabungkan Bab 1 dan Bab 3 (Meninggalkan Bab 2)
+- ### Menggabungkan Bab 1 dan Bab 3 (Meninggalkan Bab 2)
+Bersambung ....
+
+
