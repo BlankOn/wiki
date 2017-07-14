@@ -1,7 +1,7 @@
 # Mengenal Berkas-berkas di direktori debian
-Direktori **debian** merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, copyright dan rules. 
+Direktori debian merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, copyright dan rules. 
 
-##Persiapan
+## Persiapan
 
  1. Buat identitas pemaket  
  
@@ -147,7 +147,7 @@ Description: jao theme, tema khusus untuk blankon
  quick brown fox jumps over the lazy dog
 ```
 
-##File changelog
+## File changelog
 
 file changelog sangat penting bagi pemaket. file ini berisi versi paket, catatan sejarah perubahan paket, siapa yang merubah dan informasi penting lainya.
 file ini sudah digenerate otomatis pas kita jalankan dh_make tadi. atau jika ingin yang baru dapat menggunakan tools dch.
@@ -268,7 +268,7 @@ File rules itu file Makefile untuk paket debian kira2 fungsinya sama dengan file
 
 Selain menggunakan debhelper, ada juga script lain untuk membuat rules. namanya cdbs (common debian build system). 
 
-##Membangun paket
+## Membangun paket
 
 1. Hapus file-file di direktori debian selain control, changelog, rules, copyright (tidak dihapus juga tidak apa-apa) 
 ```
