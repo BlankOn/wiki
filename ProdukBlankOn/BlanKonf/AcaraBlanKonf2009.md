@@ -56,10 +56,4 @@ initrunlevel0)
 Last_modified on 06/19/2009 12:18:25 AM
 
 
-**** Download in other formats: ****
-    * Plain_Text
-===============================================================================
-[Trac_Powered]
-Powered by Trac_1.0.1
-By Edgewall_Software.
-Fajar baru perangkat lunak legal dan kreatif, untuk, dan oleh anak negeri
+
