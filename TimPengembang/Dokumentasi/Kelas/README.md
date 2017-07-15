@@ -1,4 +1,4 @@
-# Log Kelas BlankOn
+# Catatan Percakapan Kelas dan atau Lokakarya BlankOn
 
 ## Kelas Git BlankOn
 [Kelas git BlankOn 14 Oktober 2016](/Kelas/CatatanKelasGit14Oktober2016.pdf)
@@ -27,4 +27,6 @@
 [Lokakarya Cara Membuat Wiki](/wiki/TimPengembang/Dokumentasi/Kelas/LokakaryaMenulisWiki.md)
 
 
+## Kelas Riset
+[Lokakarya Dasar-dasar JQuery](/wiki/TimPengembang/Dokumentasi/Kelas/LokakaryaDasarJQuery.md)
 

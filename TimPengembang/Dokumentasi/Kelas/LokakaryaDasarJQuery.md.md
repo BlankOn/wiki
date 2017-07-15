@@ -1,9 +1,13 @@
 # Catatan Percakapan BlankOn Riset 1 Oktober 2012
 
 ## Lokakarya Dasar-dasar jQuery
+
 Pemateri: Rabitya, alias Fitra Aditya
+
 Waktu: mulai 09:14:45 PM
+
 Tempat: with #blankon-riset
+
 Bahan bacaan: http://fitraditya.files.wordpress.com/2012/10/kelas_daring_blankon_jquery.pdf
 
 (08:12:20 PM) princeofgiri: mulai saja
