@@ -23,8 +23,7 @@ Bahan bacaan: http://fitraditya.files.wordpress.com/2012/10/kelas_daring_blankon
 (08:13:36 PM) dotovr: wah PR nya ntar tak kasih ke icik2 :D
 (08:13:46 PM) Rabitya: princeofgiri: boleh deh
 (08:13:52 PM) princeofgiri: :D
-(08:14:03 PM) Rabitya: itu untuk PR sudah saya siapin di halaman belakang yang
-studi kasus
+(08:14:03 PM) Rabitya: itu untuk PR sudah saya siapin di halaman belakang yang studi kasus 
 (08:14:04 PM) Rabitya: :D
 (08:14:16 PM) icik2: id ngintip pak, pakai icik2
 (08:14:27 PM) princeofgiri: Rabitya, berarti yang disini harus ngerjakan PR
@@ -33,16 +32,14 @@ studi kasus
 (08:15:06 PM) \*\*\*priyess lapo aku mlebu kene... :)
 (08:16:17 PM) setiaji [~setiaji@39.192.105.198] entered the room.
 (08:16:29 PM) setiaji: selamat malam
-(08:16:53 PM) adzymaniac [724f1cac@gateway/web/freenode/ip.114.79.28.172]
-entered the room.
+(08:16:53 PM) adzymaniac [724f1cac@gateway/web/freenode/ip.114.79.28.172] entered the room.
 (08:17:05 PM) adzymaniac: Rabitya: Jadi lokakarya pak?
 (08:17:07 PM) ajid left the room (quit: Read error: Connection reset by peer).
 (08:17:17 PM) princeofgiri: nah kan
 (08:17:22 PM) princeofgiri: ketambahan yang mau ngerjakan PR
 (08:18:06 PM) setiaji: kita jadi lokakarya jQuery kah ?
 (08:18:09 PM) \*\*\*priyess onok kancane...
-(08:18:20 PM) adzymaniac: princeofgiri: Yang tadi pagi bilang "Ikut pantau ;P"
-ditwit mana?
+(08:18:20 PM) adzymaniac: princeofgiri: Yang tadi pagi bilang "Ikut pantau ;P" ditwit mana?
 (08:18:31 PM) Rabitya: jadi, nungguin dokumentasi dulu kata bosnya
 (08:18:42 PM) setiaji: ooo, ok pak
 (08:18:58 PM) princeofgiri: adzymaniac, hajar saja itu orang desa #eh
@@ -58,10 +55,8 @@ ditwit mana?
 (08:26:22 PM) icik2: wkwkwk
 (08:26:41 PM) adzymaniac: Wah
 (08:27:03 PM) princeofgiri: ambil posisi anti migren
-(08:27:04 PM) princeofgiri: :D
-princeofgiri priyess
-(08:29:39 PM) embarpasaribu [b4f50cca@gateway/web/freenode/ip.180.245.12.202]
-entered the room.
+(08:27:04 PM) princeofgiri: :D princeofgiri priyess
+(08:29:39 PM) embarpasaribu [b4f50cca@gateway/web/freenode/ip.180.245.12.202] entered the room.
 (08:30:07 PM) Rabitya: mulai jam 9 aja apa yak?
 (08:30:35 PM) adzymaniac: embarpasaribu: Halo pak
 (08:30:50 PM) embarpasaribu: selamat malam
@@ -73,15 +68,12 @@ entered the room.
 (08:32:46 PM) embarpasaribu: jadi pake bootstrap ?
 (08:32:50 PM) adzymaniac: embarpasaribu: Bapak nyuprek2nya sampai mana?
 (08:32:53 PM) adzymaniac: Jadi pak
-(08:33:02 PM) adzymaniac: embarpasaribu: https://github.com/adzymaniac/blankon-
-i
-(08:33:16 PM) adzymaniac: Barusan saya sesuaikan dengan struktur yang diajukan
-pak diorahman
+(08:33:02 PM) adzymaniac: embarpasaribu: https://github.com/adzymaniac/blankon-i
+(08:33:16 PM) adzymaniac: Barusan saya sesuaikan dengan struktur yang diajukan pak diorahman
 (08:33:48 PM) embarpasaribu: aku yang di jsfiddle kemarin
 (08:34:18 PM) \*\*\*adzymaniac Bentar pak, saya buka lagi :D
 (08:34:53 PM) embarpasaribu: dilaptopku udah sampe extended
-(08:35:22 PM) adzymaniac: embarpasaribu: Tadi saya nyoba bikin Popup pake
-kinetic juga, ee tapi kalo lewat dari besar kanvas ndak nongol dia
+(08:35:22 PM) adzymaniac: embarpasaribu: Tadi saya nyoba bikin Popup pake kinetic juga, ee tapi kalo lewat dari besar kanvas ndak nongol dia
 (08:36:44 PM) embarpasaribu: pake event click di kinetic ya ?
 (08:37:24 PM) adzymaniac: Iya, tapi kurang combobox buat pilih format partisi
 (08:37:42 PM) embarpasaribu: aku masih di hp nih
@@ -97,15 +89,11 @@ kinetic juga, ee tapi kalo lewat dari besar kanvas ndak nongol dia
 (08:43:05 PM) setiaji: jam 9 ya, ok d makan dulu...
 (08:45:00 PM) adzymaniac left the room (quit: Ping timeout: 245 seconds).
 (08:45:04 PM) dotovr left the room (quit: Quit: Page closed).
-(08:45:54 PM) dotovr [dfffe20a@gateway/web/freenode/ip.223.255.226.10] entered
-the room.
+(08:45:54 PM) dotovr [dfffe20a@gateway/web/freenode/ip.223.255.226.10] entered the room.
 (08:46:23 PM) somat [~so@180.243.234.100] entered the room.
-(08:57:43 PM) xunilresu [~xunilresu@subs05-223-255-224-11.three.co.id] entered
-the room.
-(08:58:05 PM) xunilresu left the room (quit: Read error: Connection reset by
-peer).
-(09:01:13 PM) xunilresu_ [dfffe00b@gateway/web/freenode/ip.223.255.224.11]
-entered the room.
+(08:57:43 PM) xunilresu [~xunilresu@subs05-223-255-224-11.three.co.id] entered the room.
+(08:58:05 PM) xunilresu left the room (quit: Read error: Connection reset by peer).
+(09:01:13 PM) xunilresu_ [dfffe00b@gateway/web/freenode/ip.223.255.224.11] entered the room.
 (09:02:15 PM) Rabitya: mau dimulai kah?
 (09:02:20 PM) Rabitya: atau menunggu?
 (09:03:14 PM) embarpasaribu: adjinya belum tiba
@@ -117,8 +105,7 @@ entered the room.
 (09:06:10 PM) embarpasaribu: oh, belum sembuh ya
 (09:07:18 PM) setiaji: sakit apa pak
 (09:07:24 PM) setiaji: anaknya pak mdamt ?
-(09:07:26 PM) embarpasaribu: kalo memang pesertanya udah pada hadir semua,
-dimulai aja pak
+(09:07:26 PM) embarpasaribu: kalo memang pesertanya udah pada hadir semua, dimulai aja pak
 (09:11:17 PM) Rabitya: baiklah kita mulai saja
 (09:11:27 PM) Rabitya: sebelum semua pesertanya terlelap
 (09:11:29 PM) Rabitya: :)
@@ -133,82 +120,124 @@ sejenak kita berdoa menurut agama dan keyakinan masing2
 (09:14:27 PM) aftian [~aftian@125.164.59.141] entered the room.
 (09:14:27 PM) Rabitya: selesai
 (09:14:31 PM) Rabitya: =====================================================
+
+
 (09:14:45 PM) Rabitya: lokakarya dasar-dasar jQuery dimulai
+
 (09:14:46 PM) aftian: eah
+
 (09:15:00 PM) Rabitya: selamat datang juragan aftian
+
 (09:15:01 PM) Rabitya: :)
+
 (09:15:10 PM) aftian: Rabitya: selamat datang juga
+
 (09:15:34 PM) Rabitya: bagi yang belum kenal, perkenalkan saya /me
+
 (09:15:47 PM) Rabitya: Rabitya, alias Fitra Aditya
-(09:16:15 PM) Rabitya: akhir2 ini jarang muncul di BlankOn, karena ada hajatan
-besar :D
+
+(09:16:15 PM) Rabitya: akhir2 ini jarang muncul di BlankOn, karena ada hajatan besar :D
+
 (09:16:29 PM) setiaji: :D apa tu pak
-(09:16:45 PM) Rabitya: tapi bersyukur, hajatannya berjalan lancar, jadi bisa
-meluangkan waktu kembali di BlankOn
+
+(09:16:45 PM) Rabitya: tapi bersyukur, hajatannya berjalan lancar, jadi bisa meluangkan waktu kembali di BlankOn
+
 (09:16:49 PM) icik2: manten baru ya pak :D
+
 (09:17:01 PM) Rabitya: he...3x...
+
 (09:17:29 PM) setiaji: wah semoga diberkahi pak
+
 (09:17:30 PM) setiaji: :D
+
 (09:17:56 PM) embarpasaribu: alhamdulillah
-(09:18:06 PM) Rabitya: malam hari ini saya mendapatkan tugas dari pak mdamt
-untuk memberikan lokakarya mengenai jQuery
-(09:18:11 PM) \*\*\*priyess priyess, calon pendekar yang ngambek ga kebagian
-kaosnya pak aftian :D
+
+(09:18:06 PM) Rabitya: malam hari ini saya mendapatkan tugas dari pak mdamt untuk memberikan lokakarya mengenai jQuery
+
+(09:18:11 PM) \*\*\*priyess priyess, calon pendekar yang ngambek ga kebagian kaosnya pak aftian :D
 (09:18:46 PM) Rabitya: setiaji, embarpasaribu, terima kasih doanya :)
-(09:19:07 PM) Rabitya: saya yakin sebagian di sini sudah ada yang mahir
-menggunakan jQuery
-(09:19:24 PM) Rabitya: jadi malam ini lebih tepatnya kalau disebut dengan
-"belajar bareng"
+
+(09:19:07 PM) Rabitya: saya yakin sebagian di sini sudah ada yang mahir menggunakan jQuery
+
+(09:19:24 PM) Rabitya: jadi malam ini lebih tepatnya kalau disebut dengan "belajar bareng"
+
 (09:19:35 PM) Rabitya: mirip gaya anak kuliahan gitu
+
 (09:19:37 PM) Rabitya: :D
+
 (09:20:24 PM) Rabitya: sebenarnya apa itu jQuery
-(09:20:43 PM) Rabitya: ada yang menyebutkan bahwa jQuery itu merupakan
-framework
-(09:20:59 PM) Rabitya: ada lagi yang menyebutkan bahwa jQuery itu adalah
-library
+
+(09:20:43 PM) Rabitya: ada yang menyebutkan bahwa jQuery itu merupakan framework
+
+(09:20:59 PM) Rabitya: ada lagi yang menyebutkan bahwa jQuery itu adalah library
+
 (09:21:12 PM) Rabitya: keduanya sama-sama benar
+
 (09:21:33 PM) Rabitya: secara mudahnya
+
 (09:21:43 PM) Rabitya: jQuery merupakan sekumpulan fungsi siap pakai
+
 (09:22:19 PM) Rabitya: misalnya, fungsi untuk slide up dan slide down
+
 (09:22:33 PM) Rabitya: fungsi untuk mengambil nilai dari suatu input teks
+
 (09:22:36 PM) Rabitya: dan sebagainya
-(09:23:05 PM) Rabitya: kalau kita membuat fungsi tersebut dari scratch, atau
-dari awal
-(09:23:18 PM) Rabitya: tentu membutuhkan waktu, pikiran, tenaga, dan juga
-cemilan
+
+(09:23:05 PM) Rabitya: kalau kita membuat fungsi tersebut dari scratch, atau dari awal
+
+(09:23:18 PM) Rabitya: tentu membutuhkan waktu, pikiran, tenaga, dan juga cemilan
+
+
 (09:23:30 PM) Rabitya: sesuai dengan slogan jQuery
+
 (09:23:36 PM) Rabitya: write less, do more
-(09:24:02 PM) Rabitya: karena siap pakai, kita tidak perlu berpanjang-panjang
-ria untuk membuat fungsi yang hendak kita pakai
+
+(09:24:02 PM) Rabitya: karena siap pakai, kita tidak perlu berpanjang-panjang ria untuk membuat fungsi yang hendak kita pakai
+
 (09:24:17 PM) Rabitya: lalu kenapa harus jQuery
-(09:24:55 PM) Rabitya: secara popularitas, jQuery lebih populer dibandingkan
-dengan javascript lainnya, misalnya prototype, mootools, YUI, dan sebagainya
-(09:25:30 PM) Rabitya: selain itu juga, ukuran berkas jQuery lebih kecil
-dibandingkan dengan sejenisnya
+
+(09:24:55 PM) Rabitya: secara popularitas, jQuery lebih populer dibandingkan dengan javascript lainnya, misalnya prototype, mootools, YUI, dan sebagainya
+
+(09:25:30 PM) Rabitya: selain itu juga, ukuran berkas jQuery lebih kecil dibandingkan dengan sejenisnya
+
 (09:25:33 PM) fbrn [~aris@202.152.204.186] entered the room.
-(09:25:51 PM) Rabitya: kalau google dan microsoft saja pakai jQuery, masa'
-BlankOn gak mau pakai juga
+
+(09:25:51 PM) Rabitya: kalau google dan microsoft saja pakai jQuery, masa' BlankOn gak mau pakai juga
+
 (09:25:52 PM) Rabitya: :)
+
 (09:26:33 PM) Rabitya: bagaimana cara kerja jQuery
-(09:26:50 PM) Rabitya: ini dia yang membuat jQuery relatif lebih mudah
-dibandingkan dengan framework lainnya
+
+(09:26:50 PM) Rabitya: ini dia yang membuat jQuery relatif lebih mudah dibandingkan dengan framework lainnya
+
 (09:27:01 PM) Rabitya: \* ngucapin selamat datang kepada pak fbrn
+
 (09:27:08 PM) adzymaniac [~adzy@125.163.246.68] entered the room.
-(09:27:25 PM) Rabitya: karena, jika dibahasamanusiakan, jQuery memiliki prinsip
-kerja
+
+(09:27:25 PM) Rabitya: karena, jika dibahasamanusiakan, jQuery memiliki prinsip kerja
+
 (09:27:29 PM) Rabitya: 1. temukan
+
 (09:27:32 PM) Rabitya: 2. kerjakan
+
 (09:27:52 PM) Rabitya: atau dalam pseducodenya
+
 (09:28:04 PM) Rabitya: $(selector).action()
+
 (09:29:11 PM) Rabitya: cara menggunakannya pun cukup mudah
-(09:29:43 PM) Rabitya: yang pertama-tama kita lakukan adalah menempelkannya
-pada halaman web kita
+
+(09:29:43 PM) Rabitya: yang pertama-tama kita lakukan adalah menempelkannya pada halaman web kita
+
+
 (09:30:14 PM) Rabitya: menempelkannya sebaiknya di antara <head> dan </head>
+
 (09:30:14 PM) Rabitya: misalnya
+
 (09:30:46 PM) Rabitya: <script src="jquery.js"></script>
+
 (09:30:52 PM) Rabitya: kemudian
-(09:31:17 PM) Rabitya: di bawahnya kita inisiasi, bahwa halaman yang kita buat
-siap untuk menjalankan jQuery
+
+(09:31:17 PM) Rabitya: di bawahnya kita inisiasi, bahwa halaman yang kita buatsiap untuk menjalankan jQuery
 (09:31:42 PM) Rabitya: inisiasinya biasanya berupa
 (09:31:51 PM) Rabitya: $(document).ready(function(){
 (09:31:56 PM) Rabitya: ... {kode di sini} ...
