@@ -40,13 +40,16 @@ Untuk Tajuk 1 kita juga dapat menggunakan tanda ==== yang diletakkan pada baris 
 Untuk Tajuk 2 kita juga dapat menggunakan tanda ___ yang diletakkan pada baris berikutnya.
 
 Berikut adalah tangkapan layar aplikasi Haroopad
+
 ![Tajuk](/wiki/Assets/Images/Markdown/Tajuk.png)
 
 ----
 
 ### Format Karakter
  + Untuk membuat karakter tebal, tambahkan dua tanda bintang pada awal dan akhir karakter.
-  Contoh: **Tebal**
+  Contoh: **\*** **\***Tebal**\*** **\*** 
+
+  Tampilan **Tebal**
  + Untuk membuat karakter miring, tambahkan dua tanda bintang pada awal dan akhir karakter.
    Contoh: *miring*
  + Untuk membuat karakter tercoret, tambahkan dua tanda ~ pada awal dan akhir karakter.
