@@ -64,3 +64,12 @@ Data per 10/23/2012 09:00:22 AM
 **Kegunaan**
     * Web.BOI
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

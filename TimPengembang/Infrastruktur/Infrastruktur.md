@@ -57,3 +57,12 @@ Tim ini cukup memiliki akses sudo.
 
 Ada pertanyaan? komentar? Tulis di sini.
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
