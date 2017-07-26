@@ -32,10 +32,11 @@ Tahu dari mana bahwa berkas-berkas di atas yang diinstal? Silakan tengok Makefil
 + bin_PROGRAMS
 + LTLIBRARIES
 + variabel yang mengandung kata 'dir', misalnya:
-  ```
+
+```
  configdir = $(sysconf) \
  config_DATA = config.txt
- ```
+```
 
 berarti berkas-berkas yang ada di dalam variabel berikutnya (yang tanpa kata dir akan diinstal ke dalam direktori itu).
 Semua berkas yang akan diinstal harus dicatat dengan baik.
@@ -55,6 +56,7 @@ Jadi dalam kasus kita kita akan buat paket-paket berikut:
 + labusiyam-dbg
 
 X dalam liblabusiyamX belum kita ketahui. Namun nilainya dapat kita cari dengan cara:
+
 ```
  $ make                              *#asumsi proses berjalan lancar* \
  $ cd src/.libs                      *#asumsi lokasinya ada di src/* \
@@ -111,13 +113,13 @@ include /usr/share/cdbs/1/rules/debhelper.mk \
 include /usr/share/cdbs/1/class/autotools.mk \
 \
 DEB_DH_STRIP_ARGS := --dbg-package=liblabusiyam0 --dbg-package=labusiyam
-
 ```
 
 Berkas di atas menandakan bahwa pembangunan paket akan menggunakan skrip cdbs. Di situ juga didefinisikan dua paket debug yang kita punya.
 
 ## Membuat definisi paket
 Sunting berkas control. Isikan informasi berikut:
+
 ```
 Source: labusiyam \
 Section: base \
@@ -150,6 +152,7 @@ Paket ini digunakan untuk membantu pembuatan sayur lain. \
 
 Perhatikan untuk mengisi kolom-kolom Section, Architecture, dan Build-Depends dengan benar. Mari kita lihat satu-persatu:
 + Definisi pertama kali dibuka dengan mendefinisikan paket sumber, ditandai dengan adanya kolom Source. Isikan dengan nama paketnya. Build-Depends diisi dengan paket-paket yang dibutuhkan selama pembangunan paket ini (semua paket yang Anda butuhkan saat melakukan make dan make install).
+
 ``` 
 Source: labusiyam \
 Section: base \
@@ -157,8 +160,10 @@ Priority: optional \
 Maintainer: Prajurit Ryan <ryan@private.tentara.mil> \
 Build-Depends: debhelper, cdbs, pkg-config, libgtk2.0-dev \
 Standards-Version: 3.6.0 
-```   
+```
+
 + Kemudian definisikan paket binari kita, yaitu labusiyam. Section diisi sesuai dengan kategori perangkat lunaknya. Silakan konsultasi dengan manual Debian. Arsitektur diisi dengan any karena mengandung berkas-berkas binari.
+
 ``` 
 Package: labusiyam \
 Section: base \
@@ -169,6 +174,7 @@ Labusiyam digunakan untuk membuat sayur.
 ```
 
 + Lalu paket pustaka.
+
 ```
 Package: liblabusiyam0 \
 Section: base \
@@ -196,36 +202,55 @@ Paket ini digunakan untuk membantu pembuatan sayur lain. \
 Selanjutnya adalah mendaftarkan berkas yang akan diinstal dalam masing-masing paket. Mari kita sunting berkas-berkas berikut dan mengisinya dengan informasi yang juga diberikan di bawah.
 
 + labusiyam.install
+
 ```
 debian/tmp/usr/bin/labusiyam \
 debian/tmp/etc/labusiyam/config.txt \
 debian/tmp/usr/share/labusiyam/data.txt
 ``` 
 + liblabusiyam0.install
- >> debian/tmp/usr/lib/liblabusiyam.so.0.0.1
- >> debian/tmp/usr/lib/liblabusiyam.so.0
+
+``` 
+debian/tmp/usr/lib/liblabusiyam.so.0.0.1
+debian/tmp/usr/lib/liblabusiyam.so.0
+``` 
+
 + atau boleh juga:
- >> debian/tmp/usr/lib/liblabusiyam.so.*
+
+``` 
+debian/tmp/usr/lib/liblabusiyam.so.*
+``` 
+
 + liblabusiyam-dev.install
- >> debian/tmp/usr/lib/liblabusiyam.so \
- >> debian/tmp/usr/include/labusiyam.h
+
+``` 
+debian/tmp/usr/lib/liblabusiyam.so \
+debian/tmp/usr/include/labusiyam.h
+``` 
 
 ## Membuat catatan versi
 Sunting berkas changelog, isikan:
- >> labusiyam (0.0.1-0blankon1) konde; urgency=low \
- >>  \
- >>   * New release. \
- >>  \
- >> -- Prajurit Ryan <ryan@private.tentara.mil>  Wed,  4 Jul 2007 11:37:37 +0300
+
+``` 
+labusiyam (0.0.1-0blankon1) konde; urgency=low \
+\
+/* New release. \
+  \
+ -- Prajurit Ryan <ryan@private.tentara.mil>  Wed,  4 Jul 2007 11:37:37 +0300
+```
 
 Perhatikan bahwa penulisan tanggal harus dilakukan dengan bentuk seperti di atas. Silakan konsultasi dengan manual Debian untuk lebih jelasnya. Perhatikan di mana harus menulis spasi dan di mana tidak. Penomoran nomor versi bergantung dengan konvensi distribusi. Kata konde di atas menandakan bahwa paket ini ditujukan untuk distribusi konde. Pada Debian biasanya menggunakan unstable atau testing.
 
 ## Membangun paket
 Sekarang mari kita bangun paketnya:
- >> cd ..    '''#tadi ada di dalam direktori debian/ sekarang kita naik satu tingkat''' \
- >> dpkg-buildpackage -rfakeroot 
+
+```
+cd ..    '''#tadi ada di dalam direktori debian/ sekarang kita naik satu tingkat''' \
+dpkg-buildpackage -rfakeroot 
+```
 
 Bila tidak ada aral melintang, maka dalam direktori atasnya lagi kita akan punya berkas-berkas berikut:
+
  >> * labusiyam_0.0.1-0ubuntu1_i386.deb \
  >> * liblabusiyam0_0.0.1-0ubuntu1_i386.deb \
  >> * liblabusiyam-dev_0.0.1-0ubuntu1_all.deb \
@@ -239,13 +264,19 @@ Pengecekan perlu kita lakukan pada tiap-tiap paket yang dihasilkan guna memastik
 
 ## Pengecekan daftar isi
 Mengeceknya mudah. Gunakan perintah:
- >> dpkg --contents nama-berkas.deb
+
+```
+dpkg --contents nama-berkas.deb
+```
 
 Dalam hasil keluaran biasanya akan muncul bahwa ada berkas bernama changelog.gz, changelog.Debian.gz, dan copyright. Ini tidak apa-apa. Namun pastikan bahwa berkas-berkas yang sudah kita masukkan ke dalam berkas *.install benar-benar ada dalam hasil keluarannya.
 
 ## Pengecekan instalasi
 Cek dengan menginstal paket tersebut:
- >> sudo dpkg -i nama-berkas.deb
+
+```
+sudo dpkg -i nama-berkas.deb
+```
 
 Biasanya masalah yang timbul disini adalah ketidakcocokan dalam ketergantungan paket, dsb.
 
