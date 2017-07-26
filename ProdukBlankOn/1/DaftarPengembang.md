@@ -12,3 +12,12 @@
     M. Aulia Adnan, dan Riza Nugraha.
 
 Sumber: https://groups.google.com/forum/#!searchin/blankon/BlankOn$20bianglala%7Csort:relevance/blankon/j09M-ctcjD8/X2KDdFChISkJ
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
