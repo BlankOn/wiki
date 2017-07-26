@@ -41,3 +41,12 @@ Berikut ini adalah tiga fitur yang ingin dibuat beserta bobot pengerjaannya.
          1. Template sederhana beserta parameter (25%)
          2. Template bertingkat/template dalam template (25%)
    3. Kategorisasi dapat digunakan (35%)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

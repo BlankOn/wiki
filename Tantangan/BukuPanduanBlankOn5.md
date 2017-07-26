@@ -19,3 +19,12 @@ pada BlankOn, pemasangan program dan semua yang berhubungan dengan penggunaan Bl
  1. Pemasangan program tambahan
   2. Pembahasan studi kasus untuk perkantoran, sekolah, dan rumah
     
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

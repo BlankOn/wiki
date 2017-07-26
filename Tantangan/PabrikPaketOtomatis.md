@@ -50,3 +50,12 @@ kriteria tambahan
    5. Dirancang untuk dapat bekerja begitu ada paket baru dari Ubuntu
    6. Terdokumentasi penuh, mulai dari rancangan hingga cara pakai
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
