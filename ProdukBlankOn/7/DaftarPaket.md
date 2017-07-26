@@ -451,3 +451,12 @@ Daftar paket tentatif :
     * monajat (aftian)
     * Qur'an in openoffice.org-qioo
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

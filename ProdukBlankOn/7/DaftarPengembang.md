@@ -55,3 +55,12 @@ Tim ini bertanggung jawab dalam mengumpulkan dokumentasi untuk pengguna pada seb
     yudha satya a.p (mengerjakan 1 bab) 
     
     
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
