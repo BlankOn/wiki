@@ -43,3 +43,12 @@ Secara garis besar seperti berikut:
 - Perangkat Virtual
 - Penguji paket otomatis 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

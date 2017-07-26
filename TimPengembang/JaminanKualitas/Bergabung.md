@@ -7,3 +7,12 @@ Selain tertulis pada halaman [TimPengembang](https://github.com/BlankOn/Uluwatu.
    - Sunting nama Anda pada daftar Tim pengembang misalnya di [sini](https://github.com/BlankOn/Uluwatu/blob/master/TEAM.md) dan tentu saja pada halaman [Tim Jaminan Kualitas.](/TimPengembang/JaminanKualitas/JaminanKualitas.md)
    - Pastikan Anda memiliki setidaknya 1 (satu) mesin yang menggunakan [BlankOn](http://dev.blankonlinux.or.id/wiki/BlankOn) atau debian yang di.blankon.in sebagai sistem operasi utama, bukan komputer virtual.
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
