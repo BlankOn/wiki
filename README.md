@@ -8,7 +8,7 @@ BlankOn Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat
  * [Pertanyaan Umum](#pertanyaan-umum)
  * [Bagaimana Berkontribusi](#bagaimana-berkontribusi)
  * [Tentang Wiki BlankOn](#tentang-wiki-blankon)
- * [Daftar Isi](/DaftarIsi.md)
+ * [Daftar Isi](/DaftarIsi/README.md)
  * [Indeks](/Indeks.md)
 
 ## Pertanyaan Umum
