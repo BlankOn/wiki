@@ -1,9 +1,7 @@
 # Daftar Isi Wiki BlankOn
 - [**Assets**](/Assets)
-  - Images
-   + [](/Assets/Images/AssetsImages.md)
-  - Others
-   + [](/Assets/Others/)
+  - [Images / Daftar Gambar](/Assets/Images/AssetsImages.md)
+  - [Others / Daftar Berkas](/Assets/Others/AssetsOthers.md)
 
 - **Panduan Menulis Wiki**
    - [Panduan Menulis Wiki](/TimPengembang/Dokumentasi/Panduan/PanduanMenulisWiki.md)
