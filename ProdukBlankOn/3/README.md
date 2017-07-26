@@ -43,3 +43,12 @@ Untuk memigrasikan sistem dari BlankOn 2.0 (Konde) ke BlankOn 3.0, pengguna dapa
 Informasi lain berkenaan dengan instalasi dan peningkatan versi (upgrade) dari sistem lama
 
 Silakan baca panduan upgrade​Ubuntu 8.04 Hardy Heron. 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

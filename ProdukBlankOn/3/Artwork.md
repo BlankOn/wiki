@@ -86,3 +86,12 @@ http://gnome-look.org/CONTENT/content-pre1/70622-1.png
 ​![](http://cecunguk.blankonlinux.or.id/~alie/logo/logo-blangkon2.svg)
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

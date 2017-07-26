@@ -15,3 +15,12 @@
   - Muhammad Takdir (pemaket)
   - Muhidin S (tester)
   - Romi Hardiyanto (pemaket, i15n Firefox) 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
