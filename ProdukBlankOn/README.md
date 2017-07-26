@@ -26,3 +26,12 @@ banyak program yang diambil dari pembuatnya langsung.
 
 
  
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
