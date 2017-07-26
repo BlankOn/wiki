@@ -125,3 +125,12 @@ Referensi :
    ​http://idforge.or.id/irclogs/blankon/%23blankon.2011-02-25.log
  ```
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

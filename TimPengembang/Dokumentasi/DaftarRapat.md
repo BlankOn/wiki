@@ -15,3 +15,12 @@
 
 ## Tim Jaminan Kualitas/Tester
   * Rapat [20081114](/TimPengembang/JaminanKualitas/14112008.md)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

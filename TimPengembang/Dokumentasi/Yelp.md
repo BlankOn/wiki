@@ -13,3 +13,12 @@
   +  ​http://live.gnome.org/Yelp
   +  ​http://projectmallard.org/about/index.html
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

@@ -45,3 +45,12 @@ Berdasarkan beberapa hal di atas maka kami putuskan;
 [2]:(http://panduan.blankonlinux.or.id/umum/sayembara-edisi-buku-inkscape/)
 [3]:(http://panduan.blankonlinux.or.id/memulai-menulis/)
 [4]:(http://irclog.blankon.in/blankon/20170515/)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

@@ -34,3 +34,12 @@ Tim Dokumentasi BlankOn bertugas;
 [webpanduanboi]:(http://panduan.blankonlinux.or.id/)
 [wikiblankon]:(https://blankon.github.io/wiki/)
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

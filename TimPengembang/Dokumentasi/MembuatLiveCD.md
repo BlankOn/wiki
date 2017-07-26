@@ -27,3 +27,12 @@ PS: spesial thanks to mdamt. he is the one. :D
 Penulis:
 * Nur Kholis Majid
 * Mahyuddin Susanto (revisi) 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
