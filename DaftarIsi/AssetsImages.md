@@ -43,3 +43,9 @@
  + [PestaRilisXSurabaya.jpg](Assets/Images/PestaRilisXSurabaya.jpg)
  + [SampulBuku1.jpg](Assets/Images/SampulBuku1.jpg)
 
+-----
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
