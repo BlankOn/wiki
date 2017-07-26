@@ -34,3 +34,12 @@ Berikut adalah beberapa contoh hal-hal yang menjadi indikator keberhasilan misi 
 - Saya milioner asal Afrika Selatan, di dalam distribusi Linux buatan saya, terdapat program yang awalnya dikembangkan di BlankOn
 - Saya dosen mata ajar Sistem Operasi. Saya menggunakan BlankOn untuk laboratorium Sistem Operasi.
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

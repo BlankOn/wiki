@@ -34,3 +34,12 @@ Deskripsi setiap tim bisa dibaca pada [halaman Tim BlankOn](/TimBlankOn.md)
      Tentang Tim Humas: Wiki_Tim_Humas
     * Ahmad Haris a.k.a @princeofgiri (Koordinator)
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

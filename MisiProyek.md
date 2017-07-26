@@ -35,3 +35,12 @@ Berikut adalah beberapa contoh hal-hal yang menjadi indikator keberhasilan misi 
     Saya dosen mata ajar Sistem Operasi. Saya menggunakan BlankOn untuk laboratorium Sistem Operasi. 
 
 Last modified 3 years ago Last modified on 10/16/2014 02:23:06 PM 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

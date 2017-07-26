@@ -6,3 +6,12 @@ Tautan Unduhan :
 
 [Unduh 32 bit](http://edusantara.kemdikbud.go.id/cdimage/edusantara-1.0-desktop-i386.iso)
 [Unduh 64 bit](http://edusantara.kemdikbud.go.id/cdimage/edusantara-1.0-desktop-amd64.iso)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
