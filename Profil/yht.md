@@ -29,3 +29,12 @@ Referensi
   31. file:///zip-attachment/wiki/yht/
   
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
