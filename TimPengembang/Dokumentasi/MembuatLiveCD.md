@@ -1,4 +1,4 @@
-# Membuat Life Cd
+# Membuat Live Cd
 
 1.Penyiapan sistem dasar (bootstrap)
 http://dev.blankonlinux.or.id/wiki/Dokumentasi/Lokakarya/MembuatLiveCD/PenyiapanSistemDasar 
