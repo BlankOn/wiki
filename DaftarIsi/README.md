@@ -80,6 +80,7 @@
  
 [**Indeks Wiki BlankOn**](/Indeks.md)
 
+<<<<<<< HEAD
 
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
@@ -89,3 +90,5 @@
 
 
 
+=======
+>>>>>>> c304032700941b509c61e6b28341c2055ccda770
