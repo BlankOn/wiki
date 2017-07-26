@@ -56,3 +56,12 @@ Bantu kami membuat BlankOn menjadi lebih bagus lagi.
 Edisi BlankOn selanjutnya adalah BlankOn 6.0 yang rencananya akan diluncurkan pada bulan November 2009 yang akan mengangkat tema dari Sumatra Barat dengan kode rilis Ombilin.
 
 Sumber: http://tips4h.blogspot.co.id/2009/06/catatan-rilis-blankon-50-nanggar.html
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

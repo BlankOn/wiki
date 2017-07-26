@@ -18,3 +18,12 @@ Dalam mengusulkan artwork, hendaknya membuat mockup dulu atau coretan. Sehingga 
 Sekecil apapun sumbangsih dari Anda, akan sangat membantu suksesnya proyek BlankOn, Terima kasih.
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
