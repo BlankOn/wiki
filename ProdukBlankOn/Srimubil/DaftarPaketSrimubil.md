@@ -779,3 +779,12 @@ Halaman ini memuat daftar paket dari Meego yang belum tersedia di Lumbung Paket 
 | 18 | Meta-srimubil-js  |  |    |
 | 19 | Meego-gtk-engine  |​http://meego.gitorious.org/meego-netbook-ux/meego-gtk-engine  |    |
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

@@ -63,3 +63,12 @@ Berikut adalah target eksperimen Srimubil dan pengelolanya:
  * [Contekan untuk membuat bibit paket](http://meego.gitorious.org/meego-netbook-ux/meego-jhbuild-netbook/)
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
