@@ -57,3 +57,12 @@ License:
           /usr/share/common-licenses/GPL
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

@@ -27,3 +27,12 @@ Untuk membantu mulai belajar membuat paket debian, tulisan - tulisan dibawah ini
 - [Ubuntu MOTU School](https://wiki.ubuntu.com/MOTU/School)
 - [Bazaar Documentation](http://bazaar-vcs.org/Documentation)
 - [Manual CDBS](https://perso.duckcorp.org/duck/cdbs-doc/cdbs-doc.xhtml)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
