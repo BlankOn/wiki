@@ -17,3 +17,12 @@ Mendeploy ulang IRGSH dan kawan-kawan di sistem operasi yang lebih modern.
 ## PR-PR lain, dari Koordinator Riset sebelumnya, @diorrahman
   * https://gist.github.com/diorahman/9575244
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
