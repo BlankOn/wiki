@@ -243,3 +243,12 @@ Berikut ini adalah daftar paket yang diusulkan untuk dimasukkan ke dalam DVD Bla
     * VMWare-Server-Console ada paket debian nya?
     * adobe reader
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

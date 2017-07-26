@@ -46,3 +46,12 @@
   - [Arif Rohman Hakim](http://dev.blankonlinux.or.id/wiki/arifrohman1) 
   
   
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
