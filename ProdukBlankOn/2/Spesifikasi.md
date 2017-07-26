@@ -11,3 +11,12 @@ Beberapa bahan bacaan yang berguna untuk para pemaket:
     * ​http://www.debian.org/doc/maint-guide/
     * ​http://www.debian.org/doc/debian-policy/
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
