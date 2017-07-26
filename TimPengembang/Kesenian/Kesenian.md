@@ -63,3 +63,12 @@ Meskipun pilihan perangkat lunak yang digunakan bebas, disarankan untuk mengguna
 Karena Tim Kesenian termasuk dalam tim Rilis, maka halaman kerja wiki terletak di bawah wiki/nomorrilis/Kesenian.
 
 Untuk rilis X Tambora, dapat dijelajahi [di sini](http://dev.blankonlinux.or.id/wiki/X/Kesenian)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

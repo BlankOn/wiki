@@ -15,3 +15,12 @@ Last modified on 02/26/2012 10:38:08 PM
   * avatar-default.svg​ (7.7 KB) - added by cho2 5 years ago.
   * stock_people.svg​ (12.1 KB) - added by cho2 5 years ago.
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
