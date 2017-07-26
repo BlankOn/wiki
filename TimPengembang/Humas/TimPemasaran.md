@@ -39,3 +39,12 @@
   + Widget chatbox di blog-blog judulnya "tuliskan keluhan blankon disini"
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

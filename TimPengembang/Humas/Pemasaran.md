@@ -49,3 +49,12 @@ Kontribusi Anda kami butuhkan. Mari bergabung bersama [Tim Pemasaran BlankOn](ht
 Referensi halaman Pemasaran BlankOn juga dari [http://live.gnome.org/GnomeMarketing Gnome Marketing] dan [https://wiki.ubuntu.com/DIYMarketing Ubuntu DIYMarketing]
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

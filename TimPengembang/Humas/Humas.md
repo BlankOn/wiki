@@ -25,3 +25,12 @@ TODO : Deskripsi tugas
 
 Bertujuan memperkenalkan versi terbaru BlankOn yang bisa dikemas dalam berbagai bentuk kegiatan antara lain workshop, lokakarya, bimtek, seminar dan lomba-lomba. Materi utama dalam Pesta Rilis adalah presentasi filosifi tema dan tinjauan fitur baru.
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
