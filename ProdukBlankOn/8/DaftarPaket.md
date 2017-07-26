@@ -22,3 +22,12 @@ Secara umum, fitur-fitur dari BlankOn versi 8.0 adalah sebagai berikut :
   * Aplikasi surat elektronik Evolution,
   * Dan Lebih Banyak Lagi Kami menyertakan ratusan ribu aplikasi yang tersimpan dalam lumbung aplikasi.
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

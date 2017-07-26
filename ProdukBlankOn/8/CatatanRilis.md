@@ -35,3 +35,12 @@ Last_modified 6 years ago Last modified on 10/13/2011 04:27:48 PM
 Target Rilis awal yang masih menampilkan bentuk kasar Cd dapat masuk Destop
 Dirilis Tanggal 27 Oktober 2011
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

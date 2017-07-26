@@ -7,3 +7,12 @@
   + [Spesifikasi Informasi Jam](http://dev.blankonlinux.or.id/wiki/8/Spesifikasi/InformasiJam)
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

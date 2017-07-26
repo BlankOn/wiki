@@ -48,3 +48,12 @@
  * Aris Febrianto
  * Krida Pandu Gunata
  * Akrom Musajid
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
