@@ -164,3 +164,12 @@ Last modified on 07/05/2010 03:53:19 AM
     * aksara-nusantara-gedit.png​ (37.8 KB) - added by aftian 7 years ago.
 
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

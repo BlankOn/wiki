@@ -74,3 +74,12 @@ Bertanggung jawab atas dokumentasi rilis
     
 ## Tim Pemasaran
 Karena Tim Pemasaran berlaku umum untuk semua rilis, anggota tim Pemasaran dapat dilihat pada halaman [Tim Pengembang Nanggar](/ProdukBlankOn/5/DaftarPengembang.md)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
