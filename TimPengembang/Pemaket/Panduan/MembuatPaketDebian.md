@@ -32,8 +32,10 @@ Tahu dari mana bahwa berkas-berkas di atas yang diinstal? Silakan tengok Makefil
 + bin_PROGRAMS
 + LTLIBRARIES
 + variabel yang mengandung kata 'dir', misalnya:
-  >> configdir = $(sysconf) \
-  >> config_DATA = config.txt
+  ```
+ configdir = $(sysconf) \
+ config_DATA = config.txt
+ ```
 
 berarti berkas-berkas yang ada di dalam variabel berikutnya (yang tanpa kata dir akan diinstal ke dalam direktori itu).
 Semua berkas yang akan diinstal harus dicatat dengan baik.
@@ -53,12 +55,17 @@ Jadi dalam kasus kita kita akan buat paket-paket berikut:
 + labusiyam-dbg
 
 X dalam liblabusiyamX belum kita ketahui. Namun nilainya dapat kita cari dengan cara:
- >> $ make                              *#asumsi proses berjalan lancar* \
- >> $ cd src/.libs                      *#asumsi lokasinya ada di src/* \
- >> $ objdump -x liblabusiyam.so.0.0.1 | grep SONAME
+```
+ $ make                              *#asumsi proses berjalan lancar* \
+ $ cd src/.libs                      *#asumsi lokasinya ada di src/* \
+ $ objdump -x liblabusiyam.so.0.0.1 | grep SONAME
+```
 
 Perintah di atas akan menghasilkan sesuatu seperti
- >> SONAME     liblabusiyam.so.0
+
+```
+SONAME     liblabusiyam.so.0
+```
 
 Angka terakhir itulah (0) yang dijadikan X. Jadi daftar final paket kita adalah:
 + labusiyam
@@ -68,99 +75,120 @@ Angka terakhir itulah (0) yang dijadikan X. Jadi daftar final paket kita adalah:
 + labusiyam-dbg
 
 ## Pendefinisian paket
- >> mkdir debian \
- >> cd debian \
- >> touch changelog control rules \
- >> chmod +x rules \
- >> touch labusiyam.install labusiyam0.install labusiyam-dev.install \
- >> echo 4 > compat \
+```
+ mkdir debian \
+ cd debian \
+ touch changelog control rules \
+ chmod +x rules \
+ touch labusiyam.install labusiyam0.install labusiyam-dev.install \
+ echo 4 > compat \
+```
 
 Sekarang kalau dilihat kita akan lihat:
- >> ls -l
+
+```
+ls -l
+```
 
 hasilnya:
- >> total 8 \
- >> -rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 changelog \
- >> -rw-r--r-- 1 mdamt mdamt    2 2007-07-11 16:07 compat \
- >> -rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 control \
- >> -rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 labusiyam0.install \
- >> -rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 labusiyam-dev.install \
- >> -rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 labusiyam.install \
- >> -rwxr-xr-x 1 mdamt mdamt    0 2007-07-11 16:07 rules \
+```
+total 8 \
+-rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 changelog \
+-rw-r--r-- 1 mdamt mdamt    2 2007-07-11 16:07 compat \
+-rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 control \
+-rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 labusiyam0.install \
+-rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 labusiyam-dev.install \
+-rw-r--r-- 1 mdamt mdamt    0 2007-07-11 16:07 labusiyam.install \
+-rwxr-xr-x 1 mdamt mdamt    0 2007-07-11 16:07 rules \
+``` 
 
 ## Membuat program pembangun paket
 Sunting berkas rules. Isikan informasi berikut:
- >> #!/usr/bin/make -f \
- >>   \
- >> include /usr/share/cdbs/1/rules/debhelper.mk \
- >> include /usr/share/cdbs/1/class/autotools.mk \
- >>   \
- >> DEB_DH_STRIP_ARGS := --dbg-package=liblabusiyam0 --dbg-package=labusiyam 
+```
+#!/usr/bin/make -f \
+\
+include /usr/share/cdbs/1/rules/debhelper.mk \
+include /usr/share/cdbs/1/class/autotools.mk \
+\
+DEB_DH_STRIP_ARGS := --dbg-package=liblabusiyam0 --dbg-package=labusiyam
+
+```
 
 Berkas di atas menandakan bahwa pembangunan paket akan menggunakan skrip cdbs. Di situ juga didefinisikan dua paket debug yang kita punya.
 
 ## Membuat definisi paket
 Sunting berkas control. Isikan informasi berikut:
- >> Source: labusiyam \
- >> Section: base \
- >> Priority: optional \
- >> Maintainer: Prajurit Ryan <ryan@private.tentara.mil> \
- >> Build-Depends: debhelper, cdbs, pkg-config, libgtk2.0-dev \
- >> Standards-Version: 3.6.0 \
- >>  \
- >> Package: labusiyam \
- >> Section: base \
- >> Architecture: any \
- >> Depends: ${shlibs:Depends}, ${misc:Depends},  \
- >> Description: Labusiyam \
-  >> Labusiyam digunakan untuk membuat sayur. \
- >>  \
- >> Package: liblabusiyam0 \
- >> Section: base \
- >> Architecture: any \
- >> Depends: ${shlibs:Depends}, ${misc:Depends},  \
- >> Description: Pustaka Labusiyam \
-  >> Pustaka Labusiyam digunakan untuk membuat sayur lainnya. \
- >>  \
- >> Package: labusiyam-dev \
- >> Section: base \
- >> Architecture: all \
- >> Depends: ${shlibs:Depends}, ${misc:Depends},  \
- >> Description: Pengembangan Labusiyam \
-  >> Paket ini digunakan untuk membantu pembuatan sayur lain. \
+```
+Source: labusiyam \
+Section: base \
+Priority: optional \
+Maintainer: Prajurit Ryan <ryan@private.tentara.mil> \
+Build-Depends: debhelper, cdbs, pkg-config, libgtk2.0-dev \
+Standards-Version: 3.6.0 \
+\
+Package: labusiyam \
+Section: base \
+Architecture: any \
+Depends: ${shlibs:Depends}, ${misc:Depends},  \
+Description: Labusiyam \
+Labusiyam digunakan untuk membuat sayur. \
+\
+Package: liblabusiyam0 \
+Section: base \
+Architecture: any \
+Depends: ${shlibs:Depends}, ${misc:Depends},  \
+Description: Pustaka Labusiyam \
+Pustaka Labusiyam digunakan untuk membuat sayur lainnya. \
+\
+Package: labusiyam-dev \
+Section: base \
+Architecture: all \
+Depends: ${shlibs:Depends}, ${misc:Depends},  \
+Description: Pengembangan Labusiyam \
+Paket ini digunakan untuk membantu pembuatan sayur lain. \
+```
 
 Perhatikan untuk mengisi kolom-kolom Section, Architecture, dan Build-Depends dengan benar. Mari kita lihat satu-persatu:
 + Definisi pertama kali dibuka dengan mendefinisikan paket sumber, ditandai dengan adanya kolom Source. Isikan dengan nama paketnya. Build-Depends diisi dengan paket-paket yang dibutuhkan selama pembangunan paket ini (semua paket yang Anda butuhkan saat melakukan make dan make install).
-  >> Source: labusiyam \
-  >> Section: base \
-  >> Priority: optional \
-  >> Maintainer: Prajurit Ryan <ryan@private.tentara.mil> \
-  >> Build-Depends: debhelper, cdbs, pkg-config, libgtk2.0-dev \
-  >> Standards-Version: 3.6.0 
-  
+``` 
+Source: labusiyam \
+Section: base \
+Priority: optional \
+Maintainer: Prajurit Ryan <ryan@private.tentara.mil> \
+Build-Depends: debhelper, cdbs, pkg-config, libgtk2.0-dev \
+Standards-Version: 3.6.0 
+```   
 + Kemudian definisikan paket binari kita, yaitu labusiyam. Section diisi sesuai dengan kategori perangkat lunaknya. Silakan konsultasi dengan manual Debian. Arsitektur diisi dengan any karena mengandung berkas-berkas binari.
-  >> Package: labusiyam \
-  >> Section: base \
-  >> Architecture: any \
-  >> Depends: ${shlibs:Depends}, ${misc:Depends},  \
-  >> Description: Labusiyam \
-   >> Labusiyam digunakan untuk membuat sayur.
-   
+``` 
+Package: labusiyam \
+Section: base \
+Architecture: any \
+Depends: ${shlibs:Depends}, ${misc:Depends},  \
+Description: Labusiyam \
+Labusiyam digunakan untuk membuat sayur.
+```
+
 + Lalu paket pustaka.
-  >> Package: liblabusiyam0 \
-  >> Section: base \
-  >> Architecture: any \
-  >> Depends: ${shlibs:Depends}, ${misc:Depends},  \
-  >> Description: Pustaka Labusiyam \
-   >> Pustaka Labusiyam digunakan untuk membuat sayur lainnya.
-  
+```
+Package: liblabusiyam0 \
+Section: base \
+Architecture: any \
+Depends: ${shlibs:Depends}, ${misc:Depends},  \
+Description: Pustaka Labusiyam \
+Pustaka Labusiyam digunakan untuk membuat sayur lainnya.
+```
+
+
 + Lalu paket pengembangan. Arsitektur kita isi dengan all karena ia hanya menginstal berkas labusiyam.h dan tautan simbolik saja. Bila ia juga menyertakan berkas binari maka harus kita ganti ke any.
-  >> Package: labusiyam-dev \
-  >> Section: base \
-  >> Architecture: all \
-  >> Depends: ${shlibs:Depends}, ${misc:Depends},  \
-  >> Description: Pengembangan Labusiyam \
-   >> Paket ini digunakan untuk membantu pembuatan sayur lain. \
+
+```
+Package: labusiyam-dev \
+Section: base \
+Architecture: all \
+Depends: ${shlibs:Depends}, ${misc:Depends},  \
+Description: Pengembangan Labusiyam \
+Paket ini digunakan untuk membantu pembuatan sayur lain. \
+``` 
 
 + Cukup sekian. Paket debug tidak perlu kita definisikan dalam debian/control. 
 
@@ -168,9 +196,11 @@ Perhatikan untuk mengisi kolom-kolom Section, Architecture, dan Build-Depends de
 Selanjutnya adalah mendaftarkan berkas yang akan diinstal dalam masing-masing paket. Mari kita sunting berkas-berkas berikut dan mengisinya dengan informasi yang juga diberikan di bawah.
 
 + labusiyam.install
- >> debian/tmp/usr/bin/labusiyam \
- >> debian/tmp/etc/labusiyam/config.txt \
- >> debian/tmp/usr/share/labusiyam/data.txt
+```
+debian/tmp/usr/bin/labusiyam \
+debian/tmp/etc/labusiyam/config.txt \
+debian/tmp/usr/share/labusiyam/data.txt
+``` 
 + liblabusiyam0.install
  >> debian/tmp/usr/lib/liblabusiyam.so.0.0.1
  >> debian/tmp/usr/lib/liblabusiyam.so.0
