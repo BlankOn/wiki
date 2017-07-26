@@ -74,3 +74,12 @@
    * Ranindrastia a.k.a Neenu
    * YudhaSatya | Twitter: @blu3f4lc0n (Paguyuban_Pengguna_BlankOn_Malang)
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

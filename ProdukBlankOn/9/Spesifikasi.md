@@ -8,3 +8,12 @@ Konfigurasi perangkat keras minimal untuk dapat menjalankan BlankOn 9.0 Suroboyo
 
 Bila Anda lebih banyak melakukan kegiatan meramban web dan aplikasi perkantoran yang intensif, lebih baik lagi untuk meningkatkan perangkat keras Anda
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

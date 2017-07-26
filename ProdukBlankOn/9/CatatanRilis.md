@@ -104,3 +104,12 @@ Muhammad Miftakhul Syaikhuddin
 
 Mentor : Rahman Yusri Aftian
 
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+

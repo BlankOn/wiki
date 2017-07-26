@@ -11,3 +11,12 @@
 ![suroboyo.png](http://2.bp.blogspot.com/-jGWxirCKaSU/U5AkkJLnbII/AAAAAAAAB3U/yMZvIm2hTLk/s1600/suroboyo.png)
 ![Merdeka.png](https://ecs7.tokopedia.net/img/product-1/2016/10/5/7624226/7624226_7a3403e6-bb3f-4c6e-b2a3-7939c10bccca.png)
 ![ahmadharis.files.blankon-iklan.png](https://ahmadharis.files.wordpress.com/2014/02/blankon-iklan.png)
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
