@@ -37,7 +37,6 @@ Anda dapat mendapatkan informasi BlankOn di:
 5. IRC di kanal irc.freenode.net channel #blankon]
 6. [Riwayat IRC](http://irclog.blankon.in/)
 7. [Jejaring Sosial](https://www.facebook.com/blankon.linux)
-8. [Telegram](https://telegram.dog/BlankOnLinux)
 8. [Mari terjemahkan bahasa daerah anda](http://w.blankon.in/WA)
 
 ## Apa yang akan saya lakukan bila:
