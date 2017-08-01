@@ -7,8 +7,6 @@
    - [Panduan Menulis Wiki](/TimPengembang/Dokumentasi/Panduan/PanduanMenulisWiki.md)
    - [Panduan Migrasi Wiki ke Github](/TimPengembang/Dokumentasi/Panduan/PanduanMigrasiWiki.md)
 
-
-
 - [**Tentang BlankOn**](/README.md)
   - [Misi BlankOn](/Misi.md)
   - [Proyek](/Proyek.md)
@@ -80,15 +78,3 @@
  
 [**Indeks Wiki BlankOn**](/Indeks.md)
 
-<<<<<<< HEAD
-
----
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
- 
-[**Indeks Wiki BlankOn**](/Indeks.md)
-
-
-
-
-=======
->>>>>>> c304032700941b509c61e6b28341c2055ccda770
