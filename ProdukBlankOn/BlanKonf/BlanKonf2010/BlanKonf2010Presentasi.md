@@ -1,11 +1,12 @@
+    * BlanKonf  /
     * 2010  /
     * Presentasi
-
+Edit_page UpStart_PageIndexHistory
 Masukkan Presentasi/makalah/panduan tutorial anda di sini
 Presentasi Akhmat Safrudin ​http://cecunguk.blankonlinux.or.id/~somat/
 presentasi/blankonf/gerakan-blankon
-Last modified on 08/02/2010 12:04:05 PM
-#### Attachments (10)
+Last_modified 7 years ago Last modified on 08/02/2010 12:04:05 PM
+**** Attachments (10) ****
     * BlankOnf2-materi-LTSP.pdf​ (536.6 KB) - added by wirama 7 years ago.
       Pembuatan server LTSP pada BlankOn Linux
     * presentasi_zotero_blankon.pdf.tar.gz​ (4.0 MB) - added by Yoza 7 years
@@ -25,10 +26,4 @@ Last modified on 08/02/2010 12:04:05 PM
     * URT_scripts.tar.gz​ (28.0 KB) - added by Yoza 7 years ago. Urban Terror
       Scripts- Arman Satari
     * ArsitekturServer_FailOver.pdf​ (2.8 MB) - added by Yoza 7 years ago.
-#### 
-    
-
-
-
-
 
