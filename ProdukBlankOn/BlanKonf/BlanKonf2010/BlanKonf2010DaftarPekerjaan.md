@@ -1,36 +1,43 @@
-    * BlanKonf  /
-    * 2010  /
-    * DaftarPekerjaan
+## BlanKonf 2010 
+## DaftarPekerjaan
 
-Sekretariat
+
+# Daftar Pekerjaan
+
+
+*Sekretariat*
 ~ Menulis dan mencetak proposal
 
 
-Bendahara
+*Bendahara*
 ~ Merencanakan biaya
 
 
-Acara
+*Acara*
 ~ Susunan Acara
 ~ Penentuan Waktu dan Tempat
 
 
-Publikasi
+*Publikasi*
 ~ Membangun web
 ~ Publikasi di milis lain
 
 
-Peralatan
+*Peralatan*
 ~ Penyediaan Tempat
 
 
-Sponsor
+*Sponsor*
 ~ Membuat daftar sasaran sponsor
 ~ Mengirimkan proposal
 ~ Melakukan konfirmasi kerjasama
 ~ Membuat draft kerjasama
-Last modified on 01/07/2010 10:08:48 AM
-#### 
+
+
+—-
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+
+[**Indeks Wiki BlankOn**](/Indeks.md)
     
 
 
