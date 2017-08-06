@@ -41,5 +41,6 @@ Tim Dokumentasi BlankOn bertugas;
  
 [**Indeks Wiki BlankOn**](/Indeks.md)
 
+[**Arsip Dokumentasi**](/TimPengembang/Dokumentasi/DaftarDokumentasi.md)
 
 
