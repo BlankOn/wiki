@@ -23,33 +23,40 @@ Berikut adalah petunjuknya:
       xorg agar xorg dapat bekerja dengan diver terbaru anda. Buka termimal
       anda dan masukkan:
 	```
-	 sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.bak
+	sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.bak
 	sudo aticonfig --initial --input=/etc/X11/xorg.conf
 	```   
-   Tindakan tersebut akan menonaktifkan driver radeon default dan
+      Tindakan tersebut akan menonaktifkan driver radeon default dan
       menggantinya dengan Driver ATI.
 
    2. Sekarang atur compiz agar melewatkan pngecekan tentang driver yang mereka
       blacklist:
-      echo SKIP_CHECKS="yes" >> $HOME/.config/compiz/compiz-manager
-      Cara alternatif anda dapat mengedit driver yang di percaya karena ini
+  
+     ` echo SKIP_CHECKS="yes" >> $HOME/.config/compiz/compiz-manager`
+      Cara alternatif anda dapat mengedit driver yang dipercaya karena ini
       adalah cara yang lebih baik. Jalankan paerintah ini untuk mengubah
-      skript-startup compiz:
+      
+	`skript-startup compiz:
       gksu gedit /usr/bin/compiz
-
       Cari Driver yang dipercaya dan masukkan fglrx kedalam barisnya, seperti
       ini:
-
       # Driver whitelist
       WHITELIST="nvidia intel ati radeon i810 fglrx"
-
    3. Matikan ulang komputer anda, kemudian login dan aktifkan compiz anda.
-
-### Bagi Pengguna Kartu Grafis nVidia
-Instalasi driver Kartu Grafis nVidia sangat mudah sekali hal ini di karenakan driver nvidia telah ada dalam repository. Buka terminal dan masukkan 
-perintah: sudo apt-get install nvidia-glx-new nvidia-kernel-common Matikan ulang komputer anda, kemudian login dan aktifkan compiz.
-
+*** Bagi Pengguna Kartu Grafis nVidia ***
+Instalasi driver Kartu Grafis nVidia sangat mudah sekali hal ini di karenakan
+driver nvidia telah ada dalam repository. Buka terminal dan masukkan perintah:
+sudo apt-get install nvidia-glx-new nvidia-kernel-common
+Matikan ulang komputer anda, kemudian login dan aktifkan compiz
 Last modified on 09/23/2008 08:18:00 PM
+#### 
+    
+
+
+
+
+
+
 
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
