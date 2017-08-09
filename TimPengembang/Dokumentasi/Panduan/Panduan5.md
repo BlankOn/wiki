@@ -1,4 +1,4 @@
-# Panduan Distribusi BlankOn 5 Nanggar
+# Arsip Panduan Distribusi BlankOn 5 Nanggar
   + [Dokumentasi Panduan](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Panduan)
   + [Dokumentasi Panduan 5](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Panduan/5)
   + [Dokumentasi Panduan 5 Bab1](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Panduan/5/Bab1)
