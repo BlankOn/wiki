@@ -28,11 +28,11 @@ Shift+E, arahkan kursor pada object, klik => tahan dan geser kursor yang sudah
 berubah bentuk menjadi seperti penghapus pada object yang akan dihapus. Pada
 Tool Control terdapat 3 (tiga) ikon yang dapat digunakan untuk memudahkan
 proses penghapusan.
-*** 4.15.1.1. Width ***
+###### 4.15.1.1. Width
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-EraserTool/
 A.Eraser_tool_Width.png] Untuk mengatur besar kecilnya ukuran garis yang akan
 digunakan pada saat melakukan pemotongan Object
-*** 4.15.1.2. Eraser Touch Mode ***
+###### 4.15.1.2. Eraser Touch Mode
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-EraserTool/
 B.Eraser_Tool_Eraser_Touch_Mode.png] Digunakan untuk menghapus object, metode
 yang digunakan adalah dengan cara menarik dan menahan kursor pada object
@@ -40,7 +40,7 @@ sehingga muncul garis berwarna merah setelah sesuai baru dilepas, setiap object
 yang dilewati garis merah akan terhapus.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-EraserTool/
 B1.Eraser_Tool_Eraser_Touch_Mode.png]
-*** 4.15.1.3. Eraser Cut-Out Mode ***
+###### 4.15.1.3. Eraser Cut-Out Mode
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-EraserTool/
 C.Eraser_Tool_Eraser_Cut_Out_Mode.png] Digunakan untuk menghapus object dengan
 cara memotong bagian tertentu pada object, besar-kecilnya pemotongan sesuai

@@ -143,7 +143,7 @@ tekan Shift+F11.
 Untuk menyembunyikan/menampilkan jendela pengaturan tertentu yang diaktifkan,
 salah satu cara untuk melakukan metode ini adalah dengan menekan tombol F12.
 #### 1.3.4. Display Mode
-*** 1.3.4.1 Outline Mode ***
+###### 1.3.4.1 Outline Mode
 Inkscape memiliki Outline atau mode Wire-frame. Jika menggunakan mode ini path
 dan shapes (bentuk) pada semua gambar vektor terlihat sebagai garis dan seolah-
 olah tidak memiliki Fill. Sedangkan pada object text berlaku sebaliknya atau
@@ -156,7 +156,7 @@ ringan saat dioperasikan. Untuk menjalankan modus ini klik View => Display mode
 => Normal.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab1/
 1.3.4.1.Outline_Mode.png]
-*** 1.3.4.2. No Filters Mode ***
+###### 1.3.4.2. No Filters Mode
 Inkscape juga memiliki mode No Filter dimana pada saat melakukan render
 (rendering) efek Filter dimatikan. Cara ini sangat berguna saat melakukan
 modifikasi gambar yang rumit menggunakan efek Filter sehingga proses rendering
@@ -184,7 +184,7 @@ pada salah satu jendela..
 Jendela Icon Preview digunakan untuk melihat gambar dengan tampilan seperti
 ikon dengan ukuran berbeda. Untuk menjalankan modus ini klik View => Icon
 Preview.
-*** Catatan ***
+###### Catatan
   * Antarmuka Inkscape yang digunakan dalam situs ini menggunakan settingan
       Default, jika saat mengikuti tutorial pada situs ini mengalami sedikit
       kesulitan karena antarmuka Inkscape yang Anda gunakan sedikit berbeda

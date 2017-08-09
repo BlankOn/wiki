@@ -36,18 +36,18 @@ Ikon Pensil Tool pada Tool Control dapat digunakan untuk mengatur bentuk dari
 object yang dibuat, berikut penjelasan dari beberapa ikon tersebut:
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-PencilTool/
 4.10.1.Ikon_Pencil_Tool.png]
-*** 4.10.1.1. Mode ***
+###### 4.10.1.1. Mode
 Pada menu ini terdiri dari dua ikon yaitu Regular Bezier dan Spiro yang dapat
 digunakan untuk membuat object berupa garis yang hasilnya hampir sama.
-*** 4.10.1.2. Smoothing ***
+###### 4.10.1.2. Smoothing
 Digunakan untuk mengatur jumlah node pada path (lihat halaman Node Tool),
 dengan cara menggeser lingkaran kecil yang berada atas garis lurus ke arah
 kanan atau ke kiri, semakin besar nilai pada Smoothing, maka Node yang terdapat
 pada path semakin sedikit.
-*** 4.10.1.3. Reset ***
+###### 4.10.1.3. Reset
 Digunakan untuk mengembalikan fungsi Smoothing ke posisi semula (jika sudah di
 geser).
-*** 4.10.1.4. Shape ***
+###### 4.10.1.4. Shape
 Pada menu Shape terdapat submenu yang terdiri dari 5 (lima) model garis yang
 dapat di gunakan yaitu, None, Triangle in, Trianggle Out, Ellipse, dan From
 clipboard, dibawah ini penjelasan dari submenu tersebut:

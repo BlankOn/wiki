@@ -1,20 +1,7 @@
+# Panduan BlankOn 8
 
+# Bab 1
 
-    *
-
-
-
-
-
-
-
-
-
-  /
-
-
-  * 8  /
-  * Bab1
 ## Apa itu Linux?
 Kata “Linux” saat ini semakin banyak didengar oleh pecinta Teknologi Informasi
 dan Komunikasi (TIK) di seluruh dunia termasuk di Indonesia. Saat ini, Linux
@@ -23,8 +10,7 @@ kalangan, seperti kalangan bisnis, pendidikan, dan pemerintahan. Hal ini
 disebabkan oleh Linux yang bersifat terbuka dan merdeka. Siapapun bisa
 mengembangkannya dan menggunakannya secara bebas.
 Linux merupakan kernel atau dasar dari sistem operasi yang pertama kali ditulis
-oleh seorang mahasiswa Finlandia bernama Linus Benedict Torvalds pada tahun
-1991. Hasil karyanya dilisensikan secara bebas dan terbuka (Free Software)
+oleh seorang mahasiswa Finlandia bernama Linus Benedict Torvalds pada tahun 1991. Hasil karyanya dilisensikan secara bebas dan terbuka (Free Software)
 sehingga siapa saja boleh mengembangkannya.
 Kemudian Richard Stallman, seorang aktivis perangkat lunak pendiri Free Sofware
 Foundation (FSF) berniat untuk menggabungkan Linux ke dalam proyek sistem
@@ -192,18 +178,18 @@ ini menjelaskan tim apa saja yang ada dan tugas-tugasnya.
 Tim ini bertanggung jawab dalam menerbitkan sebuah rilis BlankOn. Tim ini
 dipimpin oleh seorang Manajer Rilis. Tim kecil yang ada dipimpin oleh seorang
 koordinator.
-*** Tim Pemaket ***
+###### Tim Pemaket
 Tim ini bertanggung jawab terhadap paket-paket yang dirilis ke sebuah rilis
 BlankOn.
-*** Tim Kesenian ***
+###### Tim Kesenian
 Tim ini bertanggung jawab terhadap semua materi karya seni yang dirilis ke
 sebuah rilis BlankOn.
-*** Tim Jaminan Kualitas ***
+###### Tim Jaminan Kualitas
 Tim ini bertanggung jawab terhadap kualitas sebuah rilis BlankOn. Tim ini
 sehari-hari mengurus tiket yang masuk, menjaga kualitas isi tiket, memantau
 siklus tiket, dan menutup tiket. Tim ini juga menyediakan tim untuk mengetes
 rilis BlankOn sehari-hari dan menyiapkan daftar tugas untuk tim tersebut.
-*** Tim Dokumentasi ***
+###### Tim Dokumentasi
 Tim ini bertanggung jawab dalam mengumpulkan dokumentasi untuk pengguna pada
 sebuah rilis BlankOn. Produk tim ini adalah buku panduan, presentasi, dan
 catatan rilis BlankOn.
@@ -212,11 +198,11 @@ Tim ini tidak terlibat secara langsung dalam sebuah rilis, namun lebih
 cenderung ke pelaksanaan jalannya proyek BlankOn secara keseluruhan. Tim-tim
 ini tidak dipimpin oleh seseorang namun lebih ke kepemimpinan mandiri. Tim
 kecil yang ada dalam Tim Proyek dipimpin oleh seorang koordinator.
-*** Tim Riset dan Aplikasi ***
+###### Tim Riset dan Aplikasi
 Tim ini bertanggung jawab dalam melakukan riset dan menyediakan solusi dalam
 suatu permasalahan yang muncul. Tim ini juga bertanggung jawab
 mengimplementasikan fitur-fitur yang diminta oleh komunitas.
-*** Tim Infrastruktur ***
+###### Tim Infrastruktur
 Bertanggung jawab terhadap tugas-tugas operasional infrastruktur BlankOn, yaitu
 menjaga ketersediaan dan kualitas layanan infrastruktur. Artinya, Tim ini harus
 tanggap terhadap masalah pada ketersediaan layanan (server tidak boleh mati,
@@ -224,14 +210,14 @@ dsb), dan juga masalah kualitas (kecepatan akses tidak boleh lambat, dst).
 Tim ini juga bertanggung jawab terhadap instalasi-instalasi layanan yang baru,
 baik fisik maupun perangkat lunak. Tim ini dibagi berdasarkan jenis layanan
 yang disediakan, diantaranya:
-** Umum **
+####### Umum
 Tim ini menangani hal-hal administrasi umum, termasuk (namun tidak terbatas
 pada):
   * Akun SSH
   * Layanan web
   * bzr/git
   * GPG
-** Lumbung paket **
+####### Lumbung paket
 Tim ini menangani operasional lumbung paket, termasuk (namun tidak terbatas
 pada):
   * Membuka kunci lumbung
@@ -239,7 +225,7 @@ pada):
   * Sinkronisasi antara server
   * Menambah/hapus paket secara manual
   * DVDRepo
-** Pabrik **
+####### Pabrik
 Tim ini menangani operasional pabrik-pabrik, baik pabrik paket maupun pabrik
 CD. Tugas-tugasnya termasuk (namun tidak terbatas pada):
   * Menjalankan/menghentikan pabrik
@@ -247,11 +233,11 @@ CD. Tugas-tugasnya termasuk (namun tidak terbatas pada):
   * Membantu pemaket melakukan sidik gangguan saat ada kegagalan pengiriman
       paket
   * Melakukan sidik gangguan saat ada kegagalan pembuatan CD
-*** Tim Hubungan Masyarakat ***
+###### Tim Hubungan Masyarakat
 Tim ini bertanggung jawab dalam mengumpulkan, mempromosikan, menghubungkan, dan
 menyebarluaskan semua informasi manfaat dan kebaikan BlankOn.
 Tim ini dibagi menjadi beberapa bagian:
-** Komunitas **
+####### Komunitas
 Tim ini menjadi penyambung lidah pengguna BlankOn, merawat forum dan milis,
 merawat wiki. Tim ini harus aktif di milis dan forum serta mengumpulkan
 informasi-informasi penting yang ada di milis/forum untuk diarsipkan dalam
@@ -259,17 +245,17 @@ wiki. Tim ini juga menjaga kualitas isi wiki.
 Tim ini menjadi penghubung dan pendukung komunitas pengguna BlankOn.
 Tim ini perlu memiliki hak administrasi dalam pengaturan milis, forum, dan
 wiki.
-** Konferensi **
+####### Konferensi
 Tim ini bertanggung jawab dalam menyelenggarakan BlanKonf dan juga menyebarkan
 informasi BlankOn dalam konferensi-konferensi yang relevan, baik di dalam
 maupun luar negeri.
 Untuk konferensi, tim ini tidak perlu menjadi orang yang berangkat dalam
 konferensi yang diikuti, tapi lebih ke pemantauan adanya konferensi-konferensi
 dan menggerakkan para pengembang untuk berangkat ke sana.
-** Web **
+####### Web
 Tim ini bertanggung jawab dalam menyediakan informasi baru, kliping tentang
 BlankOn dan penyegaran terhadap situs www.blankonlinux.or.id.
-*** Tim Bisnis ***
+###### Tim Bisnis
 Tim ini bertanggung jawab dalam kegiatan yang berhubungan dengan bisnis
 komersial. Tim ini dipandu oleh YPLI.
 ### Ingin Jadi Pengembang
@@ -288,13 +274,7 @@ distro BlankOn Linux :
   * ​http://dev.blankonlinux.or.id, situs WIKI untuk informasi pengembangan
       distro BlankOn Linux.
 Last modified on 10/13/2012 05:06:21 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

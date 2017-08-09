@@ -31,7 +31,7 @@ arah atas-bawah pada object tersebut.
 #### 4.14.1. Ikon pada Tool Control Spray Tool
 Terdapat berbagai macam ikon Spray Tool pada Tool Control untuk melakukan
 penyemprotan
-*** 4.14.1.1. Copy Mode ***
+###### 4.14.1.1. Copy Mode
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 A.Copy_Mode.png] Object yang digandakan akan terpisah antara satu dan lainnya,
 Object yang dihasilkan dapat diubah sesuai keinginan, dengan menggunakan metode
@@ -39,21 +39,21 @@ ini akan lebih mempermudah pekerjaan pada saat melakukan manipulasi object
 dengan menggunakan Tweak Tool.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 A1.Copy_Mode.png]
-*** 4.14.1.2. Clone Mode ***
+###### 4.14.1.2. Clone Mode
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 B.CloneMode.png] Salah satu bagian pinggir object yang digandakan akan menyatu
 (menumpuk) dengan object lainnya, namun object tersebut sebenarnya tidak
 menyatu.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 B1.Clone_Mode.png]
-*** 4.14.1.3. Single Path mode ***
+###### 4.14.1.3. Single Path mode
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 C.Single_Path_mode.png] Object yang digandakan menyatu dengan object lainnya
 secara bertumpuk atau tumpang-tindih, namun object asli (pertama) tetap
 terpisah dengan object hasil penggadaan.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 C1.Single_Path_mode.png.png]
-*** 4.14.1.4. Width ***
+###### 4.14.1.4. Width
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 D.Width.png] Ikon Width digunakan untuk mengatur jarak atau jangkauan area
 penyemprotan, jangkauan area penyemprotan di tandai dengan lingkaran berwarna
@@ -63,27 +63,27 @@ lingkaran kecil diatas garis. Pengaturan jarak jangkauan juga dapat dilakukan
 dengan menggunakan Tombol Arah pada Keyboard, tombol arah kiri memperkecil
 jarak jangkauan sedangkan arah kanan memperbesar jarak jangkauan, tombol Home
 untuk menentukan ukuran 1, sedangkan tombol End untuk menentukan ukuran 100.
-*** 4.14.1.5. Amount ***
+###### 4.14.1.5. Amount
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 E.Amount.png] Untuk menentukan jumlah Object yang digandakan, metode ini bisa
 dilakukan jika menu Use the preasure aktif.
-*** 4.14.1.6. Rotation ***
+###### 4.14.1.6. Rotation
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 F.Rotation.png] Untuk mengatur letak object hasil yang di gandakan, object yang
 dihasilkan akan terletak memutar di sekeliling object asli. Perbandingan
 rentang yang dapat dibuat adalah 1 sampai 100, dengan perbandingan 100 sama
 dengan kemiringan 1800.
-*** 4.14.1.7. Scale ***
+###### 4.14.1.7. Scale
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 G.Scale.png] Untuk mengatur perbandingan (skala) setiap object hasil
 penggandaan dari object aslinya, skala yang dapat dibuat adalah 1 sampai 100,
 dengan perbandingan 100 sama dengan dua kali dari ukuran asli.
-*** 4.14.1.8. Scatter ***
+###### 4.14.1.8. Scatter
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 H.Scatter.png] Untuk mentukan jarak penyebaran object hasil penggandaan dengan
 object asli, jarak penyebaran object berikutnya akan mengikuti object hasil
 penggandaan sebelumnya.
-*** 4.14.1.9. Focus ***
+###### 4.14.1.9. Focus
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SprayTool/
 I.Focus.png] Focus digunakan untuk mengatur penyebaran Object yang berserakan
 pada canvas. Nilai yang tersedia 0 sampai 100, jika nilai yang dipergunakan 0

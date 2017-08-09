@@ -33,7 +33,7 @@ pada kotak kecil yang muncul pada object lain, maka pinggir kedua object akan
 saling terhubung
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 2.Connector_menggunakan_garis.png]
-*** 4.19.1.1. Menghubungkan dan Melepaskan Connector ***
+###### 4.19.1.1. Menghubungkan dan Melepaskan Connector
 Connector dapat dilepas dari suatu object dengan menyeret titik akhir dari
 object. Untuk melakukannya, pilih dan klik dua kali connector yang akan
 dipisahkan, tarik salah satu pegangan kemudian geser sehingga menjauhi salah
@@ -43,25 +43,25 @@ satu object,
 Untuk menyambung kembali connector dari object satu ke object lainnya, tarik
 pegangan ke tengah-tengah object hingga muncul kotak kecil kemudian lepas
 diatasnya .
-*** 4.19.1.2. Mengubah bentuk Connector ***
+###### 4.19.1.2. Mengubah bentuk Connector
 Style dan warna connector dapat diubah dengan mudah, misalnya diubah menjadi
 putus-putus, diberi panah pada ujungnya dengan bantuan Fill and Stroke, untuk
 melakukannya klik Object => Fill and Stroke atau tekan Shif+Ctrl+F.
-*** 4.19.1.3. Routing Connector ***
+###### 4.19.1.3. Routing Connector
 Connectors secara otomatis dipindahkan ketika object diubah atau connectors
 ditambahkan dan dimodifikasi. Sebagian parameter dapat diatur untuk mengontrol
 rute connector secara otomatis. Pengaturan Connector dapat dilakukan dengan
 cara melakukan klik pada ikon yang ada pada Tool Control
-*** 4.19.1.4. Avoids Seclected Object ***
+###### 4.19.1.4. Avoids Seclected Object
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 A.Tool_Control_Connector_avoids.png] Untuk mengtur connector agar dapat
 menyeberangi object yang dilewatinya ketika salah satu object dipindahkan.
-*** 4.19.1.5. Ignore Selected Objects ***
+###### 4.19.1.5. Ignore Selected Objects
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 B.Tool_Control_Connector_ignore_selected.png] Untuk mengatur connector agar
 tidak dapat menyeberangi object yang dilewatinya ketika salah satu object
 dipindahkan.
-*** 4.19.1.6. Connectors Orthogonal or Polyline ***
+###### 4.19.1.6. Connectors Orthogonal or Polyline
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 C.Tool_Control_Connector_orthogonal_or_polyline.png] Untuk membuat tekukan/
 sudut agar connector dapat berbelok pada saat melewati suatu object yang tidak
@@ -69,27 +69,27 @@ ikut disambungkan dengan object lain. Pada saat menggunakan metode ini akan
 mematikan metode lainnya, namun metode ini dapat di kombinasi dengan metode
 lain dengan cara aktifkan mode ini terlebih , kemudian baru aktifkan metode
 lain.
-*** 4.19.1.7. Curvature ***
+###### 4.19.1.7. Curvature
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 D.Tool_Control_Connector_amount_of_connectors_curvature.png] Digunakan untuk
 mengontrol jumlah lengkungan antara dua bagian connector.
-*** 4.19.1.8. Space ***
+###### 4.19.1.8. Space
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 E.Tool_Control_Connector_Space.png] Digunakan untuk mengontrol jumlah dan jarak
 disekitar object yang tidak dilewati connector.
-*** 4.19.1.9. Nicely Arrange ***
+###### 4.19.1.9. Nicely Arrange
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 F.Nicely_Arrange.png] Digunakan untuk mengatur ulang secara otomatis connector
 dan object yang saling terhubung sehingga lebih rapi.
-*** 4.19.1.10. Length ***
+###### 4.19.1.10. Length
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 G.Length.png] Untuk mengatur panjang connector secara otomatis, object dan
 connector ikut diatur ulang
-*** 4.19.1.11. End-Markers ***
+###### 4.19.1.11. End-Markers
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 H.Tool_Control_Connector_end_markers.png] Digunakan untuk mematikan opsi dan
 penanda pada bagian akhir atau ujung connector
-*** 4.19.1.12. Overlapping Shapes ***
+###### 4.19.1.12. Overlapping Shapes
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-ConnectorTool/
 I.Tool_Control_Connector_Do_not_allow_overlapping_shapes.png] Digunakan untuk
 mematikan object yang saling terhubung atau tumpang tindih pada saat

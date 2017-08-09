@@ -64,7 +64,7 @@ dan geser kursor yang sudah berubah bentuk menjadi garis merah pada object yang
 dipilih.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SelectorTool/
 4.1.4.Touch_Selection.png]
-*** Catatan: ***
+###### Catatan:
 Pada sebagian Sistem Operasi GNU/Linux penggunaan Touch Selection tidak dapat
 dilakukan karena tombol Alt biasanya dipakai untuk mengontrol jendela aplikasi
 yang sedang dijalankan, untuk dapat melakukan Touch Selection pada Sistem
@@ -170,11 +170,11 @@ object tidak bergeser.
 5.1.4.Mirroring.png]
 Untuk melakukannya Mirroring flips, pilih dan klik object, kemudian lakukan
 langkah berikut:
-** Flip Horizontal: **
+####### Flip Horizontal:
   * Melalui Menu Bar, klik Object => Flip Horizontal
   * Melalui ikon Comand Bar, klik ikon Filp selected objects horizontally.
   * Menggunakan Keyboard, tekan H
-** Flip Vertical: **
+####### Flip Vertical:
   * Melalui Menu Bar, klik Object => Flip Verical
   * Melalui ikon Comand Bar, klik ikon Filp selected objects vertically.
   * Menggunakan Keyboard, tekan V
@@ -194,7 +194,7 @@ Berikut penjelasan dari ikon-ikon tersebut:
       gradient tidak berubah.
    4. Jika ikon ini aktif maka saat Oject digeser bentuk dan letak Pattern pada
       Fill atau Stroke tidak berubah.
-*** Catatan ***
+###### Catatan
 Fungsi ikon pada Affect dapat diaktfkan secara permanen dengan memberi tanda
 centang (checklist) pada jendela pengaturan Inkscape Prferences => Transform
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SelectorTool/
@@ -212,7 +212,7 @@ lebih kecil dari nol (misal -100 px) maka efeknya akan berkurang.
 Dibagian bawah terdapat tombol Clear yang fungsinya untuk mengosongkan nilai
 pada kotak masing-masing tab, sedangkan tombol Apply digunakan untuk menerapkan
 perubahan pada object.
-*** Tab Move ***
+###### Tab Move
 Tab Move digunakan untuk memindah atau menggeser object secara Horizontal
 (mendatar) atau Vertical (tegak) sesuai nilai pada masing-masing kotak isian
 yang tersedia.
@@ -227,7 +227,7 @@ klik Apply untuk kedua kalinya maka object akan bergeser lagi sebanyak 150 px
 (310 px dari pinggir halaman).
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SelectorTool/
 4.1.6A.Tab_Move.png]
-*** Tab Scale ***
+###### Tab Scale
 Tab Scale digunakan untuk mengubah ukuran object sesuai nilai yang dimasukkan
 pada kotak isian berdasarkan pusat object. Jika kotak Scale proportionally
 diberi tanda centang (checklist) lebar (width) dan tinggi (height) object sama-
@@ -236,22 +236,22 @@ Perubahan bekerja dengan baik jika menggunakan ukuran persen, jika nilai yang
 dipakai 100% maka tidak terjadi perubahan, memasukkan nilai lebih besar dari
 100 maka ukuran object akan membesar, sedangkan jika kurang dari 100 maka
 ukuran object akan mengecil.
-*** Tab Rotate ***
+###### Tab Rotate
 Tab Rotate digunakan untuk memutar object berdasarkan pusat rotasi. Jika nilai
 yang dipakai lebih besar dari nol maka object akan berputar kekiri sedangkan
 jika lebih kecil dari nol maka object akan berputar kekanan.
-*** Tab Skew ***
+###### Tab Skew
 Tab Skew digunakan untuk membuat object menjadi miring atau condong berdasarkan
 pusat object. Terdapat dua cara pilihan pada tab ini yaitu miring secara
 Horizontal dan Vertical atau dapat menggunakan keduanya sekaligus.
-*** Tab Matrix ***
+###### Tab Matrix
 Tab Matrix digunakan untuk menerapkan suatu transformasi pada objek dengan
 pengaturan secara mandiri sesuai keinginan. Transformasi dijelaskan oleh 3 x 3
 Transformasi Matrix namun yang ditampilkan dan dapat dimodifikasi hanya dua
 baris. Kolom A, B, C, dan D merupakan submatrix untuk mengontrol ukuran,
 putaran, dan kemiringan object. Sedangkan kolom E dan F merupakan submatrix
 untuk mengatur perubahan yang dilakukan.
-*** Triks ***
+###### Triks
 Dibawah ini beberapa triks yang dapat dilakukan
   * Tekan Esc untuk membatalkan seleksi atau klik ikon Deselected any
       selected objects or nodes pada Tool Control.
@@ -262,7 +262,7 @@ Dibawah ini beberapa triks yang dapat dilakukan
   * Tekan Ctrl+Alt+A untuk memilih seluruh object pada semua layer yang
       sedang aktif dan tidak terkunci atau klik ikon Selected all objects in
       all visible and unlocked layer pada Tool Control.
-*** Catatan ***
+###### Catatan
 Transform object dalam buku ini masih menggunakan pengaturan Default. Jika
 ingin mengubah ke pengaturan lain dapat dilakukan melalui File => Inkscape
 Preferences (Shift+Ctrl+P) => Steps.

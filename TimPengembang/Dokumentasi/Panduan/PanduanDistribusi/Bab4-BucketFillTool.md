@@ -41,7 +41,7 @@ panjang, geser object tersebut ke kanan.
 Cara_Menggunakan1.png]
 Saat Bucket Fill Tool aktif terdapat beberapa ikon dan menu pada Tool Control
 yang dapat digunakan untuk mengatur proses modifikasi object.
-*** 4.16.1.1. Fill by ***
+###### 4.16.1.1. Fill by
 Pada ikon paling kiri di Tool Control terdapat beberapa menu yang dapat
 digunakan untuk melakukan pengaturan warna dan efek pada object yang dibuat,
 untuk memilih menu yang tersedia, klik tanda segitiga mengarah kebawah,
@@ -49,14 +49,14 @@ terdapat 8 (delapan) submenu yang dapat dipergunakan yaitu: Visible Color, Red,
 Green, Blue, Hue, Saturation, Ligtness, dan Alpha.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-BucketFillTool/
 A.Fill_by.png]
-*** 4.16.1.2. Threshold ***
+###### 4.16.1.2. Threshold
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-BucketFillTool/
 B.Threshold.png] Digunakan untuk mengatur jangkauan warna yang ditambahkan pada
 object dari titik awal ke object lainnya, nilai standard pada menu ini adalah
 10 yang artinya jika menggunakan nilai ini (10) maka jangkauan warna yang
 ditambahkan sesuai object yang diklik, sedangkan jika digeser ke nilai yang
 lebih tinggi, maka jangkauan warna akan ditambahkan pada object lainya.
-*** 4.16.1.3. Grow/ shrink by ***
+###### 4.16.1.3. Grow/ shrink by
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-BucketFillTool/
 C.Grow_shrink_by.png] Digunakan untuk mengatur ukuran object yang ditambahkan,
 semakin besar nilai yang dipakai maka object yang ditambahkan akan semakin
@@ -64,7 +64,7 @@ besar, jika object tersebut memiliki sudut maka sudut tersebut akan sedikit
 membulat. Nilai standar pada menu ini adalah 0 (nol) yang artinya jika
 menggunakan nilai ini (nol) maka ukuran object yang ditambahkan sama persis
 dengan object asli (sudut tidak membulat)
-*** 4.16.1.4. Close gaps ***
+###### 4.16.1.4. Close gaps
 Menu Close gaps digunakan untuk mengatur celah pada Paint Bucket yang akan
 dibuat, sehingga fill (cat) tidak tumpah pada area yang tidak dinginkan.
 Terdapat empat pengaturan Close gaps yang dapat digunakan:
@@ -74,10 +74,10 @@ Terdapat empat pengaturan Close gaps yang dapat digunakan:
   * Large atau besar (dengan ukuran 6 pixels)
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-BucketFillTool/
 D.Close_gaps.png]
-*** Catatan: ***
+###### Catatan:
 Pada saat menggunakan salah satu menu pada Close gaps dapat memperlambat
 kinerja Inkscape.
-*** 4.16.1.5. Reset ***
+###### 4.16.1.5. Reset
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-BucketFillTool/
 E.Reset.png] Digunakan untuk mengembalikan ke pengaturan awal menu pada Tool
 Control yang sudah diubah sebelumnya.

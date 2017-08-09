@@ -55,7 +55,7 @@ into Frame atau tekan Alt+W. Sedangkan untuk memisahkan atau mengeluarkan teks,
 klik Text => Unflow atau tekan Shift+Alt+W.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab6-TextAndPaths/
 6.2.2.Flow_into_Frame.png]
-** Catatan: **
+####### Catatan:
   * Pada saat melakukan Unflow Text maka teks yang sebelum berasal dari teks
       mengalir secara otomatis berubah menjadi teks biasa
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/

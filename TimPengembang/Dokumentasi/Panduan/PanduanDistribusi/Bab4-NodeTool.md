@@ -31,15 +31,15 @@ path, dan istilah mengenai path yang sering digunakan pada Inkscape.
 #### 4.2.1. Jenis Path
 Path terdiri dari tiga jenis yaitu: Path Terbuka, Path Tertutup, dan Path
 Campuran.
-*** Path Terbuka ***
+###### Path Terbuka
 Path terbuka memiliki dua ujung yang terdiri dari garis, bentuknya lurus atau
 berlekuk-lekuk, path terbuka dapat dibuat dengan mengunakan Pencil Tool,
 Calligraphy Tool, dan Connector Tool.
-*** Path Tertutup ***
+###### Path Tertutup
 Path tertutup tidak memiliki ujung, biasanya terbuat dari Object Shapes yang
 mana stroke pada object sudah diubah menjadi path, perubahan dapat dilakukan
 dengan menghapus Fill atau membiarkan Fill tetap ada.
-*** Path Campuran ***
+###### Path Campuran
 Path ini merupakan campuran dari path terbuka dan tertutup, Path jenis ini
 dapat dibuat dengan cara memotong bagian tertentu pada path tertutup, atau
 dapat dibuat dengan cara menyambung salah satu ujung dengan pangkal dari dua
@@ -78,7 +78,7 @@ dulu menggunakan Bezier Tool, kemudian klik Node Tool, setelah itu arahkan
 kursor pada Menu Bar => klik Path => Object to Path atau tekan Shift+Ctrl+C.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-NodeTool/
 4.2.3.Paths_dari_Object.png]
-** Catatan **
+####### Catatan
 Cara membuat object berupa garis menggunakan Bezier Tool baca penjelasannya
 pada halaman Tool Box => Bezier With Pen Tool.
 #### 4.2.4. Menambah Node
@@ -140,7 +140,7 @@ untuk menyambung kembali Path tersebut klik ikon Join selected endnodes with a
 new segment.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-NodeTool/
 4.2.9.Hapus_Path.png]
-** Catatan **
+####### Catatan
 Untuk menyambung Path satu dengan path lain lakukan berikut: klik titik node
 paling pinggir pada path => tekan Shift => klik titik node paling pinggir pada
 path lain, kemudian klik ikon Join selected endnodes with a new segment.
@@ -150,7 +150,7 @@ dengan memilih salah satu ikon yang tersedia, terdapat 4 (empat) ikon node yang
 dapat digunakan untuk mengubah bentuk titik node, berikut penjelasannya:
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-NodeTool/
 4.2.10.Modifikasi_Titik_Nod.png]
-** Node Sudut (nodes corner) **
+####### Node Sudut (nodes corner)
 Untuk mengubah bentuk titik nodes menjadi sudut yang runcing. Jika pegangan
 nodes aktif maka pada kedua sudut yang berlawanan memiliki pegangan untuk
 mengatur bentuk path yang melengkung, namun jika bentuk path lurus maka
@@ -158,19 +158,19 @@ pegangan tersebut tidak muncul. Cara lain untuk menggunakan modus ini adalah
 dengan menekan tombol Shift+C. Saat melakukan klik kedua secara berurutan
 setelah klik pertama maka sudut path pada titik nodes menjadi lurus dan
 runcing.
-** Node Smooth **
+####### Node Smooth
 Untuk mengubah titik node menjadi halus dengan efek bentuk path menjadi
 melengkung. Jika salah satu ujung garis halus yang berbentuk lingkaran ditarik
 memanjang maka bentuk path ikut berubah, namun garis halus pada sisi lain tidak
 ikut memanjang. Cara lain untuk menggunakan modus ini adalah dengan menekan
 tombol Shift+S.
-** Node Symmatric **
+####### Node Symmatric
 Untuk mengubah titik node menjadi simetris dan halus dengan efek bentuk path
 menjadi melengkung. Jika salah satu ujung garis halus yang berbentuk lingkaran
 ditarik memanjang maka bentuk path ikut berubah dengan garis halus pada sisi
 lain ikut memanjang. Cara lain untuk menggunakan modus ini adalah dengan
 menekan tombol Shift+Y.
-** Node auto-smooth **
+####### Node auto-smooth
 Untuk mengubah titik node otomatis menjadi halus, Jika salah satu ujung garis
 yang berbentuk lingkaran ditarik efek perubahan pada path lebih halus, hal ini
 akan terasa jika digunakan untuk modifikasi path yang melengkung. Cara lain
@@ -181,11 +181,11 @@ fasilitas pada Node Tool, misalnya ingin mengubah bentuk path melengkung
 menjadi lurus atau sebaliknya.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-NodeTool/
 4.2.11.Modifikasi_bentuk_path.png]
-*** Mengubah Path jadi lurus ***
+###### Mengubah Path jadi lurus
 Pilih salah satu path yang melengkung diantara dua titik node, kemudian klik
 ikon Make selected segment lines atau tekan Shif+L, maka bentuk path yang
 tadinya melengkung menjadi lurus
-*** Mengubah Path jadi melengkung ***
+###### Mengubah Path jadi melengkung
 Pilih salah satu path yang lurus diantara dua titik node, kemudian klik ikon
 Make selected segments curves atau tekan Shif+U, maka pada path tersebut muncul
 dua lingkaran kecil sebagai pegangan titik node, geser lingkaran kecil tersebut
@@ -235,7 +235,7 @@ ini hanya dapat bekerja dengan baik pada masking yang menggunakan path (bukan
 menggunakan shape).
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-NodeTool/
 4.2.16.Show_path_on_mask.png]
-*** Catatan ***
+###### Catatan
 Untuk memahami kedua fungsi dari fitur diatas silakan baca halaman Multiple
 Object Operations => Clip and Mask
 #### 4.2.17. Show Edit LPE

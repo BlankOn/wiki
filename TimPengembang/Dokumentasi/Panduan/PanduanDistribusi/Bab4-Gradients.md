@@ -36,7 +36,7 @@ Saat Gradients aktif maka pada Tool Control terdapat beberapa ikon yang dapat
 digunakan
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-Gradients/
 4.17.1.Fungsi_Ikon_Gradients.png]
-*** 4.17.1.1. Linear ***
+###### 4.17.1.1. Linear
 Linear gradien digunakan untuk melakukan perubahan warna dari satu titik ke
 titik lain dengan garis lurus. Klik salah satu pinggir object untuk mulai
 menambahkan warna kemudian tahan dan tarik garis lurus yang muncul ke arah
@@ -46,7 +46,7 @@ berbentuk persegi sedangkan pada akhir garis berbentuk lingkaran, kedua ujung
 garis tersebut dapat digunakan untuk mengubah warna sesuai pilihan.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-Gradients/
 4.17.1.1.Linear.png]
-*** 4.17.1.2. Radial ***
+###### 4.17.1.2. Radial
 Radial Gradient digunakan untuk mengubah dan menambahkan warna dengan bentuk
 melingkar dari tengah object, ditengah object terdapat garis yang memiliki dua
 ujung berbentuk lingkaran dan satu sudut dengan bentuk persegi, sudut berbentuk
@@ -58,10 +58,10 @@ satunya lebih panjang maka bentuk gradient akan lonjong.
 4.17.1.2.Radial.png]
 Untuk memindahkan lokasi pusat gradient radial didalam object, geser pegangan
 atau sudut yang berbentuk persegi.
-*** 4.17.1.3. Applies to Fill and Stroke ***
+###### 4.17.1.3. Applies to Fill and Stroke
 Digunakan untuk menentukan gradient pada object, apakah akan diterapkan pada
 Fill atau Stroke.
-*** Catatan ***
+###### Catatan
   * Untuh mengubah mode dari gradient Linear menjadi gradient Radial atau
       sebaliknya dapat dilakukan dengan menggunakan jendela pengaturan Fill and
       Stroke.
@@ -70,7 +70,7 @@ Fill atau Stroke.
       mudah.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-Gradients/
 4.17.1.3.Applies_to_Fill_and_Stroke.png]
-*** 4.17.1.4. Menambahkan Warna ***
+###### 4.17.1.4. Menambahkan Warna
 Untuk membuat lebih dari dua warna pada gradient, klik dua kali bagian tertentu
 pada garis gradien maka akan muncul pegangan baru dengan bentuk segi empat
 seperti node, klik pegangan tersebut hingga berubah warna menjadi biru,
@@ -81,7 +81,7 @@ Untuk menghapus salah satu warna, klik salah satu pegangan hingga berubah warna
 menjadi biru, kemudian tekan tombol Backspace atau Delete
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-Gradients/
 4.17.1.4A.Hapus_warna_gradient.png]
-*** 4.17.1.5. Deprecated ***
+###### 4.17.1.5. Deprecated
 Deprecated atau Gradient Editor digunakan untuk mengedit gardients yang sudah
 dibuat sebelumnya dengan menggunakan jendela pengaturan Fill and Stroke,
 jendela pengaturan deprecated terdiri menu dan beberapa submenu.
@@ -93,13 +93,13 @@ pilih. Offset digunakan untuk mengatur jarak antara warna satu dan lainnya,
 submenu Add Stop digunakan untuk menambahkan node warna baru kedepan warna yang
 sedang dipilih. Delete stop untuk menghapus warna yang dipilih. Sedangkan Stop
 Color untuk memilih metode pewarnaan yang tersedia pada submenu dibawahnya
-*** 4.17.1.6. Repeat ***
+###### 4.17.1.6. Repeat
 Susunan gradient pada object dapat diatur agar mengulang atau tidak dengan
 memilih salah satu submenu yang tersedia pada menu repeat, pengaturan repeat
 dapat dilakukan dengan menggunakan jendela pengaturan Fill and Stroke.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-Gradients/
 4.17.1.6.Repeat.png]
-*** 4.17.1.7. Menyeleksi Warna ***
+###### 4.17.1.7. Menyeleksi Warna
 Beberapa gradient dapat diseleksi atau dipilih dan diubah sekaligus secara
 bersamaan, cara cepat untuk menyeleksi gradient adalah dengan melakukan klik
 pada pegangan gradient dibarengi dengan menekan tombol tertentu pada keyboard.
@@ -118,7 +118,7 @@ pada pegangan gradient dibarengi dengan menekan tombol tertentu pada keyboard.
       object pada saat pertama kali dibuat.
   * Untuk menghapus salah satu gradient dapat juga dilakukan dengan menekan
       Ctrl+Alt kemudian klik salah satu pegangan gradient.
-*** Tips: ***
+###### Tips:
   * Agar object Gradient pada saat digeser tidak ingin berubah, beri tanda
       centang (checklist) menu Transform gradients yang ada pada jendela
       Inkscape Preferences, cara lainnya lakukan langkah berikut: pilih object,

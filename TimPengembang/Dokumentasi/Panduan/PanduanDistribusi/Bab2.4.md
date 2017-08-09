@@ -31,7 +31,7 @@ Document baru pada Inkscape menggunakan halaman A4 dengan orientasi portrait
 (tegak), walau begitu standar tersebut dapat diubah dengan menggunakan template
 baru yang kita buat, kemudian mengganti template asli dengan template baru
 tersebut.
-*** Catatan ***
+###### Catatan
 Jika menggunakan sistem operasi GNU/Linux settingan template tersebut berada
 pada direktori /usr/local/inkscape/share/templates dengan nama default.svg.
 ### 2.2. Membuka File
@@ -66,7 +66,7 @@ pada submenu tersebut dapat dilakukan dengan mengganti nilai yang sudah ada
 dengan nilai tertentu yang dinginkan.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/
 2.2.2.Open_Recent.png]
-** Catatan: **
+####### Catatan:
 Jika ingin membuka file dari media lain atau dari direktori yang tidak
 terdaftar pada sistem operasi yang dipakai sebaiknya kaitkan (mount) terlebih
 dulu pada media tersebut
@@ -147,7 +147,7 @@ dengan beberapa keterangannya:
       antarmuka grafis pada Windows Vista.
 #### 2.3.2. Simpan Sebagai Salinan (Shift+Ctrl+Alt+S)
 Digunakan untuk menyimpan File lama dengan nama yang sama pada direktori lain.
-** Catatan **
+####### Catatan
 Inkscape juga menyediakan fitur untuk menyimpan perubahan secara otomatis
 (autosave), fitur ini dapat diaktifkan melalui jendela Inkscape Preferences =>
 Save, jeda waktu dan maksimum penyimpanan dapat diatur dengan megubah nilai
@@ -228,7 +228,7 @@ Clip Art Library, maka segera muncul jendela untuk menghubungkan ke situs Open
 Clip Art Library
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/
 2.4.2.Import_dari_Open_Clip_Art_Library.png]
-** Catatan: **
+####### Catatan:
 Untuk dapat menjalankan fitur ini komputer harus terhubung dengan internet atau
 dalam jaringan Jika fitur ini tidak berjalan dengan baik, silakan lakukan
 pengaturan nama server ke openclipart.org pada jendela Inkscape Preferences =>
@@ -256,7 +256,7 @@ dan digunakan untuk melakukan pengaturan pada gambar yang akan di ekspor
       manual.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/
 2.5.1.Export_to_PNG.png]
-*** Keterangan ***
+###### Keterangan
   * Area dan ukuran gambar yang akan diekspor dapat diatur dan dimodifikasi
       pada kotak pengaturan yang disediakan dengan mengubah nilai yang sudah
       ada dengan nilai tertentu sesuai keinginan. Pada menu Bitmap size ukuran
@@ -269,7 +269,7 @@ dan digunakan untuk melakukan pengaturan pada gambar yang akan di ekspor
       besar juga ukuran kapasitas gambar yang dihasilkan hasilnyapun semakin
       baik. Menu Filename untuk menentukan letak file dan memberi nama file
       hasil ekspor, klik Browser untuk menuju ke direktori yang diinginkan.
-** Catatan **
+####### Catatan
   * Jika ingin mengekspor gambar yang berasal dari shape dan path sebaiknya
       gunakan antara 200 s/d 300 dpi, sedangkan jika yang akan dieksport gambar
       berupa text gunakan nilai 150 dpi.
@@ -278,7 +278,7 @@ Untuk mencetak (print) gambar secara langsung dapat dilakukan dengan cara klik
 File => Print atau tekan Ctrl+P. Cara lain klik ikon Printing pada Command Bar.
 Standard untuk mencetak pada Inkscape adalah GTK, hal ini dapat mencetak gambar
 dengan baik seperti standard pada PostScript? atau file PDF.
-** Catatan **
+####### Catatan
 Pada beberapa Distro GNU /Linux tertentu proses printing secara langsung dari
 Inkscape kadang mengalami masalah terutama jika menggunakan mesin printer yang
 belum mendukung driver secara native, solusinya simpanlah project dengan format

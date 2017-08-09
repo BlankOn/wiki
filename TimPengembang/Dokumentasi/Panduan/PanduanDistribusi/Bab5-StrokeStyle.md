@@ -49,7 +49,7 @@ putaran Stroke.
 Submenu ini digunakan untuk mengatur bentuk penanda pada ujung, tengah, dan
 pangkal path, Mind Markers hanya menempatkan satu penanda di tengah path
 kecuali pada Path yang memiliki beberapa Node.
-*** 5.5.6.1. Menambahkan Marker ***
+###### 5.5.6.1. Menambahkan Marker
 Buat object di canvas, kemudian klik object tersebut => arahkan kursor pada
 Menu Bar => klik Object => Objects to marker, maka object tersebut akan hilang
 dan ditambahkan ke marker atau penanda.

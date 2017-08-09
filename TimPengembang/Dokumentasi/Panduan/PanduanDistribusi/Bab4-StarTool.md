@@ -52,7 +52,7 @@ Untuk melakukan modifikasi bentuk star dapat dilakulkan dengan menyeret
 pegangan sebelah dalam, jika ingin memodifikasi bentuk yang lebih rumit dapat
 dilakukan sambil menekan tombol Ctrl, Shift, dan
 Shift+Alt4.8B.Cara_Menggunakan_bintang.png.
-*** Catatan ***
+###### Catatan
 Jika ingin membuat object polygon dengan posisi tegak lurus lakukan sambil
 menekan Ctrl dengan posisi pegangan diatas.
 #### 4.8.1. Ikon Star and Polygon
@@ -61,29 +61,29 @@ menggunakan ikon dan menu pada Tool Control, berikut penjelasan dari ikon dan
 menu pada tool control Star dan Polygon:
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-StarTool/
 4.8.1.Ikon_Star_and_Polygon.png]
-*** 4.8.1.1. Star and Polygon ***
+###### 4.8.1.1. Star and Polygon
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-StarTool/
 A.Star_and_Polygon.png] Digunakan untuk menentukan jenis object yang akan
 dibuat
-*** 4.8.1.2. Menu Corner ***
+###### 4.8.1.2. Menu Corner
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-StarTool/
 B.Menu_Corner.png] Digunakanuntuk menentukan jumlah sudut atau jari-jari
 object.
-*** 4.8.1.3. Spoke Ratio ***
+###### 4.8.1.3. Spoke Ratio
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-StarTool/
 C.Menu_Spoke_Ratio.png] Digunakan untuk menentukan rasio jari-jari atau sudut
 bagian dalam object, menu ini yang dapat diterapkan pada mode Star (bintang).
-*** 4.8.1.4. Rounded ***
+###### 4.8.1.4. Rounded
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-StarTool/
 D.Menu_Rounded.png] Digunakan untuk mengatur sudut luar pada object Star maupun
 Polygon, sudut object akan berubah membulat pada saat nilai angka pada menu ini
 diubah, efek dari penggunaan menu ini akan berbeda-beda tergantung dari
 banyaknya sudut pada object.
-*** 4.8.1.5. Randomised ***
+###### 4.8.1.5. Randomised
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-StarTool/
 E.Menu_Randomised.png] Untuk mengatur sudut object secara acak pada object Star
 maupun Polygon.
-*** 4.8.1.6. Reset Shape ***
+###### 4.8.1.6. Reset Shape
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-StarTool/
 F.Reset_Shape.png] Digunakan untuk mengembalikan bentuk object yang sudah di
 modifikasi ke bentuk awal saat object dibuat.

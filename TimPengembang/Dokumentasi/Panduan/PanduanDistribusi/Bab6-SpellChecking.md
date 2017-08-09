@@ -40,7 +40,7 @@ memilih bahasa yang akan digunakan pada jendela Inkscape Preferences =>
 Spellcheck, terdapat tiga bahasa yang dapat dipilih.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab6-SpellChecking/
 6.4A.Spell_Checking_Spellcheck.png]
-** Catatan **
+####### Catatan
   * Pada Inkscape yang dijalankan pada sistem operasi Microsoft Windows hanya
       menyertakan satu bahasa yaitu bahasa Inggris (english). Jika Anda
       menggunakan Sistem Operasi GNU/Linux dapat menambahkan bahasa dengan

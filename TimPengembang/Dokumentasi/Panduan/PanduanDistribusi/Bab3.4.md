@@ -38,7 +38,7 @@ terakhir kali. Perbandingan Unit pada Inkscape secara Default sebagai berikut:
 perbandingan inch dengan px adalah 1 inch = 90 px atau 1 px = 0,011 inch.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab3/
 3.1.1.Default_units.png]
-** Catatan: **
+####### Catatan:
 Unit atau ukuran Feet dan Meter tidak tersedia pada Inkscape karena tidak
 termasuk standar dalam SVG dan CSS.
 #### 3.1.2. Background Canvas
@@ -49,7 +49,7 @@ subjendela pengaturan yang tampil pilih tab dan warna yang sesuai, setelah
 sesuai tutup kembali subjendela pengaturan warna latarbelakang tersebut.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab3/
 3.1.2.Background_Canva.png]
-** Catatan: **
+####### Catatan:
 Penggunaan warna latarbelakang pada canvas sangat berguna pada saat menggambar
 object dengan warna tertentu yang sulit dilihat, misalnya pada saat membuat
 object berwarna putih atau warna lainnya.

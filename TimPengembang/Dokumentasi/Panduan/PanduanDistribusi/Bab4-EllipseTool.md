@@ -46,7 +46,7 @@ klik ikon Lingkaran pada Tool Control.
 Untuk melakukan pengaturan jarak rentang busur atau elips selain dengan cara
 menggeser pegangan lingkaran kecil dalam jark tetentu bisa juga dengan mengubah
 angka pada kotak isian di Start dan End.
-*** Tips ***
+###### Tips
 Untuk membuat lingkaran agar lebar dan tinggi sama, saat membuat object lakukan
 sambil menekan tombol Ctrl, sedangkan jika dilakukan dengan menekan tombol
 Shift maka object yang terbentuk akan membesar ke semua arah (sisi).

@@ -70,23 +70,23 @@ Ikon pada kelompok Tweaking Objects digunakan untuk menggeser, memperkecil,
 memutar, dan menggandakan object.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TweakTool/
 4.3.3.Tweaking_Objects.png]
-*** Move objects ***
+###### Move objects
 Digunakan untuk menggeser object, saat dijalankan object akan bergeser sesuai
 gerakan brush, klik ikon Tweak Tool => Move objects in any direction, arahkan
 ke object, klik dan tahan, kemudian geser ke arah yang diinginkan.
-*** Move In/Out? ***
+###### Move In/Out?
 Digunakan untuk menggeser object, object akan bergeser berlawanan dengan
 gerakan brush. namun jika saat menggeser object sambil menekan tombol Shift
 maka object akan bergeser sesuai gerakan brush.
-*** Move Jitter ***
+###### Move Jitter
 Digunakan untuk memindahkan object secara acak berlawanan dengan posisi brush.
-*** Shrink objects ***
+###### Shrink objects
 Digunakan untuk memperkecil object secara proprosional, namun jika dilakukan
 sambil menekan tombol Shift maka memperbesar object.
-*** Rotate objects ***
+###### Rotate objects
 Digunakan untuk memutar object sesuai arah brush, namun jika dilakukan sambil
 menekan tombol Shift, maka object akan berputar secara berlawanan dengan brush.
-*** Duplicate and Delete ***
+###### Duplicate and Delete
 Digunakan untuk duplikasi object, namun hasil duplikasi object tidak langsung
 terlihat karena langsung tergabung menjadi satu dengan object asli, untuk
 melihat hasilnya klik Selector Tool kemudian klik object lainya, setelah itu
@@ -101,24 +101,24 @@ tertentu tidak dapat dimodifikasi menggunakan Tweaking Paths (misal; lingkaran,
 persegi panjang, dan teks) aktifkan dulu dengan menggunakan Node Tool.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TweakTool/
 4.3.4.Tweaking_Paths.png]
-*** Push ***
+###### Push
 Push digunakan untuk modifikasi object dengan mendorong bagian pinggir ke
 tengah atau sebaliknya, jika bagian pinggir object didorong ke arah dalam maka
 bagian pinggir object akan terdorong masuk ke tengah-tengah object secara
 lentur dan lembut, namun jika bagian tengah (dalam) yang di dorong ke pinggir
 maka bagian object akan menonjol (membesar).
-*** Shrink and Grow ***
+###### Shrink and Grow
 Digunakan untuk memodifikasi object dengan mendorong bagian pinggir ke tengah,
 maka bagian pinggir object akan terdorong masuk ke tengah-tengah object, pada
 saat melakukan pendorongan hingga mencapai setengah dari object maka pinggir
 bagian lain akan tertarik kedalam, jika ingin mendorongan bagian tengah (dalam)
 ke pinggir lakukan sambil menekan tombol Shift.
-*** Attract and Rapel (Shift+A) ***
+###### Attract and Rapel (Shift+A)
 Digunakan untuk modifikasi object dengan mendorong bagian pinggir ke tengah,
 maka bagian pinggir object akan terdorong masuk ke tengah-tengah object dengan
 sudut berbentuk runcing, sedangkan jika bagian pinggir ditarik keluar maka
 bagian akan berbentuk kerucut (runcing)
-*** Roughen (Shift+R) ***
+###### Roughen (Shift+R)
 Digunakan untuk membuat bagian pinggir object menjadi kasar, bagian yang kasar
 sedikit menonjol melebihi permukaan object dengan bentuk tidak beraturan, jika
 metode ini digunakan maka waktu mouse digerakan akan sedikit lambat, jadi
@@ -131,21 +131,21 @@ gradient yang berlebihan akan mengubah semua warna yang telah dibuat
 sebelumnya.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TweakTool/
 4.3.5.Tweaking_Colors.png]
-*** Color Paint (Shift+C) ***
+###### Color Paint (Shift+C)
 Digunakan untuk mengubah warna object pada Fill and Stroke menjadi lebih gelap,
 jika pada saat menggunakan modus ini sambil menekan tombol Shift maka warna
 object akan berubah menjadi terlihat kabur, perubahan tidak mempengaruhi bentuk
 object.
-*** Color Jitter (Shift+J) ***
+###### Color Jitter (Shift+J)
 Color Jitter digunakan untuk mengubah warna object pada Fill and Stroke menjadi
 lebih terang, jika pada saat menggunakan modus ini sambil menekan tombol Shift
 maka warna object akan berubah menjadi terlihat cerah.
-*** Blur ***
+###### Blur
 Blur digunakan untuk mengubah object menjadi kabur seolah-olah diselimuti
 kabut, dengan cara mengeser-geser kursor pada object sambil menekan tombol kiri
 mouse, jika dilakukan disertai dengan menekan tombol Shift maka efek yang
 terjadi sebaliknya.
-*** Fidelity ***
+###### Fidelity
 Setiap melakukan tweaking pada path terjadi sedikit pembelokan atau
 penyimpangan pada seluruh path, termasuk bagian-bagian yang tidak disentuh.
 Dengan adanya mode Fidelity memungkinkan Anda untuk mengontrol jumlah
@@ -154,7 +154,7 @@ menggunakan nilai Fidelity yang tinggi maka penyimpangan sedikit tidak
 terlihat, tetapi path akan memiliki node yang banyak sehingga ukuran SVG jadi
 mengembang dan memperlambat Inkscape. Nilai terbaik dari Fidelity tergantung
 pada sifat desain yang dibuat.
-*** Channels ***
+###### Channels
 Channels control hanya bekerja pada modus Color Paint dan Color Jitter. Channel
 control terdiri dari satu tombol biasanya menggunakan huruf H yang artinya hue,
 didalam tombol tersebut terdapat submenu yang terdiri dari Saturation,
@@ -171,7 +171,7 @@ lightness maka yang perlu di aktifkan adalah Hue, atau jika ingin menggelapkan
 semua warna tanpa mengubah saturation atau penyerapan maka yang perlu
 diaktifkan hanya Lightness. Jika ingin menerapkan opacity pada style maka yang
 perlu diaktifkan hanya Opacity.
-*** Catatan: ***
+###### Catatan:
 Untuk melihat efek dari penggunaan Tweaking Colors dan Channel Control dapat
 dengan menampilkan jendela pengaturan Fill and Stroke.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/

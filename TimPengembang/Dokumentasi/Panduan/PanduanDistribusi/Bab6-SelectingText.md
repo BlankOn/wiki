@@ -62,7 +62,7 @@ Ctrl+A                Melakukan blok ke semua teks/karakter
       cukup drastis.
   * Alt+[ atau Alt+] untuk memutar text yang terpilih. Tombol Ctrl+[ atau
       Ctrl+] untuk memutar 900.
-*** Catatan: ***
+###### Catatan:
   * Pada sebagian Sistem Operasi GNU/Linux kombinasi tombol Alt dengan tombol
       lainnya tidak berfungsi dengan baik karena dipakai untuk mengontrol
       jendela aplikasi yang sedang dijalankan, untuk dapat menggunakan tombol
@@ -78,7 +78,7 @@ dipilih. Jika karakter yang diinginkan sudah ditemukan, klik dua kali karakter
 tersebut, kemudian klik Append untuk menambahkan pada teks yang sudah ada.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab6-SelectingText/
 6.2.Glyphs.png]
-*** Catatan ***
+###### Catatan
   * Agar dapat memasukkan karakter khusus pada canvas/halaman Anda harus
       membuat object teks terlebih dulu.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/

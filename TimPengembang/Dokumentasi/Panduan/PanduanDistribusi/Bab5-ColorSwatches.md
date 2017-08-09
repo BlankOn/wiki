@@ -52,7 +52,7 @@ sangat kecil, sedangkan jika memilih paling bawah (huge) maka ukurannya paling
 besar (tinggi).
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-ColorSwatches/
 B1.Color_size.png]
-*** 5.3.1.2. Swatch Width ***
+###### 5.3.1.2. Swatch Width
 Menu kedua dari atas adalah width, menu ini digunakan untuk mengatur lebar
 kotak-kotak atau kolom color Palette, untuk memilih lebar kotak color palette
 klik tanda segitiga pada bagian pinggir menu ini, maka akan muncul submenu yang
@@ -64,20 +64,20 @@ akan menjadi kecil (sempit) bercampur besar (lebar), sedangkan jika memilih
 paling bawah (wider) maka ukurannya paling beser (lebar).
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-ColorSwatches/
 C1.Swatch_Width.png]
-*** 5.3.1.3. Wrap ***
+###### 5.3.1.3. Wrap
 Wrap digunakan untuk mengatur jumlah baris Color Palette, contohnya jika pada
 size yang dipilih small dan pada width yang dipilih wider, kemudian Wrap
 diaktifkan maka Color Palette berjumlah tiga baris.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-ColorSwatches/
 D.wrap.png]
-*** 5.3.1.4. Deleting Fill and Stroke ***
+###### 5.3.1.4. Deleting Fill and Stroke
 Pada pojok kiri terdapat ikon berbentuk tanda silang yang dapat digunakan untuk
 menghapus Fill atau Stroke, untuk menghapus Fill pada object, pilih object =>
 klik tanda silang tersebut, sedangkan untuk menghapus Stroke lakukan cara yang
 sama namun sambil menekan Shift.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-ColorSwatches/
 E.hapus_fill.png]
-*** Catatan ***
+###### Catatan
   * Color Swatches juga dapat ditampilkan dengan jendela pengaturan dengan
       cara klik View => Swatches
   * Color Palette dapat ditambahkan dengan memasang color palette dari

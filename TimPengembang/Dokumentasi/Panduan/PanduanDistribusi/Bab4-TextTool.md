@@ -51,46 +51,46 @@ Ctrl+U untuk membatalkan mode karakter khusus.
 Saat Text Tool aktif maka pada Tool Control muncul iko-ikon yang dapat
 digunakan untuk mengatur teks yang sedang dibuat, berikut penjelaan dari ikon-
 ikon tersebut:
-*** 4.13.4.1. Jenis Huruf ***
+###### 4.13.4.1. Jenis Huruf
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 1.Jenis_huruf.png] Digunakan untuk memilih jenis huruf yang diinginkan.
-*** 4.13.4.2. Ukuran huruf ***
+###### 4.13.4.2. Ukuran huruf
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 2.Ukuran_huruf.png] Digunakan untuk mengatur ukuran huruf.
-*** 4.13.4.3. Tebal dan miring ***
+###### 4.13.4.3. Tebal dan miring
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 3.Tebal_dan_miring.png] Digunakan untuk mengubah huruf menjadi tebal atau
 miring, dapat juga digunakan keduanya (tebal dan miring)
-*** 4.13.4.4. Alignment ***
+###### 4.13.4.4. Alignment
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 4.Alignment.png] Digunakan untuk mengatur perataan (alignment) suatu paragraf.
-*** 4.13.4.5. Superscript dan Subscript ***
+###### 4.13.4.5. Superscript dan Subscript
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 5.Superscript_dan_Subscript.png] Digunakan untuk mengubah posisi sebuah
 karakter menjadi di atas (superscript) ataupun di bawah (subscript).
-*** 4.13.4.6. Jarak antar baris ***
+###### 4.13.4.6. Jarak antar baris
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 6.Jarak_antar_baris.png] Digunakan untuk mengatur jarak antar baris atau spasi.
-*** 4.13.4.7. Jarak antar huruf ***
+###### 4.13.4.7. Jarak antar huruf
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 7.Jarak_antar_huruf.png] Digunakan untuk mengatur jarak renggang antar huruf
 dalam satu paragraf.
-*** 4.13.4.8. Jarak antar kata ***
+###### 4.13.4.8. Jarak antar kata
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 8.Jarak_antar_kata.png] Digunakan untuk mengatur jarak antara kata.
-*** 4.13.4.9. Pergeseran horisontal ***
+###### 4.13.4.9. Pergeseran horisontal
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 9.Pergeseran_horisontal.png] Digunakan untuk menggeser huruf/kata yang dipilih
 ke kiri atau ke kanan sesuai nilai yang dimasukkan.
-*** 4.13.4.10. Pergeseran vertikal ***
+###### 4.13.4.10. Pergeseran vertikal
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 10.Pergeseran_vertikal.png] Digunakan untuk menggeser huruf/kata yang dipilih
 ke atas atau ke bawah sesuai nilai yang dimasukkan.
-*** 4.13.4.11. Rotasi huruf ***
+###### 4.13.4.11. Rotasi huruf
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 11.Rotasi_huruf.png] Berfungsi untuk memutar huruf yang terpilih sesuai dengan
 nilai yang dimasukkan.
-*** 4.13.4.12. Orientasi Huruf ***
+###### 4.13.4.12. Orientasi Huruf
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-TextTool/
 12.Orientasi_Huruf.png] Digunakan untuk menentukan orientasi teks yang dibuat,
 apakah mendatar atau menurun.

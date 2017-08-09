@@ -35,7 +35,7 @@ Copy, Clone, dan Duplicate terdapat beberapa cara yaitu:
   * Klik ikon pada Command Bar.
   * Menekan tombol tertentu pada keyboard secara bersamaan.
 ### 7.2. Copy, Cut, dan Paste
-*** Clipboard ***
+###### Clipboard
 Inkscape menggunakan system-wide clipboard (menyimpan deskripsi sementara dalam
 memori untuk suatu object). Anda dapat melakukan copy, cut, dan paste suatu
 object antara inkscape dengan aplikasi lain yang mendukung SVG.
@@ -78,36 +78,36 @@ tujuan, setelah itu pilih paste style atau tekan tombol Shift+Ctrl+V.
 Ada enam cara untuk menyalin dimensi (ukuran) dari satu object ke object baru.
 Cara tersebut dapat ditemukan pada Menu Bar => Edit => Paste Size => nama
 submenu.
-** Catatan **
+####### Catatan
 Sebelum melakukan teknik ini Anda harus melakukan perintah Copy pada object
 tertentu yang akan ditiru ukurannya.
-*** 7.2.6.1. Paste Size ***
+###### 7.2.6.1. Paste Size
 Menempelkan dimensi suatu object ke object lain dengan tinggi dan lebar yang
 sama, object tujuan akan memiliki ukuran tinggi dan lebar sama persis dengan
 object yang disalin.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab7-CopyCutAndPaste/
 7.2.6.1.Paste_Size.png]
-*** 7.2.6.2. Paste Width ***
+###### 7.2.6.2. Paste Width
 Menempelkan dimensi suatu object ke object lain dengan Lebar yang sama.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab7-CopyCutAndPaste/
 7.2.6.2.Paste_Width.png]
-*** 7.2.6.3. Paste Height ***
+###### 7.2.6.3. Paste Height
 Menempelkan dimensi suatu object ke object lain dengan Tinggi yang sama.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab7-CopyCutAndPaste/
 7.2.6.3.Paste_Height.png]
-*** 7.2.6.4. Paste Size Separately ***
+###### 7.2.6.4. Paste Size Separately
 Menempelkan ukuran (dimensi) suatu object ke object lain dengan Tinggi dan
 Lebar yang sama secara terpisah, object tujuan akan memiliki ukuran tinggi dan
 lebar Fill and Stroke sama dengan ukuran Fill object yang disalin.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab7-CopyCutAndPaste/
 7.2.6.4.Paste_Size_Separately.png]
-*** 7.2.6.5. Paste width Separately ***
+###### 7.2.6.5. Paste width Separately
 Menempelkan ukuran suatu object ke object lain dengan Lebar yang sama secara
 terpisah, object tujuan akan memiliki ukuran lebar Fill and Stroke sama dengan
 ukuran Fill object yang disalin
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab7-CopyCutAndPaste/
 7.2.6.5.Paste_width_Separately.png]
-*** 7.2.6.6. Paste Height Separately ***
+###### 7.2.6.6. Paste Height Separately
 Menempelkan ukuran suatu object ke object lain dengan Tinggi yang sama secara
 terpisah, object tujuan akan memiliki ukuran tinggi Fill and Stroke sama dengan
 ukuran Fill object yang disalin.

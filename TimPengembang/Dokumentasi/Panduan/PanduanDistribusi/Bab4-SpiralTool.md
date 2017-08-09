@@ -45,19 +45,19 @@ Tool Control dengan mengubah atau memasukkan angka tertentu pada kotak isian
 yang tersedia, berikut penjelasan dari ikon dan menu tersebut:
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-SpiralTool/
 4.9.1.Ikon_Spiral.png]
-*** 4.9.1.1. Turns ***
+###### 4.9.1.1. Turns
 Untuk mengatur jumlah kisi-kisi pada lingkaran object Spiral
-*** 4.9.1.2. Divergence ***
+###### 4.9.1.2. Divergence
 Untuk mengatur renggang kisi-kisi antara satu dan lainya dengan berpedoman pada
 angka 1 (satu), jika nilai angka lebih besar dari angka 1 (satu) maka jarak
 antara kisi-kisi satu dan lainnya akan merenggang, jika nilai angka lebih kecil
 dari 1 (satu) maka jarak antara kisi-kisi akan menjadi rapat dan ukuran pusat
 (bagian tengah) spiral membesar.
-*** 4.9.1.3. Inner Radius ***
+###### 4.9.1.3. Inner Radius
 Untuk mengatur kisi-kisi melalui pegangan bagian dalam, jika nilainya besar
 maka jumlah kisi-kisi akan berkurang dan lebar dalam ruang pada spiral akan
 membesar (melebar).
-*** 4.9.1.4. Reset Shape ***
+###### 4.9.1.4. Reset Shape
 Untuk mengembalikan bentuk object yang sudah di modifikasi ke bentuk awal saat
 object dibuat.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/

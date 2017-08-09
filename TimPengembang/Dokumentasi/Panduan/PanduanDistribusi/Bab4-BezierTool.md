@@ -38,16 +38,16 @@ hingga membentuk beberapa titik simpul (sesuaikan jumlah simpul yang akan
 dibuat), jika bentuk simpul sudah sesuai klik dua kali pada canvas.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-BezierTool/
 5.11B.Cara_menggunakan_Bezier_curves_simpul.png]
-*** 4.11.1. Ikon Bezier Curves ***
+###### 4.11.1. Ikon Bezier Curves
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-BezierTool/
 Ikon_Draw_Bezier.png] Ikon Bezier Curves pada Tool Control digunakan untuk
 mengatur garis atau simpul yang dibuat, berikut penjelasan dari ikon-ikon
 tersebut:
-*** 4.11.1.1. Regular Bezier and Spiro ***
+###### 4.11.1.1. Regular Bezier and Spiro
 Digunakan untuk membuat garis lurus dan simpul sederhana.
-*** 4.11.1.2. Sequence of Straight ***
+###### 4.11.1.2. Sequence of Straight
 Digunakan untuk membuat garis lurus atau simpul secara berurutan.
-*** 4.11.1.3. Sequence of Paraxial ***
+###### 4.11.1.3. Sequence of Paraxial
 Digunakan untuk membuat garis lurus atau simpul secara acak yang memiliki
 sudut, setiap membuat garis maka hasilnya akan lurus mendatar (horisontal) atau
 tegak (vertikal), pada saat membuat garis berikutnya maka hanya bisa menarik
@@ -55,7 +55,7 @@ garis ke arah yang berlawanan dari garis yang dibuat sebelumnya, misal
 sebelumnya membuat garis vertikal maka garis berikutnya hanya dapat dibuat
 horisontal, jika ingin membuat garis yang berurutan lakukan sambil menekan
 tombol Shift.
-*** 4.11.1.4. Shape ***
+###### 4.11.1.4. Shape
 Pada ikon Shape terdapat submenu yang terdiri dari 5 (lima) model garis yang
 dapat di gunakan yaitu, None, Triangle in, Trianggle Out, Ellipse, dan From
 clipboard fungsinya sama persis pada Pencil Tool.

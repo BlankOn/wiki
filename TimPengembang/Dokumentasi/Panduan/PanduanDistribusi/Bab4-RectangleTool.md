@@ -60,7 +60,7 @@ Sedangkan untuk mengembalikan sudut membulat yang telah dibuat menjadi bentuk
 persegi panjang klik ikon Corner sharp pada Tool Control.
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab4-RectangleTool/
 4.5.1D.Ikon_reset.png]
-** Tombol Pintas **
+####### Tombol Pintas
 Saat membuat persegi panjang sambil menekan Ctrl maka object yang dihasilkan
 akan berbentuk bujur sangkar, sedangkan jika sambil menekan Shift maka object
 akan ditarik dari tengah (bukan dari sudut kiri atas).
