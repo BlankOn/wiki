@@ -7,10 +7,12 @@ mendukung fitur-fitur pemrosesan fonta pintar (smartfont) berbasis OpenType?
 untuk memproses berbagai aturan rumit dalam penulisan aksara Bali. Untuk
 menggunakan fitur ini, anda harus mengaktifkan metoda input SCIM terlebih
 dahulu.
+
 ### Mengaktifkan metoda input SCIM
 Untuk mengaktifkan SCIM, klik menu Sistem > Administrasi > Dukungan Bahasa.
 Pada opsi "System metoda masukan papan ketik", pilih "scim-immodule". Setelah
 itu restart desktop Anda.
+
 ### Menggunakan fitur metoda input aksara Bali
 Untuk menggunakan fitur metoda input, bukalah aplikasi pengetikan yang
 mendukung fitur metoda input dan pemrosesan fonta pintar. Saat ini, hanya
@@ -22,7 +24,9 @@ ingin menggunakan Browser, anda harus menggunakan aplikasi Mozilla Firefox
 (Chromium belum mendukung pemrosesan OpenType?).
 Untuk memulai pengetikan, tekan tombol trigger Ctrl+Spasi. Kemudian Anda bisa
 memulai pengetikan kata dan kalimat yang anda inginkan dalam aksara Bali.
+
 ### Teknik pengetikan
+
 PERHATIAN : Beberapa kalimat dalam aksara Bali yang dimuat dalam halaman ini
 mungkin tidak tampil sempurna sesuai dengan aturan jika menggunakan browser
 Chromium
@@ -66,6 +70,7 @@ pengetikan :
    * Untuk menuliskan konsonan-konsonan dengan aksara khusus (selain 18
       konsonan standar aksara Bali), gunakan kombinasi tombol seperti tabel
       berikut :
+
 | Aksara | Aksara Bali | Cara Pengetikan |
 |--------|--------|--------|
 |Da Madu |	ᬥ |	D + H + vokal |
@@ -87,6 +92,7 @@ pengetikan :
 
   * Untuk mengetik karakter vokal tunggal (a kara, i kara, u kara). Gunakan
       kombinasi tombol seperti tabel berikut :
+
 | Aksara | Aksara Bali | Cara Pengetikan |
 |--------|--------|--------|
 |A kara 	|  ᬅ   |Shift + A|
