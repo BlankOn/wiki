@@ -1,22 +1,8 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * CakramPengaya  /
-    * Kreatif
-### Cakram Pengaya Kreatif
+# Cakram Pengaya Kreatif
 Racikan ini untuk pengguna yang belajar dan bekerja di bidang software
 development.
-    * Alat
+
+  * Alat
       bicyclerepair
       build-essential
       curl
@@ -30,7 +16,7 @@ development.
       qt3-linguist
       tijmp
       visualvm
-    * Alat Versioning
+   * Alat Versioning
       ant
       ant-gcj
       autotools-dev
@@ -57,22 +43,22 @@ development.
       gitg
       subversion
       subversion-tools
-    * Compiler
+   * Compiler
       bin86
       doxygen
       doxygen-gui
       gcj
       nasm
       yasm
-    * Gambas
+   * Gambas
       gambas2
       gambas2-dev
       gambas2-doc
-    * Geany
+   * Geany
       geany
       geany-plugins
-    * Dokumen
-    * Eclipse
+   * Dokumen
+   * Eclipse
       eclipse
       eclipse-cdt
       eclipse-efj
@@ -83,56 +69,52 @@ development.
       eclipse-pde-gcj
       eclipse-pydev
       eclipse-pydev-gcj
-    * Teks Editor
+   * Teks Editor
       boa-constructor
       drpython
       pida
       vim
       vim-addon-manager
       bvi
-    * Emacs
+   * Emacs
       emacs
-    * Databases
+   * Databases
       mysql-admin
       mysql-client
       postgresql-client
       sqlite
       sqliteman
-    * IDE lainnya
+   * IDE lainnya
       netbeans
       kdevelop
-    * Codeblocks
+   * Codeblocks
       codeblocks
       codeblocks-contrib
-    * Pustaka
+   * Pustaka
       libmagickcore-dev
       libmagick++-dev
       libmagickwand-dev
       libsqlite3-dev
       lightning
       python-pygame
-    * SDK default-jdk-builddep
+   * SDK default-jdk-builddep
       openjdk-6-jdk
       qt-sdk
       sun-java6-jdk
-    * Shell
+   * Shell
       bsh
       csh
       pdksh
       sash
       zsh
-    * Ruby
+   * Ruby
       ruby1.9.1-full
-    * Freepascal
+   * Freepascal
+
 Last modified on 01/23/2010 06:47:06 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
 [**Indeks Wiki BlankOn**](/Indeks.md)
+
