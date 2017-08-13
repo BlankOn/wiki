@@ -1,18 +1,37 @@
-# Mulai Bergabung dengan Tim Jaminan Kualitas
-Selain tertulis pada halaman [TimPengembang](https://github.com/BlankOn/Uluwatu.git);
-
-   - Pastikan Anda sudah bergabung dengan [Milis Pengembang BlankOn](https://groups.google.com/forum/#!forum/blankon-dev)
-   - Pastikan juga Anda bergabung dengan [Milis Pengguna BlankOn](https://groups.google.com/forum/#!forum/blankon) dan [Milis Tiket / Kutu BlankOn](https://groups.google.com/forum/#!forum/blankon-tiket)
-   - Daftarkan diri Anda pada [Situs aku.boi.](https://aku.blankonlinux.or.id/)
-   - Sunting nama Anda pada daftar Tim pengembang misalnya di [sini](https://github.com/BlankOn/Uluwatu/blob/master/TEAM.md) dan tentu saja pada halaman [Tim Jaminan Kualitas.](/TimPengembang/JaminanKualitas/JaminanKualitas.md)
-   - Pastikan Anda memiliki setidaknya 1 (satu) mesin yang menggunakan [BlankOn](http://dev.blankonlinux.or.id/wiki/BlankOn) atau debian yang di.blankon.in sebagai sistem operasi utama, bukan komputer virtual.
-
-
-
+   BlankOn
+ About_Trac
+    * About_Trac
+    * Preferences
+    * Login
+    * Help/Guide
+    * Wiki
+    * Roadmap
+    * Browse_Repository
+    * View_Reports
+[q                 ]
+    * BlankOn  /
+    * Wiki  /
+    * JaminanKualitas  /
+    * Bergabung
+Selain tertulis pada halaman Tim_Pengembang
+    * Pastikan Anda sudah bergabung dengan ​Milis_Pengembang_BlankOn.
+    * Pastikan juga anda bergabung dengan ​Milis_Pengguna_BlankOn dan ​Milis
+      Tiket_/_Kutu_BlankOn.
+    * Daftarkan diri anda pada ​Situs_aku.boi.
+    * Sunting nama anda pada daftar Tim pengembang misalnya di sini dan tentu
+      saja pada halaman Tim_Jaminan_Kualitas.
+    * Pastikan anda memiliki setidaknya 1 (satu) mesin yang menggunakan BlankOn
+      atau debian yang di.blankon.in sebagai sistem operasi utama, bukan
+      komputer virtual.
+Last modified on 01/26/2013 05:37:54 PM
+#### 
+    
+ 
+ 
+ 
+ 
+ 
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
 [**Indeks Wiki BlankOn**](/Indeks.md)
-
-
-
