@@ -1,25 +1,13 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * AinulHakim
-## Halaman Ainul Hakim
-pre-0.11 Wiki macro Navigation by provider <class 'Navigation.NavigationMacro'>
-[/raw-attachment/wiki/AinulHakim/ainul_blankon.png]
+# Halaman Ainul Hakim
+![](/raw-attachment/wiki/AinulHakim/ainul_blankon.png)
+
 Web/Blog? : ​http://ainul.smartikon.com
 Twitter : mikahlunia
 FB : ​https://www.facebook.com/AinulHakim
+
 Last modified on 10/02/2012 06:15:14 PM
-#### Attachments (13)
+
+### Attachments (13)
     * ainul_blankon.png​ (15.3 KB) - added by AinulHakim 9 years ago.
     * wps1.png​ (316.7 KB) - added by ainulhakim 5 years ago. tabah-sajadah-
       subuh
@@ -40,12 +28,6 @@ Last modified on 10/02/2012 06:15:14 PM
     * sajadah-siang.png​ (767.9 KB) - added by ainulhakim 5 years ago.
     * sajadah-malam.png​ (477.7 KB) - added by ainulhakim 5 years ago.
     * sajadah-dinihari.png​ (734.8 KB) - added by ainulhakim 5 years ago.
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

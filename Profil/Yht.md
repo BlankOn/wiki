@@ -1,3 +1,5 @@
+# Yudha H Tejaningrat
+
   * Nama : Yudha H Tejaningrat
   * Nick : yht
   * Blog : [Blog.YHT.Web.ID][23]
@@ -14,22 +16,20 @@ Attachments (1)
 
      * [][29]![tux.jpg][30]​ (13.0 KB) - added by yht.
 
-   Download all attachments as: [31].zip
+   Download all attachments as: [31]:zip
 
 
 Referensi
-  23. http://blog.yht.web.id/
-  24. https://twitter.com/ryht
-  25. http://dev.blankonlinux.or.id/wiki/Infrastruktur/Trac
-  26. http://yeyen.blankonlinux.or.id/
-  27. http://Rani.blankonlinux.or.id/
-  28. file:///wiki/yht?action=diff&version=4
-  29. file:///attachment/wiki/yht/tux.jpg
-  30. file:///raw-attachment/wiki/yht/tux.jpg
-  31. file:///zip-attachment/wiki/yht/
+  [23]: http://blog.yht.web.id/
+  [24]: https://twitter.com/ryht
+  [25]: http://dev.blankonlinux.or.id/wiki/Infrastruktur/Trac
+  [26]: http://yeyen.blankonlinux.or.id/
+  [27]: http://Rani.blankonlinux.or.id/
+  [28]: file:///wiki/yht?action=diff&version=4
+  [29]: file:///attachment/wiki/yht/tux.jpg
+  [30]: file:///raw-attachment/wiki/yht/tux.jpg
+  [31]: file:///zip-attachment/wiki/yht/
   
-
-
 
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
