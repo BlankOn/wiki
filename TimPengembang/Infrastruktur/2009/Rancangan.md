@@ -1,20 +1,6 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * 2009  /
-    * Rancangan
-DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF
+# Rancangan Infrastruktur 2009
+
+### Rancangan
 Diskusi rancangan dilakukan di wiki:Infrastruktur/2009/Rancangan/Diskusi
 ## Infrastruktur BlankOn 2009: Terdistribusi
 Komponen utama
