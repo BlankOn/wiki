@@ -1,6 +1,4 @@
 # DaftarAbsensi
-Error: Macro Include(MenuBar) failed
-'includemacro.macros.IncludeMacro'> 
 
 Silakan isi daftar absensi (nama lengkap & alamat email) berikut ini bila Anda
 ingin terlibat dalam pengembangan BlankOn. Tapi pastikan Anda sudah bergabung

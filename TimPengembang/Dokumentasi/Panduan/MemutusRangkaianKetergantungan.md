@@ -1,5 +1,5 @@
 ## Dokumentasi Pengembang
-# MemutusRangkaianKetergantungan
+# Memutus Rangkaian Ketergantungan
 
 ### Studi Kasus :
 #### Kasus pennyusutan hasil CD Iso harian

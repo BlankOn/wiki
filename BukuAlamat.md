@@ -13,8 +13,7 @@
    * ​https://wiki.ubuntu.com/InstallerDevelopment
 
 ### Repositori
-   * ​http://www.debian.org/doc/manuals/repository-howto/repository-
-      howto.en.html
+   * ​http://www.debian.org/doc/manuals/repository-howto/repository-howto.en.html
    * ​http://wiki.debian.org/HowToSetupADebianRepository
    * ​https://wiki.ubuntu.com/Archive/Syncscripts
    * ​http://www.debian.org/mirror/ftpmirror

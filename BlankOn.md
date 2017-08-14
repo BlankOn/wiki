@@ -1,5 +1,5 @@
 # BlankOn
-[http://dev.blankonlinux.or.id/raw-attachment/wiki/Misi/buatan-indonesia.png]
+![](http://dev.blankonlinux.or.id/raw-attachment/wiki/Misi/buatan-indonesia.png)
 
 ## Misi Proyek BlankOn
 Proyek BlankOn bertujuan untuk mengembangkan ekosistem baru dalam konteks
@@ -80,6 +80,7 @@ perubahan baru di Indonesia.
       terdapat program yang awalnya dikembangkan di BlankOn
    * Saya dosen mata ajar Sistem Operasi. Saya menggunakan BlankOn untuk
       laboratorium Sistem Operasi.
+
 Last modified on 10/16/2014 02:23:06 PM
  
 ---
