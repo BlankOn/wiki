@@ -1,30 +1,18 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Instalasi  /
-    * LapTop  /
-    * Toshiba
-    * Contact: st sabri
-    * Brand: Toshiba
-    * Make : Toshiba America Electronic Inc
-    * Model: Satellite Pro SP6100
-    * Website: ​http://www.toshiba.com/
-    * S/N: 72359576G
-    * RAM : 104857 kb
+# Instalasi BlankOn 2.0 Konde pada LapTop Toshiba
+   * Contact: st sabri
+   * Brand: Toshiba
+   * Make : Toshiba America Electronic Inc
+   * Model: Satellite Pro SP6100
+   * Website: ​http://www.toshiba.com/
+   * S/N: 72359576G
+   * RAM : 104857 kb
+
 ### Current Issues
+
 Prosedur Instalasi :
-Install Konde : ubah repository, ganti semua kata konde menjadi lontara, ubah
-semua kata gusty menjadi hardy.
+
+Install Konde : ubah repository, ganti semua kata konde menjadi lontara, ubah semua kata gusty menjadi hardy.
+
 ### System Info
 processor	: 0
 vendor_id	: GenuineIntel
@@ -169,14 +157,8 @@ in Konde (current     in Lontara (current
 stable)?              development)?
 Key                                                    Untested    Untested
 #### Notes
-CategoryLaptop? CategoryTemplate?
+
 Last modified on 06/14/2008 06:10:55 PM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
