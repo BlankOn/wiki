@@ -1,18 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * InterMapTxt
-## InterMapTxt
+# InterMapTxt
+
 ### This is the place for defining InterWiki prefixes
 This page was modelled after the ​MeatBall:InterMapTxt page. In addition, an
 optional comment is allowed after the mapping.
@@ -29,6 +16,7 @@ New InterWiki links can be created by adding to that list, in real time. Note
 however that deletions are also taken into account immediately, so it may be
 better to use comments for disabling prefixes.
 Also note that InterWiki prefixes are case insensitive.
+
 ### List of Active Prefixes
 Prefix        Site
 Acronym       http://www.acronymfinder.com/af-query.asp?String=exact&Acronym=
@@ -55,8 +43,10 @@ Trac-ML       Message_$1_in_Trac_Mailing_List
 WhoIs         http://www.whois.sc/
 Why           http://clublet.com/c/c/why?
 WikiPedia     http://en.wikipedia.org/wiki/
+
 ### Prefix Definitions
 PEP     http://www.python.org/peps/pep-$1.html
+
 # Python Enhancement Proposal
 Trac-ML  http://thread.gmane.org/gmane.comp.version-
 control.subversion.trac.general/ # Message $1 in Trac Mailing List
@@ -90,14 +80,10 @@ Why              http://clublet.com/c/c/why?
 c2Wiki             http://c2.com/cgi/wiki?
 WikiPedia        http://en.wikipedia.org/wiki/
 Last modified on 06/05/2008 04:04:51 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
 [**Indeks Wiki BlankOn**](/Indeks.md)
+
+

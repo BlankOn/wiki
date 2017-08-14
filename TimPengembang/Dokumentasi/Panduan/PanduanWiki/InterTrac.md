@@ -1,17 +1,3 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * InterTrac
 ## InterTrac Links
 Trac supports a convenient way to refer to resources of other Trac servers,
 from within the Wiki markup, since version 0.10.
@@ -87,14 +73,9 @@ URL <remote>/module/id, shorthand links are specific to some modules (e.g.
 #T234 is processed by the ticket module) and for the rest (intertrac_prefix:
 something), we rely on the TracSearch#quickjump facility of the remote Trac.
 See also: TracLinks, InterWiki
+
 Last modified on 10/16/2014 01:10:30 PM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
