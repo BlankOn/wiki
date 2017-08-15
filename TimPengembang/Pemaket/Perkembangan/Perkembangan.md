@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Pekembangan
-### Perkembangan Penanganan Paket Impor/Asli?
+# Perkembangan Penanganan Paket Impor/Asli?
 #### Paket Impor
     * base-file?, pemaket: AndyApdhani
     * gnome-about?, pemaket mdamt
