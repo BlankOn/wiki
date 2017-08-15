@@ -1,24 +1,14 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Komponen
+# Komponen BlankOn Linux Konde
+
 Silakan kunjungi halaman Launchpad di bawah ini untuk melihat status dokumen
 ini. Silakan bergabung dalam tim. Jika tidak ingin bergabung di konde-steering,
 Anda bisa letakkan komentar di bagian Wacana dan Diskusi di akhir dokumen ini.
+
 ## Ringkasan
 Dokumen ini menjabarkan komponen yang dipilih dalam distro Konde. Daftar
 komponen di bawah ini disusun dengan menggunakan asumsi sementara bahwa
 lingkungan desktop yang dipilih adalah GNOME.
+
 ## Latar Belakang
 ### Pengantar
 Komponen Konde harus disusun sedemikian rupa agar menggunakan komponen yang
@@ -203,15 +193,9 @@ KDEedu        ​kdeedu  tentatif
       tergantung dengan pustaka versi jadul (libglib1.2 dan libgtk1.2). No good
       kan? :) ... Btw Totem dengan framework gstreamer kapan yah mendukung DVD
       playback? Atau sudah bisa skr? -- AndyApdhani 2007-05-29T01:49:21
-KategoriBlankOn KategoriSpek
+
 Last modified on 06/16/2008 04:49:38 PM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

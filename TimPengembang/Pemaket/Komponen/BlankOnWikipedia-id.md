@@ -1,25 +1,9 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Komponen  /
-    * BlankOnWikipedia-id
-                                        Tulisan ini merupakan bagian dari
-                                        project pengembangan konten lokal yang
-[/raw-attachment/wiki/Pemaket/Komponen/ bermanfaat untuk dimasukan ke dalam
-BlankOnWikipedia-id/wo-jv.jpg]          distro linux BlankOn. Masih berupa
-                                        rintisan/konsep dan menunggu
-                                        persetujuan tim steering.
+# Komponen BlankOn Wikipedia-id
+[/raw-attachment/wiki/Pemaket/Komponen/BlankOnWikipedia-id/wo-jv.jpg]
+
+Tulisan ini merupakan bagian dari project pengembangan konten lokal yang
+ bermanfaat untuk dimasukan ke dalam distro linux BlankOn. Masih berupa rintisan/konsep dan menunggu persetujuan tim steering.
+
 ## Wikipedia Berbahasa Indonesia
 Wikipedia.org adalah ensiklopedia multibahasa dalam jaringan internet yang
 disusun agar dapat diisi, dibaca, diawasi dan disunting secara terbuka oleh
@@ -29,6 +13,7 @@ dilisensikan di bawah Lisensi Dokumentasi Bebas GNU (GDFL). Dengan filosofi
 "bebas terbuka" dan jumlah artikel yang sedemikian besar, Wikipedia berbahasa
 Indonesia merupakan ensiklopedia dan sumber pengetahuan yang dapat dimanfaatkan
 oleh semua orang, terutamanya untuk keperluan edukasi.
+
 ## Wikipedia Offline, Ruby dan BlankOn
 Masalahnya adalah tidak semua penduduk
 Indonesia memiliki akses internet, jika
@@ -39,6 +24,7 @@ terkandung di dalamnya. Distribusi
 Wikipedia berbahasa lokal menggunakan
 media CD sudah dipelopori di Jerman dan
 beberapa negara lain.
+
 Wikipedia menyediakan download dalam
 banyak bentuk: dump database, halaman
 HTML static dan offline CD. Kumpulan
@@ -48,6 +34,7 @@ Indonesia berukuran kurang lebih
 sementara versi kompresi 7z nya hanya
 95Mbytes. Sedangkan versi dump database
 membutuhkan layanan server MySQL,
+
 Apache dan Mediawiki. Tersebutlah Stian
 Haklev, seorang warga negara Norwegia   [http://upload.wikimedia.org/wikipedia/
 yang sedang bekerja di sebuah LSM di    commons/thumb/6/63/Wikipedia-logo.png/
@@ -64,6 +51,7 @@ bernama zipdoc) dilontarkan ke milis
 official Ruby dan id-Ruby dan beberapa
 anggota milis id-Ruby tertarik dengan
 ide ini.
+
 Sementara itu BlankOn linux versi 2.0
 menjelang masa rilis. Beberapa anggota
 tim BlankOn mencoba memasukan dua poin
@@ -71,71 +59,80 @@ di atas ke BlankOn (kalaupun bukan
 terinstall default minimal merupakan
 paket tambahan) sehingga bisa menjadi
 konten lokal yang bermanfaat.
+
 ## Menginstall Wikipedia Offline (devel progress)
 Berikut langkah sementara untuk developer/pemaket, bukan untuk pengguna.
 Install paket git (Source Code Management seperti CVS/SVN) untuk mengambil
 source code zipdoc terbaru dan paket 7zip untuk membuka kompresi 7z hasil
 download dari wikipedia nanti juga bahasa Ruby dan library kompresi untuk Ruby.
+
 Lalu setelah itu install gem trollop dengan menggunakan sistem paket Rubygems:
-sudo apt-get install git-core p7zip-full ruby rubygems mongrel libbz2-ruby1.8
-sudo gem install trollop
+`sudo apt-get install git-core p7zip-full ruby rubygems mongrel libbz2-ruby1.8`
+`sudo gem install trollop`
+
 Ambil source code zipdoc terbaru, lalu masuklah ke direktori yang terbentuk:
-git clone git://repo.or.cz/zip-doc.git
-cd zip-doc
-Download data kompresi wikipedia berbahasa Indonesia terbaru dari ​http://
-static.wikipedia.org, contohnya:
-wget -c http://static.wikipedia.org/downloads/September_2007/id/wikipedia-id-
-html.7z
-Extract hasil download dengan menggunakan aplikasi 7z yang menghasilkan
-direktori "id":
-7z x wikipedia-id-html.7z
+
+`git clone git://repo.or.cz/zip-doc.git`
+`cd zip-doc`
+
+Download data kompresi wikipedia berbahasa Indonesia terbaru dari ​http://static.wikipedia.org, contohnya:
+`wget -c http://static.wikipedia.org/downloads/September_2007/id/wikipedia-id-html.7z`
+Extract hasil download dengan menggunakan aplikasi 7z yang menghasilkandirektori "id": 7z x wikipedia-id-html.7z
+
 Buat file zdump (kompresi berindeks), lalu jika perlu hapus direktori "id" yang
 berukuran sekitar 2GByte:
-ruby zdump.rb id id.zdump
-rm -rf id
+`ruby zdump.rb id id.zdump`
+`rm -rf id`
+
 Jalankan file mongrel-web untuk menyalakan webserver mini mongrel dan mengakses
 arsip id.zdump:
-ruby mongrel-web.rb id.zdump
-Kini wikipedia berbahasa Indonesia sudah bisa diakses di alamat ​http://
-localhost:2042
-[/raw-attachment/wiki/Pemaket/Komponen/BlankOnWikipedia-id/
-pygtk%2Bmozembed_th.jpg]
+`ruby mongrel-web.rb id.zdump`
+
+Kini wikipedia berbahasa Indonesia sudah bisa diakses di alamat ​http://localhost:2042
+
+[/raw-attachment/wiki/Pemaket/Komponen/BlankOnWikipedia-id/pygtk%2Bmozembed_th.jpg]
+
 ## Menginstall Wikipedia Offline (final package)
-sudo apt-get install blankon-wikipedia-id
+`sudo apt-get install blankon-wikipedia-id`
+
 ## Paket Wikipedia-id BlankOn
-    * blankon-wikipedia (comingsoon... meta package)
-    * blankon-wikipedia-idzdump (comingsoon...)
-    * blankon-wikipedia-suzdump (comingsoon...)
-    * blankon-wikipedia-jvzdump (​https://code.launchpad.net/~niwatori/blankon/
+   * blankon-wikipedia (comingsoon... meta package)
+   * blankon-wikipedia-idzdump (comingsoon...)
+   * blankon-wikipedia-suzdump (comingsoon...)
+   * blankon-wikipedia-jvzdump (​https://code.launchpad.net/~niwatori/blankon/
       blankon-wikipedia-jvzdump)
-    * blankon-wikipedia-zipdoc (​https://code.launchpad.net/~niwatori/blankon/
+   * blankon-wikipedia-zipdoc (​https://code.launchpad.net/~niwatori/blankon/
       blankon-wikipedia-zipdoc)
-    * blankon-wikipedia-trollop (​https://code.launchpad.net/~niwatori/blankon/
+   * blankon-wikipedia-trollop (​https://code.launchpad.net/~niwatori/blankon/
       blankon-wikipedia-trollop)
-    * ruby
-    * rubygems
-    * mongrel
-    * libbz2-ruby1.8
+   * ruby
+   * rubygems
+   * mongrel
+   * libbz2-ruby1.8
+
 ## Credits
-    * Para kontributor artikel Wikipedia, terutama yang berbahasa Indonesia
-    * Stian Haklev (​http://www.reganmian.net/blog) for the great Ruby ZipDoc
+   * Para kontributor artikel Wikipedia, terutama yang berbahasa Indonesia
+   * Stian Haklev (​http://www.reganmian.net/blog) for the great Ruby ZipDoc
       (​http://repo.or.cz/w/zip-doc.git)
-    * Rekan-rekan id-ruby untuk diskusi dan konsultasi teknis via YM ;P
+   * Rekan-rekan id-ruby untuk diskusi dan konsultasi teknis via YM ;P
+
 ## Tim
-    * Niwatori (​http://diki.or.id)
-    * imtheface (​http://skyisgrey.org)
+   * Niwatori (​http://diki.or.id)
+   * imtheface (​http://skyisgrey.org)
+
 ## To Do List
-    * Perapihan code dan info untuk RDoc (request akses commit ke repo git)
-    * --(Koordinasi dengan imtheface (belajar pemaketan))--
-    * --(Mengurangi penggunaan gem jika memungkinkan (pure berbasis apt saja))-
+   * Perapihan code dan info untuk RDoc (request akses commit ke repo git)
+   * --(Koordinasi dengan imtheface (belajar pemaketan))--
+   * --(Mengurangi penggunaan gem jika memungkinkan (pure berbasis apt saja))-
       - Trollop deb siap pakai.
-    * GUI web server launcher (script tk yang sekarang masih crash di GNOME)
-    * --(Image banyak yang masih mengambil online)-- Ternyata memang static
+   * GUI web server launcher (script tk yang sekarang masih crash di GNOME)
+   * --(Image banyak yang masih mengambil online)-- Ternyata memang static
       tanpa images.
-    * Saat kompresi skip semua halaman Talk/Diskusi? untuk mengurangi ukuran
-    * Pengkajian legal/tata cara/batasan pemanfaatan content Wikipedia
-    * Diskusi dan minta dukungan komunitas kontributor Wikipedia-id agar lebih
+   * Saat kompresi skip semua halaman Talk/Diskusi? untuk mengurangi ukuran
+   * Pengkajian legal/tata cara/batasan pemanfaatan content Wikipedia
+   * Diskusi dan minta dukungan komunitas kontributor Wikipedia-id agar lebih
       banyak manfaat dan ide yang mungkin muncul
+
 ## List File Sementara
 -rwxr-xr-x 251 2007-11-07 01:12 display-page.rb
 -rwxr-xr-x 609628 2007-11-07 01:12 eee_darwin
@@ -169,18 +166,13 @@ sudo apt-get install blankon-wikipedia-id
 -rw-r--r-- 18970 2005-04-15 02:45 ruby_1.8.2-1_all.deb
 -rw-r--r-- 51502 2007-08-24 13:03 rubygems_0.9.4-1ubuntu1_all.deb
 Total sekitar 106 Mbytes
-KategoriBlankOn KategoriPemaket
+
 Last modified on 06/16/2008 05:13:57 PM
+
 #### Attachments (2)
-    * wo-jv.jpg​ (34.8 KB) - added by alza 9 years ago.
-    * pygtk+mozembed_th.jpg​ (30.0 KB) - added by alza 9 years ago.
-#### 
-    
- 
- 
- 
- 
- 
+   * wo-jv.jpg​ (34.8 KB) - added by alza 9 years ago.
+   * pygtk+mozembed_th.jpg​ (30.0 KB) - added by alza 9 years ago.
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

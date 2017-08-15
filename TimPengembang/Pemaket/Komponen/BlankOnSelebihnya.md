@@ -1,23 +1,9 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Komponen  /
-    * BlankOnSelebihnya
+# Komponen BlankOn Selebihnya
 Silakan bergabung dalam pengembang BlankOn (​blankon-pemaket & ​blankon-artis)
 bila ingin menyunting halaman ini. Jika tidak ingin bergabung di pengembang
 BlankOn, Anda bisa letakkan komentar di bagian Wacana dan Diskusi di akhir
 dokumen ini.
+
 Indikator
 Status
 Mulai     Masuk     Bukan BlankOn Asli BlankOn Perlu      Tidak Perlu Paket
