@@ -2,6 +2,16 @@
 * Nama Kode: Konde
   Kata **Konde** diambil dari tusuk sanggul rambut wanita Indonesia.
 
+BlankOn Linux 2 merupakan distro turunan Ubuntu. Dapat diinstal di atas Ubuntu
+aslinya (dengan apt-get) atau dengan CD. Pada prinsipnya BlankOn hanya
+menyediakan paket-paket tambahan saja. Dan dengan fokus ke pengguna awam dan
+membuat distribusi BlankOn sebagai sebuah distro Linux yang "Just Work" untuk
+penggunanya. Target utama BlankOn adalah Sekolah-Sekolah dan Usaha Kecil dan
+Menengah di Indonesia.
+
+## Siapa Dibalik BlankOn 2
+Inilah orang orang dibalik BlankOn ​https://launchpad.net/~blankon/+mugshots
+
 # Tentang BlankOn
 BlankOn adalah ​distro ​Linux yang dikembangkan oleh ​Yayasan_Penggerak_Linux
 Indonesia_(YPLI) secara terbuka dan gotong-royong bersama komunitas Linux
@@ -25,10 +35,17 @@ yang khas Indonesia. Pengembangan BlankOn akan terus dilakukan secara terbuka
 dalam forum publik. Kegiatan ini diharapkan dapat menghasilkan rilis BlankOn
 satu hingga dua kali setahun.
 
-Informasi seputar pengembangan BlankOn 2.0 tersedia di ​http://wiki.ubuntu-
-id.org/BlankOn/. Milis komunitas pengembang dan pengguna BlankOn ada di ​http:/
-/groups.google.com/group/BlankOn dengan alamat email BlankOn@….
+Informasi seputar pengembangan BlankOn 2.0 tersedia di ​http://wiki.ubuntu-id.org/BlankOn/.
+Milis komunitas pengembang dan pengguna BlankOn ada di ​http://groups.google.com/group/BlankOn dengan alamat email BlankOn@….
 
+## Bagaimana Mempelajari dan Mengetahui tentang BlankOn
+Ada beberapa jalan untuk mempelajari dan mengetahui tentang BlankOn
+   1. Mengakses Menu Bantuan (link ke Aplikasi Bantuan)
+   2. Membaca Panduan BlankOn ( ​http://wiki.ubuntu-id.org/BlankOn/Dokumentasi/
+      HalamanUtamaPanduanBlankOn )
+   3. Bergabung dengan Komunitas Mailing List BlankON (blankon@…)
+   4. Mengunjungi halaman resmi BlankOn ( ​http://blankonlinux.or.id )
+   5. IRC #blankon @ irc.freenode.net
 Last modified on 09/23/2008 08:12:41 PM
 
 ---
