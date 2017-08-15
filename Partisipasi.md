@@ -1,5 +1,5 @@
 # Partisipasi
-Terima kasih telah mengunjungi proyek [BlankOn](https://github.com/BlankOn) anda dapat mengunjungi [website resmi BlankOn](https://www.blankonlinux.or.id/) untuk mendapatkan informasi lainya.
+Terima kasih telah mengunjungi proyek [BlankOn](https://github.com/BlankOn) Anda dapat mengunjungi [website resmi BlankOn](https://www.blankonlinux.or.id/) untuk mendapatkan informasi lainya.
 
 ## Tentang Linux BlankOn
 Linux [BlankOn](https://github.com/BlankOn) adalah distribusi Linux yang dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Tim Pengembang BlankOn. Distribusi ini dirancang sesuai dengan kebutuhan pengguna komputer umum di Indonesia.
