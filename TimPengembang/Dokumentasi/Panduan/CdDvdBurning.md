@@ -2,7 +2,7 @@
 ## Perekaman CD/DVD
 ### Bagaimana mengosongkan CD-RW/DVD-RW
   * Baca Notes
-          Diasumsikan bahwa lokasi dari CD/DVD-ROM adalah /dev/cdrom
+  Diasumsikan bahwa lokasi dari CD/DVD-ROM adalah /dev/cdrom
 
 ```
  sudo umount /dev/cdrom
@@ -14,24 +14,26 @@
           Tempat -> Pembuat CD/DVD
    * Tarik berkas/map ke jendela
           Menu Berkas -> Rekam ke CD... -> Tulis
+
 ### Bagaimana merekam berkas-berkas Image (ISO) ke CD/DVD
    * Baca Notes
-          Klik kanan pada berkas Image (ISO) file -> Rekam ke CD... -
-          > Tulis
+    Klik kanan pada berkas Image (ISO) file -> Rekam ke CD... -> Tulis
+
 ### Bagaimana menggandakan CD/DVD
    * Baca Notes
    * Baca membuat berkas-berkas Image (ISO) dari CD/DVD
    * Baca merekam berkas-berkas Image (ISO) ke CD/DVD
+
 ### Bagaimana membuat berkas-berkas Image (ISO) dari CD/DVD
    * Baca Notes
-          Diasumsikan bahwa lokasi dari CD/DVD-ROM adalah /dev/cdrom
+     Diasumsikan bahwa lokasi dari CD/DVD-ROM adalah /dev/cdrom
 
 ```
 sudo umount /dev/cdrom
 readcd dev=/dev/cdrom f=file.iso
 ```
 
-          Anda juga dapat menggunakan perintah Linux embedded
+   Anda juga dapat menggunakan perintah Linux embedded
 `dd if=/dev/cdrom of=file.iso`
 
 ### Bagaimana membuat berkas-berkas Image (ISO) dari map-map
@@ -44,8 +46,7 @@ readcd dev=/dev/cdrom f=file.iso
 
 ### Bagaimana memeriksa checksum MD5 dari berkas-berkas
    * Baca Notes
-          Diasumsikan bahwa file.iso dan file.iso.md5 berada di
-          folder yang sama
+     Diasumsikan bahwa file.iso dan file.iso.md5 berada di folder yang sama
 
 `md5sum -c file.iso.md5`
 
@@ -62,19 +63,22 @@ sudo mount file.iso /media/iso/ -t iso9660 -o loop
    * Untuk unmount berkas Image (ISO)
 `sudo umount /media/iso/`
 
-   * Jika Anda ingin mount/unmount image ISO anda dengan klik kanan pada icon,
-      lakukan dari folder rumah:
+   * Jika Anda ingin mount/unmount image ISO anda dengan klik kanan pada icon, lakukan dari folder rumah:
 
 ```
 cd .gnome2/nautilus-scripts/
 gedit Mount
+``` 
+
 Salin skrip berikut ke dalam berkas Mount
+
+
+```
 #!/bin/bash
 #
 for I in "$ * "
 do
-foo=`gksudo -u root -k -m "Enter your password for root terminal access" /bin/
-echo "got r00t?"`
+foo=`gksudo -u root -k -m "Enter your password for root terminal access" /bin/echo "got r00t?"`
 sudo mkdir /media/"$I"
 sudo mount -o loop -t iso9660 "$I" /media/"$I" && nautilus /media/"$I" --no-
 desktop
