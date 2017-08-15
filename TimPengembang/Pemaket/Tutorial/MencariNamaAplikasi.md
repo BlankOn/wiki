@@ -1,20 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Tutorial  /
-    * MencariNamaAplikasi
-## Mencari Nama Aplikasi
+# Tutorial Mencari Nama Aplikasi
 Kadangkala ada beberapa aplikasi yang perlu disesuaikan, Namun proses
 penyesuaian aplikasi tersebut harus mengetahui nama paket dari aplikasi
 tersebut. untuk mencari tahu nama aplikasi dan nama paket bisa dilakukan dengan

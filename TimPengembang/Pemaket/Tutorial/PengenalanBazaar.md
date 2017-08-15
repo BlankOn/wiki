@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Tutorial  /
-    * PengenalanBazaar
+# Tutorial PengenalanBazaar
 Bazaar (disingkat menjadi bzr) adalah salah satu aplikasi Version Control
 System (VCS) seperti halnya Subversion (svn), CVS, dan git. Berbeda dengan
 Subversion atau CVS yang bersifat terpusat, Bazaar memiliki sifat
