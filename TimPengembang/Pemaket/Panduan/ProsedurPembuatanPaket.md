@@ -93,3 +93,9 @@ Sekarang anggap Anda baru bergabung dalam pembuatan paket blankon-abc yang sebel
 
 ## Impor paket dari proyek lain
 Bila Anda akan mengimpor paket dari proyek lain maka prinsipnya sama dengan pembuatan paket baru. Tapi daftarkan alamat surat elektronik Anda pada berkas daftar.txt di gudang kode dengan alamat https://code.launchpad.net/~blankon-pemaket/blankon/pengelola-paket-impor.
+
+ 
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)

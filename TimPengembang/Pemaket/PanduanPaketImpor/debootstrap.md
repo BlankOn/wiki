@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * debootstrap
+## Panduan Paket Impor
+# debootstrap
 Perubahan yang dilakukan
    1. Berkas Makefile
          1. Salin skrip dari scripts/blankon/*
@@ -25,13 +11,7 @@ ln -s konde $(DSDIR)/scripts/lontara
          2. Modifikasi repository default ke http://arsip.blankonlinux.or.id/
             blankon
 Last modified on 06/06/2008 11:21:34 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

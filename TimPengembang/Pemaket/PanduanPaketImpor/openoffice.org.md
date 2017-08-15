@@ -1,21 +1,7 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * openoffice.org
+## Panduan Paket Impor
+#  openoffice.org
 ~+DRAFT+~
-TOC?
+
 Petunjuk BlankOnisasi openoffice.org
    1. Source code dan diff.gz ada di ​https://code.launchpad.net/ubuntu/
       +source/openoffice.org

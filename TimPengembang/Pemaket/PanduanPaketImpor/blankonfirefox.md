@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * blankonfirefox
+## Panduan Paket Impor
+# blankonfirefox
 Paket ini diturunkan dari paket ubufox yang merupakan extension firefox yang
 ditujukan untuk rebranding firefox. Proses BlankOnisasi?:
    1. Mengubah seluruh kata ubufox menjadi blankonfirefox
@@ -26,17 +12,11 @@ ditujukan untuk rebranding firefox. Proses BlankOnisasi?:
       catatan-rilis/3.0/
    6. Mengubah maintainer
 Keterangan: gunakan grep untuk mencari kata itu semua. Contoh:
-$ grep -r ubufox *
+`$ grep -r ubufox *`
 Contoh perubahan: ​http://bazaar.launchpad.net/~blankon-pemaket/blankon/
 blankonfirefox/revision/45
 KategoriPemaket
 Last modified on 06/28/2008 12:46:18 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

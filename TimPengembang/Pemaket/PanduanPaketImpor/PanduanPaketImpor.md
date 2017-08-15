@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor
-Halaman ini berisi panduan proses BlankOnisasi paket impor.
+## Panduan Paket Impor
+# Halaman ini berisi panduan proses BlankOnisasi paket impor.
     * Pemaket/PanduanPaketImpor
     * Pemaket/PanduanPaketImpor/Kernel
     * Pemaket/PanduanPaketImpor/apt
@@ -35,15 +21,9 @@ Halaman ini berisi panduan proses BlankOnisasi paket impor.
     * Pemaket/PanduanPaketImpor/tango-icon-theme
     * Pemaket/PanduanPaketImpor/tasksel
     * Pemaket/PanduanPaketImpor/ubiquity
-KategoriPemaket
+
 Last modified on 06/18/2008 10:04:03 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

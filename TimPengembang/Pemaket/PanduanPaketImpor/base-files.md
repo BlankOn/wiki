@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * base-files
+# Panduan Paket Impor base-files
 Perubahan yang dilakukan:
    1. Mengubah isi etc/issue menjadi
 BlankOn Lontara (development branch) \n \l
@@ -27,15 +12,10 @@ DISTRIB_RELEASE=3.0
 DISTRIB_CODENAME=lontara
 DISTRIB_DESCRIPTION="BlankOn Lontara (development branch)"
      (sesuaikan dengan kondisi rilis)
+
 KategoriPemaket
 Last modified on 06/28/2008 12:45:48 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

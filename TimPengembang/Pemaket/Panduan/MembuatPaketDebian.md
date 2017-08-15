@@ -284,3 +284,11 @@ Silakan tanya ke milis ubuntu-id@… dengan subyek [PAKET].
 ## Tautan penting
 + [Debian Policy Manual](http://www.debian.org/doc/debian-policy)
 + [Manual CDBS](https://perso.duckcorp.org/duck/cdbs-doc/cdbs-doc.xhtml)
+
+ 
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+

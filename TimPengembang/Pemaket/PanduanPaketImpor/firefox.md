@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * firefox
+## Panduan Paket Impor
+# firefox
 Proses BlankOnisasi Pattimura:
 ### Motto:
 Ubah sedikit mungkin, dokumentasikan sebanyak banyak nya!
@@ -143,13 +129,7 @@ Last modified on 01/25/2011 12:16:47 AM
 #### Attachments (1)
     * firefox_4.0~b9+build1+nobinonly-0ubuntu1+blankon1.dsc.debdiff​ (36.8 KB)
       - added by mahyuddin susanto <udienz> 6 years ago.
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

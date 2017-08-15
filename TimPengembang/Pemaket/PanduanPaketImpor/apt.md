@@ -1,20 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * apt
-Panduan BlankOnisasi apt
+# Panduan BlankOnisasi apt
 Berkas yang diubah
    1. apt-pkg/deb/debversion.cc
    2. cmdline/apt-key

@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * firefox-3.0
+## Panduan Paket Impor
+# firefox-3.0
 ### Sudah tidak berlaku di PATTIMURA
 lihat halaman ​http://dev.blankonlinux.or.id/wiki/Pemaket/PanduanPaketImpor/
 firefox

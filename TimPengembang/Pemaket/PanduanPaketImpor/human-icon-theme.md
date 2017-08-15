@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * human-icon-theme
+## Panduan Paket Impor
+# human-icon-theme
 Panduan BlankOnisasi human-icon-theme
    1. Tambahkan icon khas BlankOn ke dalam debian/BlankOn
    2. Ubah debian/rules

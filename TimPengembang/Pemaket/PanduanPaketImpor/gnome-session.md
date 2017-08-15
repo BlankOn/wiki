@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * gnome-session
+## Panduan Paket Impor
+# gnome-session
 Proses BlankOnisasi? gnome-session
    1. Ubah debian/gconf-defaults
 /apps/gnome-session/options/show_splash_screen true

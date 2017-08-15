@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * main-menu
+## Panduan Paket Impor
+# main-menu
 ### paket main-menu
     * ambil paket main-menu dari ubuntu dan ubah kata-kata Ubuntu di berkas
       debian/*.po

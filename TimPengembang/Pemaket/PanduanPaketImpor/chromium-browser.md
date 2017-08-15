@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * chromium-browser
+## Panduan Paket Impor
+# chromium-browser
 Pengembangan Chromium dilakukan langsung dari gudang kode subversion milik
 Google. Tidak ada rilis tertentu yang diterbitkan pengembang, jadi pemaket
 harus membuat berkas orig.tar.gz sendiri.
@@ -42,12 +28,7 @@ harus membuat berkas orig.tar.gz sendiri.
     * bzr commit hasil perubahan changelog dan beri tag, dorong ke irgsh
     * Kirim paket ke pabrik seperti biasa
 Last modified on 05/15/2010 01:23:55 PM
-#### 
-    
- 
- 
- 
- 
+
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

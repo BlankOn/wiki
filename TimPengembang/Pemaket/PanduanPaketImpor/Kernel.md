@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * Kernel
+## Panduan Paket Impor
+# Kernel
 Source berada di git rani
 git clone git@rani/pattimura/linux
 Cara merge dengan beberapa Pohon

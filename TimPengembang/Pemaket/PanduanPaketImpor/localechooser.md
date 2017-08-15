@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketImpor  /
-    * localechooser
+## Panduan Paket Impor
+# localechooser
 ## Paket Localechooser
 Agar pemilihan bahasa otomatis memilih ke Bahasa Indonesia
 diff -Nurp -x .bzr -x 'changelog*' -x 'localechooser_2.*' jaunty/localechooser/
