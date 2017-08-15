@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * TODO
-Berbagai hal yang perlu dilakukan oleh tim pemaket:
+# Berbagai hal yang perlu dilakukan oleh tim pemaket:
     * Membuat paket meta multimedia-blankon
     * Contoh paket-paket yang perlu dimasukkan ke dalam multimedia-blankon
       unrar w32codecs libdvdread3 libdvdcss2 flashplugin-nonfree gstreamer0.10-
@@ -27,13 +12,7 @@ Berbagai hal yang perlu dilakukan oleh tim pemaket:
             (planner).
 KategoriPemaket
 Last modified on 06/28/2008 01:08:34 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

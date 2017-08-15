@@ -1,18 +1,3 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * dep5
 ## DEP-5: Machine-readable debian/copyright"
      Title: Machine-readable debian/copyright DEP: 5 State: CANDIDATE
      Date: 2011-01-06 Drivers: Steve Langasek <vorlon@…>,

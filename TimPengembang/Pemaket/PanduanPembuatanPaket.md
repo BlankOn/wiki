@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPembuatanPaket
+# Panduan Pembuatan Paket
 ### Langkah Pertama: Menginstal Peralatan
 Instal paket yang dibutuhkan:
 sudo apt-get install pbuilder debootstrap devscripts build-essential cdbs

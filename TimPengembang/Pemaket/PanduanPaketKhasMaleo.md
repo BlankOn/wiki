@@ -1,21 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketKhasMaleo
-Berisi Panduan Pemaketan Maleo Halaman ini berisi panduan untuk membuat paket
-khas pada BlankOn Linux
-PANDUAN PEMAKETAN MALEO MENGGUNAKAN KOMPUTER LOKAL
+# PANDUAN PEMAKETAN MALEO MENGGUNAKAN KOMPUTER LOKAL
    1. Sebelum melakukan pemaketan Maleo silahkan persiapkan alatnya. Bisa
       dibaca di Wiki atau ​Buku_Panduan_Pemaketan. Pada proses persiapan alat,
       baca panduan sampai pada pembuatan kunci.

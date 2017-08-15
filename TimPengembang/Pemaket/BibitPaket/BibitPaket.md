@@ -10,24 +10,24 @@ boot, standard, desktop, ship, live, dan supported yang menentukan paket-paket u
 Silakan kunjungi ​http://people.ubuntu.com/~ubuntu-archive/seeds/ untuk melihat daftar bibit paket yang digunakan Ubuntu saat ini.
 
 Daftar bibit paket untuk rilis Gutsy:
-    * blacklist
-    * boot
-    * build-essential
-    * desktop
-    * development
-    * dns-server
-    * installer
-    * lamp-server
-    * live
-    * minimal
-    * mobile
-    * required
-    * server-ship
-    * ship
-    * ship-live
-    * standard
-    * STRUCTURE
-    * supported
+  * blacklist
+  * boot
+  * build-essential
+  * desktop
+  * development
+  * dns-server
+  * installer
+  * lamp-server
+  * live
+  * minimal
+  * mobile
+  * required
+  * server-ship
+  * ship
+  * ship-live
+  * standard
+  * STRUCTURE
+  * supported
 
 
 

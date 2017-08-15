@@ -1,20 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketKhasManokwari
-Halaman ini berisi panduan untuk membuat paket khas pada BlankOn Linux
-PANDUAN PEMAKETAN MANOKWARI MENGGUNAKAN KOMPUTER LOKAL
+# PANDUAN PEMAKETAN MANOKWARI MENGGUNAKAN KOMPUTER LOKAL
    1. Sebelum melakukan pemaketan Manokwari silahkan persiapkan alatnya. Bisa
       dibaca di Wiki atau ​Buku_Panduan_Pemaketan. Pada proses persiapan alat,
       baca panduan sampai pada pembuatan kunci.

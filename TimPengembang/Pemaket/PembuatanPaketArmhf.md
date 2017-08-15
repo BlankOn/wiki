@@ -1,18 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PembuatanPaketArmhf
+# Pembuatan Paket Armhf
+
 Membuat Paket Armhf
 sudo debootstrap --foreign --arch=armhf rote armhf http://
 arsip.blankonlinux.or.id/blankon
@@ -25,14 +12,9 @@ Trus di /etc/apt/sources.list dipasang:
 Trus bangun paket2 yg ada di debootstrap dgn
 apt-get build-dep <nama-paket>
 apt-get source -b <nama-paket>
+
 Last modified on 07/03/2012 07:43:53 PM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketKhasTebuIconTheme
-PANDUAN PEMAKETAN TEBU ICON THEME MENGGUNAKAN KOMPUTER LOKAL
+# PANDUAN PEMAKETAN TEBU ICON THEME MENGGUNAKAN KOMPUTER LOKAL
    1. Sebelum melakukan pemaketan Tebu Icon Theme silahkan persiapkan alatnya.
       Bisa dibaca di Wiki atau ​Buku_Panduan_Pemaketan. Pada proses persiapan
       alat, baca panduan sampai pada pembuatan kunci.

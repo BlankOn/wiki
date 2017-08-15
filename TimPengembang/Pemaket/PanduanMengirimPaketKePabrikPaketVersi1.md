@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanMengirimPaketKePabrikPaketVersi1
+# Panduan Mengirim Paket Ke Pabrik Paket Versi 1
 Pengrimiman paket ke pabrik paket versi 1 dengan versi 0. ada sedikit
 perbedaan, mari kita bahas :
    1. Kirim code ke bzr

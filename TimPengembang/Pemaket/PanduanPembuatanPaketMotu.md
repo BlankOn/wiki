@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPembuatanPaketMotu
-## Panduan Pembuatan Paket
+# Panduan Pembuatan Paket
 Revisi 2011
 ### Kesatu
 sudo apt-get install devscripts build-essential fakeroot debhelper gnupg

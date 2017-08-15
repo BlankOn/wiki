@@ -1,18 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Kurikulum
+# Kurikulum Pemaket
+
 Nomor TODO         Referensi                                        Status Catatan
       Memahami
 1     proses       ​https://wiki.ubuntu.com/UbuntuDevelopment

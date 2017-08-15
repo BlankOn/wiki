@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * MasalahYangSeringDihadapi
+# MasalahYangSeringDihadapi
    1. Ketika melakukan bzr commit kadang-kadang terjadi kesalahan seperti ini:
       bzr: ERROR: bzrlib.errors.UnlockableTransport: Cannot lock: transport is
       read only: <bzrlib.transport.http._pycurl.PyCurlTransport url=http://

@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Pemversian
+# Pemversian
 ### LATAR BELAKANG
 Pada dasarnya ada 2 jenis paket yang masuk ke repositori BlankOn
    1. Paket yang diturunkan dari distribusi lain (Turunan)

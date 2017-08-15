@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * ProsedurPembuatanPaket
+# ProsedurPembuatanPaket
 Dokumen ini membahas prosedur pembuatan paket di BlankOn. Dokumen ini tidak
 membahas bagaimana cara membuat_paket_Debian
 ## Ketentuan

@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPaketKhasBlankOnBranding
-PANDUAN PEMAKETAN BLANKON BRANDING MENGGUNAKAN KOMPUTER LOKAL
+# PANDUAN PEMAKETAN BLANKON BRANDING MENGGUNAKAN KOMPUTER LOKAL
    1. Sebelum melakukan pemaketan BlankOn Branding silahkan persiapkan alatnya.
       Bisa dibaca di Wiki atau ​Buku_Panduan_Pemaketan. Pada proses persiapan
       alat, baca panduan sampai pada pembuatan kunci.

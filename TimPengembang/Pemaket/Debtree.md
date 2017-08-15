@@ -1,37 +1,16 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Debtree
-Debtree
+# Debtree
 Untuk apa sih?
 langkah ini dilakukan jika kita pingin mengetahui dependendensi atau recommends
 dengan cepat:
-$ debtree namapaket > namapaket.dot
+`$ debtree namapaket > namapaket.dot`
 atau kasih opsi -R
-$ dot -Tpng -onamapaket.png namapaket.dot
+`$ dot -Tpng -onamapaket.png namapaket.dot`
 Langkah selanjutnya buka berkas png yang dihasilkan dari perintah di atas.
 atau
-$ grep namapaket-yg-dibabat namapaket.dot
+`$ grep namapaket-yg-dibabat namapaket.dot`
 Sumber lainnya : ​http://collab-maint.alioth.debian.org/debtree/
+
 Last modified on 06/24/2012 11:10:40 PM
-#### 
-    
- 
- 
- 
- 
- 
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

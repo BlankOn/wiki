@@ -1,18 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PatchingLocale
+# Patching Locale
+
 lokakarya patch locale @IRC 23-2-2011
 contoh kasus : GDM
 ============================================================

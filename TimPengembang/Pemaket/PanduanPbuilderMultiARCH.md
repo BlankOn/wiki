@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPbuilderMultiARCH
+# PanduanPbuilderMultiARCH
 ### Membangun Paket di lingkungan Pbuilder
 sudo apt-get install devscripts build-essential fakeroot debhelper gnupg
 pbuilder pdebuild-cross dh-make dpkg-dev ubuntu-dev-tools qemu-user-static

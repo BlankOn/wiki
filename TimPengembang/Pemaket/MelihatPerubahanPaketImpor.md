@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * MelihatPerubahanPaketImpor
+# MelihatPerubahanPaketImpor
 Berikut ini adalah cara mudah untuk melihat perubahan yang telah dilakukan oleh
 pemelihara paket sebelumnya.
 Keterangan: paket gnome-control-center digunakan sebagai contoh. Silakan

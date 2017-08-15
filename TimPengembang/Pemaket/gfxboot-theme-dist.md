@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * PanduanPerawatanPaket  /
-    * gfxboot-theme-dist
+# Panduan Perawatan Paket gfxboot-theme-dist
 gfxboot-theme-dist
 Paket ini bisa diambil dari rilis sebelumnya :
 Yang dirubah adalah :

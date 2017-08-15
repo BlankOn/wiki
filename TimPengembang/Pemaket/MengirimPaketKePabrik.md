@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * MengirimPaketKePabrik
-## Mengirim Paket ke Pabrik
+# Mengirim Paket ke Pabrik
     * URL: ​http://irgsh.blankonlinux.or.id
 ### Prosedur Login
    1. Buka ​http://irgsh.blankonlinux.or.id

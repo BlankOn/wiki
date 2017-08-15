@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Dokumentasi  /
-    * Ombilin
-Dokumentasi BlankOn
+# Dokumentasi BlankOn Linux 6.0 Ombilin
    1. Dokumentasi_BlankOn
          1. Ihwal_BlankOn
          2. Panduan_BlankOn

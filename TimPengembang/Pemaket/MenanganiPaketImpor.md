@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * MenanganiPaketImpor
+# MenanganiPaketImpor
 ## Mengimpor paket pertama kali
 Berikut adalah langkah-langkah melakukan impor paket dari Ubuntu.
    1. Dapatkan URL paket di Launchpad Bentuk URL umumnya adalah ​https://

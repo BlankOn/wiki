@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * MenanganiPaketRestricted
-Menangani Paket Restricted
+# Menangani Paket Restricted
 Pada umumnya paket restricted sama cara menanganinya, akan tetapi, BlankOn
 mempunyai section repo. Karna restricted sifatnya terbatas maka paket tersebut
 harus masuk repo bagian restricted.
@@ -25,12 +10,6 @@ Contoh :
 Contoh1 :
      Section: restrcited/libs
 Last modified on 04/22/2010 07:31:08 PM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
