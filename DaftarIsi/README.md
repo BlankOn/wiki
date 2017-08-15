@@ -1,7 +1,7 @@
 # Daftar Isi Wiki BlankOn
 
 * [ Acara/ ](/wiki/Acara/)
-    * [ ILC2007 ](/wiki/Acara/ILC2007.md)				
+    * [ ILC2007 ](/Acara/ILC2007.md)				
 				
     *  [ /wiki/Acara/BlanKoding/ ](/wiki/Acara/BlanKoding/)				
 	  * [ BlanKoding2005 ](/wiki/Acara/BlanKoding/BlanKoding2005.md)			
