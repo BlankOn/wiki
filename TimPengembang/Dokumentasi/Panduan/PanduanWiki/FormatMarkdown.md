@@ -175,6 +175,9 @@ Daftar Isi
 + [Judul Satu](#judul-satu)
 + [Judul Dua](#judul-dua)
 
+#### Cara Mudah Membuat Daftar Isi
+Untuk menyusun daftar isi secara mudah dapat mengunakan [gh-md-toc](https://github.com/ekalinin/github-markdown-toc#installation)
+
 ### Format Menyisipkan Gambar
 ### Sisip Gambar Dalam Baris
 **Format:**
