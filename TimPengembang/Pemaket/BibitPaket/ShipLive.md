@@ -1,28 +1,15 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * ShipLive
+## Bibit Paket
+
+# ShipLive
 The ship-live seed will be added to the live CD as an ordinary package
 archive. Here belongs anything that somebody might need to install after
 installing the contents of the live CD in order to get online and fetch more
 packages.
-== Development ==
+## Development
 These packages are needed in order to build Ubuntu packages.
  * build-essential
  * fakeroot
-== Hardware & Network Access ==
+## Hardware & Network Access
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for
 some ISPs
  * sl-modem-daemon	# needed for some Winmodems (see OutoftheboxWinmodem)
@@ -40,21 +27,15 @@ some ISPs
  * libatm1	# suggested by ppp for PPP-over-ATM
  * setserial	# needed by folks with nonstandard serial ports
  * mouseemu	# needed on Macs with single-button mice
-== Installer ==
+## Installer
  * oem-config-gtk
-== Blacklist ==
+## Blacklist
 libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution
 2007-01-02).
  * !libavcodec*
 KategoriBlankOn KategoriPemaket
 Last modified on 06/16/2008 11:08:29 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

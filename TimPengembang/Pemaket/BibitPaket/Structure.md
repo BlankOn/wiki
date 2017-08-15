@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Structure
+## Bibit Paket
+# Structure
 required:
 minimal: required
 boot:
@@ -32,15 +18,9 @@ mobile: required minimal
 mobile-dev: required minimal mobile
 supported: boot required minimal standard desktop dns-server lamp-server
 server-ship ship live ship-live build-essential development mobile mobile-dev
-KategoriPemaket
+
 Last modified on 06/18/2008 09:51:28 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

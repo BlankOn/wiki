@@ -1,19 +1,6 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Development
+## Bibit Paket
+
+# Development
 Moved from desktop:
  * python-adns              # MRS, stable and useful
  * python-apt               # MRS, we need to be able to interact with APT

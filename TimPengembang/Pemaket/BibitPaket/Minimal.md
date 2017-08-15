@@ -1,19 +1,6 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Minimal
+## Bibit Paket
+# Minimal
+
 Task-Section: user
 Task-Relevance: 9
 Task-Description: Minimal base system
@@ -23,15 +10,18 @@ Task-Test-new-install: install skip
 Note that some packages that form the core of an Ubuntu-based system are in the
 required seed, from which this seed inherits. The minimal seed describes those
 packages at Priority: important.
-= Hardware and Architecture Support =
-== Generic ==
+
+## Hardware and Architecture Support
+### Generic
  * alsa-base # needed for proper hardware detection (hotplug/blacklist.d,
 modprobe.d)
  * alsa-utils           # basic audio support and mixer level handling
  * pcmciautils          # PCMCIA support for >= 2.6.13-rc1 kernels
-== i386, i686 ==
+
+### i386, i686
  * libc6-i686 [i386]
-== Comfortable Unix System ==
+
+## Comfortable Unix System
 Programs and packages necessary for both the proper functionality of the system
 and that any user would expect to find on a modern Unix-like system.
  * adduser
@@ -60,7 +50,8 @@ installer-keyboard
  * usbutils
  * util-linux-locales
  * vim-tiny
-== Networking ==
+
+## Networking
 These provide various networking services, all should be configured in a
 client-only state with the server de-activated unless the user requires it.
  * dhcp3-client   # LaMontJones
@@ -74,19 +65,15 @@ client-only state with the server de-activated unless the user requires it.
  * iputils-ping
  * mii-diag
  * netcat             # FabioMassimoDiNitto
-= Meta =
+
+### Meta
  * ubuntu-minimal     # Ubuntu-specific bits we want on every Ubuntu system
  * ubuntu-keyring     # for authenticated package downloads
-= Other =
+
+### Other 
  * python             # upstream doesn't want python-minimal shipped alone
-KategoriBlankOn KategoriPemaket
+
 Last modified on 06/16/2008 11:03:41 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

@@ -1,19 +1,6 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * MailServer
+## Bibit Paket
+
+# MailServer
 Task-Section: server
 Task-Description: Mail server
 Task-Extended-Description: This task selects a variety of package useful for a
@@ -27,15 +14,9 @@ Task-Key: postfix
  * mutt
  * procmail
 Additionally, Debian has mailagent, but that's in universe and not an option.
-KategoriBlankOn KategoriPemaket
+
 Last modified on 06/16/2008 11:03:10 AM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

@@ -1,25 +1,12 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * ServerShip
+## Bibit Paket
+# ServerShip
+
 = Kernel =
 We seed both linux-* and linux-image-* so that it's easier to build CD
 images without the restricted component. The linux-* kernels include
 restricted modules.
  * Kernel-Stem: linux linux-image
-== i386 ==
+## i386
  * ${Kernel-Stem}-server [i386]
  * ${Kernel-Stem}-server-bigiron [i386]
  * linux-headers-server [i386]
@@ -36,13 +23,13 @@ restricted modules.
  * fakeroot
  * devscripts
  * setserial
-== Filesystems ==
+## Filesystems
  * xfsprogs
  * jfsutils
  * lvm2
  * mdadm
  * dmsetup
-== For language support in the installer ==
+## For language support in the installer
  * console-terminus
  * unifont
 = Cluster =
@@ -168,11 +155,11 @@ change, should it be in desktop?
  * smartmontools   # hard disk diagnostics
 = Documentation =
  * ubuntu-serverguide
-== Miscellaneous ==
+## Miscellaneous
  * miscfiles
  * lilo
 kill if we run out of space
-== LTSP ==
+## LTSP
  * ltsp-server
  * ltsp-server-standalone
 = From desktop =
@@ -199,18 +186,12 @@ printer support
  * ghostscript                  # some ppds require this
  * hplip                        # support for HP all-in-one printers
  * libxp6 # required for some third party apps. See #15739
-== Blacklist ==
+## Blacklist
 libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution
 2007-01-02).
  * !libavcodec*
-KategoriBlankOn KategoriPemaket
+
 Last modified on 06/16/2008 10:53:07 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

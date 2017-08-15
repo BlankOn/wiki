@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Blacklist
+## Bibit Paket
+
 # blacklist: gnome1
 # We want to avoid shipping GNOME 1.x components if possible
 gconf
@@ -70,14 +56,8 @@ clamav
 # mdz, 2004-06-14: upstream deliberately obfuscates vulnerabilities
 # mdz, 2004-06-20: CAN-2002-0757, CAN-2003-0101, SNS 74, SNS 75
 webmin
-KategoriBlankOn KategoriPemaket
+
 Last modified on 06/16/2008 10:53:59 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

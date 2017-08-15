@@ -1,19 +1,6 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Live
+## Bibit Paket
+# Live
+
 Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Ubuntu live CD
@@ -32,21 +19,16 @@ Task-Test-new-install: skip show
  * language-pack-gnome-${Languages} [i386]
  * ntfsprogs
  * gparted
-== Ubiquity components ==
+
+## Ubiquity components
 These packages make up the Ubiquity live installer.
  * ubiquity-frontend-gtk
  * ubiquity-ubuntu-artwork
 Ubiquity needs full filesystem support for the partitioner.
  * xfsprogs
  * jfsutils
-KategoriBlankOn KategoriPemaket
+
 Last modified on 06/16/2008 11:02:32 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

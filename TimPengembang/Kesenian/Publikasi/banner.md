@@ -1,26 +1,12 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Kesenian  /
-    * Publikasi  /
-    * banner
-Banner
+# Banner
 X-banner dengan ukuran 60 x 160 cm
 [/raw-attachment/wiki/Kesenian/Publikasi/banner/banner-hitam-1.png]
 [/raw-attachment/wiki/Kesenian/Publikasi/banner/banner-hitam-2.png]
 [/raw-attachment/wiki/Kesenian/Publikasi/banner/banner-putih-1.png]
 [/raw-attachment/wiki/Kesenian/Publikasi/banner/banner-putih-2.png]
+
 Last modified on 11/30/2011 08:00:45 PM
+
 #### Attachments (8)
     * banner-hitam-1.svg​ (27.1 KB) - added by cho2 5 years ago.
     * banner-hitam-2.svg​ (26.7 KB) - added by cho2 5 years ago.
@@ -30,12 +16,7 @@ Last modified on 11/30/2011 08:00:45 PM
     * banner-hitam-2.png​ (14.8 KB) - added by cho2 5 years ago.
     * banner-putih-1.png​ (16.7 KB) - added by cho2 5 years ago.
     * banner-putih-2.png​ (15.1 KB) - added by cho2 5 years ago.
-#### 
-    
- 
- 
- 
- 
+
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

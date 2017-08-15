@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Kesenian  /
-    * AcuanDesktop
+# AcuanDesktop
 ### Panel Atas
 Warna Latar : #2E3436
 Tinggi : 24px
@@ -39,13 +25,7 @@ Nama Ikon : Londe Catatan : perlu dipercantik/ditambah/diperbaiki
 kekurangannya. acuan perbaikan/penambahan bisa mengambil ikon Faenza (​http://
 ppa.launchpad.net/tiheum/equinox/ubuntu)
 Last modified on 09/20/2010 02:16:04 PM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

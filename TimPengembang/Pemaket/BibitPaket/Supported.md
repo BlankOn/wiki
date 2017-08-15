@@ -1,20 +1,7 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Supported
-= Hardware =
+## Bibit Paket
+# Supported
+
+# Hardware
  * i855-crt        # crack to enable video out on i855 chipsets
  * mdetect         # formerly used by X for mouse autodetection
  * irda-utils
@@ -22,19 +9,19 @@
  * palo            # hppa boot loader, but needed on other architectures to
 build hppa CD images
  * ps3-kboot       # boot loader for Sony PlayStation 3
-== Bluetooth ==
+## Bluetooth
  * bluez-gnome	# To do Bluetooth pairing
-== Filesystems ==
+## Filesystems
  * xfsdump # only useful when machine is setup and working, and only for xfs
 people
  * cloop-utils # for LiveCD
  * squashfs-tools
  * reiser4progs
  * hfsplus
-== Cluster ==
+## Cluster
  * ocfs2console
  * system-config-cluster
-= Servers and Daemons =
+# Servers and Daemons
 Database:
  * mdbtools				# OOo2 supports the JET format
  * mdbtools-gmdb
@@ -57,7 +44,7 @@ for desktop integration
  * graphviz
  * logcheck		  # great security tool for any server
  * logcheck-database	  # useful for above
-= Network =
+# Network
  * irssi
 Security:
  * nessus                 # client for nessus security testing and monitoring
@@ -66,7 +53,7 @@ Download:
  * bittorrent             # rapid p2p download, for efficient large file
 distribution, perhaps for desktop
  * jigit                  # specialised Debian/Ubuntu CD image download
-= Desktop =
+# Desktop
  * openoffice.org-gcj
  * openoffice.org-filter-binfilter
  * libuno-cil
@@ -75,10 +62,10 @@ distribution, perhaps for desktop
  * openoffice.org-style-industrial
  * openoffice.org-style-tango
  * gnome-accessibility-themes-extras
-= Standards =
+# Standards
  * lsb
-= Development =
-== Development Tools ==
+# Development
+## Development Tools
  * bicyclerepair          # python refactoring tool for vim & emacs
  * bison
  * debconf-english   # for minimal buildd chroots, without i18n cruft
@@ -108,12 +95,12 @@ distribution, perhaps for desktop
  * apport-cli
  * libservlet2.4-java-gcj # source needs to be in main anyway
  * liblog4j1.2-java-gcj # source needs to be in main anyway
-== Mono ==
+## Mono
  * mono-devel
  * mono-jay
  * mono-classlib-1.0
  * libmono-sqlite1.0-cil
-== Revision Control ==
+## Revision Control
  * subversion
  * subversion-tools
  * python2.4-subversion
@@ -122,7 +109,7 @@ distribution, perhaps for desktop
  * bzrtools
  * python2.4-paramiko	# for bzr sftp support
  * cvs
-== Package Maintainance ==
+## Package Maintainance
  * debhelper         # ColinWatson
  * dh-make
  * dupload           # ColinWatson
@@ -136,11 +123,11 @@ distribution, perhaps for desktop
  * pkg-create-dbgsym # automatic creation of debug symbols
  * hello
  * hello-debhelper
-== Seed Management ==
+## Seed Management
  * germinate         # quis custodiet ipsos custodes?
-= Shells =
+# Shells
  * zsh
-= Desktop =
+# Desktop
  * epiphany-browser
  * epiphany-extensions
  * xchat-gnome
@@ -222,13 +209,13 @@ Ubuntu artwork:
  * ubuntu-calendar-october
  * ubuntu-calendar-november
  * ubuntu-calendar-december
-= Console Tools =
+# Console Tools
  * freecdb
  * dict
  * wdiff
  * xml-twig-tools  # we need libxml-twig-perl as build dep anyway, so we can as
 well support this binary
-= Libraries =
+# Libraries
  * libcrypt-blowfish-perl
  * libdate-manip-perl
  * libnet-ldap-perl
@@ -244,7 +231,7 @@ well support this binary
  * libsdl1.2debian-esd
  * libsdl1.2debian-oss
  * libgl1-mesa-swx11-i686
-= System Administration Tools =
+# System Administration Tools
  * attr                 # will move to base if we go to selinux
  * quota
  * backuppc             # RobertCollins
@@ -259,7 +246,7 @@ change, should it be in desktop?
  * xinetd               # JamesTroup, from hoglet
  * system-config-kickstart # Kickstart configuration GUI
  * mknbi                # for creating etherboot images for LTSP
-= Documentation =
+# Documentation
 We need a consistent policy for -doc. At the least, any -doc package produced
 by a source package that also generates a binary package in one of our seed
 lists should absolutely go into supported.
@@ -276,7 +263,7 @@ lists should absolutely go into supported.
  * emacs21-common-non-dfsg # Non-DFSG docs
  * packaging-guide
  * %texlive-doc
-= Rescued from Extra =
+# Rescued from Extra
  * Extra-Include: *-dbg *-debug *-dev *-doc
 ... and some miscellaneous exclusions for things we don't want to drag in
 automatically (note that Extra-Exclude *only* prevents packages from being
@@ -305,7 +292,7 @@ Exclude some KDE-specific pieces:
  * Extra-Exclude: libpoppler-qt-dev
  * Extra-Exclude: libqt4-debug-dev
  * Extra-Exclude: libsmokekde-dev
-== Development ==
+## Development
  * python-mode
  * libc6-prof [i386]
  * g++-4.2-multilib [i386]
@@ -321,7 +308,7 @@ Exclude some KDE-specific pieces:
  * openoffice.org-help-br
  * openoffice.org-l10n-br
  * libxsltc-java
-== Documentation ==
+## Documentation
  * diveintopython						# move from desktop ()
  * ubuntu-docs							# move from desktop ()
  * gimp-manual
@@ -351,7 +338,7 @@ catch them and they need to be listed explicitly.
  * python-gtk2-tutorial
  * scribus-doc
  * tar-doc
-== System Administration ==
+## System Administration
  * fbset
  * libcap-bin
  * libpam-opie
@@ -365,24 +352,24 @@ catch them and they need to be listed explicitly.
  * authbind                     # BIGGER SECURITAH REVIEW
  * siege
  * bonnie++
-== Multimedia ==
+## Multimedia
  * flac
  * esound-clients
  * eyed3			# we need to support the source anyway, harmless tool
-== Kernel ==
+## Kernel
  * /^linux-(backports-modules-|headers-)?(386|686|generic|k7|server).*/
  * linux-doc
  * linux-source
  * linux-kernel-devel
  * /^linux-image-debug-.*(?<!lowlatency)$/
  * vmware-*-kernel-modules
-=== Transitional from dapper ===
+=## Transitional from dapper=
  * linux-image-686
  * linux-image-k7
-= Database =
+# Database
  * libqt3c102-mt-mysql
  * libqt3c102-mt-psql
-= Localisation =
+# Localisation
  * aspell-de
  * aspell-de-alt
  * gettext-el
@@ -405,22 +392,22 @@ catch them and they need to be listed explicitly.
  * openoffice.org-l10n-en-gb
  * openoffice.org-l10n-in	# dependency package for Indian locales
  * openoffice.org-l10n-za	# dependency package for South African locales
-= Transitional packages =
+# Transitional packages
  # renamed to openprinting-* during Feisty
  * linuxprinting.org-ppds
  * linuxprinting.org-ppds-extra
-= Miscellaneous =
+# Miscellaneous
  * miscfiles
-= Germinate workarounds =
+# Germinate workarounds
  * mono-jit # germinate likes pnet better, but we want mono-mcs -mdz
-= Not quite ready for the default install yet =
-= Language packs =
+# Not quite ready for the default install yet
+# Language packs
  * /^language-pack-[^-]+$/
  * /^language-pack-gnome-[^-]+$/
  * /^language-support-[^-]+$/
  * openoffice.org-l10n-nr      # does not match a valid locale, so no l-
 support-*
-= Installer =
+# Installer
  # Used for netboot installations
  * Kernel-Version: 2.6.20-15-386
  * /^.*-firmware-.*-386-di/ [i386]
@@ -433,11 +420,11 @@ system
  * casper # needed by live CD build system
  * livecd-rootfs # live CD build script
  * installation-guide-i386 [i386]
-= LTSP =
+# LTSP
  * ltsp-server
  * ltsp-server-standalone
  * ltsp-client
-= OMG! =
+# OMG!
  * firefox-themes-ubuntu
 KategoriBlankOn KategoriPemaket
 Last modified on 06/16/2008 11:10:38 AM

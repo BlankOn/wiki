@@ -1,19 +1,6 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Installer
+## Bibit Paket
+# Installer
+
 This list was originally constructed based on a [http://people.debian.org/
 ~cjwatson/d-i/ list of packages in the current d-i netinst images], and from
 initrd.list files in d-i daily builds.

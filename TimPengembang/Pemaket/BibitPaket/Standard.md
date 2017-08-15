@@ -1,27 +1,14 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Standard
+## Bibit Paket
+# Standard
 Task-Section: user
 Task-Relevance: 8
 Task-Description: Standard system
 Task-Extended-Description: This task installs a reasonably small character-mode
 system.
 Task-Test-new-install: install skip
-= UNIX =
-== Comfortable Unix System ==
+
+## UNIX
+### Comfortable Unix System
  * at
  * cpio
  * cron
@@ -39,7 +26,7 @@ Task-Test-new-install: install skip
  * parted
  * psmisc            # utilities for /proc such as killall, pstree, fuser
  * time
-== Filesystems ==
+### Filesystems
 These are commonly used filesystem support packages, here because someone
 setting up a server would begin with standard, configure filesystems and
 network and then add other services. NFS is explicitly not here, because it
@@ -47,7 +34,7 @@ brings in nasties like portmap, and because the network will need to be running
 before it can be used, so we may as well put that in Supported.
  * reiserfsprogs
  * dosfstools
-== Networking ==
+### Networking
 These provide various networking services, all should be configured in a
 client-only state with the server de-activated unless the user requires it.
  * dnsutils       # LaMontJones
@@ -62,7 +49,7 @@ client-only state with the server de-activated unless the user requires it.
 apparently
  * w3m            # we need some text-based html presenter
  * wget           # FabioMassimoDiNitto
-= Debugging and Diagnostics =
+## Debugging and Diagnostics
 A base system should be a good platform for diagnostics about the hardware and
 network. In other words, after installing just the Base system one should have
 everything one might need to get the rest of the system up and running the way
@@ -74,29 +61,23 @@ These are used for debugging problems or examining the system.
  * lshw
  * lsof
  * ltrace
-= Helpful Tools =
+## Helpful Tools
  * inputattach # needed for serial mice
  * (command-not-found)
  * (update-manager-core)  # needed for server based release upgrades
  * (apparmor-utils) # controll AppArmor policies (pulls in policy parser as
 well)
-== Network ==
+### Network
  * iputils-arping     # would have made my life easier at debconf
  * iputils-tracepath  # more secure sort of traceroute, will put compatibility
 symblink in for traceroute users
  * (mtr-tiny)           # LaMontJones
  * tcpdump
-= Other =
+## Other
  * popularity-contest
  * ubuntu-standard # metapackage for everything here
-KategoriBlankOn KategoriPemaket
+
 Last modified on 06/16/2008 11:09:18 AM
-#### 
-    
- 
- 
- 
- 
  
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
