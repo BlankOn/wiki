@@ -1,17 +1,18 @@
-# Instalasi
+# Panduan Pemasangan
 Halaman ini memuat Petunjuk, Pengalaman, Saran dan hal-hal lain menyangkut
-proses Pra, Proses dan Pasca INSTALASI.
+proses pra, proses dan paska pemasangan/instalasi.
 
 ### Desktop
 Instalasi BlankOn pada Komputer Desktop
 
 ### Laptop
-Instalasi BlankOn pada Komputer Laptop
+[Instalasi BlankOn pada Komputer Laptop](/wiki/Instalasi/Laptop)
 
 ### Server
 Instalasi BlankOn pada Komputer Server
 
-Last modified on 02/01/2012 03:37:18 PM
+### Printer
+[Instalasi Printer HP Laser Jet 1020](/wiki/Instalasi/HPLaserjet1020.md)
  
  
 ---
