@@ -15,7 +15,6 @@
   * [ BlanKoding2006 ](/Acara/BlanKoding/BlanKoding2006.md)
   * [ BlanKoding2013 ](/Acara/BlanKoding/BlanKoding2013.md)
   * [ BlanKoding2017 ](/Acara/BlanKoding/BlanKoding2017.md)
-  * [ KandidatTantangan[BlankOn](/BlankOn.md) ](/Acara/BlanKoding/KandidatTantanganBlankOn.md)
 
   * [ /wiki/Acara/BlanKonf/ ](/Acara/BlanKonf/)
   * [ BlanKonf2009 ](/Acara/BlanKonf/BlanKonf2009)
@@ -83,6 +82,7 @@
   * [ SayembaraMaskot ](/Acara/Tantangan/SayembaraMaskot.md)
   * [ SayembaraMenulisPanduan ](/Acara/Tantangan/SayembaraMenulisPanduan.md)
   * [ Tantangan[BlankOn](/BlankOn.md) ](/Acara/Tantangan/TantanganBlankOn.md)
+  * [ KandidatTantangan[BlankOn](/BlankOn.md) ](/Acara/BlanKoding/KandidatTantanganBlankOn.md)
 
   * [ /wiki/Assets/ ](/Assets/)
   * [ Images ](/Assets/Images)
