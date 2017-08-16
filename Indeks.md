@@ -926,16 +926,9 @@
   * [ MencariNamaAplikasi ](/TimPengembang/Pemaket/Tutorial/MencariNamaAplikasi.md)
   * [ PengenalanBazaar ](/TimPengembang/Pemaket/Tutorial/PengenalanBazaar.md)
   * [ Tutorial ](/TimPengembang/Pemaket/Tutorial/Tutorial.md)
-<<<<<<< HEAD
 
   * [ /wiki/TimPengembang/Riset/ ](/TimPengembang/Riset/)
   * [ Log2012101 ](/TimPengembang/Riset/Log2012101.md)
   * [ LokakaryaDasarJQuery ](/TimPengembang/Riset/LokakaryaDasarJQuery.md)
   * [ Riset ](/TimPengembang/Riset/Riset.md)
-=======
->>>>>>> d781959f355d0c0bc122feb1fff847d8ca26faf6
 
-  * [ /wiki/TimPengembang/Riset/ ](/TimPengembang/Riset/)
-  * [ Log2012101 ](/TimPengembang/Riset/Log2012101.md)
-  * [ LokakaryaDasarJQuery ](/TimPengembang/Riset/LokakaryaDasarJQuery.md)
-  * [ Riset ](/TimPengembang/Riset/Riset.md)
