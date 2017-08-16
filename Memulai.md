@@ -85,26 +85,23 @@ Wiki digunakan untuk berkoordinasi dan mencatat pekerjaan-pekerjaan seputar peng
 ### Trello
 Trello digunakan untuk berkoordinasi, membagi serta memantau daftar pekerjaan pengembangan [BlankOn](/BlankOn.md).
 
-[Trello Pengembang [BlankOn](/BlankOn.md) Uluwatu](https://trello.com/b/eKRi40cX/blankon-dev-uluwatu)
+[Trello Pengembang BlankOn Uluwatu](https://trello.com/b/eKRi40cX/blankon-dev-uluwatu)
 
 ### IRC
 Untuk komunikasi obrolan pada IRC dapat Anda temukan pada kanal #blankon di Freenode. Catatan percakapan terekam oleh [http://irclog.blankon.in/](http://irclog.blankon.in/).
 
 ### Grup Telegram
 
-[Grup Telegram pengguna [BlankOn](/BlankOn.md)](https://telegram.me/BlankOnLinux)
+[Grup Telegram pengguna BlankOn](https://telegram.me/BlankOnLinux)
 
 ### Komunikasi, koordinasi dan kolaborasi secara luring (luar jaringan)
 
 Komunikasi dan koordinasi luring dapat ditemui di BlanKonf, BlanKopdar maupun BlanKoding maupun dengan pertemuan langsung dengan pengembang lain yang domisilinya berdekatan.
 
-### [Komposisi Tim Pada Awal Pengembangan [BlankOn](/BlankOn.md)](/TimBlankOn.md)
-
+### [Komposisi Tim Pada Awal Pengembangan BlankOn](/TimBlankOn.md)
 
 ---
-[**Daftar Isi Wiki [BlankOn](/BlankOn.md)**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki [BlankOn](/BlankOn.md)**](/Indeks.md)
-
-
+[**Indeks Wiki BlankOn**](/Indeks.md)
 

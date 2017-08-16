@@ -25,11 +25,10 @@
 Anda juga dapat mengunduh berkas iso blankOn melalui Torrent atau Jigdo 
 
 
-
 ---
-[**Daftar Isi Wiki [BlankOn](/BlankOn.md)**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki [BlankOn](/BlankOn.md)**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

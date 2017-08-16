@@ -1,30 +1,30 @@
 # Partisipasi
-Terima kasih telah mengunjungi proyek [[BlankOn](/BlankOn.md)](https://github.com/BlankOn) Anda dapat mengunjungi [website resmi BlankOn](https://www.blankonlinux.or.id/) untuk mendapatkan informasi lainya.
+Terima kasih telah mengunjungi proyek [BlankOn](/BlankOn.md). Anda dapat mengunjungi [website resmi BlankOn](https://www.blankonlinux.or.id/) untuk mendapatkan informasi lainya.
 
 ## Tentang Linux [BlankOn](/BlankOn.md)
-Linux [[BlankOn](/BlankOn.md)](https://github.com/BlankOn) adalah distribusi Linux yang dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Tim Pengembang BlankOn. Distribusi ini dirancang sesuai dengan kebutuhan pengguna komputer umum di Indonesia.
+[BlankOn](/BlankOn.md) Linux adalah distribusi Linux yang dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Tim Pengembang BlankOn. Distribusi ini dirancang sesuai dengan kebutuhan pengguna komputer umum di Indonesia.
 
-Linux [[BlankOn](/BlankOn.md)](https://github.com/BlankOn) dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux khas Indonesia, khususnya untuk dunia pendidikan, perkantoran dan pemerintahan.
+[BlankOn](/BlankOn.md) Linux dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux khas Indonesia, khususnya untuk dunia pendidikan, perkantoran dan pemerintahan.
 
-Linux [[BlankOn](/BlankOn.md)](https://github.com/BlankOn) merupakan bagian dari gerakan Proyek [BlankOn](https://github.com/BlankOn) yang memiliki cakupan yang lebih luas lagi. Gerakan ini bertujuan untuk mengembangkan kompetensi sumber daya manusia Indonesia dalam konteks perangkat lunak bebas dan terbuka.
+[BlankOn](/BlankOn.md) Linux merupakan bagian dari gerakan Proyek [BlankOn](https://github.com/BlankOn) yang memiliki cakupan yang lebih luas lagi. Gerakan ini bertujuan untuk mengembangkan kompetensi sumber daya manusia Indonesia dalam konteks perangkat lunak bebas dan terbuka.
 
 ## Berpartisipasi di [BlankOn](/BlankOn.md)
 ### Bagaimana cara berpartisipasi di [BlankOn](/BlankOn.md)
-Anda dapat berpastisipasi di proyek [[BlankOn](/BlankOn.md)](https://github.com/BlankOn) ini dengan cara:
-1. Mendaftarkan diri di [Halaman Developer [BlankOn](/BlankOn.md)](https://github.com/BlankOn/wiki/blob/master/TimBlankOn.md).
-2. Menjadi member di milis [pengguna [BlankOn](/BlankOn.md)](http://groups.google.com/group/BlankOn/) dan milis [pengembang BlankOn](http://groups.google.com/group/BlankOn-dev/).
+Anda dapat berpastisipasi di proyek [BlankOn](/BlankOn.md) ini dengan cara:
+1. Mendaftarkan diri di [Halaman Developer BlankOn](https://github.com/BlankOn/wiki/blob/master/TimBlankOn.md).
+2. Menjadi member di milis [pengguna BlankOn](http://groups.google.com/group/BlankOn/) dan milis [pengembang BlankOn](http://groups.google.com/group/BlankOn-dev/).
 3. Memperkenalkan di mailinglist developer dan menyatakan diri akan ikut berpartisipasi.
 4. Mencatatkan namanya ke dalam Halaman Tim Pengembang.
 
 ### Cakupan Wilayah Kerja
-Dalam proyek Distro [[BlankOn](/BlankOn.md)](https://github.com/BlankOn) di bagi dalam beberapa tim yaitu:
-1. [Tim Infrastruktur](https://github.com/[BlankOn](/BlankOn.md)/wiki/blob/master/TimPengembang/Infrastruktur/Infrastruktur.md)
-2. [Tim Riset dan Aplikasi](https://github.com/[BlankOn](/BlankOn.md)/wiki/blob/master/TimPengembang/Riset/Riset.md)
-3. [Tim Pemaket](https://github.com/[BlankOn](/BlankOn.md)/wiki/blob/master/TimPengembang/Pemaket/Pemaket.md)
-4. [Tim Kesenian](https://github.com/[BlankOn](/BlankOn.md)/wiki/blob/master/TimPengembang/Kesenian/Kesenian.md)
-5. [Tim Jaminan Kualitas](https://github.com/[BlankOn](/BlankOn.md)/wiki/blob/master/TimPengembang/JaminanKualitas/JaminanKualitas.md)
-6. [Tim Dokumentasi](https://github.com/[BlankOn](/BlankOn.md)/wiki/blob/master/TimPengembang/Dokumentasi/Dokumentasi.md)
-7. [Tim Humas](https://github.com/[BlankOn](/BlankOn.md)/wiki/blob/master/TimPengembang/Humas/Humas.md)
+Dalam proyek Distro [BlankOn](/BlankOn.md) di bagi dalam beberapa tim yaitu:
+1. [Tim Infrastruktur](/TimPengembang/Infrastruktur/Infrastruktur.md)
+2. [Tim Riset dan Aplikasi](/TimPengembang/Riset/Riset.md)
+3. [Tim Pemaket](/TimPengembang/Pemaket/Pemaket.md)
+4. [Tim Kesenian](/TimPengembang/Kesenian/Kesenian.md)
+5. [Tim Jaminan Kualitas](/TimPengembang/JaminanKualitas/JaminanKualitas.md)
+6. [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md)
+7. [Tim Humas](/TimPengembang/Humas/Humas.md)
 
 Anda dapat melihat penjelasan dari tim-tim yang ada di [BlankOn](/BlankOn.md) di halaman TimBlankOn
 
@@ -41,7 +41,7 @@ Anda dapat mendapatkan informasi [BlankOn](/BlankOn.md) di:
 
 ## Apa yang akan saya lakukan bila:
 ### Menemukan bug's di [BlankOn](/BlankOn.md)
-Anda dapat melaporkan segala bug's [[BlankOn](/BlankOn.md)](https://github.com/BlankOn) di Halaman Pendaftaran Tiket
+Anda dapat melaporkan segala bug's [BlankOn](/BlankOn.md) di Halaman [Pendaftaran Tiket](/PendaftaranTiket.md)
 
 ### Mengajukan pertanyaan tentang [BlankOn](/BlankOn.md)
 Apabila anda mempunyai pertanyaan seputar [BlankOn](/BlankOn.md) dapat mengajukan pertanyaan tersebut di [Milis Resmi Pengguna BlankOn](http://groups.google.com/group/BlankOn/)
@@ -57,3 +57,12 @@ Silakan menuliskan komentar/wacana di sini:
 1. 
 2. 
 dst
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
