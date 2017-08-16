@@ -1,4 +1,4 @@
-## Daftar Cermin Unduhan BlankOn
+## Daftar Cermin Unduhan [BlankOn](/BlankOn.md)
 ## ISO
 
   - Jakarta ftp://kambing.ui.edu/pub/blankon/rilis/nanggar/
@@ -27,9 +27,9 @@ Anda juga dapat mengunduh berkas iso blankOn melalui Torrent atau Jigdo
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki [BlankOn](/BlankOn.md)**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki [BlankOn](/BlankOn.md)**](/Indeks.md)
 
 
 

@@ -44,7 +44,7 @@
 Last modified on 01/06/2009 12:07:39 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki [BlankOn](/BlankOn.md)**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki [BlankOn](/BlankOn.md)**](/Indeks.md)
 
