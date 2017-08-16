@@ -863,7 +863,4 @@
   * [ Yelp ](/TimPengembang/Dokumentasi/Yelp.md)
   * [ Yeyen ](/TimPengembang/Infrastruktur/Yeyen.md)
   * [ Yht ](/Profil/Yht.md)
-<<<<<<< HEAD
 
-=======
->>>>>>> d781959f355d0c0bc122feb1fff847d8ca26faf6
