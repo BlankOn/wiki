@@ -1,13 +1,13 @@
 # Selamat Datang di Wiki Pengembangan [BlankOn](/BlankOn.md)
 
-Silakan lihat halaman [Misi [BlankOn](/BlankOn.md)](/Proyek/Misi.md) untuk memahami tujuan proyek ini.
+Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proyek ini.
 
 [BlankOn](/BlankOn.md) Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat lunak (software) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distribusi ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
 
 **Daftar isi**
  * [Pertanyaan Umum](#pertanyaan-umum)
  * [Bagaimana Berkontribusi](#bagaimana-berkontribusi)
- * [Tentang Wiki [BlankOn](/BlankOn.md)](#tentang-wiki-blankon)
+ * [Tentang Wiki ](#tentang-wiki-blankon)
  * [Daftar Isi](/DaftarIsi/README.md)
  * [Indeks](/Indeks.md)
 
@@ -45,9 +45,7 @@ Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan unt
 
 
 -----
-[**Daftar Isi Wiki [BlankOn](/BlankOn.md)**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki [BlankOn](/BlankOn.md)**](/Indeks.md)
-
-
+[**Indeks Wiki BlankOn**](/Indeks.md)
 
