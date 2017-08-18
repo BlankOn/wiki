@@ -98,7 +98,7 @@ Salin berkas berikut ke berkas Unmount
 for I in "$ * " 
 do 
 foo=`gksudo -u root -k -m "Enter your password for root terminal access" /bin/echo "got r00t?"` 
-sudo umount "$I" && zenity --info --text "Successfully unmounted /media/$I/" && `{{{`
+sudo umount "$I" && zenity --info --text "Successfully unmounted /media/$I/" && \{{{
 sudo rmdir "/media/$I/" 
 done 
 done 
