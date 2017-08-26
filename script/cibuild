@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+bundle exec jekyll build
+#bundle exec htmlproofer --alt-ignore https://avatars0.githubusercontent.com/u/17040767 ./_site
