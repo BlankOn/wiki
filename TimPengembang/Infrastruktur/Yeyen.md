@@ -1,18 +1,3 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Yeyen
 ## Yeyen
 ### Server
 # screen -dmS master386
@@ -20,30 +5,31 @@
 # su - irgsh
 $ cd pabrik-paket/scripts/server
 $ ./run-master.sh i386
-^A^D
 # screen -dmS amd64
 # screen -d -r masteramd64
 # su - irgsh
 $ cd pabrik-paket/scripts/server
 $ ./run-master.sh amd64
-^A^D
+
 ### Slave
 # screen -dmS slave386
 # screen -d -r slave386
 # su - irgsh
 $ cd pabrik-paket/scripts/slave
 $ ./run-slave.sh
-^A^D
+
 ### IRC
 # screen -dmS irc
 # screen -d -r irc
 # su - irgsh
 $ cd irc/
 $ supybot -d irgsh.conf
-^A^D
+
 ### Patch
 #### dpkg-scanpackages (Hardy)
- dpkg-scanpackages	2008-11-29 18:53:19.000000000 +0700
+
+```
+dpkg-scanpackages	2008-11-29 18:53:19.000000000 +0700
 +++ blankon-dpkg-scanpackages	2008-11-29 16:58:57.000000000 +0700
 @@ -117,6 +117,15 @@
      exit 1;
@@ -78,9 +64,12 @@ $ supybot -d irgsh.conf
  	push @{$packages{$p}}, {%tv};
 +        }
      }
- close($find_h);
+close($find_h);
+```
+
 #### dpkg-scanpackages (Gutsy)
- /usr/bin/dpkg-scanpackages  2007-09-22 03:21:47.000000000 +0700
+```
+/usr/bin/dpkg-scanpackages  2007-09-22 03:21:47.000000000 +0700
 +++ /usr/bin/blankon-dpkg-scanpackages  2007-12-06 16:33:18.000000000 +0700
 @@ -116,6 +116,14 @@
      exit 1;
@@ -150,23 +139,18 @@ $fn)."\n";
  	# @binary
  	if ($key eq 'binary') {
  	    if (@binary) {
+```
+
 ### Mesin
+```
     * Merk : Extron
     * Prosesor : Intel Core2 Duo
     * RAM : 6GB DDR2 [2x2GB + 2x1GB]
     * HD : 2x320GB
     * Posisi : IDC-D3
     * ISP : PadiNet?
-KategoriInfra
-Last modified on 10/23/2012 08:52:57 AM
-#### 
-    
- 
- 
- 
- 
- 
----
+```
+
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
 [**Indeks Wiki BlankOn**](/Indeks.md)

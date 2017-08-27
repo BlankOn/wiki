@@ -13,13 +13,16 @@
 
 ### Lampiran
 #### .pbuilderrc
-```
+
 Letakkan berkas .pbuilderrc di /home/blankon-dev, isinya:
+
+```
 BASETGZ=/home/blankon-dev/pbuilder/base.tgz
 #EXTRAPACKAGES=gcc3.0-athlon-builder
 export DEBIAN_BUILDARCH=i386
 BUILDPLACE=/home/blankon-dev/pbuilder/build/
 MIRRORSITE=http://gx.tmp.mnots.eu
+
 #Ini nanti dibuka kalau sudah ada isinya
 #OTHERMIRROR="deb http://konde-dev.ubuntu-id.org konde main"
 #export http_proxy=http://your-proxy:8080/
@@ -27,8 +30,10 @@ USEPROC=no
 USEDEVPTS=yes
 USEDEVFS=no
 BUILDRESULT=/home/blankon-dev/pbuilder/result/
+
 # specifying the distribution forces the distribution on "pbuilder update"
 DISTRIBUTION=gutsy
+
 # specifying the components of the distribution (default is "main")
 #COMPONENTS="main restricted universe multiverse"
 #specify the cache for APT
@@ -66,21 +71,16 @@ BINDMOUNTS=""
 unset DEBOOTSTRAPOPTS
 DEBOOTSTRAPOPTS[0]='--arch'
 DEBOOTSTRAPOPTS[1]='i386'
-# Set the PATH I am going to use inside pbuilder: default is "/usr/sbin:/usr/
-bin
+# Set the PATH I am going to use inside pbuilder: default is "/usr/sbin:/usr/bin
 # DEBOOTSTRAPOPTS[0]='--variant=buildd'
 # or work around bug in debootstrap 3.0.0 (314858)
 unset DEBOOTSTRAPOPTS
 DEBOOTSTRAPOPTS[0]='--arch'
 DEBOOTSTRAPOPTS[1]='i386'
-# Set the PATH I am going to use inside pbuilder: default is "/usr/sbin:/usr/
-bin
-:/sbin:/bin:/usr/X11R6/bin"
+# Set the PATH I am going to use inside pbuilder: default is "/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin"
 #
 export PATH="/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin"
-# SHELL variable is used inside pbuilder by commands like 'su'; and they need
-sa
-ne values
+# SHELL variable is used inside pbuilder by commands like 'su'; and they need sane values
 export SHELL=/bin/bash
 # The name of debootstrap command.
 DEBOOTSTRAP="debootstrap"
@@ -90,7 +90,6 @@ PKGNAME_LOGFILE_EXTENTION="_$(dpkg --print-architecture).build"
 PKGNAME_LOGFILE=""
 KategoriPemaket KategoriInfra
 Last modified on 07/01/2008 01:29:41 PM
-#### 
 ```
 
 ---
