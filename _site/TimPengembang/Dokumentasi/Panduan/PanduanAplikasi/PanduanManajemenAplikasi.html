@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Panduan Manajemen Aplikasi | wiki</title>
+<meta property="og:title" content="Panduan Manajemen Aplikasi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Panduan/PanduanAplikasi/PanduanManajemenAplikasi.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Panduan/PanduanAplikasi/PanduanManajemenAplikasi.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Panduan/PanduanAplikasi/PanduanManajemenAplikasi.html","publisher":null,"image":null,"headline":"Panduan Manajemen Aplikasi","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="panduan-manajemen-aplikasi">Panduan Manajemen Aplikasi</h1>
+<h2 id="pasang-hapus-dan-perawatan-perangkat-lunak">Pasang, Hapus dan Perawatan Perangkat Lunak</h2>
+
+<p>BlankOn Linux sudah menyertakan berbagai perangkat lunak untuk keperluan dasar
+seperti aplikasi perkantoran, multimedia, internet, grafis, dll. Namun, jika
+Anda merasa kurang dengan perangkat lunak yang sudah terpasang, Anda bisa
+melakukan pemasangan perangkat lunak yang Anda inginkan sesuai dengan
+keperluan.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> INGAT! Pemasangan dan penghapusan perangkat lunak membutuhkan hak
+ administratif karena dapat mengubah sistem. Untuk itu, yang bisa
+ melakukan hal tersebut hanyalah pengguna yang memiliki kewenangan
+ administratif.
+</code></pre>
+</div>
+
+<h3 id="pengaturan-perangkat-lunak-pada-blankon-linux">Pengaturan Perangkat Lunak pada BlankOn Linux</h3>
+<p>Cara pemasangan dan penghapusan perangkat lunak pada BlankOn Linux sangat
+berbeda dengan cara yang ada di sistem operasi Microsoft Windows. Jika
+pemasangan perangkat lunak di Windows menggunakan sebuah installer atau program
+pemasang dari masing-masing perangkat lunak, maka pada BlankOn Linux pemasangan
+perangkat lunak dilakukan menggunakan sistem manajemen paket perangkat lunak
+seperti pada Distro Linux lainnya. Manajemen paket yang ada di BlankOn Linux
+bernama APT.</p>
+
+<p>Di BlankOn, hampir semua perangkat lunak berasal dari suatu tempat yang bernama
+lumbung paket (package repository). APT adalah program yang berfungsi untuk
+mengunduh (download) paket yang Anda pilih dari lumbung dan memasangnya di
+komputer.</p>
+
+<p>Dengan kata lain, Anda tidak perlu mengunduh sendiri paket perangkat lunak yang
+ingin Anda pasang. Anda hanya perlu menentukan sumber paket atau lumbung paket
+perangkat lunak tersebut melalui APT, dan meminta perangkat lunak yang ingin
+dipasang atau dihapus. Maka APT akan melakukan apa yang Anda inginkan termasuk
+mengunduh paket, memasang, pemasangan konfigurasi, melakukan konfigurasi
+sistem, pemutakhiran (update) serta penghapusan.
+Lumbung paket bisa berada dari beberapa sumber, yaitu:</p>
+<ul>
+  <li>Server Web</li>
+  <li>Jaringan Lokal, misalnya dari server NFS,</li>
+  <li>Folder lokal.</li>
+</ul>
+
+<p>Komunitas BlankOn memiliki lumbung paket resmi yang berada di situs ​http://
+arsip.blankonlinux.or.id/blankon. Lumbung paket BlankOn sudah berisikan
+berbagai koleksi perangkat lunak yang lengkap dan siap untuk digunakan.
+Selain lumbung paket resmi, juga terdapat lumbung paket-lumbung paket lainnya
+yang isinya sama, namun hanya berbeda letak servernya. Kebanyakan dari lumbung
+paket yang ada disediakan oleh penyedia jasa cermin (mirror) dan beberapa
+perguruan tinggi di Indonesia. Berikut adalah beberapa alamat lumbung paket
+yang ada di Indonesia:</p>
+<ul>
+  <li>​http://kambing.ui.ac.id/blankon/ (Universitas Indonesia)</li>
+  <li>​http://repo.ugm.ac.id/blankon/ (Universitas Gajah Mada)</li>
+</ul>
+
+<h3 id="pengaturan-lumbung-paket">Pengaturan Lumbung Paket</h3>
+<p>Untuk melakukan pengaturan lumbung paket APT, klik Menu utama BlankOn &gt; Lainnya</p>
+<blockquote>
+  <p>Software dan Update. Setelah aplikasi terbuka anda bisa mengubah sesui
+kebutuhan.</p>
+</blockquote>
+
+<p>[/raw-attachment/wiki/Dokumentasi/Panduan/ManajemenAplikasi/00Software-
+Updates.png] [/raw-attachment/wiki/Dokumentasi/Panduan/ManajemenAplikasi/01GantiRepo.png]</p>
+
+<h2 id="memasang-dan-menghapus-perangkat-lunak">Memasang dan Menghapus Perangkat Lunak</h2>
+<p>Terdapat dua cara untuk melakukan pemasangan dan penghapusan perangkat lunak.
+Yaitu melalui fitur Warung Aplikasi dan melalui antarmuka teks(konsole/
+terminal) dengan perintah apt-get.</p>
+
+<h3 id="warung-aplikasi">Warung Aplikasi</h3>
+<p>Jika Anda ingin memasang atau menghapus perangkat lunak secara detail, Anda
+bisa menggunakan Warung Aplikasi yang bisa Anda buka melalui Menu utama BlankOn</p>
+<blockquote>
+  <p>Lainnya &gt; WarSi?.</p>
+</blockquote>
+
+<p>[/raw-attachment/wiki/Dokumentasi/Panduan/ManajemenAplikasi/02Warsi.png]</p>
+
+<p>Ketikkan nama aplikasi pada kotak pencarian cepat. Aplikasi ini menampilkan
+daftar paket perangkat lunak secara detail. Selain Anda bisa menambah dan
+menghapus aplikasi, Anda juga bisa melakukan hal yang sama untuk pustaka sistem
+yang tersedia.</p>
+
+<p>Pilih Aplikasi yang ingin dipasang dengan mengcentang pilihan “Install
+Package”, kemudian lakukan “Apply Changes” atau “Clear” untuk membatalkan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/ManajemenAplikasi/03Memasang-
+Aplikasi.png]
+Jika ingin menghapus tinggal pilih “Remove Package”.
+[/raw-attachment/wiki/Dokumentasi/Panduan/ManajemenAplikasi/04Menghapus-
+Aplikasi.png]</p>
+
+<h3 id="melalui-perintah-apt-get">Melalui Perintah apt-get</h3>
+<p>Menggunakan perintah apt-get sangat sederhana sekali. Anda cukup ketikkan nama
+paket perangkat lunak yang ingin dipasang/dihapus, maka APT akan melakukan hal
+yang Anda inginkan.</p>
+
+<p>Untuk menggunakan fitur ini, bukalah antarmuka teks misalnya melalui Terminal
+dengan menu Aplikas &gt; Aksesoris &gt; Terminal.</p>
+
+<p>Pada terminal ketikkan perintah berikut, lalu tekan tombol Enter untuk memasang
+paket perangkat lunak (Ubah “namapaket” sesuai dengan nama paket perangkatlunak yang akan Anda pasang).
+<code class="highlighter-rouge">blankon@blankon:~$ sudo apt-get install namapaket</code></p>
+
+<p>Sedangkan untuk menghapus suatu perangkat lunak, ketik perintah berikut dan
+tekan tombol Enter (Catatan, “namapaket” sesuai dengan perangkat lunak yang
+ingin Anda hapus”).
+<code class="highlighter-rouge">blankon@blankon:~$ sudo apt-get remove namapaket</code></p>
+
+<p>Jika APT meminta pemasangan/penghapusan perangkat lunak yang dibutuhkan oleh
+perangkat lunak yang akan Anda pasang/hapus, Anda harus menyetujuinya dengan
+menekan tombol Y, lalu tekan Enter.
+     TIP: Untuk memasang/menghapus lebih dari satu paket perangkat lunak,
+     Anda bisa sebutkan lebih dari satu nama paket pada perintah APT yang
+     masing-masing nama paket dipisahkan dengan spasi. Contohnya, jika
+     ingin memasang perangkat lunak aplikasi Kino dan Audacity sekaligus,
+     Anda bisa ketik perintah berikut.
+<code class="highlighter-rouge">blankon@blankon:~$ sudo apt-get install kino audacity</code></p>
+
+<h3 id="pemasangan-melalui-berkas-deb">Pemasangan melalui Berkas DEB</h3>
+<p>Selain melalui lumbung paket, Anda juga bisa memasang suatu perangkat lunak
+yang didistribusikan dalam format berkas DEB. Untuk melakukan instalasi dari
+berkas paket DEB, Anda bisa klik ganda pada berkas DEB tersebut melalui
+peramban berkas, maka akan muncul jendela yang akan menuntun Anda dalam
+melakukan pemasangan.</p>
+
+<p>Pada jendela tersebut, Anda bisa klik tombol [&gt;Instal paket&lt;]. Maka paket
+tersebut akan diinstal ke komputer bersamaan dengan paket ketergantungannya
+menggunakan GDebi Paket Installer.</p>
+
+<h2 id="merawat-sistem">Merawat Sistem</h2>
+<p>Secara berkala Tim Pengembang BlankOn dan komunitas menerbitkan paket-paket
+perangkat lunak dengan versi yang lebih baru ke dalam lumbung. Jika komputer
+Anda terhubung ke Internet, maka keberadaan paket-paket baru tersebut akan
+diinformasikan kepada Anda. Jika Anda mau menerima paket-paket baru tersebut,
+maka sistem akan dimutakhirkan oleh APT dengan mengunduh dan memasang paket-
+paket itu.</p>
+
+<p>Dengan melakukan pemutakhiran berkala menjadikan sistem Anda terawat karena
+pada versi baru, biasanya telah dilakukan pemeriksaan dan perbaikan cacat yang
+telah diketahui sebelumnya. Kadangkala versi baru diterbitkan untuk menutup
+celah-celah keamanan yang ditemui pada suatu paket.
+Selain cara yang dibahas di atas, Anda bisa melakukan pemutakhiran sistem
+melalui terminal. Untuk melakukan hal ini, buka terminal melalui menu BlankOn &gt;
+Utilities &gt; Terminal. Lakukan pemeriksaan ketersediaan pemutakhiran dengan
+mengetik perintah seperti berikut, lalu tekan Enter:
+<code class="highlighter-rouge">blankon@blankon:~$ sudo apt-get update</code></p>
+
+<p>Kemudian, ketik perintah seperti berikut untuk melakukan pemutakhiran paket
+perangkat lunak, lalu tekan tombol Enter:
+<code class="highlighter-rouge">blankon@blankon:~$ sudo apt-get upgrade</code></p>
+
+<p>Jika Anda ingin memuktakhirkan paket termasuk paket ketergantungan yang ada
+di sistem sila menjalakan perintah berikut:
+<code class="highlighter-rouge">blankon@blankon:~$ sudo apt-get dist-upgrade</code></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> INGAT! Pastikan Anda terhubung dengan lumbung paket update agar
+ proses pemutakhiran bisa berjalan dengan lancar.
+</code></pre>
+</div>
+
+<p>Last modified on 02/12/2014 04:37:41 PM</p>
+
+<h4 id="attachments-5">Attachments (5)</h4>
+<ul>
+  <li>00Software-Updates.png​ (44.5 KB) - added by tuanpembual 3 years ago.</li>
+  <li>01GantiRepo.png​ (33.1 KB) - added by tuanpembual 3 years ago.</li>
+  <li>02Warsi.png​ (62.7 KB) - added by tuanpembual 3 years ago.</li>
+  <li>03Memasang-Aplikasi.png​ (146.4 KB) - added by tuanpembual 3 years ago.</li>
+  <li>04Menghapus-Aplikasi.png​ (144.7 KB) - added by tuanpembual 3 years ago.</li>
+</ul>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Latihan Menggunakan Git untuk Mengelola Tulisan | wiki</title>
+<meta property="og:title" content="Latihan Menggunakan Git untuk Mengelola Tulisan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/KelasGitSatu.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/KelasGitSatu.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Kelas/KelasGitSatu.html","publisher":null,"image":null,"headline":"Latihan Menggunakan Git untuk Mengelola Tulisan","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="latihan-menggunakan-git-untuk-mengelola-tulisan">Latihan Menggunakan Git untuk Mengelola Tulisan</h1>
+
+<p>Baru saja Tim Dokumentasi BlankOn XI Uluwatu mengadakan kelas daring dengan materi pengenalan Git bersama Pak Piko.</p>
+
+<p>Menurut Pak Piko, Git adalah <em>version control</em>. Git bisa diterapkan ke berbagai macam berkas; kode, skripsi, puisi, desain grafis, multimedia dan lain sebagainnya.</p>
+
+<p>Secara konvensional (tanpa <em>version control</em>), kita mungkin menulis skripsi dengan cara;</p>
+<ul>
+  <li>Pertama menulis Bab 1 dan menyimpannya menjadi <strong>Bab_1.odt</strong></li>
+  <li>Pada waktu berikutnya, misalnya minggu depannya kita menyunting Bab 1 dan menyimpannya menjadi berkas baru, misalnya <strong>Bab_1_revisi.odt</strong></li>
+  <li>Minggu depannya lagi kita mungkin menyunting lagi dan menyimpan lagi menjadi berkas baru lagi, misalnya <strong>- Bab_1_revisi_apadah_capek.odt</strong></li>
+</ul>
+
+<p>Sedangkan bila menggunakan <em>version control</em> seperti Git, maka kita cukup mengelola 1 berkas atau seperlunya. Adapun versi-versi dari berkas tersebut diurus oleh Git.</p>
+
+<p>Berikut adalah dokumentasi ketika saya mencoba menggunakan Git untuk mengelola tulisan. Semoga bermanfaat.</p>
+
+<h2 id="1-memasang-git-pada-blankon">1. Memasang Git pada BlankOn</h2>
+<ul>
+  <li>Klik menu <strong>BlankOn &gt; Perkakas Sistem &gt; Terminal</strong></li>
+  <li>
+    <p>Ketik:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install git
+</code></pre>
+    </div>
+  </li>
+  <li>Masukkan sandi</li>
+</ul>
+
+<h2 id="2-mengatur-informasi-pengguna">2. Mengatur Informasi Pengguna</h2>
+<p>Untuk mengatur informasi pengguna kita dapat menggunakan perintah git config;</p>
+
+  	git config –global user.name “[nama]”
+  	git config –global user.email “[alamat email]”
+
+<p>Contoh:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>  git config --global user.name "zaid"
+  	git config --global user.email "zaid@blankonmail.or.id"
+</code></pre>
+</div>
+
+<h2 id="3-menyiapkan-tempat">3. Menyiapkan Tempat</h2>
+<ul>
+  <li>
+    <p><strong>Membuat folder</strong></p>
+
+    <p>Contoh: Kita akan membuat folder dengan nama LatihanGit
+  	mkdir LatihanGit</p>
+  </li>
+  <li>
+    <p>**Pindah folder **
+	cd LatihanGit</p>
+  </li>
+  <li>
+    <p><strong>Inisiasi Git</strong>
+	git init</p>
+  </li>
+</ul>
+
+<h2 id="4-mulai-menulis">4.	Mulai Menulis</h2>
+<ul>
+  <li>Menulis Bab 1
+	touch panduan.md
+	echo “#Bab 1” &gt; panduan.md</li>
+</ul>
+
+<p>Perintah <strong>touch</strong> dan <strong>echo</strong> tidak termasuk perintah Git. Perintah <strong>touch [nama berkas]</strong> digunakan untuk membuat berkas baru sekaligus menentukan namanya. Adapaun perintah <strong>echo [“tulisan”] &gt; [ nama berkas]</strong> digunakan untuk memasukkan tulisan ke dalam berkas. Perintah di atas akan mengisi berkas <strong>panduan.md</strong> dengan tulisan <strong>#Bab 1</strong>.</p>
+
+<ul>
+  <li>Menambahkan ke git dengan perintah <strong>git add .</strong> dan <strong>git commit -m [‘komentar’]</strong>.
+	git add .
+	git commit -m ‘tulis bab 1’</li>
+</ul>
+
+<p>Perintah <strong>git add .</strong> digunakan untuk menambahkan berkas yang ada ke dalam catatan indeks Git, sedangkan perintah <strong>git commit -m [‘pesan atau catatan’]</strong> digunakan untuk menyimpan dan mencatat versi terbaru dari suatu berkas.</p>
+
+<ul>
+  <li>Melihat isi dengan perintah <strong>cat</strong>
+  cat panduan.md</li>
+</ul>
+
+<p>Perintah <strong>cat</strong> tidak termasuk perintah Git. Perintah <strong>cat [nama berkas]</strong> digunakan untuk melihat isi dari suatu berkas secara langsung di terminal (tanpa membuka berkas tersebut.</p>
+
+<ul>
+  <li>Menulis Bab selanjutnya dengan cara yang sama (Menulis/menambahkan suatu bab baru dengan perintah <strong>echo »</strong>, menambahkan ke dalam catatan indeks Git dengan perintah <strong>add .</strong>, dan menyimpan perubahan ke dalam Git dengan perintah <strong>commit</strong>. Contoh;
+	echo “#Bab 2” » panduan.md
+	git add .
+	git commit -m ‘tulis bab 2’
+	cat panduan.md
+	echo “#Bab 3” » panduan.md
+	git add .
+	git commit -m ‘tulis bab 3’
+	cat panduan.md</li>
+</ul>
+
+<p>Catatan: perintah <strong>echo &gt;</strong> (dengan satu &gt;) digunakan untuk mengisi suatu berkas dengan tulisan baru, sedangkan perintah <strong>echo »</strong> (dengan dua &gt;) digunakan untuk menambahkan tulisan tanpa menghilangkan tulisan yang sudah ada.</p>
+
+<p>Dengan serangkaian perintah di atas, sekarang kita mempunyai berkas dengan nama <strong>panduan.md</strong> yang tersimpan di dalam folder <strong>LatihanGit</strong>.</p>
+
+<h2 id="5-melihat-log-git-dengan-perintah-git-log">5.	Melihat log Git dengan perintah <strong>git log</strong></h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git log Dengan perintah **git  log** kita dapat melihat catatan tentang commit-commit yang telah kita simpan. Berikut contoh dari hasil **git log**;
+  	
+commit 406b65c6031f820cb4788e1f54ad0830af673d0e
+Author: Zaid &lt;zaid@blankonmail.or.id&gt;
+Date:   Tue Mar 7 00:16:41 2017 +0700
+
+tulis bab 3
+
+commit 7404547cc0a5b7ff9bfb51622dd0e9abc14f7b74
+Author: Zaid &lt;dampu@gmail.com
+Date:   Tue Mar 7 00:16:41 2017 +0700
+
+tulis bab 2
+
+commit a28924476c3855d5cf24e30ae123a75cb1c089f
+Author: Zaid &lt;zaid@blankonmail.or.id
+Date:   Tue Mar 7 00:16:41 2017 +0700
+
+tulis bab 1
+</code></pre>
+</div>
+
+<h2 id="6-mengelola-tulisan-dengan-git">6.	Mengelola Tulisan dengan Git</h2>
+<ul>
+  <li>
+    <h3 id="kembali-ke-versi-awal-dengan-perintah-git-checkout-hashcommit">Kembali ke versi awal dengan perintah <strong>git checkout [hashcommit]</strong></h3>
+
+    <p>Misalnya kita ingin kembali ke tulisan versi kedua yang berisi Bab 1 dan Bab 2 saja, kita tidak perlu menghapus Bab 3. Dengan perintah
+    	git checkout 7404
+kita dapat kembali ke tulisan versi kedua yang baru berisi Bab 1 dan Bab 2 tanpa menghapus Bab 3 dan tanpa membuat berkas baru.</p>
+  </li>
+</ul>
+
+<p>7404 merupakan 4 karakter pertama dari commit hash yaitu commit <strong>tulis bab 2</strong>.</p>
+
+<p>Bila kita memeriksa isi berkas <strong>panduan.md</strong> maka kita akan melihat bahwa isi dari berkas tersebut hanya Bab 1 dan Bab 2</p>
+
+<ul>
+  <li>
+    <h3 id="menggabungkan-bab-1-dan-bab-3-meninggalkan-bab-2">Menggabungkan Bab 1 dan Bab 3 (Meninggalkan Bab 2)</h3>
+    <p>Bersambung ….</p>
+  </li>
+</ul>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

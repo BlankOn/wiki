@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>wiki | Wiki Pengembangan Proyek BlankOn</title>
+<meta property="og:title" content="wiki" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/RepositoriPengembangan.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/RepositoriPengembangan.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/RepositoriPengembangan.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <p>BlankOn
+ About_Trac
+    * About_Trac
+    * Preferences
+    * Login
+    * Help/Guide
+    * Wiki
+    * Roadmap
+    * Browse_Repository
+    * View_Reports
+[q                 ]
+    * BlankOn  /
+    * Wiki  /
+    * Infrastruktur  /
+    * RepositoriPengembangan
+Repositori pengembangan menggunakan repositori berversi.
+Lokasi cermin ada di /mnt/sdb1/repo-dev.</p>
+<h2 id="persiapan">Persiapan</h2>
+<h3 id="membuat-direktori">Membuat direktori</h3>
+<p>Dilakukan saat hendak membuat kode rilis baru (Meuligoe, Nanggar, Nanggar + 1,
+dsb)
+export NAMARILIS=<isi di="" sini="" nama="" rilisnya="">
+mkdir -p /mnt/sdb1/repo-dev/ftp-$NAMARILIS/{dists,pool}
+cd /home/irgsh/repo/dev/
+mkdir -p $NAMARILIS/dists/$NAMARILIS
+pushd $NAMARILIS
+ln -s /mnt/sdb1/repo-dev/ftp-$NAMARILIS/pool .
+popd</isi></p>
+<h3 id="membuat-berkas-konfigurasi">Membuat berkas konfigurasi</h3>
+<p>Dibuat di /home/irgsh/.mirror-$NAMARILIS.
+Isinya (contoh dari isi .mirror-jaunty)
+DIST=jaunty
+DEST=ftp-jaunty
+HOST=kambing.vlsm.org
+REPOPATH=ubuntu
+REPOS=”main/debian-installer main restricted universe multiverse”
+ARCHS=”i386 amd64”
+WORKDIR=”/mnt/sdb1/repo-dev/ubuntu”
+METHOD=rsync</p>
+<h2 id="kegiatan-sehari-hari">Kegiatan sehari-hari</h2>
+<h3 id="membuat-cermin-dari-upstream">Membuat cermin dari upstream</h3>
+<p>export NAMARILISUPSTREAM=<isi di="" sini="" nama="" rilis="" upstreamnya="">
+/home/irgsh/utils/mirror-repository.sh $NAMARILISUPSTREAM
+/home/irgsh/utils/release-repository.sh $NAMARILISUPSTREAM
+Pembaruan cermin upstream dapat dilakukan berkala sebelum melakukan Jahitan
+resmi.</isi></p>
+<h3 id="membuat-cermin-dari-blankon">Membuat cermin dari BlankOn</h3>
+<p>export NAMARILIS=<isi di="" sini="" nama="" rilis="" blankon="">
+/home/irgsh/utils/mirror-repository.sh $NAMARILIS
+/home/irgsh/utils/release-repository.sh $NAMARILIS
+Pembaruan cermin BlankOn dapat dilakukan berkala sebelum melakukan Jahitan
+harian.</isi></p>
+<h2 id="penggunaan">Penggunaan</h2>
+<p>Repositori digunakan dengan menuliskan baris berikut di sources.list pabrik CD:
+deb http://arsip.blankonlinux.or.id/dev/jaunty jaunty/current main restricted
+universe multiverse
+deb http://arsip.blankonlinux.or.id/dev/nanggar nanggar/current main restricted
+Kata current dapat digantikan dengan nomor versi yang digunakan pada suatu
+jahitan tertentu agar memperoleh hasil jahitan yang identik dengan jahitan yang
+dilakukan di dev.boi.
+Nomor versi terakhir dapat dilihat di (misalnya) URL berikut: ​http://
+arsip.blankonlinux.or.id/dev/nanggar/dists/nanggar/version
+Last modified on 01/12/2009 03:58:18 AM
+####</p>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

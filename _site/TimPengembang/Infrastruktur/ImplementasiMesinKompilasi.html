@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>wiki | Wiki Pengembangan Proyek BlankOn</title>
+<meta property="og:title" content="wiki" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/ImplementasiMesinKompilasi.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/ImplementasiMesinKompilasi.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/ImplementasiMesinKompilasi.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <p>BlankOn
+ About_Trac
+    * About_Trac
+    * Preferences
+    * Login
+    * Help/Guide
+    * Wiki
+    * Roadmap
+    * Browse_Repository
+    * View_Reports
+[q                 ]
+    * BlankOn  /
+    * Wiki  /
+    * Infrastruktur  /
+    * ImplementasiMesinKompilasi</p>
+<h2 id="persiapan">Persiapan</h2>
+<h3 id="mesin-kompilasi-pribadi">Mesin kompilasi pribadi</h3>
+<p>Mesin kompilasi dapat dibuat dengan metoda chroot pada komputer yang sudah
+terpasang Ubuntu di dalamnya. Dalam dokumen ini lingkungan pembangunan akan
+dilakukan pada direktori /konde-builder (Silakan ubah direktori ini sesuai
+dengan selera Anda). Gunakan nama lain bila suka. Gunakan Ubuntu versi terakhir
+(Feisty Fawn), dan lakukan:
+sudo apt-get install dchroot debootstrap
+sudo mkdir /konde-builder
+sudo debootstrap –variant=buildd –arch i386 feisty /konde-builder http://
+archive.ubuntu.com/ubuntu
+debootstrap akan mengunduh semua paket minimal dari Feisty dan menginstalnya
+pada direktori /konde-builder.
+Setelah selesai salin berkas /etc/resolv.conf ke dalam direktori /konde-builder
+ sudo cp /etc/resolv.conf /konde-builder/etc/resolv.conf
+Kemudian sunting berkas /etc/apt/sources.list di dalam /konde-builder
+sudo vi /konde-builder/etc/apt/sources.list
+lalu isi dengan:
+deb http://archive.ubuntu.com/ubuntu gutsy main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu gutsy-security main restricted universe
+multiverse
+Setelah itu kita boleh masuk ke /konde-builder
+sudo chroot /konde-builder
+dpkg-reconfigure locales
+Install beberapa paket awal yang diperlukan pada mesin kompilasi
+apt-get update
+apt-get install wget debconf devscripts gnupg nano
+Ingat, lakukan dalam /konde-builder, jika tidak maka yang akan diganti adalah
+konfigurasi mesin utama Anda!
+Kemudian perbarui semua paket dalam /konde-builder:
+apt-get update
+apt-get dist-upgrade
+Persiapan selesai, saat ini Anda punya dua distro aktif, Feisty (di komputer
+utama) dan Gutsy (di dalam /konde-builder). Mesin kompilasi siap digunakan.
+Sinkronkan basis data paket dengan Gutsy secara teratur (apt-get update &amp;&amp; apt-
+get upgrade).
+Mesin kompilasi pribadi ini nanti yang Anda gunakan untuk membuat, mengetes,
+dan menginstal paket yang Anda pelihara.</p>
+<h3 id="mesin-kompilasi-otomatis">Mesin kompilasi otomatis</h3>
+<p>Bila Anda juga ingin memasang mesin kompilasi otomatis maka instal dan
+konfigurasikan komponen pembangun, yaitu pbuilder:
+sudo apt-get install pbuilder
+pbuilder create
+Mesin kompilasi otomatis ini adalah mesin yang digunakan oleh proyek Konde
+untuk membuat kompilasi semua paket yang akan disertakan dalam Konde.</p>
+<h2 id="program-pembangun-otomatis">Program pembangun otomatis</h2>
+<p>…akan diisi nanti…</p>
+<h2 id="referensi">Referensi</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>* ​https://wiki.ubuntu.com/DebootstrapChroot ## Komentar
+* Ini ada script yang dipakai untuk membuat CD Ubuntu secara otomatis,
+  silakan untuk yg ingin lihat langsung download di ​https://
+  code.launchpad.net/~kamion/ubuntu-cdimage/mainline dan untuk tutorial
+  penggunaannya bisa dibaca melalui ​http://thaiopensource.org/development/
+  suriyan/wiki/MakeACD
+  -- AndyApdhani (2007-05-19 06:07:06)
+* Karena ini mesin kompilasi, mestinya wajib punya sources.list yang
+  mengacu ke paket-paket source kan?
+  deb-src http://archive.ubuntu.com/ubuntu gutsy main restricted universe
+  multiverse
+  deb-src http://security.ubuntu.com/ubuntu gutsy-security main restricted
+  universe multiverse
+  -- AndikaTriwidada (2007-05-26 13:42:37)
+* Andika: Tidak perlu pak, sebab paket kode sumber diambil langsung
+  menggunakan bazaar. Dia hanya perlu paket2 -dev saja -- mdamt KategoriInfra Last modified on 06/17/2008 12:20:55 AM #### 
+</code></pre>
+</div>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

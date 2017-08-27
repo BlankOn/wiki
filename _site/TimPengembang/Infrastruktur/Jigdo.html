@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>wiki | Wiki Pengembangan Proyek BlankOn</title>
+<meta property="og:title" content="wiki" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/Jigdo.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/Jigdo.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/Jigdo.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <p>BlankOn
+ About_Trac
+    * About_Trac
+    * Preferences
+    * Login
+    * Help/Guide
+    * Wiki
+    * Roadmap
+    * Browse_Repository
+    * View_Reports
+[q                 ]
+    * BlankOn  /
+    * Wiki  /
+    * Infrastruktur  /
+    * Jigdo</p>
+<h2 id="pengantar">Pengantar</h2>
+<p>​Jigdo adalah alat bantu Debian untuk mengunduh berkas cetakan CD (.iso). Jigdo
+sangat berguna pada kondisi Internet yang pas-pasan, karena Jigdo tidak
+mengunduh keseluruhan CD, melainkan membangun ulang cetakan CD berdasarkan
+perubahan-perubahan yang telah dilakukan dari rilis ke rilis. Walaupun Anda
+belum memiliki cetakan CD pada awalnya, jigdo masih tetap digunakan, karena
+jigdo akan membuat cetakan tersebut berdasarkan informasi yang ada di dalam
+berkas metadata jigdonya.</p>
+<h2 id="persiapan">Persiapan</h2>
+<p>Instal paket jigdo-file
+$ sudo apt-get install jigdo-file</p>
+<h2 id="tahap-pertama">Tahap pertama</h2>
+<p>Langkah-langkah berikut dilakukan pada kali pertama.</p>
+<ol>
+  <li>Buat direktori kerja
+Versi Meuligoe:
+$ mkdir -p ~/blankon/daily/20080922
+$ cd ~/blankon/daily/20080922
+Versi Nanggar:
+$ mkdir -p ~/blankon/daily/20090129
+$ cd ~/blankon/daily/20090129</li>
+  <li>Unduh berkas .jigdo dan .template
+Versi Meuligoe:
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20080922/meuligoe-
+alternate-i386.jigdo
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20080922/meuligoe-
+alternate-i386.template
+Versi Nanggar:
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20090129/nanggar-
+alternate-i386.jigdo
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20090129/nanggar-
+alternate-i386.template</li>
+  <li>Jalankan jigdo-lite
+Versi Meuligoe:
+$ jigdo-lite meuligoe-alternate-i386.jigdo
+Versi Nanggar:
+$ jigdo-lite nanggar-alternate-i386.jigdo</li>
+  <li>Saat ditanya “Files to scan:” tekan Enter untuk mengabaikan</li>
+  <li>Saat ditanya “Debian mirror ​http://ftp.debian.org/:” masukkan base URL
+dari mirror ubuntu terdekat, misalnya http://kambing.ui.edu/ubuntu/
+…
+country code such as <code class="highlighter-rouge">de', or a country name like </code>United
+States’, or a server name like `sunsite’.
+Debian mirror [http://debian.newdream.net]: http://kambing.ui.edu/ubuntu/</li>
+  <li>Tekan enter untuk memulai proses, bila berhasil di direktori aktif akan
+dibuat berkas meuligoe-alternate-i386.iso atau nanggar-alternate-
+i386.iso.
+    <h2 id="bila-ada-rilis-baru">Bila ada rilis baru</h2>
+    <p>Di sini kita dapat secara jelas melihat keuntungan menggunakan Jigdo. Bila ada
+rilis baru, kita tidak perlu mengunduh berkas .iso-nya, tapi cukup mengulangi
+langkah pertama di atas. Jigdo akan mengunduh paket-paket yang baru muncul pada
+rilis saat ini, mirip dengan apt-get upgrade.
+Untuk melakukannya kita lakukan pada direktori yang berbeda sebab kita masih
+membutuhkan berkas .iso pada rilis sebelumnya karena nama berkas .iso-nya
+menggunakan nama yang sama dengan rilis sebelumnya yaitu meuligoe-alternate-
+i386.iso atau nanggar-alternate-i386.iso</p>
+  </li>
+  <li>Kaitkan berkas .iso sebelumnya
+Versi Meuligoe:
+$ sudo mount -o loop ~/blankon/daily/20080922/meuligoe-alternate-i386.iso
+/mnt
+Versi Nanggar:
+$ sudo mount -o loop ~/blankon/daily/20090129/nanggar-alternate-i386.iso
+/mnt</li>
+  <li>Buat direktori kerja baru
+Versi Meuligoe:
+$ mkdir -p ~/blankon/daily/20080923
+$ cd ~/blankon/daily/20080923
+Versi Nanggar:
+$ mkdir -p ~/blankon/daily/20090129.1
+$ cd ~/blankon/daily/20090129.1</li>
+  <li>Unduh berkas .jigdo dan .template
+Versi Meuligoe:
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20080923/meuligoe-
+alternate-i386.jigdo
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20080923/meuligoe-
+alternate-i386.template
+Versi Nanggar:
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20090129.1/
+nanggar-alternate-i386.jigdo
+$ wget http://cdimage.blankonlinux.or.id/blankon/daily/20090129.1/
+nanggar-alternate-i386.template</li>
+  <li>Jalankan jigdo-lite
+Versi Konde:
+Versi Meuligoe:
+$ jigdo-lite meuligoe-alternate-i386.jigdo
+Versi Nanggar:
+$ jigdo-lite nanggar-alternate-i386.jigdo</li>
+  <li>Saat ditanya “Files to scan:” isi dengan “/mnt” atau lokasi lain tempat
+kita mengaitkan .iso rilis sebelumnya</li>
+  <li>Saat ditanya “Debian mirror ​http://ftp.debian.org/:” masukkan base URL
+dari mirror ubuntu terdekat, misalnya http://kambing.ui.edu/ubuntu/
+…
+country code such as <code class="highlighter-rouge">de', or a country name like </code>United
+States’, or a server name like `sunsite’.
+Debian mirror [http://debian.newdream.net]: http://kambing.ui.edu/ubuntu/</li>
+  <li>Tekan enter untuk memulai proses, bila berhasil di direktori aktif akan
+dibuat berkas meuligoe-alternate-i386.iso atau nanggar-alternate-
+i386.iso.</li>
+  <li>Lepaskan kaitan .iso rilis sebelumnya dan hapus bila perlu.
+$ sudo umount /mnt
+KategoriInfra
+Last modified on 01/29/2009 01:07:10 PM
+####</li>
+</ol>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

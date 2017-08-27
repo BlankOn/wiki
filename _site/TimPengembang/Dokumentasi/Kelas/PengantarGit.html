@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Apa Itu Git ? | wiki</title>
+<meta property="og:title" content="Apa Itu Git ?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/PengantarGit.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/PengantarGit.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Kelas/PengantarGit.html","publisher":null,"image":null,"headline":"Apa Itu Git ?","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="apa-itu-git-">Apa Itu Git ?</h1>
+
+<p>git adalah sebuah system versioning control (sistem kontrol versi) terdistribusi, ada istilah lain dari git ini adalah source code management software (aplikasi manajemen kode sumber), atau menurut wikipedia git adalah perangkat lunak pengontrol versi atau proyek manajemen kode perangkat lunak yang diciptakan oleh Linus Torvalds, yang pada awalnya ditujukan untuk pengembangan kernel Linux.</p>
+
+<p>#Bagaimana Menggunakan Git ?</p>
+
+<p>1.Instalasi Git</p>
+
+<p><strong>sudo apt-get install git-core</strong></p>
+
+<ul>
+  <li>Optional:</li>
+</ul>
+
+<p><strong>sudo apt-get install gitk</strong></p>
+
+<p>2.Konfigurasi Git</p>
+
+<p><strong>git config user.name ¨Dwi Sasongko S¨</strong></p>
+
+<p><strong>git config user.email ¨ruckuus@…¨</strong></p>
+
+<ul>
+  <li>Cek Output:</li>
+</ul>
+
+<p><strong>git config user.name</strong></p>
+
+<p><strong>git config user.email</strong></p>
+
+<p><strong>~/.gitconfig</strong></p>
+
+<ol>
+  <li>Clone Git Repository</li>
+</ol>
+
+<p><strong>​git://github.com/ruckuus/NgeGitting.git</strong></p>
+
+<p>4.Membuat Git Repository</p>
+
+<p><strong>git init</strong></p>
+
+<p><strong>git add</strong></p>
+
+<p>5.Status 
+untuk melihat status branch:</p>
+
+<p><strong>git status</strong></p>
+
+<p>6.Log</p>
+
+<p>untuk melihat status perubahan kode sumber:</p>
+
+<p><strong>git log</strong></p>
+
+<p>7.Branch</p>
+
+<p>pencabangan versi kode dengan tujuan tertentu, misalnya ada 10 pengembang, masing-masing mengerjakan fitur berbeda maka masing-masing bisa buat branch sendiri.</p>
+
+<p><strong>git branch</strong></p>
+
+<p><strong>git show-branch</strong></p>
+
+<p><strong>git checkout -b nama_cabang cabang_asal</strong></p>
+
+<p><strong>git checkout -b tambah_kecepatan master</strong></p>
+
+<p>tambah kecepatan mengikuti master, cabang_asal dapat berupa cabang atau tag
+untuk menghapus branch, lakukan perintah berikut:</p>
+
+<p><strong>git branch -D nama_branch</strong></p>
+
+<p>8.Commit</p>
+
+<p>commit perubahan di branch tertentu:</p>
+
+<p><strong>git commit -m ¨pesan dan kesan</strong>¨
+<strong>git commit -a -s</strong></p>
+
+<ul>
+  <li>mengulangi commit terakhir setelah menambah fitur baru:</li>
+</ul>
+
+<p><strong>git commit –amend</strong></p>
+
+<ul>
+  <li>mereset commit tapi mempertahankan perubahan:</li>
+</ul>
+
+<p><strong>git reset –soft HEAD</strong></p>
+
+<p>mereset commit tanpa mempertahankan perubahan:</p>
+
+<p><strong>git reset –hard HEAD</strong></p>
+
+<p>9.Patch</p>
+
+<ul>
+  <li>menghasilkan patch dari tiap commit:</li>
+</ul>
+
+<p><strong>git format-patch HEAD &lt;- satu patch perbedaan terakhir</strong></p>
+
+<p><strong>git format-patch HEAD~n &lt;- n perubahan dari HEAD</strong></p>
+
+<p>10.Melakukan Patch</p>
+
+<p><strong>git apply file-anuh-menganu-si-anuh.patch</strong></p>
+
+<p>11.Tag</p>
+
+<ul>
+  <li>menandai commit:</li>
+</ul>
+
+<p><strong>git tag versi commit_id</strong></p>
+
+<p>Contoh:</p>
+
+<p>git tag rc01 3bba5efb654b885a6be2735a9e635aeaf2714381</p>
+
+<p>berarti commit 3bba5efb654b885a6be2735a9e635aeaf2714381 ditandai dengan rc01</p>
+
+<p><strong>git tag versi commit_id</strong></p>
+
+<p>12.Merge</p>
+<ul>
+  <li>menggabungkan dari satu branch dengan branch sekarang:</li>
+</ul>
+
+<p><strong>git checkout master</strong></p>
+
+<p><strong>git merge tambah_kecepatan &lt;- gabungkan perubahan di tambah_kecepatan ke master</strong></p>
+
+<p>13.Rilis</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>**git archive –format=tar –prefix=NgeGitting/? HEAD</td>
+      <td>gzip &gt; ../rilis/anuh.tar.gz**</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>14.Pull</p>
+
+<ul>
+  <li>mengambil lalu menggabungkan perubahan yang terjadi di remote origin [.git/gitconfig]</li>
+</ul>
+
+<p><strong>git pull</strong></p>
+
+<p>15.Push</p>
+
+<ul>
+  <li>mengirimkan perubahan ke master</li>
+</ul>
+
+<p><strong>git push origin master</strong></p>
+
+<p>16.Clone Bare</p>
+
+<p>Anda butuh .git?</p>
+
+<p>git clone –bare REPO OUTPUT.git git clone –bare NgeGitting? NgeGitting?.git</p>
+
+<p>Sumber:</p>
+
+<p>1.​http://ruckuus.wordpress.com/2010/11/12/cara-murah-memakai-git/</p>
+
+<p>2.​http://110.139.14.100/aftian/irc/BlankOn/%23blankon.20101115.log</p>
+
+<p>3.​http://ha.hn.web.id/2010/11/16/belajar-git/</p>
+
+<p>4.​http://id.wikipedia.org/wiki/Git</p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

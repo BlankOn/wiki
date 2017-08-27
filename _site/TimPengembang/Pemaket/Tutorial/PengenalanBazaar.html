@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Tutorial PengenalanBazaar | wiki</title>
+<meta property="og:title" content="Tutorial PengenalanBazaar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Pemaket/Tutorial/PengenalanBazaar.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Pemaket/Tutorial/PengenalanBazaar.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Pemaket/Tutorial/PengenalanBazaar.html","publisher":null,"image":null,"headline":"Tutorial PengenalanBazaar","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="tutorial-pengenalanbazaar">Tutorial PengenalanBazaar</h1>
+<p>Bazaar (disingkat menjadi bzr) adalah salah satu aplikasi Version Control
+System (VCS) seperti halnya Subversion (svn), CVS, dan git. Berbeda dengan
+Subversion atau CVS yang bersifat terpusat, Bazaar memiliki sifat
+terdisitribusi seperti halnya git. Karena bersifat terdistribusi, maka tidak
+diperlukan satu buah server utama yang berisi informasi seluruh revisi yang
+pernah dilakukan. Seluruh informasi revisi akan selalu ada pada salinan
+repositori yang dibuat.</p>
+<h3 id="menggunakan-bazaar">Menggunakan Bazaar</h3>
+<p>Operasi-operasi dasar</p>
+<ol>
+  <li>Membuat repositori (init)</li>
+  <li>Menambahkan berkas atau direktori (add)</li>
+  <li>Menyimpan perubahan pada repositori (commit)</li>
+  <li>Menyalin sebuah repositori ke repositori lokal (branch)</li>
+  <li>Mengirim perubahan pada repositori lokal ke repositori lain (push)
+Operasi tambahan</li>
+  <li>Membuat tag</li>
+  <li>Mengecek status berkas</li>
+  <li>Mengatur nama dan email</li>
+  <li>Melihat perubahan antar revisi
+    <h4 id="membuat-repositori">Membuat Repositori</h4>
+    <p>Untuk menggunakan Bazaar, diperlukan adanya repositori kode sumber yang akan
+menampung seluruh perubahan yang dilakukan. Pembuatan repositori ini dilakukan
+dengan cara.
+$ bzr init
+Perintah tersebut akan membuat repositori pada direktori kerja yang aktif.
+Repositori dapat dikenali dengan adanya direktori .bzr. Direktori repositori
+ini berisi informasi bagi seluruh berkas pada direktori dan seluruh sub
+direktori kerja. Seluruh informasi terdapat dalam satu buah direktori ini dan
+tidak tersebar di seluruh direktori yang ada seperti halnya pada Subversion.
+Jika ingin menggunakan fasilitas tagging, tambahkan opsi –dirstate-tags pada
+saat membuat repositori.
+$ bzr init –dirstate-tags
+Dengan mengizinkan pembuatan tag, setiap revisi dapat diberi tanda khusus
+berupa nama yang mudah diingat. Sehingga tidak hanya berupa nomor revisi saja.
+Repositori Bazaar yang digunakan untuk menampung berkas-berkas paket untuk
+BlankOn menggunakan jenis repositori dengan fasilitas tagging seperti ini.</p>
+    <h4 id="menambahkan-berkas">Menambahkan Berkas</h4>
+    <p>Berkas maupun direktori yang ada di dalam direktori kerja tidak serta-merta
+menjadi berkas/direktori yang tercatat dan tersimpan di dalam repositori. Agar
+berkas/direktori tersebut dapat tersimpan di dalam repositori, maka berkas/
+direktori tersebut harus ditandai terlebih dahulu.
+Untuk menandai berkas/direktori agar dapat disimpan di dalam repositori, dapat
+digunakan perintah berikut.
+$ bzr add berkas1 berkas2 direktori1 direktori2 …
+Pemanggilan perintah di atas hanya bertujuan untuk menandai saja. Tidak
+bertujuan untuk benar-benar menyimpan berkas ke dalam repositori. Untuk
+menyimpannya, silakan baca bagian berikutnya.</p>
+    <h4 id="menyimpan-perubahan">Menyimpan Perubahan</h4>
+    <p>Setiap berkas yang sudah ditandai akan dipantau. Jika berkas tersebut mengalami
+perubahan, maka perubahan akan disimpan ke dalam repositori. Untuk menyimpan
+perubahan, gunakan perintah berikut.
+$ bzr commit
+Sebuah editor teks akan terbuka dan Anda diberi kesempatan untuk menuliskan
+catatan perubahan yang Anda lakukan. Tulis catatan dengan baik dan jelas
+sehingga rekan kerja Anda dapat memahami perubahan yang Anda lakukan.
+Jika Anda ingin melakukan penyimpanan dan penulisan catatan dalam satu langkah,
+gunakan perintah berikut.
+$ bzr commit -m “Catatan perubahan yang terjadi”</p>
+    <h4 id="menyalin-repositori">Menyalin Repositori</h4>
+    <p>Karena Bazaar bersifat terdistribusi, maka setiap operasi penyalinan akan
+menyalin seluruh repositori yang ada. Hal ini berarti Anda juga akan
+mendapatkan seluruh informasi revisi yang pernah dilakukan sebelumnya.
+Untuk menyalin repositori, gunakan perintah berikut.
+$ bzr branch url://menuju/repositori
+Contoh:
+$ bzr branch http://bazaar.launchpad.net/~blankon-pemaket/blankon/blankon-
+artwork
+Dengan melakukan perintah di atas, repositori blankon-artwork di launchpad.net
+akan disalin ke komputer Anda.</p>
+    <h4 id="mengirim-perubahan">Mengirim Perubahan</h4>
+    <p>Ada kalanya Anda ingin mengirim perubahan yang telah Anda simpan dalam
+repositori lokal ke sebuah repositori lain. Sebagai contoh, Anda ingin mengirim
+perubahan yang Anda lakukan ke repositori Bazaar yang ada di launchpad.net.
+Untuk melakukan hal tersebut, perintah berikut dapat digunakan.
+$ bzr push url://menuju/repositori
+Contoh:
+$ bzr push bzr+ssh://bazaar.launchpad.net/~blankon-pemaket/blankon/blankon-
+artwork/</p>
+    <h4 id="membuat-tag">Membuat Tag</h4>
+    <p>Jika Anda menggunakan jenis repositori yang mendukung pembuatan tag, maka Anda
+dapat memberi nama pada setiap revisi yang ada. Perintah untuk melakukan hal
+tersebut adalah sebagai berikut.
+$ bzr tag nama-tag
+Tag yang dibuat akan diberikan kepada revisi terakhir yang ada. Jadi, jika Anda
+ingin memberi tag pada perubahan yang telah Anda lakukan, pastikan Anda
+melakukan operasi commit terlebih dahulu.</p>
+    <h4 id="mengecek-status">Mengecek Status</h4>
+    <p>Untuk melihat status dari setiap berkas atau direktori yang ada pada direktori
+kerja, Anda dapat menggunakan perintah berikut.
+$ bzr status
+Jika ada berkas atau direktori yang tidak aktual mengikuti revisi terakhir,
+maka berkas/direktori tersebut akan diberi keterangan status, seperti removed,
+modified, added, dan unknown.
+    * removed berarti berkas/direktori tersebut tidak ditemukan dalam direktori
+kerja. Jika Anda melakukan operasi commit, maka berkas/direktori tersebut
+juga akan dihapus pada revisi terakhir (namun tetap ada pada revisi-
+revisi sebelumnya)
+    * modified berarti berkas tersebut sudah mengalami perubahan
+    * added berarti berkas/direktori tersebut adalah berkas/direktori baru yang
+belum pernah ada di dalam repositori dan akan dimasukkan ke dalam
+repositori
+    * unknown berarti berkas/direktori tersebut tidak ditemukan di dalam
+repositori dan tidak akan dimasukkan ke dalam repositori pada saat
+melakukan operasi commit.</p>
+    <h4 id="mengatur-nama-dan-email">Mengatur Nama dan Email</h4>
+    <p>Setiap revisi yang ada akan mengandung informasi pengguna yang membuat revisi
+tersebut. Untuk mengaturnya, gunakan perintah berikut.
+$ bzr whoami “Nama Anda <a href="mailto:email@anda.id">email@anda.id</a>”
+Untuk mengecek nama yang sedang digunakan, jalankan perintah berikut.
+$ bzr whoami
+Untuk membuka bzr yang sedang terkunci, jalankan perintah berikut.
+$ bzr break-lock  bzr+ssh</p>
+    <h4 id="melihat-perubahan">Melihat Perubahan</h4>
+    <p>Untuk melihat perubahan yang terjadi antara revisi terakhir yang tersimpan dan
+revisi yang masih ada dalam direktori kerja Anda, perintah berikut dapat
+digunakan.
+$ bzr diff
+Sebuah informasi perubahan dengan format diff akan ditampilkan.
+Jika Anda ingin membandingkan dua revisi spesifik, gunakan perintah berikut.
+$ bzr diff -rX..Y
+Nilai X dan Y menunjuk ke nomor revisi dari revisi yang ingin Anda bandingkan.
+KategoriPemaket
+Last_modified 7 months ago Last modified on 09/28/2016 01:39:58 PM
+####</p>
+  </li>
+</ol>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

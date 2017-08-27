@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Pembuatan ISO | wiki</title>
+<meta property="og:title" content="Pembuatan ISO" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/PembuatanISO.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/PembuatanISO.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Kelas/PembuatanISO.html","publisher":null,"image":null,"headline":"Pembuatan ISO","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      
+<h1 id="pembuatan-iso">Pembuatan ISO</h1>
+
+<p>1.Install genisoimage</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ sudo apt-get install genisoimage
+</code></pre>
+</div>
+
+<p>2.Generate menjadi iso image</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ genisoimage -v -A BlankOnCDFactory -p BlankOn -publisher BlankOn -V "BlankOnSaya" -no-emul-boot -boot-load-size 4 -boot-info-table -r -b isolinux/isolinux.bin -c isolinux/boot.cat -o binary.iso -J -l -cache-inodes -allow-multidot binary
+</code></pre>
+</div>
+
+<p>#####Keluaran:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Warning: creating filesystem that does not conform to ISO-9660.
+I: -input-charset not specified, using utf-8 (detected in locale settings)
+genisoimage 1.1.6 (Linux)
+Scanning binary
+Scanning binary/isolinux
+Excluded by match: binary/isolinux/boot.cat
+Scanning binary/casper
+genisoimage: Permission denied. File binary/casper/filesystem.squashfs is not readable - ignoring
+Writing:   Initial Padblock                        Start Block 0
+Done with: Initial Padblock                        Block(s)    16
+Writing:   Primary Volume Descriptor               Start Block 16
+Done with: Primary Volume Descriptor               Block(s)    1
+Writing:   Eltorito Volume Descriptor              Start Block 17
+Size of boot image is 4 sectors -&gt; No emulation
+Done with: Eltorito Volume Descriptor              Block(s)    1
+Writing:   Joliet Volume Descriptor                Start Block 18
+Done with: Joliet Volume Descriptor                Block(s)    1
+Writing:   End Volume Descriptor                   Start Block 19
+Done with: End Volume Descriptor                   Block(s)    1
+Writing:   Version block                           Start Block 20
+Done with: Version block                           Block(s)    1
+Writing:   Path table                              Start Block 21
+Done with: Path table                              Block(s)    4
+Writing:   Joliet path table                       Start Block 25
+Done with: Joliet path table                       Block(s)    4
+Writing:   Directory tree                          Start Block 29
+Done with: Directory tree                          Block(s)    3
+Writing:   Joliet directory tree                   Start Block 32
+genisoimage: Unexpected joliet directory length 164 expected: 168 ''
+Done with: Joliet directory tree                   Block(s)    3
+Writing:   Directory tree cleanup                  Start Block 35
+Done with: Directory tree cleanup                  Block(s)    0
+Writing:   Extension record                        Start Block 35
+Done with: Extension record                        Block(s)    1
+Writing:   The File(s)                             Start Block 36
+ 87.96% done, estimate finish Fri Oct 31 19:51:40 2008
+Total translation table size: 2048
+Total rockridge attributes bytes: 1813
+Total directory bytes: 4574
+Path table size(bytes): 40
+Done with: The File(s)                             Block(s)    5502
+Writing:   Ending Padblock                         Start Block 5538
+Done with: Ending Padblock                         Block(s)    150
+Max brk space used 0
+5688 extents written (11 MB)
+</code></pre>
+</div>
+
+<p>3.Akan tercipta file binary.iso</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ ls
+binary  binary.iso  chroot  pabrik-cd
+</code></pre>
+</div>
+
+<p>4.Siap dicoba. Screenshot di attachment</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Last modified 9 years ago Last modified on 10/31/2008 08:37:38 PM
+Attachments (1)
+</code></pre>
+</div>
+<p>Screenshot-ubuntu (LiveCD-snapshot1) [Running] - VirtualBox OSE.png (22.1 KB) - added by kholis 9 years ago.</p>
+
+<p>Download all attachments as:.<a href="dev.blankonlinux.or.id/zip-attachment/wiki/Dokumentasi/Lokakarya/MembuatLiveCD/PembuatanISO/">zip</a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

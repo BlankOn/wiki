@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Install Program dpkg | wiki</title>
+<meta property="og:title" content="Install Program dpkg" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Draf/InstallProgramDpkg.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Draf/InstallProgramDpkg.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Draf/InstallProgramDpkg.html","publisher":null,"image":null,"headline":"Install Program dpkg","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="install-program-dpkg">Install Program dpkg</h1>
+
+<h3 id="tentang-dpkg">Tentang dpkg</h3>
+
+<p>dpkg adalah perangkat lunak dasar pada sistem manajemen paket Debian. Tool dpkg digunakan untuk memasang, menghapus, dan memberikan informasi tentang 
+paket yang berupa berkas .deb (debian package).</p>
+
+<h3 id="menggunakan-dpkg">Menggunakan dpkg</h3>
+<ul>
+  <li>
+    <p>Memasang paket .deb:
+<code class="highlighter-rouge">$ sudo dpkg -i &lt;NamaBerkasdeb&gt;</code>
+Dengan <NamaBerkasdeb> adalah nama berkas paket Debian.</NamaBerkasdeb></p>
+  </li>
+  <li>
+    <p>Untuk melihat daftar paket yang sudah terpasang:
+<code class="highlighter-rouge">$ sudo dpkg -l</code></p>
+  </li>
+  <li>
+    <p>Untuk menghapus paket:
+<code class="highlighter-rouge">$ sudo dpkg -r &lt;nama paket&gt;</code></p>
+  </li>
+</ul>
+
+<h3 id="studi-kasus">Studi Kasus</h3>
+<p>Apabila kita ingin mengingankan memasang paket ​tema_ikon_kamonesan maka caranya adalah:</p>
+
+<p><strong>Unduh paket</strong>
+Unduh paket dari Repository</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ wget -c http://arsip.blankonlinux.or.id/blankon/pool/main/k/kamonesan-icon-
+theme/kamonesan-icon-theme_0.1-0blankon1_all.deb
+</code></pre>
+</div>
+
+<p><strong>Pasang paket dalam sistem</strong>
+Silakan pasang paket tersebut ke dalam sistem anda
+$ sudo dpkg -i kamonesan-icon-theme_0.1-0blankon1_all.deb</p>
+
+<p><strong>Hapus paket dari sistem</strong>
+Untuk menghapus paket dari sistem, lakukan perintah berikut
+<code class="highlighter-rouge">$ sudo dpkg -r kamonesan-icon-theme_0.1-0blankon1_all.deb</code></p>
+
+<p><em>** Problem **</em>
+Bila terjadi kegagalan saat memasang paket di sistem anda, ada beberapa kemungkinan terjadi kegagalan :</p>
+<ol>
+  <li>Ketergantungan paket, silakan install paket-paket yang di perlukan oleh paket tersebut.</li>
+  <li>Anda tidak mempunyai hak root, silakan coba dengan  sudo dpkg -i paket_yang_akan_di_install</li>
+  <li>Ruang kosong dalam harddisk anda kurang.</li>
+</ol>
+
+<p>Last modified on 06/12/2010 01:21:13 PM</p>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

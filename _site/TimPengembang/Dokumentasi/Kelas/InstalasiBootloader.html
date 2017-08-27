@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Instalasi Bootloader | wiki</title>
+<meta property="og:title" content="Instalasi Bootloader" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/InstalasiBootloader.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/InstalasiBootloader.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Kelas/InstalasiBootloader.html","publisher":null,"image":null,"headline":"Instalasi Bootloader","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="instalasi-bootloader">Instalasi Bootloader</h1>
+
+<p>Kita pakai syslinux, Pakai grub juga boleh kalau mau.
+1.Install syslinux dalam chroot</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ sudo chroot chroot apt-get install syslinux
+</code></pre>
+</div>
+<h5 id="keluaran">Keluaran:</h5>
+<div class="highlighter-rouge"><pre class="highlight"><code>Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  mtools
+Suggested packages:
+  floppyd
+The following NEW packages will be installed:
+  mtools syslinux
+0 upgraded, 2 newly installed, 0 to remove and 3 not upgraded.
+Need to get 617kB of archives.
+After this operation, 1380kB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+Get:1 http://kambing.ui.edu intrepid/main mtools 3.9.11-1 [207kB]
+Get:2 http://kambing.ui.edu intrepid/main syslinux 2:3.63+dfsg-2ubuntu3 [410kB]
+Fetched 617kB in 0s (687kB/s)    
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+        LANGUAGE = (unset),
+        LC_ALL = (unset),
+        LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Selecting previously deselected package mtools.
+(Reading database ... 11773 files and directories currently installed.)
+Unpacking mtools (from .../mtools_3.9.11-1_amd64.deb) ...
+Selecting previously deselected package syslinux.
+Unpacking syslinux (from .../syslinux_2%3a3.63+dfsg-2ubuntu3_amd64.deb) ...
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Setting up mtools (3.9.11-1) ...
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+        LANGUAGE = (unset),
+        LC_ALL = (unset),
+        LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+Setting up syslinux (2:3.63+dfsg-2ubuntu3) ...
+</code></pre>
+</div>
+
+<p>2.Siapkan direktori syslinux</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ mkdir -p binary/isolinux
+~/livecd$ ls binary/
+casper  isolinux
+</code></pre>
+</div>
+<p>3.Salin program isolinux.bin dari dalam chroot ke direktory binary/isolinux</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ cp chroot/usr/lib/syslinux/isolinux.bin binary/isolinux
+~/livecd$ ls binary/isolinux/
+isolinux.bin
+</code></pre>
+</div>
+<p>4.Buat berkas bernama binary/isolinux/isolinux.cfg, isi dengan</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>DEFAULT /casper/vmlinuz
+GFXBOOT bootlogo
+APPEND  boot=casper initrd=/casper/initrd.img  boot=casper union=aufs
+
+LABEL live
+   menu label IniDiaBlankOnLive
+   kernel /casper/vmlinuz
+   append initrd=/casper/initrd.img boot=casper union=aufs
+
+TIMEOUT 300
+PROMPT 1
+</code></pre>
+</div>
+
+<p>5.Salin squashfs tadi ke direktori binary/casper</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ cp chroot/filesystem.squashfs binary/casper
+cp: cannot open `chroot/filesystem.squashfs' for reading: Permission denied
+~/livecd$ sudo cp chroot/filesystem.squashfs binary/casper
+~/livecd$ ls -al binary/casper/
+total 177168
+-rwx------ 1 root   root   170156032 2008-10-31 19:39 filesystem.squashfs
+-rw-r--r-- 1 kholis kholis   8721650 2008-10-31 19:16 initrd.img
+-rw-r--r-- 1 kholis kholis      2045 2008-10-31 19:22 parameters.txt
+-rw-r--r-- 1 kholis kholis   2339712 2008-10-31 19:16 vmlinuz
+</code></pre>
+</div>
+<p>6.Ambil data bawaan syslinux dan gfxboot di bazaar dev.blankonlinux.or.id</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ bzr branch http://dev.blankonlinux.or.id/bzr/meuligoe/pabrik-cd/
+Branched 3 revision(s).                                                                                                                                                           
+~/livecd$ ls
+binary  chroot  pabrik-cd
+</code></pre>
+</div>
+
+<p>7.Copy data dari bzr tadi</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/livecd$ cp pabrik-cd/blankon-cd-factory/syslinux/* binary/isolinux
+~/livecd$ cp pabrik-cd/data/meuligoe/cdlive/syslinux/* binary/isolinux
+</code></pre>
+</div>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

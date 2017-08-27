@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Panduan Umum Pemaket | wiki</title>
+<meta property="og:title" content="Panduan Umum Pemaket" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Pemaket/PanduanUmumPemaket.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Pemaket/PanduanUmumPemaket.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Pemaket/PanduanUmumPemaket.html","publisher":null,"image":null,"headline":"Panduan Umum Pemaket","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="panduan-umum-pemaket">Panduan Umum Pemaket</h1>
+<ol>
+  <li>Kolom “Maintainer:” pada debian/control diganti ke: BlankOn-Developers
+<a href="mailto:BlankOn@googlegroups.com">BlankOn@googlegroups.com</a> berlaku untuk paket khas dan paket impor</li>
+  <li>Gunakan Bahasa Indonesia pada paket khas blankon</li>
+  <li>Beberapa berkas yang wajib ada dalam direktori debian/
+    o Berkas copyright, standar ​format_penulisannya adalah sebagai
+      berikut:
+This package was debianized by NAMA ANDA <a href="mailto:alamat@email">alamat@email</a> on
+DATE.</li>
+</ol>
+
+<p>It was downloaded from: http://www.alamat.download/foo.bar.tgz</p>
+
+<p>Upstream Authors:
+	Nama 1 &lt;alamat@email1&gt;
+	Nama 2 &lt;alamat@email2&gt;
+	Nama 3 &lt;alamat@email3&gt;</p>
+
+<p>Copyright:</p>
+
+<p>(c) 2001-2007 Pemegang hak cipta</p>
+
+<p>License:</p>
+<Ganti dengan="" isi="" lisensi="" yang="" dipergunakan="" aplikasi="" tersebut="">
+    * Contoh:
+      This package was debianized by Guilherme de S. Pastore
+      &lt;gpastore@colband.com.br&gt; on
+      Mon, 8 Aug 2005 22:14:55 -0300.
+
+      It was downloaded from http://ftp.gnome.org/pub/GNOME/sources/eog/
+
+      Upstream Authors: Tim Gerla &lt;tim+gnomebugs@gerla.net&gt;
+      		  Philip Van Hoof &lt;pvanhoof@gnome.org&gt;
+      		  Paolo Borelli &lt;pborelli@katamail.com&gt;
+      		  Jens Finke &lt;jens@triq.net&gt;
+      		  Federico Mena Quintero &lt;federico@gnu.org&gt;
+      		  Arik Devens &lt;arik@gnome.org&gt;
+      		  Michael Meeks &lt;michael@ximian.com&gt;
+      		  Martin Baulig &lt;baulig@suse.de&gt;
+
+      Copyright:
+
+      Copyright (C) 2000-2004 The Free Software Foundation
+
+      License:
+
+          This program is free software; you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+          the Free Software Foundation; either version 2 of the License, or
+          (at your option) any later version.
+
+          You should have received a copy of the GNU General Public License
+          along with this program; if not, write to the Free Software
+      Foundation, Inc.,
+          51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+
+          On Debian Systems, the full text of the license can be found on
+          /usr/share/common-licenses/GPL
+
+
+
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)
+
+
+
+</Ganti>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

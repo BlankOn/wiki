@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Belajar Git dan GitHUb Bersama Pak Piko (sesi ke-2) | wiki</title>
+<meta property="og:title" content="Belajar Git dan GitHUb Bersama Pak Piko (sesi ke-2)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/KelasGitDua.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/KelasGitDua.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Kelas/KelasGitDua.html","publisher":null,"image":null,"headline":"Belajar Git dan GitHUb Bersama Pak Piko (sesi ke-2)","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="belajar-git-dan-github-bersama-pak-piko-sesi-ke-2"><strong>Belajar Git dan GitHUb Bersama Pak Piko (sesi ke-2)</strong></h1>
+
+<p><em>Sebuah catatan kuliah murid tingkat pemula</em></p>
+
+<p>Materi		: Bermain Git di awan dan Berkolaborasi</p>
+
+<p>Pemateri	: Pak Herpiko Dwi Aguno</p>
+
+<p>Kelas ini merupakan kelas lanjutan. Pada kelas sebelumnya kita sudah membahas siklus git di lokal. Sekarang, kita akan coba bermain git di awan dan berkolaborasi.</p>
+
+<p>Seperti biasa, bentuk kelas ini adalah diskusi bebas. Siapa saja bebas memotong percakapan dan langsung bertanya. Peserta kelas yang memiliki jawaban lebih baik dan jelas bisa langsung diutarakan.</p>
+
+<p>Ada beberapa penyedia layanan kolaborasi git di internet, seperti github, bitbucket, gitlab. Di sini kita akan pakai github. Layanan ini digunakan sebagai remote repository, dimana kita bisa menyimpan berkas-berkas kita, lengkap dengan catatan versi-versinya.</p>
+
+<p>Salah satu contoh remote repositori adalah <a href="http://github.com/blankon/wiki">http://github.com/blankon/wiki</a>. Kata ‘blankon’ mewakili user atau group pemilik repo. Sedangkan kata ‘wiki’ mewakili nama repo. Repo‐repo seperti ini bisa di‐<code class="highlighter-rouge">forking</code>, yaitu disalin ke akun kita.</p>
+
+<p>Sebelum lanjut, yang ikut kelas mohon menyiapkan akun github.</p>
+
+<p>Gambaran siklus kolaborasi github seperti ini :</p>
+<ul>
+  <li>BlankOn membuat proyek wiki di lokal</li>
+  <li>BlankOn mendorong proyeknya ke Github, akhirnya beralamat di <code class="highlighter-rouge">github.com/blankon/wiki</code></li>
+  <li>Adi ingin berkontribusi atau kolaborasi ke proyek wiki</li>
+  <li>Adi mengunduh proyek wiki ke lokalnya, lalu melakukan penambahan atau perubahan</li>
+  <li>Adi ingin mendorong perubahannya ke repo milik BlankOn dengan cara;
+    <ul>
+      <li>mendorong terlebih dahulu ke repo sendiri,</li>
+      <li>lalu mengajukan proposal ke repo milik Budi.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Skenario lain :</p>
+<ul>
+  <li>Adi melakukan <em>forking</em> dari repo milik BlankOn. Sekarang Adi mempunyai repo wiki sendiri yang beralamat di <code class="highlighter-rouge">github.com/adi/wiki</code></li>
+  <li>Adi mengunduh berkas dari reponya sendiri, melakukan perubahan, kemudian mendorong perubahannya kembali ke reponya sendiri</li>
+  <li>dari reponya sendiri, Adi mengajukan proposal perubahan ke repo milik Budi. Saat proposal masuk ke repo milik Budi, Budi bisa memilih untuk menerima maupun menolak proposal tersebut, berdiskusi dan lain sebagainya.</li>
+</ul>
+
+<p><em>Forking</em> adalah proses menyalin sebuah repositori ke akun milik kita. Hasil dari forking adalah kita memiliki repositori dan berhak kita kelola sendiri. Pada dasarnya, kita hanya berhak mengotak-atik repositori milik kita sendiri. Pada contoh di atas, hanya BlankOn yang boleh mengotak-atik <code class="highlighter-rouge">github.com/blankon/wiki</code>. Dan hanya Adi yang boleh mengotak-atik <code class="highlighter-rouge">github.com/adi/wiki</code>.</p>
+
+<p>Untuk mengikuti kelas ini, kita perlu;</p>
+<ol>
+  <li>Memasang git di komputer kita</li>
+  <li>Mengatur Informasi Pengguna</li>
+  <li>Buat folder atau direktori</li>
+  <li>Masuk ke folder atau direktori tersebut</li>
+  <li>Inisiasi</li>
+  <li>Membuat sebuah berkas / file</li>
+  <li>Menambahkan berkas ke dalam git</li>
+  <li>Menambahkan commit</li>
+  <li>Membuat akun di <a href="https://github.com">github.com</a></li>
+</ol>
+
+<p>Ketujuh langkah di atas dapat dilakukan dengan perintah-perintah berikut ini;</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install git
+git config --global user.name "[nama]"
+git config --global user.email "[alamat email]"
+mkdir puisidong
+cd puisidong
+git init
+touch hai.txt
+git add hai.txt
+</code></pre>
+</div>
+
+<h2 id="membuat-repository">Membuat Repository</h2>
+
+<ol>
+  <li>
+    <p>Buka <a href="http://github.com">github.com</a>. Setelah login, di pojok ada simbol plus. Klik <strong>New repository</strong>. Kita akan membuat repo di akun masing-masing.
+  <img src="https://github.com/FaiqAminuddin/BlankOn-Uluwatu-Dokumentasi/blob/master/gambar/1.png" alt="Gambar 1: New Repository" title="New Repository" /></p>
+  </li>
+  <li>
+    <p>Isikan nama repo di Repository name</p>
+  </li>
+</ol>
+
+<p>Isian yang lain silakan disesuaikan. Jika sukses, masing-masing peserta akan punya repository baru yang beralamat di <code class="highlighter-rouge">https://github.com/'namamu'/puisidong</code>. Misalnya <a href="https://github.com/herpiko/puisidong">https://github.com/herpiko/puisidong</a></p>
+
+<p><img src="https://github.com/FaiqAminuddin/BlankOn-Uluwatu-Dokumentasi/blob/master/gambar/2.png" alt="Gambar 2: Repository name " title="Nama Repositori" /></p>
+
+<ol>
+  <li>
+    <p>Masuk ke direktori kerja yang telah kita buat untuk praktek atau latihan git.</p>
+
+    <blockquote>
+      <p>git commit -m ‘hai’</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p>Dari halaman <a href="https://github.com/herpiko/puisidong">puisidong</a> kita dapat melihat dua jenis alamat; HTTPS dan SSH. Kedua alamat tersebut adalah alamat repositoru yang kita buat. Misalnnya: https://github.com/herpiko/puisidong.git. Sementara, kita salin alamat HTTPS‐nya.</p>
+
+<p><img src="https://github.com/FaiqAminuddin/BlankOn-Uluwatu-Dokumentasi/blob/master/gambar/3.png" alt="Gambar 3: Alamat Repositori " title="Alamat Repositori" /></p>
+
+<h2 id="meremote-repositori-ke-dalam-direktori-kerja">Meremote Repositori ke dalam Direktori Kerja</h2>
+<ol>
+  <li>
+    <p>Kembali ke terminal dan masuk ke direktori kerja. Ketik perintah git remote add origin ‘alamat https yang tadi disalin’ misalnya https://github.com/herpiko/puisidong.git</p>
+
+    <blockquote>
+      <p>git remote add origin https://github.com/’namamu’/puisidong.git</p>
+    </blockquote>
+
+    <blockquote>
+      <p>git remote -v</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p>Perintah <code class="highlighter-rouge">git remote add origin [alamat repo]</code> ini berfungsi untuk meletakkan alamat repo git tadi ke direktori kerja git kita. Sedangkan <code class="highlighter-rouge">git remote -v</code> berfungsi untuk melihat daftar repositori yang kita kelola.</p>
+
+<h2 id="menarik-berkas-dari-repositori-di-github">Menarik Berkas dari Repositori di GitHub</h2>
+<p>Jalankan perintah;
+	&gt; git fetch origin</p>
+
+<h2 id="menggabungkan-berkas-dari-repositori-di-github-dan-berkas-git-lokal">Menggabungkan Berkas dari Repositori di GitHub dan Berkas Git Lokal</h2>
+<p>Langkah ini dapat dilewati jika Repositori di GitHub masih kosong. Untuk menggabungkan berkas sekaligus mengurutkan kembali urutan commit, dapat kita gunakan perintah;
+	&gt; git rebase -i origin/master</p>
+
+<p>Bila muncul teks editor, simpan saja. Setelah selesai, akan ada pesan <strong>Successfully rebased ……</strong></p>
+
+<h2 id="mendorong-berkas-git-lokal-ke-repositori-di-github">Mendorong Berkas Git Lokal ke Repositori di GitHub</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; git push origin master
+</code></pre>
+</div>
+
+<h2 id="mengunduh-berkas-berkas-dari-repository-di-github-ke-git-lokal">Mengunduh Berkas-berkas dari Repository di GitHub ke Git Lokal</h2>
+<p>Kita dapat menggunakan perintah <code class="highlighter-rouge">git clone [alamat repo]</code>. Contoh: git clone https://github.com/herpiko/puisidong.git
+	&gt; git clone [alamat repomu]</p>
+
+<p>Perintah <code class="highlighter-rouge">git clone [alamat repo]</code> ini akan memerintah kepada Git untuk mengunduh berkas-berkas dari suatu repositori. Pada latihan kali ini, perintah <code class="highlighter-rouge">git clone</code> akan mengunduh berkas-berkas dari https://github.com/’namamu’/puisidong dan menyimpannya pada direktori baru dengan nama <strong>puisidong</strong>. Direktori ini sudah terinisiasi dengan git, sudah ada daftar commitnya, dan sudah punya alamat repo remote <em>default</em>, yaitu <strong>origin</strong>.</p>
+
+<p>Setelah proses <code class="highlighter-rouge">clone</code> selesai, kita dapat bekerja misalnya mengubah dan atau menambahkan suatu berkas. Setiap kali melakukan perubahan, kita perlu mencatat commit-nya pada git dan mendorongnya ke github.com dengan perintah <code class="highlighter-rouge">pull</code>. Cara kerja seperti ini dapat dijadikan sebagai salah satu sistem cadangan/<em>back up</em> berkas.</p>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

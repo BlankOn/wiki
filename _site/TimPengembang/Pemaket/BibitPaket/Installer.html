@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Bibit Paket | wiki</title>
+<meta property="og:title" content="Bibit Paket" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Pemaket/BibitPaket/Installer.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Pemaket/BibitPaket/Installer.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Pemaket/BibitPaket/Installer.html","publisher":null,"image":null,"headline":"Bibit Paket","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h2 id="bibit-paket">Bibit Paket</h2>
+<h1 id="installer">Installer</h1>
+
+<p>This list was originally constructed based on a [http://people.debian.org/
+~cjwatson/d-i/ list of packages in the current d-i netinst images], and from
+initrd.list files in d-i daily builds.
+= Common Packages =</p>
+<ul>
+  <li>anna</li>
+  <li>apt-cdrom-setup</li>
+  <li>apt-mirror-setup</li>
+  <li>apt-setup-udeb # first-stage apt configuration question</li>
+  <li>archdetect</li>
+  <li>base-installer</li>
+  <li>binutils-static-udeb # for restricted modules</li>
+  <li>bogl-bterm-udeb</li>
+  <li>bootchart-udeb # profiling; disabled unless you boot with ‘bootchart’
+parameter</li>
+  <li>brltty-udeb</li>
+  <li>bterm-unifont</li>
+  <li>busybox-udeb</li>
+  <li>cdebconf-newt-udeb</li>
+  <li>cdebconf-priority</li>
+  <li>cdebconf-text-udeb</li>
+  <li>cdebconf-udeb</li>
+  <li>cdrom-checker</li>
+  <li>cdrom-detect</li>
+  <li>cdrom-retriever</li>
+  <li>choose-mirror</li>
+  <li>clock-setup</li>
+  <li>debootstrap-udeb</li>
+  <li>dhcp3-client-udeb</li>
+  <li>di-utils</li>
+  <li>di-utils-mapdevfs</li>
+  <li>di-utils-reboot</li>
+  <li>di-utils-shell</li>
+  <li>di-utils-terminfo</li>
+  <li>disk-detect</li>
+  <li>download-installer</li>
+  <li>e2fsprogs-udeb</li>
+  <li>eject-udeb</li>
+  <li>env-preseed</li>
+  <li>ethdetect</li>
+  <li>fbset-udeb</li>
+  <li>file-preseed</li>
+  <li>finish-install</li>
+  <li>hdparm-udeb # not currently used, but may be used by cdrom-detect in the
+future</li>
+  <li>hw-detect</li>
+  <li>initrd-preseed</li>
+  <li>installation-locale</li>
+  <li>installation-report</li>
+  <li>iso-3166-udeb</li>
+  <li>iso-scan # for USB boot</li>
+  <li>jfsutils-udeb</li>
+  <li>console-setup-udeb</li>
+  <li>console-setup-pc-ekmap</li>
+  <li>console-setup-fonts-udeb</li>
+  <li>libdevmapper1.02-udeb</li>
+  <li>libfribidi0-udeb</li>
+  <li>libnss-dns-udeb</li>
+  <li>libnss-files-udeb</li>
+  <li>libparted1.7-udeb</li>
+  <li>libtextwrap1-udeb</li>
+  <li>load-cdrom</li>
+  <li>load-iso # for USB boot</li>
+  <li>localechooser # replaces languagechooser and countrychooser</li>
+  <li>lowmem</li>
+  <li>lowmemcheck</li>
+  <li>lsb-release-udeb</li>
+  <li>lvm2-udeb</li>
+  <li>lvmcfg</li>
+  <li>lvmcfg-utils</li>
+  <li>main-menu</li>
+  <li>mdadm-udeb</li>
+  <li>mdcfg</li>
+  <li>mdcfg-utils</li>
+  <li>migration-assistant</li>
+  <li>mii-diag-udeb</li>
+  <li>mkreiserfs-udeb</li>
+  <li>module-init-tools-udeb</li>
+  <li>nano-udeb</li>
+  <li>net-retriever</li>
+  <li>netcfg</li>
+  <li>network-preseed</li>
+  <li>nobootloader</li>
+  <li>ntfsprogs-udeb # for ntfsresize</li>
+  <li>oem-config-udeb # first-stage component of OEM installer</li>
+  <li>openssh-client-udeb</li>
+  <li>os-prober-udeb</li>
+  <li>partconf-find-partitions</li>
+  <li>partconf-mkfstab</li>
+  <li>parted-udeb</li>
+  <li>partman-auto</li>
+  <li>partman-auto-lvm</li>
+  <li>partman-base</li>
+  <li>partman-basicfilesystems</li>
+  <li>partman-basicmethods</li>
+  <li>partman-ext3</li>
+  <li>partman-jfs</li>
+  <li>partman-lvm</li>
+  <li>partman-md</li>
+  <li>partman-partitioning</li>
+  <li>partman-reiserfs</li>
+  <li>partman-target</li>
+  <li>partman-xfs</li>
+  <li>pciutils-udeb # for lspci, so we can show descriptive names for devices</li>
+  <li>pcmciautils-udeb</li>
+  <li>pkgsel # after installing the base system, install everything else</li>
+  <li>ppp-udeb</li>
+  <li>preseed-common</li>
+  <li>reiserfsprogs-udeb</li>
+  <li>rescue-check # initrd part of rescue mode</li>
+  <li>rescue-mode  # main part of rescue mode, installed if rescue/enable=true</li>
+  <li>rootskel</li>
+  <li>save-logs</li>
+  <li>strace-udeb # handy for debugging</li>
+  <li>tzsetup-udeb # first-stage timezone question</li>
+  <li>udev-udeb</li>
+  <li>udpkg</li>
+  <li>usb-discover</li>
+  <li>usbutils-udeb # for lsusb, so we can show descriptive names for devices</li>
+  <li>user-setup-udeb # first-stage username/password question</li>
+  <li>wireless-tools-udeb</li>
+  <li>xfsprogs-udeb
+= Floppy Support =</li>
+  <li>busybox-floppy-udeb</li>
+  <li>floppy-retriever</li>
+  <li>load-floppy</li>
+  <li>rootskel-bootfloppy
+= Release File Authentication =</li>
+  <li>gpgv-udeb</li>
+  <li>ubuntu-keyring-udeb
+= Kickstart Compatibility =</li>
+  <li>initrd-kickseed
+= Partition Management (architecture-specific) =</li>
+  <li>fdisk-udeb</li>
+  <li>gptsync-udeb [i386]</li>
+  <li>partman-efi [i386]
+= Bootloader Installers =</li>
+  <li>elilo-installer [i386]</li>
+  <li>grub-installer [i386]</li>
+  <li>lilo-installer [i386]
+= Experimental stuff =</li>
+  <li>network-console
+= Kernel Modules =
+Make sure to leave the Kernel-Version: lines and separated architectures in
+here! germinate needs them.
+== i386 ==</li>
+  <li>Kernel-Version: 2.6.22-8-generic</li>
+  <li>/^.<em>-firmware-.</em>-di/ [i386]</li>
+  <li>/^.<em>-modules-.</em>-di/ [i386]
+KategoriBlankOn KategoriPemaket
+Last modified on 06/16/2008 11:01:17 AM
+####</li>
+</ul>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

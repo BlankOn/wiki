@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Install Program Apt | wiki</title>
+<meta property="og:title" content="Install Program Apt" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Draf/InstallProgramApt.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Draf/InstallProgramApt.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Draf/InstallProgramApt.html","publisher":null,"image":null,"headline":"Install Program Apt","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="install-program-apt">Install Program Apt</h1>
+
+<h3 id="apt-advanced-packaging-tool">APT (Advanced Packaging Tool)</h3>
+<p>Apt merupakan tool yang digunakan untuk pengaturan perangkat lunak di lingkungan GNU/Linux. Apt menangani pengambilan, konfigurasi serta instalasi 
+paket baik yang binari maupun yang berupa source code. Apt merupakan front-end dari dpkg yang bekerja untuk paket debian berekstensi .deb. Tetapi 
+kemudian diadopsi ke distribusi linux yang lain.</p>
+
+<h4 id="menggunakan-apt-get">Menggunakan apt-get</h4>
+<p>apt-get berhubungan dengan pengambilan, konfigurasi serta instalasi paket. apt- get akan mengunduh paket dari repository yang terdapat pada file 
+/etc/apt/ source.list</p>
+
+<h5 id="apt-get-update">apt-get update</h5>
+<p>Berfungsi untuk mensinkronkan dan mengunduh daftar indeks paket dari repository. Daftar paket yang ada di /var/lib/apt/list 
+akan diperbarui tiap kali perintah ini dijalankan. Sehingga perintah ini harus selalu dijalankan sebelum apt-get upgrade maupun apt-get dist-upgrade.</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get update</code></p>
+
+<h5 id="apt-get-upgrade">apt-get upgrade</h5>
+<p>Berfungsi untuk menginstall semua versi terbaru dari paket yang terinstal di sistem.</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get upgrade</code></p>
+
+<h5 id="apt-get-install">apt-get install</h5>
+<p>Berfungsi untuk menginstall paket-paket yang kita inginkan. Instalasi satu buah paket:</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get install mc</code></p>
+
+<p>Instalasi banyak paket:</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get install mplayer vlc banshee</code></p>
+
+<h5 id="apt-get-remove">apt-get remove</h5>
+
+<p>Berfungsi untuk menghapus paket.</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get remove mc</code></p>
+
+<p>Apabila anda benar-benar ingin menghapus paket beserta file konfigurasinya</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get remove --purge mc</code></p>
+
+<h5 id="apt-get-autoremove">apt-get autoremove</h5>
+
+<p>Berfungsi untuk menghapus paket yang terinstall otomatis untuk memenuhi dependencies beberapa paket yang tidak lagi diinginkan.</p>
+
+<h5 id="apt-get-dist-upgrade">apt-get dist-upgrade</h5>
+
+<p>Digunakan untuk menambah kemampuan pembaruan paket, dimana terdapat fitur canggih yang menangani perubahan dependencies dari versi paket terbaru. 
+Biasanya gunakan saat pergantian paket besar-besaran seperti upgrade versi ubuntu ke versi lainnya yang lebih baru.</p>
+
+<p><code class="highlighter-rouge"> $sudo apt-get dist-upgrade</code></p>
+
+<h5 id="apt-get-clean">apt-get clean</h5>
+<p>Tiap kali apt-get install dijalankan dia akan mengunduh paket yang akan di install ke direktori /var/cache/apt/archives dan atau 
+/var/cache/apt/archives/ partial. Sehingga membentuk repositori lokal yang lama kelamaan semakin besar ukurannya dan menghabiskan space hardisk. 
+apt-get clean menghapus semua kecuali file lock di direktori tersebut, sehingga Anda mendapatkan kembali space hardisk Anda.</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get clean</code></p>
+
+<h5 id="apt-get-autoclean">apt-get autoclean</h5>
+
+<p>Memiliki fungsi yang mirip dengan apt-get clean.</p>
+
+<p><code class="highlighter-rouge">$sudo apt-get autoclean</code></p>
+
+<h5 id="apt-get-source">apt-get source</h5>
+
+<p>Berfungsi untuk mengunduh file source dari paket. Perintah ini akan mengunduh beberapa file yaitu:</p>
+
+<ul>
+  <li>file source asli yang berekstensi .orig.tar.gz</li>
+  <li>file patch yang berekstensi .diff.gz</li>
+  <li>file meta yang berekstensi .dsc</li>
+</ul>
+
+<p>Lalu apt-get source akan mengekstrak file source asli lalu menerapkan patch padanya.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ apt-get source ed
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Need to get 82.5kB of source archives.
+Get:1 http://kambing.ui.edu gutsy/main ed 0.7-1build1 (dsc) [531B]
+Get:2 http://kambing.ui.edu gutsy/main ed 0.7-1build1 (tar) [74.8kB]
+Get:3 http://kambing.ui.edu gutsy/main ed 0.7-1build1 (diff) [7240B]
+Fetched 82.5kB in 0s (145kB/s)
+gpg: Signature made Mon 13 Aug 2007 06:19:05 PM WIT using DSA key ID 0F932C9C
+gpg: Can't check signature: public key not found
+dpkg-source: extracting ed in ed-0.7
+dpkg-source: unpacking ed_0.7.orig.tar.gz
+dpkg-source: applying ./ed_0.7-1build1.diff.gz
+$ ls
+ed-0.7  ed_0.7-1build1.diff.gz  ed_0.7-1build1.dsc  ed_0.7.orig.tar.gz
+</code></pre>
+</div>
+
+<p>Berbeda dengan perintah apt-get lainnya apt-get source disarankan untuk tidak menggunakan sudo.</p>
+
+<h4 id="menggunakan-apt-cache">Menggunakan apt-cache</h4>
+<p>apt-cache berhubungan dengan pencarian paket serta informasi yang berhubungan dengan paket.</p>
+
+<h5 id="apt-cache-search">apt-cache search</h5>
+<p>Berfungsi untuk mencari paket-paket yang berhubungan dengan keyword yang dimasukkan.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ apt-cache search netbeans
+netbeans5.5 - NetBeans IDE for development of applications in Java
+netbeans5.5-doc - NetBeans IDE documentation bundle
+netbeans5.5-ja - NetBeans IDE (Japanese Localization)
+netbeans5.5-platform - NetBeans Platform for building rich desktop applications
+in Java
+netbeans5.5-platform-ja - NetBeans Platform (Japanese Localization)
+netbeans5.5-platform-pt - NetBeans Platform (Portuguese Localization)
+netbeans5.5-platform-zh - NetBeans Platform (Chinese Localization)
+netbeans5.5-pt - NetBeans IDE (Portuguese Localization)
+netbeans5.5-zh - NetBeans IDE (Chinese Localization)
+</code></pre>
+</div>
+
+<h5 id="apt-cache-showpkg">apt-cache showpkg</h5>
+<p>Berfungsi menampilkan informasi tentang paket yang dicari. Informasi tersebut berupa nama paket, versi yang tersedia, forward dan reverse 
+dependencies, dan lain-lain.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ apt-cache showpkg libitl0
+Package: libitl0
+Versions:
+0.6.4-1 (/var/lib/apt/lists/kambing.ui.edu_ubuntu_dists_gutsy_universe_binary-
+amd64_Packages) (/var/lib/dpkg/status)
+ Description Language:
+                 File: /var/lib/apt/lists/
+kambing.ui.edu_ubuntu_dists_gutsy_universe_binary-amd64_Packages
+                  MD5: 170e90d0ad9840eacfccf13a494ab6f0
+
+
+Reverse Depends:
+  minbar,libitl0
+  libitl-dev,libitl0 0.6.4-1
+  itools,libitl0
+Dependencies:
+0.6.4-1 - libc6 (2 2.3.4-1)
+Provides:
+0.6.4-1 -
+Reverse Provides:
+</code></pre>
+</div>
+
+<p>Last modified on 10/30/2008 12:11:27 AM</p>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

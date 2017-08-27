@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>wiki | Wiki Pengembangan Proyek BlankOn</title>
+<meta property="og:title" content="wiki" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/ProdukBlankOn/BlankBerry/BlankBerryMembangunPaket.html" />
+<meta property="og:url" content="http://localhost:4000/ProdukBlankOn/BlankBerry/BlankBerryMembangunPaket.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/ProdukBlankOn/BlankBerry/BlankBerryMembangunPaket.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <div class="highlighter-rouge"><pre class="highlight"><code>* BlankBerry  /
+* MembangunPaket
+</code></pre>
+</div>
+
+<p>Untuk menyiapkan sistem BlankBerry, kita gunakan paket-paket dasar dari proyek
+Raspbian. Ada beberapa paket BlankOn yang perlu dibangun ulang dan dipasang di
+atas Raspbian untuk mendapatkan sistem BlankBerry.</p>
+<h2 id="daftar-paket">Daftar Paket</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>* manokwari
+* gnome-session
+* metacity
+* base-files ### Cara pembangunan #### Prasyarat Anda sudah mahir membuat sistem chroot dengan debootstrap dan tahu cara menggunakannya. #### Tahap I Tahap pertama adalah menyiapkan sistem pembangunan. sudo qemu-debootstrap --arch armhf rote blankberry-dev http://arsip- dev.blankonlinux.or.id/raspbian /usr/share/debootstrap/scripts/wheezy Siapkan sources.list dengan konfigurasi: deb http://arsip-dev.blankonlinux.or.id/raspbian rote main deb-src http://arsip.blankonlinux.or.id/blankon rote main #### Tahap II Bangun ulang paket-paket di atas di dalam chroot, gunakan perintah apt-get source. Hasil pembangunan bisa langsung dipasang di dalam sistem Raspbian. Last modified on 09/20/2012 02:29:59 PM #### 
+</code></pre>
+</div>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Pengaturan Desktop Internet | wiki</title>
+<meta property="og:title" content="Pengaturan Desktop Internet" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopInternet.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopInternet.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopInternet.html","publisher":null,"image":null,"headline":"Pengaturan Desktop Internet","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="pengaturan-desktop-internet">Pengaturan Desktop Internet</h1>
+
+<h2 id="internet">Internet</h2>
+<h3 id="bagaimana-memasang-penjelajah-opera">Bagaimana memasang penjelajah Opera</h3>
+<p>Opera adalah alternatif browser selain firefox, selain itu opera juga dikenal cepat dan stabil. Untuk instalasinya Anda harus menambahkan repository 
+Canonical
+<code class="highlighter-rouge">gksudo gedit /etc/apt/sources.list</code></p>
+
+<p>Tambah baris berikut di akhir berkas</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Repository Canonical
+deb http://archive.canonical.com gutsy partner
+</code></pre>
+</div>
+
+<p>Simpan berkas sources.list anda, dan masukkan perintah</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get update
+sudo apt-get install opera
+</code></pre>
+</div>
+<h3 id="bagaimana-memasang-penjelajah-epiphany">Bagaimana memasang penjelajah Epiphany</h3>
+<p>Ephiphany adalah penjelajah web yang diintergrasikan dalam dektop Gnome yang menawarkan kemudahan dan kompabilitas. Epipany merupakan penjelajah web 
+yang dikembangkan dari mesin penjelajah firefox. Berikut adalah cara instalasinya: <code class="highlighter-rouge">sudo apt-get install epiphany-browser</code></p>
+
+<h3 id="plugin-browser">Plugin Browser</h3>
+<p>BlankOn secara otomatis memasang plugin yang diperlukan oleh browser saat browser mengunjung situs (dengan Firefox), namun jika anda menginginkan 
+untuk memasang plugin secara manual, ikuti perintah berikut dalam terminal</p>
+
+<h4 id="plugin-java">Plugin Java</h4>
+<p><code class="highlighter-rouge">sudo apt-get install sun-java6-plugin</code></p>
+
+<h4 id="plugin-flash">Plugin Flash</h4>
+<p><code class="highlighter-rouge">sudo apt-get install flashplugin-nonfree</code></p>
+
+<p>Atau jika anda mengingindan dukungan plugin flash yang open source:
+<code class="highlighter-rouge">sudo apt-get install mozilla-plugin-gnash</code></p>
+
+<h4 id="plugin-vlc">Plugin VLC</h4>
+<p><code class="highlighter-rouge">sudo apt-get install mozilla-plugin-vlc</code></p>
+
+<h4 id="plugin-mplayer">Plugin MPlayer</h4>
+<p><code class="highlighter-rouge">sudo apt-get install mozilla-mplayer</code></p>
+
+<h4 id="plugin-real-player">Plugin Real Player</h4>
+<p><code class="highlighter-rouge">sudo apt-get install mozilla-helix-player</code></p>
+
+<h4 id="plugin-kaffeine">Plugin Kaffeine</h4>
+<p><code class="highlighter-rouge">sudo apt-get install kaffeine-mozilla</code></p>
+
+<h4 id="plugin-pembesaran-citra">Plugin pembesaran citra</h4>
+<p>Berguna untuk membesarkan gambar dalam halaman
+<code class="highlighter-rouge">sudo apt-get install mozilla-imagezoom</code></p>
+
+<h4 id="plugin-adblock">Plugin adblock</h4>
+<p>Berguna untuk mencegah ads dalam halaman web
+<code class="highlighter-rouge">sudo apt-get install mozilla-firefox-adblock</code></p>
+
+<h3 id="manajemen-pengunduhan-downloader-untuk-x">Manajemen Pengunduhan (Downloader untuk X)</h3>
+<p>Untuk memasang Downloader for x ketikkan dalam terminal:
+<code class="highlighter-rouge">sudo apt-get install d4x</code></p>
+
+<h3 id="klien-ftp-filezilla">Klien FTP (FileZilla)</h3>
+<p>FileZilla adalah aplikasi klien ftp yang dengan tampilan grafis. FileZilla adalah aplikasi yang dapat berjalan dalam multi platform dan juga terdapat 
+dalam repositori Ubuntu.</p>
+
+<p>Untuk memasang klien ftp FileZilla ketikkan dalam terminal
+<code class="highlighter-rouge">sudo apt-get install filezilla</code></p>
+
+<p>Last modified on 06/07/2008 01:26:07 AM</p>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

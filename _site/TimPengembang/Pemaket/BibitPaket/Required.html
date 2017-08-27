@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>wiki | Wiki Pengembangan Proyek BlankOn</title>
+<meta property="og:title" content="wiki" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Pemaket/BibitPaket/Required.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Pemaket/BibitPaket/Required.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Pemaket/BibitPaket/Required.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <p>BlankOn
+ About_Trac
+    * About_Trac
+    * Preferences
+    * Login
+    * Help/Guide
+    * Wiki
+    * Roadmap
+    * Browse_Repository
+    * View_Reports
+[q                 ]
+    * BlankOn  /
+    * Wiki  /
+    * Pemaket  /
+    * BibitPaket  /
+    * Required
+This seed describes the packages at Priority: required. These packages are
+installed by the first pass of debootstrap, which extracts them (dpkg -x,
+without running maintainer scripts) in order to construct a basic environment
+into which it can chroot and install them properly.
+A system containing only required packages is not a supported Ubuntu system;
+you need to install at least the packages from minimal as well.
+= UNIX =
+== Essential ==
+These are packages which have “Essential: yes” in their control file.</p>
+<ul>
+  <li>base-files</li>
+  <li>base-passwd    # ColinWatson</li>
+  <li>bash</li>
+  <li>bsdutils       # LaMontJones</li>
+  <li>coreutils</li>
+  <li>debianutils</li>
+  <li>diff</li>
+  <li>dpkg</li>
+  <li>e2fsprogs</li>
+  <li>findutils</li>
+  <li>grep</li>
+  <li>gzip</li>
+  <li>hostname</li>
+  <li>login</li>
+  <li>mktemp</li>
+  <li>mount          # LaMontJones</li>
+  <li>ncurses-base</li>
+  <li>ncurses-bin</li>
+  <li>perl-base</li>
+  <li>python-minimal</li>
+  <li>sed</li>
+  <li>tar            # LaMontJones</li>
+  <li>util-linux     # LaMontJones
+Our init system:</li>
+  <li>upstart</li>
+  <li>upstart-compat-sysv</li>
+  <li>upstart-logd</li>
+  <li>startup-tasks</li>
+  <li>system-services
+In some sense, debconf isn’t truly required, but it makes our life a lot easier
+to have it installed in the first pass.</li>
+  <li>debconf
+Other packages necessary to get started:</li>
+  <li>dash               # Much faster default shell</li>
+  <li>locales</li>
+  <li>makedev</li>
+  <li>mawk</li>
+  <li>passwd</li>
+  <li>procps</li>
+  <li>tzdata
+KategoriBlankOn KategoriPemaket
+Last modified on 06/16/2008 11:06:17 AM
+####</li>
+</ul>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>wiki | Wiki Pengembangan Proyek BlankOn</title>
+<meta property="og:title" content="wiki" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/MenejemenRepo.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/MenejemenRepo.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/MenejemenRepo.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <p>BlankOn
+ About_Trac
+    * About_Trac
+    * Preferences
+    * Login
+    * Help/Guide
+    * Wiki
+    * Roadmap
+    * Browse_Repository
+    * View_Reports
+[q                 ]
+    * BlankOn  /
+    * Wiki  /
+    * Infrastruktur  /
+    * PabrikPaket  /
+    * MenejemenRepo
+Untuk Mengaktifkan aplikasi reprepro irgsh di pabrik paket.</p>
+<ol>
+  <li>Masuk Ke yeyen</li>
+  <li>silahkan ubah ke user irgsh
+   sudo su - irgsh</li>
+  <li>Masuk ke Directory irgsh-repo
+   cd irgsh-repo</li>
+  <li>Lakukan Perintah
+   nohup ../bin/python2.6 ./irgsh-repo.py » log 2&gt;&amp;1
+Catatan :
+fg = foreground
+bg = background
+Ctrl-z akan mengirim sinyal SIGSTOP ke aplikasi yang jalan di konsol saat itu
+Kernel kemudian bilang ke aplikasi, HEY Kau berhenti dulu!
+Trus kendali dikembalikan ke prompt shell
+Trus Bapak ada 3 pilihan:
+0- Mau meneruskan aplikasi yang tadi distop
+1- Mau meneruskan aplikasi yang tadi distop, tapi tetap bisa pakai terminal
+2- Mau melakukan sesuatu di terminal, misalnya cat /berkas/lain atau njalanin
+program lain, dst
+Kalau pilih 0, berarti kita ingin aplikasi tsb jalan lagi, caranya tullis fg
+bash akan meminta kernel untuk jalankan program tadi
+Kalau pilih 1, berarti kita ingin aplikasi tsb jalan lagi, caranya tullis bg
+artinya si aplikasi jalan di belakang layar, sementara kita bisa pakai terminal
+Kalau pilih 2, ya wis Bapak terserah mau ngapain lagi, tapi nanti sesudahnya
+kembali ke pilihan 0 atau 1
+Kalau tidak si aplikasi statusnya jadi zombie, ada di RAM tapi tidak jalan dan
+tidak mati
+Refrensi : ​http://tempel.blankon.in/417
+Last modified on 01/31/2011 06:02:20 PM
+####</li>
+</ol>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

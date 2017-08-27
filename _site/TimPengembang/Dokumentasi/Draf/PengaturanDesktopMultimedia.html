@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Pengaturan Desktop Multimedia | wiki</title>
+<meta property="og:title" content="Pengaturan Desktop Multimedia" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopMultimedia.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopMultimedia.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopMultimedia.html","publisher":null,"image":null,"headline":"Pengaturan Desktop Multimedia","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="pengaturan-desktop-multimedia">Pengaturan Desktop Multimedia</h1>
+
+<h2 id="pengaturan-multimedia">Pengaturan Multimedia</h2>
+<p>Untuk dapat membuka berkas multimedia anda dapat memasang paket blankon-multimedia
+<code class="highlighter-rouge">sudo apt-get install blankon-multimedia</code></p>
+
+<h3 id="bagaimana-memasang-mplayer-dengan-codec-multimedia">Bagaimana memasang Mplayer dengan codec multimedia</h3>
+<p>silakan lihat ​bagaimana_memasang_codec_multimedia_untuk_mplayer</p>
+
+<h3 id="bagaimana-memasang-vlc">Bagaimana memasang VLC</h3>
+<p>Bagaimana memasang vlc
+<code class="highlighter-rouge">sudo apt-get install vlc</code></p>
+
+<p>untuk membuang vlc
+<code class="highlighter-rouge">sudo apt-get remove --purge vlc</code></p>
+
+<h3 id="bagaimana-memasang-banshee-music-manager-dan-player">Bagaimana memasang Banshee Music Manager dan Player</h3>
+<p><code class="highlighter-rouge">sudo apt-get install banshee</code></p>
+
+<p>Untuk membuangnya:
+<code class="highlighter-rouge">sudo apt-get --purge autoremove banshee</code></p>
+
+<h3 id="bagaimana-cara-meng-encodedecode-berkas-audio">Bagaimana cara meng-encode/decode berkas audio</h3>
+<p>ogg adalah lisensi untuk format berkas audio, lebih baik anda menggunakanya
+daripada berkas mp3 :D
+<code class="highlighter-rouge">sudo apt-get install dir2ogg</code></p>
+
+<p>Penggunaanya:</p>
+<ol>
+  <li>Siapkan direktori yang berisi berkas audio</li>
+  <li>dalam kasus ini anda ingin mengubah semua berkas mp3 di direktori musik
+dan sub direktorinya. Dan anda ingin membuang berkas mp3nya
+dir2ogg -dr musik/  –delete-mp3
+     Anda juga dapat mengubah berkas wav ke dalam berkas rm dengan cara:
+<code class="highlighter-rouge">mplayer -ao pcm:file=output.wav input.rm</code></li>
+</ol>
+
+<h3 id="bagaimana-meng-encodedecode-berkas-video">Bagaimana meng-encode/decode berkas video</h3>
+<p>Beberapa aplikasi decorder/encoder adalah mencoder, avidemux, transcode, ffmpeg2theora, dll.
+<code class="highlighter-rouge">sudo apt-get install mencoder avidemux transcode ffmpeg2theora</code></p>
+
+<h3 id="mengubah-berkas-flv-ke-mpg">Mengubah berkas flv ke mpg</h3>
+<p>contoh file yang mau diubah adalah install-blankon.flv, maka caranya adalah:
+<code class="highlighter-rouge">ffmpeg -i install-blankon.flv -y -sameq install-blankon.mpg</code></p>
+
+<h3 id="bagaimana-mengubah-audio">Bagaimana mengubah audio</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install lmms
+sudo apt-get install audacity
+</code></pre>
+</div>
+
+<h3 id="bagaimana-mengubah-video">Bagaimana mengubah video</h3>
+<p><code class="highlighter-rouge">sudo apt-get install ubuntustudio-video</code></p>
+
+<h3 id="menambah-codec-ekstra">Menambah Codec ekstra</h3>
+<p>Terkadang codec yang telah di pasang di komputer anda masih belum bisa untuk
+memainkan berkas-berkas audio, alternatifnya anda harus memasang beberapa codec
+multiverse
+<code class="highlighter-rouge">sudo apt-get install gstreamer0.10-plugins-ugly gstreamer0.10-plugins-badgstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad-multiverse</code></p>
+
+<p>Last modified on 06/12/2008 03:04:41 AM</p>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Contoh Script | wiki</title>
+<meta property="og:title" content="Contoh Script" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/ContohMembuatRepositoryBlankon.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Kelas/ContohMembuatRepositoryBlankon.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Kelas/ContohMembuatRepositoryBlankon.html","publisher":null,"image":null,"headline":"Contoh Script","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="contoh-script">Contoh Script</h1>
+
+<h2 id="debmirror">Debmirror</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+debmirror -v -passive <span class="se">\</span>
+--host<span class="o">=</span>mirror.unej.ac.id <span class="se">\</span>
+--root<span class="o">=</span>blankon --method<span class="o">=</span>ftp <span class="se">\</span>
+--progress <span class="se">\</span>
+--dist<span class="o">=</span>meuligoe,meuligoe-updates,meuligoe-security <span class="se">\</span>
+--section<span class="o">=</span>main,restricted <span class="se">\</span>
+--arch<span class="o">=</span>i386 --ignore-release-gpg --no-source -pdiff<span class="o">=</span>none /ftp/blankon/
+</code></pre>
+</div>
+
+<h2 id="rsync">rsync</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+<span class="nb">set</span> -e
+
+<span class="nv">TO</span><span class="o">=</span>/ftp/blankon
+<span class="nv">RSYNC_HOST</span><span class="o">=</span>yeyen.blankonlinux.or.id
+<span class="nv">RSYNC_DIR</span><span class="o">=</span>archive
+<span class="nv">LOGDIR</span><span class="o">=</span>/tmp
+<span class="nv">LOCK_TIMEOUT</span><span class="o">=</span>360
+<span class="nv">LOGFILE</span><span class="o">=</span><span class="nv">$LOGDIR</span>/blankon-mirror.log
+<span class="nv">HOSTNAME</span><span class="o">=</span><span class="sb">`</span>hostname -f<span class="sb">`</span>
+<span class="nv">LOCK</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">TO</span><span class="k">}</span><span class="s2">/Archive-Update-Progress-from-</span><span class="k">${</span><span class="nv">RSYNC_HOST</span><span class="k">}</span><span class="s2">"</span>
+<span class="nv">TMP_EXCLUDE</span><span class="o">=</span><span class="s2">"--exclude .~tmp~/"</span>
+<span class="nv">EXCLUDE</span><span class="o">=</span><span class="s2">"</span><span class="se">\</span><span class="s2">
+  --exclude local/ --exclude gutsy/ --exclude unstable/"</span>
+  
+<span class="k">if</span> <span class="o">[</span> -z <span class="s2">"</span><span class="nv">$TO</span><span class="s2">"</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> -z <span class="s2">"</span><span class="nv">$RSYNC_HOST</span><span class="s2">"</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> -z <span class="s2">"</span><span class="nv">$RSYNC_DIR</span><span class="s2">"</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> -z <span class="s2">"</span><span class="nv">$LOGDIR</span><span class="s2">"</span> <span class="o">]</span>; <span class="k">then
+	</span><span class="nb">echo</span> <span class="s2">"One of the following variables seems to be empty:"</span>
+	<span class="nb">echo</span> <span class="s2">"TO, RSYNC_HOST, RSYNC_DIR or LOGDIR"</span>
+	<span class="nb">exit </span>2
+<span class="k">fi
+
+if</span> <span class="o">[</span> ! -d <span class="s2">"</span><span class="k">${</span><span class="nv">TO</span><span class="k">}</span><span class="s2">/project/trace/"</span> <span class="o">]</span>; <span class="k">then
+  </span>mkdir -p <span class="k">${</span><span class="nv">TO</span><span class="k">}</span>/project/trace
+<span class="k">fi
+
+if</span> <span class="o">[</span> -f <span class="s2">"</span><span class="nv">$LOCK</span><span class="s2">"</span> <span class="o">]</span>; <span class="k">then
+  if</span> <span class="o">[</span> <span class="s2">"</span><span class="sb">`</span>find <span class="nv">$LOCK</span> -maxdepth 1 -cmin -<span class="nv">$LOCK_TIMEOUT</span><span class="sb">`</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">""</span> <span class="o">]</span>; <span class="k">then
+    if </span>ps ax | grep <span class="s1">'[r]'</span>sync | grep -q <span class="nv">$RSYNC_HOST</span>; <span class="k">then
+      </span><span class="nb">echo</span> <span class="s2">"stale lock found, but a rsync is still running, aiee!"</span>
+      <span class="nb">exit </span>1
+    <span class="k">else
+      </span><span class="nb">echo</span> <span class="s2">"stale lock found (not accessed in the last </span><span class="nv">$LOCK_TIMEOUT</span><span class="s2"> minutes), forcing update!"</span>
+      rm -f <span class="nv">$LOCK</span>
+    <span class="k">fi
+  else
+    </span><span class="nb">echo</span> <span class="s2">"current lock file exists, unable to start rsync!"</span>
+    <span class="nb">exit </span>1
+  <span class="k">fi
+fi
+
+</span>touch <span class="nv">$LOCK</span>
+
+<span class="nb">trap</span> <span class="s2">"rm -f </span><span class="nv">$LOCK</span><span class="s2">"</span> <span class="nb">exit
+
+set</span> +e
+
+<span class="nb">echo</span> <span class="s2">"mirroring BlankOn archive"</span>
+<span class="nb">echo</span> <span class="s2">"from </span><span class="nv">$RSYNC_HOST</span><span class="s2">::</span><span class="nv">$RSYNC_DIR</span><span class="s2"> to </span><span class="nv">$TO</span><span class="s2">"</span>
+
+<span class="c"># First sync /pool</span>
+rsync --recursive --links --hard-links --times <span class="se">\</span>
+     --verbose --progress <span class="se">\</span>
+     --timeout<span class="o">=</span>3600 <span class="se">\</span>
+     <span class="nv">$TMP_EXCLUDE</span> <span class="nv">$EXCLUDE</span> <span class="nv">$SOURCE_EXCLUDE</span> <span class="se">\</span>
+     <span class="nv">$RSYNC_HOST</span>::<span class="nv">$RSYNC_DIR</span>/pool/ <span class="nv">$TO</span>/pool/ &gt; <span class="nv">$LOGFILE</span> 2&gt;&amp;1
+<span class="nv">result</span><span class="o">=</span><span class="nv">$?</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="s2">"</span><span class="nv">$result</span><span class="s2">"</span> <span class="o">=</span> 0 <span class="o">]</span>; <span class="k">then</span>
+	<span class="c"># Now sync the remaining stuff</span>
+
+<span class="nb">echo</span> <span class="s2">"mirror tinggal  satu step lagi"</span>
+rsync --recursive --links --hard-links --times <span class="se">\</span>
+	     --verbose --progress <span class="se">\</span>
+	     --delay-updates --delete-after <span class="se">\</span>
+	     --timeout<span class="o">=</span>3600 <span class="se">\</span>
+	     <span class="nv">$TMP_EXCLUDE</span> <span class="nv">$EXCLUDE</span> <span class="se">\</span>
+	     <span class="nv">$RSYNC_HOST</span>::<span class="nv">$RSYNC_DIR</span>/ <span class="nv">$TO</span> &gt;&gt; <span class="nv">$LOGFILE</span> 2&gt;&amp;1
+
+	<span class="nv">LANG</span><span class="o">=</span>C date -u &gt; <span class="s2">"</span><span class="k">${</span><span class="nv">TO</span><span class="k">}</span><span class="s2">/project/trace/</span><span class="k">${</span><span class="nv">HOSTNAME</span><span class="k">}</span><span class="s2">"</span>
+<span class="k">else
+	</span><span class="nb">echo</span> <span class="s2">"ERROR: Help, something weird happened"</span> | tee -a <span class="nv">$LOGFILE</span>
+	<span class="nb">echo</span> <span class="s2">"mirroring /pool exited with exitcode"</span> <span class="nv">$result</span> | tee -a <span class="nv">$LOGFILE</span>
+<span class="k">fi
+
+</span><span class="nv">MAILTO</span><span class="o">=</span>udienz@gmail.com
+<span class="k">if</span> <span class="o">[</span> -n <span class="s2">"</span><span class="nv">$MAILTO</span><span class="s2">"</span> <span class="o">]</span>; <span class="k">then
+	</span>mail -s <span class="s2">"BlankOn archive synced"</span> <span class="nv">$MAILTO</span> &lt; <span class="nv">$LOGFILE</span>
+<span class="k">fi
+
+</span>savelog <span class="nv">$LOGFILE</span> &gt;/dev/null
+
+rm <span class="nv">$LOCK</span>
+</code></pre>
+</div>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

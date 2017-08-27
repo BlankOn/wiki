@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>wiki | Wiki Pengembangan Proyek BlankOn</title>
+<meta property="og:title" content="wiki" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/MembuatCertificateAuthorityUtama.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/MembuatCertificateAuthorityUtama.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/MembuatCertificateAuthorityUtama.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <p>Lokakarya ini diselenggarakan pada tanggal 25 Februari 2011 bertempat di irc.freenode.net channel #blankon oleh bapak Fajran Iman Rusadi.</p>
+
+<p>Dalam kriptografi, Certificate Authority (CA) adalah sebuah entitas yang mengeluarkan sertifikat digital yang dapat digunakan pihak-pihak lainnya. Para CA merupakan contoh pihak-pihak yang dapat dipercayai, khususnya dalam transaksi secara online di internet.​http://id.wikipedia.org/wiki/Certificate_authority</p>
+
+<p>Jika kita berbicara tentang Certificate Authority (CA) ada 2 istilah yang akan mengikuti diataranya: Identitas dan Kepercayaan (trust). Secara analogi kita bisa membuat sertifikat untuk identitas kita tapi apakah identitas kita dipercaya oleh orang lain.</p>
+
+<p>Mari kita langsung ke tutorial.</p>
+
+<h1 id="membuat-certificate-authority-utama">Membuat Certificate Authority Utama</h1>
+<p>1.Buat direktori kerja</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$mkdir ca-utama
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>$cd ca-utama
+</code></pre>
+</div>
+
+<p>2.Salin kode pembantu dari /usr/lib/ssl/misc/CA.pl</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$cp /usr/lib/ssl/misc/CA.pl .
+</code></pre>
+</div>
+
+<p>3.Buat CA baru <strong>$./CA.pl -newca</strong> 
+Sertifikat akan disimpan di demoCA/cacert.pem. Untuk melihat informasi detail mengenai sebuah sertifikat, kita bisa menggunakan openssl, sebagai berikut
+<strong>$openssl x509 -in demoCA/cacert.pem -text</strong>
+Salah satu karakteristik sertifikat CA adalah sertifikat ini dipakai untuk menandatangani dirinya sendiri. Dalam informasi sertifikat, hal ini dapat dilihat pada bagian Subject dan Issuer.
+<strong>$ openssl x509 -in demoCA/cacert.pem -text |grep ‘Subject:|Issuer’</strong>
+Issuer: C=ID, ST=Jakarta, O=BlankOn, OU=Infrastruktur, CN=CA
+Subject: C=ID, ST=Jakarta, O=BlankOn, OU=Infrastruktur, CN=CA</p>
+
+<p>Bisa dilihat isi keduanya sama, hal ini menunjukkan self-signed certificate atau sertifikat yang ditandatangani sendiri.</p>
+
+<h1 id="membuat-sertifikat-baru">Membuat Sertifikat Baru</h1>
+
+<p>1.Buat permintaan sertifikat baru 
+<strong>$./CA.pl -newreq</strong></p>
+
+<p>2.Tandatangani permintaan sertifikat tersebut dengan CA yang ada 
+<strong>$./CA.pl -sign</strong></p>
+
+<p>Setelah ditandatangani, akan ada 3 buah berkas yaitu newcert.pem, newkey.pem, dan newreq.pem. Berkas newreq.pem bisa dihapus karena sudah tidak dipakai lagi. Berkas ini hanya berisi permintaan pembuatan sertifikat, bukan sertifikat akhir. Berkas newcert.pem dan newkey.pem adalah dua berkas yang harus diamankan karena berkas ini adalah berkas sertifikat dan kuncinya.
+Mari kita cek judul dan penerbit sertifikat baru ini.</p>
+
+<p><strong>$openssl x509 -in newcert.pem -text | grep ‘Subject:|Issuer:’</strong></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Issuer: C=ID, ST=Jakarta, O=BlankOn, OU=Infrastruktur, CN=CA
+Subject: C=ID, ST=Jakarta, L=Jakarta, O=BlankOn, OU=Irgsh, CN=CA Pabrik
+</code></pre>
+</div>
+<p>Sekarang kita sudah punya sebuah sertifikat baru yang telah ditandatangani oleh CA yang kita buat di awal.</p>
+
+<h1 id="menjadikan-sertifikat-baru-sebagai-ca-kedua">Menjadikan Sertifikat Baru sebagai CA Kedua</h1>
+
+<p>1.siapkan direktori kerja baru</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$cd ..
+$mkdir ca-kedua
+$cd ca-kedua
+$cp /usr/lib/ssl/misc/CA.pl .
+</code></pre>
+</div>
+<p>2.Agar kode CA.pl dapat bekerja, kita harus mempersiapkan lingkungan kerjanya dengan opsi -newca. Namun alih-alih menyuruh kode tersebut untuk membuat sertifikat CA baru, kita bisa menggunakan sertifikat yang sudah ada.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>**$./CA.pl -newca**
+CA certificate filename (or enter to create)
+../ca-utama/newcert.pem
+</code></pre>
+</div>
+
+<p>3.Salin berkas kunci sertifikat 
+<strong>$cp ../ca-utama/newkey.pem demoCA/private/cakey.pem</strong></p>
+
+<p>4.Siapkan nomor seri baru</p>
+
+<p><strong>$echo 00 &gt; demoCA/serial</strong></p>
+
+<p>Sama seperti sebelumnya, sertifikat CA ada di demoCA/cacert.pem. Mari kita cek isinya.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>**$openssl x509 -in demoCA/cacert.pem -text | grep 'Subject:\|Issuer:'
+Issuer: C=ID, ST=Jakarta, O=BlankOn, OU=Infrastruktur, CN=CA
+Subject: C=ID, ST=Jakarta, L=Jakarta, O=BlankOn, OU=Irgsh, CN=CA Pabrik
+</code></pre>
+</div>
+<p>Persis sama dengan sertifikat yang dibuat sebelumnya khan? Memang sertifikat itu yang akan dipakai menjadi CA baru ini.</p>
+
+<h1 id="membuat-sertifikat-dengan-ca-tingkat-kedua-tadi">Membuat Sertifikat dengan CA Tingkat Kedua tadi</h1>
+
+<p>1.Buat permintaan sertifikat seperti biasa. 
+<strong>./CA.pl -newreq</strong></p>
+
+<p>2.Tandatangani sertifikat tersebut 
+<strong>./CA.pl -sign</strong></p>
+
+<p>Seperti biasa, kita akan menjumpai 3 berkas baru. Mari kita cek informasi sertifikat baru ini.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$openssl x509 -in newcert.pem -text | grep 'Subject:\|Issuer:'
+Issuer: C=ID, ST=Jakarta, L=Jakarta, O=BlankOn, OU=Irgsh, CN=CA Pabrik
+Subject: C=ID, ST=Jakarta, L=Jakarta, O=BlankOn, OU=Pabrik, CN=Pekerja64
+</code></pre>
+</div>
+<p>Dapat dilihat sertifikat baru ini ditandatangani oleh CA kedua yang telah kita buat.</p>
+
+<h1 id="bertingkat">Bertingkat</h1>
+
+<p>Mari kita lihat informasi 3 sertifikat yang telah kita buat.</p>
+
+<p>1.CA Utama 
+<strong>$openssl x509 -in ../ca-utama/demoCA/cacert.pem -text | grep ‘Subject:|Issuer:’</strong></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Issuer: C=ID, ST=Jakarta, O=BlankOn, OU=Infrastruktur, CN=CA
+Subject: C=ID, ST=Jakarta, O=BlankOn, OU=Infrastruktur, CN=CA
+</code></pre>
+</div>
+<p>2.CA Kedua</p>
+
+<p><strong>$openssl x509 -in demoCA/cacert.pem -text | grep ‘Subject:|Issuer:’</strong></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Issuer: C=ID, ST=Jakarta, O=BlankOn, OU=Infrastruktur, CN=CA
+Subject: C=ID, ST=Jakarta, L=Jakarta, O=BlankOn, OU=Irgsh, CN=CA Pabrik
+</code></pre>
+</div>
+
+<p>3.Sertifikat Biasa 
+** $openssl x509 -in newcert.pem -text | grep ‘Subject:|Issuer:’ **</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Issuer: C=ID, ST=Jakarta, L=Jakarta, O=BlankOn, OU=Irgsh, CN=CA Pabrik
+Subject: C=ID, ST=Jakarta, L=Jakarta, O=BlankOn, OU=Pabrik, CN=Pekerja64
+</code></pre>
+</div>
+<p>Referensi :</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>   ​http://ngoprek.fajran.web.id/2011/02/membuat-certificate-authority.html
+   ​http://idforge.or.id/irclogs/blankon/%23blankon.2011-02-25.log
+</code></pre>
+</div>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

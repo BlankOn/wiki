@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Panduan Mengunduh | wiki</title>
+<meta property="og:title" content="Panduan Mengunduh" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/JaminanKualitas/PanduanMengunduh.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/JaminanKualitas/PanduanMengunduh.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/JaminanKualitas/PanduanMengunduh.html","publisher":null,"image":null,"headline":"Panduan Mengunduh","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="panduan-mengunduh">Panduan Mengunduh</h1>
+<p>Tempat mengunduh cetakan CD akan diumumkan lewat milis pengembang. Biasanya ada di ​halaman_cdimage</p>
+
+<h4 id="cek-md5sum">Cek md5sum</h4>
+<p>Untuk memastikan bahwa cetakan cd yang anda unduh adalah
+utuh dan 100% sama dengan yang dibuat oleh pengembang, lakukan cek md5sum dari
+ISO anda, buka terminal dan lakukan:
+md5sum namaISO.iso</p>
+
+<p>Dimana namaISO.iso adalah nama ISO installer yang telah anda unduh dan akan di
+verifikasi. Nilai referensi dapat ditemukan di dalam berkas bernama MD5SUMS di
+dalam direktori unduh dari ISO tersebut.</p>
+
+<h4 id="rsync-blankon">Rsync BlankOn</h4>
+<div class="highlighter-rouge"><pre class="highlight"><code>* Apa itu rsync? baca di ​sini dan di ​sini
+* Intinya Rsync adalah metode mengunduh yang memanfaatkan berkas-berkas
+  yang sudah diunduh sebelumnya, sehingga tidak perlu mengunduh seluruh
+  bagian dari berkas yang ingin kita unduh, cukup sebagian saja yang
+  berbeda dari berkas yang telah ada.
+* ISO jahitan harian blankon cdlive terbaru`rsync -avz --progress --partial cdimage.blankonlinux.or.id::cdimage/livecd-harian/current/&lt;NAMA-CD.iso&gt; .`
+* ISO rilis BlankOn `rsync -avz --progress --partial cdimage.blankonlinux.or.id::rilis/&lt;VERSI&gt;/&lt;NAMA-CD.iso&gt;`
+</code></pre>
+</div>
+
+<h4 id="rsync-racikan-blankon">Rsync Racikan BlankOn</h4>
+<div class="highlighter-rouge"><pre class="highlight"><code>* ISO jahitan harian racikan BlankOn cdlive terbaru `rsync -avz --progress --partial cdimage.blankonlinux.or.id::cdimage/&lt;NAMA-RACIKAN&gt;/current/&lt;NAMA-CD.iso&gt;`
+* ISO rilis BlankOn `rsync -avz --progress --partial cdimage.blankonlinux.or.id::rilis/&lt;NAMA-RACIKAN&gt;/&lt;VERSI&gt;/&lt;NAMA-CD.iso&gt;`
+</code></pre>
+</div>
+
+<p>Last modified on 10/16/2011 08:30:24 AM</p>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Pengaturan Desktop Compiz | wiki</title>
+<meta property="og:title" content="Pengaturan Desktop Compiz" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopCompiz.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopCompiz.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Draf/PengaturanDesktopCompiz.html","publisher":null,"image":null,"headline":"Pengaturan Desktop Compiz","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="pengaturan-desktop-compiz">Pengaturan Desktop Compiz</h1>
+
+<h2 id="desktop-compiz-fusion">Desktop Compiz Fusion</h2>
+<p>BlankOn datang dengan Compiz Fusion yang sudah terinstall. Dalam beberapa kasus, Compiz membutuhkan driver untuk kartu grafis anda agar compiz 
+berjalan dengan baik. Pastikan Anda telah memasang driver kartu grafis pada sistem.</p>
+
+<p>Untuk mengaktifkan efek Desktop, silakan buka Menu-GNOME ke System &gt; Preference &gt; Apparance. Dalam tab desktop effect anda akan menemukan tiga 
+pengaturan yaitu: None, Normal dan Ekstra. Untuk mengaktifkan compiz, pilih salah satu dari ke tiga pilihan tersebut.</p>
+
+<p>Jika anda menginginkan pengaturan lebih pada pengaturan opsi compiz dan plugin, seperti desktop cube dan animations, pertama install paket konfigurasi 
+compiz: <code class="highlighter-rouge">sudo apt-get install compizconfig-settings-manager</code></p>
+
+<p>Setelah itu anda dapat mengatur plugin dan opsi lanjut compiz yang terletak di System &gt; Preferences &gt; Advanced Desktop Effects Settings. Anda juga 
+dapat menjalankan aplikasi ini dari terminal atau run dialog (ALT+F2) dengan perintah ccsm.</p>
+
+<h3 id="bagi-pengguna-kartu-grafis-ati">Bagi Pengguna Kartu Grafis ATi</h3>
+<p>Beberapa katu grafis ATI terkadang membutuhkan driver propietary untuk menjalankan compiz, hal ini dikarenakan driver terbuka (open Source) radeon 
+terkadang tidak secepat driver proprietary fglrx, sehingga jika menginginkan compiz berjalan dengan baik, Anda harus memasang driver proprietary. 
+Berikut adalah petunjuknya:</p>
+
+<ol>
+  <li>
+    <p>Setelah anda menasang drivernya, baik itu dari manajeman driver
+proprietary atau dari situs ATI, anda harus mengatur konfigurasi berkas
+xorg agar xorg dapat bekerja dengan diver terbaru anda. Buka termimal
+anda dan masukkan:
+    <code class="highlighter-rouge">
+     sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.bak
+    sudo aticonfig --initial --input=/etc/X11/xorg.conf
+   </code> <br />
+   Tindakan tersebut akan menonaktifkan driver radeon default dan
+menggantinya dengan Driver ATI.</p>
+  </li>
+  <li>
+    <p>Sekarang atur compiz agar melewatkan pngecekan tentang driver yang mereka
+blacklist:
+echo SKIP_CHECKS=”yes” » $HOME/.config/compiz/compiz-manager
+Cara alternatif anda dapat mengedit driver yang di percaya karena ini
+adalah cara yang lebih baik. Jalankan paerintah ini untuk mengubah
+skript-startup compiz:
+gksu gedit /usr/bin/compiz</p>
+
+    <p>Cari Driver yang dipercaya dan masukkan fglrx kedalam barisnya, seperti
+ini:</p>
+
+    <h1 id="driver-whitelist">Driver whitelist</h1>
+    <p>WHITELIST=”nvidia intel ati radeon i810 fglrx”</p>
+  </li>
+  <li>
+    <p>Matikan ulang komputer anda, kemudian login dan aktifkan compiz anda.</p>
+  </li>
+</ol>
+
+<h3 id="bagi-pengguna-kartu-grafis-nvidia">Bagi Pengguna Kartu Grafis nVidia</h3>
+<p>Instalasi driver Kartu Grafis nVidia sangat mudah sekali hal ini di karenakan driver nvidia telah ada dalam repository. Buka terminal dan masukkan 
+perintah: sudo apt-get install nvidia-glx-new nvidia-kernel-common Matikan ulang komputer anda, kemudian login dan aktifkan compiz.</p>
+
+<p>Last modified on 09/23/2008 08:18:00 PM</p>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

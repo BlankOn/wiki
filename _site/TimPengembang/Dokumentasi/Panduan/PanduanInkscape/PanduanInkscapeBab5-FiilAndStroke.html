@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Panduan Inkscape | wiki</title>
+<meta property="og:title" content="Panduan Inkscape" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Dokumentasi/Panduan/PanduanInkscape/PanduanInkscapeBab5-FiilAndStroke.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Dokumentasi/Panduan/PanduanInkscape/PanduanInkscapeBab5-FiilAndStroke.html" />
+<meta property="og:site_name" content="wiki" />
+<script type="application/ld+json">
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Dokumentasi/Panduan/PanduanInkscape/PanduanInkscapeBab5-FiilAndStroke.html","publisher":null,"image":null,"headline":"Panduan Inkscape","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/assets/images/logo-blankon.jpg">
+        <p>Wiki Pengembangan Proyek BlankOn</p>
+
+        
+
+        
+
+          <ul class="download">
+            <li class="download"><a href="">Unduh <strong>BlankOn X Tambora</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Buku Panduan</strong></a></li>
+            <li class="download"><a href="">Unduh <strong>Jahitan Harian</strong></a></li>
+          </ul>
+        <h3>Tim Pengembang</h3>
+        <ul>
+        <li><a href="">Humas <small></small></a></li>
+        <li><a href="">Infrastruktur <small></small></a></li>
+        <li><a href="">Riset <small></small></a></li>
+        <li><a href="">Dokumentasi <small></small></a></li>
+        <li><a href="">Pemaket <small></small></a></li>
+        <li><a href="">Kesenian <small></small></a></li>
+        <li><a href="">Jaminan Kualitas <small></small></a></li>
+        </ul>
+        <h3>Wiki</h3>
+        <ul>
+          <li><a href="">Daftar Isi <small></small></a></li>
+          <li><a href="">Peta pranala <small></small></a></li>
+        </ul>
+        <h3>Rilis</h3>
+        <ul>
+          <li><a href="">Tambora <small></small></a></li>
+          <li><a href="">Suroboyo <small></small></a></li>
+          <li><a href="">Rote <small></small></a></li>
+          <li><a href="">Pattimura <small></small></a></li>
+          <li><a href="">Ombilin <small></small></a></li>
+          <li><a href="">Nanggar <small></small></a></li>
+          <li><a href="">Meuligo <small></small></a></li>
+          <li><a href="">Lontara <small></small></a></li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="panduan-inkscape">Panduan Inkscape</h1>
+<h1 id="bab-5-fiilandstroke">Bab 5-FiilAndStroke</h1>
+<p>[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/
+raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Maju.png]</p>
+<h3 id="51fill-and-stroke">5.1.Fill and Stroke</h3>
+<h4 id="511-fill">5.1.1. Fill</h4>
+<p>Fill adalah konten visual utama object SVG pada Inkscape atau dengan kata lain
+merupakan bagian tengah pada object shape. Setiap object SVG memiliki beberapa
+jenis fill (kecuali pada connector diagram).</p>
+<h6 id="catatan">Catatan</h6>
+<ul>
+  <li>Bezier dan garis Freehand memiliki fill sendiri, meskipun secara bawaan
+  sudah diatur dalam bentuk transparant.
+    <h6 id="5111-stroke-paint">5.1.1.1. Stroke Paint</h6>
+    <p>Stroke Paint adalah garis tepi atau bingkai yang mengikuti fill suatu object
+SVG. Setiap object SVG dapat memiliki satu stroke baik yang diset atau tidak
+diset. Stroke Paint pada dasarnya sama dengan fill yang terdiri dari warna
+umum, gradient dan pattern, lebar Stroke juga dapat diatur sesuai kebutuhan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-FiilAndStroke/
+5.1.1.1.Stroke_Paint.png]</p>
+    <h6 id="5112-stroke-width">5.1.1.2. Stroke Width</h6>
+    <p>Stroke Width merupakan fasilitas untuk mengatur ukuran Stroke pada object.
+Pusat stroke object mengikuti path pada object. Sebagai contoh, jika stroke
+mempunyai lebar 10 pixels, maka stroke akan dibagi dua masing-masing 5 pixels
+di kedua sisi path pada arah yang berlawanan.</p>
+    <h6 id="catatan-1">Catatan</h6>
+    <p>Saat object diperbesar maka ukuran stroke secara otomatis ikut melebar, agar
+lebar stroke tidak ikut melebar saat object diperbesar hilangkan tanda centang
+(checklist) pada kotak di Inkscape Preferences =&gt; Transform =&gt; Scale stroke
+width</p>
+    <h6 id="5113-menampilkan-jendela-fill-and-stroke">5.1.1.3. Menampilkan Jendela Fill and Stroke</h6>
+    <p>Jendela pengaturan Fill and Stroke dapat ditampilkan dengan beberapa cara,
+lakukan salah satu langkah berikut:</p>
+  </li>
+  <li>Melalui Menu Bar, klik Object =&gt; Fill and Stroke</li>
+  <li>Melalui ikon Comand Bar, klik ikon (Edit objects’ colors, gradients,
+  stroke width, arrowheads, dash pattern).</li>
+  <li>Menggunakan Keyboard, tekan tombol Shift+Ctrl+F
+Jendela pengaturan Fill and Stroke juga dapat ditampilkan dengan cara berikut,
+pilih object =&gt; arahkan kursor pada jendela kecil File and Stroke yang berada
+dipojok kiri Status Bar, kemudian klik dua kali.
+    <h6 id="5114-menu-fill-and-stroke">5.1.1.4. Menu Fill and Stroke</h6>
+    <p>Pada jendela Fill and Stroke yang tampil terdapat beberapa menu untuk melakukan
+pengaturan.</p>
+    <h6 id="jenis-fill-and-stroke">Jenis Fill and Stroke</h6>
+    <p>Berikut beberapa menu untuk memilih dan mengatur jenis Fill and Stroke, untuk
+memilih jenis fill and stroke, klik ikon yang sesuai, berikut ikon yang
+tersedia.
+[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-FiilAndStroke/
+bartools.png]</p>
+    <h6 id="no-paint">No Paint</h6>
+    <p>No Paint digunakan untuk menghapus Fill atau Stroke pada object
+[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-FiilAndStroke/
+nopaints.png]</p>
+    <h6 id="flat-color">Flat Color</h6>
+    <p>Flat Color digunakan untuk mengatur warna standar pada Fill atau Stroke pada
+object yang dipilih
+[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-FiilAndStroke/
+flatcolor.png]</p>
+    <h6 id="gradient">Gradient</h6>
+    <p>Gradient digunakan untuk mengatur transisi antara dua warna atau lebih pada
+Fill atau Stroke (lihat halaman Tool Box =&gt; Gradient)</p>
+    <h6 id="pattern">Pattern</h6>
+    <p>Pattern digunakan untuk memilih dan mengubah Fill atau Stroke menjadi bentuk
+pola tertentu.</p>
+    <h6 id="swatch">Swatch</h6>
+    <p>Swatch digunakan untuk mengubah Fill atau Stroke menjadi warna bebas sesuai
+pilihan</p>
+    <h6 id="unset-paint">Unset Paint</h6>
+    <p>Unset Paint digunakan untuk memberikan atribut yang berbeda pada metode clone
+pada object.</p>
+    <h6 id="file-rule">File Rule</h6>
+    <p>Fill Rule digunakan untuk mengatur dan menentukan warna fill pada object yang
+saling tumpang tindih dan memiliki beberapa path. Terdapat dua metode yang
+dapat digunakan yaitu: Even-odd dan Non-zero
+[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab5-FiilAndStroke/
+nonzero.png]
+[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/
+raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Maju.png]
+Last modified on 07/07/2014 10:25:34 AM</p>
+    <h4 id="attachments-5">Attachments (5)</h4>
+  </li>
+  <li>bartools.png​ (38.7 KB) - added by guspur 3 years ago.</li>
+  <li>flatcolor.png​ (52.1 KB) - added by guspur 3 years ago.</li>
+  <li>nonzero.png​ (32.6 KB) - added by guspur 3 years ago.</li>
+  <li>nopaints.png​ (31.7 KB) - added by guspur 3 years ago.</li>
+  <li>5.1.1.1.Stroke_Paint.png​ (20.1 KB) - added by imgos 3 years ago.
+####</li>
+</ul>
+
+<hr />
+<p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
+
+<p><a href="/Indeks.md"><strong>Indeks Wiki BlankOn</strong></a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>
