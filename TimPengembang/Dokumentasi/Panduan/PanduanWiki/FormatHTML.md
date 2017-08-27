@@ -4,6 +4,7 @@
 Html adalah singkatan dari hyper text markup language. Dengan html, kita dapat membuat tabel, menentukan corak huruf, dan membuat tautan. Di trac 0.12 ini ada
 beberapa format html yang bisa kita gunakan, antara lain tabel, huruf, dan judul. Untuk menulis html di trac, terdapat format baku sebagai berikut:
 
+```
 {{{
 #!html
 <label>x</label>
@@ -292,5 +293,5 @@ Wiki Markup         Display
        Coral     #FF7F50
       Tomato     #FF6347
    Orange Red    #FF4500
-
+```
 

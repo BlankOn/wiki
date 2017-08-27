@@ -1,18 +1,3 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * ImplementasiPabrikPaketCabang
 ## Pabrik Paket Cabang
 ### Instalasi
    1. Instal pbuilder
@@ -20,15 +5,15 @@
    2. Buat pengguna blankon-dev
       sudo useradd blankon-dev
    3. Masukkan blankon-dev sebagai pengguna sudo untuk pbuilder
-      # echo "blankon-dev ALL=NOPASSWD: /usr/sbin/pbuilder" >> /etc/sudoers
+      `# echo "blankon-dev ALL=NOPASSWD: /usr/sbin/pbuilder" >> /etc/sudoers`
    4. Siapkan rootstrap (dilakukan sebagai blankon-dev)
-      # sudo - blankon-dev
-      sudo  pbuilder create  --configfile /home/blankon-dev/.pbuilderrc
-   5. Instalasi skrip pabrik paket cabang ....
-### …
-...
+      `# sudo - blankon-dev`  
+      `sudo  pbuilder create  --configfile /home/blankon-dev/.pbuilderrc`
+   5. Instalasi skrip pabrik paket cabang
+
 ### Lampiran
 #### .pbuilderrc
+```
 Letakkan berkas .pbuilderrc di /home/blankon-dev, isinya:
 BASETGZ=/home/blankon-dev/pbuilder/base.tgz
 #EXTRAPACKAGES=gcc3.0-athlon-builder
@@ -106,13 +91,9 @@ PKGNAME_LOGFILE=""
 KategoriPemaket KategoriInfra
 Last modified on 07/01/2008 01:29:41 PM
 #### 
-    
- 
- 
- 
- 
- 
+```
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
- 
+
 [**Indeks Wiki BlankOn**](/Indeks.md)

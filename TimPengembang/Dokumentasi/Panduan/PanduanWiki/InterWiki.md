@@ -7,6 +7,7 @@ application, provided a simple URL mapping can be done.
 At the extreme, InterWiki prefixes can even be used to simply introduce links
 to new protocols, such as tsvn: used by ​TortoiseSvn.
 ### Link Syntax
+```
 <target_wiki>(:<identifier>)+
 The link is composed by the targeted Wiki (or system) name, followed by a colon
 (e.g. MeatBall:), followed by a page specification in the target. Note that, as
@@ -59,6 +60,7 @@ Then,
 See also: InterTrac, InterMapTxt
 
 Last modified on 10/16/2014 01:10:30 PM
+```
 
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

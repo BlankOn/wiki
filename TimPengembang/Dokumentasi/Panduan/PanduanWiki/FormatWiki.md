@@ -30,6 +30,7 @@ Beberapa halaman wiki lainnya menyajikan fitur yang canggih dan lebih mendalam d
     * WikiProcessors dan WikiHtml rincian bagaimana bagian-bagian dari teks wiki dapat diproses dengan cara khusus
 
 ## Panduan Dasar
+```
 Kategori        Markup Wiki                     Tampilan
                 '''tebal''', ''miring'',        tebal, miring, gaya Wikipedia
                 '''''gaya Wikipedia'''''
@@ -510,5 +511,4 @@ beberapa format html yang bisa kita gunakan, antara lain tabel, huruf, dan judul
 
 Label ini bisa berupa penanda huruf tebal:<b>Tebal</b>; huruf miring:<i>Miring</i>; dan <table>Tabel</table>. Untuk penjelasan lebih lanjut, lihat
 pembahasan tentang pembuatan tabel, huruf, dan judul.
-
-
+```
