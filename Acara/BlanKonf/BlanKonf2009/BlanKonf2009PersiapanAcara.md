@@ -1,9 +1,6 @@
-## BlanKonf 2009 
-## Persiapan Acara
+# Persiapan Acara BlanKonf 2009 
 
-# Acara 
-
-
+## Acara 
 
 ### Hari I
  8.30 -  9.30 Pendaftaran

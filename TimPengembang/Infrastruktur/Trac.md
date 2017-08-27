@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Trac
-## Trac =
+# Trac =
 Penanggung Jawab: yht
 Versi: 0.12.4
 Server: rani.boi

@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Administratif  /
-    * Repositori
+# Repositori
 Repositori BlankOn dibuat menggunakan program ​reprepro
     * Lokasi konfigurasi dan log di rani: /home/arsipdev/reprepro ($CONF)
     * Lokasi konfigurasi di bzr: ​http://dev.blankonlinux.or.id/browser/

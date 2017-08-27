@@ -1,7 +1,4 @@
- 
-## BlanKonf 2009
-## Persiapan
-## Panitia Lokal
+# Persiapan Panitia Lokal BlanKonf 2009
 
 
 # Panitia Lokal

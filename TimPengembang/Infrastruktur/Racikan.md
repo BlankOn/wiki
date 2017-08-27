@@ -1,21 +1,6 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Rancangan  /
-    * Racikan
-DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF
+#Rancangan Racikan
 DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF DRAF
+
 PERHATIAN: Konsep ini belum matang dan masih dalam proses penelitian oleh Tim
 Riset dan Aplikasi
 ## Racikan BlankOn

@@ -1,44 +1,37 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * DVDRepo
+# DVD Repo
+
 ## Peralatann
 debpartial dan mkisofs
+
 ## Lokasi
 Marya
+
 ## Cara membuat
+
+```
 sudo su
 su - arsip
 cd ~/dvdrepo
 ./dvdrepo.sh <DIST> <ARCH>
-Hasilnya ada di ~/dvdrepo/results/ dan bisa diakses via web dari alamat: ​http:
-//arsip.blankonlinux.or.id/dvdrepo/
+```
+
+Hasilnya ada di `~/dvdrepo/results/` dan bisa diakses via web dari alamat: ​http://arsip.blankonlinux.or.id/dvdrepo/
+
 ## Cara Lain
-$ date
-Lihat hasil tanggal, misanya [tanggal], Kemudian :
-$ at [tanggal]
-> cd /home/arsip/dvdrepo && ./dvdrepo.sh ombilin i386
-> ctrl+d (pencet ctrl <plus> d)
+`$ date`
+
+Lihat hasil tanggal, misanya \[tanggal], Kemudian :
+
+```
+$ at \[tanggal]
+\> cd /home/arsip/dvdrepo && ./dvdrepo.sh ombilin i386
+\> ctrl+d (pencet ctrl <plus> d)
+```
+
 Asumsi <DIST> = ombilin <ARCH> = i386
 Last modified on 06/21/2011 08:54:01 PM
-#### 
-    
- 
- 
- 
- 
- 
+
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

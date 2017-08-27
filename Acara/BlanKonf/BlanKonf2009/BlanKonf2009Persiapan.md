@@ -1,7 +1,4 @@
-## BlanKof 2009 
-## Persiapan
-
-# Persiapan
+# Persiapan BlanKof 2009 
 
 **Tempat**
 

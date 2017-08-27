@@ -1,20 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Yeyen  /
-    * Nginx
-## Nginx di Yeyen
+# Nginx di Yeyen
+
 Menggunakan versi 0.7.65
 ### Module
     * RRD

@@ -61,7 +61,7 @@
 
 ## Bantuan
 1. T  : **Dimana saya bisa mendapat tutorial [BlankOn](/BlankOn.md) lengkap?**
-<br>J : Silahkan meluncur ke Halaman Dokumentasi
+<br>J : Silahkan meluncur ke [Halaman Dokumentasi](/TimPengembang/Dokumentasi/README.md]
     
 2. T  : **Bagaimana cara meminta dan mendapatkan bantuan?**
 <br>J : Ada beberapa media diskusi yang sering digunakan;

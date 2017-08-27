@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * ImplementasiMesinKompilasi
+#Implementasi Mesin Kompilasi
 ## Persiapan
 ### Mesin kompilasi pribadi
 Mesin kompilasi dapat dibuat dengan metoda chroot pada komputer yang sudah

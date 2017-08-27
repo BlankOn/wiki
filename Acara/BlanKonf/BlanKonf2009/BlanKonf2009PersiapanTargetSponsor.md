@@ -1,10 +1,4 @@
-## BlanKonf 2009
-## Persiapan
-## Target Sponsor
-
-
-# Target Sponsor
-
+# Persiapan Target Sponsor BlanKonf 2009
 
 **Lokal dan Nasional**
 

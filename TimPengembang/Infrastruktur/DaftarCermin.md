@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * DaftarCermin
-## Daftar Cermin BlankOn
+# Daftar Cermin BlankOn
                                                              iso       lumbung iso DVD
 Nama        Alamat Cermin                                    instalasi paket   Lumbung Status Keterangan
                                                                                Paket
@@ -35,14 +20,9 @@ jakarta-    ​http://debian.rab.co.id/iso/blankon/
 DEBIAN-RAB
 jakarta-    ​http://blankon.idrepo.or.id/blankon-rilis/
 IDREPO
+
 Last modified on 08/18/2011 05:50:14 PM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

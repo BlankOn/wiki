@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * RepositoriPengembangan
+# Repositori Pengembangan
 Repositori pengembangan menggunakan repositori berversi.
 Lokasi cermin ada di /mnt/sdb1/repo-dev.
 ## Persiapan

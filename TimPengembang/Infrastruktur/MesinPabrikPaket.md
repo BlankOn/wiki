@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * MesinPabrikPaket
+# Mesin Pabrik Paket
 ## otong.mnots.eu
     * Arsitektur: amd64
     * RAM: 1GB

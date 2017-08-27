@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Kompetensi
-## Kompetensi Tim Infrastruktur
+# Kompetensi Tim Infrastruktur
 Halaman ini berisi kompetensi yang diperlukan untuk menjadi anggota tim
 Infrastruktur.
 ### Lumbung
