@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/BlankOn/wiki.svg?branch=master)](https://travis-ci.org/BlankOn/wiki)
 # Selamat Datang di Wiki Pengembangan [BlankOn](/BlankOn.md)
 
 Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proyek ini.
