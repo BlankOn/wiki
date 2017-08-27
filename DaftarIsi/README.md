@@ -1,6 +1,5 @@
 # Daftar Isi Wiki BlankOn
 
-<<<<<<< HEAD
 * [ Acara/ ](/Acara/)
     * [ ILC2007 ](/Acara/ILC2007.md)				
 				
@@ -354,7 +353,6 @@
 		  * [ README ](/wiki/ProdukBlankOn/Srimubil/README.md)		
 		  * [ TimPengembangSrimubil ](/wiki/ProdukBlankOn/Srimubil/TimPengembangSrimubil.md)		
 	  * [ /wiki/ProdukBlankOn/1/ ](/wiki/ProdukBlankOn/1/)			
->>>>>>> d781959f355d0c0bc122feb1fff847d8ca26faf6
 		  * [ Artwork ](Artwork.mdArtwork.md)		
 		  * [ CatatanRilis ](Artwork.mdCatatanRilis.md)		
 		  * [ DaftarPaket ](Artwork.mdDaftarPaket.md)		
