@@ -1,8 +1,6 @@
-## BlanKof 2009
-## Persiapan Buklet Sponsor
+# Persiapan Buklet Sponsor BlanKonf 2009
 
-
-# Buklet Sponsor
+## Buklet Sponsor
 
 
 ### Sekilas BlanKonf

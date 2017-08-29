@@ -1,10 +1,4 @@
-## BlanKof 2009
-## Persiapan
-## Daftar Pembicara Panitia
-
-
-# Daftar Pembicara dan  Panitia
-
+# Persiapan Daftar Pembicara Panitia BlanKonf 2009
 
 
 **Format : [Nama], [Kota Asal]**

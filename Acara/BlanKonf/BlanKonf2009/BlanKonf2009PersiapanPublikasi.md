@@ -1,10 +1,4 @@
-
-
-## BlanKonf 2009
-## Persiapan
-## Publikasi
-
-
+# Persiapan Publikasi BlanKonf 2009
 
 # Publikasi
 

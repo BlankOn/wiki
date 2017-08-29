@@ -1,12 +1,6 @@
+# Presentasi BlanKonf 2009
 
-## BlanKonf 2009
-## Presentasi
-
-
-# Presentasi
-
-
-#### Daftar Presentasi/Makalah 
+## Daftar Presentasi/Makalah 
 
 **Silakan masukkan makalah/presentasi Anda di BlanKonf di halaman ini**
 
