@@ -1,6 +1,5 @@
-# BlanKoding
+# BlanKoding 2017 \#2
 
-## BlanKoding 2017
 
 ### Laporan BlanKoding \#2
 

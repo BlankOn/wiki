@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Planet
-## Serambi BlankOn
+# Planet Serambi BlankOn
     * Log Pembicaraan: ​http://dev.blankonlinux.or.id/irclogs/2009/01/10#T20:
       26:50
     * Alamat Serambi BlankOn: ​http://serambi.blankonlinux.or.id

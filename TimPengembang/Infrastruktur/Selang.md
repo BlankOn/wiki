@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Selang
-## Selang
+# Selang
 ### Cara menggunakan
 Sebelum mengakses web lakukan:
 export http_proxy=http://127.0.0.1:8888

@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * 4  /
-    * Cermin
-## Daftar cermin unduhan BlankOn 4.0 Meuligoe
+# Daftar cermin unduhan BlankOn 4.0 Meuligoe
+
 ### ISO
     * Jakarta ​ftp://kambing.ui.edu/pub/blankon/rilis/meuligoe/
     * Jakarta ​ftp://dl2.foss-id.web.id/iso/blankon/meuligoe/
@@ -37,13 +23,7 @@
     * Solo ​http://mugos.ums.ac.id/blankon/
     * ...
 Last modified on 12/11/2009 11:20:47 PM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  

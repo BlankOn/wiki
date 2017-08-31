@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Jedough
-## Jedough
+# Jedough
 Mesin jedough.id-anime.info dimanfaatkan sebagai pabrik paket amd64. Karena
 keterbatasan space di jedough, maka space di yeyen di-share ke jedough melalui
 AoE.

@@ -1,12 +1,5 @@
 
-## BlanKonf 2009
-## Persiapan
-## Perlengkapan
-
-
-
-# Perlengkapan
-
+# Persiapan Perlengkapan BlanKonf 2009
 
 
 **Hal yang perlu disiapkan**

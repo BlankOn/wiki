@@ -1,20 +1,8 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
+# SMART HDD
     * Infrastruktur  /
     * Monitor  /
     * Smart-hdd
-### SMART HDD
+
 Sebagai tindakan pencegahan, kita juga harus mengawasi kesehatan harddisk. Hal
 ini dapat dilakukan dengan menggunakan bantuan S.M.A.R.T.
 Di Linux debian-based, kita bisa menggunakan paket smartmontools.

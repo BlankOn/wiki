@@ -1,6 +1,5 @@
-# BlanKoding
+# BlanKoding 2017 \#2
 
-## BlanKoding 2017
 
 ### Laporan BlanKoding \#2
 
@@ -48,14 +47,15 @@ Kendala
 
 Garis Besar Pengembangan
 
-Tahapan rilis Uluwatu kali ini sangat-sangat meleset dari target awal. Di awan-awal perjalanan uluwatu, pengembang berkonsentrasi pada pelayanan Infrastruktur dengan target mampu mereproduksi infra dan layanan yang ada di BlankOn Linux. Hal ini dikarenakan minimnya dokumentasi dan penurunan catatan dari pengembang-pengembang awal ke tim pengembangan selanjutnya.
+Tahapan rilis Uluwatu kali ini sangat-sangat meleset dari target awal. Di awan-awal perjalanan Uluwatu, pengembang berkonsentrasi pada pelayanan Infrastruktur dengan target mampu mereproduksi infra dan layanan yang ada di BlankOn Linux. Hal ini dikarenakan minimnya dokumentasi dan penurunan catatan dari pengembang-pengembang awal ke tim pengembangan selanjutnya.
 
 Fase Nol | Upgrade mesin mesin blankon
-- Penambahan Hardisk 2TB ke Wajinah
-- Penambahan Hardisk 4TB ke Rani
-- Penambahan Procesor ke Alynne
-- Pemasangan Ram ke Alynne | kondisi alyne, 2 CPU, 8 Core, 16GB
-- Inisiasi Ananda | Digital Ocean 4Core 4GB, 350GB SSD (Repo)
+  - Penambahan Hardisk 2TB ke Wajinah
+  - Penambahan Hardisk 4TB ke Rani
+  - Penambahan Procesor ke Alynne
+  - Pemasangan Ram ke Alynne | kondisi alyne, 2 CPU, 8 Core, 16GB
+  - Inisiasi Ananda | Digital Ocean 4Core 4GB, 350GB SSD (Repo)
+
 Fase Satu | Riset ujicoba replika service blankon
 Fase Dua | Reinstall Alynne dan mengembalikan layanan awal
 Fase Tiga | Reinstall Rani dan mengembalikan layannan awal (On Progress)
@@ -70,4 +70,9 @@ Salam hangat
 +62 856 432 14898
 Blog: http://tuanpembual.wordpress.com
 
-Sumber: milis pengembang
+Sumber: milis pengembang BlankOn
+
+---
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+ 
+[**Indeks Wiki BlankOn**](/Indeks.md)

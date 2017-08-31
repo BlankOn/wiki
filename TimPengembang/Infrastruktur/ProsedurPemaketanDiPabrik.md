@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * ProsedurPemaketanDiPabrik
+# Prosedur Pemaketan Di Pabrik
 ## Ketentuan
    1. Anda sudah memahami Prosedur_Pembuatan_Paket.
    2. Anda sudah memasang Mesin_Kompilasi_Pribadi di komputer Anda.

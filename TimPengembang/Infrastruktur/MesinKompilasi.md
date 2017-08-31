@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * MesinKompilasi
+# Mesin Kompilasi
 Silakan kunjungi halaman Launchpad di bawah ini untuk melihat status dokumen
 ini. Silakan bergabung dalam tim ​konde-infrastruktur bila ingin menyunting
 halaman ini.

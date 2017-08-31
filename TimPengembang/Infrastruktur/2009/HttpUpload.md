@@ -1,7 +1,8 @@
+# Upload Melalui HTTP Secara Efisien
+## HTTP Upload
+
 #### Rancangan Diskusi Infrastruktur 2009
 
-# HTTP Upload
-## Upload Melalui HTTP Secara Efisien
 
 ### Pendahuluan
 Dokumen ini berisi usulan protokol upload melalui HTTP secara efisien. Yang

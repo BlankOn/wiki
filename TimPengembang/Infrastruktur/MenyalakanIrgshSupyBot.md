@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * MenyalakanIrgshSupyBot
+# MenyalakanIrgshSupyBot
 Menyalakan Irgsh Supybot IRC
 Irgsh ini bertujuan untuk mencatat riwayat percakapan yang berada di
 irc.blankon.in #BlankOn, dan nantinya akan tercatat dalam web http://
