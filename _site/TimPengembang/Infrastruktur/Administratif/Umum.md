@@ -1,20 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Administratif  /
-    * Umum
-## Panduan Umum
+# Panduan Umum
 Beberapa hal yang perlu diperhatikan saat melakukan pekerjaan pada mesin
 pengembangan BlankOn :
     * Untuk menjalankan proses - proses hindari menggunakan pengguna "root"

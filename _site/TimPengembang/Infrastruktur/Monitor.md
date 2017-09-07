@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Monitor
-monitor.blankon.in
+# monitor.blankon.in
+
 Adalah pusat monitoring dari semua server blankon. Terletak di DataUtama??
 Surabaya. Virtual di mesin alynne.boi.
 Password root-mysql.

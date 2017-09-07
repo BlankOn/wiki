@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * ImplementasiLayananTorrent
+# Implementasi Layanan Torrent
 ### Gambaran Umum
 Untuk melayani distribusi melalui protokol bittorrent, diperlukan beberapa
 tahap

@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Administratif  /
-    * PabrikCD
+# Pabrik CD
+
 Halaman ini menjelaskan proses pembuatan CD secara manual
 ## Jenis CD
   cdlive

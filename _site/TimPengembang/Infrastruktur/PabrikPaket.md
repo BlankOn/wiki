@@ -1,5 +1,5 @@
-    * Infrastruktur  /
-    * PabrikPaket
+# Pabrik Paket
+
 Silakan kunjungi halaman Launchpad di bawah ini untuk melihat status dokumen
 ini. Silakan bergabung dalam tim ​blankon-infrastruktur bila ingin menyunting
 halaman ini.

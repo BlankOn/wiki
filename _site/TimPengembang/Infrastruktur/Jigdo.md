@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Jigdo
+# Jigdo
 ## Pengantar
 ​Jigdo adalah alat bantu Debian untuk mengunduh berkas cetakan CD (.iso). Jigdo
 sangat berguna pada kondisi Internet yang pas-pasan, karena Jigdo tidak

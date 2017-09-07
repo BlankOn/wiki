@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>wiki</title>
-<meta property="og:title" content="wiki" />
+<title>Pekerja V2 | wiki</title>
+<meta property="og:title" content="Pekerja V2" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
 <link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/PekerjaV2.html" />
 <meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/PekerjaV2.html" />
 <meta property="og:site_name" content="wiki" />
 <script type="application/ld+json">
-{"name":null,"description":null,"author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/PekerjaV2.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/PekerjaV2.html","publisher":null,"image":null,"headline":"Pekerja V2","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -26,7 +28,7 @@
     <div class="wrapper">
       <header>
         <img src="/assets/images/logo-blankon.jpg">
-        <p></p>
+        <p>Wiki Pengembangan Proyek BlankOn</p>
 
         
 
@@ -66,24 +68,12 @@
       </header>
       <section>
 
-      <p>BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * PabrikPaket  /
-    * PekerjaV2</p>
+      <h1 id="pekerja-v2">Pekerja V2</h1>
+<p>Kategori: Infrastruktur/PabrikPaket/PekerjaV2</p>
+
 <h2 id="irgsh-node">irgsh-node</h2>
 <p>irgsh-node adalah pabrik pekerja dalam infrastruktur ​pabrik_paket BlankOn.</p>
+
 <h3 id="kebutuhan-administrasi">Kebutuhan Administrasi</h3>
 <ol>
   <li>Sertifikat SSL untuk pabrik paket, ditandatangani oleh CA Irgsh BlankOn.</li>
@@ -93,56 +83,72 @@
       <li>Judul sertifikat SSL</li>
       <li>Kunci publik SSH</li>
       <li>Nama pabrik</li>
-      <li>Arsitektur pabrik
-        <h3 id="kebutuhan-aplikasi">Kebutuhan Aplikasi</h3>
-        <p>$ sudo apt-get install python dput pbuilder git-core</p>
-        <h3 id="instalasi">Instalasi</h3>
-        <h4 id="mendapatkan-kode-sumber">Mendapatkan kode sumber</h4>
-        <p>Kode sumber akan diambil langsung dari repositori di GitHub?.
-$ git clone git://github.com/BlankOn/python-irgsh.git
+      <li>Arsitektur pabrik</li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="kebutuhan-aplikasi">Kebutuhan Aplikasi</h3>
+<p><code class="highlighter-rouge">$ sudo apt-get install python dput pbuilder git-core</code></p>
+
+<h3 id="instalasi">Instalasi</h3>
+<h4 id="mendapatkan-kode-sumber">Mendapatkan kode sumber</h4>
+<p>Kode sumber akan diambil langsung dari repositori di GitHub?.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git clone git://github.com/BlankOn/python-irgsh.git
 $ git clone git://github.com/BlankOn/irgsh-node.git
 $ cd irgsh-node
-$ ln -s ../python-irgsh/irgsh</p>
-        <h4 id="menyiapkan-irgsh-node">Menyiapkan irgsh-node</h4>
-        <p>Instalasi irgsh-node akan disiapkan oleh skrip ​Buildout yang disertakan.
-Pustaka Python lain yang dibutuhkan akan otomatis diunduh oleh Buildout.
-$ cd irgsh-node
+$ ln -s ../python-irgsh/irgsh
+</code></pre>
+</div>
+
+<h4 id="menyiapkan-irgsh-node">Menyiapkan irgsh-node</h4>
+<p>Instalasi irgsh-node akan disiapkan oleh skrip ​Buildout yang disertakan.
+Pustaka Python lain yang dibutuhkan akan otomatis diunduh oleh Buildout.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ cd irgsh-node
 $ python bootstrap.py
-$ ./bin/buildout</p>
-        <h3 id="konfigurasi">Konfigurasi</h3>
-        <h4 id="irgsh-node-1">irgsh-node</h4>
-        <p>Sunting berkas irgsh-node.conf dan atur nilai-nilai berikut.
-    * irgsh
-    o node-name berisi nama pabrik, sesuai yang didaftarkan ke ​Irgsh.
-    o arch berisi arsitektur pabrik, misalnya i386 atau amd64.
-    o ssl-cert berisi path menuju berkas sertifikat SSL.
-    o ssl-key berisi path menuju berkas kunci privat SSL.</p>
-        <h4 id="ssh">SSH</h4>
-        <p>Sunting berkas ~/.ssh/config dan tambahkan isian berikut.
+$ ./bin/buildout
+</code></pre>
+</div>
+
+<h3 id="konfigurasi">Konfigurasi</h3>
+<h4 id="irgsh-node-1">irgsh-node</h4>
+<p>Sunting berkas irgsh-node.conf dan atur nilai-nilai berikut.</p>
+<ul>
+  <li>irgsh
+      o node-name berisi nama pabrik, sesuai yang didaftarkan ke ​Irgsh.
+      o arch berisi arsitektur pabrik, misalnya i386 atau amd64.
+      o ssl-cert berisi path menuju berkas sertifikat SSL.
+      o ssl-key berisi path menuju berkas kunci privat SSL.</li>
+</ul>
+
+<h4 id="ssh">SSH</h4>
+<p>Sunting berkas ~/.ssh/config dan tambahkan isian berikut.
 Host rani.blankonlinux.or.id
 HostName rani.blankonlinux.or.id
 Port 2222
 IdentityFile /path/menuju/kunci/privat/ssh.key</p>
-        <h4 id="sudo">sudo</h4>
-        <p>Pastikan pengguna yang menjalankan irgsh-node dapat memanggil /usr/sbin/
+
+<h4 id="sudo">sudo</h4>
+<p>Pastikan pengguna yang menjalankan irgsh-node dapat memanggil /usr/sbin/
 pbuilder dengan sudo tanpa dimintai kata kunci. Contoh isi /etc/sudoers
 (sunting dengan visudo).
 pabrik ALL=NOPASSWD: /usr/sbin/pbuilder</p>
-        <h3 id="eksekusi">Eksekusi</h3>
-        <p>Ada dua buah aplikasi yang perlu dijalankan: pabrik irgsh-node dan pengunggah
+
+<h3 id="eksekusi">Eksekusi</h3>
+<p>Ada dua buah aplikasi yang perlu dijalankan: pabrik irgsh-node dan pengunggah
 irgsh-uploader.</p>
-        <h4 id="pabrik">Pabrik</h4>
-        <p>$ cd irgsh-node
-$ ./bin/irgsh-node</p>
-        <h4 id="pengunggah">Pengunggah</h4>
-        <p>$ cd irgsh-node
-$ ./bin/irgsh-uploader
-Last modified on 10/05/2011 07:37:34 PM
-####</p>
-      </li>
-    </ol>
-  </li>
-</ol>
+
+<h4 id="pabrik">Pabrik</h4>
+<p><code class="highlighter-rouge">$ cd irgsh-node</code>
+<code class="highlighter-rouge">$ ./bin/irgsh-node</code></p>
+
+<h4 id="pengunggah">Pengunggah</h4>
+<p><code class="highlighter-rouge">$ cd irgsh-node</code>
+<code class="highlighter-rouge">$ ./bin/irgsh-uploader</code></p>
+
+<p>Last modified on 10/05/2011 07:37:34 PM</p>
 
 <hr />
 <p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>

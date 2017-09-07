@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * ImplementasiPabrikPaket
+# Implementasi Pabrik Paket
 ## Cara Kerja
 ### Kode sumber
 ​https://code.launchpad.net/~blankon-infrastruktur/blankon/pabrik-paket

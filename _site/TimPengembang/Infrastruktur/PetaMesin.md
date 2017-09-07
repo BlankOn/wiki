@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * PetaMesin
-## Peta Mesin BlankOn
+# Peta Mesin BlankOn
 ### Yeyen:
     * diupgrade dulu
     * Pabrik amd64/i386

@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * MenyalakanBotTwitter
-Menyalakan Bor Twitter'
+# Menyalakan Bor Twitter'
 Bot Twitter ini bertujuan untuk rettwet bagi akun twitter yang ngetwit dengan
 #BlankOn dan dikuti oleh @BlankOnLinux?
 Caranya Masuk Ke Waljinah

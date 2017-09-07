@@ -1,20 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * MembuatCerminBlankOn
-DRAFT DRAFT DRAFT
-### Membuat Cermin BlankOn
+# Membuat Cermin BlankOn
+
 berikut ini adalah langkah untuk membuat cermin BlankOn,
 pertama siapkan reprepro
 sudo apt-get install reprepro

@@ -1,6 +1,4 @@
-    * Infrastruktur  /
-    * Administratif  /
-    * RilisCD
+# Rilis CD
 ### Skrip publish-release
 Gunakan skrip publish-release untuk merilis CD:
 $ sudo su - cdimage

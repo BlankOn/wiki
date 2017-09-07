@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>wiki</title>
-<meta property="og:title" content="wiki" />
+<title>Menyalakan Pekerja V2 | wiki</title>
+<meta property="og:title" content="Menyalakan Pekerja V2" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
 <link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/Menyalakan.html" />
 <meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/Menyalakan.html" />
 <meta property="og:site_name" content="wiki" />
 <script type="application/ld+json">
-{"name":null,"description":null,"author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/Menyalakan.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/Menyalakan.html","publisher":null,"image":null,"headline":"Menyalakan Pekerja V2","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -26,7 +28,7 @@
     <div class="wrapper">
       <header>
         <img src="/assets/images/logo-blankon.jpg">
-        <p></p>
+        <p>Wiki Pengembangan Proyek BlankOn</p>
 
         
 
@@ -66,52 +68,43 @@
       </header>
       <section>
 
-      <p>BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * PabrikPaket  /
-    * PekerjaV2  /
-    * Menyalakan
-Persiapan Sesi Screen
+      <h1 id="menyalakan-pekerja-v2">Menyalakan Pekerja V2</h1>
+<p>Kategori: Infrastruktur/PabrikPaket/PekerjaV2/Menyalakan</p>
+
+<p>Persiapan Sesi Screen
 $ screen -S pabrik32
 ^A: multiuser on
-^A: acladd root
-Persiapan Chroot
+^A: acladd root</p>
+
+<p>Persiapan Chroot
 $ cd /home/pabrik-paket/i386
 $ sudo mount -t proc proc chroot/proc
 $ sudo mount -t sysfs sysfs chroot/sys
-$ sudo mount -o bind /dev chroot/dev
-irgsh-node
+$ sudo mount -o bind /dev chroot/dev</p>
+
+<p>irgsh-node
 $ cd /home/pabrik-paket/i386
 $ sudo chroot chroot
 (chroot)root# chmod 777 /dev/shm
 (chroot)root# su - pabrik
 (chroot)pabrik$ cd pabrik/irgsh-node
-(chroot)pabrik$ ./bin/irgsh-node -l DEBUG
-irgsh-uploader
+(chroot)pabrik$ ./bin/irgsh-node -l DEBUG</p>
+
+<p>irgsh-uploader
 $ cd /home/pabrik-paket/i386
 $ sudo chroot chroot
 (chroot)root# su - pabrik
 (chroot)pabrik$ cd pabrik/irgsh-node
-(chroot)pabrik$ ./bin/irgsh-uploader
-Catatan :
+(chroot)pabrik$ ./bin/irgsh-uploader</p>
+
+<p>Catatan :
 ^A” : Ganti Windows
-~Ac : buat screen baru
-Masuk ke screen :
-$ sudo screen -x iang/pabrik32
-Last modified on 04/20/2011 06:04:41 PM
-####</p>
+~Ac : buat screen baru</p>
+
+<p>Masuk ke screen :
+$ sudo screen -x iang/pabrik32</p>
+
+<p>Last modified on 04/20/2011 06:04:41 PM</p>
 
 <hr />
 <p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>

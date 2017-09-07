@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>wiki</title>
-<meta property="og:title" content="wiki" />
+<title>DVD Repo | wiki</title>
+<meta property="og:title" content="DVD Repo" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
 <link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/DVDRepo.html" />
 <meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/DVDRepo.html" />
 <meta property="og:site_name" content="wiki" />
 <script type="application/ld+json">
-{"name":null,"description":null,"author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/DVDRepo.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/DVDRepo.html","publisher":null,"image":null,"headline":"DVD Repo","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -26,7 +28,7 @@
     <div class="wrapper">
       <header>
         <img src="/assets/images/logo-blankon.jpg">
-        <p></p>
+        <p>Wiki Pengembangan Proyek BlankOn</p>
 
         
 
@@ -66,43 +68,38 @@
       </header>
       <section>
 
-      <p>BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * DVDRepo</p>
+      <h1 id="dvd-repo">DVD Repo</h1>
+
 <h2 id="peralatann">Peralatann</h2>
 <p>debpartial dan mkisofs</p>
+
 <h2 id="lokasi">Lokasi</h2>
 <p>Marya</p>
+
 <h2 id="cara-membuat">Cara membuat</h2>
-<p>sudo su
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo su
 su - arsip
 cd ~/dvdrepo
-./dvdrepo.sh <DIST> <ARCH>
-Hasilnya ada di ~/dvdrepo/results/ dan bisa diakses via web dari alamat: ​http:
-//arsip.blankonlinux.or.id/dvdrepo/</ARCH></DIST></p>
+./dvdrepo.sh &lt;DIST&gt; &lt;ARCH&gt;
+</code></pre>
+</div>
+
+<p>Hasilnya ada di <code class="highlighter-rouge">~/dvdrepo/results/</code> dan bisa diakses via web dari alamat: ​http://arsip.blankonlinux.or.id/dvdrepo/</p>
+
 <h2 id="cara-lain">Cara Lain</h2>
-<p>$ date
-Lihat hasil tanggal, misanya [tanggal], Kemudian :
-$ at [tanggal]</p>
-<blockquote>
-  <p>cd /home/arsip/dvdrepo &amp;&amp; ./dvdrepo.sh ombilin i386
-ctrl+d (pencet ctrl <plus> d)
-Asumsi <DIST> = ombilin <ARCH> = i386
-Last modified on 06/21/2011 08:54:01 PM
-####</ARCH></DIST></plus></p>
-</blockquote>
+<p><code class="highlighter-rouge">$ date</code></p>
+
+<p>Lihat hasil tanggal, misanya [tanggal], Kemudian :</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ at \[tanggal]
+\&gt; cd /home/arsip/dvdrepo &amp;&amp; ./dvdrepo.sh ombilin i386
+\&gt; ctrl+d (pencet ctrl &lt;plus&gt; d)
+</code></pre>
+</div>
+
+<p>Asumsi <DIST> = ombilin <ARCH> = i386
+Last modified on 06/21/2011 08:54:01 PM</ARCH></DIST></p>
 
 <hr />
 <p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>

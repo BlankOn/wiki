@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>wiki</title>
-<meta property="og:title" content="wiki" />
+<title>ManajemenRepo | wiki</title>
+<meta property="og:title" content="ManajemenRepo" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/ACL.html" />
-<meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/ACL.html" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
+<link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/ManejemenRepo.html" />
+<meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/ManejemenRepo.html" />
 <meta property="og:site_name" content="wiki" />
 <script type="application/ld+json">
-{"name":null,"description":null,"author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/ACL.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/PabrikPaket/ManejemenRepo.html","publisher":null,"image":null,"headline":"ManajemenRepo","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -26,7 +28,7 @@
     <div class="wrapper">
       <header>
         <img src="/assets/images/logo-blankon.jpg">
-        <p></p>
+        <p>Wiki Pengembangan Proyek BlankOn</p>
 
         
 
@@ -66,12 +68,48 @@
       </header>
       <section>
 
-      <div class="highlighter-rouge"><pre class="highlight"><code>* TimPengembang  /
-* ACL ## Write
-* TimSteeringGroup
-* wejick Last modified on 03/30/2009 11:42:40 AM
-</code></pre>
-</div>
+      <h1 id="manajemenrepo">ManajemenRepo</h1>
+
+<p>Untuk Mengaktifkan aplikasi reprepro irgsh di pabrik paket.</p>
+<ol>
+  <li>Masuk Ke yeyen</li>
+  <li>silahkan ubah ke user irgsh
+   <code class="highlighter-rouge">sudo su - irgsh</code></li>
+  <li>Masuk ke Directory irgsh-repo
+   <code class="highlighter-rouge">cd irgsh-repo</code></li>
+  <li>Lakukan Perintah
+   <code class="highlighter-rouge">nohup ../bin/python2.6 ./irgsh-repo.py &gt;&gt; log 2&gt;&amp;1</code></li>
+</ol>
+
+<p><strong>Catatan :</strong></p>
+
+<p>fg = foreground
+bg = background
+Ctrl-z akan mengirim sinyal SIGSTOP ke aplikasi yang jalan di konsol saat itu
+Kernel kemudian bilang ke aplikasi, HEY Kau berhenti dulu!</p>
+
+<p>Trus kendali dikembalikan ke prompt shell
+Trus Bapak ada 3 pilihan:
+0- Mau meneruskan aplikasi yang tadi distop
+1- Mau meneruskan aplikasi yang tadi distop, tapi tetap bisa pakai terminal
+2- Mau melakukan sesuatu di terminal, misalnya cat /berkas/lain atau njalanin
+program lain, dst</p>
+
+<p>Kalau pilih 0, berarti kita ingin aplikasi tsb jalan lagi, caranya tullis fg
+bash akan meminta kernel untuk jalankan program tadi</p>
+
+<p>Kalau pilih 1, berarti kita ingin aplikasi tsb jalan lagi, caranya tullis bg
+artinya si aplikasi jalan di belakang layar, sementara kita bisa pakai terminal</p>
+
+<p>Kalau pilih 2, ya wis Bapak terserah mau ngapain lagi, tapi nanti sesudahnya
+kembali ke pilihan 0 atau 1</p>
+
+<p>Kalau tidak si aplikasi statusnya jadi zombie, ada di RAM tapi tidak jalan dan
+tidak mati</p>
+
+<p>Refrensi : ​http://tempel.blankon.in/417</p>
+
+<p>Last modified on 01/31/2011 06:02:20 PM</p>
 
 <hr />
 <p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>

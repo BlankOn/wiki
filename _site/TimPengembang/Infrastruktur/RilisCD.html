@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>wiki</title>
-<meta property="og:title" content="wiki" />
+<title>Rilis CD | wiki</title>
+<meta property="og:title" content="Rilis CD" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="Wiki Pengembangan Proyek BlankOn" />
+<meta property="og:description" content="Wiki Pengembangan Proyek BlankOn" />
 <link rel="canonical" href="http://localhost:4000/TimPengembang/Infrastruktur/RilisCD.html" />
 <meta property="og:url" content="http://localhost:4000/TimPengembang/Infrastruktur/RilisCD.html" />
 <meta property="og:site_name" content="wiki" />
 <script type="application/ld+json">
-{"name":null,"description":null,"author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/RilisCD.html","publisher":null,"image":null,"headline":"wiki","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Wiki Pengembangan Proyek BlankOn","author":null,"@type":"WebPage","url":"http://localhost:4000/TimPengembang/Infrastruktur/RilisCD.html","publisher":null,"image":null,"headline":"Rilis CD","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -26,7 +28,7 @@
     <div class="wrapper">
       <header>
         <img src="/assets/images/logo-blankon.jpg">
-        <p></p>
+        <p>Wiki Pengembangan Proyek BlankOn</p>
 
         
 
@@ -66,17 +68,32 @@
       </header>
       <section>
 
-      <div class="highlighter-rouge"><pre class="highlight"><code>* Infrastruktur  /
-* Administratif  /
-* RilisCD ### Skrip publish-release Gunakan skrip publish-release untuk merilis CD: $ sudo su - cdimage $ export PATH=/srv/cdimage.blankonlinux.or.id/bin:$PATH $ for-project &lt;PROJECT&gt; $ publish-release &lt;SUMBER-JAHITAN&gt; &lt;TANGGAL&gt; &lt;JENIS-CD&gt; fullonly &lt;TARGET-RILIS&gt; Keterangan:
-* &lt;PROJECT&gt;: blankon, blankon-minimalist, dst.
-* &lt;SUMBER-JAHITAN&gt;: harian untuk alternate harian - livecd-harian untuk
-  live-cd harian
-* &lt;TANGGAL&gt;: 20090515, 20090516, dst.
-* &lt;JENIS-CD&gt;: cdlive, alternate
-* &lt;TARGET-RILIS&gt;: rc, beta, jahitan-3, dst. ### Contoh pengunaan Proyek BlankOn $ for-project blankon $ publish-release livecd-harian 20090515 cdlive fullonly beta $ publish-release harian 20090516 alternate fullonly beta Proyek BlankOn-Minimalist $ for-project blankon-minimalist $ publish-release livecd-harian 20090515 cdlive fullonly beta $ publish-release harian 20090516 alternate fullonly beta Sekian! Last modified on 05/17/2009 10:30:01 AM #### 
-</code></pre>
-</div>
+      <h1 id="rilis-cd">Rilis CD</h1>
+<h3 id="skrip-publish-release">Skrip publish-release</h3>
+<p>Gunakan skrip publish-release untuk merilis CD:
+$ sudo su - cdimage
+$ export PATH=/srv/cdimage.blankonlinux.or.id/bin:$PATH
+$ for-project <PROJECT>
+$ publish-release <SUMBER-JAHITAN> <TANGGAL> <JENIS-CD> fullonly <TARGET-RILIS>
+Keterangan:
+    * <PROJECT>: blankon, blankon-minimalist, dst.
+    * <SUMBER-JAHITAN>: harian untuk alternate harian - livecd-harian untuk
+      live-cd harian
+    * <TANGGAL>: 20090515, 20090516, dst.
+    * <JENIS-CD>: cdlive, alternate
+    * <TARGET-RILIS>: rc, beta, jahitan-3, dst.</TARGET-RILIS></JENIS-CD></TANGGAL></SUMBER-JAHITAN></PROJECT></TARGET-RILIS></JENIS-CD></TANGGAL></SUMBER-JAHITAN></PROJECT></p>
+<h3 id="contoh-pengunaan">Contoh pengunaan</h3>
+<p>Proyek BlankOn
+$ for-project blankon
+$ publish-release livecd-harian 20090515 cdlive fullonly beta
+$ publish-release harian 20090516 alternate fullonly beta
+Proyek BlankOn-Minimalist
+$ for-project blankon-minimalist
+$ publish-release livecd-harian 20090515 cdlive fullonly beta
+$ publish-release harian 20090516 alternate fullonly beta
+Sekian!
+Last modified on 05/17/2009 10:30:01 AM
+####</p>
 
 <hr />
 <p><a href="/DaftarIsi/README.md"><strong>Daftar Isi Wiki BlankOn</strong></a></p>
