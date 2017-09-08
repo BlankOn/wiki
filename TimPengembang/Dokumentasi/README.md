@@ -27,17 +27,11 @@ Tim Dokumentasi BlankOn bertugas;
 ------------
 
 **Halaman terkait:**
-  + [Sistem Help pada BlankOn 7][/Yeld.md]
+  + [Sistem Help pada BlankOn 7](/Yeld.md)
 
 [webpanduanboi]:(http://panduan.blankonlinux.or.id/)
 [wikiblankon]:(https://blankon.github.io/wiki/)
 
-
-
-
-
----
- 
 
 
 
