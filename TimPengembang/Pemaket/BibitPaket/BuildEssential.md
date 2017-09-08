@@ -1,5 +1,4 @@
-## Bibit Paket
-# Build Essential
+## Bibit Paket - Build Essential
 This seed is used to implement the debootstrap buildd variant. It doesn't
 include build-essential itself since that historically hasn't been in the
 buildd chroots, being only informational.

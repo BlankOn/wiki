@@ -1,4 +1,4 @@
-## Bibit Paket
+## Bibit Paket - blacklist
 
 # blacklist: gnome1
 # We want to avoid shipping GNOME 1.x components if possible

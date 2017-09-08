@@ -1,5 +1,4 @@
-## Bibit Paket
-# Minimal
+## Bibit Paket - Minimal
 
 Task-Section: user
 Task-Relevance: 9

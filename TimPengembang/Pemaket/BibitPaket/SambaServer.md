@@ -1,6 +1,5 @@
-## Bibit Paket
+## Bibit Paket - Samba Server
 
-# Samba Server
 Task-Section: server
 Task-Description: Samba File server
 Task-Extended-Description: This task sets up your system to be a Samba file
