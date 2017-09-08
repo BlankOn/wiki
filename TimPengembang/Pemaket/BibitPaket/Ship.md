@@ -1,5 +1,4 @@
-## Bibit Paket
-# Ship
+## Bibit Paket - Ship
 
 ## Kernel
  * linux [i386]

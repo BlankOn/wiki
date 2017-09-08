@@ -1,7 +1,6 @@
-## Bibit Paket
-# ServerShip
+# Bibit Paket - ServerShip
 
-= Kernel =
+## Kernel 
 We seed both linux-* and linux-image-* so that it's easier to build CD
 images without the restricted component. The linux-* kernels include
 restricted modules.
@@ -11,7 +10,7 @@ restricted modules.
  * ${Kernel-Stem}-server-bigiron [i386]
  * linux-headers-server [i386]
  * linux-headers-server-bigiron [i386]
-= From Ship =
+## From Ship
  * ssh
  * lsb-core
  * lsb-cxx
@@ -32,7 +31,7 @@ restricted modules.
 ## For language support in the installer
  * console-terminus
  * unifont
-= Cluster =
+# Cluster
  * redhat-cluster-suite
  * ocfs2-tools
  * libaio1
@@ -40,7 +39,7 @@ restricted modules.
  * ipvsadm
  * keepalived
  * multipath-tools
-= Servers and Daemons =
+# Servers and Daemons
 Samba:
  * %samba
 Database:
@@ -98,7 +97,7 @@ Utilities:
  * analog                 # essential for any web server, possible candidate
 for desktop integration
  * graphviz
-= Network =
+## Network
  * nmap                   # network diagnostics
  * dnstracer              # dns network diagnostics
  * iptraf                 # sysadmin's toy, may be a candidate for removal
@@ -126,9 +125,9 @@ monitoring
  * aide                   # JamesTroup, from Hoglet
 Download:
  * bittornado             # used on the servers.
-= Shells =
+## Shells
  * zsh
-= System Administration Tools =
+## System Administration Tools
  * attr                 # will move to base if we go to selinux
  * quota
  * backuppc             # RobertCollins
@@ -153,7 +152,7 @@ change, should it be in desktop?
  * siege
  * bonnie++
  * smartmontools   # hard disk diagnostics
-= Documentation =
+## Documentation
  * ubuntu-serverguide
 ## Miscellaneous
  * miscfiles

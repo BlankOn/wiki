@@ -1,6 +1,5 @@
-## Bibit Paket
+## Bibit Paket - LampServer
 
-# LampServer
 Task-Section: server
 Task-Description: LAMP server
 Task-Extended-Description: Selects a ready-made Linux/Apache/MySQL/PHP server.

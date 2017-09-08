@@ -1,5 +1,4 @@
-## Bibit Paket
-# Supported
+## Bibit Paket - Supported
 
 # Hardware
  * i855-crt        # crack to enable video out on i855 chipsets
@@ -363,7 +362,7 @@ catch them and they need to be listed explicitly.
  * linux-kernel-devel
  * /^linux-image-debug-.*(?<!lowlatency)$/
  * vmware-*-kernel-modules
-=## Transitional from dapper=
+## Transitional from dapper
  * linux-image-686
  * linux-image-k7
 # Database
@@ -426,9 +425,9 @@ system
  * ltsp-client
 # OMG!
  * firefox-themes-ubuntu
+
 KategoriBlankOn KategoriPemaket
 Last modified on 06/16/2008 11:10:38 AM
-#### 
     
  
  

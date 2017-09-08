@@ -1,5 +1,4 @@
-## Bibit Paket
-# Installer
+## Bibit Paket - Installer
 
 This list was originally constructed based on a [http://people.debian.org/
 ~cjwatson/d-i/ list of packages in the current d-i netinst images], and from
