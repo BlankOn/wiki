@@ -96,6 +96,4 @@ Bila Anda akan mengimpor paket dari proyek lain maka prinsipnya sama dengan pemb
 
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

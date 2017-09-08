@@ -32,6 +32,4 @@ Attachments (3)
     * BLANKON3.jpg​ (44.5 KB) - added by ekosuhartono 5 years ago.
 
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
  
-[**Indeks Wiki **](/Indeks.md)

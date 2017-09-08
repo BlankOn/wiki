@@ -64,6 +64,4 @@ Last modified on 11/11/2012 12:47:56 PM
     * 2.Halaman.png​ (56.5 KB) - added by imgos 4 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

@@ -46,9 +46,7 @@ Silakan baca panduan upgrade​Ubuntu 8.04 Hardy Heron.
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

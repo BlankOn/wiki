@@ -9,6 +9,4 @@ Last modified on 01/19/2015 04:46:12 PM
       Diperbaharui 19/1/2015
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

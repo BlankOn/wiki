@@ -98,9 +98,7 @@ layak mendapatkan penyebutan dalam rilis BlankOn mendatang.
     * Tas BlanKonf
 
 —-
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
 
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

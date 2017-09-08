@@ -41,6 +41,4 @@ Kemudian lakukan pendorongan seperti:
 Last modified on 06/03/2011 12:26:44 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

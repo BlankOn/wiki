@@ -27,8 +27,6 @@ Bila paket tersebut gagal dipasang pada sistem Anda, maka permasalahanya adalah:
 Last modified on 01/05/2009 08:21:10 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 

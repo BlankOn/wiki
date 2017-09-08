@@ -36,6 +36,4 @@ AC : bikin windows screen baru
 $ sudo screen -x iang/pabrik32
 ```
 
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
 
-[**Indeks Wiki BlankOn**](/Indeks.md)

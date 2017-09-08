@@ -22,9 +22,7 @@ pada BlankOn, pemasangan program dan semua yang berhubungan dengan penggunaan Bl
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

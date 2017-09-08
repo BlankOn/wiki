@@ -29,6 +29,4 @@ Pengelola :
 Last modified on 06/03/2011 12:52:34 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

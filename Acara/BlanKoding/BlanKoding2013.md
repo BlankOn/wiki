@@ -94,8 +94,6 @@ Jika berminat menyelenggarakan acara serupa di kota Anda silakan isi formulir in
 Last modified on 06/20/2013 02:47:02 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
 
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 

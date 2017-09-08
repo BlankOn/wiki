@@ -76,6 +76,4 @@ Usul dan saran masuk disini
 Last modified on 08/17/2009 10:12:58 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

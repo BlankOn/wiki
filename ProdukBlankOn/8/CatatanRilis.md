@@ -38,9 +38,7 @@ Dirilis Tanggal 27 Oktober 2011
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

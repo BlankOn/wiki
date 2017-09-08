@@ -12,6 +12,4 @@ Contoh1 :
 Last modified on 04/22/2010 07:31:08 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

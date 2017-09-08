@@ -42,7 +42,5 @@ tinjauan fitur baru.
 Last_modified 4 months ago Last modified on 01/17/2017 04:11:13 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

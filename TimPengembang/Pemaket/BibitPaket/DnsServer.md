@@ -12,6 +12,4 @@ Task-Key: bind9
 Last modified on 06/16/2008 11:00:43 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

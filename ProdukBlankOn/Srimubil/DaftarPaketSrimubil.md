@@ -782,9 +782,7 @@ Halaman ini memuat daftar paket dari Meego yang belum tersedia di Lumbung Paket 
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

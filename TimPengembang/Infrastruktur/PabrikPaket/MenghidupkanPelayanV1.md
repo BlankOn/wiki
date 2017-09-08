@@ -18,6 +18,4 @@ Demikian
 Last modified on 03/11/2011 04:41:57 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

@@ -6,9 +6,7 @@ Mari sukseskan Mobile OS pertama buatan anak negeri
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

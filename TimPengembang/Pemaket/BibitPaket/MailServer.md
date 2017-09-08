@@ -18,6 +18,4 @@ Additionally, Debian has mailagent, but that's in universe and not an option.
 Last modified on 06/16/2008 11:03:10 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

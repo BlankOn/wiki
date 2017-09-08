@@ -88,6 +88,4 @@ Kode : Suroboyo,
 Last modified on 03/29/2014 02:00:59 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

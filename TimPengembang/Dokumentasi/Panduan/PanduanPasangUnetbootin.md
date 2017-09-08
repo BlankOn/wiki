@@ -51,6 +51,4 @@ Last modified on 03/23/2014 09:31:37 AM
       karena media belum dikaitkan
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

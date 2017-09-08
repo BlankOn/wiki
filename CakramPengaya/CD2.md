@@ -21,6 +21,4 @@ deb http://dl2.foss-id.web.id/ubuntu jaunty main restricted universe multiverse
 Last modified on 03/31/2009 04:57:55 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

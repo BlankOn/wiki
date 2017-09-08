@@ -21,9 +21,7 @@ Sekecil apapun sumbangsih dari Anda, akan sangat membantu suksesnya proyek Blank
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

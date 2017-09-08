@@ -26,9 +26,7 @@ Setelah tertunda beberapa tahun, di awal tahun 2017, pengembang BlankOn merilis 
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

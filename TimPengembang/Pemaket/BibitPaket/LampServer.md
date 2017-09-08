@@ -14,6 +14,4 @@ Task-Key: apache2, mysql-server
 Last modified on 06/16/2008 11:01:51 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

@@ -24,6 +24,4 @@ IDREPO
 Last modified on 08/18/2011 05:50:14 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

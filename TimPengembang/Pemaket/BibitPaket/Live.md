@@ -31,6 +31,4 @@ Ubiquity needs full filesystem support for the partitioner.
 Last modified on 06/16/2008 11:02:32 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

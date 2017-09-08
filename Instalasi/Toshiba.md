@@ -161,6 +161,4 @@ Key                                                    Untested    Untested
 Last modified on 06/14/2008 06:10:55 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

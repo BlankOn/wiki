@@ -10,6 +10,4 @@ Last modified on 11/30/2011 10:14:40 PM
   * sticker-2.png​ (16.9 KB) - added by cho2 5 years ago.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

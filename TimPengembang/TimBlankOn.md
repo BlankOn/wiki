@@ -113,9 +113,7 @@ Adapun komposisi tim pengemban BlankOn saat ini dapat dilihat [di sini](/Memulai
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

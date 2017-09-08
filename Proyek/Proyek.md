@@ -9,9 +9,7 @@ Pengembang BlankOn dibagi menjadi dua;
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

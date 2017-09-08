@@ -81,9 +81,7 @@ Dengan mensponsori BlanKonf juga berarti Anda juga mensponsori BlankOn, dan laya
     4. Tas BlanKonf 
 
 —-
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

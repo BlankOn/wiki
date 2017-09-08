@@ -246,9 +246,7 @@ Berikut ini adalah daftar paket yang diusulkan untuk dimasukkan ke dalam DVD Bla
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

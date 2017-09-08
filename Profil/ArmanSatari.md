@@ -9,6 +9,4 @@ facebook : Arman.Satari
 Last modified on 09/02/2012 10:43:42 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

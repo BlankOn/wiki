@@ -32,6 +32,4 @@ Memasang BlankOn 8.0 (Rote)
 Last modified on 09/27/2012 11:53:16 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

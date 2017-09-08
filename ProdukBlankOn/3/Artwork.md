@@ -89,9 +89,7 @@ http://gnome-look.org/CONTENT/content-pre1/70622-1.png
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

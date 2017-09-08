@@ -9,9 +9,7 @@ Selamat Menikmati
 Last modified on 08/28/2014 04:26:24 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

@@ -16,9 +16,7 @@ Sumber: [Majalah Info Linux edisi 02/2005](/Assets/Others/UlasanBlankOn1.pdf)
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

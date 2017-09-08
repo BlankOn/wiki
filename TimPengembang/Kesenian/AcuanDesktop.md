@@ -27,6 +27,4 @@ ppa.launchpad.net/tiheum/equinox/ubuntu)
 Last modified on 09/20/2010 02:16:04 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

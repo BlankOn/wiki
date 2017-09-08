@@ -32,9 +32,7 @@ README atau INSTALL
 Last modified on 09/23/2008 08:15:55 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

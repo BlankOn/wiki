@@ -114,7 +114,5 @@ development.
 Last modified on 01/23/2010 06:47:06 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

@@ -14,9 +14,7 @@ Beberapa bahan bacaan yang berguna untuk para pemaket:
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

@@ -249,6 +249,4 @@ Sumber :
 Last modified on 10/16/2014 02:00:13 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

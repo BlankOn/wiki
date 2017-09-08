@@ -49,6 +49,4 @@ Last modified on 08/08/2010 12:00:38 PM
   * monajat-pengaturan.png​ (12.4 KB) - added by sakrasemangat 7 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

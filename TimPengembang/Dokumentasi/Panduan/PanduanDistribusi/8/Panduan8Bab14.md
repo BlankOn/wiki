@@ -148,6 +148,4 @@ Last modified on 05/25/2012 01:29:53 PM
   * hijr8.png​ (40.3 KB) - added by mrclimis 5 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

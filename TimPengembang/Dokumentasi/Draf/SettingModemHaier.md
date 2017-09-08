@@ -12,9 +12,7 @@ maka modem anda sudah bisa digunakan di nm-applet (kanan atas ada ikon 2 kompute
 Last modified on 05/30/2010 02:08:37 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

@@ -11,6 +11,4 @@ Angoota:
 Last modified on 04/06/2012 03:19:43 AM
 
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
  
-[**Indeks Wiki **](/Indeks.md)

@@ -31,6 +31,4 @@ bukti kreativitas anak bangsa di sektor Teknologi Informasi dan Komunikasi.
 Last modified on 06/01/2011 09:09:26 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

@@ -49,6 +49,4 @@ Roadmap kerja pengembangan Blankon 3 (Lontara).
 Last modified on 06/17/2008 12:42:56 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

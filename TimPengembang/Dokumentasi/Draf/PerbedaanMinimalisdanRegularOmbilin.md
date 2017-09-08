@@ -15,9 +15,7 @@ tersebut tetap ada dan tinggal dihidupkan.
 Last modified on 06/19/2010 05:55:43 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

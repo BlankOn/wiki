@@ -35,9 +35,7 @@ Pada KDE
 
 Last modified on 09/23/2008 07:43:13 PM
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

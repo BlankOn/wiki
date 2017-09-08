@@ -48,7 +48,5 @@ menghapus kolom Suggests di dalam debian/control.
 Last modified on 06/12/2010 05:24:50 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

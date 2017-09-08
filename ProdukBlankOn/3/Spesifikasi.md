@@ -62,9 +62,7 @@ tematik belum dikembangkan. Hingga beberapa materi tematik seperti Fisika dan Ki
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

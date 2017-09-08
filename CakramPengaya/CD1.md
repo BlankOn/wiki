@@ -107,6 +107,4 @@ deb http://kambing.ui.edu/medibuntu jaunty free non-free
 Last modified on 10/29/2009 05:12:26 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

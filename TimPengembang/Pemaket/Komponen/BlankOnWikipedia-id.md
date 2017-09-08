@@ -174,6 +174,4 @@ Last modified on 06/16/2008 05:13:57 PM
    * pygtk+mozembed_th.jpg​ (30.0 KB) - added by alza 9 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

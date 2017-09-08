@@ -31,9 +31,7 @@ Untuk dapat menginstall sistem BlankOn dalam komputer anda. untuk mendapatkan pa
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

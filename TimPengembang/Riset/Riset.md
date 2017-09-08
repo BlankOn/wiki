@@ -20,9 +20,7 @@ Mendeploy ulang IRGSH dan kawan-kawan di sistem operasi yang lebih modern.
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

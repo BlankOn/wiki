@@ -42,6 +42,4 @@ Lihat ​http://dev.blankonlinux.or.id/ticket/197
 Last modified on 12/04/2009 09:36:27 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

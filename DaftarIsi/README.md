@@ -144,7 +144,6 @@
 	  * [ AssetsImages ](/DaftarIsi/AssetsImages.md)			
 	  * [ AssetsOthers ](/DaftarIsi/AssetsOthers.md)			
 	  * [ Komunitas ](/DaftarIsi/Komunitas.md)			
-	  * [ README ](/DaftarIsi/README.md)			
 				
   * [ /wiki/Instalasi/ ](/Instalasi/)				
 	  * [ HPLaserJet1020 ](/Instalasi/HPLaserJet1020.md)			

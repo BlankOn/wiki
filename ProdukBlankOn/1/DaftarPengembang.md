@@ -15,9 +15,7 @@ Sumber: https://groups.google.com/forum/#!searchin/blankon/BlankOn$20bianglala%7
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

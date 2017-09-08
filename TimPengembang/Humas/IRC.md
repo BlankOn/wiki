@@ -8,6 +8,4 @@ BlankOn IRC mengguankan irc.blankon.in
 Last modified on 07/28/2012 10:54:18 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

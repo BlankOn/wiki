@@ -15,6 +15,4 @@ Blog         ​http://adnanminisolution.blogspot.com
 Last_modified 9 months ago Last modified on 08/18/2016 05:40:11 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

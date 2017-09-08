@@ -6,9 +6,7 @@ Halaman ini akan berisi dokumentasi-dokumentasi lokakarya yang telah diselenggar
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 
