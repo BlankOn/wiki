@@ -43,7 +43,7 @@ K9KF+4/BF7suL9u4HIv2
 Last modified on 09/25/2011 03:55:19 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 

@@ -76,6 +76,6 @@ client-only state with the server de-activated unless the user requires it.
 Last modified on 06/16/2008 11:03:41 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

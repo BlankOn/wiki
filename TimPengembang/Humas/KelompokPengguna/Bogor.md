@@ -10,6 +10,6 @@ Anggota:
 Last modified on 07/19/2011 09:16:00 PM
  
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
+[**Daftar Isi Wiki **](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki **](/Indeks.md)
+[**Indeks Wiki **](/wiki/Indeks.html)

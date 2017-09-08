@@ -29,6 +29,6 @@ Pengelola :
 Last modified on 06/03/2011 12:52:34 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

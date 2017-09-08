@@ -15,6 +15,6 @@ Selain tertulis pada halaman Tim_Pengembang
 Last modified on 01/26/2013 05:37:54 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

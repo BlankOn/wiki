@@ -42,6 +42,6 @@ Last modified on 02/02/2009 10:41:25 AM
   * 005-alternate-browser.jpg​ (60.8 KB) - added by imtheface 8 years ago.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

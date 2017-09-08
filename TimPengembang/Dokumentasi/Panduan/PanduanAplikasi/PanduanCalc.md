@@ -92,6 +92,6 @@ Last modified on 11/27/2012 08:08:00 PM
     * Antarmuka_libreoffice_calc.png​ (70.7 KB) - added by imgos.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

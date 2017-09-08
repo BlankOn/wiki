@@ -243,6 +243,6 @@ Last modified on 03/22/2014 03:37:13 PM
   * nautilusroot.png​ (44.8 KB) - added by guspur 3 years ago.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

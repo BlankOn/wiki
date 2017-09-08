@@ -63,6 +63,6 @@ Attachments (3)
       prianthon 5 years ago. Form Kelompok Pengguna
 
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
+[**Daftar Isi Wiki **](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki **](/Indeks.md)
+[**Indeks Wiki **](/wiki/Indeks.html)

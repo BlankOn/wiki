@@ -143,7 +143,7 @@
 	  * [ AssetsImages ](/DaftarIsi/AssetsImages.md)			
 	  * [ AssetsOthers ](/DaftarIsi/AssetsOthers.md)			
 	  * [ Komunitas ](/DaftarIsi/Komunitas.md)			
-	  * [ README ](/DaftarIsi/README.md)			
+	  * [ README ](/wiki/DaftarIsi/index.html)			
 				
   * [ /wiki/Instalasi/ ](/Instalasi/)				
 	  * [ HPLaserJet1020 ](/Instalasi/HPLaserJet1020.md)			
@@ -319,7 +319,7 @@
 	  * [ AssetsImages ](/wiki/DaftarIsi/AssetsImages.md)			
 	  * [ AssetsOthers ](/wiki/DaftarIsi/AssetsOthers.md)			
 	  * [ Komunitas ](/wiki/DaftarIsi/Komunitas.md)			
-	  * [ README ](/wiki/DaftarIsi/README.md)			
+	  * [ README ](/wiki/wiki/DaftarIsi/index.html)			
 				
   * [ /wiki/Instalasi/ ](/wiki/Instalasi/)				
 	  * [ HPLaserJet1020 ](/wiki/Instalasi/HPLaserJet1020.md)			

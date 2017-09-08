@@ -41,6 +41,6 @@ Last modified on 12/25/2012 09:17:27 AM
    * 1.install_Flashplayer.png​ (52.5 KB) - added by imgos 4 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

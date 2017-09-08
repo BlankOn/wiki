@@ -69,6 +69,6 @@ contoh :
 Last modified on 08/16/2014 10:43:43 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.html)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.html)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

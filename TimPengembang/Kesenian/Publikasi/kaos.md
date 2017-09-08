@@ -22,6 +22,6 @@ Last modified on 01/09/2012 02:20:29 PM
     * kaos-putih-3.png​ (27.5 KB) - added by cho2 5 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

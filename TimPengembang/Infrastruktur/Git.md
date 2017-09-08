@@ -41,6 +41,6 @@ Kemudian lakukan pendorongan seperti:
 Last modified on 06/03/2011 12:26:44 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.html)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.html)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

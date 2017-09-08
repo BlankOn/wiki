@@ -10,6 +10,6 @@ Last modified on 10/22/2008 07:05:49 PM
     * haris.png​ (22.6 KB) - added by ahmadharis 9 years ago.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

@@ -158,6 +158,6 @@ terakhir disunting 2007-08-13 16:20:57 oleh SihabulMilah
 Last modified on 06/12/2008 11:43:26 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

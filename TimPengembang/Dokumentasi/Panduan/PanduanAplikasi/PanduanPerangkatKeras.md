@@ -3,6 +3,6 @@ mengacu ke halaman ​http://dev.blankonlinux.or.id/wiki/PerangkatKeras
 Last modified on 03/29/2014 02:42:56 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

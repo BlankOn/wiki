@@ -5,6 +5,6 @@ grafis komersial yang ada di sistem operasi Microsoft Windows Dengan aplikasi Le
 dan dikuasai. Namun dengan pembiasaan diri, tidak akan sulit untuk menggunakan aplikasi grafis yang ada di BlankOn untuk berproduktivitas dan berkreatifias.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

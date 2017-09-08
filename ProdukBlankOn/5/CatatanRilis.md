@@ -59,9 +59,9 @@ Sumber: http://tips4h.blogspot.co.id/2009/06/catatan-rilis-blankon-50-nanggar.ht
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 
 
 

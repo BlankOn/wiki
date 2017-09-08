@@ -36,9 +36,9 @@ Berikut adalah beberapa contoh hal-hal yang menjadi indikator keberhasilan misi 
 - Saya dosen mata ajar Sistem Operasi. Saya menggunakan BlankOn untuk laboratorium Sistem Operasi.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 
 
 

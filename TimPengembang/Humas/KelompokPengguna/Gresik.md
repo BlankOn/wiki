@@ -37,6 +37,6 @@ Attachments (3)
     * gbk1.png​ (28.5 KB) - added by mijortsa 6 years ago.
  
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
+[**Daftar Isi Wiki **](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki **](/Indeks.md)
+[**Indeks Wiki **](/wiki/Indeks.html)

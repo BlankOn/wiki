@@ -1,8 +1,8 @@
 # Indeks Wiki BlankOn
-[Lihat Daftar Isi Wiki BlankOn](/DaftarIsi/README.md)
+[Lihat Daftar Isi Wiki BlankOn](/wiki/DaftarIsi/index.html)
 
 ## Urut Abjad
-[Urut Kategori?](/Indeks.md)
+[Urut Kategori?](/wiki/Indeks.html)
 
   * [ /wiki/Acara/ ](/Acara/)
   * [ /wiki/Acara/BlanKoding/ ](/Acara/BlanKoding/)
@@ -767,7 +767,7 @@
   * [ RancanganSrimubil ](/ProdukBlankOn/Srimubil/RancanganSrimubil.md)
   * [ Rapat ](/TimPengembang/Dokumentasi/Rapat)
   * [ RapatPemaket08062008 ](/TimPengembang/Pemaket/RapatPemaket08062008.md)
-  * [ README ](/DaftarIsi/README.md)
+  * [ README ](/wiki/DaftarIsi/index.html)
   * [ README ](/ProdukBlankOn/11/README.md)
   * [ README ](/ProdukBlankOn/2/README.md)
   * [ README ](/ProdukBlankOn/BlankBanana/README.md)

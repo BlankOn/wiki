@@ -49,8 +49,8 @@ Ada beberapa jalan untuk mempelajari dan mengetahui tentang BlankOn
 Last modified on 09/23/2008 08:12:41 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 
 

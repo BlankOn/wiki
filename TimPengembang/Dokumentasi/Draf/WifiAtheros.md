@@ -36,9 +36,9 @@ Dokumen aseli ada di ​http://dev.blankonlinux.or.id/wiki/Instalasi/WifiAtheros
 Last modified on 09/25/2008 06:55:02 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 
 
 

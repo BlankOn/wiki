@@ -12,9 +12,9 @@ Selain [BlanKoding 2013 Suroboyo](#blankoding-2013-suroboyo), pada tahun 2013 di
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
 
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 
 
 

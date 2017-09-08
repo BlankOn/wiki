@@ -159,6 +159,6 @@ No Nama           Alamat           Alamat Email atau Web        Pekerjaan
 Last_modified 22 months ago Last modified on 07/26/2015 05:42:17 AM
  
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
+[**Daftar Isi Wiki **](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki **](/Indeks.md)
+[**Indeks Wiki **](/wiki/Indeks.html)

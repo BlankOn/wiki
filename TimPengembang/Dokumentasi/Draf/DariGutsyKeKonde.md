@@ -5,9 +5,9 @@ Last modified on 06/07/2008 04:01:40 PM
     * install-blankon.sh​ (3.4 KB) - added by alza 9 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 
 
 

@@ -103,6 +103,6 @@ Last modified on 08/11/2012 08:36:45 PM
   * add_user_grup.png​ (47.1 KB) - added by guspur 5 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

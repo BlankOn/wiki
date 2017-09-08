@@ -8,6 +8,6 @@ berikut: ## <spasi>*<spasi>nama-paket<spasi>(login-di-LP)
 Last modified on 06/16/2008 11:12:36 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

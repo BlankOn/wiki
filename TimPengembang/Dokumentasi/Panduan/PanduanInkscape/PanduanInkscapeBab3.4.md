@@ -183,6 +183,6 @@ Last modified on 05/11/2014 08:20:19 AM
   * 3.3.4.Modifikasi_Grid.png​ (38.3 KB) - added by imgos 3 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

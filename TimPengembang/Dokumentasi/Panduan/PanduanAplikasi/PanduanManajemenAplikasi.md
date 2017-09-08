@@ -158,6 +158,6 @@ Last modified on 02/12/2014 04:37:41 PM
   * 04Menghapus-Aplikasi.png​ (144.7 KB) - added by tuanpembual 3 years ago.
     
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)

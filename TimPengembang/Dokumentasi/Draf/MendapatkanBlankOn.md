@@ -25,9 +25,9 @@ Anda juga dapat mengunduh berkas iso blankon melalui torrent atau Jigdo
 Last modified on 09/24/2012 12:29:41 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/wiki/DaftarIsi/index.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/wiki/Indeks.html)
 
 
 
