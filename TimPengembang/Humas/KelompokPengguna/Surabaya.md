@@ -27,6 +27,4 @@ Attachments (2)
     * ppbs-2014.png​ (19.6 KB) - added by cho2 3 years ago.
  
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
  
-[**Indeks Wiki **](/Indeks.md)

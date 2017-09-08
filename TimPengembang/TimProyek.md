@@ -37,9 +37,7 @@ Deskripsi setiap tim bisa dibaca pada [halaman Tim BlankOn](/TimBlankOn.md)
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

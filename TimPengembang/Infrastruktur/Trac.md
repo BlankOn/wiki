@@ -48,6 +48,4 @@ Last modified on 01/01/2013 11:31:28 PM
  
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

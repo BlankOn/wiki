@@ -19,6 +19,4 @@ KategoriDok
 Last modified on 06/17/2008 01:14:41 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

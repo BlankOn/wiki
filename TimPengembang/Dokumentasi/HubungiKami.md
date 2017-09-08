@@ -19,6 +19,4 @@ Anda dapat menghungi Tim Dokumentasi BlankOn di channel #blankon di server irc.f
 Anda dapat berkomunikasi dengan para pengembang BlankOn di milis BlankOn pada Google groups dengan alamat ​http://groups.google.co.id/group/BlankOn-dev
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

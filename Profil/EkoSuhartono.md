@@ -23,6 +23,4 @@ Data ini di perbaharui pada 27 Februari 2014 2:00 PM
     * Eko_Suhartono.png​ (19.5 KB) - added by ekosuhartono 4 years ago.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

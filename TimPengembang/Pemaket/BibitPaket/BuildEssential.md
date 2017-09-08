@@ -13,6 +13,4 @@ buildd chroots, being only informational.
 Last modified on 06/16/2008 10:59:01 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

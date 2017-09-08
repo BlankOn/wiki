@@ -44,9 +44,7 @@ Berikut ini adalah tiga fitur yang ingin dibuat beserta bobot pengerjaannya.
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

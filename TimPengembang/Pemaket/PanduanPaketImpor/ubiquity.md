@@ -11,6 +11,4 @@ Panduan Ubiquity
 Last modified on 03/02/2010 12:59:54 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

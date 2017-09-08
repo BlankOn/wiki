@@ -38,6 +38,4 @@ Isu Status Yang mengerjakan
 Last_modified 7 months ago Last modified on 10/15/2016 01:00:56 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

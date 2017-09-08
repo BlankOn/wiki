@@ -287,8 +287,6 @@ Silakan tanya ke milis ubuntu-id@… dengan subyek [PAKET].
 
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 

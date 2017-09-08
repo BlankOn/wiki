@@ -405,6 +405,4 @@ dalam perangkat lunak bebas.
 Last modified on 11/19/2010 01:13:01 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

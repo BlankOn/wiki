@@ -43,9 +43,7 @@ Bila terjadi kegagalan saat memasang paket di sistem anda, ada beberapa kemungki
 Last modified on 06/12/2010 01:21:13 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

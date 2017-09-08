@@ -89,9 +89,7 @@ menangani berbagai keperluan (Multimedia man :-).
 Last modified on 01/23/2010 07:04:25 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

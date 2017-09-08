@@ -15,6 +15,4 @@ $ sudo ./restart.sh
 Last modified on 07/10/2010 07:06:10 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

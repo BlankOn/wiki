@@ -59,9 +59,7 @@ multiverse
 Last modified on 06/12/2008 03:04:41 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

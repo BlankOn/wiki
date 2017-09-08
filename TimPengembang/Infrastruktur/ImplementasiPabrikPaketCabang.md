@@ -93,6 +93,4 @@ Last modified on 07/01/2008 01:29:41 PM
 ```
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
 
-[**Indeks Wiki BlankOn**](/Indeks.md)

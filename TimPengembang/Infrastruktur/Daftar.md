@@ -68,6 +68,4 @@ contoh :
 Last modified on 08/16/2014 10:43:43 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

@@ -28,9 +28,7 @@ masuk ke modus Live CD, maka sistem operasi BlankOn 6.0 Ombilin akan mulai dijal
 muncul. Proses booting memakan waktu sekitar 1 menit lamanya. Last modified on 10/29/2010 01:21:34 AM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

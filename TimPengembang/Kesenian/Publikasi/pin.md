@@ -8,6 +8,4 @@ Last modified on 12/04/2011 04:10:42 AM
     * pin.png​ (41.2 KB) - added by cho2 5 years ago.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

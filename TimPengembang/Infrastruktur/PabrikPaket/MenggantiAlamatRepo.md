@@ -9,6 +9,4 @@ Selesai, langkah ini dilakukan karena pabrik masih belum diimlementasikan untuk 
 Last modified on 05/23/2011 05:35:08 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

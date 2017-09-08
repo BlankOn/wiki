@@ -11,9 +11,7 @@ Bila Anda lebih banyak melakukan kegiatan meramban web dan aplikasi perkantoran 
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

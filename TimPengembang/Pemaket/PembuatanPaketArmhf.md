@@ -16,6 +16,4 @@ apt-get source -b <nama-paket>
 Last modified on 07/03/2012 07:43:53 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

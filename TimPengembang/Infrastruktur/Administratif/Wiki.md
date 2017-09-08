@@ -9,6 +9,4 @@ Masuk ke mesin rani
 Last modified on 04/06/2011 08:42:48 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

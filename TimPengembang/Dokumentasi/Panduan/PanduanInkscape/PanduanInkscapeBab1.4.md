@@ -205,6 +205,4 @@ Last modified on 01/04/2015 06:13:00 PM
   * 1.3.4.1.Outline_Mode.png​ (106.1 KB) - added by imgos 2 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

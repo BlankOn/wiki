@@ -12,6 +12,4 @@ Sumber lainnya : ​http://collab-maint.alioth.debian.org/debtree/
 
 Last modified on 06/24/2012 11:10:40 PM
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

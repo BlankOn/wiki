@@ -37,6 +37,4 @@ $ sudo screen -x iang/pabrik32
 Last modified on 04/20/2011 06:04:41 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

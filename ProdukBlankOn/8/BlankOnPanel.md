@@ -9,6 +9,4 @@ Blankon Panel seperti halnya di gnome panel
 Last modified on 10/12/2011 12:50:41 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

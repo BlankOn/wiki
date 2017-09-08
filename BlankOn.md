@@ -84,6 +84,4 @@ perubahan baru di Indonesia.
 Last modified on 10/16/2014 02:23:06 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

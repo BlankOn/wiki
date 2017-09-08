@@ -71,9 +71,7 @@ Lokasi di Kampus Universitas Pakuan Bogor
     33. Fadly Kasim (Biaya Sendiri/Peserta?) [TERDAFTAR/PESERTA] 
 
 —-
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

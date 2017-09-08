@@ -20,6 +20,4 @@ Last modified on 01/05/2013 09:26:38 PM
 
 
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
  
-[**Indeks Wiki **](/Indeks.md)

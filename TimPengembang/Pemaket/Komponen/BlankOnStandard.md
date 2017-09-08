@@ -91,6 +91,4 @@ Silakan tulis komentar disini.
 Last modified on 06/26/2008 03:13:53 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

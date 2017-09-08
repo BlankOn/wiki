@@ -96,9 +96,7 @@ Sumber: [FAQ – BlankOn](http://dev.blankonlinux.or.id/wiki/FAQ)
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

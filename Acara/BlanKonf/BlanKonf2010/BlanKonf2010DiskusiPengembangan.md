@@ -36,7 +36,5 @@ Tulis ide, saran, masukan dibawah ini :
 
 
 —-
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
 
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

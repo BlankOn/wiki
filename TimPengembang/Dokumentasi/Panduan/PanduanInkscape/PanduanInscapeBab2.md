@@ -309,6 +309,4 @@ Last modified on 11/24/2014 08:17:20 PM
  
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

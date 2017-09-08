@@ -79,6 +79,4 @@ Pekerja pabrik paket adalah sistem pembangun paket Debian.
 Last modified on 12/19/2010 03:47:33 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

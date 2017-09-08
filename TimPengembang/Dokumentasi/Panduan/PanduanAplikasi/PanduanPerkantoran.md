@@ -25,6 +25,4 @@ pilihan Anda.
 Last modified on 03/28/2014 10:19:54 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

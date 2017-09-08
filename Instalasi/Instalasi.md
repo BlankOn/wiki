@@ -16,6 +16,4 @@ Instalasi BlankOn pada Komputer Server
  
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

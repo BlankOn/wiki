@@ -179,7 +179,5 @@ Last modified on 02/17/2014 06:03:02 PM
     * 08Done.png​ (28.6 KB) - added by tuanpembual 3 years ago.
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

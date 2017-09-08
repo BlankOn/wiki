@@ -49,6 +49,4 @@ Last modified on 05/26/2013 12:38:51 PM
       Tiket
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

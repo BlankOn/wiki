@@ -194,6 +194,4 @@ libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution
 Last modified on 06/16/2008 10:53:07 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

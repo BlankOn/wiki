@@ -58,9 +58,7 @@ Tim ini bertanggung jawab dalam mengumpulkan dokumentasi untuk pengguna pada seb
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

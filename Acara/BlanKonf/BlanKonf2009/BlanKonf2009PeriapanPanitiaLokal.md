@@ -58,8 +58,6 @@ Koordinator : Dian (08567948054)
 Anggota : Ayu(07), Deby(07)
 
 —-
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 

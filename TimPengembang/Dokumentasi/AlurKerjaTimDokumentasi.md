@@ -15,9 +15,7 @@ Adapun untuk rujukan bahasa, tim Dokumentasi BlankOn dimohon menggunakan KBBI (K
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

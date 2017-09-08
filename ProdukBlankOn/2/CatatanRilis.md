@@ -54,9 +54,7 @@ wiki/CatatanRilisKonde/blankon-2-08s.png]
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

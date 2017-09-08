@@ -16,6 +16,4 @@ Web     ​http://aguspurnomo.web.id
 Last modified on 09/24/2012 11:59:03 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

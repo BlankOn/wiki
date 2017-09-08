@@ -46,6 +46,4 @@ Dapat dilihat pada ​Lembar_sebar
 Last modified on 10/09/2011 07:30:41 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

@@ -26,9 +26,7 @@ Paket-paket di atas diimpor dari Gutsy dan dikelola oleh pemaket BlankOn.
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

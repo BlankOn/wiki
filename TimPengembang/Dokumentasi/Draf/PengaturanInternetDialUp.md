@@ -49,9 +49,7 @@ Silakan lihat ​bagaimana_membuat_konfigurasi_wvdial_dari_banyak_ISP
 Last modified on 09/23/2008 08:19:32 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

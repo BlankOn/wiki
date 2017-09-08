@@ -356,6 +356,4 @@ zoom-out                  icon SVG (BlankOn) SVG item in the application's View
 Last modified on 06/12/2008 02:36:25 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

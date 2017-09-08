@@ -26,9 +26,7 @@ nya yang biasanya bernama README atau INSTALL.
 Last modified on 09/23/2008 08:17:29 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

@@ -30,9 +30,7 @@ Untuk membantu mulai belajar membuat paket debian, tulisan - tulisan dibawah ini
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

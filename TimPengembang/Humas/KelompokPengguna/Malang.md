@@ -27,6 +27,4 @@ Attachments (4)
     * logo-ppbm-3-coba.png​ (72.5 KB) - added by guspur 6 years ago.
 
 ---
-[**Daftar Isi Wiki **](/DaftarIsi/README.md)
  
-[**Indeks Wiki **](/Indeks.md)

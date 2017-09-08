@@ -77,9 +77,7 @@ Karena Tim Pemasaran berlaku umum untuk semua rilis, anggota tim Pemasaran dapat
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

@@ -11,9 +11,7 @@ a.n. Yayasan Penggerak Linux Indonesia
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

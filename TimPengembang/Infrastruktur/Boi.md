@@ -76,7 +76,5 @@ KategoriBlankOn KategoriInfra
 Last modified on 12/01/2009 07:13:08 PM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

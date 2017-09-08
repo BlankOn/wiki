@@ -9,8 +9,6 @@ Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proy
  * [Pertanyaan Umum](#pertanyaan-umum)
  * [Bagaimana Berkontribusi](#bagaimana-berkontribusi)
  * [Tentang Wiki ](#tentang-wiki-blankon)
- * [Daftar Isi](/DaftarIsi/README.md)
- * [Indeks](/Indeks.md)
 
 ## Pertanyaan Umum
 
@@ -46,7 +44,5 @@ Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan unt
 
 
 -----
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

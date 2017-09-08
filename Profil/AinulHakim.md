@@ -30,6 +30,4 @@ Last modified on 10/02/2012 06:15:14 PM
     * sajadah-dinihari.png​ (734.8 KB) - added by ainulhakim 5 years ago.
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

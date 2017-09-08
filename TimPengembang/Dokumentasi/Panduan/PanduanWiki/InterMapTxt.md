@@ -82,8 +82,6 @@ WikiPedia        http://en.wikipedia.org/wiki/
 Last modified on 06/05/2008 04:04:51 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 

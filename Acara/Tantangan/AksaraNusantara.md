@@ -34,9 +34,7 @@ walaupun belum masuk secara resmi ke dalam standar Unicode. Lihat situs proyek u
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

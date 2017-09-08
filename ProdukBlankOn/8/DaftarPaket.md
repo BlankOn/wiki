@@ -25,9 +25,7 @@ Secara umum, fitur-fitur dari BlankOn versi 8.0 adalah sebagai berikut :
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

@@ -133,6 +133,4 @@ pengetikan :
 Last modified on 06/19/2010 06:34:44 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

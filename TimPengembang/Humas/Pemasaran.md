@@ -52,9 +52,7 @@ Referensi halaman Pemasaran BlankOn juga dari [http://live.gnome.org/GnomeMarket
 
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 
 
 

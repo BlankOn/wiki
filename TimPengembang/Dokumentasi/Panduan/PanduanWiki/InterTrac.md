@@ -77,6 +77,4 @@ See also: TracLinks, InterWiki
 Last modified on 10/16/2014 01:10:30 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

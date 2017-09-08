@@ -23,6 +23,4 @@ Catatan: Jika terjadi galat saat pemutakhiran, jalankan perintah
 Last modified on 06/08/2015 10:52:59 AM
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)

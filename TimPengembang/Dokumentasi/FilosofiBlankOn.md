@@ -15,7 +15,5 @@ lainnya. BlankOn juga sebagai pelindung (tutup kepala) dari ketergantungan terha
 Last modified on 09/23/2008 08:22:06 PM
 
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
 

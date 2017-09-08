@@ -12,6 +12,4 @@ Last modified on 03/18/2009 09:12:51 PM
       terakhir dari invaleed
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
