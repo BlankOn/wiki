@@ -4,7 +4,7 @@
 [Urut Abjad?](/IndeksUrutAbjad.md)
 
 <ul>
-  {% assign urut = (site.pages | sort: 'title') %}
+  {% assign urut = site.pages | sort: 'title' %}
   {% for page in urut %}
     <li>
 	{% if page.title == '' or page.title == nil %}
