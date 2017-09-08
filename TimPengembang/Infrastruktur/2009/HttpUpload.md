@@ -1,7 +1,8 @@
+# Upload Melalui HTTP Secara Efisien
+## HTTP Upload
+
 #### Rancangan Diskusi Infrastruktur 2009
 
-# HTTP Upload
-## Upload Melalui HTTP Secara Efisien
 
 ### Pendahuluan
 Dokumen ini berisi usulan protokol upload melalui HTTP secara efisien. Yang
@@ -103,6 +104,6 @@ Last modified on 12/03/2008 02:26:15 PM
 
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/Indeks.html)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
    BlankOn
  About_Trac
     * About_Trac
@@ -13,6 +14,9 @@
     * Wiki  /
     * Infrastruktur  /
     * Jigdo
+=======
+# Jigdo
+>>>>>>> upstream/master
 ## Pengantar
 ​Jigdo adalah alat bantu Debian untuk mengunduh berkas cetakan CD (.iso). Jigdo
 sangat berguna pada kondisi Internet yang pas-pasan, karena Jigdo tidak

@@ -1,19 +1,7 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Forum
+# Forum
+
 Yang bisa baca: mdamt, imtheface, princeofgiri, somat, fajran
+
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 hQIOAw0WMLTAAgjAEAf+Jlmglb5p72Tay+heTGTyu4djoJz+7eg7CMWHGjglyeLo

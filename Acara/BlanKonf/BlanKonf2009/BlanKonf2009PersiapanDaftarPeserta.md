@@ -1,15 +1,4 @@
-
-## BlanKonf 2009
-## Persiapan
-## Daftar Peserta
-
-
-# Daftar Peserta
-
-
-
-
-### Peserta Terdaftar 
+# Persiapan Daftar Peserta BlanKonf 2009
 
 **Format : [Nama], [Kategori], [Organisasi], [Kota Asal], [ID Penerima Pendaftaran]**
 

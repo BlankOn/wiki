@@ -1,23 +1,11 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Monitor
-monitor.blankon.in
+# monitor.blankon.in
+
 Adalah pusat monitoring dari semua server blankon. Terletak di DataUtama??
 Surabaya. Virtual di mesin alynne.boi.
 Password root-mysql.
 (budiwijaya, mdamt, somat)
+
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG/MacGPG2 v2.0.17 (Darwin)
 Comment: GPGTools - http://gpgtools.org
@@ -58,8 +46,12 @@ YORn0lEBgJXWDRHgytWCtx12sdSXTOkWF29YRcyIAh6DfqBSRIJEos6Uc0fGvSVi
 1Fhk2oMJe284+xRtUXf2RT1XRnDSxVMGmvxMhMjXBipQmLt1QK8=
 =0SjW
 --END PGP MESSAGE-----
+```
+
 Password admin-cacti
 (budiwijaya, mdamt, somat)
+
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG/MacGPG2 v2.0.17 (Darwin)
 Comment: GPGTools - http://gpgtools.org
@@ -100,13 +92,10 @@ YORn0lEBgJXWDRHgytWCtx12sdSXTOkWF29YRcyIAh6DfqBSRIJEos6Uc0fGvSVi
 1Fhk2oMJe284+xRtUXf2RT1XRnDSxVMGmvxMhMjXBipQmLt1QK8=
 =0SjW
 --END PGP MESSAGE-----
+```
+
 Password dev-cacti
 Last modified on 04/27/2012 11:54:09 PM
-#### 
-    
- 
- 
- 
  
  
 ---

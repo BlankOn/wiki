@@ -1,6 +1,4 @@
-    * Infrastruktur  /
-    * Administratif  /
-    * RilisCD
+# Rilis CD
 ### Skrip publish-release
 Gunakan skrip publish-release untuk merilis CD:
 $ sudo su - cdimage
@@ -16,20 +14,21 @@ Keterangan:
     * <TARGET-RILIS>: rc, beta, jahitan-3, dst.
 ### Contoh pengunaan
 Proyek BlankOn
+
+```
 $ for-project blankon
 $ publish-release livecd-harian 20090515 cdlive fullonly beta
 $ publish-release harian 20090516 alternate fullonly beta
+```
 Proyek BlankOn-Minimalist
+
+```
 $ for-project blankon-minimalist
 $ publish-release livecd-harian 20090515 cdlive fullonly beta
 $ publish-release harian 20090516 alternate fullonly beta
+```
 Sekian!
 Last modified on 05/17/2009 10:30:01 AM
-#### 
-    
- 
- 
- 
  
  
 ---

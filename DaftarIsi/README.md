@@ -1,15 +1,11 @@
 # Daftar Isi Wiki BlankOn
 
-* [ Acara/ ](/Acara/)
-    * [ ILC2007 ](/Acara/ILC2007.md)				
-				
-    *  [ /wiki/Acara/BlanKoding/ ](/Acara/BlanKoding/)				
-	  * [ BlanKoding2005 ](/Acara/BlanKoding/BlanKoding2005.md)			
-	  * [ BlanKoding2006 ](/Acara/BlanKoding/BlanKoding2006.md)			
-	  * [ BlanKoding2013 ](/Acara/BlanKoding/BlanKoding2013.md)			
-	  * [ BlanKoding2017 ](/Acara/BlanKoding/BlanKoding2017.md)			
-	  * [ KandidatTantanganBlankOn ](/Acara/BlanKoding/KandidatTantanganBlankOn.md)			
-				
+* [ Acara ](/Acara/)
+    * [ ILC2007 ](/Acara/ILC2007.md)
+	*  [ **BlanKoding** ](/Acara/BlanKoding/)	
+	  * [ BlanKoding 2013 ](/Acara/BlanKoding/BlanKoding2013.md)	
+	  * [ BlanKoding 2017 ](/Acara/BlanKoding/BlanKoding2017.md)
+	  * [ KandidatTantanganBlankOn ](/Acara/BlanKoding/KandidatTantanganBlankOn.md)
     * [ /wiki/Acara/BlanKonf/ ](/Acara/BlanKonf/)				
 	  * [ /wiki/Acara/BlanKonf/BlanKonf2009/ ](/Acara/BlanKonf/BlanKonf2009/)			
 		  * [ AcaraBlanKonf2009 ](/Acara/BlanKonf/BlanKonf2009/AcaraBlanKonf2009.md)		
@@ -176,7 +172,6 @@
 		  * [ README ](/ProdukBlankOn/Srimubil/README.md)		
 		  * [ TimPengembangSrimubil ](/ProdukBlankOn/Srimubil/TimPengembangSrimubil.md)		
 	  * [ /wiki/ProdukBlankOn/1/ ](/ProdukBlankOn/1/)			
-=======
 * [ Acara/ ](/wiki/Acara/)
     * [ ILC2007 ](/Acara/ILC2007.md)				
 				

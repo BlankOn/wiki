@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * PetaMesin
-## Peta Mesin BlankOn
+# Peta Mesin BlankOn
 ### Yeyen:
     * diupgrade dulu
     * Pabrik amd64/i386
@@ -37,12 +22,8 @@
 ### Pendekar.bin:
     * Situs untuk pengembang (ex: pendekar.blankon.in/~namapengembang)
     * Monitoring server-server blankon
+
 Last modified on 01/01/2012 10:36:19 PM
-#### 
-    
- 
- 
- 
  
  
 ---

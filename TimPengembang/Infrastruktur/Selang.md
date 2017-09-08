@@ -1,26 +1,16 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Selang
-## Selang
+# Selang
 ### Cara menggunakan
 Sebelum mengakses web lakukan:
-export http_proxy=http://127.0.0.1:8888
+`export http_proxy=http://127.0.0.1:8888`
+
 ### Cara mengaktifkan
+
+```
 # su -s /bin/bash - selang
 $ ssh -f -N marya
 <Masukkan sandi di bawah (tersandi gpg)>
+```
+
 Setelah itu akan balik lagi ke prompt. Selang siap digunakan
 Sandi yang bisa baca:
 - timut
@@ -28,6 +18,8 @@ Sandi yang bisa baca:
 - iang
 - aftian
 - mdamt
+
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 hQIOAx/6EO5jBG9XEAf/cyPVqUYY+8YlCWnAOQ1/VDvFaxrMABDIBXNSdeakh7sl
@@ -96,6 +88,8 @@ wIueG8fO3JOnCV72495pEocd9x5QOj14k4pTEdxtoVhazwGOLN/mVPcKRnPPLfp5
 RHvX3IMThLz7+vN0stuZ+1iqoFD1Gw==
 =EbLP
 --END PGP MESSAGE-----
+```
+
 ### Cara instalasi
 #### Di mesin yang membutuhkan selang
     * Instal tinyproxy dengan mengaktifkan socks (ada di versi 1.6.3)
@@ -109,6 +103,7 @@ RHvX3IMThLz7+vN0stuZ+1iqoFD1Gw==
           port 2222
           DynamicForward 2226
     * Buat kunci ssh dengan ssh-keygen
+
 #### Di mesin yang menyediakan selang
     * Buat pengguna dengan nama selang
     * Pasang authorized_keys dengan kunci ssh yang sudah dibuat di mesin yang
@@ -116,12 +111,10 @@ RHvX3IMThLz7+vN0stuZ+1iqoFD1Gw==
     * Pastikan pengguna selang bisa login dengan kunci tersebut
     * Supaya lebih aman, pasang gembok dobel dengan cara menambahkan pilihan
       from dan command pada authorized keys. Contohnya:
-      from="202.6.233.56",command="/bin/hostname" ssh-rsa
-      AAAAB3NzaC1yc2EAAAABIwAAAQEAxuV8PCnY7ahlxGeLy8fWryO02z4p0+aWxNM1vQLMLzd10CpWTnOYiqyVZ7IDt4fr9vCUPFYzf4sfwWCJzvyJDkBwJfourLo2hAPzosxNNXDtPMOvCYKW12CwtLtLgWZq09wgiCzYbIdK3Rs3/
-      8ChyprO8c9dNeoeJMa+rRBrWCoOWYAIL1WOYo2Pip3OEAMICFrw89jsnVPUmYp6m4Gf9aFTaE0X7utKyT15+na2SJMJzc5DuFFQycPXqhRNK7zoLIZvIMq5nd8ePgx230INY3FG5GZnOE27syQocRFnnKZaSFU+0sv00B+1O4g5wSTjsFHsvjf6Y7YMHXT5jEjtBw==
-      selang@yeyen
+      `from="202.6.233.56",command="/bin/hostname" ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxuV8PCnY7ahlxGeLy8fWryO02z4p0+aWxNM1vQLMLzd10CpWTnOYiqyVZ7IDt4fr9vCUPFYzf4sfwWCJzvyJDkBwJfourLo2hAPzosxNNXDtPMOvCYKW12CwtLtLgWZq09wgiCzYbIdK3Rs3/
+8ChyprO8c9dNeoeJMa+rRBrWCoOWYAIL1WOYo2Pip3OEAMICFrw89jsnVPUmYp6m4Gf9aFTaE0X7utKyT15+na2SJMJzc5DuFFQycPXqhRNK7zoLIZvIMq5nd8ePgx230INY3FG5GZnOE27syQocRFnnKZaSFU+0sv00B+1O4g5wSTjsFHsvjf6Y7YMHXT5jEjtBw== selang@yeyen`
+
 Last modified on 05/29/2010 02:40:44 PM
-#### 
     
  
  

@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * RootCA
+# Root CA
 Pembaca:
     * Aftian
     * Andika
@@ -21,6 +7,8 @@ Pembaca:
     * MDAMT
     * Somat
     * Timut
+
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 hQIOA1Xgff8n4UkREAf/bmTAncX56gFnWVMpSJcA6ZmrVs8LRyTB5LMcpMgOqOoK
@@ -99,9 +87,9 @@ o/XVrD/hcFhK6CUevNf7dLlxYNr4/mi9CyAbZ/g2k/lZa6KQvXqvl1pTnkD9+3QT
 pe03dQwoxudueJNecRLObVZHqOQXaGZs1xhhiKG8wVykFwcuKyrbX9PEInvB21DU
 =zash
 --END PGP MESSAGE-----
-x
+```
+
 Last modified on 10/29/2010 04:19:36 PM
-#### 
     
  
  

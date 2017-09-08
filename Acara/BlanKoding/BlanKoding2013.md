@@ -82,18 +82,14 @@ Calon peserta yang mendaftar akan diseleksi berdasarkan jawaban dalam formulir.
    * Pernah mengerjakan proyek pembuatan aplikasi
 
 #### Biaya
-Gratis, tetapi setelah mengikuti BlanKoding? mengirimkan aplikasi buatannya ke
-App World BlackBerry
+Gratis, tetapi setelah mengikuti BlanKoding? mengirimkan aplikasi buatannya ke App World BlackBerry
 
 #### Sponsor
    * BlackBerry
-Jika Anda berminat menjadi sponsor tambahan kegiatan ini silakan hubungi
-humas@…
+Jika Anda berminat menjadi sponsor tambahan kegiatan ini silakan hubungi humas@…
 
 ## Acara berikutnya
-Jika berminat menyelenggarakan acara serupa di kota Anda silakan isi formulir
-ini
-Last modified on 06/20/2013 02:47:02 AM
+Jika berminat menyelenggarakan acara serupa di kota Anda silakan isi formulir ini
 
 ---
 [**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)

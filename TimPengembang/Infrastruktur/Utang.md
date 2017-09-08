@@ -1,19 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Utang
-## Utang Tim Infrastruktur
+# Utang Tim Infrastruktur
 ### Ombilin
     * Standardisasi nama berkas pabrik CD
           o Berkas iso : [PROJECT]-[RILIS]-[JENIS]-[ARSITEKTUR].iso
@@ -25,9 +10,6 @@
 Last modified on 04/29/2010 03:23:39 AM
 #### 
     
- 
- 
- 
  
  
 ---

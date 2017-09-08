@@ -1,26 +1,15 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * ImplementasiPabrikPaket
+# Implementasi Pabrik Paket
 ## Cara Kerja
+
 ### Kode sumber
 ​https://code.launchpad.net/~blankon-infrastruktur/blankon/pabrik-paket
+
 ### Karakteristik
     * Minimalis, mengandalkan hanya http biasa.
     * Catatan dilakukan dalam berkas teks biasa.
     * Komunikasi antara induk dan cabang dilakukan secara pasif, melalui
       bantuan berkas teks biasa.
+
 ### Induk
 Informasi yang diberikan:
 Contoh saat ini, <url-dasar>nya adalah: ​http://irgsh.blankonlinux.or.id.
@@ -28,6 +17,7 @@ Induk membuat berkas kerja baru pada direktori jobs/<nomor-pekerjaan>/
 jobdesc.txt. Isi berkas ini adalah informasi pekerjaannya, yaitu nama tag, url
 di gudang kode, url paket asli dari Ubuntu (berkas .orig.tar.gz), dan
 distribusi pekerjaan (misalnya konde-updates, konde-security, dsb).
+
 #### Tugas Induk Utama
 Tugas induk utama dikerjakan oleh skrip run-master.sh.
    1. Induk mengambil status semua cabang (mengunduh berkas status.txt) yang
@@ -52,6 +42,7 @@ Tugas induk utama dikerjakan oleh skrip run-master.sh.
       simbolik di direktori queue dihapus.
    4. Bila masih ada paket baru lagi yang belum dikerjakan kembali ke 2.
    5. Induk beristirahat selama beberapa saat (450 detik). Kembali ke 1.
+
 #### Pengecekan Hasil
 Pada bagian ini induk hanya mengecek semua paket yang telah selesai atau sedang
 dikerjakan. Bagian ini dikerjakan oleh skrip get-result.sh
@@ -84,9 +75,11 @@ Pengunggahan ke repositori dilakukan oleh bikin-arsip.sh.
       telah masuk ke repositori.
    2. Berkas Packages, Packages.gz, Release, dan Release.gpg dibuat ulang dalam
       masing-masing distribusi yang ada dalam repositori.
+
 ### Cabang
 Informasi yang diberikan:
 Contoh saat ini, <url-dasar>nya adalah: ​http://tempayan.blankonlinux.or.id/
+
 #### Tugas induk utama
 Tugas ini dikerjakan oleh berkas run-slave.sh.
    1. Bila status terakhir bukan IDLE maka cabang akan memeriksa apakah induk
@@ -111,6 +104,7 @@ Tugas ini dikerjakan oleh berkas run-slave.sh.
                   maka cabang akan mengisi berkas status.txt dengan kata ERROR
                   dan mengompres berkas build-log.txt menjadi build-
                   log.txt.bz2.
+
 #### Pemrosesan paket
 Tugas ini dikerjakan oleh fungsi build_jobdesc pada berkas run-slave.sh.
    1. Mengunduh tag pada gudang kode.
@@ -130,10 +124,11 @@ Tugas ini dikerjakan oleh fungsi build_jobdesc pada berkas run-slave.sh.
      repositori atau tag atau url)
      2 berarti proses pemaketan gagal dan tidak dapat diulangi, artinya
      pemaket harus membuat tiket baru.
+
 ## Implementasi dan instalasi
     * Pabrik Induk?
     * Pabrik_Cabang
-KategoriInfra
+
 Last modified on 06/17/2008 12:23:18 AM
 #### 
     

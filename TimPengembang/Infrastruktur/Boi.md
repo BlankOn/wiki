@@ -1,23 +1,12 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Infrastruktur  /
-    * Boi
+# Boi
+
 Sandi www.boi dan forum.boi: Yang bisa baca:
-    * mdamt
-    * imtheface
-    * timut
-    * iang
+
+  * mdamt
+  * imtheface
+  * timut
+  * iang
+
       --BEGIN PGP MESSAGE-----
       Version: GnuPG v1.4.9 (GNU/Linux)
       hQIOA+ZlPgJI8fmEEAf/dtWva37Zhid1c8R+jNS1SQTXFH7ajs7p9QEf6SUjxcsG
@@ -81,16 +70,12 @@ Sandi www.boi dan forum.boi: Yang bisa baca:
       VvSPMh7l7CAHrcE=
       =DwY4
       --END PGP MESSAGE-----
+
 KategoriBlankOn KategoriInfra
+
 Last modified on 12/01/2009 07:13:08 PM
-#### 
-    
- 
- 
- 
- 
  
 ---
-[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.md)
+[**Daftar Isi Wiki BlankOn**](/DaftarIsi/README.html)
  
-[**Indeks Wiki BlankOn**](/Indeks.md)
+[**Indeks Wiki BlankOn**](/Indeks.html)
