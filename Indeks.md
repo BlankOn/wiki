@@ -8,9 +8,9 @@
   {% for page in urut %}
     <li>
 	{% if page.title == '' or page.title == nil %}
-      <a href="{{ page.url }}">{{ page.url }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.url }}</a>
 	{% else %}
-      <a href="{{ page.url }}">{{ page.title }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	{% endif %}
     </li>
   {% endfor %}
