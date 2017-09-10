@@ -1,6 +1,4 @@
-# Catatan Rapat
-
-## Rabu, 8 Maret 2017
+# Catatan Rapat Rabu, 8 Maret 2017
 
 ### Tim Dokumentasi :
 Done :

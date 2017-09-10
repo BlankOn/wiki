@@ -1,6 +1,4 @@
-#Catatan RapatSalam
-
-## Rabu, 22 Februari 2017
+# Catatan Rapat Rabu, 22 Februari 2017
 
 
 Salam perangkat lunak merdeka dan selamat hari kamis. 

@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 13
-## BAB XIII : Pengaturan Piranti Keras
-TOC?
+# BAB XIII : Pengaturan Piranti Keras
+
+**Panduan BlankOn 5**
+
 Pengaturan piranti keras yang terpasang di komputer menggunakan BlankOn Linux
 sangat mudah sekali. Anda hampir tidak perlu melakukan pemasangan driver
 piranti keras, karena BlankOn Linux sudah menyediakan hampir semua driver

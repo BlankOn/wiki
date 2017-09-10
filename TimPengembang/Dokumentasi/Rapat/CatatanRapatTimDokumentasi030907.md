@@ -1,4 +1,4 @@
-### Log Rapat Hari Senin 3 September 2007
+# Log Rapat Hari Senin 3 September 2007
 [22:44] <udienzMahyuddin> ==== Rapat Dimulai ====
 [22:45] <udienzMahyuddin> untuk bahasan selain tim doc mohon ke # sebelah
 [22:45] *** ari_stress [n=tiger74@125.161.198.30] has joined #blankon

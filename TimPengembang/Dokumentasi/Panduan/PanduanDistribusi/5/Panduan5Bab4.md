@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 4
-## BAB IV Desktop BlankOn Reguler
-TOC? BlankOn Linux edisi Reguler menyediakan lingkungan kerja atau desktop
+# BAB IV Desktop BlankOn Reguler
+**Panduan BlankOn 5**
+
+BlankOn Linux edisi Reguler menyediakan lingkungan kerja atau desktop
 environment yang sangat mudah digunakan bernama GNOME (www.gnome.org). Desktop
 ini juga sangat sederhana, namun sangat lengkap dari sisi fitur.
 Pada bab ini, dijelaskan mengenai pengenalan bagian serta pengaturan pada

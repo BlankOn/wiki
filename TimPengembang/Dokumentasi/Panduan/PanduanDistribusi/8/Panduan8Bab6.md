@@ -1,6 +1,7 @@
-# Panduan BlankOn 8
-# Bab 6
-## Aplikasi Internet
+# Bab 6 Aplikasi Internet
+**Panduan BlankOn 8**
+
+
 Saat ini internet tidaklah lagi termasuk ke dalam kebutuhan tersier atau mewah.
 Kini, Internet menjadi kebutuhan yang sangat penting bagi setiap orang untuk
 mengakses informasi atau berkomunikasi dengan orang lain di seluruh penjuru

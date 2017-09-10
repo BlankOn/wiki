@@ -1,5 +1,4 @@
-## Dokumentasi Pengguna
-# Pindah dari Nanggar ke Ombilin
+# Panduan Pindah dari Nanggar ke Ombilin
    * Perbaharui repositori BlankOn di /etc/apt/sources.list. Isi berkas
       tersebut dengan baris-baris berikut
       deb http://arsip.blankonlinux.or.id/blankon ombilin main restricted

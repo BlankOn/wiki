@@ -1,6 +1,7 @@
-# Panduan BlankOn 7
-# Bab 9
-Aplikasi Multimedia dan Hiburan
+# Bab 9 Aplikasi Multimedia dan Hiburan
+**Panduan BlankOn Linux 7**
+
+
 BlankOn menyediakan berbagai aplikasi multimedia dan hiburan yang bisa
 menghibur Anda di saat sibuk bekerja untuk berproduktivitas. Selain itu, ada
 juga beberapa aplikasi multimedia yang memang didedikasikan untuk mereka yang

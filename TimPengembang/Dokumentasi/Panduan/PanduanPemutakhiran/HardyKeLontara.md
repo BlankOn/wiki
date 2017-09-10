@@ -1,20 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Dokumentasi  /
-    * Pengguna  /
-    * HardyKeLontara
-Pindah dari Hardy ke Lontara
+# Panduan Pindah dari Hardy ke Lontara
     * Ambil dan masukkan keyring repositori BlankOn ke dalam apt-key:
       wget http://cdimage.blankonlinux.or.id/blankon-archive-keyring.gpg -O - |
       sudo apt-key add -
@@ -37,12 +21,6 @@ Pindah dari Hardy ke Lontara
             Ya untuk semua pertanyaan.
             sudo apt-get install blankon-desktop-minimalist
 Last modified on 06/09/2008 01:32:26 PM
-#### 
-    
- 
- 
- 
- 
- 
----
- 
+
+
+

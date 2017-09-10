@@ -1,6 +1,7 @@
-# Panduan BlankOn 8
-# Bab 8
-## Aplikasi Grafis
+# Bab 8 Aplikasi Grafis
+**Panduan BlankOn 8**
+
+
 Untuk menunjang kebutuhan Grafis, BlankOn telah menyertakan aplikasi grafis
 dianratanya; Penampil gambar, Penampil berkas E-Book, Pengelola fotografi
 Shotwell Foto Manager, dan Libre Office Draw untuk penampil dan penyunting

@@ -1,6 +1,4 @@
-#Catatan Rapat
-
-## Rabu, 1 Maret 2017
+# Catatan Rapat Rabu, 1 Maret 2017
 
 
 ## LAPORAN MASING-MASING TIM

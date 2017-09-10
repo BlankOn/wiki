@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# firefox
+## Panduan Paket Impor # firefox
 Proses BlankOnisasi Pattimura:
 ### Motto:
 Ubah sedikit mungkin, dokumentasikan sebanyak banyak nya!

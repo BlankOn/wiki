@@ -1,6 +1,7 @@
-# Panduan BlankOn 7
-# Bab 11
-## Pengenalan Antarmuka Teks
+# Bab 11 Pengenalan Antarmuka Teks
+**Panduan BlankOn Linux 7**
+
+
 Antarmuka dasar untuk pengoperasian sistem operasi Linux sebenarnya adalah
 antarmuka berbasis teks, atau sering disebut Command Line. Antarmuka grafis
 atau desktop yang ada di dalam Linux sebenarnya hanyalah alat bantu untuk

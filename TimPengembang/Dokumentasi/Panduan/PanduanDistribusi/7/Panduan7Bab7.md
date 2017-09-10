@@ -1,6 +1,6 @@
-# Panduan BlankOn 7
-# Bab 7
-## Aplikasi Perkantoran
+# Bab 7 Aplikasi Perkantoran
+**Panduan BlankOn Linux 7**
+
 Untuk kebutuhan perkantoran, BlankOn menyediakan sebuah paket aplikasi
 perkantoran yang bernama LibreOffice?. LibreOffice? merupakan aplikasi
 perkantoran open source yang dapat digunakan dengan bebas dan didapatkan secara

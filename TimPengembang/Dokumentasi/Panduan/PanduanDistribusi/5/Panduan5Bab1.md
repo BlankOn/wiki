@@ -1,4 +1,6 @@
-## BAB I : Pengenalan BlankOn Linux
+# BAB I : Pengenalan BlankOn Linux
+
+**Panduan BlankOn 5**
 
 Kata “Linux” saat ini semakin banyak didengar oleh pecinta Teknologi Informasi
 dan Komunikasi (TIK) di seluruh dunia termasuk di Indonesia. Saat ini, Linux

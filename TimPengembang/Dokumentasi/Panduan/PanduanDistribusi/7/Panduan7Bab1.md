@@ -1,6 +1,6 @@
-  * 7  /
-  * Bab1
-## Apa itu Linux?
+# Bab 1 Apa itu Linux?
+**Panduan BlankOn Linux 7**
+
 Kata “Linux” saat ini semakin banyak didengar oleh pecinta Teknologi Informasi
 dan Komunikasi (TIK) di seluruh dunia termasuk di Indonesia. Saat ini, Linux
 telah menjadi salah satu sistem operasi yang banyak digunakan di berbagai

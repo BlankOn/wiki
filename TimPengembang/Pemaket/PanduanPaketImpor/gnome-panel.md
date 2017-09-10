@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# gnome-panel
+## Panduan Paket Impor # gnome-panel
 Proses BlankOnisasi gnome-panel
    1. Tambahkan 2 file yang akan membentuk entri Ihwal BlankOn. Ada pada berkas
       debian/blankon-about.desktop dan debian/blankon-about.desktop.in

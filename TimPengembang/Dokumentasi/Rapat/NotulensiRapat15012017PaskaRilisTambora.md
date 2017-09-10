@@ -1,4 +1,4 @@
-# Catatan Rapat 
+# Catatan Rapat 15 01 2017 Paska Rilis Tambora
 
 
 Rapat dilaksanakan di kanal IRC #blankon dengan dihadiri oleh para pengembang BlankOn. Berikut merupakan hasil dari rapat yang dimulai pada pukul : 20.12WIB.

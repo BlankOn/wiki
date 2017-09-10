@@ -1,4 +1,4 @@
-#Pedoman Kesenian
+# Pedoman Kesenian
    * ​http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines. Pedoman ini
       dipakai acuan untuk pewarnaan dan pembuatan ikon.
    * ​https://wiki.ubuntu.com/Artwork/Documentation/Pieces. Perlu diskusi

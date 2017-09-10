@@ -1,6 +1,7 @@
-# Panduan BlankOn 8
-# Bab 3
-## Pasang, Hapus dan Perawatan Perangkat Lunak
+# Bab 3 Pasang, Hapus dan Perawatan Perangkat Lunak
+**Panduan BlankOn 8**
+
+
 BlankOn Linux sudah menyertakan berbagai perangkat lunak untuk keperluan dasar
 seperti aplikasi perkantoran, multimedia, internet, grafis, dll. Namun, jika
 Anda merasa kurang dengan perangkat lunak yang sudah terpasang, Anda bisa

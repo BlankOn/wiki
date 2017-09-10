@@ -1,6 +1,6 @@
-# Panduan BlankOn 7
-# Bab 4
-### Destop BlankOn
+# Bab 4 Destop BlankOn
+**Panduan BlankOn Linux 7**
+
 BlankOn menyediakan lingkungan kerja atau destop environment yang sangat mudah
 digunakan bernama GNOME (​http://www.gnome.org). Destop ini juga sangat
 sederhana, namun sangat lengkap dari sisi fitur. Pada bab ini, dijelaskan

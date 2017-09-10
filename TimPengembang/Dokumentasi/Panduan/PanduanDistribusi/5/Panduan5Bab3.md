@@ -1,7 +1,5 @@
-# Panduan BlankOn 5
-# Bab 3
-## BAB III : Pasang dan Hapus piranti lunak
-
+# BAB III : Pasang dan Hapus piranti lunak
+**Panduan BlankOn 5**
 
 Bawaan dari BlankOn Linux sudah menyertakan berbagai piranti lunak untuk
 keperluan dasar seperti aplikasi perkantoran, multimedia, internet, grafis,

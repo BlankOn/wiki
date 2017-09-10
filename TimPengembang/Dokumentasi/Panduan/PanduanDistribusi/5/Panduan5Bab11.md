@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 11
-## BAB XI : Aplikasi Aksesoris
-TOC?
+# BAB XI : Aplikasi Aksesoris
+
+**Panduan BlankOn 5**
+
 Bagi sebagian orang, memiliki komputer yang mempunyai semua aplikasi yang
 dibutuhkan dalam kegiatannya setiap hari mungkin menjadi kebutuhan tersendiri.
 Misalnya saja sebagai seorang siswa, yang memiliki kewajiban dalam mengerjakan

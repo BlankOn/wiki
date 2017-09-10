@@ -1,5 +1,4 @@
-## Dokumentasi Pengguna
-# Konde Ke Lontara
+# Panduan Pindah Konde Ke Lontara
   * Perbarui repositori BlankOn ke /etc/apt/sources.list. Ganti kata konde ke
       lontara.
       deb http://arsip.blankonlinux.or.id/blankon lontara main restricted
@@ -18,5 +17,5 @@
 KategoriDok
 Last modified on 06/17/2008 01:14:41 PM
 
----
- 
+
+

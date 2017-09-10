@@ -1,5 +1,4 @@
-## Dokumentasi Pengguna
-# Pindah dari Lontara ke Meuligoe
+# Panduan Pindah dari Lontara ke Meuligoe
   * Perbaharui repositori BlankOn di /etc/apt/sources.list. Isi berkas
       tersebut dengan baris-baris berikut
       deb http://arsip.blankonlinux.or.id/blankon meuligoe main restricted

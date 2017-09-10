@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# tango-icon-theme
+## Panduan Paket Impor # tango-icon-theme
 Panduan BlankOnisasi tango-icon-theme
    1. Tambahkan icon khas BlankOn start-here.svg ke dalam debian/BlankOn/
       scalable/places/start-here.svg

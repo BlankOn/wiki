@@ -1,5 +1,4 @@
-## Dokumentasi Pengguna
-# Pindah dari Meuligoe ke Nanggar
+# Panduan Pindah dari Meuligoe ke Nanggar
    * Perbaharui repositori BlankOn di /etc/apt/sources.list. Isi berkas
       tersebut dengan baris-baris berikut
       deb http://arsip.blankonlinux.or.id/blankon nanggar main restricted

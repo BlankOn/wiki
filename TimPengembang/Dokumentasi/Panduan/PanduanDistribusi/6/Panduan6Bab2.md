@@ -1,6 +1,7 @@
-# Panduan BlankOn 6
-# Bab 2
-## Memasang BlankOn
+
+# Bab 2 Memasang BlankOn
+**Panduan BlankOn 6**
+
 Bab ini membahas cara memasang BlankOn di komputer. Pemasangan BlankOn sangat
 mudah dilakukan jika Anda sudah memahami persiapan dan langkah-langkah apa saja
 yang perlu dilakukan. Pada bab ini, dibahas mengenai persiapan dan langkah-

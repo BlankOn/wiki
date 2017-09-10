@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 14
+# BAB XIV Pengaturan pengguna dan kelompok
 
-## BAB XIV Pengaturan pengguna dan kelompok
+**Panduan BlankOn 5**
+
 Sistem operasi Linux merupakan sistem operasi multiuser atau banyak pengguna.
 Linux bisa digunakan oleh banyak pengguna yang memiliki ruang dan lingkungan
 masing-masing. Setiap pengguna juga memiliki nama akun pengguna (userid) dan

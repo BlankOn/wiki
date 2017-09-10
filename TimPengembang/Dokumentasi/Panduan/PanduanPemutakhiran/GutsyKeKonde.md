@@ -1,5 +1,4 @@
-## Dokumentasi Pengguna
-#  Gutsy Ke Konde
+# Gutsy Ke Konde
   * Ambil dan masukkan keyring repositori BlankOn ke dalam apt-key:
       wget http://cdimage.blankonlinux.or.id/blankon-archive-keyring.gpg -O- |
       sudo apt-key add -

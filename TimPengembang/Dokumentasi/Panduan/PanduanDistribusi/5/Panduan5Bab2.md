@@ -1,7 +1,6 @@
-# Panduan BlankOn 5
-# Bab 1
+# BAB II : Memasang BlankOn Linux
 
-## BAB II : Memasang BlankOn Linux
+**Panduan BlankOn 5**
 
 Bab ini membahas cara memasang BlankOn Linux di komputer. Pemasangan BlankOn
 Linux sangat mudah dilakukan jika Anda sudah memahami persiapan dan langkah-

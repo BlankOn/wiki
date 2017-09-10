@@ -1,4 +1,4 @@
-# Donasi
+# Donasi YPLI
 Jika Anda mempunyai apresiasi lebih dan ingin melakukan donasi ke Tim Pengembang BlankOn silahkan mengirimkan donasi ke rekening berikut :
 
 ![](https://bsmnet.syariahmandiri.co.id/image/syariahmandiri.jpg)

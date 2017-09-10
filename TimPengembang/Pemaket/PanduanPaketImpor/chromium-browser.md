@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# chromium-browser
+# Panduan Paket Impor - chromium-browser
 Pengembangan Chromium dilakukan langsung dari gudang kode subversion milik
 Google. Tidak ada rilis tertentu yang diterbitkan pengembang, jadi pemaket
 harus membuat berkas orig.tar.gz sendiri.

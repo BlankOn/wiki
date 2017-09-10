@@ -1,6 +1,7 @@
-# Panduan BlankOn 7
-# Bab 12
-## Pengaturan Perangkat Keras
+# Bab 12 Pengaturan Perangkat Keras
+**Panduan BlankOn Linux 7**
+
+
 Pengaturan perangkat keras yang terpasang di komputer menggunakan BlankOn
 sangat mudah sekali. Anda hampir tidak perlu melakukan pemasangan driver
 perangkat keras, karena BlankOn sudah menyediakan hampir semua driver perangkat

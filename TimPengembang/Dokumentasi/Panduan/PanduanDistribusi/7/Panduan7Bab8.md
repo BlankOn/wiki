@@ -1,6 +1,7 @@
-# Panduan BlankOn 7
-# Bab 8
-## Aplikasi Grafis
+# Bab 8 Aplikasi Grafis 
+**Panduan BlankOn Linux 7**
+
+
 Untuk menunjang kebutuhan Grafis, BlankOn telah menyertakan aplikasi grafis
 yang lengkap dan dapat dimanfaatkan untuk kebutuhan pengolahan grafis Anda
 seperti GIMP dan Inkscape. Pada bab ini, dijelaskan mengenai beberapa aplikasi

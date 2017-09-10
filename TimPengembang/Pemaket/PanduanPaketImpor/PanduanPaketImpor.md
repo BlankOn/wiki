@@ -1,5 +1,5 @@
-## Panduan Paket Impor
-# Halaman ini berisi panduan proses BlankOnisasi paket impor.
+# Panduan Paket Impor
+Halaman ini berisi panduan proses BlankOnisasi paket impor.
     * Pemaket/PanduanPaketImpor
     * Pemaket/PanduanPaketImpor/Kernel
     * Pemaket/PanduanPaketImpor/apt

@@ -1,6 +1,6 @@
-# Panduan BlankOn 7
-# Bab 6
-## Aplikasi Internet
+# Bab 6 Aplikasi Internet
+**Panduan BlankOn Linux 7**
+
 Saat ini internet tidaklah lagi termasuk ke dalam kebutuhan tersier atau mewah.
 Kini, Internet menjadi kebutuhan yang sangat penting bagi setiap orang untuk
 mengakses informasi atau berkomunikasi dengan orang lain di seluruh penjuru

@@ -1,7 +1,6 @@
-# Panduan BlankOn 5
-# Bab 7
-## BAB VII Aplikasi Internet
-TOC?
+# BAB VII Aplikasi Internet
+**Panduan BlankOn 5**
+
 Internet saat ini tidaklah lagi termasuk ke dalam kebutuhan tersier atau mewah.
 Kini, Internet menjadi kebutuhan yang sangat penting bagi setiap orang untuk
 mengakses informasi atau berkomunikasi dengan orang lain di seluruh penjuru

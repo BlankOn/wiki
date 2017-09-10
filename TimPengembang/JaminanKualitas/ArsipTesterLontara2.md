@@ -1,4 +1,4 @@
-#Rapat-02-Lontara Tim Tester BlankOn
+# Rapat-02-Lontara Tim Tester BlankOn
 **Jadwal**
     * Hari/Tanggal: Minggu, 30 Desember 2007
     * Waktu: Pkl. 20.00 WIB (UTC+7)

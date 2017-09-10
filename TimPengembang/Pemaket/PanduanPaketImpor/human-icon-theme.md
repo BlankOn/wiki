@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# human-icon-theme
+## Panduan Paket Impor # human-icon-theme
 Panduan BlankOnisasi human-icon-theme
    1. Tambahkan icon khas BlankOn ke dalam debian/BlankOn
    2. Ubah debian/rules

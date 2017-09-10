@@ -1,6 +1,6 @@
-# Panduan BlankOn 8
-# Bab 14
-## Racikan BlankOn Edisi Islami (BlankOn Sajadah)
+# Bab 14 Racikan BlankOn Edisi Islami (BlankOn Sajadah)
+**Panduan BlankOn 8**
+
 Racikan BlankOn Edisi Islami adalah sebuah racikan dari BlankOn Linux 8 Rote
 yang ditambahi Aplikasi dan konten Islami dan diberinama BlankOn Sajadah
 (​http://sajadah.blankonlinux.or.id), aplikasi islami yang ada diantaranya

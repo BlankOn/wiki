@@ -1,6 +1,7 @@
-# Panduan BlankOn 8
-# Bab 12
-## Pengaturan Perangkat Keras
+# Bab 12 Pengaturan Perangkat Keras
+**Panduan BlankOn 8**
+
+
 Pengaturan perangkat keras yang terpasang di komputer menggunakan BlankOn
 sangat mudah sekali. Anda hampir tidak perlu melakukan pemasangan driver
 perangkat keras, karena BlankOn sudah menyediakan hampir semua driver perangkat

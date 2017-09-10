@@ -1,20 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Dokumentasi  /
-    * Pengguna  /
-    * JauntyKeNanggar
-Pindah dari Jaunty ke Nanggar
+# Panduan Pindah dari Jaunty ke Nanggar
     * Ambil dan masukkan keyring repositori BlankOn ke dalam apt-key:
       wget http://arsip.blankonlinux.or.id/blankon/project/blankon-archive-
       keyring.gpg -O - | sudo apt-key add -

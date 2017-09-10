@@ -1,6 +1,7 @@
-# Panduan BlankOn 8
-# Bab 5
-## Menggunakan Peramban Berkas
+# Bab 5 Menggunakan Peramban Berkas
+**Panduan BlankOn 8**
+
+
 Untuk melakukan manajemen berkas pada komputer, Anda dapat menggunakan aplikasi
 peramban berkas yang bernama Nautilus. Bab ini menjelaskan mengenai cara
 menggunakan Nautilus untuk keperluan manajemen berkas sekaligus mengenalkan

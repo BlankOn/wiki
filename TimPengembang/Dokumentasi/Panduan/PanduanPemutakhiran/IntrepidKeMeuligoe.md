@@ -1,5 +1,4 @@
-## Dokumentasi Pengguna
-# Intrepid Ke Meuligoe
+# Panduan Pemutahiran dari Intrepid Ke Meuligoe
 ## Pindah dari Intrepid ke Meuligoe
   * Ambil dan masukkan keyring repositori BlankOn ke dalam apt-key:
       `wget http://arsip.blankonlinux.or.id/blankon/project/blankon-archive-keyring.gpg -O - | sudo apt-key add -`

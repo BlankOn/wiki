@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * Pekembangan  /
-    * pidgin
+# Pengembangan pidgin
+
 ### Catatan
 Perubahan yang dilakukan adalah merubah channel untuk kanal irc.freenode.net
 #BlankOn.

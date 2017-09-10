@@ -1,4 +1,4 @@
-#Implementasi Mesin Kompilasi
+# Implementasi Mesin Kompilasi
 ## Persiapan
 ### Mesin kompilasi pribadi
 Mesin kompilasi dapat dibuat dengan metoda chroot pada komputer yang sudah

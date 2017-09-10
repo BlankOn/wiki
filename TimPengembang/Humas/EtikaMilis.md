@@ -1,18 +1,4 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * EtikaMilis
-## Etika Milis
+# Etika Milis
 Sebelumnya perlu diketahui bahwa hal ini hanyalah guidelines, dan tidak
 bermaksud untuk membatasi hak kebebasan yang rekan-rekan miliki untuk
 menyampaikan ekspresi di milis ini. Guidelines berfungsi untuk membentuk

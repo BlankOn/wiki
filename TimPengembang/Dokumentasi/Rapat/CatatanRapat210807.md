@@ -1,5 +1,4 @@
-    * LogRapat  /
-    * TimBlankOn-210807
+# Log RapatTimBlankOn-210807
 Edit_page UpStart_PageIndexHistory
 Log pertemuan tim BlankOn kali ini:
 ***** Log *****

@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# debootstrap
+# Panduan Paket Impor # debootstrap
 Perubahan yang dilakukan
    1. Berkas Makefile
          1. Salin skrip dari scripts/blankon/*

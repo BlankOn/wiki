@@ -1,5 +1,4 @@
-    * Inkscape  /
-    * Bab7-Clone
+# Bab7-Clone
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/
 raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Maju.png]
 ### 7.5. Clone

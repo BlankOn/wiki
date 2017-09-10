@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# firefox-3.0
+## Panduan Paket Impor # firefox-3.0
 ### Sudah tidak berlaku di PATTIMURA
 lihat halaman ​http://dev.blankonlinux.or.id/wiki/Pemaket/PanduanPaketImpor/
 firefox

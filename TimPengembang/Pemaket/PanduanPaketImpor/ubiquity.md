@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# ubiquity
+## Panduan Paket Impor # ubiquity
 Panduan Ubiquity
    1. Ganti icon ubiquity.svg dan ubiquity.png di desktop milik ubuntu dengan
       icon ubiquity.svg dan ubiquity.png milik BlankOn

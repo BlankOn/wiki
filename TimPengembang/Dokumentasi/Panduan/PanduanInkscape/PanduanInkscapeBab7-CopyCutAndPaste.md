@@ -1,4 +1,3 @@
-# Panduan Inkscape
 # Bab 7 Copy Cut And Paste
 
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/

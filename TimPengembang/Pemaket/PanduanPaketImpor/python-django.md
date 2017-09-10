@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# python-django
+## Panduan Paket Impor # python-django
 Pada repositori ubuntu, paket python-django berada di dalam kategori universe.
 Karena paket ini akan digunakan oleh BlankOn, maka perlu diturunkan agar masuk
 ke dalam repositori BlankOn sehingga pengguna BlankOn tidak perlu menggunakan

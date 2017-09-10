@@ -1,7 +1,4 @@
-# Catatan Rapat
-
-
-## Rabu, 1 Februari 2017
+# Catatan Rapat Rabu, 1 Februari 2017
 
 Selamat pagi dan salam perangkat lunak merdeka.
 

@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 8
-## BAB VIII Aplikasi Perkantoran
-TOC?
+# BAB VIII Aplikasi Perkantoran
+
+**Panduan BlankOn 5**
+
 Untuk kebutuhan perkantoran, BlankOn Linux menyediakan sebuah paket aplikasi
 perkantoran yang bernama OpenOffice?.org. OpenOffice?.org merupakan aplikasi
 perkantoran open source yang dapat digunakan dengan bebas dan didapatkan secara

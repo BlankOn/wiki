@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# liberation-fonts
+## Panduan Paket Impor # liberation-fonts
 Pada repositori ubuntu, paket liberation-fonts berada di dalam kategori
 multiverse. Karena paket ini akan digunakan oleh BlankOn, maka perlu diturunkan
 agar masuk ke dalam repositori BlankOn sehingga pengguna BlankOn tidak perlu

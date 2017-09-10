@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# Kernel
+## Panduan Paket Impor # Kernel
 Source berada di git rani
 git clone git@rani/pattimura/linux
 Cara merge dengan beberapa Pohon

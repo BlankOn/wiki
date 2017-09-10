@@ -1,6 +1,6 @@
-# Panduan BlankOn 8
-# Bab 2
-## Memasang BlankOn
+# Bab 2 Memasang BlankOn
+**Panduan BlankOn 8**
+
 Bab ini akan membahas bagaimana cara memasang BlankOn pada komputer. Pemasangan
 BlankOn akan sangat mudah dilakukan apabila anda sudah memahami persiapan dan
 langkah-langkah apa saja yang perlu dilakukan.

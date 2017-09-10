@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# main-menu
+## Panduan Paket Impor # main-menu
 ### paket main-menu
     * ambil paket main-menu dari ubuntu dan ubah kata-kata Ubuntu di berkas
       debian/*.po

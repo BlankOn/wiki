@@ -1,8 +1,10 @@
- Lokakarya ini diselenggarakan pada tanggal 25 Februari 2011 bertempat di irc.freenode.net channel #blankon oleh bapak Fajran Iman Rusadi.
+# Lokakarya Membuat Certificate Authority Utama
 
-Dalam kriptografi, Certificate Authority (CA) adalah sebuah entitas yang mengeluarkan sertifikat digital yang dapat digunakan pihak-pihak lainnya. Para CA merupakan contoh pihak-pihak yang dapat dipercayai, khususnya dalam transaksi secara online di internet.​http://id.wikipedia.org/wiki/Certificate_authority
+Lokakarya ini diselenggarakan pada tanggal 25 Februari 2011 bertempat di irc.freenode.net channel #blankon oleh bapak Fajran Iman Rusadi.
 
-Jika kita berbicara tentang Certificate Authority (CA) ada 2 istilah yang akan mengikuti diataranya: Identitas dan Kepercayaan (trust). Secara analogi kita bisa membuat sertifikat untuk identitas kita tapi apakah identitas kita dipercaya oleh orang lain.
+Dalam kriptografi, Certificate Authority (CA) adalah sebuah entitas yang mengeluarkan sertifikat digital yang dapat digunakan pihak-pihak lainnya. Para CA merupakan contoh pihak-pihak yang dapat dipercayai, khususnya dalam transaksi secara online di internet.​ http://id.wikipedia.org/wiki/Certificate_authority
+
+Jika kita berbicara tentang Certificate Authority (CA) ada 2 istilah yang akan mengikuti diantaranya: Identitas dan Kepercayaan (trust). Secara analogi kita bisa membuat sertifikat untuk identitas kita tapi apakah identitas kita dipercaya oleh orang lain.
 
 Mari kita langsung ke tutorial. 
 
@@ -124,11 +126,6 @@ Referensi :
    ​http://ngoprek.fajran.web.id/2011/02/membuat-certificate-authority.html
    ​http://idforge.or.id/irclogs/blankon/%23blankon.2011-02-25.log
  ```
-
-
-
----
- 
 
 
 

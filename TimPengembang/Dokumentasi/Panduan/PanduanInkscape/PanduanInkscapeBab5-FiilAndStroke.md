@@ -1,4 +1,3 @@
-# Panduan Inkscape
 # Bab 5-FiilAndStroke
 [/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Mundur.png] [/
 raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Maju.png]

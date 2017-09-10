@@ -1,7 +1,8 @@
-# Panduan BlankOn 5
-# Bab 6
 ## BAB VI Menggunakan Peramban Berkas
-TOC? Untuk melakukan manajemen berkas pada komputer, Anda dapat menggunakan
+
+**Panduan BlankOn 5**
+
+Untuk melakukan manajemen berkas pada komputer, Anda dapat menggunakan
 aplikasi peramban berkas yang bernama Nautilus pada BlankOn Linux edisi
 Reguler, dan PCMan pada BlankOn Linux edisi Minimalis. Bab ini menjelaskan
 mengenai cara menggunakan Nautilus dan PCMan untuk keperluan manajemen berkas.

@@ -1,4 +1,6 @@
-# Tim Pemasaran BlankOn adalah tim yang bertugas mengumpulkan, mempromosikan, menghubungkan, dan menyebarluaskan semua informasi manfaat dan kebaikan BlankOn. Mari bergabung bersama kami.
+# Tim Pemasaran
+
+Tim Pemasaran BlankOn adalah tim yang bertugas mengumpulkan, mempromosikan, menghubungkan, dan menyebarluaskan semua informasi manfaat dan kebaikan BlankOn. Mari bergabung bersama kami.
 
 1. Tim Komunitas
   + M Khayron (coys) Surel : coys.jrux [at] gmail.com, IRC: coys kanal #blankon server irc.freenode.net

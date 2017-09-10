@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-#  openoffice.org
+## Panduan Paket Impor #  openoffice.org
 ~+DRAFT+~
 
 Petunjuk BlankOnisasi openoffice.org

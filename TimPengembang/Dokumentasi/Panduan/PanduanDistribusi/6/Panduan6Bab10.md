@@ -1,6 +1,6 @@
-    * 6  /
-    * Bab10
-## Aplikasi Aksesoris
+# Bab10 Aplikasi Aksesoris
+**Panduan BlankOn 6**
+
 Bagi sebagian orang, memiliki komputer yang mempunyai semua aplikasi yang
 dibutuhkan dalam kegiatannya setiap hari mungkin menjadi kebutuhan tersendiri.
 Misalnya saja sebagai seorang siswa, yang memiliki kewajiban dalam mengerjakan

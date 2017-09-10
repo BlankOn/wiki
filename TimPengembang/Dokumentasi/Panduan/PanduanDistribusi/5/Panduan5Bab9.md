@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 9
-## BAB IX Aplikasi Grafis
-TOC?
+# BAB IX Aplikasi Grafis
+
+**Panduan BlankOn 5**
+
 Untuk menunjang kebutuhan Grafis, BlankOn Linux telah aplikasi grafis yang
 lengkap dan dapat dimanfaatkan untuk kebutuhan pengolahan grafis Anda. Pada bab
 ini, dijelaskan mengenai beberapa aplikasi grafis yang ada di BlankOn Linux

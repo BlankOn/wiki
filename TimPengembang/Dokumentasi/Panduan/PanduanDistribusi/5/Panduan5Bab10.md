@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 10
-## BAB X : Aplikasi Multimedia dan Hiburan
-TOC?
+# BAB X : Aplikasi Multimedia dan Hiburan
+
+**Panduan BlankOn 5**
+
 BlankOn Linux menyediakan berbagai aplikasi multimedia dan hiburan yang bisa
 menghibur Anda disaat sibuk bekerja untuk berproduktivitas. Selain itu, ada
 juga beberapa aplikasi multimedia yang memang didedikasikan untuk mereka yang

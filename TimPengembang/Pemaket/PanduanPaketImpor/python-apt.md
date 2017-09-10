@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-#  python-apt
+## Panduan Paket Impor #  python-apt
 Proses BlankOnisasi?:
    1. Tambahkan template milik BlankOn:
          1. data/templates/BlankOn.mirrors

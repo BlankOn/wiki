@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# localechooser
+## Panduan Paket Impor # localechooser
 ## Paket Localechooser
 Agar pemilihan bahasa otomatis memilih ke Bahasa Indonesia
 diff -Nurp -x .bzr -x 'changelog*' -x 'localechooser_2.*' jaunty/localechooser/

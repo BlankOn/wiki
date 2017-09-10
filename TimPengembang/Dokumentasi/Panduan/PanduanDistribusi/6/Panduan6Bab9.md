@@ -1,6 +1,6 @@
-# Panduan BlankOn 6
-# Bab 9
-## Aplikasi Multimedia dan Hiburan
+# Bab 9 Aplikasi Multimedia dan Hiburan
+**Panduan BlankOn 6**
+
 BlankOn menyediakan berbagai aplikasi multimedia dan hiburan yang bisa
 menghibur Anda di saat sibuk bekerja untuk berproduktivitas. Selain itu, ada
 juga beberapa aplikasi multimedia yang memang didedikasikan untuk mereka yang

@@ -1,6 +1,6 @@
-# Panduan BlankOn 5
+# BAB XV : Berbagai Tip dan Trik
 
-## BAB XV : Berbagai Tip dan Trik
+**Panduan BlankOn 5**
 
 Pada bab ini, dijelaskan mengenai beberapa tip dan trik untuk distribusi
 BlankOn Linux meliputi tip dan trik untuk booting, sistem, hardware, desktop,

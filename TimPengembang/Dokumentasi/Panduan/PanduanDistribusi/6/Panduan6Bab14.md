@@ -1,11 +1,11 @@
-# Panduan BlankOn 6
-# Bab 14
+# Bab 14 Panduan Racikan Islami (BlankOn Sajadah)
+**Panduan BlankOn 6**
 
-## Panduan Racikan Islami (BlankOn Sajadah)
 Panduan Racikan Islami adalah sebuah racikan untuk BlankOn Sajadah, racikan ini
 berisi perangkat lunak yang bernuansa islam, ada beberapa perangkat lunak
 islami yang ada dalam racikan ini, diantaranya Monajat, Minbar, Oatman Qur'an
 Browser, Thwab, Zekr.
+
 Pada bab ini, akan membahas fungsi dan cara penggunaan perangkat lunak tersebut
 yang ada di BlankOn Sajadah.
 ### Monajat

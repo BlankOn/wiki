@@ -1,5 +1,4 @@
-## Dokumentasi Pengguna
-# Menaikkan Versi BlankOn Ombilin ke Pattimura
+# Panduan Menaikkan Versi BlankOn Ombilin ke Pattimura
 
 ### Ombilin
   * Perbaharui lumbung paket BlankOn di /etc/apt/sources.list. Isi berkas

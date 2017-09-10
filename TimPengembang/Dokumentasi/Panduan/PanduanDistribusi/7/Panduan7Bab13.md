@@ -1,6 +1,6 @@
-# Panduan BlankOn 7
-# Bab 13
-## Pengaturan Pengguna dan Kelompok
+# Bab 13 Pengaturan Pengguna dan Kelompok
+**Panduan BlankOn Linux 7**
+
 Sistem operasi BlankOn merupakan sistem operasi multiuser atau banyak pengguna.
 Linux bisa digunakan oleh banyak pengguna yang memiliki ruang dan lingkungan
 masing-masing. Setiap pengguna juga memiliki nama akun pengguna (userid) dan

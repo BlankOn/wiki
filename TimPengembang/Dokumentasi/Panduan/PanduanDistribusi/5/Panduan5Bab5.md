@@ -1,7 +1,7 @@
-# Panduan BlankOn 5
-# Bab 5
-## BAB V Desktop BlankOn Minimalis
-TOC? Berbeda dengan BlankOn Linux edisi Reguler, BlankOn minimalis menggunakan
+# BAB V Desktop BlankOn Minimalis
+
+**Panduan BlankOn 5**
+Berbeda dengan BlankOn Linux edisi Reguler, BlankOn minimalis menggunakan
 desktop bernama LXDE (www.lxde.org) yang sangat ringan. Desktop ini tidak
 berbeda jauh dengan desktop GNOME.
 Pada bab ini, dijelaskan mengenai penggunaan desktop LXDE pada BlankOn edisi

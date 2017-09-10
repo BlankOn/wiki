@@ -1,5 +1,4 @@
-## Panduan Paket Impor
-# blankonfirefox
+# Panduan Paket Impor - blankonfirefox
 Paket ini diturunkan dari paket ubufox yang merupakan extension firefox yang
 ditujukan untuk rebranding firefox. Proses BlankOnisasi?:
    1. Mengubah seluruh kata ubufox menjadi blankonfirefox

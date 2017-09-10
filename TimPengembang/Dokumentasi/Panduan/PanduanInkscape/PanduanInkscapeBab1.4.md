@@ -1,10 +1,6 @@
-# Panduan Inkscape
+# BAB 1 Antarmuka Inkscape
+[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab1/Mundur.png](/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab1/Maju.png)
 
-# Bab 1
-[/raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab1/Mundur.png] [/
-raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab1/Maju.png]
-
-## BAB 1 Antarmuka Inkscape
 Sebelum menggunakan program menggambar Inkscape sebaiknya kenali dulu beberapa
 menu penting yang ada pada Inkscape, karena dengan mengenal menu-menu penting
 tersebut akan mempermudah dalam penggunaan program ini. Inkscape memiliki
