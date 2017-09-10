@@ -1,4 +1,4 @@
-#### Memasang paket dari berkas Tar.bz2
+# Memasang paket dari berkas Tar.bz2
 Di BlankOn anda dapat menambah paket dari sebuah/beberapa berkas yang mempunyai format tar.bz2 (Tarball).
 
 ##### Studi Kasus

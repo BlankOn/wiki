@@ -1,9 +1,3 @@
-(artwork memiliki struktur sendiri di dev.boi, dengan format Menuju xxx, pindah kesini per rilis)
-          
+# Artwork BlankOn 1
 
-
----
- 
-
-
-
+Maaf belum terdokumentasikan

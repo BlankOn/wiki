@@ -1,4 +1,4 @@
-    * AlurKerja
+# Alur Kerja Proyek BlankOn
 
 ## Pengantar
 Halaman ini menjelaskan alur kerja proyek BlankOn 2

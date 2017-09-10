@@ -1,4 +1,4 @@
-#Lumbung Paket
+# Lumbung Paket
 Di [BlankOn](/BlankOn.md), hampir semua perangkat lunak berasal dari suatu tempat yang bernama lumbung paket (*package repository*). Saat Anda ingin memasang suatu perangkat lunak, Anda tidak perlu mengunduh sendiri paket perangkat lunak yang ingin Anda pasang. Anda hanya perlu menentukan sumber paket atau lumbung paket perangkat lunak tersebut melalui APT. APT adalah program yang berfungsi untuk mengunduh (*download*) paket yang Anda pilih dari lumbung dan memasangnya di komputer. Lumbung paket bisa berada dari empat sumber, yaitu:
   + Server Web
   + Jaringan Lokal, misalnya dari server NFS,

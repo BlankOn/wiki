@@ -1,5 +1,5 @@
-    * BlankBerry  /
-    * MembangunPaket
+# Membangun Paket BlankBerry
+   
 
 Untuk menyiapkan sistem BlankBerry, kita gunakan paket-paket dasar dari proyek
 Raspbian. Ada beberapa paket BlankOn yang perlu dibangun ulang dan dipasang di

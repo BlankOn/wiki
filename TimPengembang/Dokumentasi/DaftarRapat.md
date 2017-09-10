@@ -1,4 +1,4 @@
-#Daftar Rapat/Pertemuan
+# Daftar Rapat/Pertemuan
 
 ## BlankOn
   * [Pertemuan Tim BlankOn Persiapan Beta Rilis](/09102008): Rabu, 9 Oktober 2008, 21.00 WIB di #blankon @ irc.freenode.net
@@ -15,10 +15,5 @@
 
 ## Tim Jaminan Kualitas/Tester
   * Rapat [20081114](/TimPengembang/JaminanKualitas/14112008.md)
-
-
----
- 
-
 
 

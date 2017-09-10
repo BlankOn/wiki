@@ -1,4 +1,3 @@
-## 5
 # Cakram Pengaya CD3
 
 ## config

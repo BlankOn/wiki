@@ -1,5 +1,3 @@
-### 5 
-
 # Cakram Pengaya CD1
 
 ## config
