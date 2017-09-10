@@ -4,8 +4,7 @@
 [Urut Abjad?](/IndeksUrutAbjad.md)
 
 <ul>
-  {% assign urut = site.pages | sort: 'title' %}
-  {% for page in urut %}
+ {% for page in site.pages %}
     <li>
 	{% if page.title == '' or page.title == nil %}
       <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.url }}</a>
@@ -14,8 +13,4 @@
 	{% endif %}
     </li>
   {% endfor %}
-</ul>
-
-
----
-
+</ul>`
