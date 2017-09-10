@@ -1,5 +1,4 @@
-### Bibit Paket
-## Boot
+### Bibit Paket - Boot
 # Kernels and Bootloaders
 
 The default kernels and bootloaders are not to be installed by debootstrap,

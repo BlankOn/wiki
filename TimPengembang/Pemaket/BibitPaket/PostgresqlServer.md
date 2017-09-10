@@ -1,19 +1,5 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * PostgresqlServer
+# BibitPaket - PostgresqlServer
+
 Task-Section: server
 Task-Description: PostgreSQL database
 Task-Extended-Description: This task selects client and server packages for the
@@ -31,6 +17,7 @@ Task-Key: postgresql
  * postgresql-client
  * postgresql-doc
  * postgresql-contrib
+
 KategoriBlankOn KategoriPemaket
 Last modified on 06/16/2008 11:05:27 AM
 #### 

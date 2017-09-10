@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <img src="{{ '/assets/images/logo-blankon.jpg' | relative_url }}">
+        <a href="{{ site.url }}{{ site.baseurl }}"><img src="{{ '/assets/images/logo-blankon.jpg' | relative_url }}"></a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
@@ -33,23 +33,28 @@
           </ul>
         <h3>Tim Pengembang</h3>
         <ul>
-        <li><a href="/wiki/TimPengembang/Humas/Humas">Humas <small>{{ github_name }}</small></a></li>
-        <li><a href="/wiki/TimPengembang/Infrastruktur/Infrastruktur">Infrastruktur <small>{{ github_name }}</small></a></li>
-        <li><a href="/wiki/TimPengembang/Riset/Riset">Riset <small>{{ github_name }}</small></a></li>
-        <li><a href="/wiki/TimPengembang/Dokumentasi/Dokumentasi">Dokumentasi <small>{{ github_name }}</small></a></li>
-        <li><a href="/wiki/TimPengembang/Pemaket/Pemaket">Pemaket <small>{{ github_name }}</small></a></li>
-        <li><a href="/wiki/TimPengembang/Kesenian/Kesenian">Kesenian <small>{{ github_name }}</small></a></li>
-        <li><a href="/wiki/TimPengembang/JaminanKualitas/JaminanKualitas">Jaminan Kualitas <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Humas/Humas">Humas <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Infrastruktur/Infrastruktur">Infrastruktur <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Riset/Riset">Riset <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Dokumentasi/Dokumentasi">Dokumentasi <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Pemaket/Pemaket">Pemaket <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Kesenian/Kesenian">Kesenian <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/JaminanKualitas/JaminanKualitas">Jaminan Kualitas <small>{{ github_name }}</small></a></li>
         </ul>
         <h3>Wiki</h3>
         <ul>
-          <li><a href="{{ site.github.repository_url }}">Daftar Isi <small>{{ github_name }}</small></a></li>
-          <li><a href="{{ site.github.repository_url }}">Peta pranala <small>{{ github_name }}</small></a></li>
+          <li><a href="{{ site.url }}{{ site.baseurl }}/Indeks.html">Daftar Isi <small>{{ github_name }}</small></a></li>
+          <li><a href="{{ site.url }}{{ site.baseurl }}">Peta pranala <small>{{ github_name }}</small></a></li>
         </ul>
       </header>
       <section>
 
       {{ content }}
+
+	<div>
+	   <p>Konten ini adalah sumber terbuka. <br />
+	   <a href="https://github.com/blankon/wiki/edit/master/{{ page.path }}" title="Bantu perbaiki artikel ini {{ page.path }}">Edit</a>.</p>
+	</div>
 
       </section>
       <footer>

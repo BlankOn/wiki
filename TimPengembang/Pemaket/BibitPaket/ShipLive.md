@@ -1,6 +1,5 @@
-## Bibit Paket
+## Bibit Paket - ShipLive
 
-# ShipLive
 The ship-live seed will be added to the live CD as an ordinary package
 archive. Here belongs anything that somebody might need to install after
 installing the contents of the live CD in order to get online and fetch more

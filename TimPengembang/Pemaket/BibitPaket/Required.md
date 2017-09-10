@@ -1,27 +1,14 @@
-   BlankOn
- About_Trac
-    * About_Trac
-    * Preferences
-    * Login
-    * Help/Guide
-    * Wiki
-    * Roadmap
-    * Browse_Repository
-    * View_Reports
-[q                 ]
-    * BlankOn  /
-    * Wiki  /
-    * Pemaket  /
-    * BibitPaket  /
-    * Required
+# BibitPaket - Required
+
 This seed describes the packages at Priority: required. These packages are
 installed by the first pass of debootstrap, which extracts them (dpkg -x,
 without running maintainer scripts) in order to construct a basic environment
 into which it can chroot and install them properly.
 A system containing only required packages is not a supported Ubuntu system;
 you need to install at least the packages from minimal as well.
-= UNIX =
-== Essential ==
+
+## UNIX 
+## Essential 
 These are packages which have "Essential: yes" in their control file.
  * base-files
  * base-passwd    # ColinWatson
@@ -63,9 +50,9 @@ Other packages necessary to get started:
  * passwd
  * procps
  * tzdata
+
 KategoriBlankOn KategoriPemaket
 Last modified on 06/16/2008 11:06:17 AM
-#### 
     
  
  

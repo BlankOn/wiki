@@ -1,8 +1,6 @@
 # Acara BlanKonf 2010
 Bentuk Acara : Presentasi, Diskusi, Tutorial, Pelatihan Kilat
 
--------------------------------------------------------------------------------
--------------------------------------------
 Hari I (Sabtu, 31 Juli 2010)
 
 1. 08:00 - 09:00 Pendaftaran

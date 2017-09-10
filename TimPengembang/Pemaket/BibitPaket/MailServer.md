@@ -1,6 +1,5 @@
-## Bibit Paket
+## Bibit Paket - MailServer
 
-# MailServer
 Task-Section: server
 Task-Description: Mail server
 Task-Extended-Description: This task selects a variety of package useful for a
