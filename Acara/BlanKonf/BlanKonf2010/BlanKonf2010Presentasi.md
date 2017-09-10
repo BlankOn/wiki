@@ -1,12 +1,12 @@
-    * BlanKonf  /
-    * 2010  /
-    * Presentasi
-Edit_page UpStart_PageIndexHistory
+# Presentasi BlanKonf 2010
+
 Masukkan Presentasi/makalah/panduan tutorial anda di sini
 Presentasi Akhmat Safrudin ​http://cecunguk.blankonlinux.or.id/~somat/
 presentasi/blankonf/gerakan-blankon
-Last_modified 7 years ago Last modified on 08/02/2010 12:04:05 PM
-**** Attachments (10) ****
+
+Last_modified on 08/02/2010 12:04:05 PM
+
+**Attachments**
     * BlankOnf2-materi-LTSP.pdf​ (536.6 KB) - added by wirama 7 years ago.
       Pembuatan server LTSP pada BlankOn Linux
     * presentasi_zotero_blankon.pdf.tar.gz​ (4.0 MB) - added by Yoza 7 years

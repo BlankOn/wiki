@@ -1,44 +1,30 @@
-## BlanKonf 2010 
-## DaftarPekerjaan
+# Daftar Pekerjaan BlanKonf 2010 
+
+**Sekretariat**
+  * Menulis dan mencetak proposal
 
 
-# Daftar Pekerjaan
+**Bendahara**
+  * Merencanakan biaya
 
 
-*Sekretariat*
-~ Menulis dan mencetak proposal
+**Acara**
+  * Susunan Acara
+  * Penentuan Waktu dan Tempat
 
 
-*Bendahara*
-~ Merencanakan biaya
+**Publikasi**
+  * Membangun web
+  * Publikasi di milis lain
 
 
-*Acara*
-~ Susunan Acara
-~ Penentuan Waktu dan Tempat
+**Peralatan**
+  * Penyediaan Tempat
 
 
-*Publikasi*
-~ Membangun web
-~ Publikasi di milis lain
-
-
-*Peralatan*
-~ Penyediaan Tempat
-
-
-*Sponsor*
-~ Membuat daftar sasaran sponsor
-~ Mengirimkan proposal
-~ Melakukan konfirmasi kerjasama
-~ Membuat draft kerjasama
-
-
-—-
-
-    
-
-
-
-
+**Sponsor**
+  * Membuat daftar sasaran sponsor
+  * Mengirimkan proposal
+  * Melakukan konfirmasi kerjasama
+  * Membuat draft kerjasama
 

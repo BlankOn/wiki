@@ -1,8 +1,4 @@
-    * BlanKonf  /
-    * 2010  /
-    * Acara
-
-## Acara
+# Acara BlanKonf 2010
 Bentuk Acara : Presentasi, Diskusi, Tutorial, Pelatihan Kilat
 
 -------------------------------------------------------------------------------

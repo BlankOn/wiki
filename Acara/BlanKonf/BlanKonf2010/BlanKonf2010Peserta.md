@@ -1,8 +1,7 @@
-    * BlanKonf  /
-    * 2010  /
-    * Peserta
+# Peserta BlanKonf 2010
 
 Peserta BlanKonf 2010 Terdaftar
+
 Format : [Nama], [Organisasi], [ID Penerima Pendaftaran]
    1. Marthias Wily Permana, STMIK Atma Luhur Pangkalpinang, ND
    2. Achmad Afiffudin Nurzein, Universitas Trunojoyo Bangkalan, Madura, ND

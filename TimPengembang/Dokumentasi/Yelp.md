@@ -6,17 +6,10 @@
 
 ## Garis besar
   + Modifikasi toc.xml dan beberapa file dari Yelp agar lebih ramah bagi pengguna, bisa meniru gaya dari Ubuntu Help Center.
-  +  Pembuatan versi docbook / Mallard dari buku panduan BlankOn dan diintegrasikan ke Yelp.
-  +  Merapikan dan menyelesaikan terjemahan dari gnome-user-guide serta dokumentasi dari beberapa aplikasi GNOME (Rhythmbox, Nautilus, etc)
+  + Pembuatan versi docbook / Mallard dari buku panduan BlankOn dan diintegrasikan ke Yelp.
+  + Merapikan dan menyelesaikan terjemahan dari gnome-user-guide serta dokumentasi dari beberapa aplikasi GNOME (Rhythmbox, Nautilus, etc)
 
 ## Referensi
   +  ​http://live.gnome.org/Yelp
   +  ​http://projectmallard.org/about/index.html
-
-
-
----
- 
-
-
 

@@ -1,8 +1,5 @@
-    * BlanKonf  /
-    * 2010  /
-    * Panitia
+# Panitia BlanKonf 2010
 
-Kembali ke ​BlanKonf_2010
 Koordinator Jabodetabek : Utian Ayuba (utian@… 02517181810)
 Koordinator Surabaya :
 Kontak Sponsor/Pendaftaran? Jabodetabek :
@@ -29,10 +26,4 @@ Panitia Lainnya :
    5. Winendah Ayu (Jabodetabek) mahasiswa.super@…
    6. Didiet Agus Pambudiono (Surabaya) pambudiono.os@…
 Last modified on 05/02/2010 08:17:35 AM
-#### 
-    
-
-
-
-
 

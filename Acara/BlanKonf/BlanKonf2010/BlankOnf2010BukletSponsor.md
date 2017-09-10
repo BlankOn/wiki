@@ -1,10 +1,4 @@
-## BlanKonf 2010  
-## BukletSponsor
-
-
-# Buklet Sponsor
-
-
+# Buklet Sponsor BlanKonf 2010  
 
 ## Sekilas BlanKonf
 
