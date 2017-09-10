@@ -14,21 +14,21 @@ bukti kreativitas anak bangsa di sektor Teknologi Informasi dan Komunikasi.
    5. Teknologi Termutakhir
    6. Dukungan Lebih Dekat
    7. Bebas, Terbuka, Gratis
-    * BlanKonf/2011
-    * BlanKonf/2011/Acara
-    * BlanKonf/2011/BukletSponsor
-    * BlanKonf/2011/DaftarPekerjaan
-    * BlanKonf/2011/HasilRapatPengembang
-    * BlanKonf/2011/Panitia
-    * BlanKonf/2011/Peserta
-    * BlanKonf/2011/WaktuDanTempat
-    * BlanKonf/2011/malang
-    * BlanKonf/2011/materi
-    * BlanKonf/2011/penginapan
-    * BlanKonf/2011/semarang
-    * BlanKonf/2011/transportasi
+
+  * BlanKonf/2011
+  * BlanKonf/2011/Acara
+  * BlanKonf/2011/BukletSponsor
+  * BlanKonf/2011/DaftarPekerjaan
+  * BlanKonf/2011/HasilRapatPengembang
+  * BlanKonf/2011/Panitia
+  * BlanKonf/2011/Peserta
+  * BlanKonf/2011/WaktuDanTempat
+  * BlanKonf/2011/malang
+  * BlanKonf/2011/materi
+  * BlanKonf/2011/penginapan
+  * BlanKonf/2011/semarang
+  * BlanKonf/2011/transportasi
 
 Last modified on 06/01/2011 09:09:26 PM
 
----
- 
+
