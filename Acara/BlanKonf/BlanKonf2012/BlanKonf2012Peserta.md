@@ -1,8 +1,7 @@
-    * BlanKonf  /
-    * 2012  /
-    * Peserta
+# Peserta BlanKonf 2012
 
-### Rekapitulasi Peserta BlanKonf#4 Per 27 Nop 2012 (FINAL)
+## Rekapitulasi Peserta BlanKonf#4 Per 27 Nop 2012 (FINAL)
+
 JENIS PESERTA             JUMLAH ORANG KETERANGAN
 Daftar via situs konf2012 78
 Undangan Konfirmasi       21
@@ -10,6 +9,7 @@ Narasumber                17
 Panitia                   4
 TOTAL                     120
 SISA KURSI                0
+
 ### Peserta Via Website
 NO. NAMA                KOTA ASAL         ORGANISASI          UJIAN SERTIFIKASI
                                                               BLANKON YPLI

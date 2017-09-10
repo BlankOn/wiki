@@ -2,13 +2,13 @@
 
 Sesuai dengan misi BlankOn yang menjadi salah satu penggerak pemberdayaan
 Teknologi Informasi dan Komunikasi di Indonesia yang berbasis komunitas, tahun
-ini BlanKonf mengangkat tema “Revolusi Teknologi Informasi dan Komunikasi
-Indonesia”.
-    * BlanKonf/2012
-    * BlanKonf/2012/Acara
-    * BlanKonf/2012/Panitia
-    * BlanKonf/2012/Perlengkapan
-    * BlanKonf/2012/Peserta
+ini BlanKonf mengangkat tema “Revolusi Teknologi Informasi dan Komunikasi Indonesia”.
+
+  * BlanKonf/2012
+  * BlanKonf/2012/Acara
+  * BlanKonf/2012/Panitia
+  * BlanKonf/2012/Perlengkapan
+  * BlanKonf/2012/Peserta
 
 Last modified on 10/14/2012 05:47:48 PM
 
