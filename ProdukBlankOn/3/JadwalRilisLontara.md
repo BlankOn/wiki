@@ -1,4 +1,4 @@
-JADWAL INI MASIH DRAFT DAN DAPAT BERUBAH SEWAKTU-WAKTU!
+# JADWAL INI MASIH DRAFT DAN DAPAT BERUBAH SEWAKTU-WAKTU!
 Roadmap kerja pengembangan Blankon 3 (Lontara).
    * Harap diskusikan terlebih dulu dengan_tim_Steering apabila ingin
       mengubah jadwal yang ada di halaman ini

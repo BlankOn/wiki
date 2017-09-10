@@ -13,8 +13,4 @@
 ![ahmadharis.files.blankon-iklan.png](https://ahmadharis.files.wordpress.com/2014/02/blankon-iklan.png)
 
 
----
- 
-
-
 
