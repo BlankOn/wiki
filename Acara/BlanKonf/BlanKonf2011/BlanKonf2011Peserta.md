@@ -1,11 +1,12 @@
-    * BlanKonf  /
-    * 2011  /
-    * Peserta
+# Peserta BlanKonf 2011
 
 Peserta BlanKonf 2011 Terdaftar
-Biaya Pendaftaran
+
+**Biaya Pendaftaran**
+
 Pelajar / Mahasiswa: Rp. 50.000,- (Dibuktikan dengan membawa Kartu Pelajar /
 Kartu Mahasiswa pada saat daftar ulang) Umum: Rp. 100.000,-
+
 Data akan diupdate minimal 2x dalam sehari
      No. Nama           Organisasi     Kota         ID Penerima Ket.
                                                     Pendaftaran
@@ -191,18 +192,14 @@ Data akan diupdate minimal 2x dalam sehari
      85. tb amin        Zaskia         Demak        KPG
      86. Aditya Suseno  Binus          Brotojoyo    KPG
                                        Timur
-    * FORM PENDAFTARAN BLANKONF 3 ​http://konf2011.blankonlinux.or.id/daftar/
-    * Kontak Jabodetabek: Fanny Farhanah Mumtaz (0821 2452 6146) atau
+  * FORM PENDAFTARAN BLANKONF 3 ​http://konf2011.blankonlinux.or.id/daftar/
+  * Kontak Jabodetabek: Fanny Farhanah Mumtaz (0821 2452 6146) atau
       (cutefunny46[di]gmail.com) Semarang: Muhammad Abdul Majid (0857 4037
       9070) atau (tuyul.det[di]gmail.com)
-Catatan :
-    * ID Penerima Pendaftaran adalah peserta yang mendaftar pada panitia,
+
+## Catatan :
+  * ID Penerima Pendaftaran adalah peserta yang mendaftar pada panitia,
       contoh mendaftar pada "KPG", KPG : krida pandu gunata
+
 Last modified on 07/23/2011 05:58:30 AM
-#### 
-    
-
-
-
-
 
