@@ -1,12 +1,10 @@
-    * BlanKopdar  /
-    * 2012  /
-    * KBPRI
+# Kelompok Pengguna BlankOn Republik Indonesia
 
-## Kelompok Pengguna BlankOn Republik Indonesia
 Komunitas Pengguna BlankOn seluruh indonesia bergabung untuk membawa misi dan
 visi BlankOn. Terdapat tinjauan komunitas tahun 2011 - 2012 serta rencana
 kedepan komunitas tahun 2012 - 2013, disampaikan oleh perwakilan dari beberapa
 komunitas BlankOn seluruh Indonesia.
+
 ### Paguyuban Pengguna Blankon Surabaya
 ## Kelebihan
     * -
@@ -61,11 +59,5 @@ Last modified on 09/25/2012 08:54:06 PM
 #### Attachments (1)
     * BlanKopdar_2012_PPBM.pdf​ (506.3 KB) - added by blu3f4lc0n 5 years ago.
       Presnai_PPBM
-
-#### 
-    
-
-
-
 
 

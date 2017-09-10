@@ -1,10 +1,6 @@
-    * BlanKopdar  /
-    * 2012
+# BlanKopdar 2012
 
 
-pre-0.11 Wiki macro Navigation by provider <class 'Navigation.NavigationMacro'>
-
-## BlanKopdar 2012
 ### Tempat
 Rumah Bpk. Ismawaldi
 Kampung Gunung Dewi, Desa Caringin, Kecamatan Gegerbitung, Sukabumi
@@ -108,11 +104,6 @@ princeofgiri untuk persetujuan kepesertaan.
 ### Kontak
 SMS/Telep: 02517181810 (Utian)
 SMS/Telep: +62 8787 8405 797 (princeofgiri)
+
 Last modified on 09/25/2012 08:41:08 PM
-#### 
-    
-
-
-
-
 

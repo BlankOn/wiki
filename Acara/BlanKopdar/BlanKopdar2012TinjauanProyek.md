@@ -1,11 +1,9 @@
-    * BlanKopdar  /
-    * 2012  /
-    * TinjauanProyek
+# Tinjauan Proyek 2011 - 2012 (BlanKopdar 2012)
 
-## Tinjauan Proyek 2011 - 2012
 Tinjauan proyek tahun 2011 - 2012, disampaikan oleh Aftian sebagai Manajer
 Proyek BlankOn Rote, dalam kesempatan ini Aftian menyampaikan beberapa kendala
 dalam pengembangan selama ini, selain itu juga harapan pengembangan ke depan.
+
 ### IRGSH
 IRGSH dibangun untuk Python 2.6, sementara versi Python yang beredar saat ini
 sudah di atas versi 2.6, bahkan pada beberapa distro ada yang sudah menggunakan
@@ -30,11 +28,4 @@ IRGSH saat ini tidak mendukung arsitektur ARM
 Last modified on 09/25/2012 01:13:36 AM
 #### Attachments (1)
     * TInjauan_Proyek.pdf​ (22.5 KB) - added by somat 5 years ago.
-
-#### 
-    
-
-
-
-
 
