@@ -1,7 +1,7 @@
-# Indeks Wiki BlankOn
-[Indeks Wiki BlankOn urut kategori](/Indeks.html)
+# Indeks Wiki BlankOn Urut Abjad
 
-## Urut Abjad
+## Urut Abjad | [Urut kategori](/Indeks.html)
+ 
 
 <ul>
   {% assign urut = site.pages | sort: 'title' %}
