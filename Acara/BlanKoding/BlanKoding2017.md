@@ -2,8 +2,5 @@
   * BlanKoding Pertama
   * [BlanKoding kedua](/Acara/BlanKoding2017kedua.md)
 
----
- 
-
 
 
