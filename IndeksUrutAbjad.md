@@ -1,6 +1,6 @@
 # Indeks Wiki BlankOn Urut Abjad
 
-## Urut Abjad | [Urut kategori](/Indeks.html) | [Daftar Isi Wiki](/DaftarIsi/README.md)
+## Urut Abjad | [Urut kategori](/Indeks.md) | [Daftar Isi Wiki](/DaftarIsi/README.md)
  
 
 <ul>

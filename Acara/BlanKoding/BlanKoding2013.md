@@ -33,6 +33,7 @@ Jakarta _detil akan dikirim ke peserta terpilih_
 #### Sponsor
    * RockyBars
    * kodekreatif
+
 Jika Anda berminat mensponsori kegiatan ini silakan hubungi humas@…
 
 #### Peserta
@@ -47,6 +48,7 @@ Klik_untuk_membuka_formulir
 Peserta harus memiliki kompetensi:
    * bahasa pemrograman Vala
    * HTML5
+
 Last modified on 06/20/2013 09:14:42 AM
 
 ---
@@ -86,14 +88,10 @@ Gratis, tetapi setelah mengikuti BlanKoding? mengirimkan aplikasi buatannya ke A
 
 #### Sponsor
    * BlackBerry
+
 Jika Anda berminat menjadi sponsor tambahan kegiatan ini silakan hubungi humas@…
 
 ## Acara berikutnya
 Jika berminat menyelenggarakan acara serupa di kota Anda silakan isi formulir ini
 
 Last modified on 06/20/2013 02:47:02 AM
-
----
-
-
-
