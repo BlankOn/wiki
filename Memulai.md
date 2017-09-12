@@ -100,6 +100,5 @@ Komunikasi dan koordinasi luring dapat ditemui di BlanKonf, BlanKopdar maupun Bl
 
 ### [Komposisi Tim Pada Awal Pengembangan BlankOn](/TimBlankOn.md)
 
----
- 
+
 
