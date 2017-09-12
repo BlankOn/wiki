@@ -1,6 +1,6 @@
 # Indeks Wiki [BlankOn](/BlankOn.md)
 
-## Urut Kategori | [Urut Abjad](/IndeksUrutAbjad.md)
+## Urut Kategori | [Urut Abjad](/IndeksUrutAbjad.md) | [Daftar Isi Wiki](/DaftarIsi/README.md)
 
 <ul>
  {% for page in site.pages %}
