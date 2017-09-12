@@ -1,5 +1,5 @@
 # BlankOn
-![](http://dev.blankonlinux.or.id/raw-attachment/wiki/Misi/buatan-indonesia.png)
+![](/wiki/Assets/Images/buatan-indonesia.png)
 
 ## Misi Proyek BlankOn
 Proyek BlankOn bertujuan untuk mengembangkan ekosistem baru dalam konteks
@@ -37,13 +37,13 @@ waktu yang perlu dihabiskan.
 Saat ini mental kebanyakan dari kita adalah mental pembeli dan pengguna. Pasar
 dalam negeri dipenuhi barang-barang dan produksi luar negeri.
 
-[GraphViz image]
+![](/wiki/Assets/Images/produk-luar-negeri.png)
 
 BlankOn ingin berpartisipasi dalam mengubah mental tersebut menjadi mental
 produsen dan penghasil. Ekosistem yang dicita-citakan merupakan sarana untuk
 mencapai transformasi ini.
 
-[GraphViz image]
+![](/wiki/Assets/Images/produk-sendiri.png)
 
 ### Daftar Singkat Indikator Keberhasilan
 Berikut adalah beberapa contoh hal-hal yang menjadi indikator keberhasilan misi

@@ -21,23 +21,16 @@ blankon. Dan rilispun diusahakan tidak terlalu jauh atau bersamaan dengan rilis
 blankon.
 
 ### Racikan Cakram Pengaya
-Dibawah ini adalah daftar aplikasi tiap racikan cakram pengaya. Aplikasi-
-aplikasi yang dimasukan diusahakan telah ada di repositori ubuntu.
-  * Cakram Pengaya Multimedia : ​http://dev.blankonlinux.or.id/wiki/
-      CakramPengaya/Multimedia
-   * Cakram Pengaya Kreatif : ​http://dev.blankonlinux.or.id/wiki/
-      CakramPengaya/Kreatif
-   * Cakram Pengaya Pendidikan : ​http://dev.blankonlinux.or.id/wiki/
-      CakramPengaya/Pendidikan
-   * Cakram Pengaya Warnetku : ​http://dev.blankonlinux.or.id/wiki/
-      CakramPengaya/Warnetku
+Dibawah ini adalah daftar aplikasi tiap racikan cakram pengaya. Aplikasi-aplikasi yang dimasukan diusahakan telah ada di repositori ubuntu.
+  * [Cakram Pengaya Multimedia](/wiki/CakramPengaya/Multimedia)
+  * [Cakram Pengaya Kreatif](/wiki/CakramPengaya/Kreatif)
+  * [Cakram Pengaya Pendidikan](/wiki/CakramPengaya/Pendidikan)
+  * [Cakram Pengaya Warnetku](/wiki/CakramPengaya/Warnetku)
 
 ### Ingin Aplikasi favorit masuk Cakram Pengaya?
-Masukkan aplikasi favorit anda kesini ​http://dev.blankonlinux.or.id/wiki/
-CakramPengaya/request Pastikan ada di dalam repository ubuntu ofisial maupun
-unofisial.
+Masukkan aplikasi favorit anda [kesini](/wiki/CakramPengaya/request) Pastikan ada di dalam repository ubuntu ofisial maupun unofisial.
 
-Lihat ​http://dev.blankonlinux.or.id/ticket/197
+Lihat [http://dev.blankonlinux.or.id/ticket/197](​http://dev.blankonlinux.or.id/ticket/197)
 
 Last modified on 12/04/2009 09:36:27 AM
  

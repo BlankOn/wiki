@@ -1,14 +1,17 @@
 # Cakram Pengaya CD1
 
 ## config
+```
 title="Cakram Pengaya Keluarga"
+```
 
 ## sources.list
+```
 deb http://arsip.blankonlinux.or.id/blankon nanggar main restricted
 deb http://kambing.ui.edu/ubuntu jaunty main restricted universe multiverse
 deb http://cecunguk.blankonlinux.or.id/~wirama/Paketku jaunty local
 deb http://kambing.ui.edu/medibuntu jaunty free non-free
-
+```
 ## archs
 
 ### i386
@@ -105,4 +108,3 @@ deb http://kambing.ui.edu/medibuntu jaunty free non-free
 Last modified on 10/29/2009 05:12:26 AM
  
 ---
- 
