@@ -3,8 +3,8 @@
 BlanKoding merupakan gabungan dari kata BlankOn dan Koding. BlanKoding merupakan kopi darat atau pertemuan beberapa pengembang BlankOn.
 
   + [BlanKoding 2013 (Suroboyo dan BlackBerry)](/wiki/Acara/BlanKoding/BlanKoding2013.md)
-  + [BlanKoding 2017 #1 di Surabaya](/wiki/Acara/BlanKoding/BlanKoding2017.md)
-  + [BlanKoding 2017 #2 di Bojong](/wiki/Acara/BlanKoding/BlanKoding2017kedua.md)
+  + [BlanKoding 2017 #1 di Surabaya](/wiki/Acara/BlanKoding/BlanKoding2017Pertama.md)
+  + [BlanKoding 2017 #2 di Bojong](/wiki/Acara/BlanKoding/BlanKoding2017Kedua.md)
 
 ## BlanKoding 2013
 ### BlanKoding 2013 Suroboyo
