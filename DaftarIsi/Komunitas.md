@@ -2,7 +2,3 @@
 
  + [Makasar.md](Assets/Others/Makasar.md)
 
-
-—---
-
- 
