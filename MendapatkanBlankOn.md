@@ -25,8 +25,5 @@
 Anda juga dapat mengunduh berkas iso blankOn melalui Torrent atau Jigdo 
 
 
----
- 
-
 
 

@@ -17,7 +17,7 @@ Anda dapat berpastisipasi di proyek [BlankOn](/BlankOn.md) ini dengan cara:
 4. Mencatatkan namanya ke dalam Halaman Tim Pengembang.
 
 ### Cakupan Wilayah Kerja
-Dalam proyek Distro [BlankOn](/BlankOn.md) di bagi dalam beberapa tim yaitu:
+Dalam proyek Distro [BlankOn](/BlankOn.md) dibagi dalam beberapa tim yaitu:
 1. [Tim Infrastruktur](/TimPengembang/Infrastruktur/Infrastruktur.md)
 2. [Tim Riset dan Aplikasi](/TimPengembang/Riset/Riset.md)
 3. [Tim Pemaket](/TimPengembang/Pemaket/Pemaket.md)
@@ -26,22 +26,27 @@ Dalam proyek Distro [BlankOn](/BlankOn.md) di bagi dalam beberapa tim yaitu:
 6. [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md)
 7. [Tim Humas](/TimPengembang/Humas/Humas.md)
 
-Anda dapat melihat penjelasan dari tim-tim yang ada di [BlankOn](/BlankOn.md) di halaman TimBlankOn
+Anda juga dapat melihat penjelasan tentang tim-tim yang ada di [BlankOn](/BlankOn.md) di halaman [Tim BlankOn](/TimPengembang/TimBlankOn.md)
 
 ### Dimana mendapatkan Informasi Tentang [BlankOn](/BlankOn.md)
-Anda dapat mendapatkan informasi [BlankOn](/BlankOn.md) di:
-1. [Website [BlankOn](/BlankOn.md)](http://www.blankonlinux.or.id/)
-2. [Rilis [BlankOn](/BlankOn.md)](http://www.blankonlinux.or.id/unduh)
-3. [Milis Resmi Pengguna [BlankOn](/BlankOn.md)](http://groups.google.com/group/BlankOn/)
-4. [Milis Resmi Pengembang [BlankOn](/BlankOn.md)](http://groups.google.com/group/BlankOn-dev/)
-5. IRC di kanal irc.freenode.net channel #blankon]
+Anda dapat mendapatkan informasi tentang [BlankOn](/BlankOn.md) di:
+1. [Website BlankOn](http://www.blankonlinux.or.id/)
+2. [Rilis BlankOn](http://www.blankonlinux.or.id/unduh)
+3. [Milis Resmi Pengguna BlankOn](http://groups.google.com/group/BlankOn/)
+4. [Milis Resmi Pengembang BlankOn](http://groups.google.com/group/BlankOn-dev/)
+5. IRC di kanal irc.freenode.net channel #blankon
 6. [Riwayat IRC](http://irclog.blankon.in/)
-7. [Jejaring Sosial](https://www.facebook.com/blankon.linux)
-8. [Mari terjemahkan bahasa daerah anda](http://w.blankon.in/WA)
+7. [Facebook](https://www.facebook.com/blankon.linux)
+8. [Mari terjemahkan bahasa daerah Anda](http://w.blankon.in/WA)
+9. [Twitter](https://twitter.com/BlankOnLinux/)
+10. [Telegram](http://s.id/BlankOn)
+11. [Web Panduan](http://panduan.blankonlinux.or.id/)
+12. [Flickr](https://www.flickr.com/people/153832225@N06/)
+
 
 ## Apa yang akan saya lakukan bila:
-### Menemukan bug's di [BlankOn](/BlankOn.md)
-Anda dapat melaporkan segala bug's [BlankOn](/BlankOn.md) di Halaman [Pendaftaran Tiket](/PendaftaranTiket.md)
+### Menemukan *bug's* di [BlankOn](/BlankOn.md)
+Anda dapat melaporkan segala *bug's* [BlankOn](/BlankOn.md) di Halaman [Pendaftaran Tiket](/PendaftaranTiket.md)
 
 ### Mengajukan pertanyaan tentang [BlankOn](/BlankOn.md)
 Apabila anda mempunyai pertanyaan seputar [BlankOn](/BlankOn.md) dapat mengajukan pertanyaan tersebut di [Milis Resmi Pengguna BlankOn](http://groups.google.com/group/BlankOn/)
@@ -56,11 +61,5 @@ Semua aktivitas pengembangan distro [BlankOn](/BlankOn.md) akan dipusatkan di ha
 Silakan menuliskan komentar/wacana di sini:
 1. 
 2. 
-dst
-
-
----
- 
-
 
 
