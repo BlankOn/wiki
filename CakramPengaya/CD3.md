@@ -1,13 +1,15 @@
 # Cakram Pengaya CD3
 
 ## config
-title="Cakram Pengaya Pengembang"
+`title="Cakram Pengaya Pengembang"`
 
 ## sources.list
+```
 deb http://dl2.foss-id.web.id/ubuntu jaunty main restricted universe multiverse
 deb http://arsip.blankonlinux.or.id/blankon nanggar main restricted
 deb http://kambing.ui.edu/ubuntu jaunty main restricted universe multiverse
 deb http://kambing.ui.edu/medibuntu jaunty free non-free
+```
 
 ## archs
 

@@ -1,10 +1,13 @@
 # Cakram Pengaya CD2
 
 ## config
-title="Cakram Pengaya Pendidikan"
+
+`title="Cakram Pengaya Pendidikan"`
 
 ## sources.list
+```
 deb http://dl2.foss-id.web.id/ubuntu jaunty main restricted universe multiverse
+```
 
 ## archs
 
