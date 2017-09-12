@@ -12,10 +12,4 @@ Berikut adalah beberapa alamat lumbung paket yang ada di Indonesia:
   + http://kambing.ui.ac.id/blankon/ (Universitas Indonesia)
   + http://pandawa.ipb.ac.id/blankon (Institut Pertanian Bogor)
 
----
- 
-
-
-
-
 
