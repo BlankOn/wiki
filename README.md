@@ -3,7 +3,7 @@
 
 Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proyek ini.
 
-[BlankOn](/BlankOn.md) Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat lunak (software) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distribusi ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
+[BlankOn](/BlankOn.md) Linux merupakan salah satu distribusi GNU/Linux yang berisikan perangkat lunak (*software*) yang dapat digunakan untuk keperluan desktop, laptop, dan workstation. Dengan dipadukan oleh berbagai pernak-pernik khas Indonesia, distribusi ini sangat cocok digunakan untuk pengguna komputer di Indonesia.
 
 **Daftar isi**
  * [Pertanyaan Umum](#pertanyaan-umum)
@@ -35,14 +35,11 @@ Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proy
 2. Kemauan yang kuat
 3. Kekonsistenan yang mantap
 
-Jika Anda berminat menjadi Tim Pengembang [BlankOn](/BlankOn.md), silakan daftarkan diri Anda ke milis Pengembang BlankOn untuk memperkenalkan diri. Setelah itu Anda dapat meregistrasikan diri Anda ke situs ini. Untuk panduan memulai berkontribusi di proyek BlankOn, Anda dapat membaca panduan berikut ini [Memulai Berpartisipasi](/Memulai.md).
+Jika Anda berminat menjadi Tim Pengembang [BlankOn](/BlankOn.md), silakan daftarkan diri Anda pada milis Pengembang BlankOn sekaligus memperkenalkan diri. Adapun panduan memulai berkontribusi pada proyek BlankOn, dapat Anda baca panduan berikut ini [Memulai Berpartisipasi](/Memulai.md).
 
 ## Tentang Wiki [BlankOn](/BlankOn.md)
 
-Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md). Jika ingin menyunting halaman Wiki, silakan mem-forking dan mengirim *Pull Request*.
+Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md). Jika ingin menyunting halaman wiki ini, silakan mem-*forking* dan mengirim *Pull Request* pada https://github.com/BlankOn/wiki.
 
 
-
------
- 
 

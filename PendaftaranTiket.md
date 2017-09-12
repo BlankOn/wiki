@@ -1,6 +1,4 @@
 # Pendaftaran Tiket
 
 
----
- 
 

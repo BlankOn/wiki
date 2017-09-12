@@ -1,1 +1,1 @@
-[1]:(wiki/BlankOn.md)
+[1]:(/BlankOn.md)
