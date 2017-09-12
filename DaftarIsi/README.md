@@ -1,6 +1,6 @@
 # Daftar Isi Wiki BlankOn
 
-## Daftar Isi | [Indeks Urut Kategori](/Indeks.html) | [Indeks Urut Abjad](/IndeksUrutAbjad.html)
+## Daftar Isi | [Indeks Urut Kategori](/wiki/Indeks.html) | [Indeks Urut Abjad](/wiki/IndeksUrutAbjad.html)
 
 * [ Acara ](/Acara/)
     * [ ILC2007 ](/Acara/ILC2007.md)
