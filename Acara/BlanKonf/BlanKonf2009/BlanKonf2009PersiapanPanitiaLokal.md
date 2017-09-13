@@ -57,7 +57,3 @@ Anggota : Brian lego (085697344940), Dendy (08561807707), Ucup (06), Alifian (07
 Koordinator : Dian (08567948054) 
 Anggota : Ayu(07), Deby(07)
 
-—-
- 
-
-
