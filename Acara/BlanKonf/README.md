@@ -9,12 +9,10 @@ Pembawa presentasi ditargetkan beragam mulai dari pengembang hingga kalangan pem
 Pihak-pihak yang berminat memengaruhi perkembangan BlankOn dapat memanfaatkan ajang ini untuk menyampaikan hal-hal yang ingin diimplementasikan dalam cakupan
 proyek BlankOn.
 
-  * [BlanKonf 2009](/Acara/Bangkonf/BlanKonf2009/)
-  * [BlanKonf 2010](/Acara/Bangkonf/BlanKonf2010/)
-  * [BlanKonf 2011](/Acara/Bangkonf/BlanKonf2011/)
-  * [BlanKonf 2012](/Acara/Bangkonf/BlanKonf2012/)
+  * [BlanKonf #1 2009 di Bogor](/Acara/BangKonf/BlanKonf2009/)
+  * [BlanKonf #2 2010 di Surabaya](/Acara/BangKonf/BlanKonf2010/)
+  * [BlanKonf #3 2011 di Semarang](/Acara/BangKonf/BlanKonf2011/)
+  * [BlanKonf #4 2012 di Bekasi](/Acara/BangKonf/BlanKonf2012/)
 
-Last modified on 02/12/2009 11:08:17 PM
 
----
- 
+Informasi dan dokumentasi tentang BlanKonf dapat juga dibaca di web [BlanKonf](http://konf.blankonlinux.or.id/)

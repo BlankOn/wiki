@@ -38,3 +38,7 @@ BlanKonf pertama kali diselenggarakan di Universitas Pakuan, Bogor pada tanggal 
 
 Selain diskusi, presentasi, dan tutorial, BlanKonf 2009 juga diisi dengan sesi foto bersama.
 Hadir juga sebagai pemateri pada BlanKonf 2009; Ahmad Haris Aceh, Hansen Tanjung Jakarta, Andika Triwidada Jakarta, dan Rotua Damanik Madura.
+
+Arsip BlanKonf 2009 dapat juga dibaca di [http://konf2009.blankonlinux.or.id](http://konf2009.blankonlinux.or.id/)
+
+
