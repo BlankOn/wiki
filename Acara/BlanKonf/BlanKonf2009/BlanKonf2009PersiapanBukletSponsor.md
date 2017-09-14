@@ -23,6 +23,7 @@ Pihak-pihak yang berminat memengaruhi perkembangan BlankOn dapat memanfaatkan aj
 ### BlanKonf I
 
 Edisi pertama BlanKonf akan diadakan di Universitas Pakuan, Bogor pada tanggal 20 dan 21 Juni 2009.
+
 Alasan mensponsori BlanKonf
 
 Beragam kalangan ditargetkan untuk datang ke BlanKonf. Pengembang datang untuk memamerkan hasil karyanya dan membahas apa saja yang akan dikerjakan untuk rilis BlankOn berikutnya. Pengembang BlankOn tidak melulu berkutat pada dunia komputer tapi juga mendalami dunia seni, pendidikan dan keterampilan lain.
@@ -79,9 +80,4 @@ Dengan mensponsori BlanKonf juga berarti Anda juga mensponsori BlankOn, dan laya
     2. Booklet BlanKonf
     3. CD BlankOn
     4. Tas BlanKonf 
-
-—-
- 
-
-
 

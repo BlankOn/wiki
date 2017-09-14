@@ -49,8 +49,3 @@
     4. Mahyuddin Susanto
 
 
-—-
- 
-
-
-
