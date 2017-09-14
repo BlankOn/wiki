@@ -1,10 +1,12 @@
 # Basis Data Infrastruktur
+
 Pembaca :
   * Aftian
   * Fajran
   * Mdamt
   * Somat
 
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 hQIOAx/6EO5jBG9XEAf/VL2ASTuwMQUiSMxfTM8Vs8mpS11pj+BaTrXRV+W7FDbe
@@ -51,6 +53,7 @@ Bkogf4aJyqSROWJDFssg4kcK2xDM9yPjUwvTUHLa6DK1TnhHoDcJMto0YGW8Wpc6
 TEMJtSJk/5Y=
 =0ETM
 --END PGP MESSAGE-----
+```
 
 Last modified on 03/17/2011 09:16:18 PM
  
