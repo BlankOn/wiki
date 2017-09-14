@@ -2,7 +2,10 @@
 
 ## Tahun 2014
 Disini adalah daftar anggota Infrastruktur yang aktif.
-Koordinator: Budiwijaya Anggota:
+
+Koordinator: Budiwijaya 
+
+Anggota:
   * Kamas Muhammad
   * YHT
   * Ade Muhammad

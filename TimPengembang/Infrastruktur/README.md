@@ -48,10 +48,10 @@ Tim ini cukup memiliki akses sudo.
 
 #### Tautan Penting bagi Infrastruktur
 
-[Pbuilder Howto](https://wiki.ubuntu.com/PbuilderHowto) 
+- [Pbuilder Howto](https://wiki.ubuntu.com/PbuilderHowto) 
 
 #### Pohon Tim Infrastruktur
-![](/Assets/Images/Infrastruktur.png)
+![](/wiki/Assets/Images/Infrastruktur.png)
 
 #### Diskusi
 
