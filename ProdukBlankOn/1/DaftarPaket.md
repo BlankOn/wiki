@@ -1,11 +1,12 @@
 # Daftar Paket BlankOn 1
 
 ## Jahitan 1
-**Jadual:**
+### Jadual:
 Kamis, 23 Agustus 2007
 
-**Isi:**
+## Isi:
 Isi persis sama dengan Gutsy, kecuali pada paket-paket berikut:
+
     * gnome-desktop
     * gnome-panel
     * gnome-control-center
@@ -15,11 +16,13 @@ Isi persis sama dengan Gutsy, kecuali pada paket-paket berikut:
     * firefox
 
 Paket-paket di atas diimpor dari Gutsy dan dikelola oleh pemaket BlankOn.
-**Hambatan**
-   1. Paket-paket berikut ini belum tersedia di repositori:
-          o gnome-panel
-          o pidgin
-          o firefox
+
+## Hambatan
+
+1. Paket-paket berikut ini belum tersedia di repositori:
+   * gnome-panel
+   * pidgin
+   * firefox
 
 
 

@@ -39,16 +39,8 @@ Ubuntu and Canonical adalah merek dagang terdaftar milik Canonical Ltd.
 
 Merek dagang dan hak cipta lain yang dirujuk catatan ini adalah kepunyaan
 masing-masing pemiliknya.
-===============================================================================
+
 Last modified on 06/06/2008 11:21:38 AM
-===============================================================================
-
-
-
 
 
 ---
- 
-
-
-
