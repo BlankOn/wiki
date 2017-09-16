@@ -1,5 +1,5 @@
-# Tim BlankOn 
-Sumber: [Dream Team pada wiki lama](http://dev.blankonlinux.or.id/wiki/2/DreamTeam)
+# Tim BlankOn 2 Konde 
+Sumber: [Dream Team pada wiki lama](http://dev-legacy.blankonlinux.or.id/wiki/2/DreamTeam)
 
 Berikut adalah daftar rekan-rekan yang masih terdaftar aktif di Tim BlankOn, terima kasih atas bantuan dan partisipasinya. Juga terima kasih kepada rekan-rekan yang sebelumnya juga ikut berpartisipasi di BlankOn namun tidak dapat menyelesaikan tugas sampai akhir maupun tidak bergabung dengan Tim BlankOn yang ada di bawah ini.
 
@@ -13,7 +13,7 @@ Berikut adalah daftar rekan-rekan yang masih terdaftar aktif di Tim BlankOn, ter
  * Ali Kusnadi
  * Budi Baliwae
  * Niwatori
- * Toma 
+ * Toma
 
 ## Tim Infrastruktur
  * Andy Apdhani
@@ -21,12 +21,12 @@ Berikut adalah daftar rekan-rekan yang masih terdaftar aktif di Tim BlankOn, ter
  * Gladhi Guarddin
  * Ir. Robot Gedek, SH
  * jpmrblood
- * Mohammad DAMT 
+ * Mohammad DAMT
 
 ## Tim Bug
  * Andika Triwidada
  * Hansen Tanjung
- * Niwatori 
+ * Niwatori
 
 ## Pemaket
  * Ainul Hakim
@@ -34,18 +34,18 @@ Berikut adalah daftar rekan-rekan yang masih terdaftar aktif di Tim BlankOn, ter
  * Andy Apdhani
  * Hansen Tanjung
  * Mohammad DAMT
- * Muhammad Takdir 
+ * Muhammad Takdir
 
 ## Tim Tester
  * Andika Triwidada
  * Kholid
  * Muhamad Irvansyah
  * RameTux
- * invaleed 
+ * invaleed
 
 ## Tim Dokumentasi
  * Ainul Hakim
- * Andika Triwidada 
+ * Andika Triwidada
  * padmawan
  * Antonius Fran Setiawan
  * Mahyuddin Susantoa
@@ -53,7 +53,3 @@ Berikut adalah daftar rekan-rekan yang masih terdaftar aktif di Tim BlankOn, ter
 
 
 ---
- 
-
-
-

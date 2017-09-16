@@ -7,6 +7,7 @@ Sandi www.boi dan forum.boi: Yang bisa baca:
   * timut
   * iang
 
+```
       --BEGIN PGP MESSAGE-----
       Version: GnuPG v1.4.9 (GNU/Linux)
       hQIOA+ZlPgJI8fmEEAf/dtWva37Zhid1c8R+jNS1SQTXFH7ajs7p9QEf6SUjxcsG
@@ -70,6 +71,7 @@ Sandi www.boi dan forum.boi: Yang bisa baca:
       VvSPMh7l7CAHrcE=
       =DwY4
       --END PGP MESSAGE-----
+```
 
 KategoriBlankOn KategoriInfra
 
