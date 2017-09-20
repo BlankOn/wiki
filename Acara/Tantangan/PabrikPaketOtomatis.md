@@ -1,9 +1,5 @@
-# TantanganBlankOn 2009  
-## PabrikPaketOtomatis
-
-
-
 # Pabrik Paket Otomatis
+## Tantangan BlankOn 2009
 
 **Pendahuluan**
 
@@ -30,14 +26,10 @@ Peserta wajib mengerti konsep paket, repositori dan cara pengembangan di
 Debian.
 
 
-
-
 **Kriteria keberhasilan**
 
 Tantangan dianggap berhasil bila memenuhi 100% dari kriteria wajib dan 80% dari
 kriteria tambahan
-
-
 
 
 **Wajib**
@@ -49,11 +41,5 @@ kriteria tambahan
    4. Dirancang untuk dapat diinstal pada lebih dari 1 komputer
    5. Dirancang untuk dapat bekerja begitu ada paket baru dari Ubuntu
    6. Terdokumentasi penuh, mulai dari rancangan hingga cara pakai
-
-
-
----
- 
-
 
 

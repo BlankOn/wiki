@@ -26,7 +26,7 @@ Last modified on 05/02/2014 09:31:39 AM
 ## Sayembara Menulis Panduan di Web Panduan
 Tim Dokumentasi BlankOn bekerjasama dengan FANS mengadakan sayembara menulis. Tulisan berupa panduan penggunaan aplikasi Open Source, misalnya: LibreOffice, Inkscape, GIMP, dll.
 
-[Informasi lebih lanjut?](http://panduan.blankonlinux.or.id/umum/sayembara-menulis/)
+[Informasi lebih lanjut](http://panduan.blankonlinux.or.id/umum/sayembara-menulis/)
 
 
 

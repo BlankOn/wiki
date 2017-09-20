@@ -25,8 +25,6 @@ Situs proyek: ​http://code.google.com/p/daluang/
 Lengkapi parser yang ada sekarang sehingga Daluang dapat memproses template, menampilkan gambar, dan kategori.
 
 
-
-
 **Persyaratan**
 
 Peserta akan melakukan pemrograman dengan bahasa Python. Yang ingin menerima tantangan ini sudah harus memiliki kemampuan pemrograman dan berminat untuk
@@ -43,8 +41,9 @@ Berikut ini adalah tiga fitur yang ingin dibuat beserta bobot pengerjaannya.
    3. Kategorisasi dapat digunakan (35%)
 
 
----
- 
-
+**Peserta**
+Peserta yang lolos seleksi adalah
+  - Wisnu Priyambodo
+  - Fathoni Arief Nugraha
 
 

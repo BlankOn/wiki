@@ -1,38 +1,9 @@
 # Tantangan BlankOn
 [Tantangan BlankOn 2009](#tantangan-blankon-2009)
+[Sayembara Menulis Panduan](/wiki/Acara/Tantangan/SayembaraMenulisPanduan.md)
+[Sayembara Maskot BlankOn](/wiki/Acara/Tantangan/SayembaraMaskot.md)
 
 ## Tantangan BlankOn 2009
-   1. [Apa ituTantangan BlankOn](#apa-itu-tantangan-blankon)
-   2. [Daftar Tantangan](#daftar-tantangan)
-         1. BlankOn_Minimalis
-               1. Tema
-               2. Imbalan
-               3. Mentor
-               4. Deskripsi
-         2. Pengembangan_Daluang
-               1. Tema
-               2. Imbalan
-               3. Mentor
-               4. Deskripsi
-         3. Pabrik_Paket_Otomatis
-               1. Tema
-               2. Imbalan
-               3. Mentor
-               4. Deskripsi
-         4. Aksara_Nusantara
-               1. Tema
-               2. Imbalan
-               3. Mentor
-               4. Deskripsi
-         5. Buku_Panduan_Penggunaan_BlankOn
-               1. Tema
-               2. Imbalan
-               3. Mentor
-               4. Deskripsi
-   3. Peserta
-   4. Proses_Pendaftaran_dan_Seleksi
-   5. Tim_Seleksi
-   6. Waktu_tantangan
 
 ### Apa itu Tantangan BlankOn
 Tantangan BlankOn adalah tantangan proyek BlankOn untuk mahasiswa dan pelajar Indonesia. Mahasiswa dan pelajar Indonesia yang berminat dapat menjadi peserta
@@ -228,7 +199,7 @@ Pembuatan Buku Panduan Blankon 5.0
   3. tiket nomor #201
 
 ### Pengumuman
-Kandidat peserta dimohon menulis di TantanganBlankOn?/2009/Kandidat
+Kandidat peserta dimohon menulis di TantanganBlankOn/2009/Kandidat
 
 **ttd mdamt**
 
