@@ -16,3 +16,5 @@ proyek BlankOn.
 
 
 Informasi dan dokumentasi tentang BlanKonf dapat juga dibaca di web [BlanKonf](http://konf.blankonlinux.or.id/)
+
+
