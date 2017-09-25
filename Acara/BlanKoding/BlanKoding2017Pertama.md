@@ -1,7 +1,7 @@
 # BlanKoding 2017
 
 
-## BlanKoding Uluwatu di Surabaya
+## BlanKoding Uluwatu #1 di Surabaya
 
 Pada awal April 2017, pengembang BlanKon Linux mengadakan BlanKoding di Surabaya, tepatnya di kantor Radnet. Yang hadir antara lain Pak Menejer Rilis BlankOn Linux 11 Uluwatu, Pak Aftian, Pak Ben, Pak Darian dan Pak Herpiko. Tak lupa pula para pengembang BlanKon menyempatkan diri berkunjung ke Duduk Sampean untuk menemui salah satu pengembang BlankOn; Pak Azis Ws.
 
@@ -11,7 +11,7 @@ Foto-foto tentang kegiatan ini dapat dilihat di http://pdft.net/2017/blankoding-
 
 Sumber: http://pdft.net/2017/blankoding-uluwatu-surabaya-1/ (dengan pengubahan)
 
-## [BlanKoding Uluwatu di Bojong](/Acara/BlanKoding2017kedua.md)
+## [BlanKoding Uluwatu #2 di Bojong](/wiki/Acara/BlanKoding/BlanKoding2017Kedua.md) 
 
 
 
