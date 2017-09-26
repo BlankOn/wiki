@@ -56,12 +56,12 @@ Pada tanggal 31 Oktober 2015 panitia panduan BlankOn menyeleksi semua artikel ya
 
 Pemenang:
   * Pemenang Hadiah Sepatu FANS
-    1. anugrahbsoe
-    2. resarahadian
+    +. anugrahbsoe
+    +. resarahadian
 
   * Pemenang Hadiah Buku Inkscape
-    1. boedie
-    2. Faiq Aminuddin
+    +. boedie
+    +. Faiq Aminuddin
 
 ### Sayembara Menulis periode kelima
 Pada sayembara periode ini disediakan 2 pasang sepatu dan 2 buah buku Inkscape. Pemilihan pemenang dilakukan bila jumlah artikel yang ditulis peserta mencapai 150 (seratus). Hingga pada tanggal 20 September 2017, jumlah artikel yang masuk belum mencapai 150. Akan tetapi karena jeda waktu yang sudah sangat panjang, maka panitia memutuskan untuk memilih peserta yang memenuhi syarat dan menetapkannya sebagai pemenang.
