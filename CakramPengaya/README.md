@@ -4,31 +4,31 @@ Cakram Pengaya atau disingkat CP adalah cd repositori yang memiliki tema
 Pendidikan, kreatif dan multimedia.
 
 ### Latar Belakang
-Untuk menginstall berbagai aplikasi pada blankon menggunakan apt-get yang
+Untuk menginstall berbagai aplikasi pada BlankOn menggunakan apt-get yang
 mengharuskan pengguna terhubung ke repositori yang kebanyakan berada di
 internet. Karena penetrasi internet di Indonesia belum luas dan mahal, maka CP
 ini dapat digunakan untuk menginstall beberapa program yang mungkin dibutuhkan
 oleh pengguna.
 
 ### Implementasi
-Tim Cakram Pengaya melakukan riset untuk menentukan paket apa saja akan
-disertakan dalam berbagai tema. Daftar tersbut sebagai acuan pembangunan cd-cd
-CP. Didalam cd tersebut selain ada paket-paket applikasi juga ada beberapa file
+Tim Cakram Pengaya melakukan riset untuk menentukan paket apa saja yang akan
+disertakan dalam berbagai tema. Daftar tersebut sebagai acuan pembangunan cd-cd
+CP. Didalam cd tersebut selain ada paket-paket aplikasi juga ada beberapa file
 pertolongan (help) khas tergantung dari tema tersebut.
 
 Untuk pendistribusian Cakram Pengaya ini akan mengikuti distribusi dari iso
-blankon. Dan rilispun diusahakan tidak terlalu jauh atau bersamaan dengan rilis
-blankon.
+BlankOn. Dan rilispun diusahakan tidak terlalu jauh atau bersamaan dengan rilis
+BlankOn.
 
 ### Racikan Cakram Pengaya
-Dibawah ini adalah daftar aplikasi tiap racikan cakram pengaya. Aplikasi-aplikasi yang dimasukan diusahakan telah ada di repositori ubuntu.
+Dibawah ini adalah daftar aplikasi tiap racikan cakram pengaya. Aplikasi-aplikasi yang dimasukkan diusahakan telah ada di repositori Ubuntu.
   * [Cakram Pengaya Multimedia](/wiki/CakramPengaya/Multimedia)
   * [Cakram Pengaya Kreatif](/wiki/CakramPengaya/Kreatif)
   * [Cakram Pengaya Pendidikan](/wiki/CakramPengaya/Pendidikan)
   * [Cakram Pengaya Warnetku](/wiki/CakramPengaya/Warnetku)
 
-### Ingin Aplikasi favorit masuk Cakram Pengaya?
-Masukkan aplikasi favorit anda [kesini](/wiki/CakramPengaya/request) Pastikan ada di dalam repository ubuntu ofisial maupun unofisial.
+### Ingin Aplikasi favorit masuk Cakram Pengaya
+Masukkan aplikasi favorit Anda [kesini](/wiki/CakramPengaya/request). Pastikan ada di dalam repository ubuntu ofisial maupun unofisial.
 
 Lihat [http://dev.blankonlinux.or.id/ticket/197](​http://dev.blankonlinux.or.id/ticket/197)
 
