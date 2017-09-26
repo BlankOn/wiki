@@ -1,11 +1,11 @@
-## Cakram Pengaya
 # Halaman Request Aplikasi
 
-Untuk memudahkan kerja kami, aplikasi yang di request masuk kesini ya! Tolong
-kalau bisa pastikan aplikasi tersebut ada di repository ubuntu.
+Untuk memudahkan kerja kami, aplikasi yang di-request masuk kesini ya! Tolong
+kalau bisa pastikan aplikasi tersebut ada di repository Ubuntu.
+
 Berikan nama dan tanggal pada saat menginput request. makasih =D
 
-Awal (tim riset Blankon 5)
+## Awal (tim riset Blankon 5)
 
   * ClamAV dan clamtk
   * Digikam
@@ -42,6 +42,11 @@ Yoza (01 Juli 09)
   * nmap
   * package-converter
   * wvdial
+
+Andika (27 Oktober 2009)
+   * codeblocks -> CP pengembang
+   * git-core -> CP pengembang
+   * poedit -> CP pengembang
 
 Last modified on 01/11/2010 12:38:05 PM
  

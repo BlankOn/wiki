@@ -61,42 +61,38 @@
 
 ## Bantuan
 1. T  : **Dimana saya bisa mendapat tutorial [BlankOn](/BlankOn.md) lengkap?**
-<br>J : Silahkan meluncur ke [Halaman Dokumentasi](/TimPengembang/Dokumentasi/README.md]
+<br>J : Silahkan meluncur ke [Halaman Dokumentasi](/TimPengembang/Dokumentasi/README.md)
     
 2. T  : **Bagaimana cara meminta dan mendapatkan bantuan?**
 <br>J : Ada beberapa media diskusi yang sering digunakan;
-- mailing list di http://groups.google.com/group/[BlankOn](/BlankOn.md)
+- mailing list di http://groups.google.com/group/BlankOn
 - kanal IRC #blankon di server irc.freenode.org 
 - [Grup facebook](https://www.facebook.com/groups/blankonlinux/)
-- [Grup Telegram pengguna [BlankOn](/BlankOn.md)](https://telegram.me/BlankOnLinux)
+- [Grup Telegram pengguna BlankOn](https://telegram.me/BlankOnLinux)
 
 ## Pengembangan
-
-    T: Siapa pengembang [BlankOn](/BlankOn.md)?
-    J: [BlankOn](/BlankOn.md) dikembangkan oleh ​Yayasan Penggerak Linux Indonesia (YPLI) dan ​Komunitas Ubuntu Indonesia.
-    T: Apa yang harus saya lakukan untuk bergabung dengan tim pengembang [BlankOn](/BlankOn.md)?
-    J: Silakan bergabung dengan mailing list [BlankOn](/BlankOn.md) (​http://groups.google.com/group/BlankOn), perkenalkan diri Anda, dan utarakan keinginan Anda. Kami akan dengan senang hati membantu Anda. Kunjungi juga situs pengembangan BlankOn di ​http://dev.blankonlinux.or.id/ 
+1. T: Siapa pengembang [BlankOn](/BlankOn.md)?
+<br>J: [BlankOn](/BlankOn.md) dikembangkan oleh ​Yayasan Penggerak Linux Indonesia (YPLI) dan ​Komunitas Ubuntu Indonesia.
+1. T: Apa yang harus saya lakukan untuk bergabung dengan tim pengembang [BlankOn](/BlankOn.md)?
+<br>J: Silakan bergabung dengan mailing list [BlankOn](/BlankOn.md) (​http://groups.google.com/group/BlankOn), perkenalkan diri Anda, dan utarakan keinginan Anda. Kami akan dengan senang hati membantu Anda. Kunjungi juga situs pengembangan BlankOn di ​http://dev.blankonlinux.or.id/ 
 
 ## Lain-lain
 
 ### silahkan ditambahkan:
 
-    T: Bila saya ingin membantu donasi dana untuk pengembangan [BlankOn](/BlankOn.md), kemana saya tujukan?
-    J: Silahkan ke halaman Donasi
-    T: Apakah [BlankOn](/BlankOn.md) bisa memainkan games Windows?
-    J: ... 
+1. T: Bila saya ingin membantu donasi dana untuk pengembangan [BlankOn](/BlankOn.md), kemana saya tujukan?
+<br>J: Silahkan ke halaman Donasi
+1. T: Apakah [BlankOn](/BlankOn.md) bisa memainkan games Windows?
+<br>J: ... 
 
 ### Diskusi
 
-    Pastikan pertanyaan yg ada itu benar-benar Frequently asked question alias memang sering ditanyakan.
-    Apakah tepat mengatakan jika [BlankOn](/BlankOn.md) berlisensi GPL? Bagian mana yang berlisensi? 
+Pastikan pertanyaan yang ada itu benar-benar *Frequently asked question* alias memang sering ditanyakan.
+Apakah tepat mengatakan jika [BlankOn](/BlankOn.md) berlisensi GPL? Bagian mana yang berlisensi? 
     
 Sumber: [FAQ – BlankOn](http://dev.blankonlinux.or.id/wiki/FAQ)
 
-
-
 ---
  
-
 
 

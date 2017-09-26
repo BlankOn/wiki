@@ -28,7 +28,7 @@ Dibawah ini adalah daftar aplikasi tiap racikan cakram pengaya. Aplikasi-aplikas
   * [Cakram Pengaya Warnetku](/wiki/CakramPengaya/Warnetku)
 
 ### Ingin Aplikasi favorit masuk Cakram Pengaya
-Masukkan aplikasi favorit Anda [kesini](/wiki/CakramPengaya/request). Pastikan ada di dalam repository ubuntu ofisial maupun unofisial.
+Masukkan aplikasi favorit Anda [kesini](/wiki/CakramPengaya/Request.md). Pastikan ada di dalam repository ubuntu ofisial maupun unofisial.
 
 Lihat [http://dev.blankonlinux.or.id/ticket/197](​http://dev.blankonlinux.or.id/ticket/197)
 
