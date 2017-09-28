@@ -35,10 +35,12 @@ Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proy
 2. Kemauan yang kuat
 3. Kekonsistenan yang mantap
 
-Jika Anda berminat menjadi Tim Pengembang [BlankOn](/BlankOn.md), silakan daftarkan diri Anda pada milis Pengembang BlankOn sekaligus memperkenalkan diri. Adapun panduan memulai berkontribusi pada proyek BlankOn, dapat Anda baca panduan berikut ini [Memulai Berpartisipasi](/Memulai.md).
+Jika Anda berminat menjadi Tim Pengembang [BlankOn](/BlankOn.md), silakan daftarkan diri Anda pada milis Pengembang BlankOn sekaligus memperkenalkan diri. Adapun panduan memulai berkontribusi pada proyek BlankOn, dapat Anda baca [di sini](/Memulai.md).
 
 ## Tentang Wiki [BlankOn](/BlankOn.md)
 
-Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md). Jika ingin menyunting halaman wiki ini, silakan menuju ke [sini.](https://github.com/blankon/wiki/edit/master/{{page.path}})
+Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md). Jika ingin menyunting halaman wiki, silakan menuju ke [sini.](https://github.com/BlankOn/wiki)
+
+----
 
 

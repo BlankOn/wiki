@@ -59,14 +59,9 @@ Adapun informasi lebih detail tentang BlankOn 1 dapat dibaca pada [Final Report 
 
 Sumber:
   * Buku Panduan BlankOn Linux X Tambora
-  * https://www.slideshare.net/princeofgiri/pengenalan-devblankon-samarinda?qid=87ae7096-0283-4ea6-b8a8-df65d0325c19&v=qf1&b=&from_search=24
-  * https://groups.google.com/forum/#!searchin/blankon/BlankOn$20bianglala%7Csort:relevance/blankon/j09M-ctcjD8/X2KDdFChISkJ
-
-
+  * [Pengenalan devblankon Samarinda](https://www.slideshare.net/princeofgiri/pengenalan-devblankon-samarinda?qid=87ae7096-0283-4ea6-b8a8-df65d0325c19&v=qf1&b=&from_search=24)
+  * [https://groups.google.com/forum](https://groups.google.com/forum/#!searchin/blankon/BlankOn$20bianglala%7Csort:relevance/blankon/j09M-ctcjD8/X2KDdFChISkJ)
 
 
 ---
  
-
-
-
