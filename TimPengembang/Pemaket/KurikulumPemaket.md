@@ -38,14 +38,10 @@ Nomor TODO         Referensi                                        Status Catat
 11    mengenai     ​http://liw.iki.fi/liw/talks/debian-packaging-
       pembuatan    tutorial.pdf
       paket
+
 KategoriPemaket
+
 Last modified on 10/09/2008 03:21:50 PM
-#### 
-    
- 
- 
- 
- 
- 
+
 ---
  
