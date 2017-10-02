@@ -1,4 +1,4 @@
-## django/FastCGI/nginx administration on `waljinah`
+# django/FastCGI/nginx administration on `waljinah`
 
 Administrasi web blankon yang berbasis django dilayani oleh nginx lewat protokol FastCGI.
 

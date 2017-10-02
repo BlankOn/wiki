@@ -1,4 +1,4 @@
-						## INVENTARIS MESIN BLANKON
+# Daftar Mesin BlankOn V2
   
     
 |  &nbsp; &nbsp; &nbsp;  |  &nbsp;  &nbsp; **allyne.boi**  &nbsp;  &nbsp; |   &nbsp;  &nbsp;  &nbsp; **rani.boi** &nbsp;  &nbsp; &nbsp;  |  &nbsp; &nbsp; **marya.boi** &nbsp; &nbsp; <br> &nbsp; Pensiun  &nbsp;  |   &nbsp; &nbsp; **waljinah.boi** &nbsp;  &nbsp;  |   &nbsp; &nbsp;  **yeyen.boi**  &nbsp;  &nbsp;  <br> &nbsp; Pensiun  &nbsp; |   &nbsp; &nbsp; **waw.boi**  &nbsp;  &nbsp; | &nbsp; &nbsp; **cahyono.bin** &nbsp;  &nbsp;  Pensiun |  
