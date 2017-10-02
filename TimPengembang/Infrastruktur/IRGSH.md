@@ -1,10 +1,7 @@
-# Menjalankan IRGSH
 
-## Sertifikat
 
-Sertifikat-sertifikat untuk keperluan irgsh terletak di `/cert/`.
 
-# Menjalankan irgsh di `rani`
+# Menjalankan irgsh di `rani` :
 
 Masuk sebagai user `irgsh`
 
@@ -71,7 +68,7 @@ $ sudo ./bin/irgsh-repo -l DEBUG
 ```
 
 
-## Sidik gangguan
+# Sidik gangguan
 
 ### error:140B0002:SSL routines:SSL_CTX_use_PrivateKey_file:system
 
@@ -183,3 +180,6 @@ Hal ini disebabkan karena irgsh belum dapat menerima '''linux-any'''. Oleh karen
 Kondisi paling dekat adalah reprepro sudah menarik index paket namun belum selesai mengunduh keseluruhan paket-paket aslinya.
 
 
+# Sertifikat
+
+Sertifikat-sertifikat untuk keperluan irgsh terletak di `/cert/`.
