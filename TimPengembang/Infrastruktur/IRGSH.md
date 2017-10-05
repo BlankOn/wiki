@@ -1,10 +1,32 @@
-# Menjalankan IRGSH
 
-## Sertifikat
 
-Sertifikat-sertifikat untuk keperluan irgsh terletak di `/cert/`.
 
-# Cara menyalakan irgsh di ananda :
+# Menjalankan irgsh di `rani` :
+
+Masuk sebagai user `irgsh`
+
+    $ sudo -u irgsh -i
+
+pindah direktori kerja ke direktori web irgsh
+
+    irgsh$ cd v2/web-interfaces
+
+Jalankan script fastcgi
+
+    irgsh$ ./run-fastcgi-2.sh
+
+Gunakan `tmux` atau `screen` untuk manjalankan skrip taskinit
+
+    irgsh$ tmux ### atau screen
+
+jalankan skrip taskinit
+
+    irgsh$ ./run-taskinit-2.sh
+
+detach dari *tmux* atau *screen*
+
+
+# Menjalankan irgsh di `ananda` :
 
 ## irgsh-web
 
@@ -46,7 +68,7 @@ $ sudo ./bin/irgsh-repo -l DEBUG
 ```
 
 
-## Sidik gangguan
+# Sidik gangguan
 
 ### error:140B0002:SSL routines:SSL_CTX_use_PrivateKey_file:system
 
@@ -153,29 +175,11 @@ Masuk ke base.tgz ( dengan opsi --save-after-login dan --save-after-exec), lalu 
 
 Hal ini disebabkan karena irgsh belum dapat menerima '''linux-any'''. Oleh karena itu, '''linux-any''' diganti menjadi '''any''' ketika terdapat pada '''architecture''' dan dihapus jika terdapat di dependensi paket.
 
+### Build gagal, banyak paket yang 404 di build.log.gz
 
-# menjalankan irgsh di `rani`
-
-Masuk sebagai user `irgsh`
-
-    $ sudo -u irgsh -i
-
-pindah direktori kerja ke direktori web irgsh
-
-    irgsh$ cd v2/web-interfaces
-
-Jalankan script fastcgi
-
-    irgsh$ ./run-fastcgi-2.sh
-
-Gunakan `tmux` atau `screen` untuk manjalankan skrip taskinit
-
-    irgsh$ tmux ### atau screen
-
-jalankan skrip taskinit
-
-    irgsh$ ./run-taskinit-2.sh
-
-detach dari *tmux* atau *screen*
+Kondisi paling dekat adalah reprepro sudah menarik index paket namun belum selesai mengunduh keseluruhan paket-paket aslinya.
 
 
+# Sertifikat
+
+Sertifikat-sertifikat untuk keperluan irgsh terletak di `/cert/`.
