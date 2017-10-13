@@ -26,7 +26,7 @@ jalankan skrip taskinit
 detach dari *tmux* atau *screen*
 
 
-# Menjalankan irgsh di `ananda` :
+# Menjalankan irgsh di `alynne` :
 
 ## irgsh-web
 
@@ -178,6 +178,10 @@ Hal ini disebabkan karena irgsh belum dapat menerima '''linux-any'''. Oleh karen
 ### Build gagal, banyak paket yang 404 di build.log.gz
 
 Kondisi paling dekat adalah reprepro sudah menarik index paket namun belum selesai mengunduh keseluruhan paket-paket aslinya.
+
+### Build gagal setelah langkah `Uploading package` dan tidak ada laporan dari repo.log
+
+Cek ke user builder, lihat log `irgsh-uploader`. Jika ada indikasi kegagalan unggah, ujicoba kembali akses ssh antar user terkait IRGSH satu sama lain melalui konfigurasi SSH bawaan (port 22). Misal dari `irgsh-builder-ajeng` ke `irgsh-repo`. Pastikan mereka bisa saling mengakses.
 
 
 # Sertifikat
