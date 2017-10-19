@@ -13,7 +13,7 @@ https://id.wikipedia.org/wiki/Glosarium.
 
 ### D
 
-   * Daring
+   * [ Daring ](/Lainnya/DaftarGlosarium/Daring.md)
 
 ### E
 
@@ -21,7 +21,7 @@ https://id.wikipedia.org/wiki/Glosarium.
 
 ### G
 
-   * Galat
+   * [ Galat ](/Lainnya/DaftarGlosarium/Galat.md)
 
 ### H
 
@@ -33,7 +33,7 @@ https://id.wikipedia.org/wiki/Glosarium.
 
 ### L
 
-   * Luring
+   * [ Luring ](/Lainnya/DaftarGlosarium/Luring.md)
 
 ### M
 
@@ -53,7 +53,8 @@ https://id.wikipedia.org/wiki/Glosarium.
 
 ### U
 
-   * Unduh
+   * [ Unduh ](/Lainnya/DaftarGlosarium/Unduh.md)
+   * [ Unggah ](/Lainnya/DaftarGlosarium/Unggah.md)
 
 ### V
 
@@ -62,12 +63,6 @@ https://id.wikipedia.org/wiki/Glosarium.
 ### Y
 
 ### Z 
-
-#### 
-    
- 
- 
- 
  
  
 ---
