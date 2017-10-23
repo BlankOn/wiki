@@ -9,6 +9,7 @@ Pembaca:
   * Adang Hidayat
 
 Sandi:
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 hQIOAw0WMLTAAgjAEAf+KI+AQoSyi5Kg7HMfHgQQUcqWTtAqRUM93n4ORqBEAc7w
@@ -77,7 +78,11 @@ PVnYkxSLi6iboeUKMzPmRmhu1DClIqZNvqf75dFTsgdTQ8FIFUwnaLtP6wl0VP4H
 B/9si6zQCyz7e4SFuA==
 =w3SV
 --END PGP MESSAGE-----
+```
+
 Isi .gnupg-archive (Untuk arsip) dan .gnupg (untuk irgsh)
+
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 hQIOAw0WMLTAAgjAEAf8C7VhOluNukTmebU/AkjmGg8J4Z2zqZRIHf7X6yOK7igt
@@ -596,14 +601,9 @@ zYAaHBnYdaAAkDkKntyd9oU5BXRU34RNQg8B7h9kbOo+S3nXuCA/uuukQVP7kOmw
 vSEMRm810/0PvERbOlgcsQ==
 =uwNA
 --END PGP MESSAGE-----
-KategoriInfra
-Last modified on 11/19/2009 02:14:26 PM
-#### 
-    
- 
- 
- 
- 
+```
+
+Kategori Infra
  
 ---
  

@@ -55,7 +55,7 @@ Kdeedu, Kdemultimedia, Kdegames, dan Kdeedu.
   - Kontributor: I Made Wiryana, RMS Ibrahim, Effendy Kho, Rusmanto,
     M. Aulia Adnan, dan Riza Nugraha.
 
-Adapun informasi lebih detail tentang BlankOn 1 dapat dibaca pada [Final Report BlankOn Linux 1.0 Development](/Assets/Others/FinalReport.pdf) (dalam Bahasa Inggris)
+Adapun informasi lebih detail tentang BlankOn 1 dapat dibaca pada [Final Report BlankOn Linux 1.0 Development](/Assets/Others/BlankOnReport.pdf) (dalam Bahasa Inggris)
 
 Sumber:
   * Buku Panduan BlankOn Linux X Tambora
