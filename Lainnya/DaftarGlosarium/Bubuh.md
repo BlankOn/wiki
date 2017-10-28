@@ -1,5 +1,6 @@
 # Bubuh
 
+bubuh = append
 
 
 ---

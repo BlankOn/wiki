@@ -1,5 +1,6 @@
 # Basis
 
+basis, pangkalan = base
 
 
 ---

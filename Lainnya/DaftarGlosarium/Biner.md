@@ -1,5 +1,6 @@
 # Biner
 
+biner = binary
 
 
 ---

@@ -1,4 +1,5 @@
 # Anonim
 
+anonim = anonymous
 
 ---

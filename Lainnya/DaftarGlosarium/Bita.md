@@ -1,5 +1,5 @@
 # Bita
 
-
+bita = byte
 
 ---

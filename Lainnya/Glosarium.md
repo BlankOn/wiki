@@ -3,14 +3,14 @@
 Halaman ini berisi daftar glosarium istilah yang diterjemahkan dari bahasa asing
 ke bahasa indonesia. Diharapkan dengan adanya glosarium ini akan mempermudah 
 pemahaman istilah yang ada pada sistem operasi BlankOn 
-https://id.wikipedia.org/wiki/Glosarium.
+
 
 ### A
 
    * [ Akses ](/wiki/Lainnya/DaftarGlosarium/Akses.md)
    * [ Akun ](/wiki/Lainnya/DaftarGlosarium/Akun.md)
    * [ Algoritma ](/wiki/Lainnya/DaftarGlosarium/Algoritma.md)
-   * [ Alih ](/wiki/Lainnya/DaftarGlosarium/Alih.md)   
+   * [ Alih ](/wiki/Lainnya/DaftarGlosarium/Alih.md) 
    * [ Animasi ](/wiki/Lainnya/DaftarGlosarium/Animasi.md)
    * [ Anonim ](/wiki/Lainnya/DaftarGlosarium/Anonim.md)
    * [ Antarmuka ](/wiki/Lainnya/DaftarGlosarium/Antarmuka.md)

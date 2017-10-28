@@ -1,5 +1,6 @@
 # Berkas
 
+berkas = file
 
 
 ---

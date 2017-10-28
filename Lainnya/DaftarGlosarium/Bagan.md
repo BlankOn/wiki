@@ -1,5 +1,6 @@
 # Bagan
 
+bagan = chart
 
 
 ---

@@ -1,5 +1,6 @@
 # Awakutu
 
+awakutu = debug
 
 
 ---

@@ -1,4 +1,5 @@
 # Animasi
 
+animasi = animation
 
 ---

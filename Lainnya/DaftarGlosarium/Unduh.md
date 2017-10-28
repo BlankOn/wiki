@@ -1,6 +1,9 @@
 # Unduh
 
-Unduh biasa disebut dengan download, yakni ketika terdapat file atau data
-yang sedang dipindahkan dari komputer / perangkat lain
+unduh = download
+
+Unduh biasa disebut dengan download, yakni menyalin berkas atau data
+dari internet ke komputer/perangkat lain
+
 
 ---

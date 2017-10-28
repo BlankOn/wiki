@@ -1,4 +1,6 @@
 # Alih
 
+alih = shift
+
 
 ---

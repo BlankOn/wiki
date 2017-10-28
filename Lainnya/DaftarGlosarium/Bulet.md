@@ -1,5 +1,6 @@
 # Bulet
 
+bulet = bullet
 
 
 ---

@@ -1,4 +1,5 @@
 # Aplikasi
 
+aplikasi = application
 
 ---

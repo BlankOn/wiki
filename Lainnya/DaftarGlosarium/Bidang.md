@@ -1,5 +1,6 @@
 # Bidang
 
+bidang, isian = field
 
 
 ---

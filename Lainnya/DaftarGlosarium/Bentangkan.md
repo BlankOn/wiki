@@ -1,5 +1,6 @@
 # Bentangkan
 
+bentangkan = expand
 
 
 ---
