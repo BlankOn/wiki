@@ -2,17 +2,17 @@
 
 ## Distribusi BlankOn Linux
 
-  1. Bianglala
-  2. Konde
-  3. Lontara
-  4. Meuligoe
-  5. Nanggar
-  6. Ombilin
-  7. Pattimura
-  8. Rote
-  9. Suroboyo
-  10. Tambora
-  11. Uluwatu (dalam proses pengembangan)
+  1. [Bianglala](/wiki/ProdukBlankOn/1/)
+  2. [Konde](/wiki/ProdukBlankOn/2/)
+  3. [Lontara](/wiki/ProdukBlankOn/3/)
+  4. [Meuligoe](/wiki/ProdukBlankOn/4/)
+  5. [Nanggar](/wiki/ProdukBlankOn/5/)
+  6. [Ombilin](/wiki/ProdukBlankOn/6/)
+  7. [Pattimura](/wiki/ProdukBlankOn/7/)
+  8. [Rote](/wiki/ProdukBlankOn/8/)
+  9. [Suroboyo](/wiki/ProdukBlankOn/9/)
+  10. [Tambora](/wiki/ProdukBlankOn/10/)
+  11. [Uluwatu (dalam proses pengembangan)](/wiki/ProdukBlankOn/11/)
 
 BlankOn Linux pertama kali dikembangkan oleh YPLI pada tahun 2004 dengan nama kode "Bianglala". Pada saat itu, BlankOn merupakan turunan dari distro Fedora Core 3. Namun, rilis BlankOn pada saat itu berakhir sampai versi 1.1 dan akhirnya mati suri.
 
@@ -22,11 +22,13 @@ Pada bulan November 2008, BlankOn Linux 4.0 dirilis dengan nama kode Meuligoe. C
 
 Setelah tertunda beberapa tahun, di awal tahun 2017, pengembang BlankOn merilis BlankOn Linux dengan nama kode Tambora dengan nomor rilis X. Rilis kali ini pengembang melakukan banyak perubahan, sehingga memberikan warna tersendiri dan BlankOn memberikan dukungan ke lebih banyak perangkat keras. Pengembang juga menambahkan fitur-fitur terbaru pada beberapa paket khas BlankOn. Dengan penembahan fitur ini diharapkan dapat memberikan kemudahan dalam penggunaan.
 
- 
+## Manokwari Desktop
 
+Selengkapnya tentang Manokwari dapat dibaca [di sini](/ProdukBlankOn/Manokwari.md)
+
+## Ridon 
+
+Selengkapnya tentang Ridon dapat dibaca [di sini](/ProdukBlankOn/Ridon.md)
 
 ---
  
-
-
-
