@@ -1,4 +1,4 @@
-# Buku Panduan Distribusi BlankOn Lilnux
+# Buku Panduan Distribusi BlankOn Linux
 
 Silakan pilih Dokumentasi BlankOn sesuai yang Anda gunakan. Jika Anda tidak menemukan yang Anda butuhkan silakan menuju ke Forum BlankOn di http://forum.blankonlinux.or.id atau bergabung di [mailing list pengguna BlankOn](http://groups.google.com/group/BlankOn) atau [Mailing list pengembang](http://groups.google.com/group/BlankOn-dev pengembang)
 
