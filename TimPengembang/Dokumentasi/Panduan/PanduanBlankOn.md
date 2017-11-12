@@ -1,6 +1,6 @@
 # Buku Panduan Distribusi BlankOn Linux
 
-Silakan pilih Dokumentasi BlankOn sesuai yang Anda gunakan. Jika Anda tidak menemukan yang Anda butuhkan silakan menuju ke Forum BlankOn di http://forum.blankonlinux.or.id atau bergabung di [mailing list pengguna BlankOn](http://groups.google.com/group/BlankOn) atau [Mailing list pengembang](http://groups.google.com/group/BlankOn-dev pengembang)
+Silakan pilih Dokumentasi BlankOn sesuai yang Anda gunakan. Jika Anda tidak menemukan yang Anda butuhkan silakan menuju ke Forum BlankOn di http://forum.blankonlinux.or.id atau bergabung di [mailing list pengguna BlankOn](http://groups.google.com/group/BlankOn) atau [Mailing list pengembang](http://groups.google.com/group/BlankOn-dev)
 
 ## Panduan BlankOn Tambora
 BlankOn X dengan nama kode Tamboran, rilis 1 Januari 2017
