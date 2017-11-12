@@ -2,10 +2,7 @@
 
 BlankOn 8.0 "Rote" telah tersedia, Rilis ini ditujukan untuk dievaluasi pada saat pengembangan.
 
-Rilis Jahitan berisi semua fitur dari BlankOn 8.0 dalam bentuk bahwa setiap orang dapat membantu menguji. Ini pengujian, dipandu oleh tim Jaminan Kualitas
-BlankOn, membantu kita mengidentifikasi target dan kutu. Ketika kutu ini selesei diperbaiki, kita membuat sebuah rilis Jahitan 2 tersedia. Sebuah rilis
-Jahitan adalah versi rilis selanjutnya, dan memiliki kemiripan yang sangat kuat untuk rilis ketiga sampai terakhir. Rilis final dari BlankOn 8.0 adalah di
-bulan Juli 2011.
+Rilis Jahitan berisi semua fitur dari BlankOn 8.0 dalam bentuk bahwa setiap orang dapat membantu menguji. Ini pengujian, dipandu oleh tim Jaminan Kualitas BlankOn, membantu kita mengidentifikasi target dan kutu. Ketika kutu ini selesei diperbaiki, kita membuat sebuah rilis Jahitan 2 tersedia. Sebuah rilis Jahitan adalah versi rilis selanjutnya, dan memiliki kemiripan yang sangat kuat untuk rilis ketiga sampai terakhir. Rilis final dari BlankOn 8.0 adalah di bulan Juli 2011.
 
 Kami membutuhkan bantuan Anda untuk membuat BlankOn 8.0 dirilis dalam keadaan baik, jadi kami berharap kepada pecinta BlankOn untuk menyediakan waktu Anda
 untuk menngunduh dan mencoba Jahitan 1 dan pastikan hal-hal yang penting bagi Anda dapat bekerja. Jika Anda menemukan kutu, tolong laporkan setiap kutu yang

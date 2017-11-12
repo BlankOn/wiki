@@ -1,7 +1,6 @@
 # Catatan Rilis BlankOn 6.0 (Ombilin)
 
-BlankOn 6.0 (Ombilin) merupakan versi terbaru distribusi BlankOn. Distribusi ini dikembangkan oleh Yasasan Penggerak Linux Indonesia (YPLI) dan Tim
-Pengembang BlankOn. BlankOn merupakan distribusi khas Indonesia yang menyertakan beragam perangkat lunak yang sering digunakan oleh masyarakat pada
+BlankOn 6.0 (Ombilin) merupakan versi terbaru distribusi BlankOn. Distribusi ini dikembangkan oleh Yasasan Penggerak Linux Indonesia (YPLI) dan Tim Pengembang BlankOn. BlankOn merupakan distribusi khas Indonesia yang menyertakan beragam perangkat lunak yang sering digunakan oleh masyarakat pada
 umumnya, seperti program perkantoran, aplikasi keuangan, aplikasi Internet, menggambar (baik vektor maupun bitmap), dukungan untuk memainkan beragam format
 berkas multimedia, serta aplikasi menarik lainnya.
 
@@ -12,17 +11,14 @@ bergotong-royong.
 Tim pengembang BlankOn percaya bahwa bangsa Indonesia mampu dan tidak kalah dengan bangsa-bangsa lain di dunia. Oleh karena itu kami aktif mengundang siapa
 pun yang berminat dan memiliki semangat yang sama untuk bergabung dalam pengembangan BlankOn.
 
-Nama kode Ombilin diambil dari Nama daerah di Padang Sumatera Barat, tempat PLTU Ombilin, prasasti Ombilin, sungai Ombilin yang berhulu sungai di Danau
-Singkarak.
+Nama kode Ombilin diambil dari Nama daerah di Padang Sumatera Barat, tempat PLTU Ombilin, prasasti Ombilin, sungai Ombilin yang berhulu sungai di Danau Singkarak.
 
 ## Yang Baru di Ombilin
-Ombilin mempunyai beberapa fitur aplikasi yang memudahkan Anda untuk membantu pekerjaan setiap hari, menikmati hiburan, behubungan melalui fasilitas internet
-sampai aplikasi pendidikan.
+Ombilin mempunyai beberapa fitur aplikasi yang memudahkan Anda untuk membantu pekerjaan setiap hari, menikmati hiburan, berhubungan melalui fasilitas internet sampai aplikasi pendidikan.
 ![blankon-desktop-gnome.png](http://dev.blankonlinux.or.id/raw-attachment/wiki/6/CatatanRilis/blankon-desktop-gnome.png)
 
 ### Aksara Nusantara
-Ombilin mendukung empat jenis Aksara Nusantara, yaitu Aksara Bugis, Aksara Batak Toba, Aksara Bali dan Aksara Sunda. Aksara-aksara ini adalah aksara khas
-daerah yang terdapat di daerah Indonesia. Aksara Bali dan Sunda merupakan penambahan terbaru di versi ini.
+Ombilin mendukung empat jenis Aksara Nusantara, yaitu Aksara Bugis, Aksara Batak Toba, Aksara Bali dan Aksara Sunda. Aksara-aksara ini adalah aksara khas daerah yang terdapat di daerah Indonesia. Aksara Bali dan Sunda merupakan penambahan terbaru di versi ini.
 ![](http://dev.blankonlinux.or.id/raw-attachment/wiki/6/CatatanRilis/aksara-nusantara-gedit.png)
 
 ### Kamus cepat Stardict
@@ -96,6 +92,7 @@ Ramadoni, Saatul Ihsan, Sakra Aprilia, Selamet Hanafi, Simon Liling, Utian Ayuba
 
 ## Ada apa di versi selanjutnya?
 Versi BlankOn selanjutnya adalah versi 7.0 yang diberi nama kode Pattimura. Rencananya, Pattimura akan diluncurkan pada bulan Juli 2011.
+
 Silakan pantau halaman ​[Peta_Jalan](http://dev.blankonlinux.or.id/wiki/PetaJalan) proyek BlankOn untuk mengetahui apa yang akan kami suguhkan berikutnya. Bantu kami mewujudkannya dengan terlibat menjadi pengembang BlankOn. Silakan kunjungi halaman ​[Mulai_Jadi_Pengembang](http://dev.blankonlinux.or.id/wiki/Memulai).
 
 Kami ingin mendengar pemikiran Anda pada BlankOn. Atau Anda mempunyai saran? atau Anda menemukan kutu? laporkan saja melalui [​sistem_tiket](http://dev.blankonlinux.or.id/report) yang kami sediakan maka laporan Anda akan ditanggapi oleh tim kami.
