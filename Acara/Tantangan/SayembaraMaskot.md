@@ -49,4 +49,14 @@ Sumber: milis https://groups.google.com/forum/
 Herbanu Tri Sasongko
 Informasi tentang maskot karya Pak Herbanu Tri Sasongko dapat dilihat di https://github.com/BlankOn/blankon-mascot-boni
 
+## Lisensi
 
+Lisensi untuk Mascot BlankOn menggunakan [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). Lisensi ini mengizinkan penggandaan dan modifikasi dengan syarat :
+
+- Tidak untuk kepentingan komersial
+- Mencantumkan atribusi ke pembuat/pemilik asli (Herbanu Tri Sasongko dan komunitas BlankOn)
+- Menyertakan lisensi yang sama dengan yang asli, yaitu CC BY-NC-SA
+
+Bilamana penggandaan dan modifikasi perlu keluar dari syarat-syarat di atas, pihak terkait wajib mengajukan permohonan izin ke komunitas BlankOn
+
+Lisensi in tidak berlaku bila penggandaan dan/atau modifikasinya dilakukan oleh pemiliknya sendiri, dalam kasus ini adalah para pengembang BlankOn sendiri yang masih aktif dan pembuat asli. Misalnya, bila ada kesepakan di komunitas seperti menjual stiker atau kaos bergambar Boni buat mendukung proyek atau seorang pengembang mencetak stiker secara sepihak untuk dibagi-bagikan sebagai bentuk kampanye gerakan.
