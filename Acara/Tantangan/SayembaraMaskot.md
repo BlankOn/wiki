@@ -59,4 +59,4 @@ Lisensi untuk Mascot BlankOn menggunakan [CC BY-NC-SA](https://creativecommons.o
 
 Bilamana penggandaan dan modifikasi perlu keluar dari syarat-syarat di atas, pihak terkait wajib mengajukan permohonan izin ke komunitas BlankOn
 
-Lisensi in tidak berlaku bila penggandaan dan/atau modifikasinya dilakukan oleh pemiliknya sendiri, dalam kasus ini adalah para pengembang BlankOn sendiri yang masih aktif dan pembuat asli. Misalnya, bila ada kesepakan di komunitas seperti menjual stiker atau kaos bergambar Boni buat mendukung proyek atau seorang pengembang mencetak stiker secara sepihak untuk dibagi-bagikan sebagai bentuk kampanye gerakan.
+Lisensi ini tidak berlaku bila penggandaan dan/atau modifikasinya dilakukan oleh pemiliknya sendiri, dalam kasus ini adalah para pengembang BlankOn sendiri yang masih aktif dan pembuat asli. Misalnya, bila ada kesepakan di komunitas seperti menjual stiker atau kaos bergambar Boni buat mendukung proyek atau seorang pengembang mencetak stiker secara sepihak untuk dibagi-bagikan sebagai bentuk kampanye gerakan.
