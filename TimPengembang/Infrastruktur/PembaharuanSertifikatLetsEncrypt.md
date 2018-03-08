@@ -1,6 +1,18 @@
 # Pembaharuan Sertifikat LetsEncrypt
 ## (khusus untuk aku.boi)
 
+1. buat konfigurasi domain yang akan dibuat atau diperpanjang sertifikatnya, agar document root mengarah ke /var/www/html
+```
+$ cd /etc/nginx/sites-available
+$ cat aku.certbot  ## ini sudah ada. jika belum ada, buatlah filenya dengan editor favorit anda
+server {
+  listen 80;
+  server_name aku.blankonlinux.or.id;
+  root /var/www/html;
+  index index.html index.htm;
+}
+```
+
 1. arahkan document root aku.boi ke /var/www/html
 ```
 $ cd /etc/nginx/sites-enabled
