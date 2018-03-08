@@ -12,20 +12,18 @@ server {
   index index.html index.htm;
 }
 ```
-
 1. arahkan document root aku.boi ke /var/www/html
 ```
 $ cd /etc/nginx/sites-enabled
 $ sudo ln -sf ../sites-available/aku.certbot aku
 ```
-
-2. _reload_ layanan nginx
+1. _reload_ layanan nginx
 ```
 $ sudo -i
 # service nginx reload
 ```
 
-3. jalankan certbot-auto dengan parameter-parameter sebagai berikut
+1. jalankan certbot-auto dengan parameter-parameter sebagai berikut
 ```
 # ./certbot-auto certonly --webroot -d aku.blankonlinux.or.id
 ...
@@ -45,9 +43,9 @@ $ sudo -i
 
 ```
 
-4. cek kembali path sertifikat yang ditunjukkan oleh script certbot-auto, agar web server nginx dapat menemukan sertifikatnya. jika path nya tidak sama dengan yang ada di konfigurasi nginx, gantilah.
+1. cek kembali path sertifikat yang ditunjukkan oleh script certbot-auto, agar web server nginx dapat menemukan sertifikatnya. jika path nya tidak sama dengan yang ada di konfigurasi nginx, gantilah.
 
-5. kembalikan konfigurasi yang telah diganti di langkah 1
+1. kembalikan konfigurasi yang telah diganti di langkah 1
 ```
 # cd /etc/nginx/sites-enabled
 # ln -sf ../sites-available/aku
