@@ -1045,5 +1045,5 @@
 				
   * [ /wiki/Lainnya/ ](/Lainnya/)				
 	  * [ DaftarAbsensi ](/Lainnya/DaftarAbsensi.md)			
-	  * [ DebianCensus ](/Lainnya/DebianCensus.md)			
-
+	  * [ DebianCensus ](/Lainnya/DebianCensus.md)
+	  * [ Glosarium ](/Lainnya/Glosarium.md)

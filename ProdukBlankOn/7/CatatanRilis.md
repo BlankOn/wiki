@@ -15,7 +15,7 @@ pun yang berminat dan memiliki semangat yang sama untuk bergabung dalam pengemba
 Nama kode Pattimura diambil dari nama Pahlawan Nasional Indonesia, Thomas Matulessy yang juga dikenal dengan nama Pattimura.
 
 ## Yang Baru di BlankOn 7.0 Pattimura
-BlankOn 7.0 Pattimura mempunyai beberapa fitur aplikasi yang memudahkan Anda untuk membantu pekerjaan setiap hari, menikmati hiburan, behubungan melalui
+BlankOn 7.0 Pattimura mempunyai beberapa fitur aplikasi yang memudahkan Anda untuk membantu pekerjaan setiap hari, menikmati hiburan, berhubungan melalui
 fasilitas internet sampai aplikasi pendidikan.
 ![](http://dev.blankonlinux.or.id/raw-attachment/wiki/7/CatatanRilis/desktop.png)
 

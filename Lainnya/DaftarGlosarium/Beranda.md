@@ -1,0 +1,6 @@
+# Beranda
+
+beranda = home
+
+
+---

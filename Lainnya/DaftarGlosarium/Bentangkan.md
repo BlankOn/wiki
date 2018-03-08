@@ -1,0 +1,6 @@
+# Bentangkan
+
+bentangkan = expand
+
+
+---

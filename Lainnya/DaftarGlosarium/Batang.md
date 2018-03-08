@@ -1,0 +1,6 @@
+# Batang
+
+batang, bilah = bar
+
+
+---

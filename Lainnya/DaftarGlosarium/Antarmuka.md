@@ -1,0 +1,5 @@
+# Antarmuka
+
+antarmuka = interface
+
+---

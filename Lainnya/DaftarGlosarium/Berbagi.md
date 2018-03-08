@@ -1,0 +1,7 @@
+# Berbagi
+
+berbagi = sharing
+
+
+
+---

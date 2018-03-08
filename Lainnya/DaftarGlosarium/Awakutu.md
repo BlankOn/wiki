@@ -1,0 +1,6 @@
+# Awakutu
+
+awakutu = debug
+
+
+---

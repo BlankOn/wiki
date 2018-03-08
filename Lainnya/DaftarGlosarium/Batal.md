@@ -1,0 +1,6 @@
+# Batal
+
+batal = cancel
+
+
+---
