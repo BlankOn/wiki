@@ -12,4 +12,4 @@ Lokasi aset : Mabes BlankOn Bojong Gede (KodeKreatif Labs)
 - Banner release party
 - Brosur sepatu Fans
 
-Kontak : Pak Moko (syahdwi92@gmail.com), Pak MHY (yudi.al@gmail.com)
+Kontak : Pak MHY (yudi.al@gmail.com)
