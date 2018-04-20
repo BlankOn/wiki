@@ -4,8 +4,7 @@
 Alur perjalanan paket:
 submitter -> manager -> worker -> manager
    * submitter: pengembang = pemelihara paket
-   * manager: penjadwal pembuatan paket/pengiriman paket ke pabrik yang
-      terdistribusi
+   * manager: penjadwal pembuatan paket/pengiriman paket ke pabrik yang terdistribusi
    * worker: pabrik paket yang terdistribusi
 
 ### Pengiriman Tugas
@@ -40,9 +39,7 @@ Debian tidak bisa dipakai =D.
 
 Bagaimana cara mengirimnya?
 
-Aplikasi dput yang dipakai di Debian mendukung beberapa cara mengirim berkas-
-berkas sumber, yaitu ftp, http, https, rsync, scp, dan local (dengan install
-atau cp).
+Aplikasi dput yang dipakai di Debian mendukung beberapa cara mengirim berkas-berkas sumber, yaitu ftp, http, https, rsync, scp, dan local (dengan install atau cp).
 
 Yang menjadi isu sebenarnya adalah apakah akan diterapkan pembatasan siapa saja
 yang bisa mengirim berkas-berkas tersebut? Jika iya, bagaimana cara
@@ -82,7 +79,6 @@ Last modified on 11/15/2008 02:55:01 AM
 
 #### Attachments (1)
    * pabrik-paket.svg​ (50.2 KB) - added by mdamt 8 years ago.
-
  
 ---
  

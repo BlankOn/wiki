@@ -21,7 +21,7 @@ untuk mengunduh folder debian dari Manokwari dari bzr BlankOn.
       blankon-installer.
    2. Di folder Paket, masuk ke folder manokwari, ketik
       $dch -i
-lalu sesuakan dengan kebutuhan mulai dari pemversian, komen, nama dan email
+lalu sesuaikan dengan kebutuhan mulai dari pemversian, komen, nama dan email
 anda.
      Untuk versi
     * 1.33 adalah versi upstream (akan berubah versi setiap upstream merilis
@@ -38,13 +38,14 @@ anda.
    4. Untuk melihat hasil pemaketan berupa file dapat dilihat di cd /var/cache/
       pbuilder/result/
    5. Selanjutnya bisa dilanjutkan ke IRSGH.
+
 PEMAKETAN DI IRGSH
    1. Ketik
       $bzr branch http://dev.blankonlinux.or.id/browser/tambora/manokwari
 untuk mengunduh folder debian dari BlankOn-installer dari bzr BlankOn.
    1. Masuk ke folder blankon-installer dan lakukan pemversian. Ketik
       $dch -i
-lalu sesuakan dengan kebutuhan mulai dari pemversian, komen, nama dan email
+lalu sesuaikan dengan kebutuhan mulai dari pemversian, komen, nama dan email
 anda. Untuk versi
     * 1.33 adalah versi upstream (akan berubah versi setiap upstream merilis
       versi terbaru)
@@ -77,13 +78,8 @@ Klik Login
       diperlukan.
 [No_image_"submit.png"_attached_to_Pemaket/PanduanPaketKhasManokwari]
 7.Klik Submit
+
 Last_modified 7 months ago Last modified on 10/11/2016 02:18:53 PM
-#### 
-    
- 
- 
- 
- 
  
 ---
  
