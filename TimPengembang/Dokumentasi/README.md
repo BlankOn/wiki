@@ -9,11 +9,12 @@ Cakupan Tugas
 -------------
 Tim Dokumentasi BlankOn bertugas;
   1. Membuat panduan dan dokumentasi BlankOn, baik dalam format cetak maupun non-cetak. Dokumentasi BlankOn meliputi;
-      - Panduan BlankOn
-      - Panduan Instalasi
-      - Panduan Aplikasi
-      - Panduan Kostumisasi
-      - Panduan-panduan lainnya yang berhubungan dengan BlankOn.
+  
+    - [Panduan Distro BlankOn](Panduan/PanduanDistribusi)
+    - [Panduan Instalasi](Panduan)
+    - [Panduan Aplikasi](Panduan/PanduanAplikasi)
+    - [Panduan Kostumisasi](Panduan)
+    - [Panduan-panduan lainnya yang berhubungan dengan BlankOn.](/Panduan)
 
   2. Membuat presentasi
   3. Membuat catatan rilis BlankOn

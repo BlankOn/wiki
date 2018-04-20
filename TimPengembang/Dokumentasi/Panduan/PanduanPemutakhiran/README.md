@@ -1,16 +1,16 @@
 # Panduan Pemutakhiran BlankOn Linux
 
-  * [Panduan Pemutakhiran dari Gutsy Ke Konde](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/GutsyKeKonde)
-  * [Panduan Pemutakhiran dari Hardy Ke Lontara](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/HardyKeLontara)
-  * [Panduan Pemutakhiran dari Intrepid Ke Meuligoe](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/IntrepidKeMeuligoe)
-  * [Panduan Pemutakhiran dari Jaunty Ke Nanggar](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/JauntyKeNanggar)
-  * [Panduan Pemutakhiran dari Konde Ke Lontara](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/KondeKeLontara)
-  * [Panduan Pemutakhiran dari Lontara Ke Meuligoe](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/LontaraKeMeuligoe)
-  * [Panduan Pemutakhiran dari Lucid Ke Ombilin](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/LucidkeOmbilin)
-  * [Panduan Pemutakhiran dari Meuligoe Ke Nanggar](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/MeuligoeKeNanggar)
-  * [Panduan Pemutakhiran dari Nanggar Ke Ombilin](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/NanggarKeOmbilin)
-  * [Panduan Pemutakhiran dari Ombilin Ke Pattimura](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/OmbilinKePattimura)
-  * [Panduan Pemutakhiran dari Suroboyo Ke Tambora](wiki/TimPengembang/Dokumentasi/Panduan/PanduanPemutakhiran/SuroboyoKeTambora)
+  * [Panduan Pemutakhiran dari Gutsy Ke Konde](GutsyKeKonde)
+  * [Panduan Pemutakhiran dari Hardy Ke Lontara](HardyKeLontara)
+  * [Panduan Pemutakhiran dari Intrepid Ke Meuligoe](IntrepidKeMeuligoe)
+  * [Panduan Pemutakhiran dari Jaunty Ke Nanggar](JauntyKeNanggar)
+  * [Panduan Pemutakhiran dari Konde Ke Lontara](KondeKeLontara)
+  * [Panduan Pemutakhiran dari Lontara Ke Meuligoe](LontaraKeMeuligoe)
+  * [Panduan Pemutakhiran dari Lucid Ke Ombilin](LucidkeOmbilin)
+  * [Panduan Pemutakhiran dari Meuligoe Ke Nanggar](MeuligoeKeNanggar)
+  * [Panduan Pemutakhiran dari Nanggar Ke Ombilin](NanggarKeOmbilin)
+  * [Panduan Pemutakhiran dari Ombilin Ke Pattimura](OmbilinKePattimura)
+  * [Panduan Pemutakhiran dari Suroboyo Ke Tambora](SuroboyoKeTambora)
 
 
 
