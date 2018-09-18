@@ -1,9 +1,4 @@
-<span id="anchor"></span>Sampul
-
-<span id="anchor-1"></span>DAFTAR ISI
-
-<span id="anchor-2"></span>  Ihwal Buku Ini
-==========================================
+# Buku Panduan BlankOn X Tambora
 
 Buku ini dikembangkan untuk BlankOn X Tambora yang ditulis berdasarkan
 buku panduan BlankOn 8 Rote yang sebelumnya ditulis oleh Tim Dokumentasi
