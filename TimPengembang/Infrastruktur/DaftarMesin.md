@@ -4,7 +4,7 @@
 |    |   **allyne.boi**   |    **rani.boi**   | **marya.boi** <br>  Pensiun   |  **waljinah.boi**  | **yeyen.boi** <br> Pensiun |   **waw.boi** | **cahyono.bin** <br> Pensiun |  
 |---------------|---------------|-----------------|------------------|----------------|-------------------|---------------|----------------------|  
 |**processor**  |  Intel (R) Xeon (R) <br> CPU E5606  <br> @2.13 GHz <br> 4 Core | Intel (R) <br> Core (TM) i3 <br> CPU 540 <br> @3.07 GHz <br> 2 Core  | Intel (R) Xeon (R) <br> CPU 5160 <br> @3.00 GHz <br> 2 Core | Intel (R) Atom (TM) <br> CPU D525 <br> @1.80 GHz <br> 2 Core  | Intel (R)  <br> Core(TM) 2 Duo <br> CPU 4300 <br> @1.80 GHz <br> 2 Core |  Raspberry Pi <br> type B <br> ARM 11 <br> @700 MHz  |  Intel <br> 8 Core  |  
-|     **OS**   |  Ubuntu Server 12.04 <br> Precice Pangolin | Ubuntu Server 10.04 <br> Lucid Lynx      |   | Debian 6 <br>    | BlankOn 8.0 Rote  | BlankOn Raspberry   || Debian 7 <br> Wheezy      |
+|     **OS**   |  Debian 9 <br> Stretch | Ubuntu Server 10.04 <br> Lucid Lynx      |   | Debian 6 <br>    | BlankOn 8.0 Rote  | BlankOn Raspberry   || Debian 7 <br> Wheezy      |
 |    **RAM**  | 6GB  | 4GB | 4GB  | 4GB  | 6GB  | 256MB  | 6GB               |  
 |   **DISK**  |1 TB <br> 2 TB <br> 3 TB | 250 GB <br> 500 GB <br> 1 TB | 160 GB | 32 GB   | 320 GB <br> 320 GB |   |     |  
 |       **IP**    | 119.82.243.189 | 202.154.57.165 |  | 103.28.22.8 | 202.6.233.56 | 202.162.202.210 | 203.34.118.58  
