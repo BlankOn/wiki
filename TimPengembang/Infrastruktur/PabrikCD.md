@@ -1,37 +1,52 @@
-# Pabrik CD
+# PABRIK CD
 
-Halaman ini menjelaskan proses pembuatan CD secara manual
-## Jenis CD
-  cdlive
-      Live CD biasa, paket yang diinstal adalah blankon-desktop
-  cdlive.minimalist
-      Live CD dengan desktop BlankOn minimalis, paket yang diinstal adalah
-      blankon-desktop-minimalist
-  dvdlive
-      DVD Live, paket yang diinstal adalah blankon-desktop + daluang
-## Proses pembuatan CD
-    * Buat ulang berkas Release pada cermin Ubuntu
-      # su - irgsh
-      $ cd repo/dev/<distro-ubuntu>
-      $ ~/utils/gen-release.sh
-      $ exit
-    * Mulai pembuatan CD
-      # su - cdimage
-      $ cd pabrik
-      $ ./start.sh <distro> <arch> <jenis-cd>
-     Jika berhasil maka CD akan diletakkan pada direktori /home/cdimage/
-     images/daily-live/<tanggal>. Jika proses diulangi maka berkas .iso
-     yang sudah berhasil dibuat (bila ada) akan ditimpa.
-*tambahan = untuk jahit manual tinggal dilihat di file crontab.txt di folder
-home cdimage
-KategoriInfra
-Last modified on 03/28/2010 10:32:28 AM
-#### 
-    
- 
- 
- 
- 
- 
----
- 
+Laman ini menjelaskan pembuatan pabrik CD Uluwatu secara manual
+
+## Install perkakas
+`$ sudo apt-get install git debootstrap genisoimage zsync reprepro xorriso postfix mailutils dosfstools`
+
+## Setup GNUPG
+
+## Menghajar Pabrik
+* Buat User CDIMAGE  
+`$ sudo adduser cdimage`
+
+* Ubah CDIMAGE menjadi sudoers  
+`$ sudo visudo -f /etc/sudoers`  
+Tambahkan di baris terakhir dan simpan  
+`cdimage ALL=NOPASSWD: ALL`
+
+* Masuk Ke CDIMAGE  
+`$ sudo su – cdimage`
+
+* Menarik Skrip Pabrik CD  
+`$ git clone https://github.com/tuanpembual/pabrik-cc.git`  
+`$ git checkout uluwatu`  
+
+* Ubah suai config pabrik  
+`$ vim uluwatu.config`
+
+* Mengatur debootstrap uluwatu  
+`$ vim uluwatu.debootstrap`  
+`$ sudo cp uluwatu.debootstrap /usr/share/debootstrap/scripts/uluwatu`
+`$ sudo cp lsb-release /etc/.`
+
+* Mengatur lokasi cd image  
+`$ mkdir /home/cdimage/images/livedvd-harian/`
+
+## Membuat Cetakan CD
+`$ ./enter-cd-blankon.sh`
+
+## Selamat Menikmati Error dan Baca Log
+
+## Keluar dari Chroot
+```
+$ sudo mount  
+$ sudo umount /path/to/pabrikcd/pabrik-cc-github/tmp/$DATE-rootfs-amd64/sys  
+$ sudo umount /path/to/pabrikcd/pabrik-cc-github/tmp/20170521-rootfs-amd64/proc  
+$ sudo umount /path/to/pabrikcd/pabrik-cc-github/tmp/20170521-rootfs-amd64/dev/pts
+```
+
+## Rilis
+`$ sudo ./release-image -d /home/cdimage/images/livedvd-harian/$DATE/ -r 11.0 -p /home/cdimage/images/rilis/uluwatu/Jahitan-RC4/`
+
