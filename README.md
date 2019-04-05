@@ -21,7 +21,7 @@ Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proy
 1. T: Apakah [BlankOn](/BlankOn.md) hanya distro remaster dari Debian?
 <br>J: Tidak, [BlankOn](/BlankOn.md) adalah distro turunan Debian, bukan remastering, karena punya paket dan repositori sendiri.
 1. T: Apakah [BlankOn](/BlankOn.md) gratis?
-<br>J: Ya. [BlankOn](/BlankOn.md) bisa Anda unduh dan gunakan secara gratis, tetapi tidak tertutup kemungkinan bagi Anda jika ingin memberikan donasi pada pengemb            angan BlankOn.
+<br>J: Ya. [BlankOn](/BlankOn.md) bisa Anda unduh dan gunakan secara gratis, tetapi tidak tertutup kemungkinan bagi Anda jika ingin memberikan donasi pada pengembangan BlankOn.
 1. T: Di mana saya bisa mendapatkan [BlankOn](/BlankOn.md)?
 <br>J: Anda bisa mengunduhnya di [blankonlinux.or.id](http://blankonlinux.or.id)
 1. T: Apakah lisensi [BlankOn](/BlankOn.md)?
