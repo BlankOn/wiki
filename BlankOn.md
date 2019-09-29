@@ -20,7 +20,7 @@ menghasilkan, apa pun bentuknya, mulai dari kode, pemikiran-pemikiran, karya
 seni, hingga kegiatan-kegiatan bisnis yang menguntungkan.
 
 Ekosistem yang tercipta diharapkan akan menghasilkan beragam produk dan hasil
-karya, dan menjadi ​Swacala_Abadi yang kembali memberi manfaat ke proyek
+karya, dan menjadi [swacala abadi](https://en.wikipedia.org/wiki/Perpetual_motion) yang kembali memberi manfaat ke proyek
 BlankOn dalam bentuk dana, masukan-masukan, dan tenaga.
 
 Distribusi Linux BlankOn dijadikan ajang latihan untuk mencapai cita-cita ini.
@@ -37,13 +37,13 @@ waktu yang perlu dihabiskan.
 Saat ini mental kebanyakan dari kita adalah mental pembeli dan pengguna. Pasar
 dalam negeri dipenuhi barang-barang dan produksi luar negeri.
 
-![](/wiki/Assets/Images/produk-luar-negeri.png)
+![](https://raw.githubusercontent.com/BlankOn/wiki/master/Assets/Images/produk-luar-negeri.png)
 
 BlankOn ingin berpartisipasi dalam mengubah mental tersebut menjadi mental
 produsen dan penghasil. Ekosistem yang dicita-citakan merupakan sarana untuk
 mencapai transformasi ini.
 
-![](/wiki/Assets/Images/produk-sendiri.png)
+![](https://raw.githubusercontent.com/BlankOn/wiki/master/Assets/Images/produk-sendiri.png)
 
 ### Daftar Singkat Indikator Keberhasilan
 Berikut adalah beberapa contoh hal-hal yang menjadi indikator keberhasilan misi
