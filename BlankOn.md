@@ -1,5 +1,5 @@
 # BlankOn
-![](/wiki/Assets/Images/buatan-indonesia.png)
+![Buatan Indonesia](https://raw.githubusercontent.com/BlankOn/wiki/master/Assets/Images/buatan-indonesia.png)
 
 ## Misi Proyek BlankOn
 Proyek BlankOn bertujuan untuk mengembangkan ekosistem baru dalam konteks
