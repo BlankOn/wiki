@@ -3,11 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/wiki/assets/images/favicon.ico" />
-
-{% seo %}
-
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | absolute_url }}" />
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,7 +14,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.url }}{{ site.baseurl }}"><img src="{{ '/assets/images/logo-blankon.jpg' | relative_url }}"></a>
+        <a href="{{ '/' | absolute_url }}"><img src="{{ '/assets/images/logo-blankon.jpg' | absolute_url }}"></a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
@@ -48,18 +46,18 @@
 
         <h3>Tim Pengembang</h3>
         <ul>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Humas/">Humas <small>{{ github_name }}</small></a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Infrastruktur/">Infrastruktur <small>{{ github_name }}</small></a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Riset/">Riset <small>{{ github_name }}</small></a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Dokumentasi/">Dokumentasi <small>{{ github_name }}</small></a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Pemaket/">Pemaket <small>{{ github_name }}</small></a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/Kesenian/">Kesenian <small>{{ github_name }}</small></a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/TimPengembang/JaminanKualitas/">Jaminan Kualitas <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ '/TimPengembang/Humas' | absolute_url }}">Humas <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ '/TimPengembang/Infrastruktur' | absolute_url }}">Infrastruktur <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ '/TimPengembang/Riset' | absolute_url }}">Riset <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ '/TimPengembang/Dokumentasi' | absolute_url }}">Dokumentasi <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ '/TimPengembang/Pemaket' | absolute_url }}">Pemaket <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ '/TimPengembang/Kesenian' | absolute_url }}">Kesenian <small>{{ github_name }}</small></a></li>
+        <li><a href="{{ '/TimPengembang/JaminanKualitas' | absolute_url }}">Jaminan Kualitas <small>{{ github_name }}</small></a></li>
         </ul>
         <h3>Wiki</h3>
         <ul>
-          <li><a href="{{ site.url }}{{ site.baseurl }}/Indeks.html">Daftar Isi <small>{{ github_name }}</small></a></li>
-          <li><a href="{{ site.url }}{{ site.baseurl }}">Peta pranala <small>{{ github_name }}</small></a></li>
+          <li><a href="{{ '/Indeks.html' | absolute_url }}">Daftar Isi <small>{{ github_name }}</small></a></li>
+          <li><a href="{{ '/' | absolute_url }}">Peta pranala <small>{{ github_name }}</small></a></li>
         </ul>
       </header>
       <section>
@@ -80,7 +78,7 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/scale.fix.js' | absolute_url }}"></script>
 
 
   {% if site.google_analytics %}

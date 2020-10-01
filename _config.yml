@@ -1,4 +1,5 @@
 github: [metadata]
 theme: jekyll-theme-architect
-baseurl: /wiki
 url: https://dev.blankonlinux.or.id
+timezone: Asia/Jakarta
+permalink: /:name
