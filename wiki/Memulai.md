@@ -1,4 +1,6 @@
-# Memulai Berpartisipasi Pada Proyek [BlankOn](/BlankOn.md)
+---
+title: Memulai Berpartisipasi Pada Proyek BlankOn
+---
 
 Pada halaman ini akan dijelaskan beberapa panduan untuk mengantarkan Anda memulai berpartisipasi pada proyek pengembangan [BlankOn](/BlankOn.md).
 
@@ -99,6 +101,3 @@ Untuk komunikasi obrolan pada IRC dapat Anda temukan pada kanal #blankon di Free
 Komunikasi dan koordinasi luring dapat ditemui di BlanKonf, BlanKopdar maupun BlanKoding maupun dengan pertemuan langsung dengan pengembang lain yang domisilinya berdekatan.
 
 ### [Komposisi Tim Pada Awal Pengembangan BlankOn](/TimBlankOn.md)
-
-
-

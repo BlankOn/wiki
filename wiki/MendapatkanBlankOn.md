@@ -25,8 +25,4 @@ title: Daftar Cermin Unduhan BlankOn
   - Solo http://mugos.ums.ac.id/blankon/
   - Surabaya http://buaya.klas.or.id/blankon 
 
-Anda juga dapat mengunduh berkas iso blankOn melalui Torrent atau Jigdo 
-
-
-
-
+Anda juga dapat mengunduh berkas iso blankOn melalui Torrent atau Jigdo

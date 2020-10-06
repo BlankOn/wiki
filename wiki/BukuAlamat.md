@@ -1,4 +1,6 @@
-# BukuAlamat
+---
+title: BukuAlamat
+---
 
 ### Branding
   * ​https://wiki.ubuntu.com/DerivativeTeam/UDSNotes/UDU/Branding
@@ -40,7 +42,3 @@
 
 #### Arsip Blankon
   * Bahan_presentasi_Blankon
-
-Last modified on 01/06/2009 12:07:39 AM
- 
-

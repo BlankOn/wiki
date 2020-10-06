@@ -1,7 +1,7 @@
 module.exports = {
   title: 'BlankOn Linux',
   tagline: 'BlankOn Linux',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://dev.blankonlinux.or.id',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
@@ -32,7 +32,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           path: 'wiki',
           editUrl: 'https://github.com/BlankOn/wiki/edit/master/',
           routeBasePath: '/'

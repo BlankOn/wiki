@@ -1,4 +1,6 @@
-# Pertanyaan yang Sering Diajukan
+---
+title: Pertanyaan yang Sering Diajukan
+---
 
 ## Pertanyaan Umum
 

@@ -1,6 +1,7 @@
 ---
 title: Partisipasi
 ---
+
 Terima kasih telah mengunjungi proyek [BlankOn](/BlankOn.md). Anda dapat mengunjungi [website resmi BlankOn](https://www.blankonlinux.or.id/) untuk mendapatkan informasi lainya.
 
 ## Tentang Linux [BlankOn](/BlankOn.md)
