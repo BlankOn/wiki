@@ -1,18 +1,28 @@
 module.exports = {
   wiki: [
     "BlankOn",
-    "MendapatkanBlankOn"
+    "MendapatkanBlankOn",
+    "BukuAlamat",
+    "FAQ"
   ],
   timPengembang: [
     'TimPengembang/TimBlankOn',
-    'TimPengembang/Dokumentasi/README',
-    'TimPengembang/Humas/README',
-    'TimPengembang/Infrastruktur/README',
-    'TimPengembang/JaminanKualitas/README',
-    'TimPengembang/Kesenian/README',
-    'TimPengembang/ManajerRilis/README',
-    'TimPengembang/Pemaket/README',
-    'TimPengembang/Riset/README',
+    {
+      "Tim Rilis": [
+        'TimPengembang/Pemaket/README',
+        'TimPengembang/Kesenian/README',
+        'TimPengembang/JaminanKualitas/README',
+        'TimPengembang/Dokumentasi/README',
+        'TimPengembang/ManajerRilis/README',
+      ]
+    },
+    {
+      "Tim Proyek": [
+        'TimPengembang/Humas/README',
+        'TimPengembang/Infrastruktur/README',
+        'TimPengembang/Riset/README',
+      ]
+    },
   ],
   produkBlankOn: [
     "ProdukBlankOn/README",

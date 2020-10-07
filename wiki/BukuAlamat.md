@@ -1,37 +1,37 @@
 ---
-title: BukuAlamat
+title: Buku Alamat
 ---
 
-### Branding
+## Branding
   * ​https://wiki.ubuntu.com/DerivativeTeam/UDSNotes/UDU/Branding
   * ​https://wiki.ubuntu.com/DistributionDefaultsAndBranding
   * ​https://wiki.ubuntu.com/DerivativeDistroHowto
 
-### Installer
+## Installer
   * ​http://wiki.debian.org/DebianInstaller
   * ​http://www.debian.org/releases/etch/example-preseed.txt
   * ​http://d-i.alioth.debian.org/doc/talks/debconf6/paper/
   * ​https://launchpad.net/d-i
   * ​https://wiki.ubuntu.com/InstallerDevelopment
 
-### Repositori
+## Repositori
   * ​http://www.debian.org/doc/manuals/repository-howto/repository-howto.en.html
   * ​http://wiki.debian.org/HowToSetupADebianRepository
   * ​https://wiki.ubuntu.com/Archive/Syncscripts
   * ​http://www.debian.org/mirror/ftpmirror
   * ​https://wiki.ubuntu.com/ArchiveAdministration
 
-### Pabrik
+## Pabrik
   * ​https://wiki.ubuntu.com/SeedManagement
   * ​http://people.ubuntu.com/~ubuntu-archive/
 
-#### CD Image
+### CD Image
   * ​https://launchpad.net/ubuntu-cdimage
   * ​http://wiki.debian.org/DebianCustomCD
   * ​http://wiki.debian.org/debian-cd
   * ​https://help.ubuntu.com/community/InstallCDCustomization
 
-#### LiveCD
+### LiveCD
   * ​https://wiki.ubuntu.com/UbuntuExpress
   * ​https://launchpad.net/livecd-rootfs
   * ​http://gnome-ev.de/index.php/GNOME_LiveCD/Documentation/LiveCDInstaller
@@ -40,5 +40,5 @@ title: BukuAlamat
   * ​https://help.ubuntu.com/community/LiveCDCustomization
   * ​https://wiki.ubuntu.com/Ubiquity
 
-#### Arsip Blankon
+### Arsip Blankon
   * Bahan_presentasi_Blankon
