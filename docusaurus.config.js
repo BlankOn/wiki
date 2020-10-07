@@ -10,6 +10,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'BlankOn',
+      hideOnScroll: true,
       logo: {
         alt: 'BlankOn Linux Logo',
         src: 'img/logo.jpeg',
@@ -25,6 +26,14 @@ module.exports = {
         }
       ],
     },
+    footer: {
+      logo: {
+        alt: 'Facebook Open Source Logo',
+        src: 'img/logo-hitam.png',
+        href: 'https://blankonlinux.or.id',
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} BlankOn Linux. Built with Docusaurus.`,
+    }
   },
   presets: [
     [
@@ -34,7 +43,9 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'wiki',
           editUrl: 'https://github.com/BlankOn/wiki/edit/master/',
-          routeBasePath: '/'
+          routeBasePath: '/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
