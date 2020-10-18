@@ -13,5 +13,7 @@ script:
   - mkdir -p Wiki
   - rsync -av ./ ./Wiki --exclude=docusaurus,.git --remove-source-files
   - mv ./docusaurus/* .
+  - ls -la
   - yarn
+  - ls -la
   - GIT_USER="${GH_NAME}" yarn deploy
