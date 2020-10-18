@@ -10,9 +10,9 @@ script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - mkdir -p docusaurus/Wiki
-  - rsync -av ./ ./docusaurus/Wiki --exclude=docusaurus
-  - pushd docusaurus
+  - mkdir -p Wiki
+  - rsync -av ./ ./Wiki --exclude=docusaurus --remove-source-files
+  - mv ./docusaurus/* .
   - yarn
   - GIT_USER="${GH_NAME}" yarn deploy
   - popd
