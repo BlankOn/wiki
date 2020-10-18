@@ -1,6 +1,9 @@
 _site/
 .jekyll-metadata
 Gemfile.lock
+
 .idea
 .docusaurus
 build
+docusaurus/Wiki
+docusaurus/static/Assets

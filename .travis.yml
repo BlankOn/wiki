@@ -11,8 +11,5 @@ script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - mkdir -p Wiki
-  - rsync -a ./ ./Wiki --exclude=docusaurus,.git
-  - cp -vR ./docusaurus/* .
-  - yarn
-  - GIT_USER="${GH_NAME}" yarn deploy
+  - export GIT_USER="${GH_NAME}"
+  - ./scripts/deploy.sh
