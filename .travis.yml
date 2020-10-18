@@ -12,6 +12,8 @@ script:
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
   - mkdir -p Wiki
   - rsync -a ./ ./Wiki --exclude=docusaurus,.git --remove-source-files
+  - ls -la Wiki
+  - ls -la docusaurus
   - cp -vR ./docusaurus/* .
   - ls -la
   - yarn
