@@ -17,18 +17,26 @@ module.exports = {
       },
       items: [
         {
-          to: 'timpengembang',
+          position: 'left',
+          to: 'TimPengembang',
           label: 'Tim Pengembang',
         },
         {
-          to: 'produkblankon',
+          position: 'left',
+          to: 'ProdukBlankOn',
           label: 'Produk'
-        }
+        },
+        {
+          href: 'https://github.com/BlankOn/wiki',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'BlankOn Wiki',
+        },
       ],
     },
     footer: {
       logo: {
-        alt: 'Facebook Open Source Logo',
+        alt: 'BlankOn Linux',
         src: 'img/logo-hitam.png',
         href: 'https://blankonlinux.or.id',
       },
@@ -41,8 +49,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          path: 'wiki',
-          editUrl: 'https://github.com/BlankOn/wiki/edit/master/',
+          path: 'Wiki',
+          editUrl: 'https://github.com/BlankOn/wiki/edit/master',
           routeBasePath: '/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
