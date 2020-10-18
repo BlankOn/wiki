@@ -1,8 +1,10 @@
 module.exports = {
   wiki: [
-    "BlankOn",
+    "README",
+    "Proyek/Misi",
     "MendapatkanBlankOn",
     "BukuAlamat",
+    "Lainnya/Glosarium",
     "FAQ"
   ],
   timPengembang: [
