@@ -1,3 +1,4 @@
 docusaurus
 .git
 Assets
+node_modules
