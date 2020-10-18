@@ -4,6 +4,7 @@ node_js:
 branches:
   only:
     - master
+    - j2d
 cache:
   directories:
     - docusaurus/node_modules
