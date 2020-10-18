@@ -11,8 +11,8 @@ script:
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
   - mkdir -p Wiki
-  - rsync -av ./ ./Wiki --exclude=docusaurus,.git --remove-source-files
-  - mv ./docusaurus/* .
+  - rsync -a ./ ./Wiki --exclude=docusaurus,.git --remove-source-files
+  - cp -vR ./docusaurus/* .
   - ls -la
   - yarn
   - ls -la
