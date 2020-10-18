@@ -2,7 +2,7 @@
 # Pelaksanaan Instruksi Presiden Nomor 2 Tahun 2001 Tentang Penggunaan Komputer Dengan Aplikasi Komputer Berbahasa Indonesia
 
 Sumber: Wikisource bahasa Indonesia, perpustakaan bebas
-![](Wikisource-logo.svg)
+`![](Wikisource-logo.svg)`
 
 **DAFTAR ISI**
 *    [Landasan Umum](#landasan-umum)	

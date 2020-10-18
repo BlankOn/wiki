@@ -1,5 +1,5 @@
 # Halaman Ainul Hakim
-![](/raw-attachment/wiki/AinulHakim/ainul_blankon.png)
+`![](/raw-attachment/wiki/AinulHakim/ainul_blankon.png)`
 
 Web/Blog? : ​http://ainul.smartikon.com
 Twitter : mikahlunia

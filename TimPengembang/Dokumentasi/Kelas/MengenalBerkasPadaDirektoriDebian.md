@@ -55,7 +55,7 @@ Package Name    : jao-theme
 Version         : 1.8
 License         : gpl
 Type of Package : Single
-Hit <enter> to confirm: 
+Hit `<enter>` to confirm: 
 Done. Please edit the files in the debian/ subdirectory now. jao-theme
 uses a configure script, so you probably don't have to edit the Makefiles.
 
@@ -69,15 +69,15 @@ Secara umum file ini berisi:
 Source: jao-theme
 Section: unknown
 Priority: extra
-Maintainer: Joe Hacker <joe.hacker@isp.com>
+Maintainer: Joe Hacker `<joe.hacker@isp.com>`
 Build-Depends: debhelper (>= 5), autotools-dev
 Standards-Version: 3.7.2
 
 Package: jao-theme
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: `<insert up to 60 chars description>`
+ `<insert long description, indented with spaces>`
 
 Isi control itu terdiri dari 2 bagian:
 
@@ -134,7 +134,7 @@ Sehingga file control akan seperti:
 Source: jao-theme
 Section: x11
 Priority: extra
-Maintainer: Joe Hacker <joe.hacker@isp.com>
+Maintainer: Joe Hacker `<joe.hacker@isp.com>`
 Build-Depends: debhelper (>= 5), autotools-dev
 Standards-Version: 3.7.2
 
@@ -166,7 +166,7 @@ PACKAGE (VERSION) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #XXXXXX)
 
- -- Joe Hacker <joe.hacker@isp.com>  Thu, 13 Nov 2008 06:32:18 +0700
+ -- Joe Hacker `<joe.hacker@isp.com>`  Thu, 13 Nov 2008 06:32:18 +0700
 
 Secara umum file changelog terdiri dari 3 bagian:
 
@@ -205,7 +205,7 @@ sehingga changelog menjadi:
 jao-theme (1.8-1) meuligoe; urgency=low
 
   * Initial release. 
-  * AUTHORS: Tambah author Tim Artis BlankOn <BlankOn@googlegroup.com>
+  * AUTHORS: Tambah author Tim Artis BlankOn `<BlankOn@googlegroup.com>`
 
  -- Joe Hacker <joe.hacker@isp.com>  Wed, 13 Nov 2008 22:45:09 +0700
 
@@ -219,7 +219,7 @@ Untuk mengetahui lisensi suatu paket dapat di lihat file COPYING atau juga kode 
 
 Contoh: paket blankon-sounds menggunakan 2 lisensi, 1 GPL untuk karya om blex dan 1 lagi CC untuk karya2 dari pengembang ubuntu. Yang CC karena gak ada di /usr/share/common-licenses/ maka perlu ditulis lengkap isi lisensinya. ​http://dev.blankonlinux.or.id/browser/meuligoe/blankon-sounds/debian/copyright
 
-This package was debianized by Joe Hacker <joe.hacker@isp.com> on
+This package was debianized by Joe Hacker `<joe.hacker@isp.com>` on
 Wed, 12 Nov 2008 13:24:36 +0700.
 
 It was downloaded from http://dev.blankonlinux.or.id/
@@ -252,7 +252,7 @@ License:
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
 
-The Debian packaging is (C) 2008, Joe Hacker <joe.hacker@isp.com> and
+The Debian packaging is (C) 2008, Joe Hacker `<joe.hacker@isp.com>` and
 is licensed under the GPL, see above.
 
 

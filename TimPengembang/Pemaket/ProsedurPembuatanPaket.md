@@ -1,19 +1,22 @@
-# ProsedurPembuatanPaket
+---
+title: ProsedurPembuatanPaket
+---
+
 Dokumen ini membahas prosedur pembuatan paket di BlankOn. Dokumen ini tidak
 membahas bagaimana cara membuat_paket_Debian
 
 ## Ketentuan
 Pemaket sudah:
-   1. mendaftarkan kunci GPG ke launchpad atau ​menandatangani_Ubuntu_Code_ofConduct.
-   2. mendaftarkan ​kunci_publik_SSH Anda di Launchpad.
-   3. tergabung dalam tim blankon-pemaket di Launchpad.
-   4. memahami ​cara_kerja_bazaar.
-   5. memahami Pembuatan_paket_Debian.
+1. mendaftarkan kunci GPG ke launchpad atau ​menandatangani_Ubuntu_Code_ofConduct.
+2. mendaftarkan ​kunci_publik_SSH Anda di Launchpad.
+3. tergabung dalam tim blankon-pemaket di Launchpad.
+4. memahami ​cara_kerja_bazaar.
+5. memahami Pembuatan_paket_Debian.
 
 ## Lokasi Paket
 Paket disimpan dalam gudang kode di bawah kendali blankon-pemaket. Lokasi
-utamanya adalah: http://bazaar.launchpad.net/~blankon-pemaket/blankon/<nama-
-paket>. Lokasi ini disebut juga dengan *cabang utama*. Jadi tiap-tiap paket
+utamanya adalah: `http://bazaar.launchpad.net/~blankon-pemaket/blankon/<nama-
+paket>`. Lokasi ini disebut juga dengan *cabang utama*. Jadi tiap-tiap paket
 memiliki cabang utama sendiri-sendiri.
 
 ## Jenis paket
@@ -98,10 +101,3 @@ Bila Anda akan mengimpor paket dari proyek lain maka prinsipnya sama dengan
 pembuatan paket baru. Tapi daftarkan alamat surat elektronik Anda pada berkas
 daftar.txt di gudang kode dengan alamat ​https://code.launchpad.net/~blankon-
 pemaket/blankon/pengelola-paket-impor.
-
-KategoriPemaket
-
-Last modified on 08/05/2010 10:21:28 PM
-
----
- 

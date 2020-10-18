@@ -1,5 +1,5 @@
 # EKO SUHARTONO
-![](/raw-attachment/wiki/EkoSuhartono/foto.png)
+`![](/raw-attachment/wiki/EkoSuhartono/foto.png)`
 
 Informasi pribadi
 Nama     Eko Suhartono

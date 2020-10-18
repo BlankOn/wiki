@@ -152,7 +152,7 @@
 
 ## Daftar Paket Impor BlankOn 3 Lontara
 
-Daftar ini dibaca oleh Robot Pabrik Paket ## Harap ditulis dengan ketentuan berikut: <spasi>*<spasi>nama-paket<spasi>(login-di-LP)
+Daftar ini dibaca oleh Robot Pabrik Paket ## Harap ditulis dengan ketentuan berikut: `<spasi>*<spasi>nama-paket<spasi>(login-di-LP)`
 
 **Daftar Paket Impor dan Pengelolanya**
     * anna (mdamt)

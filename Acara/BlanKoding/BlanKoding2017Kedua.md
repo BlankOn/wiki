@@ -1,4 +1,6 @@
-# BlanKoding 2017 \#2
+---
+title: BlanKoding 2017 #2
+---
 
 
 ### Laporan BlanKoding \#2
@@ -71,6 +73,3 @@ Salam hangat
 Blog: http://tuanpembual.wordpress.com
 
 Sumber: milis pengembang BlankOn
-
-
-

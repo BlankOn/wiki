@@ -268,7 +268,7 @@ belum mendukung driver secara native, solusinya simpanlah project dengan format
 PDF, kemudian buka file dan print menggunakan aplikasi pembuka file PDF yang
 sudah disediakan oleh Distro Linux yang dipakai.
 ### 2.7. Vacuuming Files
-Perintah File => Vacuum Defs untuk menghilangkan definisi bagian dari <defs>
+Perintah File => Vacuum Defs untuk menghilangkan definisi bagian dari `<defs>`
 pada file SVG yang tidak terpakai. Cara ini digunakan untuk menghilangkan
 gradients, patterns, markers, dan filters yang tidak terpakai.
 ### 2.8. Close File

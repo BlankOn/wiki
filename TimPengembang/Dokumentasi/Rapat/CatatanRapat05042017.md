@@ -2,7 +2,7 @@
 
 ## ================ Rapat Dimulai ====================
 
-
+```
 <tuanpembual> ========= rapat 5 aprill dimulai ===========
 <yusrideb> siap pak
 <tuanpembual> okip_ nyaut
@@ -379,6 +379,7 @@
 <tuanpembual> kita bertemu lagi rabu minggu depan.
 <tuanpembual> kita review AI yg barusan terselesaikan berapa.
 <tuanpembual> ============= rapat ditutup dahulu ===============
+```
 
 ### sumber : http://tempel.blankon.in/3677229 
 

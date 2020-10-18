@@ -1,4 +1,6 @@
-# Catatan Rilis BlankOn 9.0 Suroboyo
+---
+title: Suroboyo
+---
 
 Proyek BlankOn dengan bangga mempersembahkan rilis ke-9 dengan nama kode Suroboyo. Rilis kali ini dengan dukungan perangkat keras lebih banyak dan terbaru sehingga pengguna tidak perlu repot memasang penggerak (driver) untuk perangkat kerasnya. Rilis ini juga terdapat penambahan fitur serta aplikasi baru di dalamnya dengan harapan para pengguna bisa lebih mudah dalam menggunakannya.
 

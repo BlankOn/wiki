@@ -1,4 +1,6 @@
-# Sejarah Rilis BlankOn
+---
+title: Sejarah Rilis BlankOn
+---
 
 BlankOn Linux pertama kali dikembangkan oleh YPLI pada tahun 2004 dengan nama
 kode "Bianglala". Pada saat itu, BlankOn merupakan turunan dari distro Fedora
@@ -36,14 +38,3 @@ Panel diperkenalkan.
 Debian. Fitur istimewa adalah dengan pengenalan versi BlankOn Linux berbahasa
 Banyumas. Manokwari Dekstop dijadikan fitur istimewa di versi ini.
 Rilis terakhir dengan nama kode "Suroboyo".
-
-Last modified on 02/07/2014 03:42:29 PM
-
-
-
-
----
- 
-
-
-

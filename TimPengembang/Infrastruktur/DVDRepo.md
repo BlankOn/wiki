@@ -28,9 +28,4 @@ $ at \[tanggal]
 \> ctrl+d (pencet ctrl <plus> d)
 ```
 
-Asumsi <DIST> = ombilin <ARCH> = i386
-Last modified on 06/21/2011 08:54:01 PM
-
-
----
- 
+Asumsi `<DIST>` = ombilin `<ARCH>` = i386

@@ -5,9 +5,9 @@ identik dengan akun bzr. Semua orang yang memiliki hak tulis di bzr juga
 otomatis punya akses ke git. Berkas ~git/.ssh/authorized_keys merupakan tautan
 simbolis ke ~bzr/.ssh/authorized_keys.
 
-Lumbung diletakkan di direktori /home/git/git/<nama-modul>. Tautan simbolis di
+Lumbung diletakkan di direktori `/home/git/git/<nama-modul>`. Tautan simbolis di
 /git yang mengarah ke /home/git/git diperlukan agar bisa mengakses git dengan
-url git@rani:/git/<nama-modul>
+url `git@rani:/git/<nama-modul>`
 
 ### Cara membuat lumbung kode
 
@@ -31,7 +31,7 @@ host rani
    port 2222
 ```
 
-URL yang digunakan adalah git@rani:/git/<nama-modul>
+URL yang digunakan adalah `git@rani:/git/<nama-modul>`
 Untuk mendorong kode yang ada di komputer lokal tinggal lakukan penambahan
 server dengan cara:
 

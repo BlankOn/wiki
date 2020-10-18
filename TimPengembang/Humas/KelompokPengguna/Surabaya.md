@@ -1,6 +1,8 @@
-# Kelompok Pengguna Surabaya
+---
+title: Kelompok Pengguna Surabaya
+---
 
-![]([http://dev.blankonlinux.or.id/raw-attachment/wiki/Humas/KelompokPengguna/Surabaya/ppbs-2014.png)
+![](http://dev.blankonlinux.or.id/raw-attachment/wiki/Humas/KelompokPengguna/Surabaya/ppbs-2014.png)
 
 ## Paguyuban Pengguna  Surabaya
 Tautan: ​http://surabaya.di.blankon.in

@@ -1,4 +1,7 @@
-# BlankOn Linux 3 Konde
+---
+title: Lontara
+---
+
 * Kode Nama: Lontara
   Lontara Diambil dari nama aksara Bugis-Makassar.
 * BlankOn 3 - dirilis pada tanggal 27 April 2008.

@@ -1,22 +1,24 @@
-# Panduan Umum Pemaket
+---
+title: Panduan Umum Pemaket
+---
    1. Kolom "Maintainer:" pada debian/control diganti ke: BlankOn-Developers
-      <BlankOn@googlegroups.com> berlaku untuk paket khas dan paket impor
+      `<BlankOn@googlegroups.com>` berlaku untuk paket khas dan paket impor
    2. Gunakan Bahasa Indonesia pada paket khas blankon
    3. Beberapa berkas yang wajib ada dalam direktori debian/
           o Berkas copyright, standar ​format_penulisannya adalah sebagai
             berikut:
-This package was debianized by NAMA ANDA <alamat@email> on
+This package was debianized by NAMA ANDA `<alamat@email>` on
 DATE.
 
 It was downloaded from: http://www.alamat.download/foo.bar.tgz
 
 Upstream Authors:
-	Nama 1 <alamat@email1>
-	Nama 2 <alamat@email2>
-	Nama 3 <alamat@email3>
+	Nama 1 `<alamat@email1>`
+	Nama 2 `<alamat@email2>`
+	Nama 3 `<alamat@email3>`
 
 Copyright:
-
+```
 (c) 2001-2007 Pemegang hak cipta
 
 License:
@@ -55,12 +57,4 @@ License:
 
           On Debian Systems, the full text of the license can be found on
           /usr/share/common-licenses/GPL
-
-
-
-
----
- 
-
-
-
+```

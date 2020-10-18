@@ -1,4 +1,7 @@
-# Partisipasi
+---
+title: Partisipasi
+---
+
 Terima kasih telah mengunjungi proyek [BlankOn](/BlankOn.md). Anda dapat mengunjungi [website resmi BlankOn](https://www.blankonlinux.or.id/) untuk mendapatkan informasi lainya.
 
 ## Tentang Linux [BlankOn](/BlankOn.md)
@@ -18,13 +21,13 @@ Anda dapat berpastisipasi di proyek [BlankOn](/BlankOn.md) ini dengan cara:
 
 ### Cakupan Wilayah Kerja
 Dalam proyek Distro [BlankOn](/BlankOn.md) dibagi dalam beberapa tim yaitu:
-1. [Tim Infrastruktur](/TimPengembang/Infrastruktur/Infrastruktur.md)
-2. [Tim Riset dan Aplikasi](/TimPengembang/Riset/Riset.md)
-3. [Tim Pemaket](/TimPengembang/Pemaket/Pemaket.md)
-4. [Tim Kesenian](/TimPengembang/Kesenian/Kesenian.md)
-5. [Tim Jaminan Kualitas](/TimPengembang/JaminanKualitas/JaminanKualitas.md)
+1. [Tim Infrastruktur](/TimPengembang/Infrastruktur/README.md)
+2. [Tim Riset dan Aplikasi](/TimPengembang/Riset/README.md)
+3. [Tim Pemaket](/TimPengembang/Pemaket/README.md)
+4. [Tim Kesenian](/TimPengembang/Kesenian/README.md)
+5. [Tim Jaminan Kualitas](/TimPengembang/JaminanKualitas/README.md)
 6. [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md)
-7. [Tim Humas](/TimPengembang/Humas/Humas.md)
+7. [Tim Humas](/TimPengembang/Humas/README.md)
 
 Anda juga dapat melihat penjelasan tentang tim-tim yang ada di [BlankOn](/BlankOn.md) di halaman [Tim BlankOn](/TimPengembang/TimBlankOn.md)
 
@@ -61,5 +64,3 @@ Semua aktivitas pengembangan distro [BlankOn](/BlankOn.md) akan dipusatkan di ha
 Silakan menuliskan komentar/wacana di sini:
 1. 
 2. 
-
-

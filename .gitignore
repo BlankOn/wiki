@@ -1,3 +1,6 @@
 _site/
 .jekyll-metadata
 Gemfile.lock
+.idea
+.docusaurus
+build

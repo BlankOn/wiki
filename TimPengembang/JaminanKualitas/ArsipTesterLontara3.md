@@ -1,15 +1,19 @@
-# Rapat-03-Lontara Tim Tester BlankOn
-**Jadwal**
-    * Hari/Tanggal: Minggu, 13 Januari 2008
-    * Waktu: Pkl. 20.00 WIB (UTC+7)
-    * Tempat: #blankon @ irc.freenode.net
-**Agenda**
-    * Rencana Tester berkaitan dengan Jahitan 1
-    * Pembagian tugas
-    * Skenario bagi anggota yang proses downloadnya makan waktu lama (perlukah?) mengingat jarak Jahitan 1 dan 2 hanya sekitar 3 minggu
-**Diskusi dan Wacana**
-    * Jika ada penambahan silakan ditambahkan (khusus anggota tim tester).
-**Log Rapat 03-Lontara**
+---
+title: Rapat-03-Lontara Tim Tester BlankOn
+---
+
+## Jadwal
+* Hari/Tanggal: Minggu, 13 Januari 2008
+* Waktu: Pkl. 20.00 WIB (UTC+7)
+* Tempat: #blankon @ irc.freenode.net
+## Agenda
+* Rencana Tester berkaitan dengan Jahitan 1
+* Pembagian tugas
+* Skenario bagi anggota yang proses downloadnya makan waktu lama (perlukah?) mengingat jarak Jahitan 1 dan 2 hanya sekitar 3 minggu
+## Diskusi dan Wacana
+* Jika ada penambahan silakan ditambahkan (khusus anggota tim tester).
+## Log Rapat 03-Lontara
+```log
 behtea: tolong melengkapi bagian log yang hilang. Terima kasih.
 (20:05:36) sangprabo: #~#~#~#~#~#~#~#~#~#~ Bismillah... #~#~#~#~#~#~#~#~#~#~
 (20:05:39) behtea: saya aja
@@ -245,13 +249,4 @@ lanjut ngopi sambil makan pisang goreng, dipersilakan..
 (20:45:06) sangprabo: #~#~#~#~#~#~#~#~ Rapat 3 Lontara Tester #~#~#~#~#~#~#~#~
 (20:45:10) sangprabo: resmi ditutup
 (20:45:14) sangprabo: alhamdulillah
-
-Last_modified on 06/06/2008 11:21:25 AM
-
-
-
----
- 
-
-
-
+```

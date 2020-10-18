@@ -1,4 +1,8 @@
-# BlankOn Linux 2
+---
+title: Konde
+---
+
+
 * Nama Kode: Konde
 * Kata **Konde** diambil dari tusuk sanggul rambut wanita Indonesia.
 

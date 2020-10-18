@@ -5,7 +5,7 @@ Sebelumnya, apakah yang hadir di sini fokus terhadap pengujian penetrasi? Bekerj
 
 Kedua, jangan meremehkan pentingnya kebijakan keamanan dalam bentuk apa pun. Ada yang mengerti dengan kebijakan keamanan? Kalau bahasa Sanskerta-nya, itu "Security Policy". Bagaimana membangun kebijakan keamanan? Contoh, Bapak-bapak bisa baca pada RFC1244 dan RFC1281. Jadi intinya kebijakan keamanan adalah "Yang tidak diizinkan dilarang". Untuk apa itu? Apa yang mereka dapat adalah apa yang Anda berikan. Mereka itu adalah yang menggunakan layanan kita, jika berupa layanan. Maka, sistem yang sangat powerful berarti akan ada banyak potensi untuk beradaptasi, mengonfigurasi tugas-tugas, dan menguji yang kita butuhkan. (Powerful = Full Power). Oke, sepertinya pendahuluannya cukup.
 
-Apa yang harus dilakukan untuk memulai menguji? Pertama mengumpulkan informasi tentang target. Target bisa berupa apa saja: sistem, situs, aplikasi, kode, berkas digital. <za> Setiap target umumnya mempunyai metodologi yang sama. Nah, ngomong-ngomong metodologi, ada yang namanya Open Source Security Testing Methodology. Silakan Bapak-bapak jadikan bahan bacaan.
+Apa yang harus dilakukan untuk memulai menguji? Pertama mengumpulkan informasi tentang target. Target bisa berupa apa saja: sistem, situs, aplikasi, kode, berkas digital. Setiap target umumnya mempunyai metodologi yang sama. Nah, ngomong-ngomong metodologi, ada yang namanya Open Source Security Testing Methodology. Silakan Bapak-bapak jadikan bahan bacaan.
 
 Nah, sekarang [Blankon][1] Uji Penetrasi (Upen) untuk apa? Untuk melakukan pengujian yang punya alur tadi, kita butuh tool: ​http://tools.securitytube.net/index.php?title=Main_Page. Bisa dilihat. Nah tugas kita nanti adalah menguji tool penguji dan memaketkannya. Itu jadi tugas kita nanti: menguji, memaketkan, dan mendokumentasikan perangkat penguji. Maka jadilah [BlankOn](http://dev.blankonlinux.or.id/wiki/BlankOn) Upen. Harus disertai dokumentasi yang bagus. Tanpa dokumentasi yang baik tentang bagaimana cara menguji menggunakan [BlankOn](http://dev.blankonlinux.or.id/wiki/BlankOn) Upen, saya anggap belum sampai tujuan, karena diragukan, itu tool dicoba tidak... Jangan-jangan cuma asal dipaketkan dan dimasukkan, lalu dibuat ISO CD dan jadi Upen. Karena yang terpenting dari kita di awal tadi adalah....apa Bapak-bapak? BELAJAR. Nah, mengenai apa bentuk tool-nya nanti bisa diperhatikan. Mungkin akan kebanyakan tool berbasis CLI. Jadi sudah paham Bapak-bapak maksud dan tujuan [BlankOn](http://dev.blankonlinux.or.id/wiki/BlankOn) Upen? Adapun nanti disalahgunakan, itu di luar tanggung jawab kita. :D
 
@@ -15,12 +15,4 @@ Catatan:
 
  1.Hadir pada saat kuliah Zaki Akhmad, Ketua OWASP Indonesia [OWASP](https://www.owasp.org/index.php/Indonesia) 
  
- 2.Terjemahan Prosedur Testing OWASP [OWASP-Top-10](https://www.owasp.org/index.php/File:OWASP_Top_10_-_2010_FINAL_Indonesia_v1.0.1.pdf) 
-
-[1]:(/wiki/BlankOn.md)
-
----
- 
-
-
-
+ 2.Terjemahan Prosedur Testing OWASP [OWASP-Top-10](https://www.owasp.org/index.php/File:OWASP_Top_10_-_2010_FINAL_Indonesia_v1.0.1.pdf)

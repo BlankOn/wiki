@@ -8,7 +8,7 @@ BlankOn yang resmi diubah dari Konde menjadi BlankOn, tim *Artwork* dapat mulai 
 wiki.ubuntu-id.org/BlankOn/Artwork sebagai wadah berkoordinasi.
 
 ## Themes BlankOn
-**Logo** ![](​http://wiki.ubuntu-id.org/BlankOn/Artwork?action=AttachFile&do=get&target=blankon2007logo.png)
+`**Logo** ![](​http://wiki.ubuntu-id.org/BlankOn/Artwork?action=AttachFile&do=get&target=blankon2007logo.png)`
 
 Seperti namanya, logonya adalah sebentuk blankon (penutup kepala tradisional khas Jawa). Wacana sementara:
     * Tetap menggunakan logo asli BlankOn, tanpa angka (2, untuk BlankOn 2) seperti distro linux lain pada umumnya (status: usulan - -- (Niwatori)
@@ -65,13 +65,3 @@ To Do List untuk Tim Artis
      tolongin dong - udienz (2007-06-15T07:29:20Z)
 **Pustaka Files Termutakhir**
     * ​Logo PNG ![](http://wiki.ubuntu-id.org/BlankOn/Artwork?action=AttachFile&do=get&target=blankon2007logo.png)
-
-modified on 06/16/2008 10:31:55 AM
-
-
-
----
- 
-
-
-

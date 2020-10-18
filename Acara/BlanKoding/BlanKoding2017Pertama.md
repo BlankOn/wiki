@@ -1,5 +1,6 @@
-# BlanKoding 2017
-
+---
+title: BlanKoding 2017
+---
 
 ## BlanKoding Uluwatu #1 di Surabaya
 
@@ -11,7 +12,4 @@ Foto-foto tentang kegiatan ini dapat dilihat di http://pdft.net/2017/blankoding-
 
 Sumber: http://pdft.net/2017/blankoding-uluwatu-surabaya-1/ (dengan pengubahan)
 
-## [BlanKoding Uluwatu #2 di Bojong](/wiki/Acara/BlanKoding/BlanKoding2017Kedua.md) 
-
-
-
+## [BlanKoding Uluwatu #2 di Bojong](Acara/BlanKoding/BlanKoding2017Kedua.md)

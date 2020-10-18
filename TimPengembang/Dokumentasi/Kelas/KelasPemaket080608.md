@@ -2,6 +2,7 @@
 ### Log
 Berhubung ada beberapa informasi yang dikoreksi di akhir rapat, harap log ini
 dibaca secara menyeluruh.
+```log
 (02:16:00 PM) iang: bismillahirrohmaanirrohiim..
 (02:16:05 PM) iang: mari kita mulai kelas kali ini..
 (02:16:13 PM) bleketux left the room (quit: Read error: 104 (Connection reset
@@ -1098,10 +1099,4 @@ blankon
 (04:32:45 PM) RameTux: ok deh..
 (04:32:50 PM) iang: okeh..
 (04:32:57 PM) iang: dengan ini.. rapatnya saya tutup dulu..
-Lihat juga Ini
-
-KategoriPemaket KategoriLog
-Last modified on 06/21/2008 02:25:39 PM
-
-
-
+```

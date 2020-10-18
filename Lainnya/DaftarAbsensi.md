@@ -80,14 +80,3 @@ Daftar absensi:
    * [:udienz:Mahyuddin Susanto] (udienz)
    * [:buitenzorg812:Arif Syamsudin] (buitenzorg812)
    * Ali Kusnadi - kugutsu.hiruku
-     KategoriBlankOn
-Last modified on 06/08/2008 01:34:47 PM
-#### 
-    
- 
- 
- 
- 
- 
----
- 

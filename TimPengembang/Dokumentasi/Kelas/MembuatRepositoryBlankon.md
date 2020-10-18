@@ -4,7 +4,7 @@
 Repositori Debian/turunannya memiliki struktur direktori khusus yaitu direktori: dists, pool, project dan indices. Berikut penjelasan ringkasnya.
 **Direktori dists**
 
-Direktori ini berisi daftar paket dari pool yang berada dalam subdirektori dengan format /<RILIS>/<KOMPONEN>/<ARSITEKTUR>/Packages.*, dengan
+Direktori ini berisi daftar paket dari pool yang berada dalam subdirektori dengan format `/<RILIS>/<KOMPONEN>/<ARSITEKTUR>/Packages.*`, dengan
 ```
 $RILIS dapat berupa lontara, meuligoe, meuligoe-updates, meuligoe-security dll.
 
@@ -21,7 +21,7 @@ Contoh ​http://kambing.ui.edu/blankon/dists/meuligoe/main/installer-i386/
 ```
 **Direktori pool**
 
-Pada direktori inilah semua berkas-berkas .deb, .udeb dan kode sumber (*.diff.gz, tar.gz, *.dsc) berada. Direktori ini memiliki format /<KOMPONEN>/<HURUF PERTAMA>/<NAMA PAKET>/*.*, dengan
+Pada direktori inilah semua berkas-berkas .deb, .udeb dan kode sumber (*.diff.gz, tar.gz, *.dsc) berada. Direktori ini memiliki format `/<KOMPONEN>/<HURUF PERTAMA>/<NAMA PAKET>/*.*`, dengan
 ```
 $KOMPONEN dapat berupa main, restricted, multiverse, universe
 
@@ -83,7 +83,7 @@ Catatan:
 
    * --dist=meuligoe,meuligoe-updates,meuligoe-security: rilis yang akan kita unduh. sesuaikan dengan isi di direktory dists nya server 
 
-   * --section=main,restricted: komponen yang akan kita unduh. sesuaikan dengan direktory dists/<rilis>/ di server 
+   * --section=main,restricted: komponen yang akan kita unduh. sesuaikan dengan direktory `dists/<rilis>/` di server 
 
    * --arch=i386: berarti arsitektur i386 saja yang ditarik, kalau mau sama amd64 tinggal tambahin i386,amd64 
 

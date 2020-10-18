@@ -1,4 +1,6 @@
-# Catatan Rilis BlankOn 5.0 Nanggar
+---
+title: Nanggar
+---
 
   * Nama Kode	: Nanggar
   * Versi	: 5

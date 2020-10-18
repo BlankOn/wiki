@@ -1,5 +1,5 @@
 #  Ahmad Haris
-![](/raw-attachment/wiki/AhmadHaris/haris.png)
+`![](/raw-attachment/wiki/AhmadHaris/haris.png)`
 
 Web/Blog : ​http://ahmadharis.wordpress.com
 Launchpad : ​https://launchpad.net/~ahmadharis1982

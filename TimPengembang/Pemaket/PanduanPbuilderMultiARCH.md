@@ -1,4 +1,7 @@
-# PanduanPbuilderMultiARCH
+---
+title: PanduanPbuilderMultiARCH
+---
+
 ### Membangun Paket di lingkungan Pbuilder
 sudo apt-get install devscripts build-essential fakeroot debhelper gnupg
 pbuilder pdebuild-cross dh-make dpkg-dev ubuntu-dev-tools qemu-user-static
@@ -10,9 +13,10 @@ Defaults        env_reset,env_keep="DIST ARCH"
 Tambahkan di konfigurasi sudo
 Cmnd_Alias  PBUILDER = /usr/sbin/pbuilder, /usr/bin/pdebuild, /usr/bin/debuild-
 pbuilder
-<your user>  ALL=(ALL) SETENV: NOPASSWD: PBUILDER
+`<your user>`  ALL=(ALL) SETENV: NOPASSWD: PBUILDER
 #### Berkas konfigurasi pbuilder
 sudo vim /etc/pbuilderrc
+```
 # Codenames for Debian suites according to their alias. Update these when
 # needed.
 UNSTABLE_CODENAME="sid"
@@ -93,12 +97,16 @@ export CONCURRENCY_LEVEL
 #echo used cpus:    $CONCURRENCY_LEVEL
 # Option to pass to apt-get always.
 export APTGETOPT=(--force-yes)
+
 # Option to pass to aptitude always.
 export APTITUDEOPT=(--force-yes)
+
 # make debconf not interact with user
 export DEBIAN_FRONTEND="noninteractive"
+
 # SHELL variable is used inside pbuilder by commands like 'su'; and they need
 sane values
+
 #export SHELL=/bin/bash
 if $(echo ${DEBIAN_SUITES[@]} | grep -q $DIST); then
     # Debian configuration
@@ -116,25 +124,23 @@ else
     echo "Unknown distribution: $DIST"
     exit 1
 fi
+
 # info output
 echo "I: Used distribution is ${DIST}."
 echo "I: Build architecture is ${ARCH}."
 echo "I: Used cpus for building: ${CONCURRENCY_LEVEL}."
+```
 #### Buat pbuilder base
+```
 sudo DIST=tambora ARCH=amd64 pbuilder create
 atau armhf
 sudo DIST=tambora ARCH=armhf pbuilder create
+```
 #### Update base
+```
 sudo DIST=tambora ARCH=amd64 pbuilder update --override-config
+```
 #### Bangun paket
+```
 sudo DIST=tambora ARCH=amd64 pbuilder build nama-paket.dsc
-Last_modified 7 months ago Last modified on 10/08/2016 10:07:14 PM
-#### 
-    
- 
- 
- 
- 
- 
----
- 
+```

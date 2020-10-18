@@ -1,4 +1,6 @@
-# Catatan Rilis BlankOn Jahitan 1
+---
+title: Rote
+---
 
 BlankOn 8.0 "Rote" telah tersedia, Rilis ini ditujukan untuk dievaluasi pada saat pengembangan.
 

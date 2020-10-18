@@ -34,7 +34,7 @@ $ Kode dengan karakter khusus
 [Tautan](https://blankon.github.io/wiki/)
 
 > Kutipan
-![Gambar](dev.blankonlinux.or.id/raw-attachment/wiki/Misi/buatan-indonesia.png)
+![Gambar](https://dev.blankonlinux.or.id/raw-attachment/wiki/Misi/buatan-indonesia.png)
 
 ***
 Daftar

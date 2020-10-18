@@ -83,5 +83,3 @@ deb-src http://arsip.blankonlinux.or.id/blankon/ uluwatu main restricted extras 
 deb-src http://arsip.blankonlinux.or.id/blankon/ uluwatu-updates main restricted extras extras-restricted
 deb-src http://arsip.blankonlinux.or.id/blankon/ uluwatu-security main restricted extras extras-restricted
 ```
-
-Last updated 2012-07-01 01:32:28

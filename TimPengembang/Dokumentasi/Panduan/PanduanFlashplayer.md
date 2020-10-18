@@ -7,7 +7,7 @@ Sebelum memasang Plugin Flashplayer pada Browser silakan unduh terlebih dulu
 get.adobe.com/flashplayer/?no_redirect pilih yang “tar.gz for other linux” klik
 tombol panah yang mengarah ke bawah pada “Select Version to download” untuk
 bisa memilih jenis dan versinya
-![](/raw-attachment/wiki/Dokumentasi/Panduan/Aksesoris/Flashplayer/1.install_Flashplayer.png)
+`![](/raw-attachment/wiki/Dokumentasi/Panduan/Aksesoris/Flashplayer/1.install_Flashplayer.png)`
 
 Setelah proses pengunduhan selesai klik kanan pada berkas tersebut pilih
 “Ekstrak Di Sini” masuk kedalam folder "install_flash_player_11_linux.i386"

@@ -1,4 +1,6 @@
-# BlanKoding 2013
+---
+title: BlanKoding 2013
+---
 
 ## Daftar Isi
  * [BlanKoding 2013 Suroboyo](#blankoding-2013-suroboyo)
@@ -49,8 +51,6 @@ Peserta harus memiliki kompetensi:
    * bahasa pemrograman Vala
    * HTML5
 
-Last modified on 06/20/2013 09:14:42 AM
-
 ---
 ## BlanKoding 2013 BlackBerry
 Selain [BlanKoding 2013 Suroboyo](#blankoding-2013-suroboyo), pada tahun 2013 diadakan juga BlanKoding BlackBerry
@@ -93,7 +93,3 @@ Jika Anda berminat menjadi sponsor tambahan kegiatan ini silakan hubungi humas@â
 
 ## Acara berikutnya
 Jika berminat menyelenggarakan acara serupa di kota Anda silakan isi formulir ini
-
-Last modified on 06/20/2013 02:47:02 AM
-
-

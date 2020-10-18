@@ -301,7 +301,7 @@ distro BlankOn Linux :
 Last modified on 08/19/2011 10:32:22 PM
 
 #### Attachments (1)
-  * Panduan-7-Bab1.odt​ (49.0 KB) - added by agus purnomo <guspur> 6 years
+  * Panduan-7-Bab1.odt​ (49.0 KB) - added by agus purnomo `<guspur>` 6 years
       ago.
 
  

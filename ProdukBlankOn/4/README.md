@@ -1,4 +1,6 @@
-# BlankOn 4
+---
+title: Meuligoe
+---
 
 * Nama Kode: **Meuligoe**
   Cara baca: maa ligo

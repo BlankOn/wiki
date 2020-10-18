@@ -5,7 +5,7 @@ raw-attachment/wiki/Dokumentasi/Panduan/Grafik/Inkscape/Bab2/Maju.png]
 Text dan path dapat dipadukan menjadi sebuah kombinasi desain text yang unik
 dan menarik. Cara ini biasanya digunakan untuk membuat tulisan pada logo.
 #### 6.2.1. Put on path
-Inkscape memiliki dukungan untuk elemen SVG <textPath>. yang memungkinkan
+Inkscape memiliki dukungan untuk elemen SVG `<textPath>`. yang memungkinkan
 menempatkan teks pada path (jalur) sehingga teks mengikuti bentuk path, namun
 teks sepenuhnya tetap dapat diedit (termasuk tanda baca, spasi dan huruf yang
 ada dalam teks). Berikut contoh penggunaan fitur Put on path:

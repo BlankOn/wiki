@@ -1,4 +1,6 @@
-# Akses
+---
+title: Akses
+---
 
 Akses = access
 

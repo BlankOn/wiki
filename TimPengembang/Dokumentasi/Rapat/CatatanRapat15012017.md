@@ -3,7 +3,7 @@
 
 ## ============================= Rapat pasca rilis tambora 2017 dimulai =================================
 
-
+```log
 20:12<princeofgiri>======================== rapat pasca rilis tambora 2017 dimulai ===============================================
 20:12<princeofgiri>selamat malam bapak-bapak
 20:12<antosamalona>malam pak
@@ -462,3 +462,4 @@
 21:43<antosamalona>pamiit juga pak bapak
 
 ## ===================== Rapat Ditutup =============================
+```

@@ -1,5 +1,6 @@
 # Rapat Konsolidasi & Evaluasi Website (oleh Humas)
 
+```log
 ## ================= Rapat dimulai =================
 
 selamat datang pak istana (Sokhibi)
@@ -183,3 +184,4 @@ selamat datang pak istana (Sokhibi)
 
 
 ## ================== Rapat ditutup ===================
+```

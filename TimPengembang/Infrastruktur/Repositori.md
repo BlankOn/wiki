@@ -50,8 +50,10 @@ cd $CONF
 reprepro remove DIST NAMA_PAKET
 
 ### Inisialisasi repositori saat membuat rilis baru
+```bash
 cd $CONF
 reprepro pull <nama-distro-asal>
+```
 
 ### Perawatan
 Digunakan untuk menjaga/mengecek repository
@@ -69,9 +71,3 @@ Codename: nanggar
 Suite: nanggar
 ....
 ReadOnly: Yes  <----------
-
-Last modified on 10/10/2011 08:08:51 PM
- 
----
- 
-

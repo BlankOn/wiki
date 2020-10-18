@@ -1,5 +1,5 @@
 # Panduan Menulis Wiki
-+ [Gunakanlah Bahasa Indonesia yang baik dan benar]()
++ [Gunakanlah Bahasa Indonesia yang baik dan benar](/)
 + [Gunakalah Istilah komputer dalam Bahasa Indonesia](/Dokumentasi/Panduan/PanduanPembakuanIstilahKomputer.md)
 + [Gunakanlah format Markdown](/Dokumentasi/Panduan/FormatMarkdown.md) 
 + [Kirim tulisan Anda ke wiki BlankOn di Github](#panduan-menulis-wiki-pada-github)
@@ -10,7 +10,7 @@
     + Setiap awal kata pada judul ditulis dengan huruf kapital
 
   + **Penulisan Isi**
-    + Tulisan yang cukup panjang perlu dilengkapi dengan [daftar isi](wiki/TimPengembang/Dokumentasi/Panduan/FormatMarkdown.md#format-daftar-isi).
+    + Tulisan yang cukup panjang perlu dilengkapi dengan [daftar isi](/TimPengembang/Dokumentasi/Panduan/FormatMarkdown.md#format-daftar-isi).
     + Beberapa kesalahan kecil yang perlu dihindari;
       * Awalan 'di' ditulis menyatu dengan kata kerja.
         Contoh **ditulis** bukan dipisah menjadi ~~di tulis~~

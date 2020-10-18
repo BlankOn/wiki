@@ -64,7 +64,7 @@ Profesional IT, kalangan pendidikan, pelajar dan pemerintahan
   * Tas BlanKonf
 Last modified on 01/26/2011 06:15:23 PM
 #### Attachments (1)
-  * sampul-proposal.jpg​ (49.0 KB) - added by arman satari <armansatari> 6
+  * sampul-proposal.jpg​ (49.0 KB) - added by `arman satari <armansatari>` 6
       years ago. Draft Sampul Proposal
 
 #### 

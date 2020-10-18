@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
-  organizationName: 'BlankOn', // Usually your GitHub org/user name.
-  projectName: 'wiki', // Usually your repo name.
+  organizationName: 'kudaliar032', // Usually your GitHub org/user name.
+  projectName: 'blankon-wiki', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'BlankOn',

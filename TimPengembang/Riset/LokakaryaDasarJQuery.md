@@ -1,10 +1,11 @@
-# Catatan Percakapan BlankOn Riset 1 Oktober 2012
+---
+title: Catatan Percakapan BlankOn Riset 1 Oktober 2012
+---
 
 Lokakarya Dasar-dasar jQuery
 
-
+```log
 Conversation with #blankon-riset
-
 (08:12:20 PM) princeofgiri: mulai saja
 (08:12:25 PM) princeofgiri: yang ikut di sini ntar kasih PR
 (08:12:26 PM) princeofgiri: :D
@@ -587,18 +588,4 @@ faraid?
 (11:16:50 PM) mijortsa: wehehe lagi bulan madu
 (11:16:57 PM) setiaji left the room.
 (11:17:02 PM) Rabitya left the room.
-Last modified on 10/02/2012 12:15:14 AM
-#### 
-    
-
-
-
-
-
-
-
----
- 
-
-
-
+```

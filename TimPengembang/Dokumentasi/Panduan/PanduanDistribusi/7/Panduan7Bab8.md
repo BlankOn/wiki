@@ -108,7 +108,7 @@ Free/Glasso? select tool F
 Fuzzy/Magic? select tool U
 Select by color          Shift+O
 Scissors select tool     I
-Foreground select tool   <tidak ada>
+Foreground select tool   `<tidak ada>`
 Paths tool               B
 Color picker             O
 Zoom tool                Z
@@ -131,7 +131,7 @@ Airbrush Tool            A
 Ink tool                 K
 Clone tool               C
 Healing tool             H
-Perspective clone tool   <tidak ada>
+Perspective clone tool   `<tidak ada>`
 Burn/Sharpen? Tool       Shift+U
 Smudge tool              S
 Dodge/Burn? tool         Shift+D
