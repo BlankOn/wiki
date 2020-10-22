@@ -20,7 +20,7 @@ Copyright:
 (c) 2001-2007 Pemegang hak cipta
 
 License:
-<Ganti dengan isi lisensi yang dipergunakan aplikasi tersebut>
+`<Ganti dengan isi lisensi yang dipergunakan aplikasi tersebut>`
     * Contoh:
       This package was debianized by Guilherme de S. Pastore
       <gpastore@colband.com.br> on
@@ -60,7 +60,3 @@ License:
 
 
 ---
- 
-
-
-

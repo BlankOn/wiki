@@ -10,6 +10,7 @@ Tempat: with #blankon-riset
 
 Bahan bacaan: http://fitraditya.files.wordpress.com/2012/10/kelas_daring_blankon_jquery.pdf
 
+```log
 (08:12:20 PM) princeofgiri: mulai saja
 (08:12:25 PM) princeofgiri: yang ikut di sini ntar kasih PR
 (08:12:26 PM) princeofgiri: :D
@@ -23,7 +24,7 @@ Bahan bacaan: http://fitraditya.files.wordpress.com/2012/10/kelas_daring_blankon
 (08:13:36 PM) dotovr: wah PR nya ntar tak kasih ke icik2 :D
 (08:13:46 PM) Rabitya: princeofgiri: boleh deh
 (08:13:52 PM) princeofgiri: :D
-(08:14:03 PM) Rabitya: itu untuk PR sudah saya siapin di halaman belakang yang studi kasus 
+(08:14:03 PM) Rabitya: itu untuk PR sudah saya siapin di halaman belakang yang studi kasus
 (08:14:04 PM) Rabitya: :D
 (08:14:16 PM) icik2: id ngintip pak, pakai icik2
 (08:14:27 PM) princeofgiri: Rabitya, berarti yang disini harus ngerjakan PR
@@ -631,11 +632,4 @@ faraid?
 (11:16:50 PM) mijortsa: wehehe lagi bulan madu
 (11:16:57 PM) setiaji left the room.
 (11:17:02 PM) Rabitya left the room.
-Last modified on 10/02/2012 12:15:14 AM
-
-
-
-
-
-
-
+```

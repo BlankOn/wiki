@@ -2,7 +2,7 @@
 
 Lokakarya Dasar-dasar jQuery
 
-
+```
 Conversation with #blankon-riset
 
 (08:12:20 PM) princeofgiri: mulai saja
@@ -171,7 +171,7 @@ menggunakan jQuery
 (09:24:55 PM) Rabitya: secara popularitas, jQuery lebih populer dibandingkan dengan javascript lainnya, misalnya prototype, mootools, YUI, dan sebagainya
 (09:25:30 PM) Rabitya: selain itu juga, ukuran berkas jQuery lebih kecil dibandingkan dengan sejenisnya
 (09:25:33 PM) fbrn [~aris@202.152.204.186] entered the room.
-(09:25:51 PM) Rabitya: kalau google dan microsoft saja pakai jQuery, masa 
+(09:25:51 PM) Rabitya: kalau google dan microsoft saja pakai jQuery, masa
 BlankOn gak mau pakai juga
 (09:25:52 PM) Rabitya: :)
 (09:26:33 PM) Rabitya: bagaimana cara kerja jQuery
@@ -587,18 +587,4 @@ faraid?
 (11:16:50 PM) mijortsa: wehehe lagi bulan madu
 (11:16:57 PM) setiaji left the room.
 (11:17:02 PM) Rabitya left the room.
-Last modified on 10/02/2012 12:15:14 AM
-#### 
-    
-
-
-
-
-
-
-
----
- 
-
-
-
+```

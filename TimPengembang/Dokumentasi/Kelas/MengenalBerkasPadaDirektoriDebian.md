@@ -1,9 +1,9 @@
 # Mengenal Berkas-berkas Pada Direktori Debian
 
-Direktori debian merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, copyright dan rules. 
+Direktori debian merupakan direktori khas distro debian/turunannya yang ditambahkan pada file sumber sebagai metadata dalam pembuatan paket. Direktori debian terdiri dari banyak file, file yang wajib ada adalah: changelog, control, copyright dan rules.
 
 #### Persiapan
-1. Buat identitas pemaket 
+1. Buat identitas pemaket
 		$ vim .bashrc
 
 (tambahkan pada akhir baris:)
@@ -12,7 +12,7 @@ export DEBEMAIL="joe.hacker@isp.com" (sesuaikan dengan e-mail Anda)
 
 		$ source .bashrc
 
-2. Install paket-paket yang dibutuhkan 
+2. Install paket-paket yang dibutuhkan
 		$ sudo apt-get install build-essential devscripts debhelper dh-make fakeroot lintian gnupg
 
 build-essensial: paket meta yang akan menginstall paket-paket dasar yang dibutuhkan untuk development kaya gcc, make, libc6-dev, dpkg-dev, dll.
@@ -23,7 +23,7 @@ lintian: nah ini nih si tukang ngecek paket apakah sudah sesuai tidak dengan
 gnupg: dibutuhkan untuk menandatangi paket debian
 fakeroot: biar bisa ngompail tanpa akses root sebenernya
 
-3. Buat gpg key 
+3. Buat gpg key
 > $ gpg --gen-key
 
 Real name: Joe Hacker
@@ -32,7 +32,7 @@ Passphrase: paswordpercobaanjanganditiru
 
 FYI di debian dan ubuntu setiap paket yang akan dikirim ke pabrik paket perlu ditandatangani oleh pemaket, nanti robot pabrik akan ngecek apakah tandatanganya benar2 milik anda. klo sudah beres HARAP BACKUP direktori .gnupg ke tempat yg aman karena kunci gpg adalah satu-satunya identitas Anda agar dapat dikenal oleh irgsh
 
-4. Download paket yang akan dijadikan contoh pada lokakarya ini. letakkan pada direktori tertentu 
+4. Download paket yang akan dijadikan contoh pada lokakarya ini. letakkan pada direktori tertentu
 > $ mkdir -p lokakarya
 $ cd lokakarya
 $ wget http://cecunguk.blankonlinux.or.id/~imtheface/lokakarya/jao-theme-1.8.tar.gz
@@ -42,7 +42,7 @@ $ ls
 
 Terlihat masih belum ada direktori debian. Untuk dapat membuat paket debian dari jao, maka kita perlu mendebiankan kode sumber jao-theme dengan menambahkan direktori debian beserta isi-isinya. File-file tersebut bisa dibuat manual tapi alangkah enaknya jika dibuat secara otomatis menggunakan bantuan dh-make.
 
-    Buat direktori debian dengan menggunakan dh_make 
+    Buat direktori debian dengan menggunakan dh_make
 
 $ dh_make -c gpl -f ../jao-theme-1.8.tar.gz
 Type of package: single binary, multiple binary, library, kernel module or cdbs?
@@ -55,7 +55,7 @@ Package Name    : jao-theme
 Version         : 1.8
 License         : gpl
 Type of Package : Single
-Hit <enter> to confirm: 
+Hit `<enter>` to confirm:
 Done. Please edit the files in the debian/ subdirectory now. jao-theme
 uses a configure script, so you probably don't have to edit the Makefiles.
 
@@ -76,12 +76,12 @@ Standards-Version: 3.7.2
 Package: jao-theme
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: `<insert up to 60 chars description>`
+ `<insert long description, indented with spaces>`
 
 Isi control itu terdiri dari 2 bagian:
 
-    Bagian source 
+    Bagian source
 
 Source: nama-paket
 
@@ -97,15 +97,15 @@ Build-Depends: Paket yg dibutuhkan untuk membuat paket tersebut.
 
 Bagaimana cari tahu isinya build-depends?
 
-    liat README 
+    liat README
 
-    tanya pengelola/pembuat 
+    tanya pengelola/pembuat
 
-    liat Makefile.am 
+    liat Makefile.am
 
 Standars-Version: Versi dari dh-make yang digunakan
 
-    Bagian binary 
+    Bagian binary
 
 Bagian binary bisa menghasilkan 1 macam paket atau lebih tergantung kebutuhan, kadang-kadang paket sumber kita perlu pecah jadi beberapa paket binary. contohnya seperti OpenOfficeorg?, kenapa harus dipecah OOo? agar kita bisa pilih paket2 mana saja yg ingin kita install sesuai kebutuhan. klo cuman butuh OOo writer aja buat apa harus install seluruh paket OOo, makanya lebih baik dipecah saja. klo jao-theme sih gak perlu dipecah2.
 
@@ -170,7 +170,7 @@ PACKAGE (VERSION) UNRELEASED; urgency=low
 
 Secara umum file changelog terdiri dari 3 bagian:
 
-    Bagian atas 
+    Bagian atas
 
 PACKAGE: isi dengan nama paket kode sumber (jao-theme)
 
@@ -186,7 +186,7 @@ urgency: menunjukkan seberapa penting kan update yg kita lakukan
 
 bisa diisi dengan: urgency: pilihannya low, medium, high, emergency, critical
 
-    Bagian tengah 
+    Bagian tengah
 
 isinya ini deskripsi perubahan yg kita lakukan di paket tsb, isi deskripsi yg baik itu harus dapat menjelaskan apa-apa saja yg kita ubah dan alasannya kenapa? contoh yang baik lihat di: ​http://dev.blankonlinux.or.id/browser/meuligoe/gdm/debian/changelog.ubuntu
 
@@ -194,9 +194,9 @@ contoh: sekarang coba edit file AUTHORS lalu tambah authors di situ Tim Artis Bl
 
 karena kita mengubah sesuatu di berkas debian, maka perubahan itu harus ditulis di changelog bagian tengah
 
-    AUTHORS: Tambah author Tim Artis BlankOn <BlankOn@googlegroup.com> 
+    AUTHORS: Tambah author Tim Artis BlankOn <BlankOn@googlegroup.com>
 
-    Bagian terakhir 
+    Bagian terakhir
 
 bagian bawah isinya itu info tentang siapa yg mengubah paket ini, dan tanggal berapa diubahnya. nama (alamat email) itu diambil dari parameter DEBFULLNAME dan DEBEMAIL yg kita set tadi.
 
@@ -204,7 +204,7 @@ sehingga changelog menjadi:
 
 jao-theme (1.8-1) meuligoe; urgency=low
 
-  * Initial release. 
+  * Initial release.
   * AUTHORS: Tambah author Tim Artis BlankOn <BlankOn@googlegroup.com>
 
  -- Joe Hacker <joe.hacker@isp.com>  Wed, 13 Nov 2008 22:45:09 +0700
@@ -266,13 +266,13 @@ File rules itu file Makefile untuk paket debian kira2 fungsinya sama dengan file
 Selain menggunakan debhelper, ada juga script lain untuk membuat rules. namanya cdbs (common debian build system).
 Membangun paket
 
-    Hapus file-file di direktori debian selain control, changelog, rules, copyright (tidak dihapus juga tidak apa-apa) 
+    Hapus file-file di direktori debian selain control, changelog, rules, copyright (tidak dihapus juga tidak apa-apa)
 
 $ pwd
 debian
 $ rm *.ex *.EX
 
-    Kembali ke direktori jao-theme, lalu jalankan: 
+    Kembali ke direktori jao-theme, lalu jalankan:
 
 $ pwd
 jao-theme-1.8
@@ -285,7 +285,7 @@ dpkg-genchanges: including full source code in upload
 dpkg-buildpackage: full upload (original source is included)
 (WARNING: Failed to sign .dsc and .changes file)
 
-    Abaikan saja WARNING diatas. maka akan terbentuk file-file: 
+    Abaikan saja WARNING diatas. maka akan terbentuk file-file:
 
 jao-theme_1.8-1_all.deb
 jao-theme_1.8-1_amd64.changes
@@ -300,4 +300,4 @@ oiya...ada PRnya juga:
 
 ​http://www.debian.org/doc/maint-guide/
 
-​http://www.debian.org/doc/developers-reference/ 
+​http://www.debian.org/doc/developers-reference/

@@ -1,5 +1,6 @@
 # Log Kelas Pemaket 2007 18 23
 
+```log
 (03:35:06 PM) mdamt: Yg penting sekarang agenda 1.
 (03:35:20 PM) mdamt: Agenda 2 bisa dilanjutkan dgn baca2 halaman wiki.
 (03:35:28 PM) mdamt: Kalau yg 1 kan harus bersepakat.
@@ -437,13 +438,4 @@ dulu
 (04:51:06 PM) imtheface: mau dibenerin dulu
 (04:51:11 PM) imtheface: :)
 (04:52:23 PM) takdir: kalo gitu tunggu mdamt dulu ... review hasilnya semua
-
-KategoriLog KategoriPemaket
-Last modified on 06/28/2008 01:11:37 AM
-#### 
-    
-
-
-
-
-
+```

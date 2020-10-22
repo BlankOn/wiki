@@ -41,13 +41,13 @@ Untuk Tajuk 2 kita juga dapat menggunakan tanda ___ yang diletakkan pada baris b
 
 Berikut adalah tangkapan layar aplikasi Haroopad
 
-![Tajuk](/wiki/Assets/Images/Markdown/Tajuk.png)
+![Tajuk](/Assets/Images/Markdown/Tajuk.png)
 
 ----
 
 ### Format Karakter
  + Untuk membuat karakter tebal, tambahkan dua tanda bintang pada awal dan akhir karakter.
-  Contoh: **\*** **\***Tebal**\*** **\*** 
+  Contoh: **\*** **\***Tebal**\*** **\***
 
   Tampilan **Tebal**
  + Untuk membuat karakter miring, tambahkan dua tanda bintang pada awal dan akhir karakter.
@@ -70,7 +70,7 @@ Berikut adalah tangkapan layar aplikasi Haroopad
 
 ---
 Berikut adalah tangkapan layar aplikasi Haroopad
-![](/wiki/Assets/Images/Markdown/Karakter.png)
+![](/Assets/Images/Markdown/Karakter.png)
 
 ### Format Tautan
 ---
@@ -132,7 +132,7 @@ Produk BlankOn
   * BanKonf 1
   * BanKonf 2
 
-![Tangkapan Layar Pada Haroopad](/wiki/Assets/Images/Markdown/Daftar.png)
+![Tangkapan Layar Pada Haroopad](/Assets/Images/Markdown/Daftar.png)
 
 ### Format Tabel
 ---
@@ -184,11 +184,11 @@ Untuk menyusun daftar isi secara mudah dapat mengunakan [gh-md-toc](https://gith
 \!\[teks alternatif](alamat gambar)"Kapsi"
 
 **Contoh:**
-\!\[Boni](/wiki/Assets/Images/Boni.png)"Maskot BlankOn"
+\!\[Boni](/Assets/Images/Boni.png)"Maskot BlankOn"
 \!\[logo](http://wiki.ubuntu-id.org/BlankOn/Artwork?action=AttachFile&do=get&target=blankon2007logo.png)
 
 **Tampilan:**
-![Boni](/wiki/Assets/Images/Boni.png)"Maskot BlankOn"
+![Boni](/Assets/Images/Boni.png)"Maskot BlankOn"
 ![logo](http://wiki.ubuntu-id.org/BlankOn/Artwork?action=AttachFile&do=get&target=blankon2007logo.png)
 
 ### Sisip Gambar Dengan Referensi
@@ -198,11 +198,11 @@ Untuk menyusun daftar isi secara mudah dapat mengunakan [gh-md-toc](https://gith
 
 **Contoh:**
 \!\[Boni][3]
-\[3]:(/wiki/Assets/Images/Boni.png)"Maskot BlankOn"
+\[3]:(/Assets/Images/Boni.png)"Maskot BlankOn"
 
 **Tampilan:**
 ![Boni][3]
-[3]:(/wiki/Assets/Images/Boni.png)"Maskot BlankOn"
+[3]:(/Assets/Images/Boni.png)"Maskot BlankOn"
 
 ### Format Menyisipkan Kode
 Untuk menyisipkan kode, kita dapat menggunakan sepasang tanda petik untuk mengapit kode yang disisipkan.
@@ -227,4 +227,3 @@ Ini bukan kutipan
 >ini kutipan
 
 Ini bukan kutipan
-

@@ -22,6 +22,7 @@ Tugas secara umum Lihat di ProsesRilis/Tugas
 
 ## Templat catatan rilis
 ### Jahitan
+```
 <Nama Kode> Jahitan <nomor-jahitan>
 
 <Kata pengantar>
@@ -32,8 +33,10 @@ Tugas secara umum Lihat di ProsesRilis/Tugas
 
 Atas nama Tim BlankOn
 <Nama wakil tim rilis>
+```
 
 ### Rilis Beta
+```
 Blankon <nomor-versi> Beta
 
 <Kata Pengantar>
@@ -52,8 +55,10 @@ Blankon <nomor-versi> Beta
 
 Atas nama Tim BlankOn
 <Nama wakil tim rilis>
+```
 
 ### Rilis
+```
 Blankon <nomor-versi>
 
 <Kata Pengantar>
@@ -72,6 +77,7 @@ Blankon <nomor-versi>
 
 Atas nama Tim BlankOn
 <Nama wakil tim rilis>
+```
 
 NB : Dan Setiap Ada Rilis Harap Mempublikasikan melalui Facebook, Plurk,
 Twitter
@@ -81,12 +87,3 @@ Last modified on 03/17/2011 10:19:43 PM
 ## Attachments (2)
     * proses-rilis.png​ (21.3 KB) - added by mdamt 8 years ago.
     * proses-rilis.svg​ (10.9 KB) - added by mdamt 8 years ago.
-
-
-
-
----
- 
-
-
-

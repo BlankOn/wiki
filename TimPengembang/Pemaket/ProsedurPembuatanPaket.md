@@ -13,7 +13,7 @@ Pemaket sudah:
 ## Lokasi Paket
 Paket disimpan dalam gudang kode di bawah kendali blankon-pemaket. Lokasi
 utamanya adalah: http://bazaar.launchpad.net/~blankon-pemaket/blankon/<nama-
-paket>. Lokasi ini disebut juga dengan *cabang utama*. Jadi tiap-tiap paket
+paket\>. Lokasi ini disebut juga dengan *cabang utama*. Jadi tiap-tiap paket
 memiliki cabang utama sendiri-sendiri.
 
 ## Jenis paket
@@ -104,4 +104,3 @@ KategoriPemaket
 Last modified on 08/05/2010 10:21:28 PM
 
 ---
- 

@@ -1,16 +1,14 @@
 # Glosarium
 
-Halaman ini berisi daftar glosarium istilah yang diterjemahkan dari bahasa asing
-ke bahasa indonesia. Diharapkan dengan adanya glosarium ini akan mempermudah 
-pemahaman istilah yang ada pada sistem operasi BlankOn 
+Halaman ini berisi daftar glosarium istilah yang diterjemahkan dari bahasa asing ke bahasa indonesia. Diharapkan dengan adanya glosarium ini akan mempermudah pemahaman istilah yang ada pada sistem operasi BlankOn
 
 
-### A
+## A
 
    * [ Akses ](/wiki/Lainnya/DaftarGlosarium/Akses.md)
    * [ Akun ](/wiki/Lainnya/DaftarGlosarium/Akun.md)
    * [ Algoritma ](/wiki/Lainnya/DaftarGlosarium/Algoritma.md)
-   * [ Alih ](/wiki/Lainnya/DaftarGlosarium/Alih.md) 
+   * [ Alih ](/wiki/Lainnya/DaftarGlosarium/Alih.md)
    * [ Animasi ](/wiki/Lainnya/DaftarGlosarium/Animasi.md)
    * [ Anonim ](/wiki/Lainnya/DaftarGlosarium/Anonim.md)
    * [ Antarmuka ](/wiki/Lainnya/DaftarGlosarium/Antarmuka.md)
@@ -20,7 +18,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Atribut ](/wiki/Lainnya/DaftarGlosarium/Atribut.md)
    * [ Awakutu ](/wiki/Lainnya/DaftarGlosarium/Awakutu.md)
 
-### B
+## B
 
    * [ Bagan ](/wiki/Lainnya/DaftarGlosarium/Bagan.md)
    * [ Balasan ](/wiki/Lainnya/DaftarGlosarium/Balasan.md)
@@ -46,7 +44,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Bulet ](/wiki/Lainnya/DaftarGlosarium/Bulet.md)
    * [ Button ](/wiki/Lainnya/DaftarGlosarium/Button.md)
 
-### C
+## C
 
    * [ Cacah ](/wiki/Lainnya/DaftarGlosarium/Cacah.md)
    * [ Cadangan ](/wiki/Lainnya/DaftarGlosarium/Cadangan.md)
@@ -59,7 +57,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Citra ](/wiki/Lainnya/DaftarGlosarium/Citra.md)
    * [ Ciutkan ](/wiki/Lainnya/DaftarGlosarium/Ciutkan.md)
 
-### D
+## D
 
    * [ Daftar Surel ](/wiki/Lainnya/DaftarGlosarium/DaftarSurel.md)
    * [ Daring ](/wiki/Lainnya/DaftarGlosarium/Daring.md)
@@ -71,15 +69,15 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Direktori ](/wiki/Lainnya/DaftarGlosarium/Direktori.md)
    * [ Dorong ](/wiki/Lainnya/DaftarGlosarium/Dorong.md)
 
-### E
+## E
 
    * [ Ekstensi ](/wiki/Lainnya/DaftarGlosarium/Ekstensi.md)
    * [ Enkripsi ](/wiki/Lainnya/DaftarGlosarium/Enkripsi.md)
    * [ Eternet ](/wiki/Lainnya/DaftarGlosarium/Eternet.md)
 
-### F
+## F
 
-### G
+## G
 
    * [ Gabung ](/wiki//Lainnya/DaftarGlosarium/Gabung.md)
    * [ Galat ](/wiki//Lainnya/DaftarGlosarium/Galat.md)
@@ -94,7 +92,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Gugurkan ](/wiki//Lainnya/DaftarGlosarium/Gugurkan.md)
    * [ Gugus ](/wiki//Lainnya/DaftarGlosarium/Gugus.md)
 
-### H
+## H
 
    * [ Hak Akses ](/wiki//Lainnya/DaftarGlosarium/HakAkses.md)
    * [ Hak Cipta ](/wiki//Lainnya/DaftarGlosarium/HakCipta.md)
@@ -104,12 +102,12 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Hipertaut ](/wiki//Lainnya/DaftarGlosarium/Hipertaut.md)
    * [ Huruf ](/wiki//Lainnya/DaftarGlosarium/Huruf.md)
 
-### I
+## I
 
    * [ Impor ](/wiki//Lainnya/DaftarGlosarium/Impor.md)
    * [ Italik ](/wiki//Lainnya/DaftarGlosarium/Italik.md)
 
-### J
+## J
 
    * [ Jalan ](/wiki//Lainnya/DaftarGlosarium/Jalan.md)
    * [ Jalur ](/wiki//Lainnya/DaftarGlosarium/Jalur.md)
@@ -120,7 +118,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Jendela ](/wiki//Lainnya/DaftarGlosarium/Jendela.md)
    * [ Jurik ](/wiki//Lainnya/DaftarGlosarium/Jurik.md)
 
-### K
+## K
 
    * [ Kabur ](/wiki//Lainnya/DaftarGlosarium/Kabur.md)
    * [ Kacing Kapital ](/wiki//Lainnya/DaftarGlosarium/KacingKapital.md)
@@ -154,7 +152,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Kurung Lengkung ](/wiki//Lainnya/DaftarGlosarium/KurungLengkung.md)
    * [ Kutu ](/wiki//Lainnya/DaftarGlosarium/Kutu.md)
 
-### L
+## L
 
    * [ Lacak Balik ](/wiki//Lainnya/DaftarGlosarium/LacakBalik.md)
    * [ Laman ](/wiki//Lainnya/DaftarGlosarium/Laman.md)
@@ -168,7 +166,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Luncur ](/wiki//Lainnya/DaftarGlosarium/Luncur.md)
    * [ Luring ](/wiki//Lainnya/DaftarGlosarium/Luring.md)
 
-### M
+## M
 
    * [ Macet ](/wiki//Lainnya/DaftarGlosarium/Macet.md)
    * [ Makro ](/wiki//Lainnya/DaftarGlosarium/Makro.md)
@@ -187,16 +185,16 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Muat Ulang ](/wiki//Lainnya/DaftarGlosarium/MuatUlang.md)
    * [ Mulai Ulang ](/wiki//Lainnya/DaftarGlosarium/MulaiUlang.md)
 
-### N
+## N
 
    * [ Nama Pengguna ](/wiki//Lainnya/DaftarGlosarium/NamaPengguna.md)
 
-### O
+## O
 
    * [ Opsi ](/wiki//Lainnya/DaftarGlosarium/Opsi.md)
    * [ Otoformat ](/wiki//Lainnya/DaftarGlosarium/Otoformat.md)
 
-### P
+## P
 
    * [ Pamacu ](/wiki//Lainnya/DaftarGlosarium/Pamacu.md)
    * [ Pangkalan ](/wiki//Lainnya/DaftarGlosarium/Pangkalan.md)
@@ -242,9 +240,9 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Purwarupa ](/wiki//Lainnya/DaftarGlosarium/Purwarupa.md)
    * [ Putus Kait ](/wiki//Lainnya/DaftarGlosarium/PutusKait.md)
 
-### Q
+## Q
 
-### R
+## R
 
    * [ Ramban ](/wiki//Lainnya/DaftarGlosarium/Ramban.md)
    * [ Ranah ](/wiki//Lainnya/DaftarGlosarium/Ranah.md)
@@ -258,7 +256,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Rumpi ](/wiki//Lainnya/DaftarGlosarium/Rumpi.md)
    * [ Runut ](/wiki//Lainnya/DaftarGlosarium/Runut.md)
 
-### S
+## S
 
    * [ Salindia ](/wiki//Lainnya/DaftarGlosarium/Salindia.md)
    * [ Sandi ](/wiki//Lainnya/DaftarGlosarium/Sandi.md)
@@ -287,7 +285,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Swafoto ](/wiki//Lainnya/DaftarGlosarium/Swafoto.md)
    * [ Syarat Dan Ketentuan ](/wiki//Lainnya/DaftarGlosarium/SyaratDanKetentuan.md)
 
-### T
+## T
 
    * [ Tagar ](/wiki//Lainnya/DaftarGlosarium/Tagar.md)
    * [ Tajuk ](/wiki//Lainnya/DaftarGlosarium/Tajuk.md)
@@ -308,7 +306,7 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Transliterasi ](/wiki//Lainnya/DaftarGlosarium/Transliterasi.md)
    * [ Tumpak ](/wiki//Lainnya/DaftarGlosarium/Tumpak.md)
 
-### U
+## U
 
    * [ Ulang ](/wiki//Lainnya/DaftarGlosarium/Ulang.md)
    * [ Ulangi ](/wiki//Lainnya/DaftarGlosarium/Ulangi.md)
@@ -319,14 +317,10 @@ pemahaman istilah yang ada pada sistem operasi BlankOn
    * [ Utas Rekam ](/wiki//Lainnya/DaftarGlosarium/UtasRekam.md)
    * [ Utas Ulir ](/wiki//Lainnya/DaftarGlosarium/UtasUlir.md)
 
-### V
+## V
 
-### X
+## X
 
-### Y
+## Y
 
-### Z 
- 
- 
----
- 
+## Z

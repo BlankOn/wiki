@@ -14,19 +14,17 @@ dalam direktori unduh dari ISO tersebut.
 rsync -avzlH --delete-after cdimage.blankonlinux.or.id::blankon/ .
     * ISO jahitan harian blankon cdlive terbaru
 rsync -avz --progress --partial cdimage.blankonlinux.or.id::cdimage/livecd-
-harian/current/<NAMA-CD.iso> .
+harian/current/\<NAMA-CD.iso\> .
     * Seluruh ISO rilis proyek BlankOn
 rsync -avzlH --delete-after cdimage.blankonlinux.or.id::rilis/ .
     * ISO rilis BlankOn
-rsync -avz --progress --partial cdimage.blankonlinux.or.id::rilis/<VERSI>/
-<NAMA-CD.iso> .
+rsync -avz --progress --partial cdimage.blankonlinux.or.id::rilis/\<VERSI\>/
+\<NAMA-CD.iso\> .
 
 **Rsync Racikan BlankOn**
     * ISO jahitan harian racikan BlankOn cdlive terbaru
-rsync -avz --progress --partial cdimage.blankonlinux.or.id::blankon/<NAMA-
-RACIKAN>/current/<NAMA-CD.iso> .
+rsync -avz --progress --partial cdimage.blankonlinux.or.id::blankon/\<NAMA-
+RACIKAN\>/current/\<NAMA-CD.iso\> .
     * ISO rilis BlankOn
-rsync -avz --progress --partial cdimage.blankonlinux.or.id::rilis/<NAMA-
-RACIKAN>/<VERSI>/<NAMA-CD.iso> .
-
-
+rsync -avz --progress --partial cdimage.blankonlinux.or.id::rilis/\<NAMA-
+RACIKAN\>/\<VERSI\>/\<NAMA-CD.iso\> .

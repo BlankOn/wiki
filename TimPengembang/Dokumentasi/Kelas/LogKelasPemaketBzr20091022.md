@@ -1,6 +1,7 @@
 # Log Kelas Pemaket 2009 10 22-23
 
 ## Kelas BZR
+```log
 [22:27:59] <somat1> aftian: mau nyobain bzr gak pak bos ?
 [22:28:07] <aftian> somat1 : iya
 [22:28:22] <somat1> cobain buka terminal
@@ -91,8 +92,4 @@ lxde-l10n-id/[[BR]]
 [22:47:54] <aftian> bzr: ERROR: Connection closed: Unexpected end of message.
 Please check connectivity and permissions, and report a bug if problems
 persist.
-BelumSelesei?
-Last modified on 10/24/2009 07:12:36 PM
-
-
-
+```

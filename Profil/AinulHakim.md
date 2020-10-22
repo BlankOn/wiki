@@ -1,5 +1,5 @@
 # Halaman Ainul Hakim
-![](/raw-attachment/wiki/AinulHakim/ainul_blankon.png)
+`![](/raw-attachment/wiki/AinulHakim/ainul_blankon.png)`
 
 Web/Blog? : ​http://ainul.smartikon.com
 Twitter : mikahlunia
@@ -28,6 +28,5 @@ Last modified on 10/02/2012 06:15:14 PM
     * sajadah-siang.png​ (767.9 KB) - added by ainulhakim 5 years ago.
     * sajadah-malam.png​ (477.7 KB) - added by ainulhakim 5 years ago.
     * sajadah-dinihari.png​ (734.8 KB) - added by ainulhakim 5 years ago.
- 
+
 ---
- 

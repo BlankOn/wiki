@@ -18,6 +18,7 @@
                 # Pembuatan starter page Firefox = Ainul Hakim
           o Deadline 14 hari terhitung setelah rapat.
 ## Log
+```log
 [22:38] <udienz-> apa rapat bisa di mulai????
 [22:38] <AinulHakim> bisa
 [22:38] <udienz-> om alie??
@@ -380,13 +381,4 @@ mingguan, seperti usulan bang alie
 [23:55] <udienz-> oke Rapat Hari sudah selesai.....
 [23:56] * udienz- ketok palu.....
 [23:56] <udienz-> === Rapat Berakhir, Alhamdulillah ====
-
-KategoriDok KategoriLog
-Last modified on 06/16/2008 11:26:00 AM
-
-    
-
-
-
-
-
+```

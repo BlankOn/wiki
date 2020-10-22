@@ -1,5 +1,5 @@
 # Log Kelas Pemaket 20131008
-
+```log
 (08:01:52 PM) mijortsa: sudah waktunya lokakarya daring pemaket debian
 (08:01:55 PM) mijortsa: blankon
 (08:02:03 PM) palsu is now known as kiansantang
@@ -694,16 +694,4 @@ mic-nya bisa saya simpan lagi :D
 TimPengembang#TimPemaket
 (10:07:00 PM) nama|palsu: aftian: harus punya twitter pak ?
 (10:07:24 PM) dotovr: \====================Kelas Pemaketan Debian Di Tutup
-
-============================
-Last modified on 10/08/2013 09:41:42 AM
-#### Attachments (2)
-    * kelas_pemaket_7_Oktober_2013.pdf​ (54.6 KB) - added by mijortsa 4 years
-      ago.
-    * kelas_pemaket_7_Oktober_2013.pdf​ (54.6 KB) - added by mijortsa 4 years
-      ago.
-
-
-
-
-
+```

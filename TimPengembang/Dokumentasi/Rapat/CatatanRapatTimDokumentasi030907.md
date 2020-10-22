@@ -1,4 +1,5 @@
 # Log Rapat Hari Senin 3 September 2007
+```log
 [22:44] <udienzMahyuddin> ==== Rapat Dimulai ====
 [22:45] <udienzMahyuddin> untuk bahasan selain tim doc mohon ke # sebelah
 [22:45] *** ari_stress [n=tiger74@125.161.198.30] has joined #blankon
@@ -460,13 +461,4 @@ pak_ainulHakim, om_alie, om_zahris
 [00:12] <udienzMahyuddin> pak_stSabri yang lewat tadi...
 [00:12] <Ainul> wink
 [00:12] <udienzMahyuddin> moshi moshi.... matur nuwun... bye...
-
-KategoriDok KategoriLog
-Last modified on 06/15/2008 01:52:19 PM
-#### 
-    
-
-
-
-
-
+```

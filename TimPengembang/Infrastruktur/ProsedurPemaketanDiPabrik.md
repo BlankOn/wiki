@@ -28,15 +28,14 @@ Lakukan tahapan berikut pada cabang utama:
 ### Pendaftaran tag
    1. Masuk ke direktori yang baru di luar direktori utama paket. Misalnya /tmp.
    2. Ambil cabang paket-siap-bangun di: ​http://bazaar.launchpad.net/~blankon-pemaket/blankon/paket-siap-bangun. Caranya bzr co http://      bazaar.launchpad.net/~blankon-pemaket/blankon/paket-siap-bangun.
-   3. Sunting berkas daftar-paket.txt yang ada dalam direktori paket-siap-bangun. Isi dengan kode dengan ketentuan bzr<spasi>nama-tag<spasi>url-
-      cabang-utama[<spasi>url-berkas-asli.orig.tar.gz]. Misalnya untuk paket blankon-meta di atas kita isi dengan: bzr blankon-meta_0.0.1-0blankon2 http://bazaar.launchpad.net/~blankon-pemaket/blankon/blankon-meta
+   3. Sunting berkas daftar-paket.txt yang ada dalam direktori paket-siap-bangun. Isi dengan kode dengan ketentuan bzr<spasi\>nama-tag<spasi\>url-
+      cabang-utama[<spasi\>url-berkas-asli.orig.tar.gz]. Misalnya untuk paket blankon-meta di atas kita isi dengan: bzr blankon-meta_0.0.1-0blankon2 http://bazaar.launchpad.net/~blankon-pemaket/blankon/blankon-meta
    4. Simpan dan lakukan bzr commit
-   5. Simpan perubahan ke gudang kode dengan bzr push, misalnya bzr push sftp://<akun-anda>@bazaar.launchpad.net/~blankon-pemaket/blankon/paket-siap-bangun
+   5. Simpan perubahan ke gudang kode dengan bzr push, misalnya bzr push sftp://<akun-anda\>@bazaar.launchpad.net/~blankon-pemaket/blankon/paket-siap-bangun
    6. Pendaftaran selesai.
 
 KategoriInfra
 
 Last modified on 06/17/2008 12:29:05 AM
- 
+
 ---
- 

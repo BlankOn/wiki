@@ -10,9 +10,15 @@ Defaults        env_reset,env_keep="DIST ARCH"
 Tambahkan di konfigurasi sudo
 Cmnd_Alias  PBUILDER = /usr/sbin/pbuilder, /usr/bin/pdebuild, /usr/bin/debuild-
 pbuilder
+
+```
 <your user>  ALL=(ALL) SETENV: NOPASSWD: PBUILDER
+```
+
 #### Berkas konfigurasi pbuilder
 sudo vim /etc/pbuilderrc
+
+```
 # Codenames for Debian suites according to their alias. Update these when
 # needed.
 UNSTABLE_CODENAME="sid"
@@ -120,21 +126,28 @@ fi
 echo "I: Used distribution is ${DIST}."
 echo "I: Build architecture is ${ARCH}."
 echo "I: Used cpus for building: ${CONCURRENCY_LEVEL}."
+```
+
 #### Buat pbuilder base
+
+```
 sudo DIST=tambora ARCH=amd64 pbuilder create
+```
+
 atau armhf
+
+```
 sudo DIST=tambora ARCH=armhf pbuilder create
+```
+
 #### Update base
+
+```
 sudo DIST=tambora ARCH=amd64 pbuilder update --override-config
+```
+
 #### Bangun paket
+
+```
 sudo DIST=tambora ARCH=amd64 pbuilder build nama-paket.dsc
-Last_modified 7 months ago Last modified on 10/08/2016 10:07:14 PM
-#### 
-    
- 
- 
- 
- 
- 
----
- 
+```

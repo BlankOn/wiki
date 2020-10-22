@@ -34,6 +34,8 @@ Dilakukan oleh: ​Tim_Rilis
       (jigdo, torrent)
    3. Mengubah jahitan menjadi rilis ofisial (bukan pengembangan)
    4. Menyiapkan pengumuman rilis:
+
+```
       Blankon <nomor-versi>
 
       <Kata Pengantar>
@@ -52,6 +54,7 @@ Dilakukan oleh: ​Tim_Rilis
 
       Atas nama Tim BlankOn
       <Nama wakil tim rilis>
+```
 
 ## Rilis:
    1. Mengumumkan rilis ke milis-milis yang diperlukan (termasuk milis
@@ -70,7 +73,3 @@ Last modified on 03/31/2009 05:40:36 PM
 
 
 ---
- 
-
-
-

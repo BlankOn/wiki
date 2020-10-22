@@ -1,5 +1,6 @@
 # Log Kelas Pemaket 2010 04 08
 
+```log
 (08:21:25 AM) aftian:
 ==================Bismillahirrohmanirrohim===================
 (08:21:34 AM) \*\*\*Vladislas uh kejam
@@ -407,7 +408,4 @@ yang digunakan untuk membuat kunci?
 (09:38:06 AM) mdamt: Coba ketik ssh bzr@dev.blankonlinux.or.id
 (09:38:06 AM) mdamt: Keluarnya apa?
 (09:38:06 AM) aftian: =======alhamdulliah====================
-Last modified on 04/08/2010 09:34:13 PM
-
-
-
+```

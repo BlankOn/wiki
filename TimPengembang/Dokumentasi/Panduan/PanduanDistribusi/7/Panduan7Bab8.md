@@ -1,4 +1,4 @@
-# Bab 8 Aplikasi Grafis 
+# Bab 8 Aplikasi Grafis
 **Panduan BlankOn Linux 7**
 
 
@@ -108,7 +108,7 @@ Free/Glasso? select tool F
 Fuzzy/Magic? select tool U
 Select by color          Shift+O
 Scissors select tool     I
-Foreground select tool   <tidak ada>
+Foreground select tool   <tidak ada\>
 Paths tool               B
 Color picker             O
 Zoom tool                Z
@@ -131,7 +131,7 @@ Airbrush Tool            A
 Ink tool                 K
 Clone tool               C
 Healing tool             H
-Perspective clone tool   <tidak ada>
+Perspective clone tool   <tidak ada\>
 Burn/Sharpen? Tool       Shift+U
 Smudge tool              S
 Dodge/Burn? tool         Shift+D
@@ -294,12 +294,11 @@ Last modified on 05/29/2011 10:38:45 AM
   * xlibre_boot.jpg​ (18.5 KB) - added by blu3f4lc0n 6 years ago.
   * inkscape_dokumen.png​ (44.0 KB) - added by blu3f4lc0n 6 years ago.
   * ximage_viewer.jpg​ (57.1 KB) - added by blu3f4lc0n 6 years ago. tes
-#### 
-    
- 
- 
- 
- 
- 
+####
+
+
+
+
+
+
 ---
- 

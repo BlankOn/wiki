@@ -12,7 +12,7 @@ $ head -n1 gnome-control-center/debian/changelog.ubuntu
 gnome-control-center (1:2.21.4-0ubuntu1) hardy; urgency=low
      Versi yang digunakan adalah 1:2.21.4-0ubuntu1
    1. Download file diff asli milik Ubuntu untuk versi tersebut.
-     Lokasi: ​https://code.launchpad.net/ubuntu/+source/<paket>/<versi>
+     Lokasi: ​https://code.launchpad.net/ubuntu/+source/<paket\>/<versi\>
      Contoh: ​https://code.launchpad.net/ubuntu/+source/gnome-control-
      center/1:2.21.4-0ubuntu1
      File yang di download (link terdapat pada halaman tersebut): ​https:/
@@ -31,12 +31,11 @@ blankon.diff
 Selamat mempelajari berkas blankon.diff
 KategoriPemaket
 Last modified on 06/18/2008 02:19:35 AM
-#### 
-    
- 
- 
- 
- 
- 
+####
+
+
+
+
+
+
 ---
- 

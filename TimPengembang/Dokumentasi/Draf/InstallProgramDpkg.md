@@ -2,13 +2,13 @@
 
 ### Tentang dpkg
 
-dpkg adalah perangkat lunak dasar pada sistem manajemen paket Debian. Tool dpkg digunakan untuk memasang, menghapus, dan memberikan informasi tentang 
+dpkg adalah perangkat lunak dasar pada sistem manajemen paket Debian. Tool dpkg digunakan untuk memasang, menghapus, dan memberikan informasi tentang
 paket yang berupa berkas .deb (debian package).
 
 ### Menggunakan dpkg
   * Memasang paket .deb:
 	`$ sudo dpkg -i <NamaBerkasdeb>`
-	Dengan <NamaBerkasdeb> adalah nama berkas paket Debian.
+	Dengan `<NamaBerkasdeb>` adalah nama berkas paket Debian.
 
   * Untuk melihat daftar paket yang sudah terpasang:
 `$ sudo dpkg -l`
@@ -43,7 +43,3 @@ Bila terjadi kegagalan saat memasang paket di sistem anda, ada beberapa kemungki
 Last modified on 06/12/2010 01:21:13 PM
 
 ---
- 
-
-
-

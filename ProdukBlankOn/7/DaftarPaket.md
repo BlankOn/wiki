@@ -2,14 +2,17 @@
 
 ## Perbandingan Versi Paket Dasar BlankOn 7 Pattimura
 
-Silakan gunakan package-monitor dari ​http://dev.blankonlinux.or.id/bzr/pemaket/package-monitor/ untuk mengisi tabel di bawah ini. Paket-paket dasar
-diperoleh dari perintah:
+Silakan gunakan package-monitor dari ​http://dev.blankonlinux.or.id/bzr/pemaket/package-monitor/ untuk mengisi tabel di bawah ini. Paket-paket dasar diperoleh dari perintah:
 
+```
 > $ debootstrap --arch <ARCH> --print-debs maverick /tmp/maverick
+```
 
-Masukkan semua daftar paket yang dihasilkan perintah di atas dalam sebuah berkas data/pattimura-<ARCH>.list. Satu paket dalam satu baris. Kemudian jalankan pada masing-masing arsitektur:
+Masukkan semua daftar paket yang dihasilkan perintah di atas dalam sebuah berkas `data/pattimura-<ARCH>.list`. Satu paket dalam satu baris. Kemudian jalankan pada masing-masing arsitektur:
 
+```
 > $ package-monitor.py -a <ARCH> -d pattimura
+```
 
 Jangan lupa untuk menyesuaikan lumbung di direktori sources.lists/.
 
@@ -454,7 +457,3 @@ Daftar paket tentatif :
 
 
 ---
- 
-
-
-

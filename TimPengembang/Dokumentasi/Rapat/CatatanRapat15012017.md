@@ -1,6 +1,6 @@
-# Rapat Pasca Rilis  BlankOn x Tambora 
+# Rapat Pasca Rilis  BlankOn x Tambora
 
-
+```log
 ## ============================= Rapat pasca rilis tambora 2017 dimulai =================================
 
 
@@ -462,3 +462,4 @@
 21:43<antosamalona>pamiit juga pak bapak
 
 ## ===================== Rapat Ditutup =============================
+```

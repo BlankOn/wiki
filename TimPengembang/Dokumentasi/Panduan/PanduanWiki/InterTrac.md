@@ -11,7 +11,7 @@ trac   The_Trac_Project
 ### Link Syntax
 Simply use the name of the other Trac environment as a prefix, followed by a
 colon, ending with the resource located in the other environment.
-<target_environment>:<TracLinks>
+\<target_environment\>:\<TracLinks\>
 The other resource is specified using a regular TracLinks, of any flavor.
 That target environment name is either the real name of the environment, or an
 alias for it. The aliases are defined in trac.ini (see below). The prefix is
@@ -69,7 +69,7 @@ Now, given the above configuration, one could create the following links:
       Hacks] (since 0.11; note that theremoteTrac has to run 0.11 for this to
       work)
 The generic form intertrac_prefix:module:id is translated to the corresponding
-URL <remote>/module/id, shorthand links are specific to some modules (e.g.
+URL \<remote\>/module/id, shorthand links are specific to some modules (e.g.
 #T234 is processed by the ticket module) and for the rest (intertrac_prefix:
 something), we rely on the TracSearch#quickjump facility of the remote Trac.
 See also: TracLinks, InterWiki
@@ -77,4 +77,3 @@ See also: TracLinks, InterWiki
 Last modified on 10/16/2014 01:10:30 PM
 
 ---
- 

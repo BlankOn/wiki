@@ -1,7 +1,7 @@
 # Panduan Menulis Wiki
-+ [Gunakanlah Bahasa Indonesia yang baik dan benar]()
++ [Gunakanlah Bahasa Indonesia yang baik dan benar](/)
 + [Gunakalah Istilah komputer dalam Bahasa Indonesia](/Dokumentasi/Panduan/PanduanPembakuanIstilahKomputer.md)
-+ [Gunakanlah format Markdown](/Dokumentasi/Panduan/FormatMarkdown.md) 
++ [Gunakanlah format Markdown](/Dokumentasi/Panduan/FormatMarkdown.md)
 + [Kirim tulisan Anda ke wiki BlankOn di Github](#panduan-menulis-wiki-pada-github)
 + Bagi pengembang, disarankan untuk [menggunakan git](#panduan-menulis-wiki-dengan-git) sehingga lebih efektif dalam penulisan.
 + Berikut panduan singkat dalam menulis wiki
@@ -30,9 +30,7 @@
 ##### [Panduan Menulis dengan Format Markdown](/Dokumentasi/Panduan/FormatMarkdown.md)
 ##### Panduan Menulis Wiki Pada Github
   + [Panduan Menulis Wiki Pada Github](/Dokumentasi/Panduan/PanduanMigrasiWiki.md)
-  + [Bermain awan dan berkolaborasi dengan Git dan Github](/Dokumentasi/LogKelas/KelasGitDua.md) 
+  + [Bermain awan dan berkolaborasi dengan Git dan Github](/Dokumentasi/LogKelas/KelasGitDua.md)
 ##### Panduan Menulis Wiki dengan Git
   + [Rangkuman Kelas Git Bersama Pak Herpiko pertama](/Dokumentasi/LogKelas/KelasGitSatu.md)
-  + [Rangkuman Kelas Git Bersama Pak Herpiko kedua](/Dokumentasi/LogKelas/KelasGitDua.md) 
-
-
+  + [Rangkuman Kelas Git Bersama Pak Herpiko kedua](/Dokumentasi/LogKelas/KelasGitDua.md)

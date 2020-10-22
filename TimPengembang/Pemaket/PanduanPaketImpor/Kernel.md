@@ -3,7 +3,7 @@ Source berada di git rani
 git clone git@rani/pattimura/linux
 Cara merge dengan beberapa Pohon
      Menambahkan pohon
-     git remote add <nama-pemilik-pohon> <tautan-pohon>
+     git remote add <nama-pemilik-pohon\> <tautan-pohon\>
 Misal
 git remote add linus git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/
 linux-2.6.git
@@ -20,15 +20,14 @@ fakeroot debian/rules startnewrelease
 JIka ingin membuat linux-image saja
 fakeroot debian/rules binary-generic
 Membuat KOmplit untuk masuk repo
-CONCURENCY_LEVEL=<jumlah-prosesor> skipabi=true dpkg-buildpackage -rfakeroot  -
+CONCURENCY_LEVEL=<jumlah-prosesor\> skipabi=true dpkg-buildpackage -rfakeroot  -
 I.git -I.gitignore -i'\.git.*'
 Last modified on 06/20/2011 10:26:41 AM
-#### 
-    
- 
- 
- 
- 
- 
+####
+
+
+
+
+
+
 ---
- 

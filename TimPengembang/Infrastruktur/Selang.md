@@ -5,7 +5,7 @@ export http_proxy=http://127.0.0.1:8888
 ### Cara mengaktifkan
 # su -s /bin/bash - selang
 $ ssh -f -N marya
-<Masukkan sandi di bawah (tersandi gpg)>
+`<Masukkan sandi di bawah (tersandi gpg)>`
 Setelah itu akan balik lagi ke prompt. Selang siap digunakan
 Sandi yang bisa baca:
 - timut
@@ -13,6 +13,8 @@ Sandi yang bisa baca:
 - iang
 - aftian
 - mdamt
+
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 hQIOAx/6EO5jBG9XEAf/cyPVqUYY+8YlCWnAOQ1/VDvFaxrMABDIBXNSdeakh7sl
@@ -81,6 +83,8 @@ wIueG8fO3JOnCV72495pEocd9x5QOj14k4pTEdxtoVhazwGOLN/mVPcKRnPPLfp5
 RHvX3IMThLz7+vN0stuZ+1iqoFD1Gw==
 =EbLP
 --END PGP MESSAGE-----
+```
+
 ### Cara instalasi
 #### Di mesin yang membutuhkan selang
     * Instal tinyproxy dengan mengaktifkan socks (ada di versi 1.6.3)
@@ -106,12 +110,11 @@ RHvX3IMThLz7+vN0stuZ+1iqoFD1Gw==
       8ChyprO8c9dNeoeJMa+rRBrWCoOWYAIL1WOYo2Pip3OEAMICFrw89jsnVPUmYp6m4Gf9aFTaE0X7utKyT15+na2SJMJzc5DuFFQycPXqhRNK7zoLIZvIMq5nd8ePgx230INY3FG5GZnOE27syQocRFnnKZaSFU+0sv00B+1O4g5wSTjsFHsvjf6Y7YMHXT5jEjtBw==
       selang@yeyen
 Last modified on 05/29/2010 02:40:44 PM
-#### 
-    
- 
- 
- 
- 
- 
+####
+
+
+
+
+
+
 ---
- 
