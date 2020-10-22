@@ -1,6 +1,4 @@
----
-title: Ridon
----
+# Ridon
 
 > Saat ini Ridon telah keluar dari proyek BlankOn dan menjadi proyek yang berdisi sendiri. Hal tersebut disampaikan melalui [milis blankon-dev](https://groups.google.com/d/msg/blankon-dev/2fTJeYQngRE/ilb5hT7sCAAJ) oleh pengembang Ridon sebagai berikut :
 > Salam,
@@ -38,3 +36,5 @@ Saat ini Ridon secara resmi mendukung beberapa perangkat berikut:
 - *Nexus 5X* Codename: Bullhead
 - *Motorola Moto G (generasi pertama)* Codename: Falcon
 - *Xiaomi Mi4i* Codename: Ferrari
+
+---

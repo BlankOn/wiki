@@ -9,6 +9,7 @@ Waktu: mulai 09:14:45 PM
 Tempat: with #blankon-riset
 
 Bahan bacaan: http://fitraditya.files.wordpress.com/2012/10/kelas_daring_blankon_jquery.pdf
+
 ```log
 (08:12:20 PM) princeofgiri: mulai saja
 (08:12:25 PM) princeofgiri: yang ikut di sini ntar kasih PR
@@ -23,7 +24,7 @@ Bahan bacaan: http://fitraditya.files.wordpress.com/2012/10/kelas_daring_blankon
 (08:13:36 PM) dotovr: wah PR nya ntar tak kasih ke icik2 :D
 (08:13:46 PM) Rabitya: princeofgiri: boleh deh
 (08:13:52 PM) princeofgiri: :D
-(08:14:03 PM) Rabitya: itu untuk PR sudah saya siapin di halaman belakang yang studi kasus 
+(08:14:03 PM) Rabitya: itu untuk PR sudah saya siapin di halaman belakang yang studi kasus
 (08:14:04 PM) Rabitya: :D
 (08:14:16 PM) icik2: id ngintip pak, pakai icik2
 (08:14:27 PM) princeofgiri: Rabitya, berarti yang disini harus ngerjakan PR

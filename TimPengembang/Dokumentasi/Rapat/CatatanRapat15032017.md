@@ -1,8 +1,9 @@
 # Rapat BlankOn Dev Uluwatu (15-03-2017)
 
+```log
 ## ====== rapat dibuka =====
 
-```log
+
 20:11 <tuanpembual> ====== rapat dibuka =====
 20:11 <tuanpembual> selamat malam bapak2
 20:11 <arisisme> silahkan pak tuanpembual
@@ -101,7 +102,7 @@
 20:45 <herpiko> baik pak.
 20:45 <tuanpembual> rapat saya cukupkan.
 20:45 <tuanpembual> notulen menyusul
-20:45 <tuanpembual> ===== rapat selesai ======= 
+20:45 <tuanpembual> ===== rapat selesai =======
 
-## ===== rapat selesai ======= 
+## ===== rapat selesai =======
 ```

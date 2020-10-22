@@ -2,7 +2,7 @@
 
 ### Tentang dpkg
 
-dpkg adalah perangkat lunak dasar pada sistem manajemen paket Debian. Tool dpkg digunakan untuk memasang, menghapus, dan memberikan informasi tentang 
+dpkg adalah perangkat lunak dasar pada sistem manajemen paket Debian. Tool dpkg digunakan untuk memasang, menghapus, dan memberikan informasi tentang
 paket yang berupa berkas .deb (debian package).
 
 ### Menggunakan dpkg
@@ -28,7 +28,7 @@ theme/kamonesan-icon-theme_0.1-0blankon1_all.deb
 
 **Pasang paket dalam sistem**
 Silakan pasang paket tersebut ke dalam sistem anda
-`$ sudo dpkg -i kamonesan-icon-theme_0.1-0blankon1_all.deb`
+$ sudo dpkg -i kamonesan-icon-theme_0.1-0blankon1_all.deb
 
 **Hapus paket dari sistem**
 Untuk menghapus paket dari sistem, lakukan perintah berikut
@@ -37,5 +37,9 @@ Untuk menghapus paket dari sistem, lakukan perintah berikut
 *** Problem ***
 Bila terjadi kegagalan saat memasang paket di sistem anda, ada beberapa kemungkinan terjadi kegagalan :
    1. Ketergantungan paket, silakan install paket-paket yang di perlukan oleh paket tersebut.
-   2. Anda tidak mempunyai hak root, silakan coba dengan  `sudo dpkg -i paket_yang_akan_di_install`
+   2. Anda tidak mempunyai hak root, silakan coba dengan  sudo dpkg -i paket_yang_akan_di_install
    3. Ruang kosong dalam harddisk anda kurang.
+
+Last modified on 06/12/2010 01:21:13 PM
+
+---

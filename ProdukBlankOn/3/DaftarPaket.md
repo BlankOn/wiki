@@ -5,13 +5,13 @@
    - blankon-extra-backgrounds (mdamt)
    - blankon-sounds (mdamt)
    - gfxboot-theme-blankon (mdamt)
-   - indonesian-fonts (mdamt) 
+   - indonesian-fonts (mdamt)
 
    - usplash-theme-blankon (MuhammadTakdir)
    - blankon-artwork (MuhammadTakdir)
    - lontara-gdm-theme (MuhammadTakdir)
    - lontara-wallpapers (MuhammadTakdir)
-   - lontara-session-splashes (MuhammadTakdir) 
+   - lontara-session-splashes (MuhammadTakdir)
 
    - kamonesan-gdm-theme (FajranImanRusadi)
    - blankon-docs (FajranImanRusadi)
@@ -20,12 +20,12 @@
    - daluang (FajranImanRusadi)
    - daluang-data-jv (FajranImanRusadi)
    - blankonfirefox (FajranImanRusadi)
-   - kamonesan-icon-theme (FajranImanRusadi) 
+   - kamonesan-icon-theme (FajranImanRusadi)
 
    - docang-icon-theme
    - blankon-example-content
    - jenggo-theme
-   - multimedia-blankon 
+   - multimedia-blankon
 
 
 ## Paket-paket impor dari Ubuntu/main dikerjakan oleh para pemaket
@@ -104,7 +104,7 @@
     tasksel (muhammad-takdir)
     tangerine-icon-theme (muhammad-takdir)
     ubuntu-meta (muhammad-takdir)
-    tango-icon-theme (inoex135) 
+    tango-icon-theme (inoex135)
 
 ## Paket-paket impor dari Ubuntu/{universe,multiverse}, dikerjakan oleh irgsh
 
@@ -126,29 +126,29 @@
     jack-audio-connection-kit (restricted)
     libmms (restricted)
     libopenspc (restricted)
-    soundtouch (restricted) 
+    soundtouch (restricted)
 
     faac (restricted)
     faad (restricted)
     mjpegtools (restricted)
     x264 (restricted)
-    xvidcore (restricted) 
+    xvidcore (restricted)
 
     a52dec (restricted)
     libdvdread (restricted)
     mpeg2dec (restricted)
     sidplay-libs (restricted)
-    unrar (restricted) 
+    unrar (restricted)
 
     msttcorefonts (restricted)
     python-django (main)
-    liberation-fonts (main) 
-    
-    
-## Paket-paket impor dari bukan Ubuntu dikerjakan oleh para pemaket 
+    liberation-fonts (main)
+
+
+## Paket-paket impor dari bukan Ubuntu dikerjakan oleh para pemaket
     libcnbj-2.4
     libcnbj-2.6
-    bjfilter-2.6 
+    bjfilter-2.6
 
 ## Daftar Paket Impor BlankOn 3 Lontara
 
@@ -270,10 +270,3 @@ Ini formatnya:
     * msttcorefonts (restricted)
     * python-django (main)
     * liberation-fonts (main)
-
-
----
- 
-
-
-

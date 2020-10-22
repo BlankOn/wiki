@@ -1,6 +1,4 @@
----
-title: Memulai Berpartisipasi Pada Proyek BlankOn
----
+# Memulai Berpartisipasi Pada Proyek [BlankOn](/BlankOn.md)
 
 Pada halaman ini akan dijelaskan beberapa panduan untuk mengantarkan Anda memulai berpartisipasi pada proyek pengembangan [BlankOn](/BlankOn.md).
 

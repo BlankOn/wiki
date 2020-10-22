@@ -28,13 +28,13 @@ Penyisipan Kode, Tautan, Gambar, dan kutipan
 `Kode dalam baris`
 
 ```
-# Kode dengan karakter khusus 
+# Kode dengan karakter khusus
 $ Kode dengan karakter khusus
 ```
 [Tautan](https://blankon.github.io/wiki/)
 
 > Kutipan
-![Gambar](https://dev.blankonlinux.or.id/raw-attachment/wiki/Misi/buatan-indonesia.png)
+`![Gambar](dev.blankonlinux.or.id/raw-attachment/wiki/Misi/buatan-indonesia.png)`
 
 ***
 Daftar

@@ -95,7 +95,7 @@ Free/Glasso? select tool F
 Fuzzy/Magic? select tool U
 Select by color          Shift+O
 Scissors select tool     I
-Foreground select tool   `<tidak ada>`
+Foreground select tool   \<tidak ada\>
 Paths tool               B
 Color picker             O
 Zoom tool                Z
@@ -118,7 +118,7 @@ Airbrush Tool            A
 Ink tool                 K
 Clone tool               C
 Healing tool             H
-Perspective clone tool   `<tidak ada>`
+Perspective clone tool   \<tidak ada\>
 Burn/Sharpen? Tool       Shift+U
 Smudge tool              S
 Dodge/Burn? tool         Shift+D
@@ -257,14 +257,4 @@ Last modified on 07/13/2009 01:06:33 PM
     * inkscape-main-window.png​ (43.4 KB) - added by wirama 8 years ago.
     * scribus-main-window.png​ (26.7 KB) - added by wirama 8 years ago.
     * scribus-new-document.png​ (40.7 KB) - added by wirama 8 years ago.
-#### 
-    
- 
- 
- 
- 
- 
-
-
- 
-
+####

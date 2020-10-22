@@ -1,6 +1,4 @@
----
-title: Manokwari
----
+# Manokwari
 
 Manokwari adalah destop yang dikembangkan oleh pengembang BlankOn dengan teknologi HTML5 dan CSS3. Hal ini membuat destop manokwari menjadi destop cantik, modern, ringan dan mudah untuk dimodifikasi. Manokwari menjadi lingkungan desktop bawaan BlankOn sejak rilis [Rote](/wiki/ProdukBlankOn/8/).
 
