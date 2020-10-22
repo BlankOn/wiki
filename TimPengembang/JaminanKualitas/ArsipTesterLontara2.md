@@ -1,17 +1,13 @@
----
-title: Rapat-02-Lontara Tim Tester BlankOn
----
-
-## Jadwal
-* Hari/Tanggal: Minggu, 30 Desember 2007
-* Waktu: Pkl. 20.00 WIB (UTC+7)
-* Tempat: #blankon @ irc.freenode.net
-## Agenda
+# Rapat-02-Lontara Tim Tester BlankOn
+**Jadwal**
+    * Hari/Tanggal: Minggu, 30 Desember 2007
+    * Waktu: Pkl. 20.00 WIB (UTC+7)
+    * Tempat: #blankon @ irc.freenode.net
+**Agenda**
 Pelimpahan Kekuasaan Sementara, karena RameTux mau cuti.
-## Diskusi dan Wacana
-* Jika ada penambahan silakan ditambahkan (khusus anggota tim tester).
-## Log Rapat 02-Lontara
-```log
+**Diskusi dan Wacana**
+    * Jika ada penambahan silakan ditambahkan (khusus anggota tim tester).
+**Log Rapat 02-Lontara**
 (20:55:46) RameTux: == Rapat 02-Lontara Tim Tester ==
 (20:56:00) RameTux: Agenda 1: Pelimpahan Kekuasaan Sementara
 (20:56:08) RameTux: sangprabo: thx
@@ -277,4 +273,14 @@ blankon yang lain
 (21:38:14) sangprabo: RameTux: log saya taruh di wiki, ringkasan saya sebar
 lewat milis...
 (21:38:22) RameTux: == Rapat 02-Lontara resmi ditutup ==
-```
+
+Last_modified on 06/06/2008 11:21:23 AM
+
+
+
+
+---
+ 
+
+
+

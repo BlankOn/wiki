@@ -10,7 +10,7 @@ Pemaket sudah:
 5. memahami [Pembuatan paket Debian](https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/Panduan/MembuatPaketDebian.md).
 
 ## Lokasi Paket
-Paket disimpan dalam gudang kode di bawah kendali blankon-pemaket. Lokasi utamanya adalah: `http://bazaar.launchpad.net/~blankon-pemaket/blankon/<nama-paket>`. Lokasi ini disebut juga dengan *cabang utama*. Jadi tiap-tiap paket memiliki cabang utama sendiri-sendiri.
+Paket disimpan dalam gudang kode di bawah kendali blankon-pemaket. Lokasi utamanya adalah: http://bazaar.launchpad.net/~blankon-pemaket/blankon/<nama-paket\>. Lokasi ini disebut juga dengan *cabang utama*. Jadi tiap-tiap paket memiliki cabang utama sendiri-sendiri.
 
 ## Jenis paket
 
@@ -94,6 +94,5 @@ Sekarang anggap Anda baru bergabung dalam pembuatan paket blankon-abc yang sebel
 ## Impor paket dari proyek lain
 Bila Anda akan mengimpor paket dari proyek lain maka prinsipnya sama dengan pembuatan paket baru. Tapi daftarkan alamat surat elektronik Anda pada berkas daftar.txt di gudang kode dengan alamat https://code.launchpad.net/~blankon-pemaket/blankon/pengelola-paket-impor.
 
- 
+
 ---
- 

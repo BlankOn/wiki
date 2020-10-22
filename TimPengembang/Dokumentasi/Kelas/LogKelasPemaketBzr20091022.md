@@ -92,5 +92,4 @@ lxde-l10n-id/[[BR]]
 [22:47:54] <aftian> bzr: ERROR: Connection closed: Unexpected end of message.
 Please check connectivity and permissions, and report a bug if problems
 persist.
-BelumSelesei?
 ```

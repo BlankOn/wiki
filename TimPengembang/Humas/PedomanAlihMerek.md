@@ -1,6 +1,4 @@
----
-title: Pedoman Alih Merek
----
+# Pedoman Alih Merek
 
 Versi 1.0 24/02/2010
 
@@ -62,14 +60,14 @@ dengan berdasarkan distribusi resmi BlankOn.
       cara:
           o Mendaftarkan paling tidak dua orang pengembang yang ditempatkan di
             Tim BlankOn untuk terlibat secara aktif
-          o Mencantumkan kalimat "`<NAMA DISTRO>` dikembangkan bersama BlankOn"
+          o Mencantumkan kalimat "<NAMA DISTRO\> dikembangkan bersama BlankOn"
             pada setiap materi promosi yang ada, termasuk namun tidak terbatas
             kepada:
                 # situs-situs web tempat mengunduh Distro Turunan tersebut
                 # Catatan kaki pada milis
                 # dokumentasi yang disertakan pada media distribusi
-   2. Distro Turunan jenis 5 wajib mencantumkan kalimat "`<NAMA DISTRO>`
-      dikembangkan dari BlankOn `<NAMA-RILIS-BLANKON>`" paling tidak pada:
+   2. Distro Turunan jenis 5 wajib mencantumkan kalimat "<NAMA DISTRO\>
+      dikembangkan dari BlankOn <NAMA-RILIS-BLANKON\>" paling tidak pada:
           o situs-situs web tempat mengunduh Distro Turunan tersebut
           o dokumentasi yang disertakan pada media distribusi
 
@@ -89,4 +87,11 @@ dengan berdasarkan distribusi resmi BlankOn.
           o Halaman awal peramban web
    4. Nama merek BlankOn tidak perlu diganti atau dihilangkan pada nama paket,
       misalnya, distro Turunan tidak perlu mengganti nama paket "blankon-
-      desktop" menjadi "`<nama-distro-turunan>`-desktop"
+      desktop" menjadi "<nama-distro-turunan\>-desktop"
+Last modified on 02/24/2010 07:36:44 PM
+
+
+
+
+
+---

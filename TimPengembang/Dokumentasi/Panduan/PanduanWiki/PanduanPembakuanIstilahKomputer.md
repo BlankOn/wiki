@@ -5,7 +5,7 @@ Sumber: Wikisource bahasa Indonesia, perpustakaan bebas
 `![](Wikisource-logo.svg)`
 
 **DAFTAR ISI**
-*    [Landasan Umum](#landasan-umum)	
+*    [Landasan Umum](#landasan-umum)
 *    [PEDOMAN KHUSUS PEMBENTUKAN ISTILAH KOMPUTER](#pedoman-khusus-pembentukan-istilah-komputer)
      +   [Landasan](#landasan)
      +   [Bahasa Sumber](bahasa-sumber)
@@ -43,7 +43,7 @@ Untuk itu, penentuan prioritas dalam mempertimbangkan dan menentukan pemilihan i
 
 ### 3. 	Tata Cara Penyerapan Istilah Asing
 Pemadanan istilah asing ke dalam bahasa Indonesia dilakukan berdasarkan beberapa ketentuan sebagai berikut:
-  	
+
 #### 1. 	Istilah asing dipadankan dengan bahasa Indonesia yang umum.
 Contoh:
 
@@ -74,7 +74,7 @@ download - unduh
 upload - unggah
 
 #### 5. 	Istilah asing diserap ke dalam bahasa Indonesia:
-  	
+
 ##### a. 	tanpa melalui proses penyesuaian ejaan
 Contoh:
 

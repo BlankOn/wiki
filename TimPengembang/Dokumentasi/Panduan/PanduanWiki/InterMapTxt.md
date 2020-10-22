@@ -7,7 +7,7 @@ This page is interpreted in a special way by Trac, in order to support
 InterWiki links in a flexible and dynamic way.
 The code block after the first line separator in this page will be interpreted
 as a list of InterWiki specifications:
-prefix `<space>` URL [`<space>` # comment]
+prefix <space\> URL [<space\> # comment]
 By using $1, $2, etc. within the URL, it is possible to create InterWiki links
 which support multiple arguments, e.g. Trac:ticket:40. The URL itself can be
 optionally followed by a comment, which will subsequently be used for
@@ -80,8 +80,5 @@ Why              http://clublet.com/c/c/why?
 c2Wiki             http://c2.com/cgi/wiki?
 WikiPedia        http://en.wikipedia.org/wiki/
 Last modified on 06/05/2008 04:04:51 AM
- 
+
 ---
- 
-
-

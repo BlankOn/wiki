@@ -1,23 +1,19 @@
----
-title: Humas
-slug: /TimPengembang/Humas
----
-
+# Humas BlankOn
 Hubungan Masyarakat a.k.a Public Relation adalah strategi proses komunikasi
 bertujuan untuk membangun citra produk dan komunikasi yang saling menguntungkan
 antara lembaga dengan masyarakat.
 
-## Tugas
- ​Tim_Humas_BlankOn:
-* Menentukan strategi media, komunikasi, dokumentasi, literasi dan
-  sosialisasi BlankOn.
-* Mendorong terbentuknya komunitas pengguna, pembelajaran dan riset BlankOn
-  lewat ​Kelompok_Pengguna_BlankOn
-* Melakukan langkah-langkah strategis lainnya untuk mendorong pemanfaatan
-  BlankOn di masyarakat, pendidikan, pemerintahan dan swasta. Seperti
-  workshop, lokakarya, bimtek, seminar dan lomba-lomba.
+### Tugas
+     ​Tim_Humas_BlankOn:
+    * Menentukan strategi media, komunikasi, dokumentasi, literasi dan
+      sosialisasi BlankOn.
+    * Mendorong terbentuknya komunitas pengguna, pembelajaran dan riset BlankOn
+      lewat ​Kelompok_Pengguna_BlankOn
+    * Melakukan langkah-langkah strategis lainnya untuk mendorong pemanfaatan
+      BlankOn di masyarakat, pendidikan, pemerintahan dan swasta. Seperti
+      workshop, lokakarya, bimtek, seminar dan lomba-lomba.
 
-## Kegiatan
+### Kegiatan
 1. Pemutakhiran Konten Web
 2. BlanKonf :
     * 1 : Tempat: Universitas Pakuan Bogor, Tanggal: 20-21 Juni 2009 ​Selengkapnya…
@@ -43,25 +39,28 @@ tinjauan fitur baru.
     * 3 : Twitter [https://twitter.com/BlankOnLinux]
     * 4 : Telegram [https://t.me/BlankOnLinux]
 
-## Tim Humas 2016
-* Aris E. Priyanto
-* Estu Fardani
-* Pahlevy
-* Saputro Aryulianto
-* Virgo Tri Septo Anggoro
-* Sabar Suwarsono
-    
-## Tim Humas 2017
-* Slamet Santoso 
-* Muhammad Rafi 
-* Aris Eko Priyanto
-* Sabar Suwarsono
-* Pantana
-* Pahlevy Tawainella
+### Tim Humas 2016
+    * Aris E. Priyanto
+    * Estu Fardani
+    * Pahlevy
+    * Saputro Aryulianto
+    * Virgo Tri Septo Anggoro
+    * Sabar Suwarsono
+### Tim Humas 2017
+    * Slamet Santoso 
+    * Muhammad Rafi 
+    * Aris Eko Priyanto
+    * Sabar Suwarsono
+    * Pantana
+    * Pahlevy Tawainella
+### Tim Humas 2018
+    * Slamet Santoso
+    * Imanuel Ronaldo
+    * M Rifki Affandi 
+    * Pahlevy Tawainella
+    * Muhammad Alwi Mahfud
+Last_modified 1 months ago Last modified on 06/02/2019 10:40:13 PM
+ 
+---
+ 
 
-## Tim Humas 2018
-* Slamet Santoso
-* Imanuel Ronaldo
-* M Rifki Affandi 
-* Pahlevy Tawainella
-* Muhammad Alwi Mahfud

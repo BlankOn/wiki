@@ -1,7 +1,4 @@
----
-title: Banner
----
-
+# Banner
 X-banner dengan ukuran 60 x 160 cm
 [/raw-attachment/wiki/Kesenian/Publikasi/banner/banner-hitam-1.png]
 [/raw-attachment/wiki/Kesenian/Publikasi/banner/banner-hitam-2.png]

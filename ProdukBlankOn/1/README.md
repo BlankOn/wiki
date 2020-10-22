@@ -1,6 +1,4 @@
----
-title: Bianglala
----
+# BlankOn 1 Bianglala
 
 Berdasarkan [surel](https://groups.google.com/d/msg/blankon/j09M-ctcjD8/Q5s9NNKBApsJ) yang dikirim oleh pak Rusmanto pada 1-9-2009 di [milis BlankOn](https://groups.google.com/forum/#!forum/blankon) , berikut penjelasan tentang BlankOn 1.0 Bianglala :
 
@@ -44,4 +42,11 @@ Paket-paket berikut ini belum tersedia di repositori:
 
 
 ## Rilis
-  * [Catatan Rilis](ProdukBlankOn/1/CatatanRilis.md)
+  * [Catatan Rilis](/wiki/ProdukBlankOn/1/CatatanRilis.md)
+
+
+---
+ 
+
+
+

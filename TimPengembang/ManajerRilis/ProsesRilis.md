@@ -1,27 +1,24 @@
----
-title: Proses Rilis
----
+# Proses Rilis
 [/raw-attachment/wiki/ProsesRilis/proses-rilis.png]
 
 Tugas secara umum Lihat di ProsesRilis/Tugas
 ## Kriteria rilis
-
 ### Jahitan
-* Bisa diinstal
-* Halaman Lengkap Proses_Rilis_Jahitan
+   * Bisa diinstal
+   * Halaman Lengkap Proses_Rilis_Jahitan
 
 ### Beta
-* Kriteria jahitan terpenuhi
-* Rilis lama dapat ditingkatkan ke rilis beta ini
-* Karya seni dan branding sudah 100% BlankOn
-* Sukses dalam apt-get upgrade
-* Masalah yang diketahui saat jahitan dirilis sudah diperbaiki
-* Halaman Lengkap ada Proses_Rilis_Beta
+   * Kriteria jahitan terpenuhi
+   * Rilis lama dapat ditingkatkan ke rilis beta ini
+   * Karya seni dan branding sudah 100% BlankOn
+   * Sukses dalam apt-get upgrade
+   * Masalah yang diketahui saat jahitan dirilis sudah diperbaiki
+   * Halaman Lengkap ada Proses_Rilis_Beta
 
 ### Rilis
-* Kriteria beta terpenuhi
-* Masalah yang diketahui saat beta dirilis sudah diperbaiki
-* Halaman Lengkap Proses_Rilis_Akhir
+   * Kriteria beta terpenuhi
+   * Masalah yang diketahui saat beta dirilis sudah diperbaiki
+   * Halaman Lengkap Proses_Rilis_Akhir
 
 ## Templat catatan rilis
 ### Jahitan
@@ -85,6 +82,8 @@ Atas nama Tim BlankOn
 NB : Dan Setiap Ada Rilis Harap Mempublikasikan melalui Facebook, Plurk,
 Twitter
 
+Last modified on 03/17/2011 10:19:43 PM
+
 ## Attachments (2)
-* proses-rilis.png​ (21.3 KB) - added by mdamt 8 years ago.
-* proses-rilis.svg​ (10.9 KB) - added by mdamt 8 years ago.
+    * proses-rilis.png​ (21.3 KB) - added by mdamt 8 years ago.
+    * proses-rilis.svg​ (10.9 KB) - added by mdamt 8 years ago.

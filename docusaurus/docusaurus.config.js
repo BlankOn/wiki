@@ -18,12 +18,12 @@ module.exports = {
       items: [
         {
           position: 'left',
-          to: 'TimPengembang',
+          to: 'TimPengembang/TimBlankOn',
           label: 'Tim Pengembang',
         },
         {
           position: 'left',
-          to: 'ProdukBlankOn',
+          to: 'ProdukBlankOn/README',
           label: 'Produk'
         },
         {

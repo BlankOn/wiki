@@ -21,6 +21,5 @@ Data ini di perbaharui pada 27 Februari 2014 2:00 PM
     * ekosuhartono_cr.JPG​ (684.7 KB) - added by ekosuhartono 5 years ago.
     * foto.png​ (173.0 KB) - added by ekosuhartono 5 years ago.
     * Eko_Suhartono.png​ (19.5 KB) - added by ekosuhartono 4 years ago.
- 
+
 ---
- 

@@ -1,4 +1,5 @@
 # Log Kelas Pemaket 2010 04 08
+
 ```log
 (08:21:25 AM) aftian:
 ==================Bismillahirrohmanirrohim===================

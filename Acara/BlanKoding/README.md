@@ -1,16 +1,14 @@
----
-title: BlanKoding
----
+# BlanKoding
 
 BlanKoding merupakan gabungan dari kata BlankOn dan Koding. BlanKoding merupakan kopi darat atau pertemuan beberapa pengembang BlankOn.
 
-  + [BlanKoding 2013 (Suroboyo dan BlackBerry)](Acara/BlanKoding/BlanKoding2013.md)
-  + [BlanKoding 2017 #1 di Surabaya](Acara/BlanKoding/BlanKoding2017Pertama.md)
-  + [BlanKoding 2017 #2 di Bojong](Acara/BlanKoding/BlanKoding2017Kedua.md)
+  + [BlanKoding 2013 (Suroboyo dan BlackBerry)](/wiki/Acara/BlanKoding/BlanKoding2013.md)
+  + [BlanKoding 2017 #1 di Surabaya](/wiki/Acara/BlanKoding/BlanKoding2017Pertama.md)
+  + [BlanKoding 2017 #2 di Bojong](/wiki/Acara/BlanKoding/BlanKoding2017Kedua.md)
 
 ## BlanKoding 2013
 ### BlanKoding 2013 Suroboyo
-BlanKoding tahun 2013 adalah acara-acara di darat untuk keperluan rilis [BlankOn linux 9.0 Suroboyo.](ProdukBlankOn/9/9.md). Acara ini diselenggarakan di jakarta pada tanggal 13 Juli 2013. Topik BlanKoding yang disposori oleh RockyBars dan kodeKretaif adalah PartoEdi dan Aplet Manokwari.
+BlanKoding tahun 2013 adalah acara-acara di darat untuk keperluan rilis [BlankOn linux 9.0 Suroboyo.](/wiki/ProdukBlankOn/9/9.md). Acara ini diselenggarakan di jakarta pada tanggal 13 Juli 2013. Topik BlanKoding yang disposori oleh RockyBars dan kodeKretaif adalah PartoEdi dan Aplet Manokwari.
 
 Acara ini diikuti oleh mdmt, princeofgiri, diorahman, dan adzymaniac. Agar dapat mengikuti topik yang dibahas, para peserta diharuskan sudah menguasai bahasa bahasa pemrograman Vala dan HTML5.
 

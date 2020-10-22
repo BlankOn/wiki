@@ -180,7 +180,7 @@ selamat datang pak istana (Sokhibi)
 19:27 <faiq> malam
 19:28 *** arisisme has quit IRC
 19:28 <faiq> ok aku juga pamit.
-19:29 <faiq> selamat malam pak Sohibi dan pak Anto 
+19:29 <faiq> selamat malam pak Sohibi dan pak Anto
 
 
 ## ================== Rapat ditutup ===================

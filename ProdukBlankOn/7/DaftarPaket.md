@@ -2,8 +2,7 @@
 
 ## Perbandingan Versi Paket Dasar BlankOn 7 Pattimura
 
-Silakan gunakan package-monitor dari ​http://dev.blankonlinux.or.id/bzr/pemaket/package-monitor/ untuk mengisi tabel di bawah ini. Paket-paket dasar
-diperoleh dari perintah:
+Silakan gunakan package-monitor dari ​http://dev.blankonlinux.or.id/bzr/pemaket/package-monitor/ untuk mengisi tabel di bawah ini. Paket-paket dasar diperoleh dari perintah:
 
 ```
 > $ debootstrap --arch <ARCH> --print-debs maverick /tmp/maverick
@@ -458,7 +457,3 @@ Daftar paket tentatif :
 
 
 ---
- 
-
-
-

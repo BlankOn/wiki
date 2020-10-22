@@ -15,7 +15,7 @@ Pada string tersebut dicantumkan:
 
 * alamat baris pada kode sumber program,
 * msgid: identifier string yang akan diterjemahkan, biasanya dalam bahasa Inggris,
-* msgstr: terjemahan msgid dalam bahasa target. 
+* msgstr: terjemahan msgid dalam bahasa target.
 
 Nah, jika teman-teman melihat Transifex di (misalnya): ​http://i15n.blankonlinux.or.id/projects/p/transifex/resource/djangopo/l/id/view/, yang msgid itu yang di kolom "String Sumber", sedangkan msgstr itu dicantumkan di kolom "Terjemahan". Yah begitu pendahulan tentang format PO.
 
@@ -23,7 +23,7 @@ Nah, sekarang, berkas PO yang disertakan untuk [BlankOn](http://dev.blankonlinux
 
 * Biasakan menggunakan Bahasa (sisipkan bahasa yang digunakan di sini) dengan baik dan "benar"
 * Punya referensi untuk rujukan
-* Mengerti string sumber 
+* Mengerti string sumber
 
 Kita bahas yang pertama ya. Kalau yang ini, mestinya kita semua bisa, tinggal baik dan "benar" itu yang kadang-kadang agak susah, guru kita misalnya, pernah mengajari X, ternyata sekarang yang dipakai Y. Asal kita nggak menerjemahkan ke bahasa 4l4y, kayaknya pasti hasilnya bisa dikatakan bisa dimengerti deh. Saya sendiri pernah menerjemahkan secara profesional (artinya dapat duit gitu :D), ternyata kesalahan umum pemula biasanya sepele: misalnya begini:"dikota ada banyak hal yang harus di kerjakan". Ada yang tahu salahnya apa? Ya benar, di+tempat itu harus dipisah, "di" yang menunjukkan kata kerja pasif disambung. Sederhana, tetapi tetap aja banyak yang salah.
 
@@ -37,15 +37,15 @@ Oke, sekarang kita ke topik memahami konteks. Kalau kita menjumpai string sepert
 
 1.apakah ada batasan jumlah karakter?
 
-2.kalau bisa pendek, mengapa harus panjang? 
+2.kalau bisa pendek, mengapa harus panjang?
 
 Jika "komputer" bertanya "Are you sure you want to delete these files", tentunya si komputer sedang bertanya kepada "si pemegang keyboard/mouse", bukan orang lain. Jadi mestinya "anda" pada kalimat "Apakah anda yakin ingin menghapus berkas ini?" bisa dihilangkan, jadi tinggal: "Apakah yakin ingin menghapus berkas ini?" Nah sekarang, apakah kata "Apakah" masih dibutuhkan? Apa bedanya "Apakah yakin ingin menghapus berkas ini?" dengan "Yakin ingin menghapus berkas ini?" Kalau menurut teman-teman nggak ada, pakailah yang lebih pendek :) Satu lagi yang benar dari terjemahan kokabiel: Bentuk plural bahasa Indonesia tidak perlu disebutkan secara eksplisit. Jadi nggak perlu diterjemahkan sebagai: "Yakin ingin menghapus berkas-berkas ini?" cukup "...berkas ini?" Jadi sebenarnya yang ada di ​http://i15n.blankonlinux.or.id/ itu, nggak perlu "Bahasa-bahasa" cukup "Bahasa" aja :) Satu lagi contohnya: misalnya ada string dalam berkas PO bunyinya "to" kira-kira terjemahannya apa coba? Di atas baris string dengan msgid "to", ada msgid "from". Betul sekali, dilihat gandengannya. Kalau ada from, "dari" "to" bisa jadi "ke", tapi coba bayangkan di sekitar baris-baris itu ada tulisan gini: #: lib/ui_date_selection_dialog.cpp:116. Jadi kira-kira itu ada di dialog box, harusnya jadi apa coba? Yoza: betul, selain itu juga bisa "sejak"+"hingga", "dari"+"hingga", tapi yang jelas bukan "sejak"+"ke", "dari"+ke". Jadi sebenarnya, mengetahui konteks terjemahan itu sangat penting. Kalau nggak, tujuan penerjemahan yang tadi di awal nggak sampai. Para heker dan progremer :D juga penting menuliskan komentar pada kode sumber yang sekiranya dianggap diperlukan bagi para penerjemah untuk memahami. Saya lupa, bagaimana cara memberikan komentar untuk string yang akan di-gettext-kan. Tapi saya kasih contoh aja pada kasus penerjemahan firefox: ​http://hg.mozilla.org/l10n-central/id/file/f75fff5654da/browser/chrome/browser/syncGenericChange.properties. Di situ ada: # LOCALIZATION NOTE (change.password.title): This (and associated change.password/passphrase) are used when the user elects to change their password. Tulisan LOCALIZATION NOTE itu yang nulis si programer, agar penerjemah mudah mencari padanannya dengan tepat. Bagaimana, ada pertanyaan?
 
-**`<Yoza>`** ketika sebuah string punya 2 terjemahan, "harafiah" yang baku sekali dan "kontekstual" yang lebih dekat dengan isinya, dipilih yang mana, pak?
+**\<Yoza\>** ketika sebuah string punya 2 terjemahan, "harafiah" yang baku sekali dan "kontekstual" yang lebih dekat dengan isinya, dipilih yang mana, pak?
 
 Cara gampang: jalankan aplikasinya, sampai kira-kira nemu string yang dimaksud. Cara gampang-gampang susah sih :). Cara susah-susah gampang, trace ke kode sumber programnya, kali-kali ada informasi lain.
 
-**`<Yoza>`** romih: berarti yang diutamakan: konteksnya ya, pak?
+**\<Yoza\>** romih: berarti yang diutamakan: konteksnya ya, pak?
 
 Sebenarnya menurut pendapat pribadi saya, kalau bisa penerjemahan itu konsisten, misalnya: apakah Error itu mau diterjemakan jadi "kesalahan", "galat", atau yang lain, OK itu jadi "Oke", atau tetap "OK", atau "Baik".
 
@@ -54,12 +54,12 @@ Yoza: betul, kalau menurut saya konteksnya yang utama. Misalnya nanti di Glosari
 Inti ocehan saya malam ini adalah: ya saya ulangi lagi ya, intinya ocehan tukang obat saya malam ini adalah:
 
     Tujuan menerjemahkan: supaya pengguna mudah mengerti dalam menjalankan aplikasi
-    Syarat menerjemahkan yang baik: 
+    Syarat menerjemahkan yang baik:
 
     mengerti konteks string sumber
     referensi untuk rujukan: ​http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan, kateglo.bahtera.org (KBBI), ​http://pusatbahasa.kemdiknas.go.id/kbbi/
     coba baca sekali lagi hasil terjemahan, mungkin ada salah ketik, salah eja, tanda baca yang menghilang secara misterius :D
     coba pakai aplikasi-aplikasi lain yang sudah (hampir) selesai diterjemahkan ke bahasa Indonesia, biar "familier" gitu
-    konsisten dalam menerjemahkan, taati glosarium, tapi jangan lupa konteks string sumber (eh, kalau glosarium belum ada, ya bisa dibuat perlahan-lahan) 
+    konsisten dalam menerjemahkan, taati glosarium, tapi jangan lupa konteks string sumber (eh, kalau glosarium belum ada, ya bisa dibuat perlahan-lahan)
 
 Yah kira-kira gitu lah :) Buat yang ingin berhalo-halo, cuap-cuap ngobrol-ngobrol lebih lanjut bisa kontak saya lewat GoogleMail: romihardiyanto@…, atau YM!: romihardiyanto, FB juga sama: romihardiyanto. Kalau tidak ada pertanyaan, bisa saya tutup? Ngomong-ngomong, jadi penerjemah juga bisa hidup loo. Sekian ya.

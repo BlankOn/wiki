@@ -23,9 +23,4 @@ Format Karakter
 
 ---
 Berikut adalah tangkapan layar aplikasi Haroopad
-![](/Assets/Images/Markdown/Karakter.png)
-
-
-
-
-
+`![](/wiki/Assets/Images/Markdown/Karakter.png)`

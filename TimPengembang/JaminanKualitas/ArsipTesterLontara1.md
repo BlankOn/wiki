@@ -1,19 +1,15 @@
----
-title: Rapat-01-Lontara Tim Tester BlankOn
----
-
-## Jadwal
-* Hari/Tanggal: Jumat, 30 November 2007
-* Waktu: Pkl. 17.00 WIB (UTC+7)
-* Tempat: #blankon @ irc.freenode.net
-## Agenda
-1. Pengumuman tugas-tugas tester sebelum jahitan dimulai.
-2. Pembagian tugas penyelesaian panduan testing
-3. Pembagian tugas testing fitur-fitur yang di-*approve* (jika paket telah siap).
-## Diskusi dan Wacana
-* Diundang juga para pengusul fitur, baik yang sudah di-*approve* maupun masih usulan, serta Tim Pemaket.
-## Log Rapat 01-Lontara
-```log
+# Rapat-01-Lontara Tim Tester BlankOn
+**Jadwal**
+    * Hari/Tanggal: Jumat, 30 November 2007
+    * Waktu: Pkl. 17.00 WIB (UTC+7)
+    * Tempat: #blankon @ irc.freenode.net
+**Agenda**
+   1. Pengumuman tugas-tugas tester sebelum jahitan dimulai.
+   2. Pembagian tugas penyelesaian panduan testing
+   3. Pembagian tugas testing fitur-fitur yang di-*approve* (jika paket telah siap).
+**Diskusi dan Wacana**
+    * Diundang juga para pengusul fitur, baik yang sudah di-*approve* maupun masih usulan, serta Tim Pemaket.
+**Log Rapat 01-Lontara**
 (05:00:25 PM) RameTux: == Rapat 01-Lontara Tim Tester BlankOn ==
 (05:00:29 PM) RameTux: dimulai
 (05:00:37 PM) RameTux: Agenda silaken
@@ -416,4 +412,13 @@ kegiatan pan pada molor :p
 (06:20:58 PM) RameTux: Terima kasih atas kehadirannya
 (06:21:03 PM) RameTux: Wassalamualaykum
 (06:21:21 PM) RameTux: === Rapat 01-Lontara resmi ditutup ===
-```
+
+
+
+
+
+---
+ 
+
+
+

@@ -2,6 +2,7 @@
 ### Log
 Berhubung ada beberapa informasi yang dikoreksi di akhir rapat, harap log ini
 dibaca secara menyeluruh.
+
 ```log
 (02:16:00 PM) iang: bismillahirrohmaanirrohiim..
 (02:16:05 PM) iang: mari kita mulai kelas kali ini..

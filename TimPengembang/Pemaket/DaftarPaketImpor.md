@@ -1,6 +1,6 @@
 # DaftarPaketImpor
 ## Daftar ini dibaca oleh Robot Pabrik Paket ## Harap ditulis dengan ketentuan
-berikut: `<spasi>*<spasi>nama-paket<spasi>(login-di-LP)`
+berikut: ## `<spasi>*<spasi>nama-paket<spasi>(login-di-LP)`
 ## Daftar Paket Impor dan Pengelolanya
   * gnome-control-center (belutz)
   * gnome-desktop (belutz)
@@ -73,3 +73,11 @@ berikut: `<spasi>*<spasi>nama-paket<spasi>(login-di-LP)`
   * libdvdcss (udienz)
   * tzsetup (simon)
   * netcfg (simon)
+KategoriBlankOn KategoriPemaket
+Last modified on 01/26/2011 09:04:46 PM
+
+
+
+
+
+---

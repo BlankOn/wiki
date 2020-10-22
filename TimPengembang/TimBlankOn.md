@@ -1,11 +1,8 @@
----
-title: Tim BlankOn
-slug: /TimPengembang
----
+# Tim Pengembang BlankOn
 
 Pada awal pengembangan, Tim Pengembang BlankOn dibagi menjadi dua tim:
-* [Tim Rilis](#tim-rilis-blankon)
-* [Tim Proyek](#tim-proyek-blankon)
+    * [Tim Rilis](#tim-rilis-blankon)
+    * [Tim Proyek](#tim-proyek-blankon)
 
 Di dalam kedua tim itu ada tim-tim kecil yang bekerja sesuai tugasnya. Halaman ini menjelaskan tim apa saja yang ada dan tugas-tugasnya.
 [/raw-attachment/wiki/TimBlankOn/tim-blankon.png]
@@ -112,3 +109,11 @@ Last modified on 03/06/2014 06:05:01 PM
 
 ## Tim Pengembang BlankOn saat ini
 Adapun komposisi tim pengemban BlankOn saat ini dapat dilihat [di sini](/Memulai.md)
+
+
+
+---
+ 
+
+
+

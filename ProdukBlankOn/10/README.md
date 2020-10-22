@@ -1,6 +1,5 @@
----
-title: Tambora
----
+## Catatan Rilis
+# BLANKON TAMBORA MENDUNIA
 
 Setelah tertunda beberapa tahun, di awal tahun ini, kami pengembang BlankOn mempersembahkan sistem operasi bebas dan terbuka dengan nama kode TAMBORA dengan nomor rilis X. Rilis kali ini pengembang melakukan banyak perubahan, sehingga memberikan warna tersendiri dan BlankOn memberikan dukungan ke lebih banyak perangkat keras. Pengembang juga menambahkan fitur-fitur terbaru pada beberapa paket khas BlankOn. Dengan penembahan fitur ini diharapkan dapat memberikan kemudahan dalam penggunaan.
 

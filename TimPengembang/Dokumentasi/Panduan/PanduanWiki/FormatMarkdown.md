@@ -47,7 +47,7 @@ Berikut adalah tangkapan layar aplikasi Haroopad
 
 ### Format Karakter
  + Untuk membuat karakter tebal, tambahkan dua tanda bintang pada awal dan akhir karakter.
-  Contoh: **\*** **\***Tebal**\*** **\*** 
+  Contoh: **\*** **\***Tebal**\*** **\***
 
   Tampilan **Tebal**
  + Untuk membuat karakter miring, tambahkan dua tanda bintang pada awal dan akhir karakter.
@@ -184,7 +184,7 @@ Untuk menyusun daftar isi secara mudah dapat mengunakan [gh-md-toc](https://gith
 \!\[teks alternatif](alamat gambar)"Kapsi"
 
 **Contoh:**
-\!\[Boni](/wiki/Assets/Images/Boni.png)"Maskot BlankOn"
+\!\[Boni](/Assets/Images/Boni.png)"Maskot BlankOn"
 \!\[logo](http://wiki.ubuntu-id.org/BlankOn/Artwork?action=AttachFile&do=get&target=blankon2007logo.png)
 
 **Tampilan:**
@@ -198,7 +198,7 @@ Untuk menyusun daftar isi secara mudah dapat mengunakan [gh-md-toc](https://gith
 
 **Contoh:**
 \!\[Boni][3]
-\[3]:(/wiki/Assets/Images/Boni.png)"Maskot BlankOn"
+\[3]:(/Assets/Images/Boni.png)"Maskot BlankOn"
 
 **Tampilan:**
 ![Boni][3]
@@ -227,4 +227,3 @@ Ini bukan kutipan
 >ini kutipan
 
 Ini bukan kutipan
-

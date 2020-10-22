@@ -1,9 +1,9 @@
-# Rapat Pasca Rilis  BlankOn x Tambora 
-
-
-## ============================= Rapat pasca rilis tambora 2017 dimulai =================================
+# Rapat Pasca Rilis  BlankOn x Tambora
 
 ```log
+## ============================= Rapat pasca rilis tambora 2017 dimulai =================================
+
+
 20:12<princeofgiri>======================== rapat pasca rilis tambora 2017 dimulai ===============================================
 20:12<princeofgiri>selamat malam bapak-bapak
 20:12<antosamalona>malam pak

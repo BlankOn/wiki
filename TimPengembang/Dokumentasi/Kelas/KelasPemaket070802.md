@@ -27,8 +27,8 @@ Siapa saja boleh memantau dan ikut belajar.
    * sudah menandatangani Ubuntu Code of Conduct.
 ### Dokumentasi
     * menyusul
-### Log
-```log
+
+```log title="Log"
 (03:35:06 PM) mdamt: Yg penting sekarang agenda 1.
 (03:35:20 PM) mdamt: Agenda 2 bisa dilanjutkan dgn baca2 halaman wiki.
 (03:35:28 PM) mdamt: Kalau yg 1 kan harus bersepakat.

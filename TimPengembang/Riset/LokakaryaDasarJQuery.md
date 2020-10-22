@@ -1,11 +1,10 @@
----
-title: Catatan Percakapan BlankOn Riset 1 Oktober 2012
----
+# Catatan Percakapan BlankOn Riset 1 Oktober 2012
 
 Lokakarya Dasar-dasar jQuery
 
-```log
+```
 Conversation with #blankon-riset
+
 (08:12:20 PM) princeofgiri: mulai saja
 (08:12:25 PM) princeofgiri: yang ikut di sini ntar kasih PR
 (08:12:26 PM) princeofgiri: :D
@@ -172,7 +171,7 @@ menggunakan jQuery
 (09:24:55 PM) Rabitya: secara popularitas, jQuery lebih populer dibandingkan dengan javascript lainnya, misalnya prototype, mootools, YUI, dan sebagainya
 (09:25:30 PM) Rabitya: selain itu juga, ukuran berkas jQuery lebih kecil dibandingkan dengan sejenisnya
 (09:25:33 PM) fbrn [~aris@202.152.204.186] entered the room.
-(09:25:51 PM) Rabitya: kalau google dan microsoft saja pakai jQuery, masa 
+(09:25:51 PM) Rabitya: kalau google dan microsoft saja pakai jQuery, masa
 BlankOn gak mau pakai juga
 (09:25:52 PM) Rabitya: :)
 (09:26:33 PM) Rabitya: bagaimana cara kerja jQuery

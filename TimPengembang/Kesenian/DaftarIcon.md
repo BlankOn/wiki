@@ -1,10 +1,7 @@
----
-title: DaftarIcon
----
-
+# DaftarIcon
 ## Standard Category
                                                                                                               The icon
-                                                                                                  for the
+                                                                                                              for the
 applications- ​http://mekong.ubuntu-id.org/ikon/human-icon-theme-0.18/24x24/categories/                     Accessories
 accessories   applications-accessories.png                                                ​SV(BlankOn) ​SVsub-menu of
                                                                                                               the
@@ -356,3 +353,7 @@ zoom-original             icon SVG (BlankOn) SVG Size item in the application's
                                                  The icon used for the Zoom Out
 zoom-out                  icon SVG (BlankOn) SVG item in the application's View
                                                  menu.
+Last modified on 06/12/2008 02:36:25 PM
+ 
+---
+ 

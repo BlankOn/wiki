@@ -1,8 +1,8 @@
 # Catatan Rapat (05-04-2017)
 
+```log
 ## ================ Rapat Dimulai ====================
 
-```
 <tuanpembual> ========= rapat 5 aprill dimulai ===========
 <yusrideb> siap pak
 <tuanpembual> okip_ nyaut
@@ -29,7 +29,7 @@
 <tuanpembual> kendala:
 <tuanpembual> tim mulai berguguran, setor nama, ilang komunikasi,
 <tuanpembual> dari saya selesai
-<tuanpembual> lanjut tim riset, silahkan okip_ 
+<tuanpembual> lanjut tim riset, silahkan okip_
 <okip_> done : - doing : irgsh plan : konsultasi ke pak fajran kendala : -  untuk bagian doing di atas detilnya sbb : irgsh sudah 90%, tinggal 2 langkah lagi : queue irgsh-repo dan reprepro. laporan lengkap (intro, cara kerja irgsh, dst) sedang ditulis dalam bentuk blog post.
 <okip_> yah
 <okip_> bentar tak rapiin
@@ -44,7 +44,7 @@
 <okip_> Demikian dari riset
 <tuanpembual> ada lagi pak okip_ ?
 <okip_> Sudah cukup, tuanpembual
-<tuanpembual> baik, 
+<tuanpembual> baik,
 <tuanpembual> oot,
 * anchu (~kancilkec@36.84.1.32) has joined #blankon
 <tuanpembual> beberapa tim bulan maret april ini rame kerjaan
@@ -53,7 +53,7 @@
 <tuanpembual> tester, nunggu pabrik cd sembuh
 <tuanpembual> okeh lanjut yam
 <tuanpembual> 3. dokumentasi
-<tuanpembual> silahkan pak Faiq 
+<tuanpembual> silahkan pak Faiq
 <Faiq> Ok
 <Faiq> Minggu ini tim dokumentasi masih idle
 <Faiq> Plan: kelas pak kibi sesi 3
@@ -62,7 +62,7 @@
 <Faiq> Makasih
 * rafi_ has quit (Ping timeout: 260 seconds)
 <tuanpembual> siap,
-<tuanpembual> makasih pak Faiq 
+<tuanpembual> makasih pak Faiq
 <tuanpembual> lanjut
 <tuanpembual> 4. humas
 <tuanpembual> *clinguk2
@@ -71,7 +71,7 @@
 <tuanpembual> skip.
 * faiq1 (~faiq@114.121.245.142) has joined #blankon
 <tuanpembual> 5. kesenian
-<tuanpembual> colek reaamina 
+<tuanpembual> colek reaamina
 <Pantana> saya pak
 <Pantana> skip
 <reaamina> Kesenian plan: perbaikan dan peningkatan kualitas materi kesenia uluwatu
@@ -114,7 +114,7 @@
 <okip_> silakan lanjut
 <tuanpembual> 8. JK
 <antosamalona> Saran diterima pak.
-<tuanpembual> pak Kiflie 
+<tuanpembual> pak Kiflie
 <tuanpembual> :)
 <tuanpembual> bln april mulai rame ntr pak kerjaan
 <Kiflie> JK: masih idle Pak
@@ -134,7 +134,7 @@
 * faiq2 (~faiq@114.124.183.101) has joined #blankon
 * i5um41ru (~i5um41ru@112.215.173.135) has joined #blankon
 <okip_> misskecupbung
-<tuanpembual> colek misskecupbung 
+<tuanpembual> colek misskecupbung
 * faiq1 has quit (Read error: Connection reset by peer)
 * Faiq has quit (Read error: Connection reset by peer)
 * Faiq3 (~androirc@114.120.234.228) has joined #blankon
@@ -157,9 +157,9 @@
 <tuanpembual> plan: upgrade proc alynne
 <misskecupbung> doing :List subdomain yang sudah tidak digunakan
 <tuanpembual> - upgrade alynne yg sudah, ram dari 6GB to 16 GB
-<tuanpembual> siap misskecupbung 
+<tuanpembual> siap misskecupbung
 <misskecupbung> doing : mematikan subdomain yang sudah tidak digunakan
-<tuanpembual> ada tambahan lagi misskecupbung 
+<tuanpembual> ada tambahan lagi misskecupbung
 <misskecupbung> Eh, salah, mematikan service yang sudah tidak lagi digunakan
 <misskecupbung> Sementara itu pak, nanti koordinasi sama pak Darian lagi,
 <tuanpembual> siap.
@@ -178,7 +178,7 @@
 <okip_> saya mo surhat
 <tuanpembual> yg mau nanya silahkan juga
 <i5um41ru> surhat itu apa ya pak?
-<tuanpembual> silahkan pak okip_ 
+<tuanpembual> silahkan pak okip_
 <okip_> tentang gimana cara kita jaga progress kita
 <misskecupbung> Saya masih cukup umur buat 7x rilis ,, yesss!
 <Faiq3> Aku juga mau cuuuuurhat ach
@@ -218,7 +218,7 @@
 <tuanpembual> i5um41ru, di perpus ada kq bukunya
 <tuanpembual> tentang sdlc
 <tuanpembual> *perpus kota
-<tuanpembual> pak Faiq3 
+<tuanpembual> pak Faiq3
 <hahn> di google juga banyak~~
 <i5um41ru> jauh pak, perpus kotanya, 30 menit perjalanan.
 <Faiq3> Utk dokumentasi prioritas tugasnya apa?
@@ -226,7 +226,7 @@
 <hahn> curhat tim pemaket dong pak. selama ini perasaan belum ada kerjaan. apa ada yang bisa saya lakukan gitu
 <tuanpembual> hahn, bnyk pak,
 <tuanpembual> gabung ke irgsh task force,
-<tuanpembual> undangin okip_ 
+<tuanpembual> undangin okip_
 <tuanpembual> ntr saya kasih tugas :D
 <tuanpembual> *huahahahahahaha
 <Faiq3> Persiapan buat buku panduan ? Atau migrasi wiki? Atau rawat web panduan?
@@ -379,8 +379,8 @@
 <tuanpembual> kita bertemu lagi rabu minggu depan.
 <tuanpembual> kita review AI yg barusan terselesaikan berapa.
 <tuanpembual> ============= rapat ditutup dahulu ===============
-```
 
-### sumber : http://tempel.blankon.in/3677229 
+### sumber : http://tempel.blankon.in/3677229
 
 ## ============= Rapat Ditutup ===============
+```

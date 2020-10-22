@@ -1,6 +1,4 @@
----
-title: Misi Proyek BlankOn
----
+# Misi Proyek BlankOn
 
 Proyek BlankOn bertujuan untuk mengembangkan ekosistem baru dalam konteks perangkat lunak bebas dan terbuka. Pengembangan dilakukan dengan cara meningkatkan kecakapan sumber daya lokal sehingga mampu dan kompeten di dalam pengembangan perangkat lunak bebas dan terbuka, mulai dari yang teknis seperti pengembangan aplikasi dan distribusi Linux, hingga hal-hal non-teknis seperti kepemimpinan dan kemampuan membangun komunitas hingga solusi komersial berbasis BlankOn.
 
@@ -36,3 +34,9 @@ Berikut adalah beberapa contoh hal-hal yang menjadi indikator keberhasilan misi 
 - Saya pengusaha komputer di Malaysia, saya menjual komputer saya dengan sistem operasi BlankOn di dalamnya
 - Saya milioner asal Afrika Selatan, di dalam distribusi Linux buatan saya, terdapat program yang awalnya dikembangkan di BlankOn
 - Saya dosen mata ajar Sistem Operasi. Saya menggunakan BlankOn untuk laboratorium Sistem Operasi.
+
+---
+ 
+
+
+

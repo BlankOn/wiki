@@ -1,7 +1,7 @@
 # MasalahYangSeringDihadapi
    1. Ketika melakukan bzr commit kadang-kadang terjadi kesalahan seperti ini:
    ```
-bzr: ERROR: bzrlib.errors.UnlockableTransport: Cannot lock: transport is
+      bzr: ERROR: bzrlib.errors.UnlockableTransport: Cannot lock: transport is
       read only: <bzrlib.transport.http._pycurl.PyCurlTransport url=http://
       bazaar.launchpad.net/~blankon-pemaket/blankon/paket-siap-bangun/.bzr/
       repository/>
@@ -61,8 +61,18 @@ bzr: ERROR: bzrlib.errors.UnlockableTransport: Cannot lock: transport is
       repository/>
       bzr 0.15.0 on python 2.5.1.final.0 (linux2)
       arguments: ['/usr/bin/bzr', 'commit']
-```
-Hal ini terjadi jika sebelum melakukan bzr commit anda melakukan bzr co <url>.
+  ```
+Hal ini terjadi jika sebelum melakukan bzr commit anda melakukan bzr co <url\>.
 Solusinya adalah dengan melakukan
-bzr bind sftp://`<akun>`@bazaar.launchpad.net/~blankon-pemaket/blankon/
-`<nama_paket>`
+bzr bind sftp://<akun\>@bazaar.launchpad.net/~blankon-pemaket/blankon/
+<nama_paket\>
+KategoriBlankOn KategoriPemaket
+Last modified on 06/18/2008 10:03:27 AM
+####
+
+
+
+
+
+
+---
