@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.65">
+<title data-react-helmet="true">Panduan5Bab13 | BlankOn Linux</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="Panduan5Bab13 | BlankOn Linux"><meta data-react-helmet="true" name="description" content="BAB XIII : Pengaturan Piranti Keras"><meta data-react-helmet="true" property="og:description" content="BAB XIII : Pengaturan Piranti Keras"><meta data-react-helmet="true" property="og:url" content="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab13"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab13"><link rel="stylesheet" href="/styles.dcedc9af.css">
+<link rel="preload" href="/styles.d346b3b4.js" as="script">
+<link rel="preload" href="/runtime~main.5d9df274.js" as="script">
+<link rel="preload" href="/main.4590b193.js" as="script">
+<link rel="preload" href="/1.08d9ae6c.js" as="script">
+<link rel="preload" href="/5.8ee82b6a.js" as="script">
+<link rel="preload" href="/966.5fd1a52e.js" as="script">
+<link rel="preload" href="/935f2afb.345afce5.js" as="script">
+<link rel="preload" href="/17896441.aafa42f8.js" as="script">
+<link rel="preload" href="/dca70ef0.ebe39b66.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<nav class="navbar navbar--fixed-top navbarHideable_3046"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a><a class="navbar__item navbar__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a><a class="navbar__item navbar__link" href="/ProdukBlankOn/README">Produk</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="BlankOn Wiki"></a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2aTZ"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_BsTx">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a></li><li class="menu__list-item"><a class="menu__link" href="/ProdukBlankOn/README">Produk</a></li><li class="menu__list-item"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="menu__link header-github-link" aria-label="BlankOn Wiki"></a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_2gpo"><main class="docMainContainer_3EyW"><div class="container padding-vert--lg docItemWrapper_1Hme"><div class="row"><div class="col docItemCol_2AGf"><div class="docItemContainer_1tAC"><article><div class="markdown"><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="bab-xiii--pengaturan-piranti-keras"></a>BAB XIII : Pengaturan Piranti Keras<a aria-hidden="true" tabindex="-1" class="hash-link" href="#bab-xiii--pengaturan-piranti-keras" title="Direct link to heading">#</a></h1><p><strong>Panduan BlankOn 5</strong></p><p>Pengaturan piranti keras yang terpasang di komputer menggunakan BlankOn Linux
+sangat mudah sekali. Anda hampir tidak perlu melakukan pemasangan driver
+piranti keras, karena BlankOn Linux sudah menyediakan hampir semua driver
+piranti keras esensial yang ada saat ini. Sehingga, setelah pemasangan BlankOn
+Linux, hampir semua piranti keras esensial seperti kartu video, kartu suara,
+dsb bisa berjalan dengan baik.
+Namun untuk memantapkan piranti keras tersebut, Anda perlu mengetahui bagaimana
+melakukan pengaturan piranti keras yang ada. Semua hal menyangkut piranti keras
+dibahas dalam bab ini.
+INFO: Walaupun hampir semua piranti keras esensial mampu digunakan di Linux
+(termasuk BlankOn Linux didalamnya) dapat digunakan dengan baik dan out-of-the-
+box (tanpa perlu pengaturan mendetail), sampai saat ini masalah driver piranti
+keras masih merupakan masalah dominan dan menganggu dunia Linux. Tidak semua
+produsen piranti keras merilis driver-nya untuk platform Linux. Walaupun ada
+beberapa, itupun tidak Open Source dan masih dikembangan secara tertutup.
+Hampir semua driver yang saat ini ada di Linux merupakan hasil jerih payah para
+komunitas tanpa bantuan dari produsen piranti keras. Namun, hal ini akan
+menjadi masalah waktu saja. Beberapa produsen piranti keras mulai maju untuk
+mengembangkan driver-nya untuk Linux mengingat Linux semakin populer saat ini
+sebagai sistem operasi untuk Desktop.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="konfigurasi-kartu-video-vga-card"></a>Konfigurasi Kartu Video (VGA Card)<a aria-hidden="true" tabindex="-1" class="hash-link" href="#konfigurasi-kartu-video-vga-card" title="Direct link to heading">#</a></h3><p>Hampir semua kartu video yang ada saat ini sudah didukung oleh BlankOn Linux.
+Bahkan, jika kartu grafis Anda memiliki dukungan akselerasi 3D, Anda bisa
+membuat penampilan desktop menjadi indah dengan mengaktifkan fitur efek visual
+yang ada di BlankOn.
+Namun untuk pengguna kartu video merk ATI dan NVIDIA, Akselerasi 3D tidak
+diaktifkan secara default karena driver untuk akselerasi 3D adalah tidak Open
+Source dan tidak diperbolehkan untuk diaktifkan langsung karena masalah
+lisensi. Untuk mengaktifkannya, Anda bisa mengikuti langkah berikut ini :</p><ol><li>Klik menu System &gt; Administrasi &gt; Hardware Drivers.</li><li>Tunggu sebentar, fitur Hardware Drivers akan mencari piranti keras yang
+menggunakan driver non-Open Source, setelah pencarian selesai, maka akan
+muncul beberapa pilihan driver.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab13/jockey-gtk.png]</li><li>Klik pada driver yang bertuliskan “Recommend”, kemudian klik tombol
+“Active” untuk mengaktifkan driver tersebut, kemudian fitur ini akan
+menginstalkan driver tersebut untuk Anda melalui APT.</li><li>Setelah instalasi driver selesai, Restart komputer.</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="konfigurasi-monitor"></a>Konfigurasi Monitor<a aria-hidden="true" tabindex="-1" class="hash-link" href="#konfigurasi-monitor" title="Direct link to heading">#</a></h3><p>Konfigurasi monitor di BlankOn Linux sudah diatur sedemikian rupa, sehingga
+resolusi layar monitor sesuai dengan kemampuan monitor yang Anda miliki. Namun
+jika Anda ingin mengatur resolusi monitor agar lebih optimal, atau memanfaatkan
+beberapa monitor yang terpasang di komputer, Anda bisa melakukannya dengan
+fitur pengaturan Monitor dengan langkah sebagai berikut.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="pada-blankon-reguler"></a>Pada BlankOn reguler<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pada-blankon-reguler" title="Direct link to heading">#</a></h4><ol><li>Klik menu System &gt; Preferensi &gt; Tampilan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab13/screen-resolution-gnome.png]</li><li>Tentukan resolusi layar pada pilihan “Resolusi” serta laju refresh-nya
+pada pilihan “Laju Refesh”.</li><li>Tentukan monitor yang akan dihidupkan dengan memilih opsi “On” pada
+masing-masing jenis monitor yang muncul. Jika monitor yang terpasang
+belum muncul, silahkan klik tombol “Deteksi Monitor” untuk melakukan
+pendeteksian ulang monitor.</li><li>Jika ingin menyamakan semua tampilan monitor, Anda bisa memberi centang
+pada “Layar bayangan”. Sedangkan, jika ingin mengaktifkan mode multi
+monitor, Anda bisa hilangkan centang tersebut dan mengatur layar sesuai
+dengan yang Anda inginkan pada bagian “Tarik-tarik monitor itu untuk
+diatur pada tempatnya” serta resolusi masing-masing.</li><li>Setelah semua pengaturan selesai, klik tombol “Terapkan”. Mungkin saja,
+Anda akan diminta untuk me-restart mode grafis agar konfigurasi bisa
+diterapkan.
+TIP: Jika terdapat kegagalan dalam pengaturan layar bayangan, Anda bisa restart
+BlankOn Linux dalam keadaan kabel VGA output masih terpasang. Setelah kembali
+ke desktop, maka layar bayangan akan langsung diterapkan dengan resolusi layar
+yang sudah disesuaikan.</li></ol><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="pada-blankon-minimalis"></a>Pada BlankOn minimalis<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pada-blankon-minimalis" title="Direct link to heading">#</a></h4><ol><li>Klik pada menu BlankOn &gt; Settings &gt; Monitor Settings</li><li>Beri tanda centang pada “Hidupkan” di masing-masing monitor yang ingin
+Anda aktifkan, kemudian Anda bisa mengatur resolusi layar serta laju
+refresh dari masing-masing layar.</li><li>Klik tombol OK untuk menerapkan pengaturan Anda.</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="konfigurasi-mesin-pencetak"></a>Konfigurasi Mesin Pencetak<a aria-hidden="true" tabindex="-1" class="hash-link" href="#konfigurasi-mesin-pencetak" title="Direct link to heading">#</a></h3><p>Manajemen mesin pencetak atau printer yang ada di BlankOn Linux diatur oleh
+sebuah piranti lunak server bernama CUPS (Common Unix Printing System). CUPS
+bertanggung jawab untuk menerima permintaan pencetakan baik dari lokal maupun
+dari jaringan, melakukan job pencetakan dan mengirim informasi ke printer untuk
+melakukan pencetakan.
+Secara default, driver mesin pencetak akan langsung terpasang di BlankOn Linux
+jika mesin pencetak tersebut sudah tersedia di sistem pada saat printer pertama
+kalinya dipasang ke komputer. Anda akan melihat pesan notifikasi bahwa printer
+baru telah ditambahkan. Namun, jika mesin pencetak Anda tidak terdeteksi sama
+sekali atau printer terbagi di jaringan, Anda bisa membuka tool konfigurasi
+mesin pencetak yang Anda bisa buka melalui menu System &gt; Administrasi &gt;
+Mencetak. Berikut adalah langkah – langkah penambahan mesin pencetak melalui
+tool konfigurasi printer :</p><ol><li>Klik ikon “Baru” pada toolbar. Tunggu sebentar, CUPS akan melakukan
+pengecekan terhadap mesin pencetak yang terpasang di port komputer maupun
+yang ada di jaringan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab13/cups-select-printer-to-
+add.png]</li><li>Setelah proses pengecekan selesai, pilih koneksi/sambungan printer pada
+bagian “Select device”.</li><li>Tunggu sebentar, CUPS sedang mencari driver yang tepat untuk mesin
+pencetak Anda. Kemudian, tentukan sumber driver dari mesin pencetak
+tersebut. Terdapat tiga pilihan opsi, antara lain :
+o “Select printer from database”, pilih opsi ini jika Anda ingin
+menggunakan driver mesin pencetak yang sudah tersedia di sistem.
+Jika memilih opsi ini, pilih merk dari mesin pencetak Anda
+(biasanya sudah dipilihkan secara otomatis).
+o “Provide PPD file”, pilih opsi ini jika ingin memasang driver dari
+file PPD yang kadang tersedia di CD Driver mesin pencetak Anda.
+o “Search for printer driver to download”, pilih opsi ini jika Anda
+tidak memiliki driver yang cocok untuk printer Anda. Ketik nama dan
+model mesin pencetak dan CUPS akan mengunduh driver-nya untuk Anda.
+Pilih salah satu opsi, kemudian lakukan pengaturan sesuai opsi tersebut dan
+klik tombol “Maju”.</li><li>Jika Anda memilih opsi kesatu pada langkah sebelumnya, pilih tipe mesin
+pencetak yang Anda gunakan, kemudian klik tombol “Maju”.</li><li>Masukkan Nama mesin pencetak, deskripsi (opsional) dan lokasi nyata
+(opsional) dari mesin pencetak yang akan ditambahkan. Langkah terakhir,
+klik tombol “Terapkan”.</li><li>Untuk melakukan percobaan pada printer, Anda bisa klik tombol “Ya” pada
+saat muncul pesan pertanyaan apakah Anda ingin melakukan tes pencetakkan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab13/cups-printer-manager.png]
+INFO: Tidak semua driver (pengendali) mesin pencetak tersedia di BlankOn Linux
+secara default. Beberapa mesin pencetak seri terbaru mungkin saja belum
+tersedia driver-nya di BlankOn. Untuk informasi dukungan driver mesin pencetak
+di BlankOn Linux, silahkan buka situs ​<a href="http://openprinting.org." target="_blank" rel="noopener noreferrer">http://openprinting.org.</a> Disana juga
+akan terdapat dokumentasi cara pemasangan mesin pencetak jenis-jenis tertentu
+yang tidak bisa Anda pasang driver-nya melalui langkah di atas.</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="konfigurasi-scanner"></a>Konfigurasi Scanner<a aria-hidden="true" tabindex="-1" class="hash-link" href="#konfigurasi-scanner" title="Direct link to heading">#</a></h3><p>Manajemen scanner di BlankOn Linux menggunakan piranti lunak bernama SANE
+(<a href="http://www.sane-project.org" target="_blank" rel="noopener noreferrer">www.sane-project.org</a>). Untuk melakukan scanning, Anda bisa buka aplikasi XSANE
+melalui menu BlankOn &gt; Grafis &gt; Xsane Image Scanner.
+Sebelum melakukan scanning, XSANE akan melakukan pendeteksian terhadap mesin
+scanner yang terpasang di komputer. Setelah scanner ditemukan, maka Anda akan
+melihat tampilan utama XSANE.
+Tampilan utama XSANE terdiri dari tiga bagian, yaitu jendela penampil, jendela
+utama dan histogram. Sebelum melakukan scanning, Anda dapat melakukan
+pengaturan scanning seperti penggunaan warna, resolusi, tempat penyimpanan pada
+jendela utama. Setelah pengaturan selesai, Anda dapat melakukan scanning dengan
+klik pada tombol “Scan” pada jendela utama.
+Jika Anda ingin melakukan OCR untuk mengambil teks dari suatu berkas yang di-
+scan, Anda bisa memasang paket “gocr” dengan perintah berikut melalui terminal
+:
+blankon@blankon:~$ sudo apt-get install gocr↵
+Kemudian, untuk melakukan OCR, klik menu File &gt; OCR – Save as text.
+INFO: Untuk melihat daftar lengkap scanner yang didukung oleh SANE, silahkan
+buka halaman ​<a href="http://www.sane-project.org/sane-mfgs.html" target="_blank" rel="noopener noreferrer">http://www.sane-project.org/sane-mfgs.html</a>.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="pengaturan-kartu-wireless-lan"></a>Pengaturan Kartu Wireless LAN<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pengaturan-kartu-wireless-lan" title="Direct link to heading">#</a></h3><p>Berbeda dengan sistem operasi yang lain, dalam Linux khususnya BlankOn Linux,
+Anda tidak perlu lagi dipusingkan dengan masalah kartu wireless LAN (WLAN),
+karena BlankOn Linux sudah memasang driver-nya secara otomatis, hampir sebagian
+besar dari jenis-jenis kartu WLAN yang ada saat ini sudah di dukung oleh
+BlankOn Linux.
+Namun, memang tidak dapat dipungkiri bahwa sampai saat ini masih saja ada
+beberapa jenis kartu WLAN yang belum di dukung sepenuhnya oleh BlankOn, seperti
+chipset Broadcom dan Atheros.
+Untuk dapat mengetahui apakah kartu WLAN yang kita miliki bekerja dengan baik,
+kita dapat memeriksannya dengan mengetikkan perintah “sudo iwconfig” ini pada
+antarmuka teks. Dengan mengetikkan perintah tersebut, akan keluar output
+seperti berikut ini :
+blankon@blankon:~$ sudo iwconfig↵
+[sudo] sandi for blankon:
+lo        no wireless extensions.
+eth0      no wireless extensions.
+wmaster0  no wireless extensions.
+wlan0     IEEE 802.11bgn  ESSID:&quot;&quot;
+Mode:Managed  Frequency:2.412 GHz  Access Point: Not-Associated
+Tx-Power=27 dBm
+Retry min limit:7   RTS thr:off   Fragment thr=2352 B
+Encryption key:off
+Power Management:off
+Link Quality:0  Signal level:0  Noise level:0
+Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+pan0      no wireless extensions.
+Perintah tersebut akan menampilkan semua perangkat jaringan yang terpasang di
+komputer. Jika perangkat bukan merupakan WLAN, maka pada bagian kanan nama
+perangkat tersebut akan muncul teks “no wireless extensions”. Jika perangkat
+tersebut merupakan WLAN, maka akan muncul beberapa detail pada bagian perangkat
+tersebut seperti pada bagian wlan0.
+Teks pada bagian wlan0 menandakan bahwa driver WLAN sudah terpasang dan siap
+digunakan. Namun, jika sebaliknya, berarti driver WLAN Anda belum terpasang
+Lalu, bagaimana caranya menyelesaikan persoalan tersebut?. Banyak jalan menuju
+roma, dan begitu juga dengan permasalahan yang satu ini, BlankOn Linux sudah
+menyediakan alternatif bagi penggunya yang tidak dapat menggunakan kartu WLAN-
+nya karena masalah dukungan hardware yang masih kurang.
+Dalam menyelesaikan permasalahan ini, memang ada beberapa hal yang harus kita
+persiapkan terlebih dahulu, dan disini kita akan membahasnya secara rinci.
+Untuk dapat menggunakan kartu wireless yang tidak dapat berfungsi secara
+otomatis, pertama yang harus dilakukan adalah memasang satu piranti lunak yang
+bernama ndiswrapper. Dengan menggunakan piranti lunak ini, memungkinkan kita
+untuk menggunakan driver WLAN yang digunakan pada sistem operasi Microsoft
+Windows pada BlankOn.
+Untuk memasang Ndiswrapper, instal paket “ndisgtk” melalui APT dengan perintah
+“sudo apt-get install ndiswrapper” seperti berikut ini :
+blankon@blankon:~$ sudo apt-get install ndisgtk↵
+Setelah Ndiswrapper terpasang, tahapan selanjutnya adalah mencari driver WLAN
+untuk Windows 2000/XP. Anda dapat menemukannya pads CD driver yang disertakan
+pada WLAN atau mencarinya di Internet. Setelah mendapatakannya, klik menu
+System &gt; Administrasi &gt; Driver Nirkabel Windows. Klik pada tombol “Install
+Driver Baru”, kemudian klik pada berkas *.inf dari driver WLAN versi Windows
+2000/XP. Kemudian driver tersebut akan diinstal. Setelah instalasi berhasil,
+Anda bisa merestart komputer untuk mengaktifkan driver tersebut.
+Pada saat kembali ke Desktop, buka Terminal lalu ketik kembali perintah “sudo
+iwconfig”. Jika perangkat WLAN terdeteksi, berarti driver dari kartu WLAN
+tersebut berhasil dipasang dan siap digunakan.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="konfigurasi-bluetooth"></a>Konfigurasi Bluetooth<a aria-hidden="true" tabindex="-1" class="hash-link" href="#konfigurasi-bluetooth" title="Direct link to heading">#</a></h3><p>Bluetooth saat ini menjadi sarana komunikasi antarperangkat mobile yang sangat
+banyak digunakan saat ini. Dengan menggunakan Bluetooth, tidak perlu lagi
+memasang kabel LAN, mengatur ESSID, Alamat IP, Gateway dan segala tetek bengek
+lainnya untuk melakukan komunikasi antar perangkat. Cukup tentukan tujuan
+pengiriman data, maka data akan terkirim.
+Untuk menggunakan Bluetooth pada komputer, Anda dapat menggunakan alat yang
+bernama Bluetooth Adapter atau Bluetooth Dongle. Bahkan, alat ini sudah
+tertanam secara built-in pada notebook-notebook terbaru.
+Menggunakan Bluetooth adapter pada BlankOn tidaklah sulit. Sebagian besar
+Bluetooth adapter yang ada saat ini sudah dapat digunakan di BlankOn tanpa
+perlu memasang driver-nya lagi. Jika Bluetooth adapter sudah terpasang dan
+sudah aktif, maka akan muncul ikon berlambang Bluetooth pada area notikasi/
+tray.
+Untuk melakukan sambungan terhadap suatu perangkat, berikut adalah langkah-
+langkahnya :</p><ol><li>Klik kanan pada ikon bluetooth pada notifikasi area, lalu pilih menu
+“Setup new Device...”.</li><li>Pilih perangkat bluetooth yang ingin Anda sambungan dan tentukan nomor
+PIN yang Anda inginkan untuk proses pairing, kemudian klik tombol “Maju”.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab13/bluez-find-devices.png]</li><li>Kemudian, BlankOn akan melakukan koneksi ke perangkat yang Anda pilih.
+Pada tahapan ini, Anda juga diberitahukan informasi kode PIN yang harus
+Anda masukkan di perangkat agar bisa melakukan koneksi dengan baik.
+Setelah sambungan terjalin, klik tombol “Maju”.</li><li>Pada konfigurasi terakhir, klik tombol “Tutup”.
+Untuk melakukan transfer berkas ke perangkat, klik kanan pada ikon bluetooth
+pada area notifikasi, lalu klik menu “Kirim berkas ke perangkat..”. Kemudian,
+pilih berkas yang ingin Anda transfer.
+Last modified on 07/20/2009 12:02:57 PM</li></ol><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="attachments-5"></a>Attachments (5)<a aria-hidden="true" tabindex="-1" class="hash-link" href="#attachments-5" title="Direct link to heading">#</a></h4><div class="mdxCodeBlock_1XEh"><div class="codeBlockContent_1u-d"><button type="button" aria-label="Copy code to clipboard" class="copyButton_10dd">Copy</button><div tabindex="0" class="prism-code language-undefined codeBlock_3iAC"><div class="codeBlockLines_b7E3" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">* bluez-find-devices.png​ (31.1 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* cups-printer-manager.png​ (18.1 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* cups-select-printer-to-add.png​ (20.3 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* jockey-gtk.png​ (14.9 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* screen-resolution-gnome.png​ (29.8 KB) - added by wirama 8 years ago.</span></div></div></div></div></div><h4></h4></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/BlankOn/wiki/edit/master/Wiki/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab13.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#konfigurasi-kartu-video-vga-card" class="table-of-contents__link">Konfigurasi Kartu Video (VGA Card)</a></li><li><a href="#konfigurasi-monitor" class="table-of-contents__link">Konfigurasi Monitor</a></li><li><a href="#konfigurasi-mesin-pencetak" class="table-of-contents__link">Konfigurasi Mesin Pencetak</a></li><li><a href="#konfigurasi-scanner" class="table-of-contents__link">Konfigurasi Scanner</a></li><li><a href="#pengaturan-kartu-wireless-lan" class="table-of-contents__link">Pengaturan Kartu Wireless LAN</a></li><li><a href="#konfigurasi-bluetooth" class="table-of-contents__link">Konfigurasi Bluetooth</a></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="text--center"><div class="margin-bottom--sm"><a href="https://blankonlinux.or.id" target="_blank" rel="noopener noreferrer" class="footerLogoLink_1zJy"><img class="footer__logo" alt="BlankOn Linux" src="/img/logo-hitam.png"></a></div><div>Copyright © 2020 BlankOn Linux. Built with Docusaurus.</div></div></div></footer></div>
+<script src="/styles.d346b3b4.js"></script>
+<script src="/runtime~main.5d9df274.js"></script>
+<script src="/main.4590b193.js"></script>
+<script src="/1.08d9ae6c.js"></script>
+<script src="/5.8ee82b6a.js"></script>
+<script src="/966.5fd1a52e.js"></script>
+<script src="/935f2afb.345afce5.js"></script>
+<script src="/17896441.aafa42f8.js"></script>
+<script src="/dca70ef0.ebe39b66.js"></script>
+</body>
+</html>

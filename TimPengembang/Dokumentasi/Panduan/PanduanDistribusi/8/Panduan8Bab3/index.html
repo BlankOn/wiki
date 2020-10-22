@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.65">
+<title data-react-helmet="true">Panduan8Bab3 | BlankOn Linux</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="Panduan8Bab3 | BlankOn Linux"><meta data-react-helmet="true" name="description" content="Bab 3 Pasang, Hapus dan Perawatan Perangkat Lunak"><meta data-react-helmet="true" property="og:description" content="Bab 3 Pasang, Hapus dan Perawatan Perangkat Lunak"><meta data-react-helmet="true" property="og:url" content="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/8/Panduan8Bab3"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/8/Panduan8Bab3"><link rel="stylesheet" href="/styles.dcedc9af.css">
+<link rel="preload" href="/styles.d346b3b4.js" as="script">
+<link rel="preload" href="/runtime~main.5d9df274.js" as="script">
+<link rel="preload" href="/main.4590b193.js" as="script">
+<link rel="preload" href="/1.08d9ae6c.js" as="script">
+<link rel="preload" href="/5.8ee82b6a.js" as="script">
+<link rel="preload" href="/966.5fd1a52e.js" as="script">
+<link rel="preload" href="/935f2afb.345afce5.js" as="script">
+<link rel="preload" href="/17896441.aafa42f8.js" as="script">
+<link rel="preload" href="/d5870919.ebf33384.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<nav class="navbar navbar--fixed-top navbarHideable_3046"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a><a class="navbar__item navbar__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a><a class="navbar__item navbar__link" href="/ProdukBlankOn/README">Produk</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="BlankOn Wiki"></a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2aTZ"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_BsTx">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a></li><li class="menu__list-item"><a class="menu__link" href="/ProdukBlankOn/README">Produk</a></li><li class="menu__list-item"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="menu__link header-github-link" aria-label="BlankOn Wiki"></a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_2gpo"><main class="docMainContainer_3EyW"><div class="container padding-vert--lg docItemWrapper_1Hme"><div class="row"><div class="col docItemCol_2AGf"><div class="docItemContainer_1tAC"><article><div class="markdown"><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="bab-3-pasang-hapus-dan-perawatan-perangkat-lunak"></a>Bab 3 Pasang, Hapus dan Perawatan Perangkat Lunak<a aria-hidden="true" tabindex="-1" class="hash-link" href="#bab-3-pasang-hapus-dan-perawatan-perangkat-lunak" title="Direct link to heading">#</a></h1><p><strong>Panduan BlankOn 8</strong></p><p>BlankOn Linux sudah menyertakan berbagai perangkat lunak untuk keperluan dasar
+seperti aplikasi perkantoran, multimedia, internet, grafis, dll. Namun, jika
+Anda merasa kurang dengan perangkat lunak yang sudah terpasang, Anda bisa
+melakukan pemasangan perangkat lunak yang Anda inginkan sesuai dengan
+keperluan.
+INGAT! Pemasangan dan penghapusan perangkat lunak membutuhkan hak
+administratif karena dapat merubah sistem. Untuk itu, yang hanya bisa
+melakukan hal tersebut hanyalah pengguna yang memiliki kewenangan
+administratif.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="pengaturan-perangkat-lunak-pada-blankon-linux"></a>Pengaturan Perangkat Lunak pada BlankOn Linux<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pengaturan-perangkat-lunak-pada-blankon-linux" title="Direct link to heading">#</a></h3><p>Cara pemasangan dan penghapusan perangkat lunak pada BlankOn Linux sangat
+berbeda dengan cara yang ada di sistem operasi Microsoft Windows. Jika
+pemasangan perangkat lunak di Windows menggunakan sebuah installer atau program
+pemasang dari masing-masing perangkat lunak, maka pada BlankOn Linux pemasangan
+perangkat lunak dilakukan menggunakan sistem manajemen paket perangkat lunak
+seperti pada Distro Linux lainnya. Manajemen paket yang ada di BlankOn Linux
+bernama APT.
+Di BlankOn, hampir semua perangkat lunak berasal dari suatu tempat yang bernama
+lumbung paket (package repository). APT adalah program yang berfungsi untuk
+mengunduh (download) paket yang Anda pilih dari lumbung dan memasangnya di
+komputer.
+Dengan kata lain, Anda tidak perlu mengunduh sendiri paket perangkat lunak yang
+ingin Anda pasang. Anda hanya perlu menentukan sumber paket atau lumbung paket
+perangkat lunak tersebut melalui APT, dan meminta perangkat lunak yang ingin
+dipasang atau dihapus. Maka APT akan melakukan apa yang Anda inginkan termasuk
+mengunduh paket, memasang, pemasangan konfigurasi, melakukan konfigurasi
+sistem, pemutakhiran (update) serta penghapusan.
+Lumbung paket bisa berada dari empat sumber, yaitu:</p><ul><li>Server Web</li><li>Jaringan Lokal, misalnya dari server NFS,</li><li>CD/DVD-ROM,</li><li>Folder lokal.
+Komunitas BlankOn memiliki lumbung paket resmi yang berada di situs ​http://
+arsip.blankonlinux.or.id/blankon. Lumbung paket BlankOn sudah berisikan
+berbagai koleksi perangkat lunak yang lengkap dan siap untuk digunakan.
+Selain lumbung paket resmi, juga terdapat lumbung paket-lumbung paket lainnya
+yang isinya sama, namun hanya berbeda letak servernya. Kebanyakan dari lumbung
+paket yang ada disediakan oleh penyedia jasa cermin (mirror) dan beberapa
+perguruan tinggi di Indonesia. Berikut adalah beberapa alamat lumbung paket
+yang ada di Indonesia:</li><li>​<a href="http://dl2.foss-id.web.id/blankon" target="_blank" rel="noopener noreferrer">http://dl2.foss-id.web.id/blankon</a> (FOSS-ID, Telkom Indonesia)</li><li>​<a href="http://kambing.ui.ac.id/blankon/" target="_blank" rel="noopener noreferrer">http://kambing.ui.ac.id/blankon/</a> (Universitas Indonesia)</li><li>​<a href="http://pandawa.ipb.ac.id/blankon" target="_blank" rel="noopener noreferrer">http://pandawa.ipb.ac.id/blankon</a> (Institut Pertanian Bogor)</li></ul><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="pengaturan-lumbung-paket"></a>Pengaturan Lumbung Paket<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pengaturan-lumbung-paket" title="Direct link to heading">#</a></h3><p>Untuk melakukan pengaturan lumbung paket APT, Anda bisa klik Menu utama BlankOn</p><blockquote><p>Sistem &gt; Administrator &gt; Manajer Paket Synaptic. Setelah Manajer Paket
+Synaptic terbuka, anda bisa klik Pengaturan &gt; Lumbung Paket. Berikut adalah
+cara-cara pengaturan lumbung paket dari setiap jenis sumber.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="lumbung-paket-resmi-blankon-internet"></a>Lumbung Paket Resmi BlankOn (Internet)<a aria-hidden="true" tabindex="-1" class="hash-link" href="#lumbung-paket-resmi-blankon-internet" title="Direct link to heading">#</a></h3><p>Jika Anda ingin melakukan pengaturan sumber perangkat lunak dari mirror resmi
+BlankOn linux, Anda bisa melihat pada tab [&gt;Perangkat Lunak BlankOn&lt;]. Pilih
+semua cabang perangkat lunak yang tersedia pada bagian [&gt;Paket dari Internet&lt;].
+Kemudian tentukan cermin yang akan Anda gunakan pada bagian [&gt;Unduh dari&lt;].
+[/raw-attachment/wiki/Dokumentasi/Panduan/8/Bab3/softwaresources.png]</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="lumbung-paket-jaringan-lokal-intranet"></a>Lumbung Paket Jaringan Lokal (Intranet)<a aria-hidden="true" tabindex="-1" class="hash-link" href="#lumbung-paket-jaringan-lokal-intranet" title="Direct link to heading">#</a></h3><p>Beberapa institusi pendidikan dan kantor menyediakan lumbung paket secara lokal
+yang bisa Anda manfaatkan untuk menekan biaya penggunaan bandwidth internet.
+Untuk memanfaatkannya, silahkan tanya kepada administrator jaringan Anda
+tentang baris APT dari lumbung paket termasuk lumbung paket untuk pemutakhiran
+(jika ada). Lalu tambahkan baris APT baru sesuai dengan cara yang dijelaskan
+diatas.
+Setelah semua pengaturan lumbung paket selesai dilakukan, klik tombol Tutup.
+Kemudian APT akan meminta Anda untuk mengunduh informasi paket dari setiap
+lumbung paket, klik pada tombol [&gt;Muat Ulang&lt;]. Sekarang, Anda siap melakukan
+penambahan perangkat lunak untuk BlankOn Linux.</p><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="memasang-dan-menghapus-perangkat-lunak"></a>Memasang dan Menghapus Perangkat Lunak<a aria-hidden="true" tabindex="-1" class="hash-link" href="#memasang-dan-menghapus-perangkat-lunak" title="Direct link to heading">#</a></h2><p>Terdapat dua cara untuk melakukan pemasangan dan penghapusan perangkat lunak.
+Yaitu melalui fitur manajer paket Synaptic dan melalui antarmuka teks dengan
+perintah apt-get.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="manajer-paket-synaptic"></a>Manajer Paket Synaptic<a aria-hidden="true" tabindex="-1" class="hash-link" href="#manajer-paket-synaptic" title="Direct link to heading">#</a></h3><p>Jika Anda ingin memasang atau menghapus perangkat lunak secara detail, Anda
+bisa menggunakan aplikasi Synaptic yang bisa Anda buka melalui Menu utama
+BlankOn &gt; Sistem &gt; Administrasi &gt; Manajer paket Synaptic.
+[/raw-attachment/wiki/Dokumentasi/Panduan/8/Bab3/synaptic.png]
+Ketikkan nama aplikasi pada kotak pencarian cepat. Aplikasi ini menampilkan
+daftar paket perangkat lunak secara detail. Selain Anda bisa menambah dan
+menghapus aplikasi, Anda juga bisa melakukan hal yang sama untuk pustaka sistem
+yang tersedia. Untuk menandai paket perangkat lunak yang ingin dipasang, klik
+kanan pada aplikasi yang hendak dipasang lalu pilih menu [&gt;Tandai untuk
+Pemasangan&lt;]. Sedangkan jika ingin menghapus paket perangkat lunak, klik kanan
+pada aplikasi lalu pilih menu [&gt;Tandai untuk dibuang&lt;]. Kadangkala, suatu paket
+perangkat lunak akan meminta satu atau beberapa paket perangkat lunak untuk
+dipasang (ketergantungan). Jika muncul jendela yang menanyakan hal tersebut,
+Anda harus setuju untuk menandai paket perangkat lunak yang dibutuhkan agar
+Anda bisa memasang paket perangkat lunak yang Anda inginkan.
+Untuk menerapkannya, Anda bisa klik tombol [&gt;Terapkan&lt;] pada toolbar dan klik
+tombol [&gt;Terapkan&lt;] pada jendela konfirmasi. Maka APT akan memasang/menghapus
+perangkat lunak yang Anda minta.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="melalui-perintah-apt-get"></a>Melalui Perintah apt-get<a aria-hidden="true" tabindex="-1" class="hash-link" href="#melalui-perintah-apt-get" title="Direct link to heading">#</a></h3><p>Menggunakan perintah apt-get sangat sederhana sekali. Anda cukup ketikkan nama
+paket perangkat lunak yang ingin dipasang/dihapus, maka APT akan melakukan hal
+yang Anda inginkan.
+Untuk menggunakan fitur ini, bukalah antarmuka teks misalnya melalui Terminal
+dengan menu Aplikas &gt; Aksesoris &gt; Terminal.
+Pada terminal ketikkan perintah berikut, lalu tekan tombol Enter untuk memasang
+paket perangkat lunak (Ubah “namapaket” sesuai dengan nama paket perangkat
+lunak yang hendak Anda pasang).
+blankon@blankon:~$ sudo apt-get install namapaket ↵
+Sedangkan untuk menghapus suatu perangkat lunak, ketik perintah berikut dan
+tekan tombol Enter (Ingat! Ubah “namapaket” sesuai dengan perangkat lunak yang
+ingin Anda hapus”).
+blankon@blankon:~$ sudo apt-get remove namapaket ↵
+Jika APT meminta pemasangan/penghapusan perangkat lunak yang dibutuhkan oleh
+perangkat lunak yang Anda akan pasang/hapus, Anda harus menyetujuinya dengan
+menekan tombol Y, lalu tekan tombol Enter.
+TIP: Untuk memasang/menghapus lebih dari satu paket perangkat lunak,
+Anda bisa sebutkan lebih dari satu nama paket pada perintah APT yang
+masing-masing nama paket dipisahkan dengan spasi. Contohnya, jika
+ingin memasang perangkat lunak aplikasi Kino dan Audacity sekaligus,
+Anda bisa ketik perintah berikut.
+blankon@blankon:~$ sudo apt-get install kino audacity ↵</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="pemasangan-melalui-berkas-deb"></a>Pemasangan melalui Berkas DEB<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pemasangan-melalui-berkas-deb" title="Direct link to heading">#</a></h3><p>Selain melalui lumbung paket, Anda juga bisa memasang suatu perangkat lunak
+yang didistribusikan dalam format berkas DEB. Untuk melakukan instalasi dari
+berkas paket DEB, Anda bisa klik ganda pada berkas DEB tersebut melalui
+peramban berkas, maka akan muncul jendela yang akan menuntun Anda dalam
+melakukan pemasangan.
+Pada jendela tersebut, Anda bisa klik tombol [&gt;Instal paket&lt;]. Maka paket
+tersebut akan diinstal ke komputer bersamaan dengan paket ketergantungannya.</p><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="merawat-sistem"></a>Merawat Sistem<a aria-hidden="true" tabindex="-1" class="hash-link" href="#merawat-sistem" title="Direct link to heading">#</a></h2><p>Secara berkala Tim Pengembang BlankOn dan komunitas menerbitkan paket-paket
+perangkat lunak dengan versi yang lebih baru ke dalam lumbung. Jika komputer
+Anda terhubung ke Internet, maka keberadaan paket-paket baru tersebut akan
+diinformasikan kepada Anda. Jika Anda mau menerima paket-paket baru tersebut,
+maka sistem akan dimutakhirkan oleh APT dengan mengunduh dan memasang paket-
+paket itu.
+Dengan melakukan pemutakhiran berkala menjadikan sistem Anda terawat karena
+pada versi baru, biasanya telah dilakukan pemeriksaan dan perbaikan cacat yang
+telah diketahui sebelumnya. Kadangkala versi baru diterbitkan untuk menutup
+celah-celah keamanan yang ditemui pada suatu paket.
+Untuk melakukan pemutakhiran sistem, pastikan Anda sudah mengaktifkan informasi
+pemutakhiran dari lumbung paket pada APT seperti yang sudah dijelaskan
+sebelumnya. Kemudian, klik Menu utama BlankOn &gt; Sistem &gt; Administrasi &gt; Manajer
+Pemutakhiran untuk melakukan pemutakhiran sistem.
+[/raw-attachment/wiki/Dokumentasi/Panduan/8/Bab3/updatemanager.png]
+Klik tombol [&gt;Periksa&lt;] untuk memeriksa ketersediaan pemutakhiran. Jika
+terdapat paket-paket perangkat lunak dengan versi baru, Anda bisa memberi
+centang paket perangkat lunak yang hendak Anda perbarui. Untuk mengunduh dan
+memasang update, klik tombol [&gt;Instal Update&lt;]. Maka APT akan melakukan
+pemutakhiran pada paket perangkat lunak yang Anda pilih.
+Selain cara yang dibahas di atas, Anda bisa melakukan pemutakhiran sistem
+melalui terminal. Untuk melakukan hal ini, buka terminal melalui menu BlankOn &gt;
+Aksesoris &gt; Terminal. Lakukan pemeriksaan ketersediaan pemutakhiran dengan
+mengetik perintah seperti berikut, lalu tekan Enter:
+blankon@blankon:~$ sudo apt-get update ↵
+Kemudian, ketik perintah seperti berikut untuk melakukan pemutakhiran paket
+perangkat lunak, lalu tekan tombol Enter:
+blankon@blankon:~$ sudo apt-get upgrade ↵
+INGAT! Pastikan Anda terhubung dengan lumbung paket update agar
+proses pemutakhiran bisa berjalan dengan lancar.
+Last modified on 10/03/2011 08:28:52 PM</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="attachments-3"></a>Attachments (3)<a aria-hidden="true" tabindex="-1" class="hash-link" href="#attachments-3" title="Direct link to heading">#</a></h4><ul><li>softwaresources.png​ (51.0 KB) - added by guspur 5 years ago.</li><li>synaptic.png​ (88.9 KB) - added by guspur 5 years ago.</li><li>updatemanager.png​ (105.7 KB) - added by guspur 5 years ago.</li></ul><h4></h4></blockquote><hr></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/BlankOn/wiki/edit/master/Wiki/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/8/Panduan8Bab3.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#pengaturan-perangkat-lunak-pada-blankon-linux" class="table-of-contents__link">Pengaturan Perangkat Lunak pada BlankOn Linux</a></li><li><a href="#pengaturan-lumbung-paket" class="table-of-contents__link">Pengaturan Lumbung Paket</a></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="text--center"><div class="margin-bottom--sm"><a href="https://blankonlinux.or.id" target="_blank" rel="noopener noreferrer" class="footerLogoLink_1zJy"><img class="footer__logo" alt="BlankOn Linux" src="/img/logo-hitam.png"></a></div><div>Copyright © 2020 BlankOn Linux. Built with Docusaurus.</div></div></div></footer></div>
+<script src="/styles.d346b3b4.js"></script>
+<script src="/runtime~main.5d9df274.js"></script>
+<script src="/main.4590b193.js"></script>
+<script src="/1.08d9ae6c.js"></script>
+<script src="/5.8ee82b6a.js"></script>
+<script src="/966.5fd1a52e.js"></script>
+<script src="/935f2afb.345afce5.js"></script>
+<script src="/17896441.aafa42f8.js"></script>
+<script src="/d5870919.ebf33384.js"></script>
+</body>
+</html>

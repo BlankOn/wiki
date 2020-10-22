@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.65">
+<title data-react-helmet="true">MenanganiPaketImpor | BlankOn Linux</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="MenanganiPaketImpor | BlankOn Linux"><meta data-react-helmet="true" name="description" content="MenanganiPaketImpor"><meta data-react-helmet="true" property="og:description" content="MenanganiPaketImpor"><meta data-react-helmet="true" property="og:url" content="https://dev.blankonlinux.or.id/TimPengembang/Pemaket/MenanganiPaketImpor"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://dev.blankonlinux.or.id/TimPengembang/Pemaket/MenanganiPaketImpor"><link rel="stylesheet" href="/styles.dcedc9af.css">
+<link rel="preload" href="/styles.d346b3b4.js" as="script">
+<link rel="preload" href="/runtime~main.5d9df274.js" as="script">
+<link rel="preload" href="/main.4590b193.js" as="script">
+<link rel="preload" href="/1.08d9ae6c.js" as="script">
+<link rel="preload" href="/5.8ee82b6a.js" as="script">
+<link rel="preload" href="/966.5fd1a52e.js" as="script">
+<link rel="preload" href="/935f2afb.345afce5.js" as="script">
+<link rel="preload" href="/17896441.aafa42f8.js" as="script">
+<link rel="preload" href="/ac5738ee.8233693d.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<nav class="navbar navbar--fixed-top navbarHideable_3046"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a><a class="navbar__item navbar__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a><a class="navbar__item navbar__link" href="/ProdukBlankOn/README">Produk</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="BlankOn Wiki"></a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2aTZ"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_BsTx">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a></li><li class="menu__list-item"><a class="menu__link" href="/ProdukBlankOn/README">Produk</a></li><li class="menu__list-item"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="menu__link header-github-link" aria-label="BlankOn Wiki"></a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_2gpo"><main class="docMainContainer_3EyW"><div class="container padding-vert--lg docItemWrapper_1Hme"><div class="row"><div class="col docItemCol_2AGf"><div class="docItemContainer_1tAC"><article><div class="markdown"><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="menanganipaketimpor"></a>MenanganiPaketImpor<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menanganipaketimpor" title="Direct link to heading">#</a></h1><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="mengimpor-paket-pertama-kali"></a>Mengimpor paket pertama kali<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mengimpor-paket-pertama-kali" title="Direct link to heading">#</a></h2><p>Berikut adalah langkah-langkah melakukan impor paket dari Ubuntu.</p><ol><li>Dapatkan URL paket di Launchpad Bentuk URL umumnya adalah ​https://
+launchpad.net/ubuntu/+source/&lt;nama-paket&gt;. Kunjungi halaman tersebut dan
+klik pada versi terakhir (ada paling atas). Di halaman versi tersebut
+dapat Anda jumpai bagian &quot;Download&quot;. Salin URL patch Ubuntu (dengan
+akhiran nama diff.gz)</li><li>Siapkan direktori kerja di komputer Anda, misalnya /tmp. Unduh dan
+ekstrak berkas patch tersebut.
+cd /tmp
+wget &lt;url-diff.gz-barusan&gt;
+gunzip -c &lt;nama-berkas-diff.gz&gt; | patch -p0
+Yang kita butuhkan hanyalah patch dari Ubuntu saja, dan bukan isi kode
+sumber paket aslinya (dengan nama &lt;nama-paket.orig.tar.gz&gt;.</li><li>Anda akan dapatkan direktori baru bernama &lt;nama-paket_nomor-versi-
+ubuntu&gt;/</li><li>Inisialisasikan bazaar di dalam direktori itu, masukkan semua berkas yang
+ada, dan lakukan commit.
+cd &lt;nama-paket_nomor-versi-ubuntu&gt;/
+bzr init --format=dirstate-tags
+bzr add *
+bzr commit -m &quot;Impor awal&quot;</li><li>Ganti nama berkas debian/changelog menjadi debian/changelog.ubuntu dan
+masukkan ke dalam gudang kode juga
+bzr mv debian/changelog debian/changelog.ubuntu</li><li>Sunting debian/changelog
+dch --create
+Gunakan penomoran versi yang benar. Lihat bagian &quot;Penomoran Versi&quot; pada
+dokumen Prosedur Pembuatan Paket?. Konfirmasikan kepada koordinator bila
+Anda ragu. Ganti nomor versi dan nama distro yang ada di dalam debian/
+changelog. Sebagai contoh pada paket gnome-desktop:
+gnome-desktop (1:2.19.6-0ubuntu1) gutsy; urgency=low<ul><li>New upstream version
+-- Sebastien Bacher <a href="mailto:seb128@canonical.com%5C" target="_blank" rel="noopener noreferrer">seb128@canonical.com\</a>  Mon, 30 Jul 2007 23:21:46
++0200
+... dan seterusnya hingga akhir berkas
+Diganti dan dipotong hingga menjadi ini saja:
+gnome-desktop (1:2.19.6-0ubuntu1-0blankon1) konde; urgency=low</li><li>Impor dari 1:2.19.6-0ubuntu1.
+-- Mohammad DAMT <a href="mailto:mdamt@gnome.org%5C" target="_blank" rel="noopener noreferrer">mdamt@gnome.org\</a>  Thu,  9 Aug 2007 03:07:32 +0300
+Perhatikan bahwa semua entri yang lama tidak perlu
+disimpan. Juga pastikan bahwa nomor versi Ubuntu aslinya
+jangan dirubah (Dalam contoh tetap 1:2.19.6-0ubuntu1).</li></ul></li><li>Simpan berkas tersebut dan lakukan commit.
+bzr add debian/changelog
+bzr commit -m &quot;Memperbarui sejarah paket&quot;
+bzr tag nama_tag</li><li>Kirim ke gudang kode. Perhatikan bahwa tidak perlu mencantumkan nomor
+versi saat mengirim ke gudang kode.
+bzr push bzr+ssh://<a href="mailto:bzr@dev.blankonlinux.or.id" target="_blank" rel="noopener noreferrer">bzr@dev.blankonlinux.or.id</a>/bzr/&lt;nama_kode&gt;/
+&lt;nama_paket/</li><li>Daftarkan nama Anda sesuai dengan paket yang dikelola di sini: ​http://
+dev.blankonlinux.or.id/wiki/&lt;versi&gt;/DaftarPaketImpor?. Ini sangat penting
+karena bila ada paket baru di Ubuntu maka Anda akan segera diberitahu.</li></ol><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="bila-ada-perubahan-di-ubuntu"></a>Bila ada perubahan di Ubuntu<a aria-hidden="true" tabindex="-1" class="hash-link" href="#bila-ada-perubahan-di-ubuntu" title="Direct link to heading">#</a></h2><ol><li>Siapkan kode sumber paket Anda yang sudah diimpor sebelumnya di direktori
+/tmp
+bzr branch &lt;url-paket-anda-di-gudang-kode&gt;</li><li>Ambil dan ekstrak patch Ubuntu di /tmp, mirip seperti langkah impor baru
+di atas
+wget &lt;url-patch-diff.gz&gt;
+gunzip -c &lt;nama-berkas-diff.gz&gt; | patch -p0</li><li>Ganti nama debian/changelog di dalam direktori paket ubuntu menjadi
+debian/changelog.ubuntu
+mv &lt;direktori-paket-ubuntu_versi-sekian-sekian&gt;/debian/changelog
+&lt;direktori-paket-ubuntu_versi-sekian-sekian&gt;/debian/changelog.ubuntu</li><li>Lakukan perbandingan dengan kode sumber paket Anda
+diff -urN -x .bzr &lt;direktori-paket-anda&gt; &lt;direktori-paket-ubuntu_versi-
+sekian-sekian&gt; &gt; perbedaan.txt</li><li>Sunting berkas perbedaan.txt dan hapus bagian yang tidak perlu diubah,
+misalnya semua perubahan yang telah Anda lakukan sebelumnya.</li><li>Gelar berkas perbedaan.txt yang telah Anda sunting tersebut pada kode
+sumber Anda
+cd &lt;direktori-paket-anda&gt;
+cat ../perbedaan.txt | patch -p1</li><li>Catat nomor versi asli paket Ubuntu tersebut:
+head -1 debian/changelog.ubuntu</li><li>Sunting debian/changelog Anda:
+dch -i
+Pastikan bahwa versi paket Anda juga mencantumkan nomor versi Ubuntunya.</li><li>Tes paketnya dan bila sudah puas dengan paket ini, silakan dilepas ke
+pabrik paket.
+Last modified on 08/08/2010 02:45:02 PM</li></ol><h4></h4><hr></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/BlankOn/wiki/edit/master/Wiki/TimPengembang/Pemaket/MenanganiPaketImpor.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#mengimpor-paket-pertama-kali" class="table-of-contents__link">Mengimpor paket pertama kali</a></li><li><a href="#bila-ada-perubahan-di-ubuntu" class="table-of-contents__link">Bila ada perubahan di Ubuntu</a></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="text--center"><div class="margin-bottom--sm"><a href="https://blankonlinux.or.id" target="_blank" rel="noopener noreferrer" class="footerLogoLink_1zJy"><img class="footer__logo" alt="BlankOn Linux" src="/img/logo-hitam.png"></a></div><div>Copyright © 2020 BlankOn Linux. Built with Docusaurus.</div></div></div></footer></div>
+<script src="/styles.d346b3b4.js"></script>
+<script src="/runtime~main.5d9df274.js"></script>
+<script src="/main.4590b193.js"></script>
+<script src="/1.08d9ae6c.js"></script>
+<script src="/5.8ee82b6a.js"></script>
+<script src="/966.5fd1a52e.js"></script>
+<script src="/935f2afb.345afce5.js"></script>
+<script src="/17896441.aafa42f8.js"></script>
+<script src="/ac5738ee.8233693d.js"></script>
+</body>
+</html>

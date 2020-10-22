@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.65">
+<title data-react-helmet="true">Panduan5Bab6 | BlankOn Linux</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="Panduan5Bab6 | BlankOn Linux"><meta data-react-helmet="true" name="description" content="BAB VI Menggunakan Peramban Berkas"><meta data-react-helmet="true" property="og:description" content="BAB VI Menggunakan Peramban Berkas"><meta data-react-helmet="true" property="og:url" content="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab6"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab6"><link rel="stylesheet" href="/styles.dcedc9af.css">
+<link rel="preload" href="/styles.d346b3b4.js" as="script">
+<link rel="preload" href="/runtime~main.5d9df274.js" as="script">
+<link rel="preload" href="/main.4590b193.js" as="script">
+<link rel="preload" href="/1.08d9ae6c.js" as="script">
+<link rel="preload" href="/5.8ee82b6a.js" as="script">
+<link rel="preload" href="/966.5fd1a52e.js" as="script">
+<link rel="preload" href="/935f2afb.345afce5.js" as="script">
+<link rel="preload" href="/17896441.aafa42f8.js" as="script">
+<link rel="preload" href="/560b45c8.9f2603d3.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<nav class="navbar navbar--fixed-top navbarHideable_3046"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a><a class="navbar__item navbar__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a><a class="navbar__item navbar__link" href="/ProdukBlankOn/README">Produk</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="BlankOn Wiki"></a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2aTZ"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_BsTx">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a></li><li class="menu__list-item"><a class="menu__link" href="/ProdukBlankOn/README">Produk</a></li><li class="menu__list-item"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="menu__link header-github-link" aria-label="BlankOn Wiki"></a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_2gpo"><main class="docMainContainer_3EyW"><div class="container padding-vert--lg docItemWrapper_1Hme"><div class="row"><div class="col docItemCol_2AGf"><div class="docItemContainer_1tAC"><article><div class="markdown"><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="bab-vi-menggunakan-peramban-berkas"></a>BAB VI Menggunakan Peramban Berkas<a aria-hidden="true" tabindex="-1" class="hash-link" href="#bab-vi-menggunakan-peramban-berkas" title="Direct link to heading">#</a></h2><p><strong>Panduan BlankOn 5</strong></p><p>Untuk melakukan manajemen berkas pada komputer, Anda dapat menggunakan
+aplikasi peramban berkas yang bernama Nautilus pada BlankOn Linux edisi
+Reguler, dan PCMan pada BlankOn Linux edisi Minimalis. Bab ini menjelaskan
+mengenai cara menggunakan Nautilus dan PCMan untuk keperluan manajemen berkas.
+Tidak ketinggalan juga, pada bab ini akan dibahas mengenai konsep manajemen
+berkas yang ada di sistem operasi berbasis Linux.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="konsep-manajemen-berkas-pada-linux"></a>Konsep manajemen berkas pada Linux<a aria-hidden="true" tabindex="-1" class="hash-link" href="#konsep-manajemen-berkas-pada-linux" title="Direct link to heading">#</a></h3><p>Pada sistem operasi berbasis Linux, Anda tidak akan mengenal istilah drive
+seperti pada Microsoft Windows. Folder paling atas yang ada di sistem adalah
+folder “/” atau root yang merupakan isi dari partisi sistem. Melalui desktop
+GNOME, Anda bisa membuka folder ini melalui menu Komponen &gt; Komputer &gt;
+Filesystem. Didalam folder “/” terdapat berbagai subfolder yang memiliki fungsi
+masing-masing, yaitu :</p><div class="mdxCodeBlock_1XEh"><div class="codeBlockContent_1u-d"><button type="button" aria-label="Copy code to clipboard" class="copyButton_10dd">Copy</button><div tabindex="0" class="prism-code language-undefined codeBlock_3iAC"><div class="codeBlockLines_b7E3" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /bin, menyimpan binari atau program yang sangat penting untuk sistem.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /boot, menyimpan data-data yang diperlukan untuk melakukan booting</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  system.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /cdrom, merupakan titik kait/mount point jika Anda memasukkan CD/DVD-ROM.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /dev, menyimpan informasi yang bertautan dengan piranti keras yang</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  terpasang ke sistem. Biasanya diperlukan untuk merujuk suatu lokasi</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  piranti keras yang ada di sistem.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /etc, menyimpan konfigurasi sistem berbentuk file teks.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /home, menyimpan data-data yang dimiliki oleh pengguna non-administratif.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /lib, menyimpan pustaka sistem yang sangat penting.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /media, tempat untuk melakukan mounting suatu penyimpan data.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /opt, tempat untuk menyimpan berkas-berkas bebas.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /sbin, menyimpan binary atau program yang penting untuk melakukan</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  administrasi sistem.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /tmp, menyimpan berkas-berkas yang bersifat sementara.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /usr, menyimpan berkas-berkas piranti lunak yang terpasang di sistem.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* /var, menyimpan berkas-berkas yang selalu berubah atau variabel, seperti</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  catatan sistem, e-mail pengguna, dsb.</span></div></div></div></div></div><p>[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-filesystem.png]
+Setiap berkas dan folder memiliki pemilik serta izin masing-masing. Tidak semua
+folder bisa diakses dan diubah oleh semua pengguna. Hal ini untuk menjaga
+kestabilan sistem dan menghindari pengguna yang ceroboh atau sengaja untuk
+merusak sistem. Pengguna biasa hanya bisa mengelola berkas di dalam folder /
+home/akunpengguna yang memang dimiliki oleh pengguna bersangkutan. Anda bisa
+membukanya melalui menu Komponen &gt; Folder Rumah pada desktop GNOME, atau klik
+ganda pada ikon My Documents pada desktop LXDE. Selain folder tersebut,
+pengguna harus mempunyai izin khusus dari administrator sistem.
+Penamaan berkas di Linux juga sangat berbeda dengan Windows. Di Linux, penamaan
+berkas bersifat Case Sensitive. Jadi, Anda bisa membuat berbagai berkas dengan
+nama yang sama, tetapi dengan case (Besar kecilnya huruf) yang berbeda.
+Contohnya, Anda bisa membuat berkas “Fileku”, “fIleKU”, “fileku”, “fILEKU”,
+“FILEku”, dsb dalam satu folder tanpa ada konflik.
+Untuk membuka isi partisi selain partisi sistem atau suatu media penyimpanan,
+partisi yang ingin Anda buka harus di-mounting ke suatu folder (umumnya di
+bawah folder /media) sehingga isi dari partisi atau media penyimpanan tersebut
+bisa dilihat dan dikelola hanya dengan membuka folder tersebut. Jika sedang
+menggunakan desktop, Anda tidak perlu melakukan mounting secara manual setiap
+ingin membuka isi media peyimpanan karena baik desktop GNOME dan LXDE sudah
+melakukannya untuk Anda. Anda bisa melihat isi media penyimpanan melalui menu
+Komponen &gt; Komputer pada desktop GNOME, atau melihat bagian kiri jendela PCMan
+pada desktop LXDE.
+Hal unik lainnya pada manajemen berkas di Linux adalah pengaturan hak aksesnya
+yang sangat detail dan ketat. Setiap berkas/folder yang ada di partisi Linux
+memiliki beberapa parameter mengenai hak akses, yaitu :</p><div class="mdxCodeBlock_1XEh"><div class="codeBlockContent_1u-d"><button type="button" aria-label="Copy code to clipboard" class="copyButton_10dd">Copy</button><div tabindex="0" class="prism-code language-undefined codeBlock_3iAC"><div class="codeBlockLines_b7E3" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Pengguna pemilik berkas/folder, berisi id pengguna dari pemilik suatu</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  berkas/folder.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Grup pemilik berkas/folder, berisi id grup yang memiliki suatu berkas/</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  folder.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Hak akses untuk pemilik, berisikan hak apa saja yang boleh dilakukan oleh</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  pengguna pemilik berkas/folder terhadap suatu berkas/folder.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Hak akses untuk grup, berisikan hak apa saja yang boleh dilakukan oleh</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  grup pemilik berkas/folder terhadap suatu berkas/folder.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Hak akses untuk yang lainnya, berisikan hak apa saja yang boleh dilakukan</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  oleh pengguna selain pemilik dan grup selain grup pemilik terhadap suatu</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  berkas/folder.</span></div></div></div></div></div><p>Setiap objek hak akses yang ada di atas memiliki tugas hak, yaitu : Baca
+(Read), Tulis (Write), dan Eksekusi (eXecution). Setiap objek hak akses juga
+bisa memiliki perpaduan hak yang berbeda, ada yang bisa baca saja, ada yang
+bisa baca dan eksekusi saja, dan ada juga yang memiliki hak mutlak (baca, tulis
+dan eksekusi).</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="membuka-peramban-berkas-nautilus"></a>Membuka peramban berkas Nautilus<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuka-peramban-berkas-nautilus" title="Direct link to heading">#</a></h3><p>Untuk melakukan pengelolaan berkas menggunakan Nautilus, Anda bisa mengklik
+folder yang ingin Anda buka melalui menu Komponen. Berikut adalah folder yang
+bisa Anda buka melalui menu tersebut :</p><div class="mdxCodeBlock_1XEh"><div class="codeBlockContent_1u-d"><button type="button" aria-label="Copy code to clipboard" class="copyButton_10dd">Copy</button><div tabindex="0" class="prism-code language-undefined codeBlock_3iAC"><div class="codeBlockLines_b7E3" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Folder Rumah atau Home Folder merupakan folder yang berisikan berkas-</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  berkas milik pengguna.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Desktop, merupakan folder didalam folder rumah yang berisikan berkas yang</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  bisa Anda lihat di Desktop.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Dokumen, merupakan folder didalam folder rumah yang diperuntukkan untuk</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  menyimpan dokumen.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Musik, merupakan folder didalam folder rumah yang diperuntukkan untuk</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  menyimpan musik.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Gambar, merupakan folder didalam folder rumah yang diperuntukkan untuk</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  menyimpan Gambar atau Foto.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Video, merupakan folder didalam folder rumah yang diperuntukkan untuk</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  menaruh video.</span></div></div></div></div></div><p>[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/blankon-place-menu.png]
+Jika Anda ingin membuka isi suatu media penyimpanan, Anda bisa klik menu
+Komponen lalu pilih media penyimpanan yang ingin Anda buka isinya. Selain itu,
+Anda juga bisa memilih menu Komponen &gt; Komputer dan klik ganda pada media
+penyimpanan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-computer.png]
+Jika Anda sudah selesai menggunakan suatu media penyimpanan, Anda dapat
+melepasnya dengan mengklik ikon “Eject” di sebelah kanan nama media penyimpanan
+pada bagian kiri peramban berkas. Alternatifnya, Anda bisa klik menu Komponen &gt;
+Komputer, lalu klik kanan pada media penyimpanan yang ingin dilepas dan klik
+menu “Lepaskan Volume”.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="menggunakan-peramban-berkas-nautilus"></a>Menggunakan peramban berkas Nautilus<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menggunakan-peramban-berkas-nautilus" title="Direct link to heading">#</a></h3><p>Pada bagian ini, dijelaskan mengenai cara melakukan tugas manajemen berkas dan
+folder seperti membuka berkas, menyalin berkas, memindahkan, membuat folder
+baru, dsb pada aplikasi peramban berkas Nautilus yang terdapat di dalam BlankOn
+Linux edisi Reguler.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="memilih-berkas"></a>Memilih berkas<a aria-hidden="true" tabindex="-1" class="hash-link" href="#memilih-berkas" title="Direct link to heading">#</a></h4><p>Sebelum melakukan suatu tugas, Anda tentunya harus memilih berkas yang ingin
+Anda lakukan tugas. Jika Anda hanya memilih sebuah berkas, cukup klik berkas
+yang ingin Anda pilih. Namun, jika Anda memilih beberapa berkas, Anda bisa klik
+berkas yang ingin dipilih sambil menekan tombol Ctrl.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-select-file.png]</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="membuka-berkas"></a>Membuka berkas<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuka-berkas" title="Direct link to heading">#</a></h4><p>Untuk membuka suatu berkas, Anda cukup klik dua kali pada berkas yang ingin
+Anda buka. Maka berkas akan dibuka dengan aplikasi default yang sudah
+ditentukan untuk membuka berkas tersebut.
+Jika Anda ingin membuka suatu berkas menggunakan aplikasi selain yang sudah
+ditentukan, Anda bisa klik kanan pada berkas yang ingin dibuka, lalu memilih
+menu “Buka dengan Aplikasi Lain...”. Lalu pilih aplikasi yang ingin digunakan,
+dan klik tombol “Buka”.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-open-with.png]</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mengubah-nama-berkasfolder"></a>Mengubah nama berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mengubah-nama-berkasfolder" title="Direct link to heading">#</a></h4><p>Untuk mengubah nama berkas, pilih berkas yang ingin Anda ubah namanya, lalu
+klik menu Sunting &gt; Ganti Nama. Kemudian, ketik nama baru yang Anda inginkan.
+Anda juga bisa tekan tombol F2 pada keyboard untuk mengubah nama berkas/folder.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="menyalin-berkasfolder"></a>Menyalin berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menyalin-berkasfolder" title="Direct link to heading">#</a></h4><p>Yang dimaksud dengan menyalin berkas/folder adalah membuat duplikat dari
+berkas/folder yang sudah ada. Untuk melakukan hal ini, pilih berkas yang ingin
+Anda salin lalu pilih menu Sunting &gt; Salin. Atau Anda bisa tekan tombol Ctrl+C
+Sekarang, buka folder tujuan penyalinan berkas, lalu klik menu Sunting &gt;
+Pasang. Atau Anda bisa tekan tombol Ctrl+V.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="memindahkan-berkasfolder"></a>Memindahkan berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#memindahkan-berkasfolder" title="Direct link to heading">#</a></h4><p>Untuk memindahkan tempat berkas/folder dari suatu folder ke folder lainnya,
+pilih berkas/folder yang ingin dipindahkan, lalu klik menu Sunting &gt; Potong.
+Atau tekan tombol Ctrl+X.
+Kemudian, buka folder tujuan dan klik menu Sunting &gt; Pasang atau tekan tombol
+Ctrl+V.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="menghapus-berkasfolder"></a>Menghapus berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menghapus-berkasfolder" title="Direct link to heading">#</a></h4><p>Ada dua macam penghapusan berkas, yaitu penghapusan hanya dipindahkan ke tong
+sampah yang masih bisa dikembalikan dan penghapusan permanen yang tidak bisa
+Anda kembalikan lagi.
+Untuk melakukan penghapusan ke tong sampah, Anda bisa memilih berkas yang ingin
+dihapusa dan memilih menu Sunting &gt; Pindahkan ke tong sampah atau Anda bisa
+menekan tombol Delete pada keyboard. Pada saat ditanya, klik tombol “Hapus”.
+Jika Anda ingin mengembalikan berkas yang dipindahkan ke tong sampah, Anda bisa
+membuka isi tong sampah dengan klik menu Ke &gt; Tong Sampah. Kemudian, pilih
+berkas yang ingin Anda kembalikan lalu klik menu Sunting &gt; Pulihkan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-trash.png]
+Sedangkan untuk penghapusan permanen, pilih berkas yang ingin Anda hanguskan
+lalu tekan tombol Shift+Delete. Pada saat muncul pertanyaan, klik tombol
+“Hapus”.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-delete-file.png]</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="membuat-folder-baru"></a>Membuat folder baru<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuat-folder-baru" title="Direct link to heading">#</a></h4><p>Untuk membuat folder baru, klik menu Berkas &gt; Buat Folder. Lalu ketik nama
+folder baru yang ingin Anda buat.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mengatur-hak-akses-pada-berkasfolder"></a>Mengatur hak akses pada berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mengatur-hak-akses-pada-berkasfolder" title="Direct link to heading">#</a></h4><p>Untuk mengatur hak akses suatu berkas/folder pada peramban berkas Nautilus,
+pilih berkas/folder yang ingin diatur lalu klik menu Berkas &gt; Properti.
+Kemudian, buka tab “Hak Akses”. Berikut adalah penjelasan dari masing-masing
+pengaturan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-chmod-
+configuration.png]
+Mengatur siapa pemilik dari suatu
+[/raw-attachment/wiki/Dokumentasi/      berkas. Sebagai pengguna biasa, Anda
+Panduan/5/Bab6/nautilus-chown-user.png] tidak bisa mengatur siapa pemiliknya.
+Yang hanya bisa mengaturnya adalah
+pengguna adalah administrator sistem.
+Mengatur hak akses apa saja yang boleh
+dilakukan oleh pengguna pemilik. Jika
+Anda mengatur hak akses folder, Anda
+[/raw-attachment/wiki/Dokumentasi/      akan melihat dua opsi, yaitu hak akses
+Panduan/5/Bab6/nautilus-chmod-user.png] folder untuk mengatur hak akses suatu
+folder dan hak akses berkas untuk
+mengatur hak akses berkas yang ada di
+dalam folder bersangkutan.
+[/raw-attachment/wiki/Dokumentasi/
+Panduan/5/Bab6/nautilus-chown-          Mengatur grup pemilik dari suatu berkas
+group.png]
+Mengatur hak akses apa saja yang boleh
+dilakukan oleh grup pemilik.Jika Anda
+[/raw-attachment/wiki/Dokumentasi/      mengatur hak akses folder, Anda akan
+Panduan/5/Bab6/nautilus-chmod-          melihat dua opsi, yaitu hak akses
+group.png]                              folder untuk mengatur hak akses suatu
+folder dan hak akses berkas untuk
+mengatur hak akses berkas yang ada di
+dalam folder bersangkutan.
+Mengatur hak akses apa saja yang boleh
+dilakukan selain oleh pengguna dan grup
+pemilik berkas/folder. Jika Anda
+[/raw-attachment/wiki/Dokumentasi/      mengatur hak akses folder, Anda akan
+Panduan/5/Bab6/nautilus-chmod-          melihat dua opsi, yaitu hak akses
+other.png]                              folder untuk mengatur hak akses suatu
+folder dan hak akses berkas untuk
+mengatur hak akses berkas yang ada di
+dalam folder bersangkutan.
+[/raw-attachment/wiki/Dokumentasi/      Perbolehkan suatu berkas untuk
+Panduan/5/Bab6/nautilus-chmod-          dieksekusi. Terutama untuk script
+execution.png]                          program.
+[/raw-attachment/wiki/Dokumentasi/      Klik tombol ini jika Anda ingin
+Panduan/5/Bab6/nautilus-chmod-          mengaplikasikan hak akses pada seluruh
+applyrecursive.png]                     berkas/folder dibawah folder yang Anda
+atur hak aksesnya</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="membuat-berkas-arsip"></a>Membuat berkas arsip<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuat-berkas-arsip" title="Direct link to heading">#</a></h4><p>Berkas arsip berfungsi untuk mengelompokkan bebeberapa berkas/folder menjadi
+sebuah berkas untuk memudahkan proses backup. Tidak hanya dikelompokkan, data
+juga akan diperkecil ukurannya/dikompres sehingga sehingga sangat cocok untuk
+pertukaran data.
+Untuk melakukan arsip pada Nautilus, klik pada beberapa berkas yang ingin
+diarsip, lalu klik kanan dan pilih menu “Buat Arsip”.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-add-archive.png]
+Kemudian, tentukan nama berkas hasil pengarsipan, lokasi serta format
+pengarsipan. Format pengarsipan yang didukung antara lain : 7z, RAR, ZIP, TAR,
+TAR.GZ, dll. Untuk melakukan pengaturan tambahan seperti untuk menambahkan
+password, Anda bisa klik pada “Pilihan lain”. Setelah semua pengaturan selesai,
+klik pada tombol “Buat”.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mencari-berkasfolder"></a>Mencari berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mencari-berkasfolder" title="Direct link to heading">#</a></h4><p>Untuk mencari berkas/folder yang tidak Anda ketahui tempatnya, Anda bisa
+menggunakan fitur pencarian yang sudah terintregasi dengan peramban berkas
+Nautilus.
+Untuk melakukan pencarian, Anda bisa klik tombol “Search” pada bagian toolbar
+Nautilus. Kemudian, ketik nama berkas yang ingin dicari pada kotak yang
+disediakan, lalu tekan tombol Enter.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-search-tool.png]
+Jika menginginkan pencarian yang lebih mendetail, Anda bisa menggunakan fitur
+cari berkas melalui menu Komponen &gt; Cari Berkas pada desktop. Kemudian, ketik
+nama berkas yang ingin dicari pada kotak “Nama berisi” dan lokasi pencarian
+pada “Cari dalam folder”. Untuk lebih detail lagi, Anda bisa menambahkan opsi
+pencarian dengan memilih “Berkas pilihan lainnya” dan isi opsi yang disediakan.
+Setelah semua selesai, klik tombol “Cari” untuk melakukan pencarian.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="membakar-data-cddvd"></a>Membakar data CD/DVD<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membakar-data-cddvd" title="Direct link to heading">#</a></h4><p>Selain sebagai peramban berkas, Nautilus juga bisa digunakan untuk membakar CD/
+DVD untuk menyimpan data. Untuk membuka fitur ini, klik menu Aksesoris &gt; CD/DVD
+Creator pada Desktop GNOME.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-cd-burning.png]
+Silahkan salin berkas atau folder yang ingin Anda rekam ke CD/DVD dengan cara
+yang sudah dijelaskan diatas. Kemudian, klik tombol “Rekam ke Disk” jika sudah
+selesai menyalin berkas/folder yang ingin direkam ke CD/DVD.
+Sebelum memulai pembakaran/perekaman, Anda menentukan cakram CD/DVD yang akan
+digunakan untuk pembakaran pada bagian “Cakram yang ditulisi”, kemudian
+menentukan label atau nama dari CD/DVD pada bagian “Nama Cakram”. Kemudian,
+klik tombol “Bakar” untuk memulai pembakaran.
+TIP: Untuk pengaturan pembakaran lebih lanjut seperti pengaturan kecepatan
+pembakaran dan opsi pembakaran, Anda bisa klik tombol “Properti” sebelum
+melakukan pembakaran.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="berbagi-folder-melalui-jaringan"></a>Berbagi folder melalui Jaringan<a aria-hidden="true" tabindex="-1" class="hash-link" href="#berbagi-folder-melalui-jaringan" title="Direct link to heading">#</a></h4><p>Sebelum berbagi suatu folder ke jaringan, Anda harus memasang paket Samba
+terlebih dahulu. Samba merupakan server berbagi berkas yang bisa digunakan
+antar platform antara lain : Windows, Linux, Mac OS X, Solaris, dsb. Untuk
+memasang paket samba, buka terminal dan ketik perintah berikut :
+blankon@blankon:~$ sudo apt-get install samba↵
+Setelah Samba dipasang, pilih folder yang ingin dibagi lalu klik menu Sunting &gt;
+Pilihan berbagi.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-file-sharing.png]
+Beri centang pada “Share this folder” untuk mengaktifkan fitur berbagi folder
+dan beri nama sharing folder yang akan dimunculkan pada saat mengakses folder
+pada kotak teks yang tersedia. Agar pengakses bisa menulis isi folder yang
+terbagi, beri centang pada “Allow other people to write in this folder” dan
+beri centang “Guest Access” agar folder bisa diakses tanpa perlu autentifikasi
+id pengguna dan password.
+Setelah semua selesai, klik tombol “Buat Share”. Sekarang, komputer lain di
+jaringan sudah bisa mengakses folder yang Anda bagi.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="peramban-jaringan"></a>Peramban Jaringan<a aria-hidden="true" tabindex="-1" class="hash-link" href="#peramban-jaringan" title="Direct link to heading">#</a></h4><p>Selain untuk mengelola berkas secara lokal, Nautilus juga bisa dimanfaatkan
+untuk mengelola berkas yang ada di jaringan dengan menggunakan protokol SMB
+(Protokol berbagi folder antar sistem operasi), SSH, FTP, dan WebDAV. Untuk
+melihat jaringan di sekitar seperti melalui protokol SMB, Anda bisa klik menu
+Komponen &gt; Jaringan. Kemudian, Anda bisa melihat nama komputer yang ada di
+sekitar jaringan Anda.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/nautilus-network-browsing.png]
+Sedangkan, untuk mengelola berkas yang ada di jaringan selain SMB, Anda bisa
+klik menu Komponen &gt; Menghubungi Server. Lalu, tentukan jenis layanan beserta
+parameternya. Setelah semua selesai, klik pada tombol “Sambung”. Maka Nautilus
+akan melakukan sambungan terhadap protokol tersebut dan membukakan jendela
+peramban untuk mengelola berkas pada sambungan tersebut. Selain itu, Nautilus
+juga akan membuat item baru pada menu Komponen, Desktop dan pada sidebar di
+bagian kiri jendela peramban berkas yang berfungsi untuk merujuk ke sambungan
+jaringan yang baru dibuat.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="membuka-peramban-berkas-pcman"></a>Membuka peramban berkas PCMan<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuka-peramban-berkas-pcman" title="Direct link to heading">#</a></h3><p>Untuk membuka peramban berkas PCMan pada BlankOn Linux edisi Minimalis, Anda
+bisa klik ganda ikon “My Documents” pada area kerja LXDE, atau Anda juga bisa
+klik menu BlankOn &gt; Peralatan Sistem &gt; PCMan File Manager. Maka PCMan akan
+dibuka pada folder rumah pengguna.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/pcmanfm-home.png]
+Untuk membuka isi suatu media penyimpanan, cukup klik pada media penyimpanan
+yang ingin dibuka pada bagian kiri jendela PCMan. Sementara untuk melepasnya,
+Anda bisa klik kanan pada media penyimpnan yang ingin dilepas, lalu pilih menu
+“Unmount this Volume”.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="menggunakan-peramban-berkas-pcman"></a>Menggunakan peramban berkas PCMan<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menggunakan-peramban-berkas-pcman" title="Direct link to heading">#</a></h3><p>Pada bagian ini, dijelaskan mengenai cara melakukan tugas manajemen berkas dan
+folder seperti membuka berkas, menyalin berkas, memindahkan, membuat folder
+baru, dsb pada aplikasi peramban berkas PCMan yang terdapat di dalam BlankOn
+Linux edisi Minimalis.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="memilih-berkas-1"></a>Memilih berkas<a aria-hidden="true" tabindex="-1" class="hash-link" href="#memilih-berkas-1" title="Direct link to heading">#</a></h4><p>Untuk memilih sebuah berkas, cukup klik berkas yang ingin Anda pilih. Namun,
+jika Anda memilih beberapa berkas, Anda bisa klik berkas yang ingin dipilih
+sambil menekan tombol Ctrl. Pemilihan berkas diperlukan untuk selanjutnya
+dilakukan manipulasi pada berkas yang dipilih tersebut.
+TIP: Untuk memilih semua berkas dan folder yang ada di dalam satu folder, Anda
+bisa tekan tombol Ctrl+A</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="membuka-berkas-1"></a>Membuka berkas<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuka-berkas-1" title="Direct link to heading">#</a></h4><p>Untuk membuka suatu berkas, Anda cukup klik dua kali pada berkas yang ingin
+Anda buka. Maka berkas akan dibuka dengan aplikasi default yang sudah
+ditentukan untuk membuka berkas tersebut.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/pcmanfm-openwith.png]
+Jika ingin membuka berkas dengan aplikasi yang Anda inginkan, klik kanan berkas
+yang ingin dibuka, lalu arahkan ke menu “Open With”, kemudian klik aplikasi
+yang ingin digunakan. Jika tidak terdapat pada daftar aplikasi, Anda bisa pilih
+menu “Open with another application”.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="merubah-nama-berkasfolder"></a>Merubah nama berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#merubah-nama-berkasfolder" title="Direct link to heading">#</a></h4><p>Untuk merubah nama berkas, pilih berkas yang ingin Anda ubah namanya, lalu klik
+menu Edit &gt; Rename. Kemudian, ketik nama baru yang Anda inginkan. Anda juga
+bisa tekan tombol F2 pada keyboard untuk mengubah nama berkas/folder.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="menyalin-berkasfolder-1"></a>Menyalin berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menyalin-berkasfolder-1" title="Direct link to heading">#</a></h4><p>Yang dimaksud dengan menyalin berkas/folder adalah membuat duplikat dari
+berkas/folder yang sudah ada. Untuk melakukan hal ini, pilih berkas yang ingin
+Anda salin lalu pilih menu Edit &gt; Copy. Atau Anda bisa tekan tombol Ctrl+C
+Sekarang, buka folder tujuan penyalinan berkas, lalu klik menu Edit &gt; Paste.
+Atau Anda bisa tekan tombol Ctrl+V.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="memindahkan-berkasfolder-1"></a>Memindahkan berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#memindahkan-berkasfolder-1" title="Direct link to heading">#</a></h4><p>Untuk memindahkan tempat berkas/folder dari suatu folder ke folder lainnya,
+pilih berkas/folder yang ingin dipindahkan, lalu klik menu Edit &gt; Cut. Atau
+tekan tombol Ctrl+X.
+Kemudian, buka folder tujuan dan klik menu Edit &gt; Paste atau tekan tombol
+Ctrl+V.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="menghapus-berkasfolder-1"></a>Menghapus berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menghapus-berkasfolder-1" title="Direct link to heading">#</a></h4><p>Untuk menghapus berkas/folder secara permanen, Anda bisa memilih berkas/folder
+yang ingin dihapus, lalu memilih menu Sunting &gt; Hapus, atau Anda bisa tekan
+tombol Delete.
+PERINGATAN&#x27;&#x27;&#x27; Data yang sudah dihapus tidak bisa dikembalikan. Hati-hati dalam
+melakukan penghapusan suatu berkas/folder.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="membuat-folder-baru-1"></a>Membuat folder baru<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuat-folder-baru-1" title="Direct link to heading">#</a></h4><p>Untuk membuat folder baru, klik menu File &gt; Create New &gt; Folder. Lalu ketik
+nama folder baru yang ingin Anda buat.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mengatur-hak-akses-pada-berkasfolder-1"></a>Mengatur hak akses pada berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mengatur-hak-akses-pada-berkasfolder-1" title="Direct link to heading">#</a></h4><p>Untuk mengatur hak akses dari berkas/folder pada PCMan, klik kanan pada berkas/
+folder yang ingin diubah hak aksesnya, lalu klik pada menu Properties. Pada
+jendela Properties, klik pada tab Permissions.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/pcmanfm-chmod-
+configuration.png]
+Berikut adalah penjelasan dari masing-masing pengaturan :
+Mengatur pemilik dari berkas/folder.
+[/raw-attachment/wiki/Dokumentasi/      Ingat, yang hanya bisa mengatur pemilik
+Panduan/5/Bab6/pcmanfm-chown-owner.png] dari suatu berkas/folder adalah
+administrator.
+Mengatur grup yang memiliki berkas/
+[/raw-attachment/wiki/Dokumentasi/      folder. Yang hanya bisa mengatur bagian
+Panduan/5/Bab6/pcmanfm-chown-group.png] ini adalah pemilik berkas/folder
+tersebut.
+[/raw-attachment/wiki/Dokumentasi/      Mengatur hak apa saja yang bisa
+Panduan/5/Bab6/pcmanfm-chmod-user.png]  dilakukan oleh pemilik berkas.
+[/raw-attachment/wiki/Dokumentasi/      Mengatur hak apa saja yang bisa
+Panduan/5/Bab6/pcmanfm-chmod-group.png] dilakukan oleh kelompok/grup pemilik
+berkas.
+[/raw-attachment/wiki/Dokumentasi/      Mengatur hak apa saja yang bisa
+Panduan/5/Bab6/pcmanfm-chmod-other.png] dilakukan oleh pengguna selain pemilik
+atau anggota grup.
+Untuk menerapkan pengaturan, Anda bisa klik pada tombol OK. Jika Anda mengatur
+hak akses pada folder, Anda akan ditanya apakah pengaturan akan diberlakukan
+pada seluruh berkas didalam folder tersebut secara rekursif.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="membuat-berkas-arsip-1"></a>Membuat berkas arsip<a aria-hidden="true" tabindex="-1" class="hash-link" href="#membuat-berkas-arsip-1" title="Direct link to heading">#</a></h4><p>Untuk membuat berkas arsip pada PCMan, klik pada beberapa berkas yang ingin
+diarsip, lalu klik kanan dan pilih menu “Compress”.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/pcmanfm-add-archive.png]
+Kemudian, tentukan nama berkas hasil pengarsipan, lokasi penyimpanan serta
+serta format pengarsipan. Format pengarsipan yang didukung antara lain :
+TAR.BZ2, TAR.GZ dan ZIP. Terakhir, klik tombol “Save” untuk membuat berkas
+arsip.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mencari-berkasfolder-1"></a>Mencari berkas/folder<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mencari-berkasfolder-1" title="Direct link to heading">#</a></h4><p>Untuk melakukan pencarian suatu berkas/folder pada PCMan, klik pada menu
+BlankOn &gt; Aksesoris &gt; Search for Files and Folder.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab6/pcmanfm-search-tool.png]
+Kemudian, tentukan nama berkas yang ingin dicari pada bagian “File Name
+Contains” dan tambahkan juga folder tempat pencarian dengan mengklik tombol
+“Add”. Jika Anda ingin mencari isi berkas, Anda bisa klik tab “Content” dan
+mengetik isi dokumen yang ingin dicari. Untuk melakukan pencarian, klik pada
+tombol “Find”. Maka hasil pencarian akan langsung ditampilkan pada jendela
+pencarian.
+Last modified on 07/06/2009 02:50:33 PM</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="attachments-31"></a>Attachments (31)<a aria-hidden="true" tabindex="-1" class="hash-link" href="#attachments-31" title="Direct link to heading">#</a></h4><div class="mdxCodeBlock_1XEh"><div class="codeBlockContent_1u-d"><button type="button" aria-label="Copy code to clipboard" class="copyButton_10dd">Copy</button><div tabindex="0" class="prism-code language-undefined codeBlock_3iAC"><div class="codeBlockLines_b7E3" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">* blankon-place-menu.png​ (35.0 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-add-archive.png​ (26.3 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-cd-burning.png​ (80.0 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chmod-applyrecursive.png​ (4.7 KB) - added by wirama 8 years</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chmod-configuration.png​ (38.0 KB) - added by wirama 8 years</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chmod-execution.png​ (2.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chmod-group.png​ (6.9 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chmod-other.png​ (4.7 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chmod-user.png​ (8.3 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chown-group.png​ (3.3 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-chown-user.png​ (2.5 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-computer.png​ (64.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-delete-file.png​ (14.1 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-file-sharing.png​ (23.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-filesystem.png​ (64.8 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-network-browsing.png​ (54.5 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-open-with.png​ (48.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-search-tool.png​ (60.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-select-file.png​ (90.7 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-trash.png​ (43.1 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* nautilus-trash.2.png​ (43.1 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-add-archive.png​ (15.0 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-chmod-configuration.png​ (19.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-chmod-group.png​ (2.1 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-chmod-other.png​ (2.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-chmod-user.png​ (2.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-chown-group.png​ (1.3 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-chown-owner.png​ (1.4 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-home.png​ (29.2 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-openwith.png​ (54.9 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* pcmanfm-search-tool.png​ (18.1 KB) - added by wirama 8 years ago.</span></div></div></div></div></div><h4></h4></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/BlankOn/wiki/edit/master/Wiki/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab6.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#bab-vi-menggunakan-peramban-berkas" class="table-of-contents__link">BAB VI Menggunakan Peramban Berkas</a><ul><li><a href="#konsep-manajemen-berkas-pada-linux" class="table-of-contents__link">Konsep manajemen berkas pada Linux</a></li><li><a href="#membuka-peramban-berkas-nautilus" class="table-of-contents__link">Membuka peramban berkas Nautilus</a></li><li><a href="#menggunakan-peramban-berkas-nautilus" class="table-of-contents__link">Menggunakan peramban berkas Nautilus</a></li><li><a href="#membuka-peramban-berkas-pcman" class="table-of-contents__link">Membuka peramban berkas PCMan</a></li><li><a href="#menggunakan-peramban-berkas-pcman" class="table-of-contents__link">Menggunakan peramban berkas PCMan</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="text--center"><div class="margin-bottom--sm"><a href="https://blankonlinux.or.id" target="_blank" rel="noopener noreferrer" class="footerLogoLink_1zJy"><img class="footer__logo" alt="BlankOn Linux" src="/img/logo-hitam.png"></a></div><div>Copyright © 2020 BlankOn Linux. Built with Docusaurus.</div></div></div></footer></div>
+<script src="/styles.d346b3b4.js"></script>
+<script src="/runtime~main.5d9df274.js"></script>
+<script src="/main.4590b193.js"></script>
+<script src="/1.08d9ae6c.js"></script>
+<script src="/5.8ee82b6a.js"></script>
+<script src="/966.5fd1a52e.js"></script>
+<script src="/935f2afb.345afce5.js"></script>
+<script src="/17896441.aafa42f8.js"></script>
+<script src="/560b45c8.9f2603d3.js"></script>
+</body>
+</html>

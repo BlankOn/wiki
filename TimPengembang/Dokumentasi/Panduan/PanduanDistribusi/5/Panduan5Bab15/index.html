@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.65">
+<title data-react-helmet="true">Panduan5Bab15 | BlankOn Linux</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="Panduan5Bab15 | BlankOn Linux"><meta data-react-helmet="true" name="description" content="BAB XV : Berbagai Tip dan Trik"><meta data-react-helmet="true" property="og:description" content="BAB XV : Berbagai Tip dan Trik"><meta data-react-helmet="true" property="og:url" content="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab15"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab15"><link rel="stylesheet" href="/styles.dcedc9af.css">
+<link rel="preload" href="/styles.d346b3b4.js" as="script">
+<link rel="preload" href="/runtime~main.5d9df274.js" as="script">
+<link rel="preload" href="/main.4590b193.js" as="script">
+<link rel="preload" href="/1.08d9ae6c.js" as="script">
+<link rel="preload" href="/5.8ee82b6a.js" as="script">
+<link rel="preload" href="/966.5fd1a52e.js" as="script">
+<link rel="preload" href="/935f2afb.345afce5.js" as="script">
+<link rel="preload" href="/17896441.aafa42f8.js" as="script">
+<link rel="preload" href="/699c1497.996277a2.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<nav class="navbar navbar--fixed-top navbarHideable_3046"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a><a class="navbar__item navbar__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a><a class="navbar__item navbar__link" href="/ProdukBlankOn/README">Produk</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="BlankOn Wiki"></a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2aTZ"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_BsTx">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.jpeg" alt="BlankOn Linux Logo"><strong class="navbar__title">BlankOn</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/TimPengembang/TimBlankOn">Tim Pengembang</a></li><li class="menu__list-item"><a class="menu__link" href="/ProdukBlankOn/README">Produk</a></li><li class="menu__list-item"><a href="https://github.com/BlankOn/wiki" target="_blank" rel="noopener noreferrer" class="menu__link header-github-link" aria-label="BlankOn Wiki"></a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_2gpo"><main class="docMainContainer_3EyW"><div class="container padding-vert--lg docItemWrapper_1Hme"><div class="row"><div class="col docItemCol_2AGf"><div class="docItemContainer_1tAC"><article><div class="markdown"><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="bab-xv--berbagai-tip-dan-trik"></a>BAB XV : Berbagai Tip dan Trik<a aria-hidden="true" tabindex="-1" class="hash-link" href="#bab-xv--berbagai-tip-dan-trik" title="Direct link to heading">#</a></h1><p><strong>Panduan BlankOn 5</strong></p><p>Pada bab ini, dijelaskan mengenai beberapa tip dan trik untuk distribusi
+BlankOn Linux meliputi tip dan trik untuk booting, sistem, hardware, desktop,
+aplikasi dan tip dan trik lainnya.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="proses-booting"></a>Proses Booting<a aria-hidden="true" tabindex="-1" class="hash-link" href="#proses-booting" title="Direct link to heading">#</a></h3><p>Mengembalikan GRUB yang hilang GRUB (GNU GRUB) merupakan boot loader yang
+digunakan untuk melakukan booting berbagai distro Linux, termasuk BlankOn.
+Program GRUB terpasang di bagian MBR (Master Boot Record) dari harddisk. GRUB
+sangat penting agar BlankOn bisa dibuka. Pada saat komputer pertama kali
+dihidupkan, GRUB akan menampilkan menu sistem operasi yang akan dijalankan.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab15/grub-menu.png]</p><p>Kadangkala, GRUB bisa saja ditimpa oleh boot loader dari sistem operasi lain
+setelah memasang sistem operasi tersebut (seperti Microsoft Windows). Jadi,
+Anda tidak bisa menjalankan BlankOn Linux. Untuk mengembalikan GRUB, Anda bisa
+mengikuti langkah berikut ini :</p><ol><li>Masukkan Live CD BlankOn 5.0 (Nanggar), kemudian atur BIOS agar melakukan
+booting pada CD tersebut.</li><li>Tekan tombol Enter untuk menjalankan sistem operasi pada Live CD BlankOn
+Linux.</li><li>Setelah sistem operasi BlankOn dijalankan, buka terminal dan lakukan
+pengikatan/mounting partisi sistem operasi BlankOn atau partisi /boot
+dengan perintah berikut (Misalkan partisi sistem berada pada /dev/sda5 ):
+blankon@blankon:~$ sudo mount /dev/sda5 /mnt↵</li></ol><p>Jika Anda belum mengetahui letak partisi sistem, ketik perintah “sudo fdisk -l”
+(Apa yang muncul di layar bisa saja berbeda dengan keluaran seperti di bawah
+ini).
+blankon@blankon:~$ sudo fdisk -l↵
+Disk /dev/sda: 160.0 GB, 160041885696 bytes
+255 heads, 63 sectors/track, 19457 cylinders
+Units = cylinders of 16065 <em> 512 = 8225280 bytes
+Disk identifier: 0x86f686f6
+Perangkat Boot      Awal          Akhir    Blocks   Id  System
+/dev/sda1   </em>           1        2550    20482843+   7  HPFS/NTFS
+/dev/sda2            2551        5099    20474842+   7  HPFS/NTFS
+/dev/sda3            5100       19457   115330635    5  Extended
+/dev/sda5            5100        6374    10241406    7  HPFS/NTFS
+/dev/sda6            6375       10198    30716248+  83  Linux
+/dev/sda7           10199       13385    25599546   83  Linux
+/dev/sda8           13386       16572    25599546   83  Linux
+/dev/sda9           16573       18465    15205491   83  Linux
+/dev/sda10          18466       19457     7968208+  82  Linux swap/Solaris</p><ol><li>Setelah partisi sistem diikat pada folder “/mnt”, ketik perintah berikut
+untuk memasang GRUB (Ganti angka yang dicetak tebal dengan harddisk yang
+ingin digunakan, jika hanya ada satu harddisk, gunakan angka 0)
+blankon@blankon:/$ sudo grub-install --root-directory=/mnt hd0↵
+Installing GRUB to hd0 as (hd0)...
+Installation finished. No error reported.
+This is the contents of the device map /mnt/boot/grub/device.map.
+Check if this is correct or not. If any of the lines is incorrect,
+fix it and re-run the script `grub-install&#x27;.
+(hd0)	/dev/sda
+Jika muncul pesan seperti diatas, berarti GRUB berhasil diinstal. Anda bisa
+merestart komputer dan melihat hasilnya.</li></ol><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="menampilkan-proses-pada-saat-booting"></a>Menampilkan proses pada saat booting<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menampilkan-proses-pada-saat-booting" title="Direct link to heading">#</a></h4><p>Pada saat proses booting, distro BlankOn Linux menampilkan splash screen yang
+sangat cantik dengan progress bar yang menunjukkan seberapa perjalanan proses
+booting telah berjalan.
+Namun, tahukah Anda apa saja yang dikerjakan oleh BlankOn Linux pada saat
+proses booting? Untuk menampilkan detail proses booting pada BlankOn Linux,
+Anda bisa mengikuti trik berikut ini :</p><div class="mdxCodeBlock_1XEh"><div class="codeBlockContent_1u-d"><button type="button" aria-label="Copy code to clipboard" class="copyButton_10dd">Copy</button><div tabindex="0" class="prism-code language-undefined codeBlock_3iAC"><div class="codeBlockLines_b7E3" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Buka terminal melalui menu BlankOn &gt; Aksesoris &gt; Terminal.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Pada terminal, ketik perintah “sudo gedit /boot/grub/menu.lst”.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  blankon@blankon:~$ sudo gedit /boot/grub/menu.lst↵</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Pada berkas “menu.lst” yang baru dibuka, carilah baris seperti berikut</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  ## ## End Default Options ##</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  title     BlankOn Meuligoe, kernel 2.6.27-7-generic</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  uuid      db129b52-2327-4b0d-8d8e-72b1d741049a</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  kernel        /boot/vmlinuz-2.6.27-7-generic</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  root=UUID=db129b52-2327-4b0d-8d8e-72b1d741049a ro quiet splash</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  initrd        /boot/initrd.img-2.6.27-7-generic</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  quiet</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* Hilangkan teks &quot;quiet&quot;, kemudian simpan file tersebut.</span></div></div></div></div></div><p>Setelah itu, Anda bisa restart komputer dan melakukan booting pada BlankOn
+Linux, maka seluruh proses booting yang terjadi akan ditampilkan dalam bentuk
+teks. Ternyata pada proses booting, banyak sekali proses yang dilakukan. Untuk
+mengembalikannya ke keadaan semula, Anda bisa isi kembali teks yang sebelumnya
+dihapus pada berkas /boot/grub/menu.lst.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab15/blankon-booting-verbose.png]</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mempercepat-booting"></a>Mempercepat booting<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mempercepat-booting" title="Direct link to heading">#</a></h4><p>Jika komputer Anda memiliki prosesor berinti dua atau lebih, Anda bisa mengatur
+agar beberapa proses booting dijalankan secara sekaligus. Untuk melakukan hal
+ini, Anda bisa mengikuti hal berikut :</p><ol><li>Buka terminal melalui menu BlankOn &gt; Aksesoris &gt; Terminal.</li><li>Edit berkas /etc/init.d/rc dengan perintah berikut
+blankon@blankon:~$ sudo gedit /etc/init.d/rc</li><li>Carilah baris berikut menggunakan fitur Cari pada toolbar aplikasi
+pengolah teks :
+CONCURRENCY=none</li><li>Ubah kata “none” menjadi “shell” sehingga baris tersebut menjadi :
+CONCURRENCY=shell</li><li>Terakhir, simpan berkas tersebut.
+Sekarang, Anda bisa melakukan restart pada komputer dan merasakan perubahannya.</li></ol><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mengganti-tema-login"></a>Mengganti tema login<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mengganti-tema-login" title="Direct link to heading">#</a></h4><p>Merasa bosan dengan tema pada saat memasukkan nama pengguna dan sandi pada saat
+login? Anda bisa mengubahnya dengan cara berikut :</p><ol><li>Klik menu System &gt; Administrasi &gt; Jendela Login pada BlankOn reguler,
+atau menu BlankOn &gt; Preferensi &gt; Jendela Login pada BlankOn minimalis.
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab15/gdmsetup.png]</li><li>Masukkan sandi anda, karena hal ini membutuhkan hak administratif.</li><li>Pada jendela “Pengaturan Jendela Login”, klik pada tab “Lokal”.</li><li>Sekarang, pilih tema login yang ingin Anda gunakan. Jika Anda ingin tema
+login secara acak, Anda bisa pilih opsi “Acak dari terpilih” pada bagian
+“Tema”.
+Setelah pengaturan selesai, Anda bisa keluar dari desktop dan melihat
+perubahannya. Jika tema terasa kurang, Anda bisa mengunduh tema-tema melalui
+situs GNOME Looks, GNOME Art atau Devian Art.</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="piranti-keras"></a>Piranti Keras<a aria-hidden="true" tabindex="-1" class="hash-link" href="#piranti-keras" title="Direct link to heading">#</a></h3><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="memperlambat-touchpad-scrolling"></a>Memperlambat “touchpad scrolling”<a aria-hidden="true" tabindex="-1" class="hash-link" href="#memperlambat-touchpad-scrolling" title="Direct link to heading">#</a></h4><p>Pada beberapa notebook tertentu, utamanya yang baru saja dimigrasikan dari
+windows ke linux, memiliki sedikit masalah, misalnya saja scrolling touchpad
+yang terlalu cepat, ini jelas akan membuat para pengguna agak sedikit merasa
+tidak nyaman. Sebenarnya cara untuk mengatasi masalah ini sangatlah mudah,
+yaitu hanya dengan menambahkan beberapa baris konfigurasi pada file konfigurasi
+xorg.conf, yaitu sebagai berikut:</p><ol><li>Pertama, yang harus dilakukan ialah membuka file konfigurasi xorg.conf di
+dalam gedit, hal ini dapat dilakukan dengan mengetikkan perintah berikut
+ini di dalam terminal.
+blankon@blankon:~$ sudo gedit /etc/X11/xorg.conf↵</li><li>Setelah file tersebut terbuka, langkah selanjutnya ialah mencari bagian
+“Input device” pada file tersebut.</li><li>Bila file tersebut sudah terbuka langkah selanjutnya ialah mencari kata
+berikut ini pada file tersebut:
+Section &quot;InputDevice&quot;
+Driver &quot;synaptics&quot;</li><li>Lalu, bila sudah ditemukan. Di bawah semua tulisan yang berawal dengan
+option tersebut, tuliskanlah baris perintah berikut ini:
+Option &quot;VertScrollDelta&quot; &quot;50&quot;</li><li>Langkah terakhir yang harus dilakukan ialah, logout dan log in kembali.
+Hal ini dilakukan agar perubahan yang dibuat tadi dapat dirasakan.</li></ol><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="partisi-windows-kadang-tidak-dapat-dibaca"></a>Partisi Windows kadang tidak dapat dibaca<a aria-hidden="true" tabindex="-1" class="hash-link" href="#partisi-windows-kadang-tidak-dapat-dibaca" title="Direct link to heading">#</a></h4><p>Bagi Anda yang memiliki komputer dengan dual boot, antara BlankOn Linux dengan
+Microsoft Windows, ada kemungkinan akan mendapatkan pesan seperti “Cannot mount
+volume” ketika hendak membuka partisi Windows pada BlankOn Linux. Pesan ini
+menunjukkan bahwa partisi Windows yang dimiliki tidak bisa di akses, hal ini
+bisa saja terjadi pada BlankOn Linux karena disebabkan oleh beberapa faktor.
+Salah satu faktor yang paling besar pengaruhnya adalah karena Windows itu
+sendiri.
+Hal ini akan terjadi jika pada saat Windows dimatikan secara tidak normal
+ataupun karena media penyimpanan yang sudah sangat kotor. Jika Windows
+dimatikan (shutdown) secara tidak normal (mati secara tiba-tiba) hal ini akan
+membuat BlankOn Linux tidak bisa untuk mengakses partisi tersebut. Bahkan pada
+beberapa kasus, sering ditemukan Windows yang sudah dimatikan dengan normal
+tetap juga tidak bisa diakses partisinya. Hal ini bisa saja disebabkan oleh
+karena partisi Windows yang sudah sangat kotor.
+Untuk mengatasi masalah ini, hal yang harus dilakukan ialah menjalankan program
+chkdisk pada Windows, untuk memeriksa partisi yang bermasalah tadi. Hal ini
+juga bisa dilakukan dengan menggunakan program-program third party di Windows,
+semisal wise disk cleaner. Program ini bertujuan untuk membersihkan partisi
+tersebut dari sampah-sampah dan juga untuk melakukan defragment pada partisi
+tersebut.
+Jika tidak terdapat sistem operasi Microsoft Windows, Anda bisa menginstal
+paket “ntfsprogs”. Setelah paket ini terinstal, Anda bisa menjalankan utility
+bernama “ntfsfix”. Untuk menjalankan utility ini, ketik perintah :
+blankon@blankon:~$ sudo ntfsfix /dev/sda1↵
+Ubah “/dev/sda1” dengan partisi Windows yang ingin diperbaiki. Untuk melihat
+semua partisi harddisk, Anda bisa ketik perintah berikut :
+blankon@blankon:~$ sudo fdisk -l↵</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="overburn-data-pada-cd"></a>Overburn data pada CD<a aria-hidden="true" tabindex="-1" class="hash-link" href="#overburn-data-pada-cd" title="Direct link to heading">#</a></h4><p>Mungkin Anda pernah mengalami kejadian dimana data yang dimiliki lebih besar
+dari kapasitas CD-R yang dipunya. Namun hal ini dapat diatasi dengan
+menggunakan fasilitas overburn yang disediakan oleh blankon. Overburn merupakan
+sebuah proses dimana kita memasukkan data yang lebih banyak dari yang
+direkomendasikan oleh si pembuat CD-R tersebut, misalnya saja CD-R yang
+memiliki kapasitas 700 Mb dapat di overburn sampai pada kapasitas 734 Mb,
+lumayan bukan?
+Namun, satu hal yang harus diketahui bahwa tidak semua komputer dapat membaca
+disk yang sudah di overburn, untuk dapat menggunakan fasilitas overburn ini,
+hal perlu dilakukan cukup mudah, yaitu dengan membuka aplikasi gconf-editor,
+dan masukkalah ke bagian /apps/nautilus-cd-burner, lalu centang pada bagian
+overburn yang terdapat pada sisi kanan aplikasi tersebut.
+Sekarang, Anda bisa melakukan overburn pada saat membakar CD menggunakan
+peramban berkas Nautilus.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="tweaking-harddisk"></a>Tweaking Harddisk<a aria-hidden="true" tabindex="-1" class="hash-link" href="#tweaking-harddisk" title="Direct link to heading">#</a></h4><p>Jika harddisk terasa lambat, Anda bisa melakukan tweaking terhadap partisi
+harddisk yang terpasang pada BlankOn Linux untuk meningkatkan performa
+harddisk. Berikut adalah langkah-langkahnya :</p><ol><li>Buka berkas /etc/fstab melalui terminal dengan perintah berikut :
+blankon@blankon:~$ sudo gedit /etc/fstab↵</li><li>Di dalam berkas tersebut, terdapat daftar partisi harddisk yang diikat/
+di-mount ke dalam sistem. Carilah baris partisi dengan mount point “/”
+seperti berikut :
+UUID=db129b52-2327-4b0d-8d8e-72b1d741049a/ ext3 relatime,errors=remount-
+ro</li><li>Kemudian, ganti teks relatime diatas dengan “noatime” (tanpa tanda petik)
+untuk mempercepat kecepatan akses harddisk.
+UUID=db129b52-2327-4b0d-8d8e-72b1d741049a/ ext3 noatime,errors=remount-ro</li><li>Terakhir, simpan berkas tersebut dan restart komputer Anda untuk
+merasakan perubahannya.</li></ol><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mengatur-kecepatan-prosesor"></a>Mengatur kecepatan prosesor<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mengatur-kecepatan-prosesor" title="Direct link to heading">#</a></h4><p>Jika prosesor Anda memiliki fitur untuk mengubah kecepatan prosesor, Anda bisa
+mengatur kecepatan prosesor melalui BlankOn Linux dengan menambahkan aplet
+bernama “Pemantau Skala Frekuensi CPU”. Untuk menambahkan aplet ini pada panel,
+klik kanan pada panel, lalu pilih menu “Masukkan ke Panel”, kemudian cari aplet
+bernama “Pemantau Skala Frekuensi CPU”, dan klik tombol “Tambah”.
+Sekarang, Anda bisa klik pada aplet baru tersebut untuk mengatur kecepatan
+prosesor sesuai dengan kebutuhan. Khusus untuk pengguna prosesor Intel Celeron
+terbaru atau Intel Pentium 4, Anda harus mengaktifkan terlebih dahulu modul
+untuk mengatur kecepatan prosesor. Untuk melakukan hal tersebut, ikuti langkah-
+langkah berikut :</p><ol><li>Ketik perintah berikut untuk membuka berkas /etc/modules
+blankon@blankon:~$ sudo gedit /etc/modules↵</li><li>Tambahkan baris “p4_clockmod” (tanpa tanda petik), lalu simpan file
+tersebut.</li><li>Restart komputer Anda.
+Setelah komputer di-restart, maka Anda bisa memanfaatkan aplet tersebut untuk
+mengatur kecepatan prosesor Intel Anda.</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="piranti-lunak"></a>Piranti Lunak<a aria-hidden="true" tabindex="-1" class="hash-link" href="#piranti-lunak" title="Direct link to heading">#</a></h3><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mematikan-paksa-aplikasi-yang-hang"></a>Mematikan paksa aplikasi yang hang<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mematikan-paksa-aplikasi-yang-hang" title="Direct link to heading">#</a></h4><p>Terkadang, para pengguna komputer akan mengalami sebuah keadaan yang sangat
+tidak mengenakkan, yaitu pada saat komputer mereka tidak dapat digunakan dengan
+baik. Hal tersebut bukan disebabkan karena komputer yang rusak, melainkan
+karena komputer tidak dapat digunakan sebagaimana biasanya karena terlalu sibuk
+dengan proses yang sedang dijalankan.
+Keadaan ini akan membuat komputer yang sedang digunakan terasa sedikit lambat,
+atau bahkan sama sekali tidak bekerja. Sebagai contoh, bila Anda menggunakan
+komputer yang berspesifikasi standar, kemudian secara bersamaan menjalankan
+banyak aplikasi yang membutuhkan sumber daya memori yang cukup besar, hal ini
+dapat mengakibatkan lambatnya komputer yang sedang digunakan atau dengan kata
+lain komputer tersebut mengalami hang. Untungnya di dalam BlankOn Linux, sudah
+terdapat sebuah komponen desktop yang sudah siap digunakan untuk dapat
+mengatasi masalah ini. Xkill merupakan sebuah aplikasi yang dapat digunakan
+untuk mengakhiri sebuah proses ataupun sebuah aplikasi secara paksa. Dengan
+menggunakan aplikasi ini, pengguna dapat memilih program yang hang dan
+mengakhirinya secara paksa.
+Program ini dapat dijalankan melalui menu “Jalankan aplikasi” yang dapat
+diaktifkan dengan cara menekan tombol kombinasi Alt + F2 pada desktop.
+Pada jendela “Jalankan aplikasi”, ketikperintah xkill dan akhiri dengan menekan
+Enter atau mengklik icon “jalankan” yang terdapat di sebelah kanan bawah
+jendela “Jalankan aplikasi”. Kemudian sekarang kursor yang Anda miliki akan
+berubah menjadi sebuah lambang seperti lambang bajak laut.
+Dengan menggunakan lambang bajak laut tersebut, kliklah pada aplikasi yang
+hendak dihentikan secara paksa, maka secara otomatis proses tersebut akan
+dihentikan secara paksa oleh sistem.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="menghilangkan-splash-screen-dari-openofficeorg"></a>Menghilangkan splash screen dari OpenOffice?.org<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menghilangkan-splash-screen-dari-openofficeorg" title="Direct link to heading">#</a></h4><p>Seperti biasa di awal saat kita membuka aplikasi OpenOffice?.org, hal pertama
+yang kita lihat adalah splash screen dari aplikasi tersebut. Splash screen ini
+biasanya akan berada diatas dari semua program, masalahnya ialah bila loading
+OpenOffice?.org tersebut lambat akan membuat splash screen tersebut juga lama
+berada di atas semua window lainnya.
+Cara untuk menghilangkan splash screen tersebut setiap aplikasi tersebut dibuka
+adalah dengan membuka file konfigurasi dari OpenOffice?.org itu sendiri. Karena
+didalam file konfigurasi tersebut terdapat pengaturan sistem kerja dari
+OpenOffice?.org, untuk membuka file ini pertama yang dilakukan ialah membuka
+terminal, lalu ketikkan perintah berikut ini :
+blankon@blankon:~$ sudo gedit /etc/openoffice/sofficerc↵
+Lalu, setelah file tersebut terbuka di dalam aplikasi gedit, carilah bacaan
+Logo=1 ( biasanya terdapat pada baris ke-3 ). Bila sudah ditemukan gantilah
+angka 1 yang terdapat di depan tanda sama dengan tersebut dengan angka 0. Bila
+hal yang dilakukan sudah benar, coba sekarang di buka aplikasi OpenOffice?.org,
+Splash screen pun tidak akan tampil lagi.
+Bila ingin mengembalikan ke keadaan sebelumnya, tinggal membuka lagi file
+tersebut, dan ubah angkanya lagi menjadi 1.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="cek-e-mail-baru-pada-gmail-menggunakan-gmailchecker"></a>Cek e-mail baru pada Gmail menggunakan Gmailchecker<a aria-hidden="true" tabindex="-1" class="hash-link" href="#cek-e-mail-baru-pada-gmail-menggunakan-gmailchecker" title="Direct link to heading">#</a></h4><p>Kebanyakan orang sekarang ini sudah tidak dapat dipisahkan lagi dengan yang
+namanya email atau surat elektronik. Disamping karena mudah dalam penggunaan,
+juga karena cepat dalam proses pengirimannya. Salah satu penyedia layanan surat
+elektronik yang paling digemari dan lumayan bagus adalah Gmail. Yang lebih
+penting lagi adalah layanan ini bersifat gratis, sehingga siapapun dapat
+membuat account pada layanan ini.
+Sekarang bagaimana bila Anda adalah orang yang sangat sibuk, dan tidak
+mempunyai waktu yang cukup untuk membuka layanannya langsung yang terdapat di
+alamat <a href="http://www.gmail.com." target="_blank" rel="noopener noreferrer">www.gmail.com.</a> Namun, masalah ini mudah di atasi di BlankOn Linux,
+karena di BlankOn Linux sudah ada program yang mengingatkan penggunanya bila
+terdapat email yang masuk, nama programnya ialah checkgmail.
+Aplikasi ini dapat diinstall melalui APT dengan nama paket “checkgmail”,
+setelah di install dengan baik aplikasi ini dapat ditemukan di BlankOn &gt;
+Internet &gt; CheckGmail?. Namun sebelum melakukan konfigurasi account, sebaiknya
+program ini ditambahkan dulu pada sesi di blankon agar nantinya dapat di load
+(di panggil) ketika komputer di hidupkan. Setelah program ditambahkan pada
+sesi, sekarang tinggal melakukan konfigurasi account gmail Anda pada program
+ini. Bila semua sudah selesai, sekarang aplikasi ini sudah siap digunakan untuk
+menerima dan mengirim email.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="pasang-skype-di-blankon-linux"></a>Pasang Skype di BlankOn Linux<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pasang-skype-di-blankon-linux" title="Direct link to heading">#</a></h4><p>Skype merupakan sebuah software yang banyak digunakan belakangan ini, software
+ini dapat digunakan baik untuk phone maupun video calls. Baik antara sesama
+komputer maupun dengan telepon yang sesungguhnya. Walapun software ini masih
+dalam bentuk software proprietary, namun software in bersifat gratis sehingga
+dapat di gunakan oleh siapa saja.
+Jalah terbaik yang dapat digunakan untuk dapat menginstall aplikasi ini di
+BlankOn Linux adalah dengan menambahkan repositorynya, sehingga dapat diinstall
+dengan mudah melalui APT. Cara untuk menambahkan repositorynya adalah sebagai
+berikut. Pertama bukalah menu System &gt; Administrasi &gt; Sumber Perangkat Lunak.
+Kemudian, buka tab “Perangkat Lunak Pihak Ketiga” lalu klik tombol “Tambah..”
+dan isikan APT line seperti berikut : deb ​<a href="http://download.skype.com/linux/" target="_blank" rel="noopener noreferrer">http://download.skype.com/linux/</a>
+repos/debian/ stable non-free
+Setelah mengetik APT line tersebut, klik tombol “Add Source”. Tutup jendela
+pengaturan sumber perangkat lunak. Pada saat diminta untuk memuat ulang, klik
+tombol “Memuat Ulang”.
+Sekarang, Anda bisa menginstal paket “skype” melalui APT lalu menjalankan Skype
+melalui menu BlankOn &gt; Internet &gt; Skype.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mempercepat-performa-firefox"></a>Mempercepat performa Firefox<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mempercepat-performa-firefox" title="Direct link to heading">#</a></h4><p>Dalam penggunaannya sehari-hari memang tidak dapat kita pungkiri bahwa untuk
+dapat menikmati dan menggunakan internet secara maksimal, dibutuhkan sebuah
+peramban yang memiliki kinerja dan kecepatan yang bagus. Sekarang ini ada
+banyak sekali pilihan software peramban yang dapat kita pilih, mulai dari
+Firefox, IE, Opera, Operator dan Google Chrome. Dari sekian banyak pilihan yang
+dapat kita gunakan, pasti masing-masing dari software tersebut memiliki
+kekurangan dan kelebihannya masing-masing.
+Untuk saat ini penggunaan peramban yang mendominasi masih dipegang oleh Mozilla
+Firefox, ini terjadi karena memang peramban ini memiliki tampilan yang user
+friendly dan dapat berjalan di multiplatform, dna tentunya peramban ini
+memiliki kecepatan yang dapat kita handalkan. Namun bagi Anda yang belum puas
+dengan kecepatan yang dimiliki oleh peramban ini secara bawaan. Disini akan
+dibahas salah satu tip yang dapat Anda gunakan untuk mempercepat Firefox yang
+Anda miliki.
+Tips ini berlaku bagi Anda yang menggunakan sistem atau pun koneksi internet
+yang tidak memungkinkan untuk menggunakan protokol IPv6, sekedar untuk
+diketahui dengan menggunakan protokol ini, biasanya peramban kita akan berjalan
+lebih cepat dari biasanya.
+Hal pertama yang harus dilakukan adalah membuka peramban Firefox, kemudian pada
+address bar-nya ketikkan lah perintah alamat about:config, kemudian pada text
+field yang baru tuliskan perintah berikut: network.dns.disable.IPv6 kalau sudah
+sekarang tinggal di klik aja dua kali, untuk mengaktifkan perintah tersebut.
+Kemudian restart peramban-nya, dan kalau semua berjalan lancar, maka peramban
+Anda kan berjalan dengan kecepatan yang tentunya lebih cepat dari biasanya.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="pasang-fonta-windows"></a>Pasang fonta Windows<a aria-hidden="true" tabindex="-1" class="hash-link" href="#pasang-fonta-windows" title="Direct link to heading">#</a></h4><p>Fonta merupakan sebuah hal yang sangat penting di dunia komputer, kita tidak
+akan dapat melakukan pekerjaan kita di komputer tanpa adanya font. Apalagi bagi
+Anda yang bekerja dibidang Design atau semacamnya, pasti akan memerlukan banyak
+macam dan tipe font tertentu.
+Sebenarnya ada banyak sekali cara yang dapat kita gunakan untuk dapat
+menginstall font pada BlankOn Linux. Untuk para pengguna BlankOn dapat
+mengetikkan, Anda bisa memasang paket fonta dari Windows yang bernama
+“msttcorefonts” melalui APT.
+$ sudo apt-get install msttcorefonts
+Setelah paket tersebut terpasang, maka dengan sendirinya sistem akan memasang
+fonta bawaan yang tedapat di Windows ke sistem Anda. Untuk memasang beberapa
+font tambahan, ada beberepa hal yang harus dilakukan.
+Pertama, siapkanlah font-font yang hendak Anda install dalam sebuah folder.
+Setelah terkumpul semua font, sekarang gandakan folder tersebut pada folder
+rumah Anda, kemudian ubahlah nama folder tersebut menjadi .fonts (perhatikan
+tanda titik yang terdapat pada kata fonts). Kemudian, restart desktop dan font
+sudah siap digunakan.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="mengetik-aksara-tradisional-indonesia"></a>Mengetik aksara tradisional Indonesia<a aria-hidden="true" tabindex="-1" class="hash-link" href="#mengetik-aksara-tradisional-indonesia" title="Direct link to heading">#</a></h4><p>BlankOn Linux memiliki fitur khusus yang memungkinkan Anda untuk mengetik dalam
+huruf tradisional Indonesia. BlankOn 5.0 menyediakan fitur untuk mengetik
+aksara Lontara&#x27; yang merupakan huruf khas suku Bugis Sulawesi Selatan dan
+aksara Batak dari Sumatra utara. Untuk mengaktifkan fitur metoda input aksara
+tradisional ini, anda bisa membuka fitur Dukungan Bahasa melalui menu System &gt;
+Administrasi &gt; Dukungan Bahasa, kemudian beri tanda centang pada “Use input
+method engine (IME) to enter the complex character”. Kemudian, tutup jendela
+pengaturan dan lakukan restart pada desktop.
+Setelah kembali ke desktop, anda akan melihat ikon baru berlambang keyboard
+pada area notifikasi. Untuk memulai pengetikan aksara tradisional, buka salah
+satu aplikasi yang memungkinkan pengetikan, kemudian klik pada ikon keyboard
+pada area notifikasi dan pilih menu Indonesian &gt; Buginese untuk aksara Lontara
+atau Indonesian &gt; Batak Toba untuk aksara toba.
+Sekarang, Anda bisa mengetik dalam aksara Bugis atau Batak sesuai dengan
+keinginan Anda. Misal, jika Anda ingin mengetik huruf lontara kaganga (ᨀᨁᨂ),
+Anda bisa ketik “kgng” pada keyboard. Selamat menulis aksara tradisional!
+[/raw-attachment/wiki/Dokumentasi/Panduan/5/Bab15/gedit-lontara-text.png]</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="desktop"></a>Desktop<a aria-hidden="true" tabindex="-1" class="hash-link" href="#desktop" title="Direct link to heading">#</a></h3><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="setting-wallpaper-dengan-hanya-satu-klik"></a>Setting wallpaper dengan hanya satu klik<a aria-hidden="true" tabindex="-1" class="hash-link" href="#setting-wallpaper-dengan-hanya-satu-klik" title="Direct link to heading">#</a></h4><p>Bila di Windows setting wallpaper dapat dilakukan dengan hanya klik kanan pada
+gambar yang diinginkan, lalu pilih set as wallpaper. Namun, di blankon secara
+default fasilitas ini belum dapat dinikmati.
+Tapi dengan sedikit usaha, hal yang sama juga dapat kita nikmati di blankon.
+Untuk dapat melakukan hal ini sebenarnya yang harus dilakukan sangatlah
+sederhana. Pertama, instal paket nautilus-wallpaper melalui APT. Kemudian,
+setelah paket tersebut terpasang, maka fasilitas ini pun sudah dapat digunakan.
+Sekarang, cobalah klik kanan semabarang gambar, jika semua hal berjalan baik,
+maka akan didapatkan sebuah pilihan menu “Set as wallpaper”.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="kustomisasi-efek-desktop"></a>Kustomisasi efek desktop<a aria-hidden="true" tabindex="-1" class="hash-link" href="#kustomisasi-efek-desktop" title="Direct link to heading">#</a></h4><p>Jika efek desktop yang diberikan kurang menarik, Anda bisa memasang paket
+bernama “simple-ccsm” melalui APT yang akan memberikan Anda fitur kustomisasi
+efek visual desktop. Setelah paket ini terinstal, Anda bisa klik menu System &gt;
+Preferensi &gt; Simple CompizConfig? Manager.
+Jika ingin pengaturan yang lebih detail lagi, Anda bisa klik menu System &gt;
+Preferensi &gt; CompizConfig? Manager. Selamat mengeksplorasi efek-efek desktop
+yang ada di BlankOn Linux.</p><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="menampilkan-ikon-komputer-rumah-server-jaringan-dan-tong-sampah-pada"></a>Menampilkan ikon Komputer, Rumah, Server Jaringan, dan Tong Sampah pada<a aria-hidden="true" tabindex="-1" class="hash-link" href="#menampilkan-ikon-komputer-rumah-server-jaringan-dan-tong-sampah-pada" title="Direct link to heading">#</a></h4><p>desktop
+Secara default, BlankOn Linux akan menampilkan ikon-ikon media penyimpanan yang
+bisa dibuka pada desktop. Jika Anda ingin menambahkan ikon Komputer, Rumah,
+Server Jaringan dan Tong Sampah ala di Microsoft Windows, Anda bisa mengikuti
+langkah-langkah berikut :</p><ol><li>Tekan tombol Alt+F2 pada keyboard, lalu ketikkan “gconf-editor” dan tekan
+tombol Enter.</li><li>Pada bagian kiri jendela “Editor Konfigurasi”, klik apps &gt; Nautilus &gt;
+Desktop.</li><li>Kemudian pada bagian kanan, beri tanda centang pada
+“computer_icon_visible”, “home_icon_visible”, “network_icon_visible”, dan
+“trash_icon_visible”.
+4.Tidak lama kemudian, keempat ikon yang Anda inginkan akan muncul di desktop.
+Last modified on 07/23/2009 02:55:03 PM</li></ol><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="attachments-4"></a>Attachments (4)<a aria-hidden="true" tabindex="-1" class="hash-link" href="#attachments-4" title="Direct link to heading">#</a></h4><div class="mdxCodeBlock_1XEh"><div class="codeBlockContent_1u-d"><button type="button" aria-label="Copy code to clipboard" class="copyButton_10dd">Copy</button><div tabindex="0" class="prism-code language-undefined codeBlock_3iAC"><div class="codeBlockLines_b7E3" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">* blankon-booting-verbose.png​ (16.3 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* gdmsetup.png​ (84.7 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* gedit-lontara-text.png​ (24.9 KB) - added by wirama 8 years ago.</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">* grub-menu.png​ (4.8 KB) - added by wirama 8 years ago.</span></div></div></div></div></div></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/BlankOn/wiki/edit/master/Wiki/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/Panduan5Bab15.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#proses-booting" class="table-of-contents__link">Proses Booting</a></li><li><a href="#piranti-keras" class="table-of-contents__link">Piranti Keras</a></li><li><a href="#piranti-lunak" class="table-of-contents__link">Piranti Lunak</a></li><li><a href="#desktop" class="table-of-contents__link">Desktop</a></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="text--center"><div class="margin-bottom--sm"><a href="https://blankonlinux.or.id" target="_blank" rel="noopener noreferrer" class="footerLogoLink_1zJy"><img class="footer__logo" alt="BlankOn Linux" src="/img/logo-hitam.png"></a></div><div>Copyright © 2020 BlankOn Linux. Built with Docusaurus.</div></div></div></footer></div>
+<script src="/styles.d346b3b4.js"></script>
+<script src="/runtime~main.5d9df274.js"></script>
+<script src="/main.4590b193.js"></script>
+<script src="/1.08d9ae6c.js"></script>
+<script src="/5.8ee82b6a.js"></script>
+<script src="/966.5fd1a52e.js"></script>
+<script src="/935f2afb.345afce5.js"></script>
+<script src="/17896441.aafa42f8.js"></script>
+<script src="/699c1497.996277a2.js"></script>
+</body>
+</html>
