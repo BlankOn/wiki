@@ -1,3 +1,5 @@
+Kadaluarsa. Halaman pengganti: https://github.com/BlankOn/wiki/blob/master/TimPengembang/Infrastruktur/DaftarMesin.md
+
 # Peta Mesin BlankOn
 ### Yeyen:
     * diupgrade dulu
