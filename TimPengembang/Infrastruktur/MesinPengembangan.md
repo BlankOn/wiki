@@ -1,3 +1,6 @@
+Kadaluarsa. Halaman pengganti: https://github.com/BlankOn/wiki/blob/master/TimPengembang/Infrastruktur/DaftarMesin.md
+
+
 # Mesin Pengembangan Pengembangan BlankOn
 Data per 10/23/2012 09:00:22 AM
 ## Yeyen
