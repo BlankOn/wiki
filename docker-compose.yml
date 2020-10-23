@@ -3,7 +3,7 @@ services:
   docusaurus:
     image: node:12-alpine
     working_dir: /app
-    command: ["/usr/local/bin/npm", "start"]
+    command: ["/usr/local/bin/yarn", "start"]
     volumes:
       - ./docusaurus:/app
       - ./:/app/Wiki
