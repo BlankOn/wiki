@@ -1,3 +1,7 @@
+---
+title: Pattimura
+---
+
 # Catatan Rilis BlankOn 7.0 Pattimura
 
 BlankOn 7.0 Pattimura merupakan versi terbaru distribusi BlankOn. Distribusi ini dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Tim
@@ -138,7 +142,3 @@ Last modified on 08/19/2011 11:40:03 AM
 
 
 ---
- 
-
-
-

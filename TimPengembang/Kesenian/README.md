@@ -1,3 +1,7 @@
+---
+title: Kesenian
+---
+
 # Kesenian
 
 Halaman ini lawas dan mungkin tidak berlaku lagi. Tim Artwork sekarang disebut Tim Kesenian.
@@ -110,4 +114,3 @@ adanya penyesuaian cara kerja dengan menggunakan dev.
       tersebut hanya dan harusnya berisi link saja!
 
 Last modified on 08/04/2015 11:28:00 AM
-

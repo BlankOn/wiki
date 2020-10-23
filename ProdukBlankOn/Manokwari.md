@@ -16,7 +16,7 @@ Unduh menggunakan git :
 
 `$ git clone https://github.com/BlankOn/manokwari.git`
 
-atau unduh berkas [tarball](https://github.com/BlankOn/manokwari/zipball/master). 
+atau unduh berkas [tarball](https://github.com/BlankOn/manokwari/zipball/master).
 
 Pasang beberapa paket ketergantungan pada distribusi BlankOn/Debian untuk melakukan kompilasi:
 
@@ -64,7 +64,7 @@ Anda juga dapat mengintip repositori COPR Manokwari di laman copr.fedorainfraclo
 ### Pemasangan di Arch Linux
 
 Untuk mencoba manokwari di ArchLinux, sekarang Anda cukup menggunakan yaourt untuk memasangnya, dengan perintah:
-	
+
 ```sh
 $ yaourt -S base-devel
 $ yaourt -S manokwari

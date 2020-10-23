@@ -1,3 +1,7 @@
+---
+title: Uluwatu
+---
+
 # BlankOn XI Uluwatu
 ![](https://raw.githubusercontent.com/winardiaris/blankon-uluwatu-kesenian/master/gnome-control-center/winardiaris/BlankonLogoBlank.png)
 
