@@ -50,7 +50,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'Wiki',
-          editUrl: 'https://github.com/BlankOn/wiki/edit/master',
+          editUrl: 'https://github.com/BlankOn/wiki/edit/master/',
           routeBasePath: '/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,

@@ -55,6 +55,10 @@ function DocItem(props) {
   const metaImageUrl = useBaseUrl(metaImage, {
     absolute: true,
   });
+
+  const fixEditUrl = url => url.replace('https://github.com/BlankOn/wiki/edit/master/Wiki', 'https://github.com/BlankOn/wiki/edit/master')
+  const generateHistoryUrl = url => url.replace('https://github.com/BlankOn/wiki/edit/master/Wiki', 'https://github.com/BlankOn/wiki/commits/master')
+
   return (
     <>
       <Head>
@@ -106,26 +110,46 @@ function DocItem(props) {
                   <div className="row">
                     <div className="col">
                       {editUrl && (
-                        <a
-                          href={editUrl}
-                          target="_blank"
-                          rel="noreferrer noopener">
-                          <svg
-                            fill="currentColor"
-                            height="1.2em"
-                            width="1.2em"
-                            preserveAspectRatio="xMidYMid meet"
-                            viewBox="0 0 40 40"
-                            style={{
-                              marginRight: '0.3em',
-                              verticalAlign: 'sub',
-                            }}>
-                            <g>
-                              <path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z" />
-                            </g>
-                          </svg>
-                          Edit this page
-                        </a>
+                        <div>
+                          <a
+                            href={generateHistoryUrl(editUrl)}
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            <svg
+                              fill="currentColor"
+                              height="1.2em"
+                              width="1.2em"
+                              preserveAspectRatio="xMidYMid meet"
+                              viewBox="0 0 16 16"
+                              style={{
+                                marginRight: '0.3em',
+                                verticalAlign: 'sub',
+                              }}>
+                                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            </svg>
+                            Page history
+                          </a>,&nbsp;&nbsp;&nbsp;
+                          <a
+                            href={fixEditUrl(editUrl)}
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            <svg
+                              fill="currentColor"
+                              height="1.2em"
+                              width="1.2em"
+                              preserveAspectRatio="xMidYMid meet"
+                              viewBox="0 0 40 40"
+                              style={{
+                                marginRight: '0.3em',
+                                verticalAlign: 'sub',
+                              }}>
+                              <g>
+                                <path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z" />
+                              </g>
+                            </svg>
+                            Edit this page
+                          </a>
+                        </div>
                       )}
                     </div>
                     {(lastUpdatedAt || lastUpdatedBy) && (
