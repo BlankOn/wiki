@@ -1,8 +1,8 @@
 # Tim Pengembang BlankOn
 
 Pada awal pengembangan, Tim Pengembang BlankOn dibagi menjadi dua tim:
-    * [Tim Rilis](#tim-rilis-blankon)
-    * [Tim Proyek](#tim-proyek-blankon)
+1. [Tim Rilis](#tim-rilis-blankon)
+2. [Tim Proyek](#tim-proyek-blankon)
 
 Di dalam kedua tim itu ada tim-tim kecil yang bekerja sesuai tugasnya. Halaman ini menjelaskan tim apa saja yang ada dan tugas-tugasnya.
 [/raw-attachment/wiki/TimBlankOn/tim-blankon.png]
