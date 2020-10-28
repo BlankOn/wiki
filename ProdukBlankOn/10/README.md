@@ -1,3 +1,7 @@
+---
+title: Tambora
+---
+
 ## Catatan Rilis
 # BLANKON TAMBORA MENDUNIA
 

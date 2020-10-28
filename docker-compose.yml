@@ -1,0 +1,15 @@
+version: "3"
+services:
+  docusaurus:
+    image: node:12-alpine
+    working_dir: /app
+    command: ["/usr/local/bin/yarn", "start"]
+    volumes:
+      - ./docusaurus:/app
+      - ./:/app/Wiki
+      - ./Assets:/app/static/Assets
+      - empty:/app/Wiki/docusaurus
+    ports:
+      - 3000:3000
+volumes:
+  empty:

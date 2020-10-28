@@ -1,3 +1,7 @@
+---
+title: Ombilin
+---
+
 # Catatan Rilis BlankOn 6.0 (Ombilin)
 
 BlankOn 6.0 (Ombilin) merupakan versi terbaru distribusi BlankOn. Distribusi ini dikembangkan oleh Yasasan Penggerak Linux Indonesia (YPLI) dan Tim
@@ -167,7 +171,3 @@ Last modified on 07/05/2010 03:53:19 AM
 
 
 ---
- 
-
-
-

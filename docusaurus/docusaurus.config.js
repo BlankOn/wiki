@@ -8,6 +8,13 @@ module.exports = {
   organizationName: 'BlankOn', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: '288fe504a4624b981c1975ce5c5f0f64',
+      indexName: 'blankonlinux',
+      contextualSearch: true,
+      searchParameters: {},
+    },
+    hideableSidebar: true,
     navbar: {
       title: 'BlankOn',
       hideOnScroll: true,
@@ -27,7 +34,7 @@ module.exports = {
           label: 'Produk'
         },
         {
-          href: 'https://github.com/BlankOn/wiki',
+          href: 'https://github.com/BlankOn',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'BlankOn Wiki',
@@ -50,7 +57,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'Wiki',
-          editUrl: 'https://github.com/BlankOn/wiki/edit/master',
+          editUrl: 'https://github.com/BlankOn/wiki/edit/master/',
           routeBasePath: '/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,

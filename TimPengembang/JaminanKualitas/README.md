@@ -1,3 +1,7 @@
+---
+title: Jaminan Kualitas
+---
+
 # Jaminan Kualitas
 Merupakan suatu usaha untuk menjamin setiap aspek pada proyek BlankOn berjalan
 mulus sesuai dengan standar, spesifikasi, dan kebutuhan pengguna.
@@ -53,5 +57,3 @@ KategoriJaminanKualitas
 Last_modified 7 weeks ago Last modified on 03/18/2017 01:50:19 PM
 
 ---
-
- 
