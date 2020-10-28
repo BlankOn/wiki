@@ -8,22 +8,22 @@
   + Umum
     Menggunakan basis Ubuntu 8.04 dengan ribuan perangkat lunak yang tersedia pada repositori dalam jaringan.
     Linux kernel 2.6.24, GNOME 2.22, GIMP, Inkscape, Gnucash dan masih banyak lagi.
-    Antarmuka pengguna yang menggunakan Bahasa Indonesia. * Dukungan multimedia yang lebih baik, Anda dapat langsung memutar mp3 dan DVD sesaat selesai menginstal BlankOn 3.0. 
+    Antarmuka pengguna yang menggunakan Bahasa Indonesia. * Dukungan multimedia yang lebih baik, Anda dapat langsung memutar mp3 dan DVD sesaat selesai menginstal BlankOn 3.0.
 
-    Tema dan tampilan grafis yang khas Indonesia. 
+    Tema dan tampilan grafis yang khas Indonesia.
 
 Versi Standar
 
     OpenOffice.org 2.4
     Perambah web Firefox 3
-    Program surat elektronik Evolution 
+    Program surat elektronik Evolution
 
 Versi Minimalis
 
     Abiword dan Gnumeric untuk aplikasi perkantoran
     Perambah web Epiphany
     Program surat elektronik Thunderbird
-    Program perambah Wikipedia tanpa jaringan Daluang (tahap ujicoba). 
+    Program perambah Wikipedia tanpa jaringan Daluang (tahap ujicoba).
 
 Tangkapan Layar BlankOn 3.0
 
@@ -42,11 +42,7 @@ Upgrade dari BlankOn 2.0 (Konde)
 Untuk memigrasikan sistem dari BlankOn 2.0 (Konde) ke BlankOn 3.0, pengguna dapat melakukan langkah-langkah sebagaimana dijelaskan pada halaman Konde ke Lontara.
 Informasi lain berkenaan dengan instalasi dan peningkatan versi (upgrade) dari sistem lama
 
-Silakan baca panduan upgrade​Ubuntu 8.04 Hardy Heron. 
+Silakan baca panduan upgrade​Ubuntu 8.04 Hardy Heron.
 
 
 ---
- 
-
-
-

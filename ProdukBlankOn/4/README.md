@@ -2,16 +2,16 @@
 
 * Nama Kode: **Meuligoe**
   Cara baca: maa ligo
-  attachment:meuligoe.ogg​ 
+  attachment:meuligoe.ogg​
 
 * Versi: 4
 * Upstream: 8.10 Intrepid Ibex
 * Budaya yang hendak diangkat: Aceh
-* Konten Khas: 
+* Konten Khas:
   + Gambar latar desktop
-  + Suara 
+  + Suara
   + Musik/lagu menggantikan LaQuena
-  + Templet OOo 
+  + Templet OOo
 
 Last modified on 01/27/2013 04:48:02 PM
 
@@ -29,19 +29,15 @@ Last modified on 01/27/2013 04:48:02 PM
 * Rilis: RameTux
 * Tester: princeofgiri
 * ISO LiveCD: mdamt
-* ISO Alternate: imtheface 
+* ISO Alternate: imtheface
 
 ### Proses
 
 * Halaman ini paling lambat disepakati di milis oleh para penanggung jawab di atas seminggu sebelum Rilis
-* Perbaikan bug harus ada di pabrik paket minimal seminggu sebelum Rilis 
+* Perbaikan bug harus ada di pabrik paket minimal seminggu sebelum Rilis
 
 
 
 
 
 ---
- 
-
-
-

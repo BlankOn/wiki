@@ -38,7 +38,3 @@ Dirilis Tanggal 27 Oktober 2011
 
 
 ---
- 
-
-
-

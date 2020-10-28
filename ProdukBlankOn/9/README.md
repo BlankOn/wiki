@@ -10,7 +10,7 @@ Manokwari adalah destop yang dikembangkan oleh pengembang BlankOn dengan teknolo
 Destop dinamis yang sesuai dengan perubahan waktu menjadikan tampilan BlankOn Suroboyo lebih segar dan tidak membosankan.
 
 ## Aplikasi Perkantoran Terbaru
-BlankOn sudah menyediakan aplikasi perkantoran terbaru yang lengkap dan handal, mendukung berbagai format berkas perkantoran populer. 
+BlankOn sudah menyediakan aplikasi perkantoran terbaru yang lengkap dan handal, mendukung berbagai format berkas perkantoran populer.
 Mempunyai format dokumen terbuka yang dengan ukuran berkas jauh lebih kecil serta lebih aman sesuai standar dokumen nasional maupun internasional.
 
 ## Dukungan Multimedia
@@ -107,7 +107,3 @@ Mentor : Rahman Yusri Aftian
 
 
 ---
- 
-
-
-

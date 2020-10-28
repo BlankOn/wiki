@@ -7,7 +7,7 @@ Tim yang bertugas membuat dan merawat paket - paket yang ada pada distribusi Bla
 #### Tim Pemaket bertugas:
 - Membuat daftar paket yang akan masuk bibit paket.
 - Membuat dan mengelola paket tersebut di bzr.
-- Mendaftarkan paket ke pabrik paket. 
+- Mendaftarkan paket ke pabrik paket.
 
 ### Panduan Pemula
 
@@ -17,7 +17,7 @@ Untuk membantu mulai belajar membuat paket debian, tulisan - tulisan dibawah ini
 - [Pengenalan Pemaketan Debian](http://dev.blankonlinux.or.id/wiki/Pemaket/MembuatPaketDebian)
 - [Buku Panduan Pemaketan](http://dev.blankonlinux.or.id/attachment/wiki/Pemaket/Panduan-Pemaketan-BlankOn.2.pdf)
 - Manajemen Pemaketan BlankOn
-- [Pbuilder Multi ARCH](http://dev.blankon.id/wiki/Pemaket/PanduanPbuilderMultiARCH) 
+- [Pbuilder Multi ARCH](http://dev.blankon.id/wiki/Pemaket/PanduanPbuilderMultiARCH)
 
 ### Referensi Pemaket
 - [Debian Policy Manual](http://www.debian.org/doc/debian-policy)
@@ -30,7 +30,3 @@ Untuk membantu mulai belajar membuat paket debian, tulisan - tulisan dibawah ini
 
 
 ---
- 
-
-
-

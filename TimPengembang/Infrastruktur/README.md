@@ -54,9 +54,4 @@ Tim ini cukup memiliki akses sudo.
 ![](/Assets/Images/Infrastruktur.png)
 
 #### Diskusi
-
 Ada pertanyaan? komentar? Tulis di sini.
-
-
-
----
