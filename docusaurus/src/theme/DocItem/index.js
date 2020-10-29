@@ -26,12 +26,12 @@ function DocItem(props) {
   const {metadata} = DocContent;
   const {
     description,
-    title,
     permalink,
     editUrl,
     lastUpdatedAt,
     lastUpdatedBy,
   } = metadata;
+  let {title} = metadata
   const {
     frontMatter: {
       image: metaImage,
@@ -47,6 +47,11 @@ function DocItem(props) {
   const version = useActiveVersion(pluginId); // If site is not versioned or only one version is included
   // we don't show the version badge
   // See https://github.com/facebook/docusaurus/issues/3362
+
+  if (title === 'README') {
+    const splitPermalink = permalink.split('/')
+    title = splitPermalink[splitPermalink.length - 2]
+  }
 
   const showVersionBadge = versions.length > 1;
   const metaTitle = title

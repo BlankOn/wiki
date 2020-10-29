@@ -125,9 +125,8 @@ function DocSidebarItemLink({
   const isActive = isActiveSidebarItem(item, activePath);
   if (label === 'README') {
     const splitHref = href.split('/')
-    label = splitHref[splitHref.length-2]
+    label = splitHref[splitHref.length - 2]
   }
-  console.log(item)
   return (
     <li className="menu__list-item" key={label}>
       <Link

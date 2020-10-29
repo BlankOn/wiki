@@ -1,4 +1,8 @@
 docusaurus
-.git
 Assets
+raw-attachment
 node_modules
+.git
+.gitignore
+.idea
+.travis.yml
