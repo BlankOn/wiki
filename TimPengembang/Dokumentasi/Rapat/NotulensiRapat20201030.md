@@ -71,7 +71,7 @@ https://github.com/orgs/BlankOn/projects/3
 
 # Catatan Rapat susulan dari Tim Riset v Infrastruktur
 
--Mesin 
+- Mesin 
  - alynne 
    - butuh link lokal loss utk sync ke rani
    - untuk pbuilder (karena spek tinggi)
