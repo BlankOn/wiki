@@ -70,3 +70,23 @@ https://github.com/orgs/BlankOn/projects/3
 
 
 # Catatan Rapat susulan dari Tim Riset v Infrastruktur
+
+-Mesin 
+ - alynne 
+   - butuh link lokal loss utk sync ke rani
+   - untuk pbuilder (karena spek tinggi)
+   - untuk jk.boi (jaminan kualitas)
+ - rani
+   - repo lama | url arsip.boi/uluwatu
+   - repo verbeek | url arsip.boi/verbeek
+   - repo verbeek dev | url arsip.dev.boi/verbeek
+   - pbuilder - slave
+   - irgsh - chief - ( pemaket - rani - alynne)
+   - status hardisk ( cek sisa port hw dll ) 
+  - waljinah
+    - aktifkan domain wajah.blankon.id dan waljinah.boi
+    - home , aktifkan nodejs-static , docker 
+    - serambi, membuat tools , atur ulang template, koordinasi dengan tim kesenian , gunakan docker
+  - Agenda Acara terdekat 
+    - workshop refresh materi docker bersama tim riset dan infra pertengahan november, menunggu waktu pak estu 
+    - workshop materi envoy , menunggu pak piko
