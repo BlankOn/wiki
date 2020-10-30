@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.65">
 <link rel="search" type="application/opensearchdescription+xml" title="BlankOn Linux" href="/opensearch.xml"><title data-react-helmet="true">PengantarGit | BlankOn Linux</title><meta data-react-helmet="true" name="docsearch:version" content="current,latest"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="PengantarGit | BlankOn Linux"><meta data-react-helmet="true" name="description" content="Apa Itu Git ?"><meta data-react-helmet="true" property="og:description" content="Apa Itu Git ?"><meta data-react-helmet="true" property="og:url" content="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Kelas/PengantarGit"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin="anonymous"><link data-react-helmet="true" rel="canonical" href="https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Kelas/PengantarGit"><link rel="stylesheet" href="/styles.7260b2da.css">
-<link rel="preload" href="/styles.dcbe222e.js" as="script">
-<link rel="preload" href="/runtime~main.7cd35ae4.js" as="script">
-<link rel="preload" href="/main.aeed4b22.js" as="script">
-<link rel="preload" href="/1.7c4d405e.js" as="script">
-<link rel="preload" href="/2.b3673725.js" as="script">
-<link rel="preload" href="/967.7f40da35.js" as="script">
-<link rel="preload" href="/970.a318286d.js" as="script">
+<link rel="preload" href="/styles.7ca3039b.js" as="script">
+<link rel="preload" href="/runtime~main.7be2e1e7.js" as="script">
+<link rel="preload" href="/main.8633c760.js" as="script">
+<link rel="preload" href="/1.0d04379d.js" as="script">
+<link rel="preload" href="/2.0b1c9c3c.js" as="script">
+<link rel="preload" href="/968.77c775f2.js" as="script">
+<link rel="preload" href="/971.9d66741f.js" as="script">
 <link rel="preload" href="/935f2afb.b3d82976.js" as="script">
-<link rel="preload" href="/17896441.2730f3b9.js" as="script">
-<link rel="preload" href="/a74b39a0.b4186eee.js" as="script">
+<link rel="preload" href="/17896441.09396c57.js" as="script">
+<link rel="preload" href="/a74b39a0.8e6a8ed7.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -22,15 +22,15 @@
 untuk melihat status branch:</p><p><strong>git status</strong></p><p>6.Log </p><p>untuk melihat status perubahan kode sumber:</p><p><strong>git log</strong></p><p>7.Branch </p><p> pencabangan versi kode dengan tujuan tertentu, misalnya ada 10 pengembang, masing-masing mengerjakan fitur berbeda maka masing-masing bisa buat branch sendiri.</p><p><strong>git branch</strong></p><p><strong>git show-branch</strong></p><p><strong>git checkout -b nama_cabang cabang_asal</strong></p><p><strong>git checkout -b tambah_kecepatan master</strong></p><p>tambah kecepatan mengikuti master, cabang_asal dapat berupa cabang atau tag
 untuk menghapus branch, lakukan perintah berikut:</p><p><strong>git branch -D nama_branch</strong></p><p>8.Commit </p><p>commit perubahan di branch tertentu: </p><p><strong>git commit -m ¨pesan dan kesan</strong>¨
 <strong>git commit -a -s</strong></p><ul><li>mengulangi commit terakhir setelah menambah fitur baru: </li></ul><p><strong>git commit –amend</strong></p><ul><li>mereset commit tapi mempertahankan perubahan: </li></ul><p><strong>git reset –soft HEAD</strong></p><p>mereset commit tanpa mempertahankan perubahan: </p><p><strong>git reset –hard HEAD</strong></p><p>9.Patch </p><ul><li>menghasilkan patch dari tiap commit: </li></ul><p><strong>git format-patch HEAD &lt;- satu patch perbedaan terakhir</strong></p><p><strong>git format-patch HEAD~n &lt;- n perubahan dari HEAD</strong></p><p>10.Melakukan Patch </p><p><strong>git apply file-anuh-menganu-si-anuh.patch</strong></p><p>11.Tag </p><ul><li>menandai commit: </li></ul><p><strong>git tag versi commit_id</strong></p><p>Contoh:</p><p>git tag rc01 3bba5efb654b885a6be2735a9e635aeaf2714381</p><p>berarti commit 3bba5efb654b885a6be2735a9e635aeaf2714381 ditandai dengan rc01</p><p><strong>git tag versi commit_id</strong></p><p>12.Merge </p><ul><li>menggabungkan dari satu branch dengan branch sekarang:</li></ul><p><strong>git checkout master</strong></p><p><strong>git merge tambah_kecepatan &lt;- gabungkan perubahan di tambah_kecepatan ke master</strong></p><p>13.Rilis </p><p><strong>git archive –format=tar –prefix=NgeGitting/? HEAD | gzip &gt; ../rilis/anuh.tar.gz</strong></p><p>14.Pull </p><ul><li><p>mengambil lalu menggabungkan perubahan yang terjadi di remote origin [.git/gitconfig]</p><p><strong>git pull</strong></p></li></ul><p>15.Push </p><ul><li>mengirimkan perubahan ke master</li></ul><p><strong>git push origin master</strong></p><p>16.Clone Bare </p><p>Anda butuh .git?</p><p>git clone –bare REPO OUTPUT.git git clone –bare NgeGitting? NgeGitting?.git</p><p>Sumber:</p><p>1.​<a href="http://ruckuus.wordpress.com/2010/11/12/cara-murah-memakai-git/" target="_blank" rel="noopener noreferrer">http://ruckuus.wordpress.com/2010/11/12/cara-murah-memakai-git/</a> </p><p>2.​<a href="http://110.139.14.100/aftian/irc/BlankOn/%23blankon.20101115.log" target="_blank" rel="noopener noreferrer">http://110.139.14.100/aftian/irc/BlankOn/%23blankon.20101115.log</a> </p><p>3.​<a href="http://ha.hn.web.id/2010/11/16/belajar-git/" target="_blank" rel="noopener noreferrer">http://ha.hn.web.id/2010/11/16/belajar-git/</a> </p><p>4.​<a href="http://id.wikipedia.org/wiki/Git" target="_blank" rel="noopener noreferrer">http://id.wikipedia.org/wiki/Git</a> </p></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><div><a href="https://github.com/BlankOn/wiki/commits/master/TimPengembang/Dokumentasi/Kelas/PengantarGit.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16" style="margin-right:0.3em;vertical-align:sub"><path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"></path></svg>Page history</a>,   <a href="https://github.com/BlankOn/wiki/edit/master/TimPengembang/Dokumentasi/Kelas/PengantarGit.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_"></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="text--center"><div class="margin-bottom--sm"><a href="https://blankonlinux.or.id" target="_blank" rel="noopener noreferrer" class="footerLogoLink_1zJy"><img class="footer__logo" alt="BlankOn Linux" src="/img/logo-hitam.png"></a></div><div>Copyright © 2020 BlankOn Linux. Built with Docusaurus.</div></div></div></footer></div>
-<script src="/styles.dcbe222e.js"></script>
-<script src="/runtime~main.7cd35ae4.js"></script>
-<script src="/main.aeed4b22.js"></script>
-<script src="/1.7c4d405e.js"></script>
-<script src="/2.b3673725.js"></script>
-<script src="/967.7f40da35.js"></script>
-<script src="/970.a318286d.js"></script>
+<script src="/styles.7ca3039b.js"></script>
+<script src="/runtime~main.7be2e1e7.js"></script>
+<script src="/main.8633c760.js"></script>
+<script src="/1.0d04379d.js"></script>
+<script src="/2.0b1c9c3c.js"></script>
+<script src="/968.77c775f2.js"></script>
+<script src="/971.9d66741f.js"></script>
 <script src="/935f2afb.b3d82976.js"></script>
-<script src="/17896441.2730f3b9.js"></script>
-<script src="/a74b39a0.b4186eee.js"></script>
+<script src="/17896441.09396c57.js"></script>
+<script src="/a74b39a0.8e6a8ed7.js"></script>
 </body>
 </html>
