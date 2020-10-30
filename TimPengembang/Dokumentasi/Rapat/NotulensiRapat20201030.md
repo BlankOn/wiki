@@ -17,9 +17,9 @@ Lokasi rapat: Google Meet
     - Pemaketan dasar dari sumber kode -> *.deb
 - Live-build dari repo verbeek belum mulus, ETA pertengahan november
 
-### Pekerjaan tambahan
+### Pekerjaan lain-lain
 
-https://github.com/orgs/BlankOn/projects/3
+https://github.com/BlankOn/Verbeek/projects/1
 
 
 ## Ganjalan/kendala tim
