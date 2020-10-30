@@ -67,3 +67,6 @@ https://github.com/orgs/BlankOn/projects/3
 
 ### Humas
 - Nyusul di grup
+
+
+# Catatan Rapat susulan dari Tim Riset v Infrastruktur
