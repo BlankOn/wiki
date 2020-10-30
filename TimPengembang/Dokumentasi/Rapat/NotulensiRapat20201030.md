@@ -21,13 +21,12 @@ Lokasi rapat: Google Meet
 
 https://github.com/orgs/BlankOn/projects/3
 
-- Kunjungan waljinah lagi terkait isu susulan akses terkunci
-
 
 ## Ganjalan/kendala tim
 
 ### Pemaket
 - SDM-nya belum jelas/belum dicolek lagi
+- Perlu kelas pemaketan dasar lagi: https://github.com/BlankOn/Verbeek/issues/84
 
 ### Kesenian
 - 3 orang siap (termasuk koor)
@@ -43,8 +42,10 @@ https://github.com/orgs/BlankOn/projects/3
   - user deployment ( no sudo ), punya akses docker
   - ada docker-compose.yaml di home user tsb
   - docker-compose.yaml-nya taruh di repo (boleh di github, boleh di gitlab)
-- SMTP terkendala reputasi IP, sedang diupayakan ganti IP
+- SMTP terkendala reputasi IP, sedang diupayakan ganti IP: https://github.com/BlankOn/Verbeek/issues/79
 - Perlu upayakan 500k per tahun untuk dapat jatah di data utama kembali, perlu colek Humas
+- Kunjungan waljinah lagi terkait isu susulan akses terkunci: https://github.com/BlankOn/Verbeek/issues/74
+- Kelas envoy untuk modernisasi infrastruktur: https://github.com/BlankOn/Verbeek/issues/85
 
 ### JK
 - 2 orang termasuk koordinator
@@ -55,7 +56,7 @@ https://github.com/orgs/BlankOn/projects/3
 - 1 orang (koor)
 - Rapikan
   - patokan yang mau dirapiin itu apa (?): missing link (bisa lihat dari build log docusaurus)
-- Hidupkan dan pelihara lagi panduan.blankonlinux.or.id (laporan susulan ke Fans)
+- Hidupkan dan pelihara lagi panduan.blankonlinux.or.id (laporan susulan ke Fans): https://github.com/BlankOn/Verbeek/issues/60
 - Cara bekerja dengan wiki: fokus ke github, sunting langsung di antar muka web
   - Tanyain komitmen, coret-coret
   - Berikan akses penuh ke wiki buat yang masih komitmen
@@ -63,7 +64,7 @@ https://github.com/orgs/BlankOn/projects/3
 ### Riset
 - 2 orang (koor)
 - Yang bisa bantu ketik2 (?): Pak Ervin
-- Kelas pengenalan cara kerja irgsh dari perspektif juru kode
+- Kelas pengenalan cara kerja irgsh dari perspektif juru kode: https://github.com/BlankOn/Verbeek/issues/86
 
 ### Humas
 - Nyusul di grup
