@@ -1,7 +1,3 @@
----
-title: Produk BlankOn
----
-
 # Produk BlankOn
 
 ## Distribusi BlankOn Linux

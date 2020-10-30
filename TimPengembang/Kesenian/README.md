@@ -1,7 +1,3 @@
----
-title: Kesenian
----
-
 # Kesenian
 
 Halaman ini lawas dan mungkin tidak berlaku lagi. Tim Artwork sekarang disebut Tim Kesenian.

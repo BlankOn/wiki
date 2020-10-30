@@ -1,7 +1,3 @@
----
-title: Humas
----
-
 # Humas BlankOn
 Hubungan Masyarakat a.k.a Public Relation adalah strategi proses komunikasi bertujuan untuk membangun citra produk dan komunikasi yang saling menguntungkan antara lembaga dengan masyarakat.
 

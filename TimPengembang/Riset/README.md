@@ -1,7 +1,3 @@
----
-title: Riset
----
-
 # Tim Riset BlankOn
 
 ## Jalur I: BlankOn Installer / Parto Edi

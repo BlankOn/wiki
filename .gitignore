@@ -7,3 +7,7 @@ Gemfile.lock
 build
 docusaurus/Wiki
 docusaurus/static/Assets
+docusaurus/static/raw-attachment
+
+# Local Netlify folder
+.netlify

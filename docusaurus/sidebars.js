@@ -10,8 +10,14 @@ module.exports = {
   timPengembang: [
     'TimPengembang/TimBlankOn',
     {
-      "Tim Rilis": [
-        'TimPengembang/Pemaket/README',
+      type: 'category',
+      label: 'Tim Rilis',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'TimPengembang/Pemaket/README'
+        },
         'TimPengembang/Kesenian/README',
         'TimPengembang/JaminanKualitas/README',
         'TimPengembang/Dokumentasi/README',
@@ -19,7 +25,10 @@ module.exports = {
       ]
     },
     {
-      "Tim Proyek": [
+      type: 'category',
+      label: 'Tim Proyek',
+      collapsed: false,
+      items: [
         'TimPengembang/Humas/README',
         'TimPengembang/Infrastruktur/README',
         'TimPengembang/Riset/README',
@@ -29,7 +38,10 @@ module.exports = {
   produkBlankOn: [
     "ProdukBlankOn/README",
     {
-      "Distribusi BlankOn Linux": [
+      type: 'category',
+      label: 'Distribusi BlankOn Linux',
+      collapsed: false,
+      items: [
         "ProdukBlankOn/1/README",
         "ProdukBlankOn/2/README",
         "ProdukBlankOn/3/README",

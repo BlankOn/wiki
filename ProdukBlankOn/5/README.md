@@ -1,7 +1,3 @@
----
-title: Nanggar
----
-
 # Catatan Rilis BlankOn 5.0 Nanggar
 
   * Nama Kode	: Nanggar

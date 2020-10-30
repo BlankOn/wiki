@@ -1,7 +1,3 @@
----
-title: Lontara
----
-
 # BlankOn Linux 3 Konde
 * Kode Nama: Lontara
   Lontara Diambil dari nama aksara Bugis-Makassar.

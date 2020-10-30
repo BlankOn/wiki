@@ -1,7 +1,3 @@
----
-title: Infrastruktur
----
-
 # Tentang Tim Infrastruktur
 
 Tim Infrastruktur dikoordinasikan oleh seorang koordinator tim Infrastruktur, tim ini bertanggung jawab mengelola serta mengembangkan infrastruktur yang digunakan dalam pengembangan proyek BlankOn.

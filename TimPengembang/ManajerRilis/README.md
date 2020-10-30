@@ -1,7 +1,3 @@
----
-title: Manajer Rilis
----
-
 # Manajer Rilis
 
 ## Tugas dan Tanggung Jawab

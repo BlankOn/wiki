@@ -1,7 +1,3 @@
----
-title: Meuligoe
----
-
 # BlankOn 4
 
 * Nama Kode: **Meuligoe**
