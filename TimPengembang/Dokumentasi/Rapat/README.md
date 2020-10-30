@@ -1,9 +1,10 @@
 # Log Rapat BlankOn
 Rapat-rapat BlankOn biasanya dilakukan secara daring dilakukan di:
   + IRC #BlankOn. Adapun log atau catatan rapat tersimpan di http://irclog.blankon.in/blankon/
-  + Grup-grup Telegram
+  + Grup-grup pengembang di Telegram
+  + Google Meet
 
-Adapun notulen dan kesimpulan rapat biasanya dipublikasikan di milis pengembang.
+Adapun notulen dan kesimpulan rapat, selain dicatat di sini biasanya dipublikasikan di milis pengembang.
 
 ## 2007
 Rapat TIM DOKUMENTASI: Senin 2007-09-04T07:00:00Z - #blankon @ irc.freenode.net
@@ -33,5 +34,8 @@ Rapat TIM DOKUMENTASI: Senin 2007-09-04T07:00:00Z - #blankon @ irc.freenode.net
 + [Notulensi Rapat  Laporan Perkembangan Rilis Uluwatu 22 Februari 2017](/Rapat/NotulensiRapat22022017LaporanUluwatu.md)
 + [Notulensi Rapat  Pembekalan Tim Dokumentasi 26 Februari 2017](/Rapat/NotulensiRapat26022017PembekalanTimDokumentasiUluwatu.md)
 + [Notulensi Rapat  1 Maret 2017](/Rapat/NotulensiRapat01032017.md)
+
+## 2020
++ [Notulensi Rapat Persiapan Rilis Verbeek](/Rapat/NotulensiRapat20201030.md)
   
 
