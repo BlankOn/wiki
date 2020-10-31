@@ -1,6 +1,8 @@
 # Domain dan layanan yang ada pada proyek BlankOn
 
-Jika ingin menyunting daftar ini, gunakan format `- http://domain (namamesin) - Deskripsi peran/fungsi`
+Panduan menyunting:
+- Gunakan format `- http://domain (namamesin) - Deskripsi peran/fungsi`
+- Apit dengan karakter `~~` jika layanan tersebut sudah tidak digunakan lagi.
 
 ## A
 
