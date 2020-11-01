@@ -168,3 +168,11 @@ ssb   rsa4096 2019-01-25 [S] [expires: 2024-01-24]
 ```
 
 Simbol # setelah `sec` menandakan tidak ada kunci privat master di `gnupg`.
+
+## Memperpanjang masa hidup kunci
+
+TO BE WRITTEN
+
+## Referensi
+
+- https://wiki.debian.org/Subkeys
