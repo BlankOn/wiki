@@ -8,8 +8,12 @@ Paket keyring yang diterbitkan ada 2 jenis, yaitu:
 
 ## blankon-keyring
 
+https://github.com/blankon-packages/blankon-keyring
+
 Wajib. Keyring yang dipaketkan ke paket ini adalah keyring dari kunci turunan yang digunakan untuk menandatangani lumbung. Paket ini perlu disiapkan setelah lumbung dibuat dan disuntikkan paling awal ke lumbung.
 
 ## blankon-role-keyring
+
+https://github.com/blankon-packages/blankon-role-keyring
 
 Tidak wajib. Diterbitkan untuk mengadaptasi keyring baru (perlu penjelasan lebih lanjut)
