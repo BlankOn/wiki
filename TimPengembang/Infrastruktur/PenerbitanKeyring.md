@@ -2,7 +2,7 @@
 
 Keyring mengizinkan penyimpanan kunci (biasanya kunci publik) dalam format yang cukup portabel. Keyring dapat disuntikkan ke sistem operasi dengan tujuan sistem operasi nantinya akan mempercayai (trust) benda-benda yang telah ditandatangani oleh kunci privat pasangannya (misalnya paket atau berkas `Release` dari lumbung).
 
-Mengenai penerbitan kunci untuk keyring, lihat https://github.com/BlankOn/wiki/blob/master/TimPengembang/Infrastruktur/PenerbitanKunciLumbung.
+Mengenai penerbitan kunci untuk keyring, lihat https://github.com/BlankOn/wiki/blob/master/TimPengembang/Infrastruktur/PenerbitanKunciLumbung.md .
 
 Paket keyring yang diterbitkan ada 2 jenis, yaitu:
 
