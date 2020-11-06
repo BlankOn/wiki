@@ -1,10 +1,13 @@
 # Mengirim Paket ke Pabrik
+
     * URL: ​http://irgsh.blankonlinux.or.id
+    
 ### Prosedur Login
    1. Buka ​http://irgsh.blankonlinux.or.id
    2. Klik ​Kirim_paket
    3. Anda akan mendapatkan sebuah password sekali pakai yang ditulis dalam
       pesan terenkripsi, contoh:
+      ```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 hQIOAw0WMLTAAgjAEAf/SGx3DZK+pE0qw623PDP+2v80WapxWU1jb+xoh3cK8sHc
@@ -25,21 +28,29 @@ fZ3V6POr2cVEzRX2cfv40mI0feHLEmYTCctA2wRj5jXqupM5l3ZPPnoFdBAgo9bC
 AERachcaS6LZfjtc/HQ=
 =Hg4k
 --END PGP MESSAGE-----
+```
      Simpan dalam sebuah berkas, misalnya /tmp/oo.txt
+     
    1. Buka pesan tersebut.
+```
 $ gpg -d < /tmp/oo.txt
+```
      Jika Anda memang memiliki kunci yang sesuai, pesan tersebut akan
      terbuka.
+     
 Selamat Anda telah berhasil membaca pesan ini.
 Kode login pemaket: 907625
 Masukkan 6 digit kode pemaket di atas pada situs
 pemaket BlankOn.
 Selamat bekerja.
+
 Ir. Robot Gedek, SH.
+
    1. Masukkan kunci sekali pakai tersebut pada kotak isian yang disediakan
       lalu klik tombol Lanjut
    2. Anda akan dibawa kembali ke halaman utama jika kode yang Anda masukkan
       benar.
+      
 ### Mengirim Paket
    1. Buka ​http://irgsh.blankonlinux.or.id
    2. Klik ​Kirim_paket
@@ -56,6 +67,7 @@ Ir. Robot Gedek, SH.
    6. Selamat! Anda sudah mengirim paket. Silakan tunggu email pemberitahuan
       atau pantau status paket Anda di http://irgsh.blankonlinux.or.id/jobs/
       [kode job] atau ​http://irgsh.blankonlinux.or.id/job-list/
+      
 Last modified on 09/15/2008 11:16:04 PM
 #### 
     
