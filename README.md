@@ -46,4 +46,4 @@ Jika Anda berminat menjadi Tim Pengembang [BlankOn](/BlankOn.md), silakan daftar
 
 ## Tentang Wiki [BlankOn](/BlankOn.md)
 
-Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md). Jika ingin menyunting halaman wiki, silakan menuju ke [sini.](https://github.com/BlankOn/wiki)
+Wiki [BlankOn](/BlankOn.md) ini adalah wadah pengembangan BlankOn, digunakan untuk koordinasi dan mencatat pekerjaan-pekerjaan kolaborasi, dokumentasi pengembangan dan segala hal yang terkait proyek BlankOn. Wiki ini dikelola secara bersama-sama oleh tim-tim pengembang dan disupervisi oleh [Tim Dokumentasi](/TimPengembang/Dokumentasi/README.md). Jika ingin menyunting halaman wiki, silakan menuju ke [sini](https://github.com/BlankOn/wiki). Patuhin [panduan penyuntingan wiki](https://github.com/BlankOn/wiki/blob/master/TimPengembang/Dokumentasi/PanduanWiki.md) yang tersedia.
