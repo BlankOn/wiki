@@ -42,4 +42,5 @@ Tambahkan baris kode berikut ke baris pertama pada halaman untuk menandai halama
 ```
 
 Akan menghasilkan cap kadaluarsa seperti ini:
+
 <img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
