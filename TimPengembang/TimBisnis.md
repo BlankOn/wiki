@@ -1,3 +1,5 @@
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+
 # Tim Bisnis
 
 Tim Bisnis BlankOn adalah Tim bertanggung jawab dalam kegiatan yang berhubungan dengan bisnis komersial. Tim Bisnis ini bukan terjun langsung untuk
