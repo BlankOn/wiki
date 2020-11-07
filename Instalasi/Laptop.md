@@ -8,12 +8,12 @@
 ### Dell
 ### Fujitsu
 ### HP
-### [Ibm/ Lenovo](/wiki/Instalasi/IbmLenovo.md)
+### [Ibm/ Lenovo](/Instalasi/IbmLenovo.md)
 ### Jangkrik
 ### Samsung
 ### Sharp
 ### Sony
-### [Toshiba](/wiki/Instalasi/Toshiba.md)
+### [Toshiba](/Instalasi/Toshiba.md)
 ### Zyrex
 
 Last modified on 06/14/2008 05:42:57 PM

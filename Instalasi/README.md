@@ -6,13 +6,13 @@ proses pra, proses dan paska pemasangan/instalasi.
 Instalasi BlankOn pada Komputer Desktop
 
 ### Laptop
-[Instalasi BlankOn pada Komputer Laptop](/wiki/Instalasi/Laptop.md)
+[Instalasi BlankOn pada Komputer Laptop](/Instalasi/Laptop.md)
 
 ### Server
 Instalasi BlankOn pada Komputer Server
 
 ### Printer
-[Instalasi Printer HP Laser Jet 1020](/wiki/Instalasi/HPLaserjet1020.md)
+[Instalasi Printer HP Laser Jet 1020](/Instalasi/HPLaserjet1020.md)
  
  
 ---

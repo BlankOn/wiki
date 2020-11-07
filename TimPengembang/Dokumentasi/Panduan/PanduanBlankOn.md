@@ -12,15 +12,15 @@ BlankOn 9.0 dengan nama kode Suroboyo, rilis 15 Pebruari 2014
 
 ## Panduan BlankOn Rote
 BlankOn 8 aka Rote, versi yang dirilis Agustus 2012
-Dokumentasi Rote dapat dilihat [Halaman Dokumentasi Rote](/wiki/TimPengembang/Panduan/PanduanDistribusi/8//)
+Dokumentasi Rote dapat dilihat [Halaman Dokumentasi Rote](/TimPengembang/Panduan/PanduanDistribusi/8//)
 
 ## Panduan BlankOn Pattimura
 BlankOn 7 aka Pattimura, versi yang dirilis 2011
-Dokumentasi Pattimura dapat dilihat di [Halaman Dokumentasi Pattimura](/wiki/TimPengembang/Panduan/PanduanDistribusi/7/)
+Dokumentasi Pattimura dapat dilihat di [Halaman Dokumentasi Pattimura](/TimPengembang/Panduan/PanduanDistribusi/7/)
 
 ## Panduan BlankOn Ombilin
 BlankOn 6 aka Ombilin, versi yang dirilis Juli 2010
-Dokumentasi Ombilin dapat dilihat di [Halaman Dokumentasi Ombilin](/wiki/TimPengembang/Panduan/PanduanDistribusi/6/)
+Dokumentasi Ombilin dapat dilihat di [Halaman Dokumentasi Ombilin](/TimPengembang/Panduan/PanduanDistribusi/6/)
 
 ## Panduan BlankOn Nanggar
 BlankOn 5 aka Nanggar, versi yang dirilis Mei 2009
@@ -28,7 +28,7 @@ Dokumentasi Nanggar dapat dilihat di [Halaman Dokumentasi Nanggar]/wiki/TimPenge
 
 ## Panduan BlankOn Meuligoe
 BlankOn 4 aka Meuligoe, versi stabil yang dirilis November 2008
-Dokumentasi Meuligoe dapat dilihat di [Halaman Dokumentasi Meuligoe](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Meuligoe)  dan buku pdfnya dapat diunduh [di Assets wiki](/wiki/Assets/Others/BukuPanduanMeuligoe.pdf)
+Dokumentasi Meuligoe dapat dilihat di [Halaman Dokumentasi Meuligoe](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Meuligoe)  dan buku pdfnya dapat diunduh [di Assets wiki](/Assets/Others/BukuPanduanMeuligoe.pdf)
 
 ## Panduan BlankOn Lontara
 BlankOn 3 aka Lontara, versi stabil sebelum ini yang dirilis Mei 2008

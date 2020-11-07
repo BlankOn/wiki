@@ -6,7 +6,7 @@ Tulisan berupa panduan seputar linux, aplikasi, libreoffice. Tiap panduan
 ditulis di wiki. Cara ikut sayembara
    1. Mendaftar di wiki BlankOn,
    2. Silahkan tulis panduan anda, cara menulis di wiki bisa melihat [panduan
-      menulis wiki](/wiki/TimPengembang/Dokumentasi/Panduan/PanduanWiki/PanduanMenulisWikiLama.md)
+      menulis wiki](/TimPengembang/Dokumentasi/Panduan/PanduanWiki/PanduanMenulisWikiLama.md)
    3. Berikan identitas diri di masing-masing tulisan, (nama, akun fb/twitter, alamat surel),
    4. Tim dokumentasi akan menyeleksi panduan yang ditulis,
    5. Alamat tautan panduan mengikuti aturan dev-legacy.blankonlinux.or.id/wiki/Dokumentasi/Sayembara/judul_panduan,

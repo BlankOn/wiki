@@ -42,7 +42,7 @@ Paket-paket berikut ini belum tersedia di repositori:
 
 
 ## Rilis
-  * [Catatan Rilis](/wiki/ProdukBlankOn/1/CatatanRilis.md)
+  * [Catatan Rilis](/ProdukBlankOn/1/CatatanRilis.md)
 
 
 ---

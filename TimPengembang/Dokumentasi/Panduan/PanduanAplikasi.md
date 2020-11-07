@@ -4,7 +4,7 @@
     + [Dokumentasi Panduan Aksesoris Flashplayer](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Panduan/Aksesoris/Flashplayer)
     + [Dokumentasi Panduan Aksesoris Unetbootin](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Panduan/Aksesoris/Unetbootin)
 
-  + [Panduan Aplikasi Grafik Inkscape](/wiki/TimPengembang/Dokumentasi/PanduanAplikasi/PanduanInkscape.md)
+  + [Panduan Aplikasi Grafik Inkscape](/TimPengembang/Dokumentasi/PanduanAplikasi/PanduanInkscape.md)
   + Panduan Aplikasi Internet dan Multimedia
     + [Dokumentasi Panduan Internet](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Panduan/Internet)
     + [Dokumentasi Panduan Internet Chromium](http://dev.blankonlinux.or.id/wiki/Dokumentasi/Panduan/Internet/Chromium)
