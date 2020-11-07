@@ -362,6 +362,6 @@ Last modified on 05/31/2009 06:07:07 AM
   * finisih-laternate.png​ (6.6 KB) - added by wirama 8 years ago.
 
 ---
-[Daftar Isi Panduan BlankOn 5 Nanggar](/wiki/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/README.md)
-[Panduan BlankOn Versi Yang Lain](/wiki/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/README.md)
-[Daftar Panduan BlankOn](/wiki/TimPengembang/Dokumentasi/Panduan/README.md)
+[Daftar Isi Panduan BlankOn 5 Nanggar](/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/5/README.md)
+[Panduan BlankOn Versi Yang Lain](/TimPengembang/Dokumentasi/Panduan/PanduanDistribusi/README.md)
+[Daftar Panduan BlankOn](/TimPengembang/Dokumentasi/Panduan/README.md)

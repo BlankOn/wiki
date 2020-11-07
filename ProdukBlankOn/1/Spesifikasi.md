@@ -12,7 +12,7 @@
   * Game : Game-game Gnome 2.8.0, Frozen-bubble 1.0.0, Tuxracer 0.61
   * Tool : XCDRoast 0.98a15, Nautilus 2.8.1
 
-Sumber: [Majalah Info Linux edisi 02/2005](/wiki/Assets/Others/UlasanBlankOn1.pdf)
+Sumber: [Majalah Info Linux edisi 02/2005](/Assets/Others/UlasanBlankOn1.pdf)
 
 
 ---

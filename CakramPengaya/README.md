@@ -22,13 +22,13 @@ BlankOn.
 
 ### Racikan Cakram Pengaya
 Dibawah ini adalah daftar aplikasi tiap racikan cakram pengaya. Aplikasi-aplikasi yang dimasukkan diusahakan telah ada di repositori Ubuntu.
-  * [Cakram Pengaya Multimedia](/wiki/CakramPengaya/Multimedia)
-  * [Cakram Pengaya Kreatif](/wiki/CakramPengaya/Kreatif)
-  * [Cakram Pengaya Pendidikan](/wiki/CakramPengaya/Pendidikan)
-  * [Cakram Pengaya Warnetku](/wiki/CakramPengaya/Warnetku)
+  * [Cakram Pengaya Multimedia](/CakramPengaya/Multimedia)
+  * [Cakram Pengaya Kreatif](/CakramPengaya/Kreatif)
+  * [Cakram Pengaya Pendidikan](/CakramPengaya/Pendidikan)
+  * [Cakram Pengaya Warnetku](/CakramPengaya/Warnetku)
 
 ### Ingin Aplikasi favorit masuk Cakram Pengaya
-Masukkan aplikasi favorit Anda [kesini](/wiki/CakramPengaya/Request.md). Pastikan ada di dalam repository ubuntu ofisial maupun unofisial.
+Masukkan aplikasi favorit Anda [kesini](/CakramPengaya/Request.md). Pastikan ada di dalam repository ubuntu ofisial maupun unofisial.
 
 Lihat [http://dev.blankonlinux.or.id/ticket/197](​http://dev.blankonlinux.or.id/ticket/197)
 

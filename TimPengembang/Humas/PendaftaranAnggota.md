@@ -1,7 +1,7 @@
 # Pendaftaran Anggota
 ### Tim Humas
 
-[Tentang Tim Humas:](/wiki/TimPengembang/Humas.md)
+[Tentang Tim Humas:](/TimPengembang/Humas.md)
 
    * Ahmad Haris a.k.a @princeofgiri (Koordinator)
    * AinulHakim (Kemitraan)(Twitter: mikahlunia | FB: AinulHakim ) | Bisnis

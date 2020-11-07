@@ -2,7 +2,7 @@
 ## Kandidat peserta Tantangan BlankOn 2009
 
 Pengumuman:
-Isi di [Tantangan BlankOn 2009 Kandidat](/wiki/Acara/Tantangan/KandidatPesertaTantanganBlankOn.md) saja ya jangan di sini.
+Isi di [Tantangan BlankOn 2009 Kandidat](/Acara/Tantangan/KandidatPesertaTantanganBlankOn.md) saja ya jangan di sini.
 
 ttd mdamt
 

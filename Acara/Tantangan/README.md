@@ -1,7 +1,7 @@
 # Tantangan BlankOn
 [Tantangan BlankOn 2009](#tantangan-blankon-2009)
-[Sayembara Menulis Panduan](/wiki/Acara/Tantangan/SayembaraMenulisPanduan.md)
-[Sayembara Maskot BlankOn](/wiki/Acara/Tantangan/SayembaraMaskot.md)
+[Sayembara Menulis Panduan](/Acara/Tantangan/SayembaraMenulisPanduan.md)
+[Sayembara Maskot BlankOn](/Acara/Tantangan/SayembaraMaskot.md)
 
 ## Tantangan BlankOn 2009
 
