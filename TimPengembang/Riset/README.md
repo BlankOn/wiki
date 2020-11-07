@@ -1,18 +1,15 @@
-# Tim Riset BlankOn
+# Tim Riset
 
-## Jalur I: BlankOn Installer / Parto Edi
-Riset/PartoEdi adalah penyunting partisi pada blankon-installer.
+## Jalur I: IRGSH
 
-## Jalur II : data.blankon.id
-* Repositori: https://github.com/data-blankon-id
-* API untuk menerima ID pemasangan dari setiap rilis tambora. Terkait dengan blankon installer.
+- https://github.com/blankon/irgsh-go
 
-## Jalur III : IRGSH
-Mendeploy ulang IRGSH dan kawan-kawan di sistem operasi yang lebih modern.
+## Jalur II: live-build
 
-## Jalur IV : Perintilan
-* Tempel.py, utilitas tempel di cli, github.com/blankon/tempel-cli-py
-* https://wiki.mozilla.org/Identity/Firefox_Accounts
+- https://github.com/blankon/blankon-live-build
 
-## PR-PR lain, dari Koordinator Riset sebelumnya, @diorrahman
-* https://gist.github.com/diorahman/9575244
+## Hutang Teknis
+
+- Blankon Installer/Partoedi
+- https://github.com/data-blankon-id
+- https://gist.github.com/diorahman/9575244
