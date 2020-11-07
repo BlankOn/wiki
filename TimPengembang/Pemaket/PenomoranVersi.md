@@ -18,18 +18,18 @@ Masing-masing jenis juga bisa digolongkan menjadi dua, yaitu
 
 Dengan demikian, ada 4 buah kasus yang mungkin terjadi. Berikut ini adalah
 konvensi pembuatan versi untuk setiap kasus yang ada.
-1. Paket Turunan dan Khusus Contoh: apt
+- Paket Turunan dan Khusus Contoh: apt
   - Debian versi `1.2` -> BlankOn: `1.2blankon3`
   - Ubuntu: `1.2ubuntu3` -> BlankOn: `1.2ubuntu3+blankon4`
-1. Paket Impor dan Umum:
+- Paket Impor dan Umum:
   - Debian versi `1.2-3` -> `BlankOn: 1.2-3blankon4`
   - Ubuntu: `1.2-3ubuntu4` -> `BlankOn: 1.2-3ubuntu4+blankon5`
-1. Paket Khas dan Khusus Contoh: blankon-docs
+- Paket Khas dan Khusus Contoh: blankon-docs
   - BlankOn: `4.0` -> BlankOn: `4.0`. Gunakan versi yang ada apa adanya. Tidak ada penambahan apa-apa.
-1. Paket Khas dan Umum Contoh: daluang
+- Paket Khas dan Umum Contoh: daluang
   - Upstream: `0.3` -> BlankOn: `0.3-0blankon1`
      
-#### Suffix -0 di Debian
+### Suffix -0 di Debian
 
 Paket dari Debian perlu ditambahkan `-0`. Misal jika versinya adalah `2.22.1`, maka setelah ditambahkan suffix menjadi `2.22.1-0`, baru kemudian ditempel oleh versi distribusi turunan, menjadi `2.22.1-0blankon1`
 
@@ -37,7 +37,7 @@ Mengapa diawali oleh -0 ? Agar memberi kesempatan Debian untuk membuat revisi pe
 
 Nilai X pada +blankonX dan -0+blankonX selalu dimulai dari angka 1 bilamana versi di bagian depannya mengalami peningkatan. 
 
-#### Contoh Peningkatan Verssi
+### Contoh Peningkatan Verssi
 
 - Versi awal: `hai-0.0.1`
   - `hai-0.0.1-0blankon1`
@@ -52,3 +52,14 @@ Nilai X pada +blankonX dan -0+blankonX selalu dimulai dari angka 1 bilamana vers
   - `hai-0.0.2-0ubuntu1+blankon1` (Kenaikan versi di depan, maka versi di ubuntu dan blankon direset ke 1)
   - `hai-0.0.2-0ubuntu1+blankon2` (Peningkatan versi dari sudut pandang pemeliharaan paket)
   - `hai-0.0.2-0ubuntu2+blankon1` (Kenaikan revisi di depan, maka versi di blankon direset ke 1)
+
+### Penomoran versi untuk pembaruan pada lumbung updates dan security
+
+Penomoran versi untuk pembaruan paket pada `updates` dan `security` ditambahkan dengan suffix nama rilis. Misal untuk rilis Tambora suffixnya `+tambora1`, versi paket menjadi `nama-paket_1.0-1blankon1+tambora1`.
+
+Hal ini untuk mencegah versi bentrok jika paket yang sama juga ingin diperbarui untuk rilis sebelumnya.
+
+### Referensi: 
+
+- https://www.debian.org/doc/debian-policy/ch-controlfields.html
+- https://aftian.wordpress.com/2014/03/08/desain-pengembangan-blankon-tidak-resmi-5-penomoran-versi-paket-debian/
