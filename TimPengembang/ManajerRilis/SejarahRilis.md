@@ -1,3 +1,5 @@
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+
 # Sejarah Rilis BlankOn
 
 BlankOn Linux pertama kali dikembangkan oleh YPLI pada tahun 2004 dengan nama
