@@ -1,3 +1,5 @@
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+
 # Tim Proyek Pengembang BlankOn
 
 **Panduan Pendaftaran**
