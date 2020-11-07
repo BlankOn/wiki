@@ -10,6 +10,29 @@ Format penulisan menggunakan Markdown, silakan merujuk pada dokumentasi berikut 
 
 ## Mereferensikan halaman wiki lain
 
+Bila mereferensikan halaman lain yang ada di wiki, gunakan format berikut:
+
+```
+(teks yang mau direferensikan)[path/halaman/referensi]
+```
+
+Contoh:
+
+```
+
+[Halaman dokumentasi](../Dokumentasi)
+
+[Filosofi blankon](./FilosofiBlankOn.md)
+
+```
+
+Akan menghasilkan:
+
+[Halaman dokumentasi](../Dokumentasi)
+
+[Filosofi blankon](./FilosofiBlankOn.md)
+
+
 ## Dokumentasi kadaluarsa
 
 Tambahkan baris kode berikut ke baris pertama pada halaman untuk menandai halaman tersebut sebagai kadaluarsa (*deprecated*, sudah tidak relevan).
@@ -17,3 +40,6 @@ Tambahkan baris kode berikut ke baris pertama pada halaman untuk menandai halama
 ```
 <img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
 ```
+
+Akan menghasilkan cap kadaluarsa seperti ini:
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
