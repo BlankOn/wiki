@@ -1,3 +1,7 @@
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+
+Lihat https://github.com/BlankOn/wiki/tree/master/TimPengembang/JaminanKualitas
+
 # Tim Tester
 
 ## Tim Tester 2012
