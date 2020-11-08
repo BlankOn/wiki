@@ -1,9 +1,9 @@
 # Tim Pengembang BlankOn 8.0 (Rote)
 
-##Menejer Rilis
+## Menejer Rilis
  * Rahman Yusri Aftian
 
-##Tim Pemaket
+## Tim Pemaket
  * Supriyadi (Koordinator)
  * Reza Ervani
  * Adnan Kashogi
@@ -20,12 +20,12 @@
  * Simon liling (Bantu-bantu)
  * Surya Handika Putratama (Belajar)
  
-##Tim Kesenian
+## Tim Kesenian
  * F Hamzah aka Pingsut
  * Kukuh Syafaat aka cho2 (ikon)
  * Tabah Ariwiyanto (Wallpaper Sajadah)
 
-##Tim Jaminan Kualitas
+## Tim Jaminan Kualitas
  * Adrianus Yoza aka azoy (koordinator)
  * Baihaqi
  * Nandez
