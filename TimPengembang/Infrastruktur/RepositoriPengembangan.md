@@ -40,8 +40,8 @@ export NAMARILISUPSTREAM=<isi di sini nama rilis upstreamnya>
 /home/irgsh/utils/release-repository.sh $NAMARILISUPSTREAM
 ```
 
-Pembaruan cermin upstream dapat dilakukan berkala sebelum melakukan Jahitan
-resmi.
+Pembaruan cermin upstream dapat dilakukan berkala sebelum melakukan Jahitan resmi.
+
 ### Membuat cermin dari BlankOn
 
 ```
@@ -50,20 +50,24 @@ export NAMARILIS=<isi di sini nama rilis blankon>
 /home/irgsh/utils/release-repository.sh $NAMARILIS
 ```
 
-Pembaruan cermin BlankOn dapat dilakukan berkala sebelum melakukan Jahitan
-harian.
+Pembaruan cermin BlankOn dapat dilakukan berkala sebelum melakukan Jahitan harian.
+
 ## Penggunaan
+
 Repositori digunakan dengan menuliskan baris berikut di sources.list pabrik CD:
-deb http://arsip.blankonlinux.or.id/dev/jaunty jaunty/current main restricted
-universe multiverse
+
+```
+deb http://arsip.blankonlinux.or.id/dev/jaunty jaunty/current main restricted universe multiverse
 deb http://arsip.blankonlinux.or.id/dev/nanggar nanggar/current main restricted
+```
 Kata current dapat digantikan dengan nomor versi yang digunakan pada suatu
 jahitan tertentu agar memperoleh hasil jahitan yang identik dengan jahitan yang
 dilakukan di dev.boi.
-Nomor versi terakhir dapat dilihat di (misalnya) URL berikut: ​http://
-arsip.blankonlinux.or.id/dev/nanggar/dists/nanggar/version
-Last modified on 01/12/2009 03:58:18 AM
-####
+
+Nomor versi terakhir dapat dilihat di (misalnya) URL berikut: 
+
+- http://arsip.blankonlinux.or.id/dev/nanggar/dists/nanggar/version
+
 
 
 
