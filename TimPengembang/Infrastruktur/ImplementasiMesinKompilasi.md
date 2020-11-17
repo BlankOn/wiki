@@ -82,18 +82,19 @@ untuk membuat kompilasi semua paket yang akan disertakan dalam Konde.
 ...akan diisi nanti...
 
 ## Referensi
-    * https://wiki.ubuntu.com/DebootstrapChroot
+* https://wiki.ubuntu.com/DebootstrapChroot
 
 ## Komentar
-    * Ini ada script yang dipakai untuk membuat CD Ubuntu secara otomatis, silakan untuk yg ingin lihat langsung download di https://code.launchpad.net/~kamion/ubuntu-cdimage/mainline dan untuk tutorial penggunaannya bisa dibaca melalui http://thaiopensource.org/development/suriyan/wiki/MakeACD -- AndyApdhani (2007-05-19 06:07:06)
-    * Karena ini mesin kompilasi, mestinya wajib punya sources.list yang mengacu ke paket-paket source kan? -- AndikaTriwidada (2007-05-26 13:42:37)
+* Ini ada script yang dipakai untuk membuat CD Ubuntu secara otomatis, silakan untuk yg ingin lihat langsung download di https://code.launchpad.net/~kamion/ubuntu-cdimage/mainline dan untuk tutorial penggunaannya bisa dibaca melalui http://thaiopensource.org/development/suriyan/wiki/MakeACD -- AndyApdhani (2007-05-19 06:07:06)
+* Karena ini mesin kompilasi, mestinya wajib punya sources.list yang mengacu ke paket-paket source kan? -- AndikaTriwidada (2007-05-26 13:42:37)
+
 ```
 deb-src http://archive.ubuntu.com/ubuntu gutsy main restricted universe multiverse
 deb-src http://security.ubuntu.com/ubuntu gutsy-security main restricted universe multiverse
 ```
-    * Andika: Tidak perlu pak, sebab paket kode sumber diambil langsung menggunakan bazaar. Dia hanya perlu paket2 -dev saja -- mdamt
 
-Kategori Infra 
-    
+* Andika: Tidak perlu pak, sebab paket kode sumber diambil langsung menggunakan bazaar. Dia hanya perlu paket2 -dev saja -- mdamt
+
+Kategori Infra
+
 ---
- 

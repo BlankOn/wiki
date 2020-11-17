@@ -1,13 +1,10 @@
 # ManajemenRepo
 
 Untuk Mengaktifkan aplikasi reprepro irgsh di pabrik paket.
-   1. Masuk Ke yeyen
-   2. silahkan ubah ke user irgsh
-   `sudo su - irgsh`
-   1. Masuk ke Directory irgsh-repo
-   `cd irgsh-repo`
-   1. Lakukan Perintah
-   `nohup ../bin/python2.6 ./irgsh-repo.py >> log 2>&1`
+ 1. Masuk Ke yeyen
+ 2. silahkan ubah ke user irgsh `sudo su - irgsh`
+ 3. Masuk ke Directory irgsh-repo `cd irgsh-repo`
+ 4. Lakukan Perintah `nohup ../bin/python2.6 ./irgsh-repo.py >> log 2>&1`
 
 **Catatan :**
 
@@ -31,4 +28,3 @@ Kalau pilih 2, ya wis Bapak terserah mau ngapain lagi, tapi nanti sesudahnya kem
 Kalau tidak si aplikasi statusnya jadi zombie, ada di RAM tapi tidak jalan dan tidak mati
 
 Refrensi : ​http://tempel.blankon.in/417
- 

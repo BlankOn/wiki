@@ -1,11 +1,10 @@
 # Implementasi Layanan Torrent
 ### Gambaran Umum
-Untuk melayani distribusi melalui protokol bittorrent, diperlukan beberapa
-tahap
-    * pembuatan file torrent (dilakukan oleh script pembuat ISO secara
-      otomatis)
-    * pengaktifan tracker torrent
-    * penyediaan seed
+Untuk melayani distribusi melalui protokol bittorrent, diperlukan beberapa tahap
+
+* pembuatan file torrent (dilakukan oleh script pembuat ISO secara otomatis)
+* pengaktifan tracker torrent
+* penyediaan seed
 
 ### Membuat File Torrent
 ```
@@ -43,6 +42,6 @@ berkas ISO yang disediakan melalui layanan http, ftp, maupun rsync.
 Mesin lain yang telah memiliki ISO tersebut akan menjadi seeder juga setelah
 menjalankan perintah di atas.
 
-Kategori Infra 
- 
+Kategori Infra
+
 ---

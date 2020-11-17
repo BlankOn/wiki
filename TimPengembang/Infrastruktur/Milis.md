@@ -1,4 +1,5 @@
 # Milis BlankOn
+
 ### Diskusi Pengguna
 Alamat : blankon [di] googlegroups.com
 Pengelola :
@@ -12,6 +13,7 @@ Pengelola :
  * Daus
  * Mdamt
  * Priyadi
+
 ### Diskusi Pengembang
 Alamat : blankon-dev [di] googlegroups.com
 Pengelola :
@@ -26,7 +28,4 @@ Pengelola :
  * Imtheface
  * Mdamt
 
-Last modified on 06/03/2011 12:52:34 PM
-
----
  

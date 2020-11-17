@@ -1,13 +1,13 @@
 # Repositori
 
 Repositori BlankOn dibuat menggunakan program ​reprepro
-  * Lokasi konfigurasi dan log di rani: /home/arsipdev/reprepro ($CONF)
-  * Lokasi konfigurasi di bzr: ​http://dev.blankonlinux.or.id/browser/infrastruktur/reprepro-config-rani
-  * Bawa .gnupg-archive simpan di home arsipdev
-  * Jangan lupa untuk lakukan bzr pull di $CONF/conf setiap kali membuat
-      perubahan di bzr
-  * Lokasi repositori di rani: /home/arsipdev/repo/blankon
-  * Sinkronisasi dengan Ubuntu dilakukan via crontab pada pengguna arsipdev
+
+* Lokasi konfigurasi dan log di rani: /home/arsipdev/reprepro ($CONF)
+* Lokasi konfigurasi di bzr: ​http://dev.blankonlinux.or.id/browser/infrastruktur/reprepro-config-rani
+* Bawa .gnupg-archive simpan di home arsipdev
+* Jangan lupa untuk lakukan bzr pull di $CONF/conf setiap kali membuat perubahan di bzr
+* Lokasi repositori di rani: /home/arsipdev/repo/blankon
+* Sinkronisasi dengan Ubuntu dilakukan via crontab pada pengguna arsipdev
 
 ## Administratif
 ### Memperbarui konfigurasi dari bzr
