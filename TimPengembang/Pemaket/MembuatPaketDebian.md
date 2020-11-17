@@ -1,3 +1,5 @@
+TODO: Halaman ini perlu direproduksi ulang langkah-langkahnya apakah sesuai, dan juga disediakan bahan-bahan (sumber kode, repository, dst) yang diperlukan sehingga dapat diikuti dengan mudah oleh calon pemaket.
+
 # Membuat Paket Debian
 ## Tujuan
 Dokumen ini menjelaskan langkah-langkah pembuatan paket Debian sederhana.
