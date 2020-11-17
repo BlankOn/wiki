@@ -72,8 +72,7 @@ Contoh deskripsi tugas:
 
 ```
 dist meuligoe
-orig http://cecunguk.blankonlinux.or.id/~iang/orig/daluang/daluang-
-0.3.orig.tar.gz
+orig http://cecunguk.blankonlinux.or.id/~iang/orig/daluang/daluang-0.3.orig.tar.gz
 diff-bzr-url http://dev.blankonlinux.or.id/bzr/meuligoe/daluang/
 diff-bzr-tag 0.3.0-0blankon1
 dist meuligoe
@@ -173,6 +172,5 @@ Last modified on 11/14/2008 02:47:16 AM
 
 #### Attachments (1)
    * pabrik-paket.svg​ (50.2 KB) - added by mdamt 8 years ago. 0.1.1
- 
+
 ---
- 

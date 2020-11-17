@@ -40,6 +40,3 @@ server dengan cara:
 Kemudian lakukan pendorongan seperti:
 
 `git push rani master`
-
-
----

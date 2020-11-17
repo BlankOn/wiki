@@ -14,8 +14,3 @@ nohup ./task-init.sh &
 ```
 
 Demikian
-
-Last modified on 03/11/2011 04:41:57 PM
-
----
- 

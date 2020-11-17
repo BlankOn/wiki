@@ -1,21 +1,33 @@
 # irgshCA
 ### Membuat KTP Pabrik
+
+````
 # su - sertifikat
 $ cd ca.pl/irgshCA
 $ ./CA.pl -newreq-nodes
 $ ./CA.pl -sign
+````
+
 #### Menghapus Passphrase
-$ openssl rsa -in kunci.key -out kunci-baru-dengan-passphrase.key
+
+    $ openssl rsa -in kunci.key -out kunci-baru-dengan-passphrase.key
+
 #### Mengeset atau Mengubah Passphrase
-$ openssl rsa -in kunci.key -des3 -out kunci-baru.key
+
+    $ openssl rsa -in kunci.key -des3 -out kunci-baru.key
+
 #### Melihat Informasi Sertifikat
-$ openssl x509 -in sertifikat.pem -text -noout
+
+    $ openssl x509 -in sertifikat.pem -text -noout
+
 ### Pembaca
-    * Aftian
-    * BudiW
-    * Fajran
-    * Mdamt
-    * Somat
+* Aftian
+* BudiW
+* Fajran
+* Mdamt
+* Somat
+
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 hQIOAyBd54Y8nXqdEAf+NirN657A8MMWh+wfGKEOZzQylya+4Q9bpUrvi2fkhKU6
@@ -66,13 +78,6 @@ a+OlEtJIAZbxTv57qpKpA3VrN8bwlNxHeLT68bLMkma46X5WEqvburwZj6SfBYqm
 PsXWfanNDV7wnTIWWZyzvetvib/UMk7nMle27gBN
 =T8Qr
 --END PGP MESSAGE-----
-Last modified on 10/05/2011 01:13:52 AM
-#### 
-    
- 
- 
- 
- 
- 
+```
+
 ---
- 

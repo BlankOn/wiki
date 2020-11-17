@@ -2,6 +2,7 @@
 
 Yang bisa baca: mdamt, imtheface, princeofgiri, somat, fajran
 
+```
 --BEGIN PGP MESSAGE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 hQIOAw0WMLTAAgjAEAf+Jlmglb5p72Tay+heTGTyu4djoJz+7eg7CMWHGjglyeLo
@@ -64,13 +65,4 @@ qX8g7WzSewELQ219WWm/CvLf/IbVicG7WHgO37lsnvEcV3rcy3zzsgUcwSBVDyXB
 EuqHmpYFYQdrJr4TjGo9D+N9Iqwq9h3Hc5rJZNNlKqss0g==
 =pLA6
 --END PGP MESSAGE-----
-Last modified on 11/10/2008 12:41:08 PM
-#### 
-    
- 
- 
- 
- 
- 
----
- 
+```

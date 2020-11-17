@@ -64,14 +64,6 @@ Kata current dapat digantikan dengan nomor versi yang digunakan pada suatu
 jahitan tertentu agar memperoleh hasil jahitan yang identik dengan jahitan yang
 dilakukan di dev.boi.
 
-Nomor versi terakhir dapat dilihat di (misalnya) URL berikut: 
+Nomor versi terakhir dapat dilihat di (misalnya) URL berikut:
 
 - http://arsip.blankonlinux.or.id/dev/nanggar/dists/nanggar/version
-
-
-
-
-
-
-
----
