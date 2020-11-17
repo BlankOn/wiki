@@ -1,3 +1,3 @@
 # Tutorial
 
-Halaman ini berisi berbagai macam tutorial yang terkait dengan kegiatan pemaketan.Tutorial.md
+Halaman ini berisi berbagai macam tutorial yang tidak berhubungan secara langsung dengan pemaketan namun membantu banyak dalam proses.
