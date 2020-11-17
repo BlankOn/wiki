@@ -1,3 +1,5 @@
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+
 # Patching Locale
 
 lokakarya patch locale @IRC 23-2-2011
