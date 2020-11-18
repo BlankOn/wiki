@@ -8,7 +8,22 @@ Proyek [BlankOn](/BlankOn.md) tidak hanya terbatas pada pembuatan distribusi GNU
 
 Salah satu tujuan proyek [BlankOn](/BlankOn.md) adalah meningkatkan kapasitas sumber daya lokal yang mampu dan kompeten di dalam pengembangan perangkat lunak dan aplikasi bebas dan *Open Source*, serta mampu membungkusnya ke dalam sebuah produk yang sudah dikemas menjadi sebuah distribusi GNU/Linux yang siap digunakan.
 
-## Bagaimana Berpartisipasi
+## Mendaftarkan Diri
+
+Hanya 3 syarat yang diperlukan untuk menjadi pengembang BlankOn:
+
+1. Akses internet
+2. Kemauan yang kuat
+3. Kekonsistenan yang mantap
+
+Jika Anda berminat menjadi Tim Pengembang [BlankOn](/BlankOn.md), selain memenuhi 3 syarat di atas, Anda hanya perlu melakukan 2 hal:
+
+1. Memperkenalkan diri ke milis dev (blankon-dev@googlegroups.com) dan menyebutkan nama tim yang diminati (lihat di bawah)
+2. Menambahkan nama ke [halaman ini](https://github.com/BlankOn/Verbeek/blob/master/TEAM.md) dengan mengirim *pull request*.
+
+Berikutnya tim pengembang akan mengundang Anda ke grup diskusi tertutup khusus untuk pengembang.
+
+## Tim
 
 Proyek [BlankOn](/BlankOn.md) ini mempunyai beberapa tim yang saling terkait satu sama lain. Setiap tim mempunyai wewenang dan tanggung jawab yang berbeda-beda. Keahlian yang diperlukan untuk masing-masing tim juga berbeda-beda.
 
