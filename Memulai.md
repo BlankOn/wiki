@@ -74,25 +74,36 @@ Detail tata cara berkoordinasi dalam tim Humas dapat Anda temukan pada [halaman 
 
 Komunikasi pengembang [BlankOn](/BlankOn.md) lebih sering dilakukan secara daring (dalam jaringan / *online*), antara lain :
 
-### *Mailing List*
+### Grup Telegram Dev
 
-Mailing List digunakan untuk berkoordinasi dan tanya-jawab seputar pengembangan [BlankOn](/BlankOn.md), *Mailing list* BlankOn ada pada ​Google Groups, untuk berlangganan mailing list pengembang BlankOn silakan menuju ke ​[milis pengembang BlankOn](https://groups.google.com/forum/#!forum/blankon-dev)
+Grup Telegram ini merupakan grup diskusi tertutup khusus untuk pengembang. Anda akan diundang ke grup ini bila telah mendaftarkan diri.
+
+
+### Grup Telegram Pengguna
+
+[Grup Telegram pengguna BlankOn](https://telegram.me/BlankOnLinux)
+
+
+### Github
+
+Selain Telegram, tim pengembang BlankOn berkolaborasi dengan menggunakan GitHub. Tugas-tugas yang dikerjakan didokumentasikan dalam tiket-tiket (issues). Ada pun alamat GitHub proyek BlankOn antara lain:
+- https://github.com/blankon/
+- https://github.com/blankon-packages/https://github.com/blankon/
+
 
 ### Wiki
 
-Wiki digunakan untuk berkoordinasi dan mencatat pekerjaan-pekerjaan seputar pengembangan [BlankOn](/BlankOn.md), dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn.
+[Wiki](https://github.com/blankon/wiki) digunakan untuk berkoordinasi dan mencatat pekerjaan-pekerjaan seputar pengembangan [BlankOn](/BlankOn.md), dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn. 
 
-### Trello
-Trello digunakan untuk berkoordinasi, membagi serta memantau daftar pekerjaan pengembangan [BlankOn](/BlankOn.md).
 
-[Trello Pengembang BlankOn Uluwatu](https://trello.com/b/eKRi40cX/blankon-dev-uluwatu)
+### *Mailing List*
+
+Mailing List digunakan untuk pengumuman, koordinasi dan tanya-jawab seputar pengembangan [BlankOn](/BlankOn.md), *Mailing list* BlankOn ada pada ​Google Groups, untuk berlangganan mailing list pengembang BlankOn silakan menuju ke ​[milis pengembang BlankOn](https://groups.google.com/forum/#!forum/blankon-dev)
+
 
 ### IRC
-Untuk komunikasi obrolan pada IRC dapat Anda temukan pada kanal #blankon di Freenode. Catatan percakapan terekam oleh [http://irclog.blankon.in/](http://irclog.blankon.in/).
+~~Untuk komunikasi obrolan pada IRC dapat Anda temukan pada kanal #blankon di Freenode. Catatan percakapan terekam oleh [http://irclog.blankon.in/](http://irclog.blankon.in/).~~
 
-### Grup Telegram
-
-[Grup Telegram pengguna BlankOn](https://telegram.me/BlankOnLinux)
 
 ### Komunikasi, koordinasi dan kolaborasi secara luring (luar jaringan)
 
