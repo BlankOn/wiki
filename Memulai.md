@@ -33,21 +33,21 @@ Jika ingin berpartisipasi dalam pengembangan [BlankOn](/BlankOn.md), Anda dapat 
 
 Tim Infrastruktur bertanggung jawab atas infrastruktur [BlankOn](/BlankOn.md).
 
-Jika Anda suka dengan administrasi sistem, sedikit mempunyai kemampuan pemrograman, tim ini cocok untuk Anda. Jika Anda tertarik, silakan baca [halaman tim Infrastruktur](/TimPengembang/Infrastruktur/Infrastruktur.md) untuk memperoleh informasi lebih jauh tentang tim ini.
+Jika Anda suka dengan administrasi sistem, sedikit mempunyai kemampuan pemrograman, tim ini cocok untuk Anda. Jika Anda tertarik, silakan baca [halaman tim Infrastruktur](/TimPengembang/Infrastruktur/README.md) untuk memperoleh informasi lebih jauh tentang tim ini.
 
 
 ### Tim Riset dan Aplikasi
 
 Tim Riset dan Aplikasi bertanggung jawab atas aplikasi khas [BlankOn](/BlankOn.md), serta melakukan riset yang dibutuhkan fitur.
 
-Tim ini melakukan penelitian dan pengembangan aplikasi-aplikasi terkait dengan pengembangan [BlankOn](/BlankOn.md) atau aplikasi yang ingin diciptakan pada distribusi BlankOn. Jika Anda menyukai pemrograman, tim ini sangat cocok untuk Anda. Silakan menuju [halaman tim Riset dan Aplikasi](/TimPengembang/Riset/Riset.md) untuk memperoleh informasi lebih jauh.
+Tim ini melakukan penelitian dan pengembangan aplikasi-aplikasi terkait dengan pengembangan [BlankOn](/BlankOn.md) atau aplikasi yang ingin diciptakan pada distribusi BlankOn. Jika Anda menyukai pemrograman, tim ini sangat cocok untuk Anda. Silakan menuju [halaman tim Riset dan Aplikasi](/TimPengembang/Riset/README.md) untuk memperoleh informasi lebih jauh.
 
 
 ### Tim Pemaket
 
 Tim Pemaket bertanggung jawab memaketkan paket khas, impor dan mentah.
 
-Tim Pemaket bertugas membuat dan merawat paket-paket yang ada pada distribusi [BlankOn](/BlankOn.md), baik paket impor, khas, maupun paket mentah. Penjelasan dari paket-paket tersebut ada pada halaman pemaket, Anda dapat mempelajari lebih lanjut tentang tim pemaket ini pada [halaman tim Pemaket](/TimPengembang/Pemaket/Pemaket.md).
+Tim Pemaket bertugas membuat dan merawat paket-paket yang ada pada distribusi [BlankOn](/BlankOn.md), baik paket impor, khas, maupun paket mentah. Penjelasan dari paket-paket tersebut ada pada halaman pemaket, Anda dapat mempelajari lebih lanjut tentang tim pemaket ini pada [halaman tim Pemaket](/TimPengembang/Pemaket/README.md).
 
 Jika Anda ingin belajar bagaimana distribusi GNU/Linux dirangkai, Anda cocok di tim ini
 
@@ -58,7 +58,7 @@ Tim Kesenian bertanggung jawab atas karya seni yang digunakan [BlankOn](/BlankOn
 
 Tim ini bertugas membuat gambar latar, tema [BlankOn](/BlankOn.md) dan karya seni lainnya yang ada pada proyek BlankOn. Jika Anda suka menggambar, tertarik dengan dunia desain, tim ini sangat cocok untuk Anda.
 
-Apa-apa saja karya seni yang dapat dieksplorasi pada dunia pengembangan distribusi Linux dan pengembangan perangkat lunak dapat Anda temukan pada [halaman tim Kesenian](/TimPengembang/Kesenian/Kesenian.md).
+Apa-apa saja karya seni yang dapat dieksplorasi pada dunia pengembangan distribusi Linux dan pengembangan perangkat lunak dapat Anda temukan pada [halaman tim Kesenian](/TimPengembang/Kesenian/README.md).
 
 
 ### Tim Jaminan Kualitas
@@ -67,14 +67,14 @@ Tim Jaminan Kualitas bertanggung jawab memantau tiket berisi *bug* / kutu dan me
 
 Tim ini merupakan Kontrol Kualitas dari distribusi [BlankOn](/BlankOn.md). Setiap jahitan harus diuji oleh tim Jaminan Kualitas. Tidak ada keahlian khusus untuk dapat bergabung dengan tim ini selain mengerti dasar-dasar penggunaan komputer.
 
-Koneksi internet yang cukup memadai sangat membantu tugas tim Jaminan Kualitas. Bagaimana cara melakukan pengujian dapat Anda pelajari selengkapnya pada halaman [Tim Jaminan Kualitas](/TimPengembang/JaminanKualitas/JaminanKualitas.md).
+Koneksi internet yang cukup memadai sangat membantu tugas tim Jaminan Kualitas. Bagaimana cara melakukan pengujian dapat Anda pelajari selengkapnya pada halaman [Tim Jaminan Kualitas](/TimPengembang/JaminanKualitas/README.md).
 
 
 ### Tim Dokumentasi
 
 Tim Dokumentasi bertanggung jawab atas dokumentasi rilis.
 
-Jika Anda suka menulis dan mempunyai minat pada bidang jurnalistik, tim ini sangat cocok untuk Anda. Tugas tim Dokumentasi adalah membuat dan merawat dokumentasi untuk proyek maupun untuk rilis distribusi GNU/Linux. Tata cara membuat dokumentasi selanjutnya akan dijelaskan pada [halaman tim Dokumentasi](/TimPengembang/Dokumentasi/Dokumentasi.md).
+Jika Anda suka menulis dan mempunyai minat pada bidang jurnalistik, tim ini sangat cocok untuk Anda. Tugas tim Dokumentasi adalah membuat dan merawat dokumentasi untuk proyek maupun untuk rilis distribusi GNU/Linux. Tata cara membuat dokumentasi selanjutnya akan dijelaskan pada [halaman tim Dokumentasi](/TimPengembang/Dokumentasi/README.md).
 
 ### Tim Humas
 
@@ -82,7 +82,7 @@ Tim Humas bertugas melakukan sosialisasi penggunaan dan pengembangan [BlankOn](/
 
 Tidak ada keahlian khusus yang dibutuhkan untuk berpartisipasi dalam tim Humas. Tugas tim Humas adalah melakukan sosialisasi penggunaan dan pengembangan [BlankOn](/BlankOn.md) serta bekerja sama dengan pihak ketiga untuk memperluas pemasaran proyek BlankOn.
 
-Detail tata cara berkoordinasi dalam tim Humas dapat Anda temukan pada [halaman Tim Humas](/TimPengembang/Humas/Humas.md).
+Detail tata cara berkoordinasi dalam tim Humas dapat Anda temukan pada [halaman Tim Humas](/TimPengembang/Humas/README.md).
 
 
 ## Komunikasi, Koordinasi dan Kolaborasi Pengembang
@@ -103,12 +103,12 @@ Grup Telegram ini merupakan grup diskusi tertutup khusus untuk pengembang. Anda 
 
 Selain Telegram, tim pengembang BlankOn berkolaborasi dengan menggunakan GitHub. Tugas-tugas yang dikerjakan didokumentasikan dalam tiket-tiket (issues). Ada pun alamat GitHub proyek BlankOn antara lain:
 - https://github.com/blankon/
-- https://github.com/blankon-packages/https://github.com/blankon/
+- https://github.com/blankon-packages/
 
 
 ### Wiki
 
-[Wiki](https://github.com/blankon/wiki) digunakan untuk berkoordinasi dan mencatat pekerjaan-pekerjaan seputar pengembangan [BlankOn](/BlankOn.md), dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn. 
+[Wiki](https://github.com/blankon/wiki) digunakan untuk berkoordinasi dan mencatat pekerjaan-pekerjaan seputar pengembangan [BlankOn](/BlankOn.md), dokumentasi pengembangan serta menuliskan segala hal yang terkait dengan proyek pengembangan BlankOn.
 
 
 ### *Mailing List*
@@ -124,4 +124,4 @@ Mailing List digunakan untuk pengumuman, koordinasi dan tanya-jawab seputar peng
 
 Komunikasi dan koordinasi luring dapat ditemui di BlanKonf, BlanKopdar maupun BlanKoding maupun dengan pertemuan langsung dengan pengembang lain yang domisilinya berdekatan.
 
-### [Komposisi Tim Pada Awal Pengembangan BlankOn](/TimBlankOn.md)
+### [Komposisi Tim Pada Awal Pengembangan BlankOn](/TimPengembang/TimBlankOn.md)
