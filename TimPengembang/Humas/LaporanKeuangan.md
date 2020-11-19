@@ -1,6 +1,6 @@
-Tanggal laporan: 31 Januari 2021 
-Kas awal: Rp. 123.123.123 
-Kas akhir: Rp. 123.000.000  
+Tanggal laporan: 31 Januari 2021\
+Kas awal: Rp. 123.123.123\
+Kas akhir: Rp. 123.000.000\  
  
 ### Pengeluaran 
  
