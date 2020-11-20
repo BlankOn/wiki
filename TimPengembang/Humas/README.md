@@ -28,10 +28,14 @@ Hubungan Masyarakat a.k.a Public Relation adalah strategi proses komunikasi bert
     Bertujuan memperkenalkan versi terbaru BlankOn yang bisa dikemas dalam berbagai bentuk kegiatan antara lain workshop, lokakarya, bimtek, seminar dan lomba-lomba. Materi utama dalam Pesta Rilis adalah presentasi filosifi tema dan tinjauan fitur baru.
 
 5. Media Sosial dan komunikasi
-    * 1 : Instagram BlankOn [@blankoninux]
-    * 2 : Facebook [https://www.facebook.com/groups/blankonlinux/?ref=br_rs]
-    * 3 : Twitter [https://twitter.com/BlankOnLinux]
-    * 4 : Telegram [https://t.me/BlankOnLinux]
+    * 1 : Surel Resmi Humas BlankOn [humas@blankon.id]
+    * 2 : Milis BlankOn [ ]
+    * 3 : Instagram BlankOn [@blankoninux]
+    * 4 : Facebook [https://www.facebook.com/groups/blankonlinux/?ref=br_rs]
+    * 5 : Twitter [https://twitter.com/BlankOnLinux]
+    * 6 : Telegram [https://t.me/BlankOnLinux] 
+    * 7 : Discord [https://discord.gg/b6jJXN65JX]
+    
 
 ### Tim Humas 2016
 * Aris E. Priyanto
