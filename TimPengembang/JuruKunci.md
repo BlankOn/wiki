@@ -26,3 +26,6 @@
 - Twitter
 - Instagram
   - Slamet Santoso <slamets75@gmail.com>
+- Youtube
+  - ? (Pemilik)
+  - Herpiko Dwi Aguno <herpiko@gmail.com> (Manajer)
