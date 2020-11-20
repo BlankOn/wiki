@@ -6,7 +6,7 @@
 - Estu Fardani
 - YHT
 - Herpiko Dwi Aguno <herpiko@gmail.com>
-- Slamet Santoso <slamets75@gmail.com>
+
 
 
 ## Domain
@@ -24,4 +24,5 @@
   - ?
   - ?
 - Twitter
-- ?
+- Instagram
+  - Humas Surel <humas@blankon.id>
