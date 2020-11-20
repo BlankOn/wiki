@@ -25,4 +25,4 @@
   - ?
 - Twitter
 - Instagram
-  - Humas Surel <humas@blankon.id>
+  - Slamet Santoso <slamets75@gmail.com>
