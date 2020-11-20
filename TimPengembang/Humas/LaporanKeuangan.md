@@ -24,7 +24,7 @@ Kas akhir: Rp. 000.000.000
 
 ### Pengeluaran
 (Contoh) 
-|  Tanggal  |  Divisi  |  Pemasukan |  Jumlah (Rp)  | 
+|  Tanggal  |  Divisi  |  Pengeluaran |  Jumlah (Rp)  | 
 |:---------:|:--------:|:--------------:|:-------------:| 
 |  3 Januari 2020 | Infrastruktur | Sewa colocation/bandwith 1 tahun di XYZ  [0] | 123.000 | 
 | 22 Januari 2020 | Humas | Pencetakan kartu nama untuk Humas [1] | 123 | 
