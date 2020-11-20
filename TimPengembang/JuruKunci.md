@@ -27,5 +27,6 @@
 - Instagram
   - Slamet Santoso <slamets75@gmail.com>
 - Youtube
-  - ? (Pemilik)
+  - Surel Humas (humas@blankon.id)
   - Herpiko Dwi Aguno <herpiko@gmail.com> (Manajer)
+  - Slamet Santoso <slamets75@gmail.com> (Editor)
