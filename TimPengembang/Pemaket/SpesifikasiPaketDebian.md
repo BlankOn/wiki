@@ -55,6 +55,25 @@ Penjelasan:
 - `Depends` - Dependensi paket saat sudah jadi dan digunakan oleh pengguna akhir.
 - `Description` - Deskripsi yang menjelaskan tentang paket
 
+
+Dalam perawatan berkas ini, nama pemelihara asli (original maintainer) tetap dilampirkan, tapi nama kolomnya diganti. Contoh,
+
+Asli:
+```
+Maintainer: Santiago Vila <sanvila@debian.org>
+```
+
+Pembaruan:
+```
+Maintainer: Nama Pendekar <namapendekar@blankon.in>
+XSBC-Original-Maintainer: Si Fulan <fulan@proyekhulu.org>
+```
+
+Contoh nyata: https://github.com/blankon-packages/base-files/blob/master/debian/control#L5
+
+Referensi:
+- https://wiki.ubuntu.com/UbuntuDevelopment/FAQ
+
 ### copyright
 
 Lisensi dari perangkat lunak yang dipaketkan. Jika perangkat lunak berlisensi A, maka lisensi A perlu dimasukkan ke sini. Tidak boleh hulu lisensinya A, namun di sini ditulis B.
