@@ -68,26 +68,6 @@ Lihat kunci yang sudah dibikin dengan,
 gnupg -K
 ```
 
-### Sidik gangguan
-
-#### Permission denied di tty
-
-Galatnya,
-```
-gpg: agent_genkey failed: Permission denied
-Key generation failed: Permission denied
-```
-
-Biasanya terjadi bila mencoba generate gpg namun dalam sesi SSH. Solusinya coba generate ulang namun dalam tmux atau cek kepemilikan sesi tty dengan,
-
-```
-ls -l $(tty)
-```
-
-Lalu geser kepemilikannya dengan,
-```
-chown namapengguna /dev/pts/0
-```
 ### Ekspor
 
 Salin terlebih dahulu identitas kuncinya. Lihat identitas kunci yang ada dengan perintah `gpg -K`. Outputnya:
@@ -213,3 +193,23 @@ running debsign failed
 Antara lain mungkin disebabkan oleh:
 - Identitas kunci untuk menandatangani paket belum ditetapkan atau tidak cocok dengan yang ada di kantong kunci GPG Anda. Silakan ditetap dengan perintah, `rgsh-cli config --chief https://irgsh.blankonlinux.or.id --key YOURKEYIDENTITY`
 - Nama dan alamat surat elektronik perawat paket yang ada di berkas `debian/changelog` tidak cocok dengan identitas kunci yang ada di kantong kunci GPG Anda. Silakan sesuaikan lagi berkas tersebut.
+
+
+### Permission denied di tty
+
+Galatnya,
+```
+gpg: agent_genkey failed: Permission denied
+Key generation failed: Permission denied
+```
+
+Biasanya terjadi bila mencoba generate gpg namun dalam sesi SSH. Solusinya coba generate ulang namun dalam tmux atau cek kepemilikan sesi tty dengan,
+
+```
+ls -l $(tty)
+```
+
+Lalu geser kepemilikannya dengan,
+```
+chown namapengguna /dev/pts/0
+```
