@@ -1,4 +1,4 @@
-<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github"/>
 
 # Sejarah Rilis BlankOn
 

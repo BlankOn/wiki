@@ -38,9 +38,9 @@ Akan menghasilkan:
 Tambahkan baris kode berikut ke baris pertama pada halaman untuk menandai halaman tersebut sebagai kadaluarsa (*deprecated*, sudah tidak relevan).
 
 ```
-<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github"/>
 ```
 
 Akan menghasilkan cap kadaluarsa seperti ini:
 
-<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github"/>
