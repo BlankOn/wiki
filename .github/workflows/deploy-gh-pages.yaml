@@ -5,6 +5,10 @@ jobs:
   deploy:
     name: Build and deploy
     runs-on: ubuntu-18.04
+    environment:
+      GH_USER: {{ secrets.GH_USER }}
+      GH_EMAIL: {{ secrets.GH_EMAIL }}
+      GIT_USER: {{ secrets.GH_USER }}
     steps:
     - uses: actions/checkout@v2.3.4
     - name: Setup Node.js
@@ -20,5 +24,10 @@ jobs:
           docusaurus/static
           node_modules
         key: ${{ runner.os }}
+    - name: Setup github account
+      run: |
+        git config --global user.name "${GH_USER}"
+        git config --global user.email "${GH_EMAIL}"
+        echo "machine github.com login ${GH_USER} password ${GH_TOKEN}" > ~/.netrc
     - name: Kick
       run: ./scripts/deploy.sh
