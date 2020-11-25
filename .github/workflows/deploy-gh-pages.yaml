@@ -6,9 +6,9 @@ jobs:
     name: Build and deploy
     runs-on: ubuntu-18.04
     env:
-      GH_USER: ${{ secrets.GH_USER }}
-      GH_EMAIL: ${{ secrets.GH_EMAIL }}
-      GIT_USER: ${{ secrets.GH_USER }}
+      GH_NAME: ${{ secrets.WIKI_GH_NAME }}
+      GH_EMAIL: ${{ secrets.WIKI_GH_EMAIL }}
+      GH_TOKEN: ${{ secrets.WIKI_GH_TOKEN }}
     steps:
     - uses: actions/checkout@v2.3.4
     - name: Setup Node.js
@@ -26,8 +26,9 @@ jobs:
         key: ${{ runner.os }}
     - name: Setup github account
       run: |
-        git config --global user.name "${GH_USER}"
+        git config --global user.name "${GH_NAME}"
         git config --global user.email "${GH_EMAIL}"
-        echo "machine github.com login ${GH_USER} password ${GH_TOKEN}" > ~/.netrc
+        echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
+        echo "GIT_USER=${GH_NAME}" >> >> $GITHUB_ENV
     - name: Kick
       run: ./scripts/deploy.sh
