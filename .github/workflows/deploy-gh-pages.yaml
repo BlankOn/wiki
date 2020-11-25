@@ -3,12 +3,22 @@ on: workflow_dispatch
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    name: Build and deploy
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2.3.4
     - name: Setup Node.js
       uses: actions/setup-node@v2.1.2
       with:
         node-version: 12.x
-    - run: yarn
-    - run: yarn build
+    - name: Cache build wiki
+      uses: actions/cache@v2.1.3
+      with:
+        path: |
+          docusaurus/Wiki
+          docusaurus/static/Assets
+          docusaurus/static
+          node_modules
+        key: ${{ runner.os }}
+    - name: Kick
+      run: ./scripts/deploy.sh
