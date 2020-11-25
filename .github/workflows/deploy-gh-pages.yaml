@@ -5,10 +5,10 @@ jobs:
   deploy:
     name: Build and deploy
     runs-on: ubuntu-18.04
-    environment:
-      GH_USER: {{ secrets.GH_USER }}
-      GH_EMAIL: {{ secrets.GH_EMAIL }}
-      GIT_USER: {{ secrets.GH_USER }}
+    env:
+      GH_USER: ${{ secrets.GH_USER }}
+      GH_EMAIL: ${{ secrets.GH_EMAIL }}
+      GIT_USER: ${{ secrets.GH_USER }}
     steps:
     - uses: actions/checkout@v2.3.4
     - name: Setup Node.js
