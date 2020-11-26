@@ -36,8 +36,8 @@ Rapat TIM DOKUMENTASI: Senin 2007-09-04T07:00:00Z - #blankon @ irc.freenode.net
 + [Notulensi Rapat  1 Maret 2017](/Rapat/NotulensiRapat01032017.md)
 
 ## 2020
-+ [Notulensi Rapat Persiapan Rilis Verbeek](./NotulensiRapat20201030.md)
-+ [Catatan Rapat Persiapan Rilis Verbeek](./CatatanRapat20201120.md)
++ [Notulensi Rapat Persiapan Rilis Verbeek#1](./NotulensiRapat20201030.md)
++ [Catatan Rapat Persiapan Rilis Verbeek#2](./CatatanRapat20201120.md)
 
   
 
