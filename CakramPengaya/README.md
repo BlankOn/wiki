@@ -1,4 +1,4 @@
-<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github">
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github"/>
 
 # Cakram Pengaya
 Cakram Pengaya atau disingkat CP adalah cd repositori yang memiliki tema

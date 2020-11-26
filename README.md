@@ -5,7 +5,7 @@ title: Selamat Datang
 
 # Selamat Datang di Wiki Pengembangan [BlankOn](/BlankOn.md)
 
-[![Build Status](https://travis-ci.org/BlankOn/wiki.svg?branch=master)](https://travis-ci.org/BlankOn/wiki)
+![Manual deploy wiki](https://github.com/BlankOn/wiki/workflows/Manual%20deploy%20wiki/badge.svg)
 
 Silakan lihat halaman [Misi BlankOn](/Proyek/Misi.md) untuk memahami tujuan proyek ini.
 
