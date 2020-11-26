@@ -15,6 +15,10 @@
 - blankonlinux.or.id : ?
 - blankon.in : ?
 
+## Paket
+
+https://irgsh.blankonlinux.or.id/maintainers
+
 ## Sosial Media
 
 - Facebook group:
