@@ -34,3 +34,18 @@ https://irgsh.blankonlinux.or.id/maintainers
   - Humas (humas@blankon.id)
   - Herpiko Dwi Aguno <herpiko@gmail.com> (Manajer)
   - Slamet Santoso <slamets75@gmail.com> (Editor)
+
+## Certification Authority (CA)
+
+### Juru Kunci
+
+- Samsul Maarif mail@samsul.web.id
+- Aditya Rahman adityarahman032@gmail.com
+
+### Sertifikat yang dikelola
+
+| Common Name | Keterangan |
+| --- | --- |
+| BlankOnRootCA | Root CA |
+| BlankOnIntermediateCA | Sertifikat Intermediate |
+| redis-stunnel | Sertifikat SSL untul stunnel redis |
