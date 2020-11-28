@@ -176,6 +176,7 @@ Atau dengan membubuhkan id pipeline,
 irgsh-cli log 2020-11-21-205136_b8dbbd86-0ee1-409a-b3e3-4ec4d97c5302
 ```
 
+Panduan lebih detail mengenai pemaketan dengan irgsh-cli dapat disiman di https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/PanduanPemaketanMenggunakanIrgshCli.md
 
 ## Sidik Gangguan
 
