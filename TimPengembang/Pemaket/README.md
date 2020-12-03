@@ -19,6 +19,12 @@ Untuk membantu mulai belajar membuat paket debian, tulisan-tulisan di bawah ini 
 - [Persiapan perkakas untuk bekerja dengan IRGSH](./PanduanIrgshCLIUntukPemaket.md)
 - [Panduan cara membangun paket dengan IRGSH](./PanduanPemaketanMenggunakanIrgshCLI.md)
 
+### Administrasi
+
+Setiap pemaket wajib memiliki pasangan kunci GPG pribadi yang dipelihara secara jangka panjang dan berkelanjutan.
+
+Pemaket pemula yang (1) telah belajar dan mampu membangun paket dan (2) dapat diberi amanah untuk menjalankan tugas pemaketan, kuncinya dapat didaftarkan ke IRGSH dengan bantuan tim Infrastruktur.
+
 ### Referensi Pemaket
 - [Debian Policy Manual](http://www.debian.org/doc/debian-policy)
 - [Debian Developer's Reference](http://www.debian.org/doc/manuals/developers-reference/)
