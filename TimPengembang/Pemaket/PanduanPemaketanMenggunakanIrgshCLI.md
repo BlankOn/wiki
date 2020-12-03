@@ -12,7 +12,7 @@ Pastikan di berkas `~/.bashrc` atau `~/.zshrc` sudah diatur mengenai `DEBFULLNAM
 1. Clone repositori paket yang akan diubah dari repo blankon-packages. Misalnya kita akan memaketkan repo `blankon-repository-setup`.
 	```
 	$ git clone git@github.com:blankon-packages/blankon-repository-setup.git
-	``` 
+	```
 
 
 1. Sebelum melakukan perubahan apapun, buat dulu branch `uluwatu`. Setelah itu push ke remote. Nantinya repo master menjadi repo default untuk Verbeek.
@@ -22,7 +22,7 @@ Pastikan di berkas `~/.bashrc` atau `~/.zshrc` sudah diatur mengenai `DEBFULLNAM
 	$ git push origin uluwatu
 	```
 
-1. Lakukan perubahan sesuai paket yang akan dipaketkan. Silakan ubah berkas control, rules, dll sesuai kebutuhan. Jika sudah dirasa cukup, lakukan perintah `dch -i`. Nantinya akan terbuka editor (misalnya nano) dengan versi yang sudah naik (increment). Jika kita hanya ingin mengedit berkas tanpa mengubah versi, lakukan perintah `dch -e`. Untuk panduan penomoran versi dapat dibaca di [sini](https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/PenomoranVersi.md).
+1. Lakukan perubahan sesuai paket yang akan dipaketkan. Silakan ubah berkas control, rules, dll sesuai kebutuhan. Jika sudah dirasa cukup, lakukan perintah `dch -i`. Nantinya akan terbuka editor (misalnya nano) dengan versi yang sudah naik (increment). Jika kita hanya ingin mengedit berkas tanpa mengubah versi, lakukan perintah `dch -e`. Untuk panduan penomoran versi dapat dibaca di [sini](https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/PenomoranVersi.md). Pastikan identitas pemelihara paket (maintainer) yang ditulis adalah identitas yang sama dengan kunci GPG pemaket.
 	```
 	$ dch -i
 	(nantinya berkas changelog akan dibuka. Silakan isi perubahan apa yang sudah dilakukan)
@@ -39,7 +39,7 @@ Pastikan di berkas `~/.bashrc` atau `~/.zshrc` sudah diatur mengenai `DEBFULLNAM
 	 -- antosamalona <ansamsoftdev@gmail.com>  Wed, 02 May 2018 11:49:03 +0800
 	```
 
-1. pindah direktori ke atas `debian`. Jika ingin mencoba apakah perubahan kita berhasil dan paket bisa dibangun, lakukan perintah `debuild -S`.
+1. Pindah direktori ke atas `debian`. Jika ingin mencoba apakah perubahan kita berhasil dan paket bisa dibangun, lakukan perintah `debuild -S`.
 	```
 	$ cd ..
 	$ debuild -S
@@ -52,7 +52,7 @@ Pastikan di berkas `~/.bashrc` atau `~/.zshrc` sudah diatur mengenai `DEBFULLNAM
 	$ git push origin master
 	```
 
-1. Langkah terakhir, build paket di awan menggunakan `irgsh-cli`. Untuk percobaan, gunakan `--experimental`. 
+1. Langkah terakhir, build paket di awan menggunakan `irgsh-cli`. Untuk percobaan, gunakan `--experimental`.
 	```
 	$ irgsh-cli submit --experimental --package https://github.com/blankon-packages/blankon-repository-setup
 	```
@@ -61,3 +61,7 @@ Pastikan di berkas `~/.bashrc` atau `~/.zshrc` sudah diatur mengenai `DEBFULLNAM
 	```
 	$ irgsh-cli log
 	```
+
+## Sidik Gangguan
+
+Dokumentasi sidik gangguan dapat mengacu ke [halaman ini](./SidikGangguan.md).
