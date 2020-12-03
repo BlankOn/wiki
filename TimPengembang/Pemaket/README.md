@@ -17,8 +17,7 @@ Untuk membantu mulai belajar membuat paket debian, tulisan-tulisan di bawah ini 
 - [Pengenalan pemaketan Debian](./MembuatPaketDebian.md)
 - [Spesifikasi paket Debian](./SpesifikasiPaketDebian.md)
 - [Persiapan perkakas untuk bekerja dengan IRGSH](./PanduanIrgshCLIUntukPemaket.md)
-- [Panduan cara membangun paket dengan IRGSH](./PanduanPemaketanMenggunakanCLI.md)
-- [Pbuilder Multi ARCH](./PanduanPbuilderMultiARCH.md)
+- [Panduan cara membangun paket dengan IRGSH](./PanduanPemaketanMenggunakanIrgshCLI.md)
 
 ### Referensi Pemaket
 - [Debian Policy Manual](http://www.debian.org/doc/debian-policy)
