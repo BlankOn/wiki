@@ -1,6 +1,6 @@
 # Tentang Tim Pemaket
 
-Merupakan yang bertugas membuat dan merawat paket-paket yang ada pada distribusi BlankOn, baik paket impor, khas, maupun paket mentah.
+Merupakan tim yang bertugas membuat dan merawat paket-paket yang ada pada distribusi BlankOn, baik paket impor, khas, maupun paket mentah.
 
 ### Cakupan tugas
 
