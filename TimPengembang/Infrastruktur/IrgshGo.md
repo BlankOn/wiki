@@ -25,6 +25,8 @@ Secara berkala arsip-dev perlu disinkronkan dengan lumbung hulu (saat ini Debian
 - Sinkronkan dengan perintah (__tanpa sudo__), `irgsh-repo sync`
 - Setelah selesai, lakukan pembaruan pbuilder base.tgz
 
+Jika menjalankan pekerjaan ini secara manual, disarankan dijalankan di dalam sesi `screen` atau `tmux`, karena dapat memakan waktu yang cukup lama.
+
 Langkah-langkah di atas dapat dimasukkan ke dalam konfigurasi cron supaya dieksekusi secara otomatis dan berkala.
 
 ## Sidik Gangguan
