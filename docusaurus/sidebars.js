@@ -1,14 +1,14 @@
 module.exports = {
   wiki: [
     "README",
-    "Proyek/Misi",
+    "BlankOn",
     "MendapatkanBlankOn",
     "BukuAlamat",
     "Lainnya/Glosarium",
     "FAQ"
   ],
   timPengembang: [
-    'TimPengembang/TimBlankOn',
+    "Partisipasi",
     {
       type: 'category',
       label: 'Tim Rilis',
