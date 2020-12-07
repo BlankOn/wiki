@@ -16,6 +16,8 @@ Untuk membantu mulai belajar membuat paket debian, tulisan-tulisan di bawah ini 
 
 - [Pengenalan pemaketan Debian](./MembuatPaketDebian.md)
 - [Spesifikasi paket Debian](./SpesifikasiPaketDebian.md)
+
+### Panduan Tingkat Lanjut
 - [Persiapan perkakas untuk bekerja dengan IRGSH](./PanduanIrgshCLIUntukPemaket.md)
 - [Panduan cara membangun paket dengan IRGSH](./PanduanPemaketanMenggunakanIrgshCLI.md)
 
