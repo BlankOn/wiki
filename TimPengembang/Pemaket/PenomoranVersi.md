@@ -15,14 +15,14 @@ Secara garis besar, paket-paket ini digolongkan [menjadi 2, yaitu paket native d
    
 ### Konvensi
 
-Dengan demikian, ada 2 buah kasus yang mungkin terjadi. Berikut ini adalah
-konvensi pembuatan versi untuk setiap kasus yang ada.
+Konvensi versi paket turunan lumbung Debian yang dipaketkan ulang adalah sebagai berikut:
+- Ditambahkan **revisi derivatif**, yaitu `blankon1` dengan 1 adalah angka incremental untuk setiap revisi
 - Paket native: apt
-  - Debian versi `1.2` -> BlankOn: `1.2blankon3`
-  - Ubuntu: `1.2ubuntu3` -> BlankOn: `1.2ubuntu3+blankon4`
+  - Debian versi `1.2` -> BlankOn: `1.2blankon1`
+  - Ubuntu: `1.2ubuntu3` -> BlankOn: `1.2ubuntu3+blankon1`
 - Paket umum:
   - Debian versi `1.2-3` -> `BlankOn: 1.2-3blankon4`
-  - Ubuntu: `1.2-3ubuntu4` -> `BlankOn: 1.2-3ubuntu4+blankon5`
+  - Ubuntu: `1.2-3ubuntu4` -> `BlankOn: 1.2-3ubuntu4+blankon1`
      
 ### Suffix revisi -0 untuk paket umum/quilt (non-native)
 
@@ -40,7 +40,7 @@ Namun bila paket tersebut tidak ada di Debian dan merupakan paket khas yang dipa
 
 Nilai X pada +blankonX dan -0+blankonX selalu dimulai dari angka 1 bilamana versi di bagian depannya mengalami peningkatan. 
 
-### Contoh Peningkatan Verssi
+### Contoh Peningkatan Versi
 
 - Versi awal: `hai-0.0.1`
   - `hai-0.0.1-0blankon1`
