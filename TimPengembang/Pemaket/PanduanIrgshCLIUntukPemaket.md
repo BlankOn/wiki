@@ -163,7 +163,15 @@ irgsh-cli submit --source https://github.com/blankon/bromo-theme --package https
 
 Flag `--experimental` menandakan paket ini akan disuntikkan ke lumbung experimental alih-alih ke lumbung pengembangan resmi. Tujuannya untuk uji coba sebelum benar-benar dipaketkan ke lumbung.
 
+### Lumbung BlankOn
+
 Lumbung pengembangan resmi terletak di arsip-dev.blankonlinux.or.id. Untuk paket experimental akan disuntik ke arsip-dev.blankonlinux.or.id/experimental, sementara paket resmi masuk ke arsip-dev.blankonlinux.or.id/dev.
+
+Lumbung experimental digunakan oleh pemaket ketika menguji suatu paket. Pemaket harus memastikan bahwa aplikasi yang dipaketkan berhasil dibuat di lumbung ini. Jika sudah dipastikan sukses (bisa dicek hasilnya di [sini](arsip-dev.blankonlinux.or.id/experimental/pool/)), maka paket tersebut boleh disuntikkan ke lumbung dev.
+
+Ketika paket sudah masuk ke lumbung dev, paket tersebut akan kembali diuji. Pengembang harus bisa memastikan bahwa paket tersebut berjalan sesuai harapan, baik itu sukses dipasang, sukses diupgrade, maupun sukses dihapus.  
+
+### Memantau proses pembangunan paket
 
 Untuk memantau proses pembangunan paket, gunakan perintah berikut:
 
@@ -176,5 +184,5 @@ Atau dengan membubuhkan id pipeline,
 irgsh-cli log 2020-11-21-205136_b8dbbd86-0ee1-409a-b3e3-4ec4d97c5302
 ```
 
-Panduan lebih detail mengenai pemaketan dengan irgsh-cli dapat disiman di https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/PanduanPemaketanMenggunakanIrgshCli.md
+Panduan lebih detail mengenai pemaketan dengan irgsh-cli dapat disimak di https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/PanduanPemaketanMenggunakanIrgshCli.md
 
