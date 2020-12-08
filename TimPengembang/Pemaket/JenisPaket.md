@@ -35,3 +35,17 @@ Hasil pemaketannya adalah:
 Contoh paket:
 - GNOME
 - Mozilla Firefox
+
+## Ilustrasi
+
+### Paket native tanpa modifikasi
+
+<img src="../../Assets/Images/blankon-packaging-native-without-mod.png"/>
+
+### Paket native dengan modifikasi
+
+<img src="../../Assets/Images/blankon-packaging-with-mod.png"/>
+
+### Paket non-native
+
+<img src="../../Assets/Images/blankon-packaging-non-native.png"/>
