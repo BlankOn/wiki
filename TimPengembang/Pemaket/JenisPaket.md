@@ -18,6 +18,8 @@ Contoh paket:
 - `base-files`
 - `apt`
 
+Apabila paket native Debian ini perlu kita modifikasi di sisi kita (misal untuk keperluan rebranding), maka paket native ini diperlakukan sebagai paket umum.
+
 ### Paket umum (third party package)
 
 Paket ini tidak memiliki spesifikasi `debian` dalam direktori atau *source tree*-nya. Pengembang harus membuat spesifikasi `debian`-nya di tempat lain (biasanya lumbung kode) secara terpisah dan tidak menggabungkannya.
@@ -43,6 +45,8 @@ Contoh paket:
 <img src="../../Assets/Images/blankon-packaging-native-without-mod.png"/>
 
 ### Paket native dengan modifikasi
+
+Paketnya akan diperlakukan sebagai paket umum dengan spesifikasi `debian` yang kita pelihara sendiri.
 
 <img src="../../Assets/Images/blankon-packaging-native-with-mod.png"/>
 
