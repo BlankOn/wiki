@@ -44,7 +44,7 @@ Contoh paket:
 
 ### Paket native dengan modifikasi
 
-<img src="../../Assets/Images/blankon-packaging-with-mod.png"/>
+<img src="../../Assets/Images/blankon-packaging-native-with-mod.png"/>
 
 ### Paket non-native
 
