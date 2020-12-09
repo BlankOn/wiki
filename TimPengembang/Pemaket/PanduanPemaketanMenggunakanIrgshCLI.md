@@ -24,7 +24,7 @@ Pastikan di berkas `~/.bashrc` atau `~/.zshrc` sudah diatur mengenai `DEBFULLNAM
 1. Lakukan perubahan sesuai paket yang akan dipaketkan. Silakan ubah berkas control, rules, dll sesuai kebutuhan. Perhatikan berkas control di direktori debian. Pastikan pemaket membuat entri `Uploaders` dengan identitas yang sama dengan kunci GPG pemaket. Jika ternyata sudah ada entri `Uploaders`, ubah entri tersebut menjadi `XSBC-Original-Uploaders`. Contohnya seperti ini:
 
 	```
-	ource: nama-paket
+	Source: nama-paket
 	Section: admin
 	Priority: important
 	Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
