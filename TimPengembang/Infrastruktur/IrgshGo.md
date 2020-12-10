@@ -1,5 +1,13 @@
 # Irgsh-go
 
+## Menyalakan layanan irgsh
+
+- Chief, `sudo systemctl start irgsh-chief`
+- Builer, `sudo systemctl start irgsh-builder`
+- Repo, `sudo systemctl start irgsh-repo`
+
+Untuk menghentikan layanan, gunakan `stop` alih-alih `start`.
+
 ## Mendaftarkan kunci pemaket ke irgsh
 
 - Bawa kunci publik pemaket terkait ke `rani.boi`
