@@ -3,7 +3,7 @@
 ## Infrastruktur (mesin)
 
 - Samsul Maarif
-- Estu Fardani
+- Estu Fardani <andro.medh4@gmail.com>
 - YHT
 - Herpiko Dwi Aguno <herpiko@gmail.com>
 
@@ -11,15 +11,20 @@
 
 ## Domain
 
-- blankon.id : ?
-- blankonlinux.or.id : ?
-- blankon.in : ?
+- blankon.id (rumahweb):
+  - Estu Fardani <andro.medh4@gmail.com>
+  - Darian 
+- blankonlinux.or.id (indocenter)
+  - Darian
+- blankon.in (rumahweb):
+  - Estu Fardani <andro.medh4@gmail.com>
+  - Darian 
 
 ## Docker Hub blankoninfra
 - Herpiko Dwi Aguno <herpiko@gmail.com>
 - YHT
 - Samsul Maarif
-- Estu Fardani
+- Estu Fardani <andro.medh4@gmail.com>
 
 ## Paket
 
@@ -34,6 +39,8 @@ https://irgsh.blankonlinux.or.id/maintainers
   - ?
   - ?
 - Twitter
+  - Levay
+  - Estu Fardani <andro.medh4@gmail.com>
 - Instagram
   - Slamet Santoso <slamets75@gmail.com>
 - Youtube
