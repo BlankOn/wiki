@@ -4,6 +4,7 @@
 
 - https://github.com/blankon/irgsh-go
   - Herpiko Dwi Aguno
+  - Ervien
 
 ## Jalur II: live-build
 
@@ -19,6 +20,11 @@
 
 - https://github.com/blankon/blankon-upgrade
   - Aji Kisworo Mukti
+  
+## Jalur V
+
+- OpenQA
+  - Sofyan Sugianto
 
 ## Hutang Teknis
 
