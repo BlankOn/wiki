@@ -8,6 +8,8 @@
   * [Sayembara](/Acara/Sayembara/README.md)
   * [Rapat](/TimPengembang/Dokumentasi/Rapat/README.md)
   * [Lokakarya dan Kelas](/TimPengembang/Dokumentasi/Kelas/README.md)
+  
+  * [Video Rekaman Acara BlankOn](https://www.youtube.com/channel/UCY1wW-gCLS6SmgluGGFCqjw)
 
 
 

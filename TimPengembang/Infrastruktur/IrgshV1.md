@@ -1,4 +1,4 @@
-
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github"/>
 
 
 # Menjalankan irgsh di `rani` :

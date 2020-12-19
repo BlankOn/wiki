@@ -23,7 +23,7 @@ module.exports = {
       items: [
         {
           position: 'left',
-          to: 'TimPengembang/TimBlankOn',
+          to: 'Partisipasi',
           label: 'Tim Pengembang',
         },
         {

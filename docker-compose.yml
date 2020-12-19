@@ -8,6 +8,7 @@ services:
       - ./docusaurus:/app
       - ./:/app/Wiki
       - ./Assets:/app/static/Assets
+      - ./raw-attachment:/app/static/raw-attachment
       - empty:/app/Wiki/docusaurus
     ports:
       - 3000:3000

@@ -10,7 +10,7 @@ Adapun notulen dan kesimpulan rapat, selain dicatat di sini biasanya dipublikasi
 Rapat TIM DOKUMENTASI: Senin 2007-09-04T07:00:00Z - #blankon @ irc.freenode.net
 + [Catatan Rapat TimDokumentasi 10 12 2007](/TimPengembang/Dokumentasi/Rapat/CatatanRapatTimDokumentasi10122007.md)
 
-+ Catatan Rapat Tim Dokumemtasi 20 08 07](/TimPengembang/Dokumentasi/Rapat/CatatanRapatTimDokumemtasi200807.md)
++ [Catatan Rapat Tim Dokumemtasi 20 08 07](/TimPengembang/Dokumentasi/Rapat/CatatanRapatTimDokumemtasi200807.md)
 
 ## 2008
 [Catatan Rapat  9 Oktober 2008](/Rapat/CatatanRapat09102008.md)
@@ -36,6 +36,9 @@ Rapat TIM DOKUMENTASI: Senin 2007-09-04T07:00:00Z - #blankon @ irc.freenode.net
 + [Notulensi Rapat  1 Maret 2017](/Rapat/NotulensiRapat01032017.md)
 
 ## 2020
-+ [Notulensi Rapat Persiapan Rilis Verbeek](./NotulensiRapat20201030.md)
++ [Notulensi Rapat Persiapan Rilis Verbeek#1](/NotulensiRapat20201030.md)
++ [Catatan Rapat Persiapan Rilis Verbeek#2](/CatatanRapat20201120.md)
++ [Catatan Rapat 20 November 2020](/CatatanRapat20201120.md)
+
   
 

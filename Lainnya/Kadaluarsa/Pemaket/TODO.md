@@ -1,3 +1,5 @@
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github"/>
+
 # Berbagai hal yang perlu dilakukan oleh tim pemaket:
     * Membuat paket meta multimedia-blankon
     * Contoh paket-paket yang perlu dimasukkan ke dalam multimedia-blankon
@@ -16,4 +18,4 @@ KategoriPemaket
 Last modified on 06/28/2008 01:08:34 AM
 
 ---
- 
+

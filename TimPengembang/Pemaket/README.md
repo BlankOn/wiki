@@ -1,23 +1,31 @@
 # Tentang Tim Pemaket
 
-Tim yang bertugas membuat dan merawat paket - paket yang ada pada distribusi BlankOn, baik paket impor, khas, maupun paket mentah.
+Merupakan tim yang bertugas membuat dan merawat paket-paket yang ada pada distribusi BlankOn, baik paket impor, khas, maupun paket mentah.
 
 ### Cakupan tugas
 
-#### Tim Pemaket bertugas:
+#### Tim Pemaket bertugas
+
 - Membuat daftar paket yang akan masuk bibit paket.
-- Membuat dan mengelola paket tersebut di bzr.
+- Membuat dan mengelola paket tersebut di https://github.com/BlankOn dan https://github.com/blankon-packages
 - Mendaftarkan paket ke pabrik paket.
 
 ### Panduan Pemula
 
-Untuk membantu mulai belajar membuat paket debian, tulisan - tulisan dibawah ini akan membawa Anda mempersiapkan dan mendalami pembuatan paket debian yang dapat dikontribusikan kepada proyek pengembangan BlankOn, dan sekaligus membawa Anda ikut terlibat kedalam proyek BlankOn sebagai tim Pemaket.
-- [Persiapan alat](http://dev.blankonlinux.or.id/wiki/Pemaket/PanduanPembuatanPaketMotu)
-- Administrasi
-- [Pengenalan Pemaketan Debian](http://dev.blankonlinux.or.id/wiki/Pemaket/MembuatPaketDebian)
-- [Buku Panduan Pemaketan](http://dev.blankonlinux.or.id/attachment/wiki/Pemaket/Panduan-Pemaketan-BlankOn.2.pdf)
-- Manajemen Pemaketan BlankOn
-- [Pbuilder Multi ARCH](http://dev.blankon.id/wiki/Pemaket/PanduanPbuilderMultiARCH)
+Untuk membantu mulai belajar membuat paket debian, tulisan-tulisan di bawah ini akan membawa Anda mempersiapkan dan mendalami pembuatan paket debian yang dapat dikontribusikan kepada proyek pengembangan BlankOn, dan sekaligus membawa Anda ikut terlibat kedalam proyek BlankOn sebagai tim Pemaket.
+
+- [Pengenalan pemaketan Debian](./MembuatPaketDebian.md)
+- [Spesifikasi paket Debian](./SpesifikasiPaketDebian.md)
+
+### Panduan Tingkat Lanjut
+- [Persiapan perkakas untuk bekerja dengan IRGSH](./PanduanIrgshCLIUntukPemaket.md)
+- [Panduan cara membangun paket dengan IRGSH](./PanduanPemaketanMenggunakanIrgshCLI.md)
+
+### Administrasi
+
+Setiap pemaket wajib memiliki pasangan kunci GPG pribadi yang dipelihara secara jangka panjang dan berkelanjutan.
+
+Pemaket pemula yang (1) telah belajar dan mampu membangun paket dan (2) dapat diberi amanah untuk menjalankan tugas pemaketan, kuncinya dapat didaftarkan ke IRGSH dengan bantuan tim Infrastruktur.
 
 ### Referensi Pemaket
 - [Debian Policy Manual](http://www.debian.org/doc/debian-policy)
@@ -27,6 +35,3 @@ Untuk membantu mulai belajar membuat paket debian, tulisan - tulisan dibawah ini
 - [Ubuntu MOTU School](https://wiki.ubuntu.com/MOTU/School)
 - [Bazaar Documentation](http://bazaar-vcs.org/Documentation)
 - [Manual CDBS](https://perso.duckcorp.org/duck/cdbs-doc/cdbs-doc.xhtml)
-
-
----

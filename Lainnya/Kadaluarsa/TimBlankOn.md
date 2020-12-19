@@ -1,3 +1,5 @@
+<img src="https://badgen.net/badge/wiki/kadaluarsa/red?icon=github"/>
+
 # Tim Pengembang BlankOn
 
 Pada awal pengembangan, Tim Pengembang BlankOn dibagi menjadi dua tim:
