@@ -27,6 +27,11 @@ tar -zcvf calamares-settings-blankon_11.0.4.orig.tar.gz source
 ```
 Enter the desired patch name: BlankOn branding
 ```
+- Anda akan dibawa ke aplikasi penyunting teks untuk menyunting deskripsi patch. Tuliskan deskripsi sesuai patch yang dilakukan. Untuk metadata, cukup sesuaikan nilai untuk `Origin` (alamat lumbung source) dan `Bug` (dapat diisi pranala tiket). Contoh,
+```
+Origin: other, git@github.com:BlankOn/calamares-settings-blankon.git
+Bug: https://github.com/BlankOn/Verbeek/issues/168
+```
 - Patch akan dibuat di `.pc` dan `debian/patches`
 - Perbarui informasi `Uploaders` di debian/control dan revisi di debian/changelog bila diperlukan.
 - Commit semua perubahan yang ada ke git.
