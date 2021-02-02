@@ -38,18 +38,20 @@ Contoh paket:
 - GNOME
 - Mozilla Firefox
 
+Di BlankOn, mengikuti kebutuhan, ada 3 jenis paket: paket native, paket native yang difork menjadi paket non-native, dan paket non-native.
+
 ## Ilustrasi
 
-### Paket native tanpa modifikasi
+### 1. Paket native tanpa modifikasi
 
 <img src="../../Assets/Images/blankon-packaging-native-without-mod.png"/>
 
-### Paket native dengan modifikasi
+### 2. Paket native dengan modifikasi
 
 Paketnya akan diperlakukan sebagai paket umum dengan spesifikasi `debian` yang kita pelihara sendiri.
 
 <img src="../../Assets/Images/blankon-packaging-native-with-mod.png"/>
 
-### Paket non-native
+### 3. Paket non-native
 
 <img src="../../Assets/Images/blankon-packaging-non-native.png"/>
