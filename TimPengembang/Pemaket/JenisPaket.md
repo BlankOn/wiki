@@ -38,7 +38,11 @@ Contoh paket:
 - GNOME
 - Mozilla Firefox
 
-Di BlankOn, mengikuti kebutuhan, ada 3 jenis paket: paket native, paket native yang difork menjadi paket non-native, dan paket non-native.
+Di BlankOn, mengikuti kebutuhan, ada 4 jenis paket: 
+1. Paket native
+2. Paket native yang difork menjadi paket non-native
+3. Paket non-native (quilt)
+4. Paket divert (https://www.debian.org/doc/debian-policy/ap-pkg-diversions.html)
 
 ## Ilustrasi
 
