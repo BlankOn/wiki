@@ -4,6 +4,8 @@ Panduan ini dapat digunakan untuk menambal [paket native yang difork menjadi pak
 
 Dalam contoh ini, kita akan menggunakan studi kasus dari paket `calamares-settings-blankon`
 
+## Dengan dpkg-source
+
 ### Menyiapkan tarball orig
 
 - Kloning berkas source ke `source`, 
@@ -37,4 +39,49 @@ Bug: https://github.com/BlankOn/Verbeek/issues/168
 - Commit semua perubahan yang ada ke git.
 
 
+## Dengan diff
 
+- `apt-get source gdm3`
+- `cp gdm3 gdm3.orig`
+- Masuk ke `gmd3` dan lakukan perubahan
+- Keluar dari `gdm3`
+- Lakukan `diff` antara 2 direktori tersebut
+- Hasil `diff` dimasukkan ke `debian/patches`
+
+## Dengan debian/rules
+
+Untuk berkas yang sifatnya binari (bukan teks) seperti berkas PNG atau *executable binary*, *patching* dilakukan lewat `debian/rules` dengan menambahkan baris yang akan menyalin berkas tersebut ke `path` yang diinginkan, contoh:
+
+```
+cp debian/BlankonLogoBlank.png panels/info/BlankonLogoBlank.png
+```
+
+Contoh lengkap pada paket `gnome-control-center`
+```
+$cat debian/rules
+#!/usr/bin/make -f
+
+include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
+
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
+export DEB_CPPFLAGS_MAINT_APPEND = -DSSHD_SERVICE=\"ssh.service\"
+
+%:
+        dh $@ --with gnome
+
+override_dh_autoreconf:
+        dh_autoreconf --as-needed
+
+override_dh_auto_configure:
+        dh_auto_configure -- \
+                --libexecdir=\$${prefix}/lib/gnome-control-center \
+                --with-gnome-session-libexecdir=\$${prefix}/lib/gnome-session \
+                --disable-update-mimedb
+
+override_dh_auto_build:
+        cp debian/BlankonLogoBlank.png panels/info/BlankonLogoBlank.png
+        dh_auto_build
+
+override_dh_missing:
+        dh_missing --fail-missing
+```
