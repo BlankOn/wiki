@@ -1,5 +1,13 @@
 # Irgsh-go
 
+## Menyalakan layanan irgsh
+
+- Chief, `sudo systemctl start irgsh-chief`
+- Builer, `sudo systemctl start irgsh-builder`
+- Repo, `sudo systemctl start irgsh-repo`
+
+Untuk menghentikan layanan, gunakan `stop` alih-alih `start`.
+
 ## Mendaftarkan kunci pemaket ke irgsh
 
 - Bawa kunci publik pemaket terkait ke `rani.boi`
@@ -7,6 +15,27 @@
 - Ganti pakaian ke pengguna `irgsh`
 - Impor kunci publi pemaket terkait dengan perintah `gpg --import < /path/to/pubkey`
 - Setelah diimpor, pastikan identitas pemaket terkait terdaftar, cek dengan perintah `gpg --list-key`
+
+## Memperbarui pbuilder base.tgz
+
+Perbarui dengan langkah berikut:
+- Masuk ke `rani.boi`
+- Ganti pakaian ke pengguna `irgsh`
+- Perbarui base.tgz-nya dengan perintah (__dengan sudo__), `sudo irgsh-builder update-base`
+- Perbarui pbockernya dengan perintah (__tanpa sudo__), `irgsh-builder init-builder`
+
+## Sinkronisasi dengan hulu
+
+Secara berkala arsip-dev perlu disinkronkan dengan lumbung hulu (saat ini Debian Sid). Langkahnya adalah sebagai berikut:
+
+- Masuk ke `rani.boi`
+- Ganti pakaian ke pengguna `irgsh`
+- Sinkronkan dengan perintah (__tanpa sudo__), `irgsh-repo sync`
+- Setelah selesai, lakukan pembaruan pbuilder base.tgz
+
+Jika menjalankan pekerjaan ini secara manual, disarankan dijalankan di dalam sesi `screen` atau `tmux`, karena dapat memakan waktu yang cukup lama.
+
+Langkah-langkah di atas dapat dimasukkan ke dalam konfigurasi cron supaya dieksekusi secara otomatis dan berkala.
 
 ## Sidik Gangguan
 
@@ -33,8 +62,4 @@ I: removing directory /var/cache/pbuilder/build/7 and its subdirectories
 404 page not found
 ```
 
-Hal ini disebabkan base.tgz yang digunakan oleh pbuilder (dalam kasus irgsh-go, oleh pbocker) tertinggal oleh pembaruan yang terjadi di lumbung hulu. Perbarui dengan langkah berikut:
-- Masuk ke `rani.boi`
-- Ganti pakaian ke pengguna `irgsh`
-- Perbarui base.tgz-nya dengan perintah (dengan sudo), `sudo irgsh-builder update-base`
-- Perbarui pbockernya dengan perintah (tanpa sudo), `irgsh-builder init-builder`
+Hal ini disebabkan base.tgz yang digunakan oleh pbuilder (dalam kasus irgsh-go, oleh pbocker) tertinggal oleh pembaruan yang terjadi di lumbung hulu. Lakukan pembaruan pbuilder base.tgz.

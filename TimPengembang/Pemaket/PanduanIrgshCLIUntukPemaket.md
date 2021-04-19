@@ -4,7 +4,7 @@
 
 ### Kebutuhan
 
-- `apt install gnupg build-essential devscripts debhelper`
+- `apt install gnupg build-essential devscripts debhelper lintian dch`
 
 ### Generate
 
@@ -43,7 +43,7 @@ GnuPG needs to construct a user ID to identify your key.
 
 Real name: Herpiko Dwi Aguno
 Email address: herpiko@gmail.com
-Comment: 
+Comment:
 You selected this USER-ID:
     "Herpiko Dwi Aguno <herpiko@gmail.com>"
 
@@ -123,10 +123,10 @@ curl -L -o- https://raw.githubusercontent.com/BlankOn/irgsh-go/master/install-cl
 Bila sudah selesai, akan tampil output seperti di bawah ini yang menandakan irgsh-cli siap dipakai,
 ```
 /tmp /tmp
-Extracting ... 
+Extracting ...
 Extracting [OK]
 
-Installing files ... 
+Installing files ...
 '/tmp/irgsh-go/usr/bin/irgsh-cli' -> '/usr/bin/irgsh-cli'
 Happy hacking!
 ```
@@ -163,7 +163,15 @@ irgsh-cli submit --source https://github.com/blankon/bromo-theme --package https
 
 Flag `--experimental` menandakan paket ini akan disuntikkan ke lumbung experimental alih-alih ke lumbung pengembangan resmi. Tujuannya untuk uji coba sebelum benar-benar dipaketkan ke lumbung.
 
+### Lumbung BlankOn
+
 Lumbung pengembangan resmi terletak di arsip-dev.blankonlinux.or.id. Untuk paket experimental akan disuntik ke arsip-dev.blankonlinux.or.id/experimental, sementara paket resmi masuk ke arsip-dev.blankonlinux.or.id/dev.
+
+Lumbung experimental digunakan oleh pemaket ketika menguji suatu paket. Pemaket harus memastikan bahwa aplikasi yang dipaketkan berhasil dibuat di lumbung ini. Jika sudah dipastikan sukses (bisa dicek hasilnya di [sini](arsip-dev.blankonlinux.or.id/experimental/pool/)), maka paket tersebut boleh disuntikkan ke lumbung dev.
+
+Ketika paket sudah masuk ke lumbung dev, paket tersebut akan kembali diuji. Pengembang harus bisa memastikan bahwa paket tersebut berjalan sesuai harapan, baik itu sukses dipasang, sukses diupgrade, maupun sukses dihapus.  
+
+### Memantau proses pembangunan paket
 
 Untuk memantau proses pembangunan paket, gunakan perintah berikut:
 
@@ -176,40 +184,5 @@ Atau dengan membubuhkan id pipeline,
 irgsh-cli log 2020-11-21-205136_b8dbbd86-0ee1-409a-b3e3-4ec4d97c5302
 ```
 
+Panduan lebih detail mengenai pemaketan dengan irgsh-cli dapat disimak di https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/PanduanPemaketanMenggunakanIrgshCli.md
 
-## Sidik Gangguan
-
-### Kunci privat tidak dikenali
-
-Pesan galat menyerupai,
-```
-gpg: skipped "41B4FC0A57E7F7F8DD94E0AA2D21BB5FAA32AF3F": No secret key
-gpg: /tmp/debsign.QNCSozgK/blankon-keyring_2016.09.04-4.2.dsc: clear-sign failed: No secret key
-debsign: gpg error occurred!  Aborting....
-debuild: fatal error at line 1112:
-running debsign failed
-```
-
-Antara lain mungkin disebabkan oleh:
-- Identitas kunci untuk menandatangani paket belum ditetapkan atau tidak cocok dengan yang ada di kantong kunci GPG Anda. Silakan ditetap dengan perintah, `rgsh-cli config --chief https://irgsh.blankonlinux.or.id --key YOURKEYIDENTITY`
-- Nama dan alamat surat elektronik perawat paket yang ada di berkas `debian/changelog` tidak cocok dengan identitas kunci yang ada di kantong kunci GPG Anda. Silakan sesuaikan lagi berkas tersebut.
-
-
-### Permission denied di tty
-
-Galatnya,
-```
-gpg: agent_genkey failed: Permission denied
-Key generation failed: Permission denied
-```
-
-Biasanya terjadi bila mencoba generate gpg namun dalam sesi SSH. Solusinya coba generate ulang namun dalam tmux atau cek kepemilikan sesi tty dengan,
-
-```
-ls -l $(tty)
-```
-
-Lalu geser kepemilikannya dengan,
-```
-chown namapengguna /dev/pts/0
-```
