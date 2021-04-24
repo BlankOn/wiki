@@ -1,6 +1,6 @@
 # PANDUAN PEMAKETAN BLANKON WALLPAPERS MENGGUNAKAN KOMPUTER LOKAL
    1. Sebelum melakukan pemaketan BlankOn Wallapers silahkan persiapkan
-      alatnya. Bisa dibaca di Wiki atau ​Buku_Panduan_Pemaketan. Pada proses
+      alatnya. Bisa dibaca di Wiki atau [Buku_Panduan_Pemaketan](https://raw.githubusercontent.com/BlankOn/wiki/master/raw-attachment/wiki/Pemaket/Panduan-Pemaketan-BlankOn.pdf). Pada proses
       persiapan alat, baca panduan sampai pada pembuatan kunci.
    2. Buka terminal, buat folder Paket di home dan masuk ke folder Paket/
       dengan ketik perintah
