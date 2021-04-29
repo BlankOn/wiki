@@ -26,6 +26,14 @@ Panduan menyunting:
 
 - http://irgsh.blankonlinux.or.id (rani) - Induk IRGSH, diberdayai oleh irgsh-chief
 
+## K
+
+- http://konf.blankon.id (rafi) - Laman utama BlanKonf
+- http://konf2010.blankon.id (rafi) - Laman utama BlanKonf #2
+- http://konf2011.blankon.id (rafi) - Laman utama BlanKonf #3
+- http://konf2012.blankon.id (rafi) - Laman utama BlanKonf #4
+- http://konf.blankonlinux.or.id (rafi) - Hanaya redirect ke konf.blankon.id
+
 ## L
 
 - http://lapor.blankon.id (rafi) - Pelaporan kutu dari pengguna
@@ -42,7 +50,9 @@ Panduan menyunting:
 
 ## S
 
+- http://sajadah.blankon.id (rafi) - Laman BlankOn Sajadah
 - http://serambi.blankon.id (GitLab Pages) - Agregat blog para pendekar BlankOn
+- http://sajadah.blankonlinux.or.id (rafi) - Hanayra redirect ke sajadah.blankon.id
 
 ## P
 
