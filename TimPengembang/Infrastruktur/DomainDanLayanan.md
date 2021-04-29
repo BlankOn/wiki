@@ -41,7 +41,7 @@ Panduan menyunting:
 
 ## M
 
-- http://manokwari.balnkon.id (rafi) - Halaman web untuk DE Manokwari
+- http://manokwari.blankon.id (rafi) - Halaman web untuk DE Manokwari
 
 ## R
 
