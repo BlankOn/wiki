@@ -7,5 +7,5 @@
   <Image width="16" height="16" type="image/x-icon">https://dev.blankonlinux.or.id/img/favicon.ico</Image>
   <Url type="text/html" method="get" template="https://dev.blankonlinux.or.id/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://dev.blankonlinux.or.id/opensearch.xml" />
-  <moz:SearchForm>https://dev.blankonlinux.or.id</moz:SearchForm>
+  <moz:SearchForm>https://dev.blankonlinux.or.id/</moz:SearchForm>
 </OpenSearchDescription>
