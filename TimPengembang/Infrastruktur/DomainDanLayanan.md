@@ -43,3 +43,8 @@ Panduan menyunting:
 ## S
 
 - http://serambi.blankon.id (GitLab Pages) - Agregat blog para pendekar BlankOn
+
+## P
+
+- http://panduan.blankon.id (rafi) - Laman panduan BlankOn Linux
+- http://panduan.blankonlinux.or.id (rafi) - Hanya redirect ke panduan.blankon.id
