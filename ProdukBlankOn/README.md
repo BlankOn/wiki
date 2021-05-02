@@ -13,7 +13,7 @@
   9. [Suroboyo](ProdukBlankOn/9/README.md)
   10. [Tambora](ProdukBlankOn/10/README.md)
   11. [Uluwatu](ProdukBlankOn/11/README.md)
-  12. [Verbeek (dalam proses pengembangan)](https://github.com/BlankOn/verbeek)
+  12. [Verbeek (dalam proses pengembangan)](ProdukBlankOn/12/README.md)
 
 BlankOn Linux pertama kali dikembangkan oleh YPLI pada tahun 2004 dengan nama kode "Bianglala". Pada saat itu, BlankOn merupakan turunan dari distro Fedora Core 3. Namun, rilis BlankOn pada saat itu berakhir sampai versi 1.1 dan akhirnya mati suri.
 
