@@ -1,0 +1,33 @@
+# Catatan Rilis BlankOn XII Alpha-1
+
+Salam untuk para pecinta Linux dan pejuang perangkat lunak bebas dan terbuka!
+
+Tepat pada hari ke-17 Ramadhan tahun 1442 H atau bertepatan dengan tanggal 29 April 2021 M, kami para pengembang BlankOn, secara resmi meluncurkan rilis Alpha-1. Pada rilis ini pengembang BlankOn hanya meluncurkan untuk arsitektur amd64 versi pengembangan yang ditujukan untuk pengujian dan pengguna ahli. Karena merupakan versi pengembangan, masih akan ditemukan banyak kutu untuk diperbaiki pada rilis pengembangan versi berikutnya.
+
+verbeek_29_04_2021_08_26_02
+
+Berkas ISO untuk Alpha-1 ini dapat diunduh di: https://cdimage.blankonlinux.or.id/blankon/rilis/verbeek/Alpha-1/
+
+Daftar masalah yang diketahui pada rilis Alpha-1 ini dapat dibaca di https://github.com/BlankOn/Verbeek/labels/Jahitan
+
+Apabila menemukan masalah pada Rilis Alpha-1 BlankOn 12 Verbeek, silakan laporkan melalui https://lapor.blankon.id
+
+Beberapa catatan untuk rilis Alpha-1 kali ini:
+
+Para pengembang menggunakan alat pengembangan irgsh-go yang merupakan penulisan ulang dari awal (rewrite from scratch) dari IRGSH (dibaca irgis) lama.
+Untuk meracik berkas ISO Alpha-1 ini dan seterusnya, para pengembang BlankOn menggunakan live-build.
+Lingkungan desktop menggunakan GNOME 3.38.5
+Installer menggunakan Calamares #168
+Menyertakan ekstensi desktop pop-shell #154
+Untuk saaat ini, kami TIDAK MENYARANKAN pengguna BlankON meng-upgrade sistem dari BlankOn 11 Uluwatu ke versi ini karena versi ini masih tahap awal pengembangan.
+
+Target untuk rilis pengembangan berikutnya adalah:
+
+Menambah dukungan untuk UEFI
+Implementasi branding BlankOn
+Perbaikan kutu yang ditemukan pada Alpha-1
+Plt. Manajer Rilis BlankOn,
+
+Samsul Ma’arif
+
+sumber: https://blankon.id/berita/2021/04/29/catatan-rilis-blankon-12-alpha-1.html
