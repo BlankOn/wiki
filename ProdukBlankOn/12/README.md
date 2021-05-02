@@ -6,4 +6,4 @@ Nama kode Verbeek (dibaca:verbik) diambil dari nama pegunungan yang terletak di 
 Daftar Pengembang dapat dibaca [di sini](https://github.com/BlankOn/Verbeek/blob/master/TEAM.md)
 
 ## Catatan Rilis BlankOn XII Verbeek
-* [Catatan Rilis BlankOn XII Alpha-1](https://github.com/BlankOn/wiki/blob/master/ProdukBlankOn/12/CatatanRilisBlankOnXIIAlpha-1)
+* [Catatan Rilis BlankOn XII Alpha-1](/ProdukBlankOn/CatatanRilisBlankOnXIIAlpha-1)
