@@ -41,6 +41,7 @@ https://irgsh.blankonlinux.or.id/maintainers
 - Twitter
   - Levay
   - Estu Fardani <andro.medh4@gmail.com>
+  - Slamet Santoso <slamets75@gmail.com>
 - Instagram
   - Slamet Santoso <slamets75@gmail.com>
 - Youtube
