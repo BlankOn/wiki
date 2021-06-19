@@ -42,6 +42,7 @@ Panduan menyunting:
 ## M
 
 - http://manokwari.blankon.id (rafi) - Halaman web untuk DE Manokwari
+- http://monitoring.blankonlinux.or.id (rafi) - Monitoring mesin-mesin infra BlankOn Linux
 
 ## R
 
