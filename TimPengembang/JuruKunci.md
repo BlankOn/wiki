@@ -6,8 +6,7 @@
 - Estu Fardani <andro.medh4@gmail.com>
 - YHT
 - Herpiko Dwi Aguno <herpiko@gmail.com>
-
-
+- Aditya Rahman <adityarahman032@gmail.com>
 
 ## Domain
 
@@ -53,8 +52,8 @@ https://irgsh.blankonlinux.or.id/maintainers
 
 ### Juru Kunci
 
-- Samsul Maarif mail@samsul.web.id
-- Aditya Rahman adityarahman032@gmail.com
+- Samsul Maarif <mail@samsul.web.id>
+- Aditya Rahman <adityarahman032@gmail.com>
 
 ### Sertifikat yang dikelola
 
@@ -63,3 +62,10 @@ https://irgsh.blankonlinux.or.id/maintainers
 | BlankOnRootCA | Root CA |
 | BlankOnIntermediateCA | Sertifikat Intermediate |
 | redis-stunnel | Sertifikat SSL untul stunnel redis |
+
+## Monitoring
+
+https://monitoring.blankonlinux.or.id
+
+- Samsul Maarif <mail@samsul.web.id>
+- Aditya Rahman <adityarahman032@gmail.com>
