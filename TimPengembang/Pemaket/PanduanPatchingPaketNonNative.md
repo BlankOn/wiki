@@ -4,7 +4,7 @@ Panduan ini dapat digunakan untuk menambal [paket native yang difork menjadi pak
 
 Dalam contoh ini, kita akan menggunakan studi kasus dari paket `calamares-settings-blankon`
 
-## Dengan dpkg-source
+## Dengan perkakas Quilt
 
 ### Menyiapkan tarball orig
 
@@ -17,27 +17,27 @@ git clone git@github.com:BlankOn/calamares-settings-blankon.git source
 tar -zcvf calamares-settings-blankon_11.0.4.orig.tar.gz source
 ```
 
-### Membuat patch
+### Membuat tambalan
 
 - Kloning berkas spesifikasi Debian untuk paket ini,
 ```
   git clone git@github.com:blankon-packages/calamares-settings-blankon.git package
 ```
-- Masuk ke `package`, lakukan perubahan/branding yang diperlukan
-- Buat patch dengan perintah `dpkg-source --commit`
-- Masukkan nama patch, misalnya `BlankOn branding`
+- Letakkan berkas tarball `calamares-settings-blankon_11.0.4.orig.tar.gz` tadi sejajar dengan direktori `package`
+- Jika versi spesifikasi debian ini belum sama dengan tarball orig-nya, naikkan versinya dengan `dch -i` lalu commit perubahannya.
+- Masuk ke `package`, jalankan `quilt refresh ` untuk memasitkan perubahan terakhir disesuaikan dengan tarball orig `calamares-settings-blankon_11.0.4.orig.tar.gz`.
+- Jika ada perubahan dari `quilt refresh`, lakukan commit git terlebih dahulu.
+- Buat patch baru dengan `quilt new namaTambalan.diff`. Quilt akan menyiapkan berkas tambalannya:
 ```
-Enter the desired patch name: BlankOn branding
+        modified:   .pc/applied-patches
+        modified:   debian/patches/series
 ```
-- Anda akan dibawa ke aplikasi penyunting teks untuk menyunting deskripsi patch. Tuliskan deskripsi sesuai patch yang dilakukan. Untuk metadata, cukup sesuaikan nilai untuk `Origin` (alamat lumbung source) dan `Bug` (dapat diisi pranala tiket). Contoh,
-```
-Origin: other, git@github.com:BlankOn/calamares-settings-blankon.git
-Bug: https://github.com/BlankOn/Verbeek/issues/168
-```
-- Patch akan dibuat di `.pc` dan `debian/patches`
-- Perbarui informasi `Uploaders` di debian/control dan revisi di debian/changelog bila diperlukan.
-- Commit semua perubahan yang ada ke git.
-
+- Lakukan penambalan:
+  - Tandai berkas yang mau disunting atau ditambahkan, `quilt add scripts/bootloader-config`
+  - Lakukan perubahan/branding yang diperlukan, baik dengan menyunting maupun menambahkan berkas.
+  - Simpan tambalan dengan `quilt refresh`
+- Langkah di atas dapat dilakukan berulang kali untuk lebih dari 1 berkas.
+- Jika sudah cukup, lakukan commit git atas semua perubahan yang ada.
 
 ## Dengan diff
 
