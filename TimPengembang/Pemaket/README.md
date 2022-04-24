@@ -25,7 +25,7 @@ Untuk membantu mulai belajar membuat paket debian, tulisan-tulisan di bawah ini 
 
 Setiap pemaket wajib memiliki pasangan kunci GPG pribadi yang dipelihara secara jangka panjang dan berkelanjutan.
 
-Pemaket pemula yang (1) telah belajar dan mampu membangun paket dan (2) dapat diberi amanah untuk menjalankan tugas pemaketan, kuncinya dapat didaftarkan ke IRGSH dengan bantuan tim Infrastruktur.
+Pemaket pemula yang (1) telah belajar dan mampu membangun paket dan (2) dapat diberi amanah untuk menjalankan tugas pemaketan, [kuncinya dapat didaftarkan ke IRGSH dengan bantuan tim Infrastruktur](https://github.com/BlankOn/wiki/blob/master/TimPengembang/Pemaket/PanduanIrgshCLIUntukPemaket.md#pendaftaran-kunci-pemaket-ke-irgsh).
 
 ### Referensi Pemaket
 - [Debian Policy Manual](http://www.debian.org/doc/debian-policy)
