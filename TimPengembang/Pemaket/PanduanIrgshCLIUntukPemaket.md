@@ -105,7 +105,22 @@ Bagian ini dilakukan oleh Tim Infra.
 - Bawa kunci-kunci yang mau diimpor ke mesin irgsh, misal dengan `scp`
 - Masuk ke user `irgsh`
 - Impor dengan perintah `gpg --import < /path/to/pub.key`
-- setelah diimpor, pastikan kuncinya terdaftar dengan perintah `gpg --list-key`
+- Setelah diimpor, pastikan kuncinya terdaftar dengan perintah `gpg --list-key`
+
+Untuk menghapus kunci (misal pemaket sudah mengundurkan diri),
+- Cari ID kuncinya dari `gpg --list-key`
+- Hapus dengan perintah `gpg --delete-key IDKUNCI`, misal
+```
+gpg --delete-key 2241430595AAE28DA3352AACA2DFD68CA9E2F65A
+gpg (GnuPG) 2.2.12; Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+
+pub  rsa4096/A2DFD68CA9E2F65A 2021-06-16 RedactedName <redacted.name@gmail.com>
+
+Delete this key from the keyring? (y/N) y
+```
 
 ## irgsh-cli
 
