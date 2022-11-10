@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'BlankOn', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
+  trailingSlash: true,
   themeConfig: {
     colorMode: {
       disableSwitch: true
