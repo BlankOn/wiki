@@ -4,31 +4,19 @@ on: workflow_dispatch
 jobs:
   deploy:
     name: Build and deploy
-    runs-on: ubuntu-18.04
-    env:
-      GH_NAME: ${{ secrets.GH_NAME }}
-      GH_EMAIL: ${{ secrets.GH_EMAIL }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.3.4
-    - name: Setup Node.js
-      uses: actions/setup-node@v2.1.2
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v3
       with:
-        node-version: 12.x
-    - name: Cache build wiki
-      uses: actions/cache@v2.1.3
+        node-version: 16
+        cache: yarn
+    - name: Build
+      run: ./scripts/build.sh
+    - name: Cache build wiki assets
+      uses: actions/cache@v2
       with:
         path: |
-          docusaurus/Wiki
+          docusaurus/wiki
           docusaurus/static/Assets
           docusaurus/static
-          node_modules
-        key: ${{ runner.os }}
-    - name: Setup github account
-      run: |
-        git config --global user.name "${GH_NAME}"
-        git config --global user.email "${GH_EMAIL}"
-        echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-        echo "GIT_USER=${GH_NAME}" >> $GITHUB_ENV
-    - name: Kick
-      run: ./scripts/deploy.sh
