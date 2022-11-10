@@ -5,7 +5,7 @@ Gemfile.lock
 .idea
 .docusaurus
 build
-docusaurus/Wiki
+docusaurus/wiki
 docusaurus/static/Assets
 docusaurus/static/raw-attachment
 
