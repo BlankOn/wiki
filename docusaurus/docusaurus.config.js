@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'BlankOn', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      disableSwitch: true
+    },
     docs: {
       sidebar: {
         hideable: true

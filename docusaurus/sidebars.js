@@ -14,10 +14,7 @@ module.exports = {
       label: 'Tim Rilis',
       collapsed: false,
       items: [
-        {
-          type: 'doc',
-          id: 'TimPengembang/Pemaket/README'
-        },
+        'TimPengembang/Pemaket/README',
         'TimPengembang/Kesenian/README',
         'TimPengembang/JaminanKualitas/README',
         'TimPengembang/Dokumentasi/README',
