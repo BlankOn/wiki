@@ -7,5 +7,5 @@ rsync -a --delete ./raw-attachment ./docusaurus/static/
 
 pushd docusaurus
 yarn --frozen-lock
-yarn build
+yarn run build
 popd
