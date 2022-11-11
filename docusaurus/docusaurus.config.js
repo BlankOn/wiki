@@ -7,11 +7,20 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'BlankOn', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
+  trailingSlash: true,
   themeConfig: {
-    hideableSidebar: true,
+    colorMode: {
+      disableSwitch: true
+    },
+    docs: {
+      sidebar: {
+        hideable: true
+      },
+    },
     algolia: {
-      apiKey: '288fe504a4624b981c1975ce5c5f0f64',
-      indexName: 'blankonlinux',
+      appId: '80516KNSUD',
+      apiKey: '5bce941f0be785f67af8f7953544b4b9',
+      indexName: 'blankonlinux'
     },
     navbar: {
       title: 'BlankOn',
@@ -28,7 +37,7 @@ module.exports = {
         },
         {
           position: 'left',
-          to: 'ProdukBlankOn/README',
+          to: 'ProdukBlankOn',
           label: 'Produk'
         },
         {
@@ -54,7 +63,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          path: 'Wiki',
+          path: 'wiki',
           editUrl: 'https://github.com/BlankOn/wiki/edit/master/',
           routeBasePath: '/',
         },

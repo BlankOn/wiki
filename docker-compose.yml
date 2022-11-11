@@ -1,15 +1,15 @@
-version: "3"
+version: "3.5"
 services:
   docusaurus:
-    image: node:12-alpine
+    image: node:16-alpine
     working_dir: /app
-    command: ["/bin/sh", "/app/Wiki/scripts/develop.sh"]
+    command: ["/bin/sh", "/app/wiki/scripts/develop.sh"]
     volumes:
       - ./docusaurus:/app
-      - ./:/app/Wiki
+      - ./:/app/wiki
       - ./Assets:/app/static/Assets
       - ./raw-attachment:/app/static/raw-attachment
-      - empty:/app/Wiki/docusaurus
+      - empty:/app/wiki/docusaurus
     ports:
       - 3000:3000
 volumes:
