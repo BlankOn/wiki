@@ -12,6 +12,9 @@
 - `chroot` - Konfigurasi terkait chroot
 - `common` - Konfigurasi terkait distribusi (init system, package manager, image name, etc)
 
+### User profile
+- Username: `blankon`, disetel di berkas `binary` baris `LB_BOOTAPPEND_LIVE`
+- Sandi: `live`
 
 ### `live.list.chroot`
 - `live-boot`
