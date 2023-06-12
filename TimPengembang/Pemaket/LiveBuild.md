@@ -21,4 +21,4 @@
 - `live-config`
 - `live-config-systemd`
 - `task-gnome-desktop` - paket komplit desktop sampai aplikasi perkantoran, email dll, https://packages.debian.org/bullseye/task-gnome-desktop
-- `live-task-gnome`
+- `live-task-gnome` - https://salsa.debian.org/live-team/live-tasks
