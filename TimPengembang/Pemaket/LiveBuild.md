@@ -2,6 +2,10 @@
 ### Struktur direktori
 
 - `config/`
+  - `archives`
+    - `default.list.chroot` - Lumbung utama
+    - `live.key.binary` - ? (dari mana?)
+    - `live.key.chroot` - ? (berkas yang sama dengan yang di atas)
   - `hooks/` - Skrip-skrip untuk konfigurasi sistem dihimpun di sini
     - `live/` - Konfigurasi sistem untuk live
     - `normal/` - Konfigurasi sistem untuk yang normal
