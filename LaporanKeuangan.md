@@ -1,3 +1,16 @@
+### Rekening donasi:
+
+Bank Jago atas nama Slamet Santoso
+```
+107556495313
+```
+
+### Penanggung jawab dana:
+- Slamet Santoso
+- Herpiko Dwi Aguno
+
+### Catatan Transaksi
+
 | No | Tanggal     | Item                                                    | Keterangan                    | Kredit       | Debit     | Saldo       |
 |----|-------------|---------------------------------------------------------|-------------------------------|--------------|-----------|-------------|
 | 2  | 2020-10-30  | Donasi SSD 128GB Team dari Pak Estu                     | Barang                        | 275,000      |           |             |
