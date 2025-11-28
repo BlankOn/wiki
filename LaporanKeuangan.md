@@ -70,5 +70,5 @@
 | 69 | 2022-07-02  | Renewal Domain BlankOn.id 3thn 2022 - 2025               | Transfer ke Pak Estu Fardani  |              | 656,700   | 14,244,555  |
 | 70 | 2022-11-08  | Harddisk 2TB 2pcs (Untuk Mesin Rani)                     |                               |              | 1,803,560 | 12,440,995  |
 | 71 | 2025-11-27  | PCIE Gigabit Lan Ethernet 4 Port + low bracket Netline   | Tokopedia                     |              | 335,000   | 12,105,995  |
-| 72 | 2025-11-28  | Donasi dari Rusmanto STT-NF                              | Transfer                      |              | 5,000,000 | 17,105,995  |
+| 72 | 2025-11-28  | Donasi dari Rusmanto STT-NF                              | Transfer                      | 5,000,000    |           | 17,105,995  |
 |    | Total       |                                                          |                               | 18,524,405   | 5,982,400 | 12,542,005  |
