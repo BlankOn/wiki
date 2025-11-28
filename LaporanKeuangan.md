@@ -1,11 +1,11 @@
-### Rekening donasi:
+### Rekening Donasi
 
 Bank Jago atas nama Slamet Santoso
 ```
 107556495313
 ```
 
-### Penanggung jawab dana:
+### Penanggung Jawab:
 - Slamet Santoso
 - Herpiko Dwi Aguno
 
@@ -29,7 +29,7 @@ Bank Jago atas nama Slamet Santoso
 | 15 | 2020-11-27  | Donasi Dari Fakhri Rizqi                                | Kitabisa                      | 100,000      |           | 5,760,684   |
 | 16 | 2020-11-28  | Donasi Dari Aditya Rahman                               | Kitabisa                      | 25,000       |           | 5,785,684   |
 | 17 | 2020-11-29  | Donasi Dari Anonim                                      | Kitabisa                      | 1,500,000    |           | 7,285,684   |
-| 18 | 2020-11-30  | Donasi Dari openSUSE Indonesia                           | Kitabisa                      | 1,111,000    |           | 8,396,684   |
+| 18 | 2020-11-30  | Donasi Dari openSUSE Indonesia                          | Kitabisa                      | 1,111,000    |           | 8,396,684   |
 | 19 | 2020-12-01  | Donasi Dari Saputro Aryulianto                          | Kitabisa                      | 555,000      |           | 8,951,684   |
 | 20 | 2020-12-02  | Donasi Dari Anonim                                      | Kitabisa                      | 100,000      |           | 9,051,684   |
 | 21 | 2020-12-03  | Donasi Dari Anonim                                      | Kitabisa                      | 100,307      |           | 9,151,991   |
@@ -60,8 +60,8 @@ Bank Jago atas nama Slamet Santoso
 | 46 | 2020-12-12  | Donasi Dari Orang Baik                                   | Kitabisa                      | 300,139      |           | 13,415,395  |
 | 47 | 2020-12-12  | Donasi Dari Ekky Erdiansyah                              | Kitabisa                      | 20,000       |           | 13,435,395  |
 | 48 | 2020-12-12  | Donasi Dari Orang Baik                                   | Kitabisa                      | 10,000       |           | 13,445,395  |
-| 49 | 2020-12-12  | Donasi Dari nuroji lukmansyah                           | Kitabisa                      | 5,000        |           | 13,450,395  |
-| 50 | 2020-12-12  | Donasi Dari Hafidz Anggara Amiral                       | Kitabisa                      | 10,000       |           | 13,460,395  |
+| 49 | 2020-12-12  | Donasi Dari nuroji lukmansyah                            | Kitabisa                      | 5,000        |           | 13,450,395  |
+| 50 | 2020-12-12  | Donasi Dari Hafidz Anggara Amiral                        | Kitabisa                      | 10,000       |           | 13,460,395  |
 | 51 | 2020-12-12  | Donasi Dari Orang Baik                                   | Kitabisa                      | 10,000       |           | 13,470,395  |
 | 52 | 2020-12-12  | Donasi Dari Orang Baik                                   | Kitabisa                      | 25,000       |           | 13,495,395  |
 | 53 | 2020-12-13  | Donasi Dari Kang Thoriq                                  | Kitabisa                      | 10,000       |           | 13,505,395  |
