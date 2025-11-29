@@ -84,5 +84,5 @@ Bank Jago atas nama Slamet Santoso
 | 70 | 2022-11-08  | Harddisk 2TB 2pcs (Untuk Mesin Rani)                     |                               |              | 1,803,560 | 12,440,995  |
 | 71 | 2025-11-27  | PCIE Gigabit Lan Ethernet 4 Port + low bracket Netline   | Tokopedia                     |              | 335,000   | 12,105,995  |
 | 72 | 2025-11-28  | Donasi dari Rusmanto STT-NF                              | Transfer                      | 5,000,000    |           | 17,105,995  |
-| 73 | 2025-11-28  | Donasi dari Gallan Widyanto                              | Transfer                      | 150,000      |           | 17,255,995  |
+| 73 | 2025-11-29  | Donasi dari Gallan Widyanto                              | Transfer                      | 150,000      |           | 17,255,995  |
 
