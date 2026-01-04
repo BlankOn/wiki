@@ -85,6 +85,6 @@ Bank Jago atas nama Slamet Santoso
 | 71 | 2025-11-27  | PCIE Gigabit Lan Ethernet 4 Port + low bracket Netline   | Tokopedia                     |              | 335,000   | 12,105,995  |
 | 72 | 2025-11-28  | Donasi dari Rusmanto STT-NF                              | Transfer                      | 5,000,000    |           | 17,105,995  |
 | 73 | 2025-11-29  | Donasi dari Gallan Widyanto                              | Transfer                      | 150,000      |           | 17,255,995  |
-| 74 | 2025-11-29  | Pembelian server revival project (m920x, i7 9700, 64GB, 1TB, GigabitLAN 4 ports)     | Transfer  |      | 9,600,000 | 7,655,995  |
+| 74 | 2025-11-29  | Pembelian server revival project (m920x, i7 9700, 32GB, 1TB, GigabitLAN 4 ports)     | Transfer  |      | 9,600,000 | 7,655,995  |
 | 75 | 2026-01-04  | Donasi perangkat keras dari Galeshka                     | RAM SODIMM DDR4 2666Mhz 32GB senilai Rp4.000.000 untuk server Revival di kampus NF | | | 7,655,995 |
 
