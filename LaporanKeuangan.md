@@ -1,13 +1,14 @@
 ### Rekening Donasi
 
-Bank Jago atas nama Slamet Santoso
+Bank Jago atas nama Herpiko Dwi Aguno
 ```
-107556495313
+102223737703
 ```
 
 ### Penanggung Jawab:
-- Slamet Santoso
 - Herpiko Dwi Aguno
+- Akhmat Safrudin
+- Iwan Setiawan
 
 ### Catatan Finansial
 
