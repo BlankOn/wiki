@@ -1,3 +1,9 @@
+# DEPRECATION NOTICE
+
+This repo is no longer maintained. Please see our new wiki here: https://github.com/BlankOn/revival/tree/main, which is served here https://blankonlinux.id/en/wiki
+
+
+---
 ---
 slug: /
 title: Selamat Datang
